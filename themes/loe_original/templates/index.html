@@ -44,14 +44,6 @@
                 <div style="clear: both;"></div>
             </div>
 
-            {% if latest.megaphone_id %}
-            <!-- Megaphone Audio Player -->
-            <div class="featured-player">
-                <iframe src="https://player.megaphone.fm/{{ latest.megaphone_id }}?light=true" width="100%" height="200"
-                    frameborder="0" scrolling="no" allow="autoplay">
-                </iframe>
-            </div>
-            {% endif %}
 
             <p><a href="{{ SITEURL }}/{{ latest.url }}" class="read-more-btn">View Full Show →</a></p>
         </div>

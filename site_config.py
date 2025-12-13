@@ -1,10 +1,18 @@
 # Pelican configuration for LoE site
-# Generate site with:
-# pelican content -s site_config.py
+# 
+# Build for different environments:
+# - Local development:  pelican content -s site_config.py
+# - GitHub Pages:       SITEURL=/loe-vibecode pelican content -s site_config.py
+# - Production:         SITEURL=https://loe.org pelican content -s site_config.py
+
+import os
+
 AUTHOR = 'Living on Earth'
 SITENAME = 'Living on Earth'
-# Set to your GitHub Pages URL for production, empty string for local development
-SITEURL = '/loe-vibecode'  # Change to '' for local development
+
+# SITEURL can be configured via environment variable
+# Default to empty string for local development
+SITEURL = os.environ.get('SITEURL', '')
 
 PATH = 'content'
 OUTPUT_PATH = '_site'

@@ -35,6 +35,8 @@ jobs:
           pip install pelican beautifulsoup4 requests markdown
       
       - name: Build site
+        env:
+          SITEURL: /loe-vibecode
         run: |
           pelican content -s site_config.py
       

@@ -116,13 +116,32 @@ Edit `base.html` and find the `<nav>` or menu section:
 
 ## ⚙️ Site Configuration
 
+### Environment-Based Configuration
+
+The site URL is configured via environment variable to support different deployment targets:
+
+**Local development** (default):
+```bash
+pelican content -s site_config.py
+# SITEURL defaults to '' (empty string)
+```
+
+**GitHub Pages**:
+```bash
+SITEURL=/loe-vibecode pelican content -s site_config.py
+```
+
+**Production** (future):
+```bash
+SITEURL=https://loe.org pelican content -s site_config.py
+```
+
+### Other Settings
+
 Edit `site_config.py` to change:
-
 - `SITENAME` - Site title
-- `SITEURL` - Base URL (set to `/loe-vibecode` for GitHub Pages)
 - `TIMEZONE` - Time zone for dates
-
-**Important**: When testing locally, change `SITEURL` to `''` (empty string)
+- `AUTHOR` - Site author
 
 ## 🔄 How Publishing Works
 

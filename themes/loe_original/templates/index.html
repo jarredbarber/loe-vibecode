@@ -1,26 +1,80 @@
 {% extends "base.html" %}
 
-{% block title %}{{ SITENAME }} - Archives{% endblock %}
+{% block title %}{{ SITENAME }}{% endblock %}
 
 {% block content %}
 <div class="body">
     <div class="body_resize">
+        {% set show_articles = [] %}
         {% for article in articles if article.template == "show" %}
+        {% set _ = show_articles.append(article) %}
+        {% endfor %}
+
+        {% if show_articles %}
+        <!-- Featured Latest Show -->
+        {% set latest = show_articles[0] %}
+        <div class="featured-show">
+            <h1>This Week on <i>Living on Earth</i></h1>
+            <h2><a href="{{ SITEURL }}/{{ latest.url }}">
+                    {{ latest.date|strftime('%B') }} {{ latest.date.day|ordinal }}, {{ latest.date|strftime('%Y') }}
+                </a></h2>
+
+            <div class="featured-content">
+                {% if latest.image_url %}
+                <img src="{{ latest.image_url }}" alt="{{ latest.title }}" class="featured-image" />
+                {% endif %}
+
+                {% if latest.host %}
+                <p class="featured-host">Hosted by {{ latest.host }}</p>
+                {% endif %}
+
+                <p class="featured-summary">{{ latest.summary }}{% if latest.length %} <span class="show-length">({{
+                        latest.length }})</span>{% endif %}</p>
+
+                {% if latest.related_segments %}
+                <div class="featured-segments">
+                    <strong>This Week:</strong>
+                    {% for segment in latest.related_segments %}
+                    <a href="{{ SITEURL }}/{{ segment.url }}">{{ segment.title|strip_quotes }}</a>{% if not loop.last %}
+                    | {% endif %}
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <div style="clear: both;"></div>
+            </div>
+
+            {% if latest.megaphone_id %}
+            <!-- Megaphone Audio Player -->
+            <div class="featured-player">
+                <iframe src="https://player.megaphone.fm/{{ latest.megaphone_id }}?light=true" width="100%" height="200"
+                    frameborder="0" scrolling="no" allow="autoplay">
+                </iframe>
+            </div>
+            {% endif %}
+
+            <p><a href="{{ SITEURL }}/{{ latest.url }}" class="read-more-btn">View Full Show →</a></p>
+        </div>
+
+        <!-- Recent Shows -->
+        <h2 class="recent-shows-header">Recent Shows</h2>
+        {% for article in show_articles[1:6] %}
         <div class="blog">
-            <h2><a href="{{ SITEURL }}/{{ article.url }}">
-                    {{ article.date|strftime('%B') }} {{ article.date.day|ordinal }}, {{
-                    article.date|strftime('%Y') }}</a></h2>
-            <div class="clr"></div>
-            <!-- <p><strong>{{ article.date|strftime('%B %d, %Y') }}</strong></p> -->
+            <h3><a href="{{ SITEURL }}/{{ article.url }}">
+                    {{ article.date|strftime('%B') }} {{ article.date.day|ordinal }}, {{ article.date|strftime('%Y') }}
+                </a></h3>
             <div class="clr"></div>
             {% if article.image_url %}
             <img src="{{ article.image_url }}" alt="{{ article.title }}" class="floated" width="150" />
             {% endif %}
-            <p>{{ article.summary }}</p>
-            <p><a href="{{ SITEURL }}/{{ article.url }}" class="silver">Read more...</a></p>
+            <p>{{ article.summary }}{% if article.length %} <span class="show-length">({{ article.length }})</span>{%
+                endif %}</p>
+            <p><a href="{{ SITEURL }}/{{ article.url }}">Read more →</a></p>
         </div>
         <div class="clr"></div>
         {% endfor %}
+        {% endif %}
+
         <div class="clr"></div>
     </div>
 </div>

@@ -5,25 +5,22 @@
 {% block content %}
 <div class="body">
     <div class="body_resize">
-        <div class="left">
-            <h1>Recent Broadcasts</h1>
-            {% for article in articles if article.template == "show" %}
-            <div class="blog">
-                <h2><a href="{{ SITEURL }}/{{ article.url }}">
-                        {{ article.date|strftime('%B') }} {{ article.date.day|ordinal }}, {{
-                        article.date|strftime('%Y') }}</a></h2>
-                <div class="clr"></div>
-                <!-- <p><strong>{{ article.date|strftime('%B %d, %Y') }}</strong></p> -->
-                <div class="clr"></div>
-                {% if article.image_url %}
-                <img src="{{ article.image_url }}" alt="{{ article.title }}" class="floated" width="150" />
-                {% endif %}
-                <p>{{ article.summary }}</p>
-                <p><a href="{{ SITEURL }}/{{ article.url }}" class="silver">Read more...</a></p>
-            </div>
+        {% for article in articles if article.template == "show" %}
+        <div class="blog">
+            <h2><a href="{{ SITEURL }}/{{ article.url }}">
+                    {{ article.date|strftime('%B') }} {{ article.date.day|ordinal }}, {{
+                    article.date|strftime('%Y') }}</a></h2>
             <div class="clr"></div>
-            {% endfor %}
+            <!-- <p><strong>{{ article.date|strftime('%B %d, %Y') }}</strong></p> -->
+            <div class="clr"></div>
+            {% if article.image_url %}
+            <img src="{{ article.image_url }}" alt="{{ article.title }}" class="floated" width="150" />
+            {% endif %}
+            <p>{{ article.summary }}</p>
+            <p><a href="{{ SITEURL }}/{{ article.url }}" class="silver">Read more...</a></p>
         </div>
+        <div class="clr"></div>
+        {% endfor %}
         <div class="clr"></div>
     </div>
 </div>

@@ -1306,6 +1306,30 @@ audio {
     background-color: rgba(0, 0, 0, 0.04);
 }
 
+/* Music cues - similar to transcript blocks but italicized */
+.music-cue {
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    margin-bottom: 5px;
+    font-style: italic;
+    background-color: rgba(220, 237, 234, 0.3);
+    /* Light teal background */
+}
+
+.music-cue p {
+    font-style: italic !important;
+}
+
+.music-cue .speaker {
+    font-style: italic !important;
+}
+
+.music-cue:hover {
+    background-color: rgba(220, 237, 234, 0.5);
+    /* Slightly darker on hover */
+}
+
 .header-image {
     width: 100%;
     aspect-ratio: 2.35;

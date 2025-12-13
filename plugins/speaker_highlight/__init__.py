@@ -183,7 +183,6 @@ def _flush_bracket_buffer(soup, new_content, buffer_elements):
     merged_text = " ".join(full_text_parts)
     
     div = soup.new_tag("div", **{"class": "music-cue"})
-    div['style'] = "font-style: italic;"
     
     p = soup.new_tag("p")
     

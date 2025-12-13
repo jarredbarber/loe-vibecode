@@ -8,6 +8,9 @@
         <div class="left">
             <h1>Show Archives</h1>
 
+            <p>Living on Earth offers archives of all programs since August 21, 1992. Transcripts are available for all
+                shows. Audio is available for some shows in MP3 and/or RealAudio formats. Use this area to browse the
+                archives by date or search for a particular story or topic.</p>
             {% set relevant_articles = [] %}
             {% for article in articles %}
             {% if article.template == 'show' %}

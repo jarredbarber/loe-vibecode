@@ -1,348 +1,277 @@
-# Living on Earth - Website Migration Project
+# Living on Earth - Website
 
-This project migrates the [Living on Earth](http://loe.org) website to a modern static site built with Pelican, using Markdown content sourced from the original site's archives.
+This is the website for [Living on Earth](http://loe.org), a weekly environmental news radio program. The site is built with Pelican (a static site generator) and automatically publishes to GitHub Pages.
 
-## About Living on Earth
+## 🌍 About Living on Earth
 
-Living on Earth is a weekly, hour-long, award-winning environmental news program distributed by the Public Radio Exchange. Hosted by Steve Curwood, the program features interviews and commentary on a broad range of ecological issues. The show airs on over 300 public radio stations nationwide and has been broadcasting since 1991.
+Living on Earth is a weekly, hour-long, award-winning environmental news program distributed by the Public Radio Exchange. Hosted by Steve Curwood, the program features interviews and commentary on environmental issues. The show has been broadcasting since 1991 and airs on over 300 public radio stations nationwide.
 
-## Project Overview
+## 🚀 Quick Start for Content Editors
 
-This codebase provides:
-- A Pelican-based static site generator configuration
-- Custom plugins for processing show/segment relationships and transcripts
-- Web scraping tools to migrate content from the original loe.org site
-- Custom templates and styling for the new site
+### Viewing the Live Site
 
-## Quick Start
+The site is published at: **https://jarredbarber.github.io/loe-vibecode/**
 
-### Prerequisites
+### Making Changes
 
-- Python 3.x
-- pip
+1. **Edit content directly on GitHub**
+   - Navigate to the file you want to edit
+   - Click the pencil icon (✏️) to edit
+   - Make your changes
+   - Scroll down and click "Commit changes"
 
-### Installation
+2. **The site updates automatically**
+   - After you commit, GitHub Actions will rebuild the site
+   - Check the "Actions" tab to see the build progress
+   - Your changes will be live in 2-3 minutes
 
-1. Clone the repository
-2. Create and activate a virtual environment:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install pelican beautifulsoup4 requests markdown
-   ```
-
-### Building the Site
-
-Generate the static site:
-```bash
-pelican content -s site_config.py
-```
-
-The generated site will be in the `_site/` directory.
-
-### Local Development Server
-
-To preview the site locally:
-```bash
-pelican --listen
-```
-
-Then visit `http://localhost:8000` in your browser.
-
-## Project Structure
+### Where Things Are
 
 ```
 loe-vibecode/
-├── content/
-│   └── shows/           # Show and segment markdown files
-│       └── {year}/
-│           └── {month-day}/
-│               ├── show-{date}.md
-│               └── {segment-slug}.md
-├── themes/
-│   └── loe_original/    # Custom Pelican theme
-│       ├── static/
-│       │   └── css/
-│       └── templates/
-├── plugins/
-│   ├── show_segments/   # Links shows to their segments
-│   └── speaker_highlight/  # Formats transcript speakers
-├── scrape_archives.py   # Content migration scraper
-├── site_config.py       # Pelican configuration
-└── README.md
+├── content/shows/        ← Show and episode content (Markdown files)
+│   └── 2024/
+│       └── 12-05/
+│           ├── show-2024-12-05.md
+│           └── episode-name.md
+├── themes/loe_original/  ← Website design and layout
+│   ├── static/css/       ← Styling (colors, fonts, layout)
+│   └── templates/        ← HTML templates
+└── site_config.py        ← Site settings
 ```
 
-## Content Architecture
+## 📝 Editing Content
+
+### Content Structure
+
+Each weekly show has:
+- **One show page** (`show-YYYY-MM-DD.md`) - Overview with links to segments
+- **Multiple segment pages** - Individual stories/interviews
+
+### Editing a Segment
+
+1. Go to `content/shows/YEAR/MM-DD/`
+2. Find the segment file (e.g., `climate-policy-update.md`)
+3. Click the pencil icon to edit
+4. The file has two parts:
+
+**Frontmatter** (metadata at the top):
+```yaml
+---
+title: Climate Policy Update
+date: 2024-12-05
+category: Segments
+megaphone_id: LOE1234567890
+summary: A summary of the segment
+---
+```
+
+**Content** (below the `---`):
+```markdown
+## Transcript
+
+CURWOOD: This is the transcript...
+```
+
+5. Make your edits and commit
+
+### Adding a New Segment
+
+1. Create a new file in the appropriate date folder
+2. Name it with lowercase and hyphens: `my-new-segment.md`
+3. Add the frontmatter and content
+4. Update the show page to link to it:
+
+```markdown
+### [My New Segment]({filename}my-new-segment.md)
+```
+
+## 🎨 Editing the Design
+
+### Changing Styles (CSS)
+
+Edit: `themes/loe_original/static/css/style.css`
+
+Common changes:
+- **Colors**: Search for color codes like `#333` or `rgb()`
+- **Fonts**: Look for `font-family` or `font-size`
+- **Spacing**: Adjust `margin` and `padding` values
+
+### Modifying Templates (HTML)
+
+Templates are in `themes/loe_original/templates/`:
+
+- `base.html` - Main layout, navigation, header/footer
+- `article.html` - Individual segment pages
+- `show.html` - Weekly show overview pages
+- `archives.html` - Archive listing page
+- `index.html` - Homepage
+
+**Example: Changing the navigation menu**
+
+Edit `base.html` and find the `<nav>` or menu section:
+```html
+<li><a href="/archives.html">Archive</a></li>
+```
+
+## ⚙️ Site Configuration
+
+Edit `site_config.py` to change:
+
+- `SITENAME` - Site title
+- `SITEURL` - Base URL (set to `/loe-vibecode` for GitHub Pages)
+- `TIMEZONE` - Time zone for dates
+
+**Important**: When testing locally, change `SITEURL` to `''` (empty string)
+
+## 🔄 How Publishing Works
+
+Every time you commit to the `main` branch:
+
+1. **GitHub Actions triggers** (see `.github/workflows/deploy.yml`)
+2. **Pelican builds the site** - Converts Markdown to HTML
+3. **Site deploys to GitHub Pages** - Goes live automatically
+
+You can watch this happen in the "Actions" tab.
+
+## 🧪 Testing Locally (Optional)
+
+If you want to preview changes before publishing:
+
+### Setup (One-time)
+
+```bash
+# Clone the repository
+git clone https://github.com/jarredbarber/loe-vibecode.git
+cd loe-vibecode
+
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Build and Preview
+
+```bash
+# Activate virtual environment
+source venv/bin/activate
+
+# Build the site
+pelican content -s site_config.py
+
+# Start local server
+pelican --listen
+```
+
+Visit `http://localhost:8000` in your browser.
+
+**Remember**: Set `SITEURL = ''` in `site_config.py` for local testing!
+
+## 📚 Understanding the Content System
 
 ### Shows vs Segments
 
-Each weekly broadcast is a **show** containing multiple **segments** (individual stories/interviews):
+- **Show** = One weekly broadcast (e.g., "December 5, 2024")
+- **Segment** = Individual story within a show (e.g., "AI Power Demand")
 
-- **Show pages** (`show-{date}.md`): Overview page with links to all segments
-  - Template: `show`
-  - Contains segment list as H3 headers with links
-  
-- **Segment pages** (`{slug}.md`): Individual story/interview articles
-  - Template: `article`
-  - Contains full transcript, audio player, metadata
+Each show page lists its segments with links. The custom plugins automatically connect them.
 
-### Content Organization
+### Metadata Fields
 
-Content is organized by date:
+Common fields in frontmatter:
+
+- `title` - Segment or show title
+- `date` - Publication date (YYYY-MM-DD)
+- `category` - "Shows" or "Segments"
+- `template` - "show" or "article"
+- `megaphone_id` - Audio player ID
+- `image_url` - Featured image
+- `summary` - Brief description
+
+### Special Formatting
+
+**Speaker names** in transcripts are automatically highlighted:
 ```
-content/shows/2024/12-05/
-├── show-2024-12-05.md
-├── ai-power-demand.md
-└── climate-policy-update.md
+CURWOOD: Welcome to Living on Earth.
 ```
 
-## Custom Pelican Plugins
+**Music blocks** are formatted specially:
+```
+[MUSIC: Title, Artist, Album]
+```
 
-### `show_segments` Plugin
+## 🛠️ Advanced: Web Scraping
 
-Links show pages to their segment articles:
-- Parses H3 headers in show content to find segment links
-- Creates `related_segments` list on show article objects
-- Enables templates to display segment previews
+The `scrape_archives.py` script imports content from the original loe.org site.
 
-### `speaker_highlight` Plugin
-
-Processes transcript text:
-- Identifies and styles speaker names (e.g., `CURWOOD:`)
-- Handles special formatting for music/cutaway blocks `[MUSIC: ...]`
-- Applies CSS class `.speaker` to speaker names
-
-## Web Scraping
-
-### Running the Scraper
-
-The `scrape_archives.py` script migrates content from loe.org:
-
+**To scrape content:**
 ```bash
-# Scrape specific year
-python3 scrape_archives.py  # Currently configured for 1991-2022
-
-# The script processes years in descending order
+python3 scrape_archives.py
 ```
 
-### What the Scraper Does
+This is configured to scrape years 1991-2022. The script:
+- Fetches show data from loe.org
+- Extracts transcripts and metadata
+- Creates Markdown files in `content/shows/`
 
-1. Fetches show listings from loe.org archives
-2. Extracts metadata (title, date, summary, images, audio IDs)
-3. Downloads segment content and transcripts
-4. Generates Markdown files with YAML frontmatter
-5. Organizes files by date in `content/shows/`
+**⚠️ Important**: Only use the scraper to add content. Don't manually edit files in `content/shows/` that were created by the scraper, as they may be overwritten.
 
-### Scraper Output Format
+## 🐛 Troubleshooting
 
-Generated markdown files include:
-```yaml
----
-title: Episode Title
-date: 2024-12-05
-category: Shows
-template: show
-megaphone_id: LOE1234567890
-image_url: https://loe.org/content/...
-summary: Episode description
----
+### Site Not Updating
 
-## Segments
+1. Check the "Actions" tab for build errors
+2. Look for red ❌ marks indicating failures
+3. Click on the failed workflow to see error details
 
-### [Segment Title]({filename}segment-slug.md)
-```
+### Broken Links
 
-**Important**: Metadata fields are NOT wrapped in quotes to avoid formatting issues.
+- Make sure segment filenames match the links in show pages
+- Use `{filename}segment-name.md` format in links
+- Check that files are in the correct date folder
 
-## Custom Jinja Filters
+### CSS Not Loading
 
-### `strip_quotes`
+- Verify `SITEURL = '/loe-vibecode'` in `site_config.py`
+- Clear your browser cache
+- Check that CSS files are in `themes/loe_original/static/css/`
 
-Removes surrounding quotes from titles and metadata:
-```jinja
-{{ article.title|strip_quotes }}
-```
+### Local Preview Not Working
 
-### `ordinal`
+- Make sure virtual environment is activated
+- Set `SITEURL = ''` (empty string) for local development
+- Run `pelican content -s site_config.py` to rebuild
 
-Converts numbers to ordinal form (1st, 2nd, 3rd):
-```jinja
-{{ article.date|strftime('%B')|ordinal }}
-```
+## 📖 Additional Resources
 
-## Templates
+### Markdown Guide
 
-### Key Templates
+- [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+- Use `#` for headers, `**bold**`, `*italic*`
+- Links: `[text](url)`
+- Images: `![alt text](url)`
 
-- `base.html` - Main layout with navigation
-- `show.html` - Show page template
-- `article.html` - Segment/article template
-- `archives.html` - Archive listing by year with sticky sidebar
-- `show-segment.html` - Segment preview module
+### Pelican Documentation
 
-### Template Features
-
-- Dynamic "This Week" link points to newest show
-- Archive page with year-based navigation
-- Sticky sidebar on archives for easy year jumping
-- Speaker-highlighted transcripts
-- Embedded audio players (Megaphone)
-
-## Styling
-
-Custom CSS includes:
-- Bold date links in archives
-- Sticky sidebar positioning
-- Speaker name styling in transcripts
-- Segment player and length indicators
-
-## Development Guidelines
-
-### Important Constraints
-
-⚠️ **Do NOT**:
-- Generate images unless explicitly requested
-- Modify files in `content/` folder except via `scrape_archives.py`
-
-### Adding New Content
-
-1. Use the scraper to fetch content from loe.org
-2. Or manually create markdown files following the structure above
-3. Rebuild the site with `pelican content -s site_config.py`
-
-### Modifying Templates
-
-1. Edit templates in `themes/loe_original/templates/`
-2. Rebuild to see changes
-3. Test with `pelican --listen`
-
-### Creating New Plugins
-
-1. Create a new directory in `plugins/`
-2. Add `__init__.py` with plugin logic
-3. Register in `site_config.py`:
-   ```python
-   PLUGINS = ['show_segments', 'speaker_highlight', 'your_plugin']
-   ```
-
-## Configuration
-
-### Site Settings (`site_config.py`)
-
-Key configuration options:
-- `SITENAME` - Site title
-- `SITEURL` - Production URL
-- `THEME` - Path to theme directory
-- `PLUGINS` - List of enabled plugins
-- `JINJA_FILTERS` - Custom Jinja filters
-
-## Build Output
-
-The build process:
-- Processes 1500+ articles in ~10-20 seconds
-- Generates static HTML in `_site/`
-- Creates archive pages organized by year
-- Links shows to segments automatically
-
-## Migration Status
-
-Content migration progress:
-- ✅ 2025: Complete
-- ✅ 2024: Complete
-- ✅ 2023: Complete
-- 🔄 1991-2022: In progress
-
-## Deployment
+- [Pelican Docs](https://docs.getpelican.com/)
+- [Writing Content](https://docs.getpelican.com/en/stable/content.html)
+- [Theming](https://docs.getpelican.com/en/stable/themes.html)
 
 ### GitHub Pages
 
-This project is configured to automatically deploy to GitHub Pages using GitHub Actions.
+- [GitHub Pages Docs](https://docs.github.com/en/pages)
+- [Custom Domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 
-#### Initial Setup
+## 🤝 Getting Help
 
-1. **Enable GitHub Pages** in your repository:
-   - Go to Settings → Pages
-   - Under "Build and deployment", select **Source**: "GitHub Actions"
+- Check the "Actions" tab for build errors
+- Review this README for common tasks
+- Look at existing content files as examples
+- Test changes locally before committing
 
-2. **Push to main branch**:
-   ```bash
-   git add .
-   git commit -m "Add GitHub Actions deployment"
-   git push origin main
-   ```
-
-3. **Monitor deployment**:
-   - Go to the "Actions" tab in your GitHub repository
-   - Watch the "Build and Deploy to GitHub Pages" workflow run
-   - Once complete, your site will be live at `https://<username>.github.io/<repository-name>/`
-
-#### How It Works
-
-The `.github/workflows/deploy.yml` workflow:
-1. Triggers on every push to the `main` branch
-2. Sets up Python and installs dependencies
-3. Builds the site with Pelican
-4. Deploys the `_site/` directory to GitHub Pages
-
-#### Manual Deployment
-
-You can also trigger a deployment manually:
-- Go to Actions → "Build and Deploy to GitHub Pages" → "Run workflow"
-
-#### Custom Domain
-
-To use a custom domain:
-1. Add a `CNAME` file to your repository root with your domain
-2. Configure DNS settings with your domain provider
-3. Update `SITEURL` in `site_config.py` to your custom domain
-
-### Alternative Hosting
-
-The static site in `_site/` can be hosted on any static hosting service:
-- **Netlify**: Drag and drop `_site/` folder
-- **Vercel**: Connect your GitHub repository
-- **AWS S3**: Upload `_site/` contents to S3 bucket
-- **Traditional hosting**: Upload via FTP/SFTP
-
-## Troubleshooting
-
-### Build Errors
-
-**"Command not found: pelican"**
-- Activate virtual environment: `source venv/bin/activate`
-
-**Slug conflicts**
-- Add unique `slug` field to markdown frontmatter
-
-**Missing segments**
-- Check that segment filenames match H3 links in show files
-- Verify `{filename}` syntax in links
-
-### Scraper Issues
-
-**SSL Certificate errors**
-- The scraper disables SSL verification for loe.org (known issue)
-
-**Missing metadata**
-- Check that the source page structure hasn't changed
-- Review scraper debug output
-
-## Contributing
-
-When making changes:
-1. Test locally with `pelican --listen`
-2. Verify archive navigation works
-3. Check that show-segment links function correctly
-4. Ensure transcripts display properly with speaker highlighting
-
-## License
+## 📄 License
 
 This project is for migrating Living on Earth content. Refer to Living on Earth's licensing for content usage.
-
-## Support
-
-For issues or questions about this migration project, refer to the project documentation or contact the development team.

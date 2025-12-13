@@ -14,6 +14,11 @@ SITENAME = 'Living on Earth'
 # Default to empty string for local development
 SITEURL = os.environ.get('SITEURL', '')
 
+# Fast build setting
+if os.environ.get('FAST_BUILD') == 'true':
+    ARTICLE_EXCLUDES = ['archive']
+    PAGE_EXCLUDES = ['archive']
+
 PATH = 'content'
 OUTPUT_PATH = '_site'
 

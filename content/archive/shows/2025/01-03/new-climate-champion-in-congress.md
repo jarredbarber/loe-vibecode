@@ -1,0 +1,61 @@
+---
+title: New Climate Champion in Congress
+date: 2025-01-03
+category: Segments
+megaphone_id: LOE3660562910
+image_url: https://loe.org/content/2025-01-03/YASSAMIN_elected.jpeg
+image_caption: Yassamin Ansari has been elected to Congress as a Democrat to represent Arizonia’s 3rd Congressional District. (Photo: Courtesy of Yassamin for Congress)
+summary: Freshman U.S. Representative Yassamin Ansari, a Democrat representing Arizona’s 3rd district, puts climate at the top of her priority list. She joins Host Steve Curwood to reflect on her work with the UN on the Paris Climate Accord, discuss how extreme heat is affecting her constituents, and preview her climate aims in Congress.
+---
+
+## Transcript
+
+CURWOOD: From PRX and the Jennifer and Ted Stanley Studios at the University of Massachusetts, Boston, this is Living on Earth. I’m Steve Curwood. Many in the US Congress have supported climate action, but few have worked as directly in international climate negotiations or on hands on protection from climate risks as freshman Democrat Yassamin Ansari. As a college student, she went to Congress as an intern for Speaker of the House Nancy Pelosi, and climate became her focus during a fellowship with UN General Secretary Ban Ki-Moon as he worked on the Paris Climate Accord. In 2021, Yassamin Ansari became the youngest woman elected to the Phoenix City Council, where she promptly created an office of heat response and mitigation, and in November, she won Arizona's Third Congressional District. Before she was sworn in, we called her up. Hi, Congresswoman-elect. Welcome to Living on Earth.
+
+ANSARI: Thank you for having me. I really appreciate it.
+
+CURWOOD: Working on the Phoenix city council, I understand that you were quite concerned with people dealing with the heat. There were over 50 days last year in Phoenix when temperatures hit over 110 degrees. And what, how many people died, some 600? How did you approach this issue as a city council woman?
+
+ANSARI: So Phoenix has been on the front lines of climate change for quite some time, and in particular that manifests as extreme heat. I came into the city council with a background in climate policy. I had worked at the United Nations and coming on to the Phoenix city council, it was really important to me to make these issues the forefront of my work, because of what a significant issue it is for our daily lives here. So as you rightly pointed out, we face significant extreme heat, especially over the summer months. This year, we had triple digit days well into October. And how we have to prepare as a city, to respond and to adapt and to make sure we're resilient to these climate impacts comes in the form of heat mitigation, making sure that we are adequately prepared for those most severely hot days, and as we've seen a rise in homelessness in our community, we've also seen rising deaths because of extreme heat. So myself and the council and the mayor worked together to establish the country's first publicly funded office of heat response and mitigation. This is a dedicated team who is responsible for making sure that we have a proactive heat relief plan every year and that that is improved upon. So we've opened cooling centers over the summer months. We've done more and more outreach every year. So I personally have gone down to some of the encampments. We let people know about the amenities that are available because we want to try to save as many lives as possible. We have a long way to go. In Congress, one area that I hope to work on is pushing FEMA to declare extreme heat as a natural disaster, to help unlock federal funds to help us address this. It's challenging because extreme heat, it's a silent killer. You know, it doesn't have the same imagery that you see with hurricane or other forms of natural disasters, but very real, very much a natural disaster, not going anywhere. And we need to make sure that cities like Phoenix have resources to save lives.
+
+![](https://loe.org/content/2025-01-03/YASSAMIN_carpentersunion.jpeg)
+
+CURWOOD: As I understand it, back in 2014, you got involved with the UN as it was preparing to move forward with what would become the Paris climate agreement through the UNFCCC. What was it like working as an advisor to at that time, it was the UN General Secretary was Ban Ki-Moon. He was very much involved in these negotiations. What was that like?
+
+ANSARI: It was one of the most formative experiences of my life. I definitely would not be sitting where I am today as a congresswoman elect if it wasn't for the work I had done on climate change. When I joined the team, I think the most important thing I learned was the importance of engaging with diverse viewpoints. There's a reason it took decades to make the Paris Climate Accord a reality, and that's because every single country in the world is dealing with their own unique set of circumstances and challenges. In the United States and in developed countries, we have already benefited from the fossil fuel industry in terms of where we are today as an economy. However, a developing country, let's say India or other Southeast Asian countries, they are still developing. They still have many residents without power, and so for them, it's very different. It's a very different conversation. So it's difficult to have a conversation about transitioning when they still rely so heavily and need fossil fuels. And so what I learned is these difficult conversations are incredibly important. We're not going to get anywhere without continuing to have these difficult conversations and without a country like the United States really playing a leadership role in moving forward, with being a leader on clean energy, with providing climate finance support to developing countries. I just can't implore enough how important it is for the United States to not shy away from being a leader on this issue.
+
+CURWOOD: So when Donald Trump came into office, he said, hey, we're getting out of the Paris Climate Agreement. Joe Biden comes into office and says, we're back in. As we're speaking today, we're hearing that President-elect Donald Trump is probably going to take us back out of Paris. How do you respond to that?
+
+ANSARI: It's horrible. I don't want to understate how devastating that is to so many around the world. When he first pulled out, that's one of the reasons I was encouraged to ever think about running for public office, because I knew that local action would be more important than ever. We lose so much trust internationally when we make a commitment as a nation, only to revert back just a couple of years later. What we saw last time, I will say, is a lot of coalition building among cities, states, companies. There was a whole movement called the We Are Still In movement coalition that they said, look, even if the federal government is not sticking to its promises, we are going to stick to the promises and make sure that the United States abides by the commitments that it makes. I'm sure, and I hope we see the same this time from nonfederal actors. But I'm extremely disappointed, and I think it's a grave mistake.
+
+CURWOOD: The CEO of Exxon is imploring President-elect Trump not to pull out of Paris. From your perspective, what kind of arguments among the Republicans might possibly persuade President-elect Trump to stay with the UNFCCC Paris Agreement?
+
+![Maricopa County statistics point to 466 preliminary confirmed deaths of residents related to extreme heat in 2024. Many of these deaths are seen in vulnerable populations, such as unhoused residents. (Photo: Ray Redstone, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2025-01-03/YASSAMIN_desert.jpeg)
+
+ANSARI: Two arguments that I think are compelling and should be compelling to all Americans: One is the economic case, and two is the national security case. I think that economically, the transition for the United States to clean energy is a positive one. The job creation that we are seeing as a result of the infrastructure bill and the Inflation Reduction Act are significant. I mean representing Phoenix, Arizona, I can tell you that the number one beneficiaries of all of this job creation are working people in Arizona, labor unions, representing carpenters, the iron workers, the building trades. We're seeing such a boom in these industries here locally, thanks to these investments that were made, and this is all part of the Paris Agreement. The commitments that we've made as part of the Paris agreement have manifested through the infrastructure bill and otherwise. Secondly, I think there's a very strong national security case to remain in the Paris Accords as well. There is strong interconnection between the threat of climate change and security. You know, it was the United States Navy and the military decades ago, in the 70s, who first warned about the impacts that they are seeing as a result of sea level rise on their operation. So if we want to remain a formidable military, then it's important for us to take climate change seriously.
+
+CURWOOD: What's your agenda and what is it that you think you can get done representing the third district in Arizona in terms of moving the ball forward on the question of climate?
+
+ANSARI: My hope is to really continue to work on everything that I worked on at the Phoenix city council. I had a strong focus on transportation and infrastructure. I helped pass the city's transportation electrification plan, which was actually passed on a bipartisan basis. Democrats voted for it, but also my Republican colleagues voted to have a fleet transition plan so that by 2040 we can transition our busses in the city to clean electric busses, to enhance our public transportation, to build EV chargers. So I think that this issue can be bipartisan. We're going through the process right now of applying and lobbying for committee assignments, and I hope to serve on the Transportation and Infrastructure Committee, and my agenda will be the same. It'll be to continue to lead the charge to make Arizona the clean energy capital of the country, and also make sure we are creating new jobs in the clean energy industry, that we're protecting labor standards in the process. Something that I'm very interested in as well, and I think is going to be very important, is just transition and ensuring that workers who were employed either in coal plants or in the fossil fuel industry are reskilled and able to find opportunities in the clean energy economy. That is something I'm deeply concerned with. I want to make sure we're leaving nobody behind in this transition. And and I think there's room there to work with both Democrats and Republicans, because why would we not want to create good, high wage jobs for our districts, for our communities, and get the benefits along the way, like clean air, clean water and just improve public health for all?
+
+CURWOOD: What gives you hope in terms of dealing with what really has become the climate crisis, as a member of the US Congress?
+
+ANSARI: My classmen definitely give me hope. It's a really smart, passionate, committed group of people. I'm also really hopeful that when it comes to climate and clean energy, there are growing number of champions at all levels of government, but also in the private sector, who understand the urgency and are taking action to address it. Going back to the first Trump administration, the positive thing that came out of that was the immense amount of work on climate policy from companies in the United States. From now you see cities around the country having robust climate plans that are very much underway, and I have no doubt that that will continue, and the work will go on, despite the policies that may or may not come from the new administration. I know that the good work will go on.
+
+CURWOOD: Yassamin Ansari is the incoming Congresswoman for Arizona's Third Congressional District. Thanks so much for taking the time with us today.
+
+ANSARI: Thank you so much. Have a great day.
+
+## Related Links
+
+**[Learn more about Yassamin Ansari.](https://yassaminforcongress.com/)**
+
+ 
+
+**[Prepare for extreme heat.](https://www.ready.gov/heat)**
+
+ 
+
+**[Understand the Paris Climate Accord.](https://unfccc.int/process-and-meetings/the-paris-agreement)**
+
+##

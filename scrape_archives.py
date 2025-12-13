@@ -610,7 +610,7 @@ def process_show_page(soup, metadata):
     
     print(f"Found {len(segments_list)} segments for {metadata['date']}")
     
-    out_dir = f"content/shows/{metadata['year']}/{metadata['month_day']}"
+    out_dir = f"content/archive/shows/{metadata['year']}/{metadata['month_day']}"
     os.makedirs(out_dir, exist_ok=True)
     
     # Process Segments
@@ -634,7 +634,7 @@ def process_show_page(soup, metadata):
         
     print(f"Found {len(segments_list)} segments for {metadata['date']}")
     
-    out_dir = f"content/{metadata['year']}/{metadata['month_day']}"
+    out_dir = f"content/archive/shows/{metadata['year']}/{metadata['month_day']}"
     os.makedirs(out_dir, exist_ok=True)
     
     segment_titles = []
@@ -741,7 +741,7 @@ def main(year):
 
 if __name__ == "__main__":
     # Process years 1991-2022 in descending order
-    for year in range(2022, 1990, -1):
+    for year in range(2025, 2023, -1):
         print(f"\n{'='*60}")
         print(f"Starting scrape for year {year}")
         print(f"{'='*60}\n")

@@ -37,14 +37,7 @@ INDEX_SAVE_AS = 'index.html'
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['speaker_highlight', 'show_segments']
 
-# Add build timestamp to template context
 from datetime import datetime
-def add_build_date(generator):
-    generator.context['build_date'] = datetime.now()
-
-def register():
-    from pelican import signals
-    signals.generator_init.connect(add_build_date)
 
 def ordinal(n):
     if 11 <= (n % 100) <= 13:
@@ -58,5 +51,14 @@ def strip_quotes(value):
         return ""
     return value.strip('"')
 
-JINJA_FILTERS = {'ordinal': ordinal, 'strip_quotes': strip_quotes}
+def current_time(value, format_string):
+    """Return current datetime formatted with the given string"""
+    return datetime.now().strftime(format_string)
+
+JINJA_FILTERS = {
+    'ordinal': ordinal, 
+    'strip_quotes': strip_quotes,
+    'current_time': current_time
+}
+
 

@@ -256,6 +256,58 @@ Content migration progress:
 - ✅ 2023: Complete
 - 🔄 1991-2022: In progress
 
+## Deployment
+
+### GitHub Pages
+
+This project is configured to automatically deploy to GitHub Pages using GitHub Actions.
+
+#### Initial Setup
+
+1. **Enable GitHub Pages** in your repository:
+   - Go to Settings → Pages
+   - Under "Build and deployment", select **Source**: "GitHub Actions"
+
+2. **Push to main branch**:
+   ```bash
+   git add .
+   git commit -m "Add GitHub Actions deployment"
+   git push origin main
+   ```
+
+3. **Monitor deployment**:
+   - Go to the "Actions" tab in your GitHub repository
+   - Watch the "Build and Deploy to GitHub Pages" workflow run
+   - Once complete, your site will be live at `https://<username>.github.io/<repository-name>/`
+
+#### How It Works
+
+The `.github/workflows/deploy.yml` workflow:
+1. Triggers on every push to the `main` branch
+2. Sets up Python and installs dependencies
+3. Builds the site with Pelican
+4. Deploys the `_site/` directory to GitHub Pages
+
+#### Manual Deployment
+
+You can also trigger a deployment manually:
+- Go to Actions → "Build and Deploy to GitHub Pages" → "Run workflow"
+
+#### Custom Domain
+
+To use a custom domain:
+1. Add a `CNAME` file to your repository root with your domain
+2. Configure DNS settings with your domain provider
+3. Update `SITEURL` in `site_config.py` to your custom domain
+
+### Alternative Hosting
+
+The static site in `_site/` can be hosted on any static hosting service:
+- **Netlify**: Drag and drop `_site/` folder
+- **Vercel**: Connect your GitHub repository
+- **AWS S3**: Upload `_site/` contents to S3 bucket
+- **Traditional hosting**: Upload via FTP/SFTP
+
 ## Troubleshooting
 
 ### Build Errors

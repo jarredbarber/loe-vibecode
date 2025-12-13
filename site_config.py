@@ -3,7 +3,8 @@
 # pelican content -s site_config.py
 AUTHOR = 'Living on Earth'
 SITENAME = 'Living on Earth'
-SITEURL = ''
+# Set to your GitHub Pages URL for production, empty string for local development
+SITEURL = '/loe-vibecode'  # Change to '' for local development
 
 PATH = 'content'
 OUTPUT_PATH = '_site'

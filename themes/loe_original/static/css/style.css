@@ -451,7 +451,7 @@ textarea {
     }
 
     .blog {
-        width: 290px;
+        width: 80%;
         margin: 0;
         padding: 10px 15px;
         float: left;
@@ -1408,15 +1408,8 @@ figcaption {
     margin-bottom: 2em;
 }
 
-
 .body .sidebar {
     position: sticky;
     top: 20px;
     align-self: flex-start;
-}
-
-/* Make content full-width when .body is direct child of .mainbar */
-.mainbar>.body .body_resize {
-    width: 100%;
-    max-width: 100%;
 }

@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Archives{% endblock %}
+
+{% block content %}
+<div class="body">
+    <div class="body_resize">
+        <div class="left">
+            <h1>Show Archives</h1>
+
+            {% set relevant_articles = [] %}
+            {% for article in articles %}
+            {% if article.template == 'show' %}
+            {% set _ = relevant_articles.append(article) %}
+            {% endif %}
+            {% endfor %}
+
+            {% for year, year_articles in relevant_articles|groupby('date.year')|reverse %}
+            <div class="archive-year-group">
+                <h2 class="archive-year-header" id="year-{{ year }}">{{ year }}</h2>
+                <ul class="archive-list">
+                    {% for article in year_articles %}
+                    <li>
+                        <span class="archive-date">
+                            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.date|strftime('%B %d') }}</a>:
+                        </span>
+                        <span class="archive-segments">
+                            {% if article.related_segments %}
+                            {% for segment in article.related_segments %}
+                            <a href="{{ SITEURL }}/{{ segment.url }}">{{ segment.title|strip_quotes }}</a>
+                            {% if not loop.last %} | {% endif %}
+                            {% endfor %}
+                            {% else %}
+                            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title|strip_quotes }}</a>
+                            {% endif %}
+                        </span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+
+        {# Optional Sidebar - copying structure from index but maybe empty or different #}
+        <div class="sidebar">
+            <div class="gadget">
+                <h2>Browse by Year</h2>
+                <div class="clr"></div>
+                <ul class="sb_menu">
+                    {% for year, _ in relevant_articles|groupby('date.year')|reverse %}
+                    <!-- Anchors to the years on this page could be added here if we added IDs -->
+                    <li><a href="#year-{{ year }}">{{ year }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="clr"></div>
+    </div>
+</div>
+{% endblock %}

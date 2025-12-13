@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header_resize">
+            <div class="header">
+                <div class="logo"><a href="{{ SITEURL }}/index.html"><img src="{{ SITEURL }}/theme/img/loe_logo.gif"
+                            width="200" height="68" border="0" alt="Living On Earth" /></a></div>
+                <div class="clr"></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="{{ SITEURL }}/index.html" class="active">Home</a></li>
+                        <li><a
+                                href="{% set ns = namespace(found=false, url='#') %}{% for article in articles %}{% if not ns.found and article.template == 'show' %}{% set ns.found = true %}{% set ns.url = SITEURL ~ '/' ~ article.url %}{% endif %}{% endfor %}{{ ns.url }}">This
+                                Week</a></li>
+                        <li><a href="{{ SITEURL }}/archives.html">Archive</a></li>
+                        <li><a href="#">Special Features</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Stations</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content_resize">
+                <div class="mainbar">
+                    {% block content %}{% endblock %}
+                </div>
+                <!-- <div class="sidebar">
+                    <div class="gadget">
+                        <h2>Subscribe</h2>
+                        <div class="clr"></div>
+                        <ul class="sb_menu">
+                            <li><a href="#">Podcast</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">RSS Feed</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="clr"></div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="footer_resize">
+                <p class="leftt">&copy; Copyright World Media Foundation. All Rights Reserved<br />
+                    <a href="/">Home</a> | <a href="/about/contact.html">Contact</a> | <a href="/podcast.rss">RSS</a> |
+                    <a href="/about/donate.html">Donate</a> | <a href="/newsletter">Newsletter</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+_site
+__pycache__
+.venv
+venv
+*.log

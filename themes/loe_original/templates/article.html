@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} - {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<div class="body">
+    <div class="body_resize">
+        <div class="left">
+            <h2>{{ article.title }}</h2>
+            <p class="clr"></p>
+            <p><strong>Air Date: {{ article.date|strftime('%B %d, %Y') }}</strong></p>
+
+            {% if article.image_url %}
+            <figure class="header-image-container">
+                <img class="header-image" src="{{ article.image_url.strip('"') }}" alt="{{ article.title }}" />
+                {% if article.image_caption %}
+                <figcaption>{{ article.image_caption.strip('"') }}</figcaption>
+                {% endif %}
+            </figure>
+            {% endif %}
+
+            {% if article.summary %}
+            <p>{{ article.summary }}</p>
+            {% endif %}
+
+            {% if article.megaphone_id %}
+            <br />
+            <span>
+                <iframe frameborder=" 0" height="200" scrolling="no"
+                    src="https://playlist.megaphone.fm?e={{ article.megaphone_id.strip('"') }}&light=true"
+                    width="100%"></iframe>
+                </span>
+                {% elif article.audio_url %}
+            <div class="audio">
+                <audio controls style="width: 100%;">
+                    <source src="{{ article.audio_url }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            {% endif %}
+
+            <div class="clr"></div>
+
+
+            <div class="article-content">
+                {{ article.content }}
+            </div>
+
+            <p><a href="{{ SITEURL }}/index.html" class="silver">&larr; Back to Home</a></p>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+{% endblock %}

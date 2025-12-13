@@ -1,0 +1,24 @@
+<div class="show-segment">
+    <h3><a href="{{ segment.href }}">{{ segment.title }}</a></h3>
+
+    {% if segment.image_url %}
+    <div class="segment-image">
+        <img src="{{ segment.image_url }}" alt="{{ segment.title }}">
+    </div>
+    {% endif %}
+
+    <div class="segment-content">
+        {% if segment.megaphone_id %}
+        <div class="segment-player">
+            <iframe frameborder="0" height="200" scrolling="no" width="100%"
+                src="https://playlist.megaphone.fm?e={{ segment.megaphone_id }}&light=true"></iframe>
+        </div>
+        {% endif %}
+
+        {% if segment.summary %}
+        <p>{{ segment.summary }} {% if segment.length %}<span class="segment-length">({{ segment.length }})</span>{%
+            endif %}</p>
+        {% endif %}
+    </div>
+    <div class="clr"></div>
+</div>

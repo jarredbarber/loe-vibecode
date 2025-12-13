@@ -33,8 +33,18 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 INDEX_SAVE_AS = 'index.html'
 
+
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['speaker_highlight', 'show_segments']
+
+# Add build timestamp to template context
+from datetime import datetime
+def add_build_date(generator):
+    generator.context['build_date'] = datetime.now()
+
+def register():
+    from pelican import signals
+    signals.generator_init.connect(add_build_date)
 
 def ordinal(n):
     if 11 <= (n % 100) <= 13:
@@ -49,3 +59,4 @@ def strip_quotes(value):
     return value.strip('"')
 
 JINJA_FILTERS = {'ordinal': ordinal, 'strip_quotes': strip_quotes}
+

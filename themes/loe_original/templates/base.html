@@ -65,7 +65,8 @@
                 <p class="leftt">&copy; Copyright World Media Foundation. All Rights Reserved<br />
                     <a href="/">Home</a> | <a href="/about/contact.html">Contact</a> | <a href="/podcast.rss">RSS</a> |
                     <a href="/about/donate.html">Donate</a> | <a href="/newsletter">Newsletter</a><br />
-                    <small style="color: #888;">Last updated: {{ 'now'|strftime('%B %d, %Y at %I:%M %p %Z') }}</small>
+                    <small style="color: #888;">Last updated: {{ build_date.strftime('%B %d, %Y at %I:%M %p %Z')
+                        }}</small>
                 </p>
             </div>
         </div>

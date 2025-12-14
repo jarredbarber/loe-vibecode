@@ -38,6 +38,58 @@
     --link-info-hover: #005580;
 }
 
+/* --- Scheme 1: Ethereal & Immersive --- */
+:root {
+    /* Brand Colors */
+    --primary-green: #2E5A4C;
+    /* Deep Forest Green - Used for main branding elements */
+    --primary-green-dark: #1e3c32;
+    /* Darker shade for hover states */
+    --secondary-blue: #88BDBD;
+    /* Misty Teal - Used as the secondary brand color */
+    --accent-teal: #F2E6B8;
+    /* Soft Gold - remapped accent for warmth and highlights */
+
+    /* Backgrounds */
+    --bg-main: #F8F9FA;
+    /* Atmospheric White - Main page background */
+    --bg-header: #e8f4f4;
+    /* Very light teal tint for header area */
+    --bg-white: #ffffff;
+    /* Pure white for crisp cards against atmospheric bg */
+
+    /* Text Colors */
+    --text-dark: #2E5A4C;
+    /* Using the Deep Forest Green as primary "black" text */
+    --text-medium: #546b66;
+    /* Desaturated medium green/gray */
+    --text-light: #7a918c;
+    /* Lighter desaturated green/gray */
+    --text-lighter: #a0b3af;
+    /* Subtle text */
+    --text-placeholder: #c0d1ce;
+
+    /* Borders & Separators */
+    --border-light: #e0efee;
+    /* Very subtle teal border */
+    --border-medium: #b4d4d4;
+    /* Misty teal border */
+    --border-input: #b4d4d4;
+
+    /* Functional */
+    --error-red: #c73e3e;
+    /* Slightly softened red to match the aesthetic */
+
+    /* Components */
+    --audio-bg: #2E5A4C;
+    /* Deep Forest Green for the player background */
+    --audio-text: #F2E6B8;
+    /* Soft Gold text/icons on the player */
+    --link-info: #2E5A4C;
+    /* Primary green for links */
+    --link-info-hover: #88BDBD;
+    /* Misty Teal for link hover */
+}
 
 #number {
     width: 3em;
@@ -49,7 +101,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #f2f9f8;
+    background-color: var(--bg-main);
 }
 
 html {
@@ -66,8 +118,8 @@ html {
     width: 94%;
     padding: 10px 0;
     margin: 0 auto;
-    border: 1px solid #f1f1f1;
-    background: #f2f9f8;
+    border: 1px solid var(--border-light);
+    background: var(--bg-main);
 }
 
 .resize2 {
@@ -81,8 +133,8 @@ html {
         width: 960px;
         padding: 10px 0;
         margin: 0 auto;
-        border: 1px solid #f1f1f1;
-        background: #f2f9f8;
+        border: 1px solid var(--border-light);
+        background: var(--bg-main);
     }
 
     .resize2 {
@@ -97,7 +149,7 @@ html {
     width: 600px;
     float: left;
     font: normal 11px Arial, Helvetica, sans-serif;
-    color: #939393;
+    color: var(--text-lighter);
     padding: 10px 0 0 20px;
     margin: 0;
 }
@@ -106,7 +158,7 @@ html {
 .header_resize {
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid var(--border-light);
 }
 
 .header {
@@ -132,7 +184,7 @@ html {
 
 .header_blog2 h2 {
     font: bold 36px Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: var(--bg-white);
     padding: 10px 0 0 0;
     margin: 0;
 }
@@ -175,7 +227,7 @@ html {
     float: left;
     margin: 0;
     padding: 0 10px;
-    border-right: 1px solid #939393;
+    border-right: 1px solid var(--text-lighter);
 }
 
 .menu ul li:last-child {
@@ -186,17 +238,17 @@ html {
     float: left;
     margin: 0;
     padding: 0;
-    color: #939393;
+    color: var(--text-lighter);
     font: normal 12px Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
 .menu ul li a:hover {
-    color: #545454;
+    color: var(--text-medium);
 }
 
 .menu ul li a.active {
-    color: #545454;
+    color: var(--text-medium);
 }
 
 /* search */
@@ -231,7 +283,7 @@ html {
     padding: 6px 2px;
     margin: 0;
     font: normal 11px Arial, Helvetica, sans-serif;
-    color: #acacac;
+    color: var(--text-placeholder);
 }
 
 .search form .button {
@@ -278,14 +330,14 @@ textarea {
 .body {
     padding: 0;
     margin: 0 auto;
-    border-top: 1px solid #f1f1f1;
-    background: #f2f9f8;
+    border-top: 1px solid var(--border-light);
+    background: var(--bg-main);
     font-size: 16px;
 }
 
 .body h2 {
     font: bold 20px Arial, Helvetica, sans-serif;
-    color: #545454;
+    color: var(--text-medium);
     padding: 10px 5px;
     margin: 0 0 10px 0;
 }
@@ -293,24 +345,24 @@ textarea {
 
 .body h2 span {
     font: bold 100% Arial, Helvetica, sans-serif;
-    color: #939393;
+    color: var(--text-lighter);
 }
 
 .body h3 {
     font: normal 115% Arial, Helvetica, sans-serif;
-    color: #545454;
+    color: var(--text-medium);
     padding: 10px 5px;
     margin: 0 0 10px 0;
 }
 
 .body h3 span {
     font: normal 72% Arial, Helvetica, sans-serif;
-    color: #939393;
+    color: var(--text-lighter);
 }
 
 .body p {
     font: normal 100% Arial, Helvetica, sans-serif;
-    color: #333333;
+    color: var(--text-dark);
     line-height: 1.8em;
     padding: 3px 5px;
     margin: 0;
@@ -318,21 +370,21 @@ textarea {
 
 .body p.photocap {
     font: normal 85.7% Arial, Helvetica, sans-serif;
-    color: #4a9586;
+    color: var(--accent-teal);
     line-height: 1.8em;
     padding: 3px 5px;
     margin: 0;
 }
 
 .body p span {
-    color: #6d6d6d;
+    color: var(--text-light);
     font: normal 78.5% Arial, Helvetica, sans-serif;
 }
 
 @media (min-width: 1000px) {
     .body h2 span {
         font: bold 14px Arial, Helvetica, sans-serif;
-        color: #939393;
+        color: var(--text-lighter);
     }
 
     .body h2.errormessage {
@@ -341,29 +393,29 @@ textarea {
         20px Arial,
         Helvetica,
         sans-serif;
-        color: #545454;
+        color: var(--text-medium);
         padding: 10px 5px;
         margin: 0 0 10px 0;
     }
 
     .body h3 {
         font: normal 16px Arial, Helvetica, sans-serif;
-        color: #545454;
+        color: var(--text-medium);
         padding: 10px 5px;
         margin: 0 0 10px 0;
     }
 
     .body h3 span {
         font: normal 14px Arial, Helvetica, sans-serif;
-        color: #939393;
+        color: var(--text-lighter);
     }
 
     /*
 	prettier, people had trouble reading it though
-	.body p { font:normal 14px Arial, Helvetica, sans-serif; color:#6b6b6b; line-height:1.8em; padding:3px 5px; margin:0;}*/
+	.body p { font:normal 14px Arial, Helvetica, sans-serif; color:var(--text-light); line-height:1.8em; padding:3px 5px; margin:0;}*/
     .body p {
         font: normal 14px Arial, Helvetica, sans-serif;
-        color: #333333;
+        color: var(--text-dark);
         line-height: 1.8em;
         padding: 3px 5px;
         margin: 0;
@@ -371,43 +423,43 @@ textarea {
 
     .body p.photocap {
         font: normal 12px Arial, Helvetica, sans-serif;
-        color: #4a9586;
+        color: var(--accent-teal);
         line-height: 1.8em;
         padding: 3px 5px;
         margin: 0;
     }
 
     .body p span {
-        color: #6d6d6d;
+        color: var(--text-light);
         font: normal 11px Arial, Helvetica, sans-serif;
     }
 }
 
 .body a:visited {
-    color: #006699;
+    color: var(--secondary-blue);
     text-decoration: none;
 }
 
 .body a {
-    color: #009966;
+    color: var(--primary-green);
     text-decoration: none;
 }
 
 .body a.silver {
-    color: #939393;
+    color: var(--text-lighter);
 }
 
 .body a.silver:hover {
-    color: #545454;
+    color: var(--text-medium);
 }
 
 .body a.silver:active {
-    color: #545454;
+    color: var(--text-medium);
 }
 
 .body ul li {
     font: normal 100% Arial, Helvetica, sans-serif;
-    color: #6b6b6b;
+    color: var(--text-light);
     line-height: 1.8em;
     padding: 3px 5px;
     margin: 0;
@@ -416,7 +468,7 @@ textarea {
 @media (min-width: 1000px) {
     .body ul li {
         font: normal 14px Arial, Helvetica, sans-serif;
-        color: #6b6b6b;
+        color: var(--text-light);
         line-height: 1.8em;
         padding: 3px 5px;
         margin: 0;
@@ -500,7 +552,7 @@ textarea {
 
 /*.imageright { float:right; margin:5px 20px; padding:0;}
 .imageleft { float:left; margin:5px 15px 5px 0; padding:0;}
-.imageleft p.photocap { font:normal 10px Arial, Helvetica, sans-serif; color:#6b6b6b; line-height:1.8em; padding:3px 5px; margin:0;}*/
+.imageleft p.photocap { font:normal 10px Arial, Helvetica, sans-serif; color:var(--text-light); line-height:1.8em; padding:3px 5px; margin:0;}*/
 /** inline text images **/
 
 .imageleft {
@@ -577,7 +629,7 @@ textarea {
 
 .body p.caption {
     font: normal 85.7% Arial, Helvetica, sans-serif;
-    color: #4a9586;
+    color: var(--accent-teal);
     line-height: 1.8em;
     padding: 3px 5px;
     margin: 0;
@@ -585,7 +637,7 @@ textarea {
 
 .body table.image caption {
     font: normal 85.7% Arial, Helvetica, sans-serif;
-    color: #4a9586;
+    color: var(--accent-teal);
     line-height: 1.8em;
     padding: 3px 5px;
     margin: 0;
@@ -594,7 +646,7 @@ textarea {
 @media (min-width: 1000px) {
     .body p.caption {
         font: normal 12px Arial, Helvetica, sans-serif;
-        color: #4a9586;
+        color: var(--accent-teal);
         line-height: 1.8em;
         padding: 3px 5px;
         margin: 0;
@@ -602,7 +654,7 @@ textarea {
 
     .body table.image caption {
         font: normal 12px Arial, Helvetica, sans-serif;
-        color: #4a9586;
+        color: var(--accent-teal);
         line-height: 1.8em;
         padding: 3px 5px;
         margin: 0;
@@ -616,7 +668,7 @@ textarea {
 }
 
 #contactform * {
-    color: #F00;
+    color: var(--error-red);
 }
 
 #contactform ol {
@@ -644,32 +696,32 @@ textarea {
     width: 300px;
     display: block;
     padding: 10px 0;
-    color: #9a9a9a;
+    color: var(--text-lighter);
     font: normal 12px Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     float: left;
 }
 
 #contactform label span {
-    color: #F00;
+    color: var(--error-red);
 }
 
 #contactform input.text {
     width: 320px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid var(--border-input);
     margin: 2px 0;
     padding: 5px 2px;
     height: 16px;
-    background: #fff;
+    background: var(--bg-white);
     float: left;
 }
 
 #contactform textarea {
     width: 520px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid var(--border-input);
     margin: 2px 0;
     padding: 2px;
-    background: #fff;
+    background: var(--bg-white);
     float: left;
 }
 
@@ -677,7 +729,7 @@ textarea {
     padding: 3px 0 3px 0px;
     margin: 10px 0 0 0;
     border: 0;
-    color: #FFF;
+    color: var(--bg-white);
     float: left;
 }
 
@@ -685,7 +737,7 @@ textarea {
 .footer {
     padding: 0;
     margin: 0;
-    border-top: 1px background-color:#dcedea;
+    border-top: 1px background-color:var(--bg-header);
     background: url(images/bg_slider3.gif);
 }
 
@@ -705,12 +757,12 @@ textarea {
 
 .footer p {
     font: normal 11px Arial, Helvetica, sans-serif;
-    color: #9a9a9a;
+    color: var(--text-lighter);
 }
 
 .footer a {
     font: normal 11px Arial, Helvetica, sans-serif;
-    color: #545454;
+    color: var(--text-medium);
     text-decoration: none;
     padding: 5px;
     margin: 0;
@@ -739,7 +791,7 @@ p.clr,
 }
 
 .bg {
-    border-bottom: 1px solid #e2e2e2;
+    border-bottom: 1px solid var(--border-medium);
     clear: both;
     padding: 0;
     margin: 10px 0;
@@ -751,7 +803,7 @@ p.clr,
     padding: 20px 0 0 0;
     margin: 0;
     background: url(images/bg_slider3.gif);
-    background-color: #dcedea;
+    background-color: var(--bg-header);
 }
 
 /* big banner header */
@@ -763,22 +815,22 @@ p.clr,
 }
 
 .header_blog h3 a {
-    color: #009966;
+    color: var(--primary-green);
     text-decoration: none;
 }
 
 .header_blog h3 a:visited {
-    color: #006699;
+    color: var(--secondary-blue);
     text-decoration: none;
 }
 
 .header_blog h3 a:hover {
-    color: #545454;
+    color: var(--text-medium);
     text-decoration: none;
 }
 
 .header_blog h3 ac:active {
-    color: #545454;
+    color: var(--text-medium);
     text-decoration: none;
 }
 
@@ -786,11 +838,11 @@ p.clr,
     width: 62.5%;
     float: left;
     font: normal 13px Arial, Helvetica, sans-serif;
-    color: #545454;
+    color: var(--text-medium);
     padding: 0 0 0 20px;
     margin: 0;
     line-height: 23px;
-    background-color: #f2f9f8
+    background-color: var(--bg-main)
 }
 
 @media (min-width: 1000px) {
@@ -798,11 +850,11 @@ p.clr,
         width: 600px;
         float: left;
         font: normal 13px Arial, Helvetica, sans-serif;
-        color: #545454;
+        color: var(--text-medium);
         padding: 0 0 0 20px;
         margin: 0;
         line-height: 23px;
-        background-color: #f2f9f8
+        background-color: var(--bg-main)
     }
 }
 
@@ -932,20 +984,20 @@ div#slideshow {
 
 .slider-item .caption h2 {
     font: normal 24px/1.2em Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: var(--bg-white);
     padding: 0;
     margin: 0;
 }
 
 .slider-item .caption p {
     font: normal 12px/1.6em Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: var(--bg-white);
     margin: 0;
     padding: 0;
 }
 
 .slider-item .caption a {
-    color: #fff;
+    color: var(--bg-white);
     text-decoration: none;
 }
 
@@ -1025,7 +1077,7 @@ div#slideshow {
     text-decoration: none;
     font: normal 11px Arial, Helvetica, sans-serif;
     color: #797979;
-    background: #f2f9f8;
+    background: var(--bg-main);
     border: 1px solid #e0e0e0;
     display: block;
     float: left;
@@ -1075,22 +1127,22 @@ div#slideshow {
 }
 
 .social {
-    background: #f2f9f8;
+    background: var(--bg-main);
     padding: 5px;
     margin: 0;
-    border: solid 1px #f2f9f8;
+    border: solid 1px var(--bg-main);
     height: 18px;
 }
 
 #sb_art_diggit * {
-    background: #FFF;
+    background: var(--bg-white);
     width: 110px;
     padding: 0;
     margin: 0;
 }
 
 #tweetmeme * {
-    background: #f2f9f8;
+    background: var(--bg-main);
     width: 90px;
     padding: 0;
     margin: 0;
@@ -1189,24 +1241,24 @@ li#sb_digg a:hover {
     display: table;
     display: table-cell;
     width: 100%;
-    color: #edf8f6;
-    background-color: #1a443d;
+    color: var(--audio-text);
+    background-color: var(--audio-bg);
 }
 
 .audiosmall {
     display: table;
     display: table-cell;
     width: 100%;
-    color: #edf8f6;
-    background-color: #1a443d;
+    color: var(--audio-text);
+    background-color: var(--audio-bg);
 }
 
 .audiolarge {
     display: table;
     display: table-cell;
     width: 100%;
-    color: #edf8f6;
-    background-color: #1a443d;
+    color: var(--audio-text);
+    background-color: var(--audio-bg);
 }
 
 
@@ -1239,20 +1291,20 @@ audio {
 @media (min-width: 1000px) {
     .audio {
         width: 400px;
-        color: #edf8f6;
-        background-color: #1a443d;
+        color: var(--audio-text);
+        background-color: var(--audio-bg);
     }
 
     .audiosmall {
         width: 300px;
-        color: #edf8f6;
-        background-color: #1a443d;
+        color: var(--audio-text);
+        background-color: var(--audio-bg);
     }
 
     .audiolarge {
         width: 600px;
-        color: #edf8f6;
-        background-color: #1a443d;
+        color: var(--audio-text);
+        background-color: var(--audio-bg);
     }
 }
 
@@ -1264,7 +1316,7 @@ audio {
 
 .body .h2 .transcript {
     font: normal 100% Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
+    color: var(--bg-white);
     line-height: 1.8em;
     padding: 3px 5px;
     margin: 0;
@@ -1320,13 +1372,13 @@ audio {
     background: url(images/ul.gif) left center no-repeat;
     padding: 5px 0 5px 15px;
     margin: 0;
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid var(--border-light);
 }
 
 /* Speaker Highlight */
 .speaker {
     font-weight: bold;
-    color: #545454;
+    color: var(--text-medium);
 }
 
 .transcript-block {
@@ -1396,7 +1448,7 @@ figcaption {
 }
 
 .show-content h3 a {
-    color: #0088cc;
+    color: var(--link-info);
     /* distinct link color */
     text-decoration: none;
     font-weight: bold;
@@ -1405,7 +1457,7 @@ figcaption {
 }
 
 .show-content h3 a:hover {
-    color: #005580;
+    color: var(--link-info-hover);
     text-decoration: none;
 }
 
@@ -1475,7 +1527,7 @@ figcaption {
 /* Featured Show Callout */
 .featured-show {
     background: linear-gradient(135deg, rgba(220, 237, 234, 0.4) 0%, rgba(192, 224, 218, 0.4) 100%);
-    border-left: 4px solid #009966;
+    border-left: 4px solid var(--primary-green);
     padding: 25px;
     margin-bottom: 40px;
     border-radius: 8px;
@@ -1485,7 +1537,7 @@ figcaption {
 
 .featured-show h1 {
     font-size: 2em;
-    color: #009966;
+    color: var(--primary-green);
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -1497,17 +1549,17 @@ figcaption {
 }
 
 .featured-show h2 a {
-    color: #333;
+    color: var(--text-dark);
     text-decoration: none;
 }
 
 .featured-show h2 a:hover {
-    color: #009966;
+    color: var(--primary-green);
 }
 
 .featured-host {
     font-size: 1.1em;
-    color: #009966 !important;
+    color: var(--primary-green) !important;
     margin: 0 0 10px 0;
     font-weight: bold !important;
     font-style: italic !important;
@@ -1531,7 +1583,7 @@ figcaption {
 .featured-summary {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #333;
+    color: var(--text-dark);
     margin: 15px 0;
     overflow: hidden;
     /* Creates new block formatting context to respect float */
@@ -1545,12 +1597,12 @@ figcaption {
 }
 
 .featured-segments a {
-    color: #0088cc;
+    color: var(--link-info);
     text-decoration: none;
 }
 
 .featured-segments a:hover {
-    color: #005580;
+    color: var(--link-info-hover);
     text-decoration: underline;
 }
 
@@ -1563,7 +1615,7 @@ figcaption {
 
 .read-more-btn {
     display: inline-block;
-    background-color: #009966;
+    background-color: var(--primary-green);
     color: white !important;
     padding: 12px 24px;
     text-decoration: none;
@@ -1573,14 +1625,14 @@ figcaption {
 }
 
 .read-more-btn:hover {
-    background-color: #007755;
+    background-color: var(--primary-green-dark);
 }
 
 /* Recent Shows Section */
 .recent-shows-header {
     font-size: 1.8em;
-    color: #009966;
-    border-bottom: 2px solid #009966;
+    color: var(--primary-green);
+    border-bottom: 2px solid var(--primary-green);
     padding-bottom: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -1593,12 +1645,12 @@ figcaption {
 }
 
 .blog h3 a {
-    color: #0088cc;
+    color: var(--link-info);
     text-decoration: none;
 }
 
 .blog h3 a:hover {
-    color: #005580;
+    color: var(--link-info-hover);
 }
 
 .show-length {

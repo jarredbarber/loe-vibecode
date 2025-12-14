@@ -4,6 +4,40 @@
     width: device-width;
 }
 
+:root {
+    /* Brand Colors */
+    --primary-green: #009966;
+    --primary-green-dark: #007755;
+    --secondary-blue: #006699;
+    --accent-teal: #4a9586;
+
+    /* Backgrounds */
+    --bg-main: #f2f9f8;
+    --bg-header: #dcedea;
+    --bg-white: #ffffff;
+
+    /* Text Colors */
+    --text-dark: #333333;
+    --text-medium: #545454;
+    --text-light: #6b6b6b;
+    --text-lighter: #939393;
+    --text-placeholder: #acacac;
+
+    /* Borders & Separators */
+    --border-light: #f1f1f1;
+    --border-medium: #e2e2e2;
+    --border-input: #e1e1e1;
+
+    /* Functional */
+    --error-red: #F00;
+
+    /* Components */
+    --audio-bg: #1a443d;
+    --audio-text: #edf8f6;
+    --link-info: #0088cc;
+    --link-info-hover: #005580;
+}
+
 
 #number {
     width: 3em;

@@ -1,6 +1,7 @@
 ---
 title: Winter Solstice Story and Song with Diane Edgecomb
 date: 2025-12-19
+---
 
 ## Transcript
 

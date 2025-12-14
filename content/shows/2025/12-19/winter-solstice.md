@@ -10,3 +10,4 @@ As the northern half of Earth tilts the farthest away from the sun, we like to l
 In many cultures, stories passed down through the generations explain how the world got to be the way it is. 
 And the Haudenosaunee people of Northeastern North America have a story about how the star cluster known as the Pleiades came to be, told now by Perry Ground, Turtle Clan member of the Onondaga Nation of the Haudenosaunee.
 
+![](https://loe.org/content/2025-12-12/WASSAIL_dancers.jpg)

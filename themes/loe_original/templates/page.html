@@ -7,6 +7,9 @@
     <div class="body_resize">
         <div class="left">
             <h2>{{ page.title }}</h2>
+            {% if page.slug == 'stations' %}
+            {% include 'modules/stations_map.html' %}
+            {% endif %}
             <div class="article-content">
                 {{ page.content }}
             </div>

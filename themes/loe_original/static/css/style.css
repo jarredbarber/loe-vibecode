@@ -171,6 +171,9 @@ html {
         width: 960px;
         padding: 0;
         margin: 0 auto;
+        display: flex;
+        align-items: center;
+        /* Aligns logo and menu vertically */
     }
 }
 
@@ -193,24 +196,32 @@ html {
 .logo {
     padding: 0;
     margin: 0;
-    width: 164px;
-    float: left;
+    width: auto;
+    /* Let it shrink to image size */
+    margin-right: 20px;
+    /* Space between logo and menu */
+    float: none;
+    /* Remove float */
 }
 
 /*menu*/
 .menu {
     padding: 18px 0 10px 0;
     margin: 0;
-    width: 100%;
-    float: left;
+    width: auto;
+    /* Let it take remaining space */
+    float: none;
+    /* Remove float */
+    flex-grow: 1;
+    /* Allow it to take up remaining space if needed */
 }
 
 @media (min-width: 1000px) {
     .menu {
         padding: 18px 0 10px 0;
         margin: 0;
-        width: 700px;
-        float: left;
+        width: auto;
+        float: none;
     }
 }
 

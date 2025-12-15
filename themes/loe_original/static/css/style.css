@@ -1539,6 +1539,7 @@ figcaption {
 .featured-show {
     background: linear-gradient(135deg, rgba(220, 237, 234, 0.4) 0%, rgba(192, 224, 218, 0.4) 100%);
     border-left: 4px solid var(--primary-green);
+    margin-top: 40px;
     padding: 25px;
     margin-bottom: 40px;
     border-radius: 8px;

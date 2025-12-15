@@ -3,8 +3,6 @@ title: About Living on Earth
 slug: about
 ---
 
-
-
 *Living on Earth with Steve Curwood* is the weekly environmental news and information program distributed by PRX. Every week approximately [250 Public Radio stations]({filename}stations.md) broadcast Living on Earth's news, features, interviews and commentary on a broad range of ecological issues.
 
 Living on Earth is located at the School for the Environment at the University of Massachusetts/Boston.
@@ -112,4 +110,4 @@ Support for Living on Earth is provided by:
 
 
 ## Support Us {: #support-us }
-Living on Earth is an independent media program and relies entirely on contributions from listeners and institutions supporting public service. Please [donate now](https://loe.org/about/donate.html) to preserve an independent environmental voice.
+Living on Earth is an independent media program and relies entirely on contributions from listeners and institutions supporting public service. Please [donate now]({filename}donate.md) to preserve an independent environmental voice.

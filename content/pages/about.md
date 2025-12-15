@@ -98,20 +98,18 @@ Support for Living on Earth is provided by:
 
 ---
 
-### Mailing Address
-> Living on Earth
-> UMass School for the Environment
-> 100 Morrissey Boulevard
-> Boston, MA 02125
+## Contact Us {: #contact-us }
 
-### Contact Us
 > Living on Earth
+>
 > 62 Calef Highway, Suite 212
+>
 > Lee, NH 03861
+>
 > Telephone: 617-287-4121
+>
 > E-mail: [comments@loe.org](mailto:comments@loe.org)
 
-### Support Us
-Living on Earth is an independent media program and relies entirely on contributions from listeners and institutions supporting public service. Please [donate now](https://loe.org/about/donate.html) to preserve an independent environmental voice.
 
-[Newsletter](https://loe.org/newsletter) - Sign up for our weekly newsletter!
+## Support Us {: #support-us }
+Living on Earth is an independent media program and relies entirely on contributions from listeners and institutions supporting public service. Please [donate now](https://loe.org/about/donate.html) to preserve an independent environmental voice.

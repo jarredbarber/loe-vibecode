@@ -759,7 +759,8 @@ textarea {
 .footer {
     padding: 0;
     margin: 0;
-    border-top: 1px background-color:var(--bg-header);
+    border-top: 1px solid var(--border-light);
+    background-color: var(--bg-header);
     background: url(images/bg_slider3.gif);
 }
 
@@ -767,6 +768,7 @@ textarea {
     width: 92%;
     margin: 0 auto;
     padding: 5px 10px;
+    position: relative;
 }
 
 @media (min-width: 1000px) {

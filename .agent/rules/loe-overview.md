@@ -14,3 +14,4 @@ This codebase is for migrating the existing website at http://loe.org to a new o
 
 * Do **not** generate images, unless explicitly asked to.
 * Do **not** modify things in the content/ folder, unless either explicitly asked to or via running a migration script like `scrape_archives.py`.
+* Write any scripts that you execute for various tasks to the scripts/ directory.

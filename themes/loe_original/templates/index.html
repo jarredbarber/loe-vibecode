@@ -18,10 +18,12 @@
             <h2><a href="{{ SITEURL }}/{{ latest.url }}">
                     {{ latest.date|strftime('%B') }} {{ latest.date.day|ordinal }}, {{ latest.date|strftime('%Y') }}
                 </a></h2>
+            <h3><a href="{{ SITEURL }}/{{ latest.url }}">{{ latest.title }}</a>
+            </h3>
 
             <div class="featured-content">
-                {% if latest.image_url %}
-                <img src="{{ latest.image_url }}" alt="{{ latest.title }}" class="featured-image" />
+                {% if latest.banner_url %}
+                <img src="{{ latest.banner_url }}" alt="{{ latest.title }}" class="featured-image" />
                 {% endif %}
 
                 {% if latest.host %}
@@ -55,8 +57,12 @@
             <h3><a href="{{ SITEURL }}/{{ article.url }}">
                     {{ article.date|strftime('%B') }} {{ article.date.day|ordinal }}, {{ article.date|strftime('%Y') }}
                 </a></h3>
+            <h4><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+            </h4>
             <div class="clr"></div>
-            {% if article.image_url %}
+            {% if article.thumb_url %}
+            <img src="{{ article.thumb_url }}" alt="{{ article.title }}" class="floated" width="150" />
+            {% elif article.image_url %}
             <img src="{{ article.image_url }}" alt="{{ article.title }}" class="floated" width="150" />
             {% endif %}
             <p>{{ article.summary }}{% if article.length %} <span class="show-length">({{ article.length }})</span>{%

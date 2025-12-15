@@ -3,7 +3,7 @@ title: Bill McKibben on Abundant Solar and the Waning Power of Fossil Fuels
 date: 2025-12-12
 category: Segments
 megaphone_id: LOE1416548469
-image_url: https://loe.org/content/2025-12-12/MCKIBBEN_alternative.jpg
+banner_url: https://loe.org/content/2025-12-12/MCKIBBEN_alternative.jpg
 image_caption: Energy from the sun and wind should no longer be called “alternative energy”, according to McKibben. (Photo: Kenueone, Wikimedia Commons, CC0 1.0)
 summary: Climate activist Bill McKibben, who authored The End of Nature nearly 40 years ago, is back with Here Comes the Sun: A Last Chance for the Climate and a Fresh Chance for Civilization. He joins us for a wide-ranging discussion on the stunning growth of renewable energy from the sun and wind, led in part by China, even as the fossil fuel industry digs in.
 length: 40:52

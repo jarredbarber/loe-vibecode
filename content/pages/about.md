@@ -9,7 +9,9 @@ Living on Earth is located at the School for the Environment at the University o
 
 <iframe style="display: block; margin: auto;" width="560"  height="315" src="https://www.youtube.com/embed/7fFLtQomj64" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
+## Support Us {: #support-us }
+Living on Earth is an independent media program and relies entirely on contributions from listeners and institutions supporting public service. Please [donate now]({filename}donate.md) to preserve an independent environmental voice.
+
 
 ## Cast and Crew
 
@@ -112,5 +114,3 @@ Support for Living on Earth is provided by:
 > E-mail: [comments@loe.org](mailto:comments@loe.org)
 
 
-## Support Us {: #support-us }
-Living on Earth is an independent media program and relies entirely on contributions from listeners and institutions supporting public service. Please [donate now]({filename}donate.md) to preserve an independent environmental voice.

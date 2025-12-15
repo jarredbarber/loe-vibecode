@@ -1,3 +1,8 @@
+---
+trigger: model_decision
+description: when scraping the loe.org website
+---
+
 # Scraping Tips for loe.org
 
 Based on `scrape_archives.py` and migration experience.

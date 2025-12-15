@@ -4,13 +4,9 @@ date: 2025-12-05
 category: Segments
 megaphone_id: LOE5756807961
 image_url: https://loe.org/content/2024-11-22/SERVICEBERRY_cover.jpg
-image_caption: 
+image_caption: The cover of *The Serviceberry* by Robin Wall Kimmerer beautifully encapsulates the book's themes of nature’s abundance and reciprocity. (Photo: Courtesy of Robin Wall Kimmerer)
 summary: Braiding Sweetgrass author Robin Wall Kimmerer is also the author of a 2024 book that continues her explorations of gift economies. Robin Wall Kimmerer joins Host Jenni Doering to share insights from The Serviceberry: Abundance and Reciprocity in the Natural World and how gift economies can offer an alternative to overconsumption.
 ---
-
-*The cover of *The Serviceberry* by Robin Wall Kimmerer beautifully encapsulates the book's themes of nature’s abundance and reciprocity. (Photo: Courtesy of Robin Wall Kimmerer)*
-
-
 
 ## Transcript
 

@@ -1792,3 +1792,40 @@ figcaption {
 .archive-list a:hover {
     text-decoration: underline;
 }
+/* --- Custom adjustments for Index Titles --- */
+
+/* Featured Show: pull title (h3) closer to date (h2) */
+.featured-show h2 {
+    margin-bottom: 0 !important;
+    padding-bottom: 5px !important;
+}
+
+.featured-show h3 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    font-size: 1.5em !important;
+}
+
+/* Recent Shows: pull title (h4) closer to date (h3) */
+.blog h3 {
+    margin-bottom: 0 !important;
+    padding-bottom: 2px !important;
+}
+
+/* Define h4 for recent shows since it wasn't defined */
+.blog h4 {
+    font: bold 18px Arial, Helvetica, sans-serif;
+    color: var(--primary-green);
+    padding: 2px 5px 10px 5px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.blog h4 a {
+    color: var(--primary-green);
+    text-decoration: none;
+}
+
+.blog h4 a:hover {
+    color: var(--link-info-hover);
+}

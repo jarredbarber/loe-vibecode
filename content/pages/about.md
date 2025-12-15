@@ -91,7 +91,7 @@ Support for Living on Earth is provided by:
 
 ---
 
-**Mailing Address:**
+### Mailing Address
 > Living on Earth
 > UMass School for the Environment
 > 100 Morrissey Boulevard

@@ -1,4 +1,4 @@
-name: Build and Deploy to GitHub Pages
+name: Deploy to WIP site
 
 on:
   push:

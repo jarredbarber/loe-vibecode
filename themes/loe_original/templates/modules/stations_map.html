@@ -23,8 +23,8 @@
         transition: fill 0.2s;
     }
 
-    #stations-map-container svg path:hover {
-        fill: #4a90e2;
+    #stations-map-container svg path.state-highlight {
+        fill: #88BDBD;
         /* Blue highlight */
     }
 
@@ -97,19 +97,57 @@
             mapSvg.id = 'us-map-svg';
 
             const paths = mapSvg.querySelectorAll('path');
+            const classToStateName = {};
+
+            // Pass 1: Find state names for classes
             paths.forEach(path => {
-                // Try to find state name from title child
                 const title = path.querySelector('title');
-                if (title) {
+                const pathClass = path.getAttribute('class');
+                if (title && pathClass) {
+                    // Extract the base class (e.g. "mi" from "mi other-class") if needed,
+                    // but usually it's just one class or we assume the first one is the identifier.
+                    // The SVG structure seems to use single classes like "mi", "nm", etc.
+                    // We'll trust the class attribute for grouping.
                     const stateName = title.textContent.trim();
+                    if (!pathClass.includes('borders') && !pathClass.includes('separator')) {
+                        classToStateName[pathClass] = stateName;
+                    }
+                }
+            });
+
+            // Pass 2: Assign data-state-name and add listeners
+            paths.forEach(path => {
+                const pathClass = path.getAttribute('class');
+                // Use the map to get the state name, or fallback to local title if valid
+                let stateName = classToStateName[pathClass];
+
+                if (!stateName) {
+                    const title = path.querySelector('title');
+                    if (title) {
+                        stateName = title.textContent.trim();
+                    }
+                }
+
+                if (stateName && !path.classList.contains('borders') && !path.classList.contains('separator')) {
                     path.setAttribute('data-state-name', stateName);
 
                     path.addEventListener('mouseenter', () => {
+                        const safeStateName = stateName.replace(/"/g, '\\"');
+                        const stateParts = mapSvg.querySelectorAll(`path[data-state-name="${safeStateName}"]`);
+
+                        stateParts.forEach(part => part.classList.add('state-highlight'));
+
                         if (stationMap[stateName]) {
                             displayDiv.innerHTML = `<h3>${stateName}</h3>${stationMap[stateName]}`;
                         } else {
                             displayDiv.innerHTML = `<h3>${stateName}</h3><p>No stations listed.</p>`;
                         }
+                    });
+
+                    path.addEventListener('mouseleave', () => {
+                        const safeStateName = stateName.replace(/"/g, '\\"');
+                        const stateParts = mapSvg.querySelectorAll(`path[data-state-name="${safeStateName}"]`);
+                        stateParts.forEach(part => part.classList.remove('state-highlight'));
                     });
                 }
             });

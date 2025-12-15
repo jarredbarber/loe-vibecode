@@ -16,9 +16,9 @@
 
             {% if article.image_url %}
             <figure class="header-image-container">
-                <img class="header-image" src="{{ article.image_url.strip('"') }}" alt="{{ article.title }}" />
+                <img class="header-image" src="{{ article.image_url }}" alt="{{ article.title }}" />
                 {% if article.image_caption %}
-                <figcaption>{{ article.image_caption.strip('"') }}</figcaption>
+                <figcaption>{{ article.image_caption }}</figcaption>
                 {% endif %}
             </figure>
             {% endif %}
@@ -27,7 +27,7 @@
             <br />
             <span>
                 <iframe frameborder=" 0" height="200" scrolling="no"
-                    src="https://playlist.megaphone.fm?e={{ article.megaphone_id|string|replace('"', '') }}&light=true"
+                    src="https://playlist.megaphone.fm?e={{ article.megaphone_id|string }}&light=true"
                     width="100%"></iframe>
             </span>
             {% elif article.audio_url %}

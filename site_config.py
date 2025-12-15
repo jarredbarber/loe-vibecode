@@ -46,10 +46,6 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 INDEX_SAVE_AS = 'index.html'
 
-# Direct templates
-DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'newsletter']
-NEWSLETTER_SAVE_AS = 'newsletter.html'
-
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['speaker_highlight', 'show_segments']

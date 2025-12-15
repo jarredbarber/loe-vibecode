@@ -28,7 +28,6 @@
                                 Week</a></li>
                         <li><a href="{{ SITEURL }}/archives.html">Archive</a></li>
                         <li><a href="#">Special Features</a></li>
-                        <li><a href="#">Blogs</a></li>
                         <li><a href="{{ SITEURL }}/newsletter.html">Newsletter</a></li>
                         <li><a href="{{ SITEURL }}/stations.html">Stations</a></li>
                         <li><a href="#">Events</a></li>
@@ -41,7 +40,9 @@
 
         <div class="content">
             <div class="content_resize">
-                {% block content %}{% endblock %}
+                <div class="mainbar">
+                    {% block content %}{% endblock %}
+                </div>
                 <div class="clr"></div>
             </div>
         </div>

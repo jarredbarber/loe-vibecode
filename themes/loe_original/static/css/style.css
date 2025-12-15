@@ -453,18 +453,11 @@ textarea {
 
 .body a {
     color: var(--primary-green);
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.body a:hover {
-    color: var(--primary-green-dark);
+    text-decoration: none;
 }
 
 .body a.silver {
     color: var(--text-lighter);
-    text-decoration: none;
-    font-weight: normal;
 }
 
 .body a.silver:hover {

@@ -74,10 +74,22 @@ Paloma's journey with environmentalism began in her home of Baja California, Mex
 
 Sophia Pandelidis joined Living on Earth in 2022 as an Editorial Intern with a degree in International Studies from Boston College. An animal lover from a young age, Sophia is especially drawn to pieces about the fascinating creatures that roam our earth. She is excited to use audio storytelling to ignite the public’s interest in conservation. When she is not producing, Sophia is performing on latin dance teams, singing, hiking, and playing with her cats.
 
----
-[Sailors For The Sea](https://www.sailorsforthesea.org)
-[The Grantham Foundation](https://www.granthamfoundation.org)
+## Funders
 
+Support for Living on Earth is provided by:
+
+- [Breckinridge Capital](http://www.breckenridge.com/)
+- [Barr Foundation](http://www.barrfoundation.org/)
+- [Grantham Foundation](http://www.granthamfoundation.org/)
+- [National Science Foundation](http://www.nsf.gov)
+- [Pax World Funds](http://www.paxworld.com/)
+- [The Richard and Rhoda Goldman Fund](http://www.goldmanfund.org/)
+- Gilman Ordway
+- [Stonyfield Farm](http://www.stonyfield.com/)
+- [Jennifer and Ted Stanley](http://www.stonyfield.com/)
+- [Public Radio International (PRI) Member Stations and their generous members. Thank you!](http://www.pri.org/)
+
+---
 
 **Mailing Address:**
 > Living on Earth

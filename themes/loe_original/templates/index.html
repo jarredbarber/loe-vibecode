@@ -35,7 +35,7 @@
                 <div class="featured-segments">
                     <strong>This Week:</strong>
                     {% for segment in latest.related_segments %}
-                    <a href="{{ SITEURL }}/{{ segment.url }}">{{ segment.title|strip_quotes }}</a>{% if not loop.last %}
+                    <a href="{{ SITEURL }}/{{ segment.url }}">{{ segment.title}}</a>{% if not loop.last %}
                     | {% endif %}
                     {% endfor %}
                 </div>

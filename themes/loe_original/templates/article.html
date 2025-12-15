@@ -12,9 +12,9 @@
 
             {% if article.image_url %}
             <figure class="header-image-container">
-                <img class="header-image" src="{{ article.image_url.strip('"') }}" alt="{{ article.title }}" />
+                <img class="header-image" src="{{ article.image_url }}" alt="{{ article.title }}" />
                 {% if article.image_caption %}
-                <figcaption>{{ article.image_caption.strip('"') }}</figcaption>
+                <figcaption>{{ article.image_caption }}</figcaption>
                 {% endif %}
             </figure>
             {% endif %}
@@ -27,10 +27,9 @@
             <br />
             <span>
                 <iframe frameborder=" 0" height="200" scrolling="no"
-                    src="https://playlist.megaphone.fm?e={{ article.megaphone_id.strip('"') }}&light=true"
-                    width="100%"></iframe>
-                </span>
-                {% elif article.audio_url %}
+                    src="https://playlist.megaphone.fm?e={{ article.megaphone_id }}&light=true" width="100%"></iframe>
+            </span>
+            {% elif article.audio_url %}
             <div class="audio">
                 <audio controls style="width: 100%;">
                     <source src="{{ article.audio_url }}" type="audio/mpeg">
@@ -44,9 +43,9 @@
             {{ article.content }}
         </div>
 
-    <p><a href="{{ SITEURL }}/index.html" class="silver">&larr; Back to Home</a></p>
-</div>
-<div class="clr"></div>
+        <p><a href="{{ SITEURL }}/index.html" class="silver">&larr; Back to Home</a></p>
+    </div>
+    <div class="clr"></div>
 </div>
 </div>
 {% endblock %}

@@ -62,7 +62,7 @@ def process_show_segments(generator):
                     length_text = str(length_text)
 
                 segment_data = {
-                    'title': target_article.title.strip('"'),
+                    'title': target_article.title,
                     'href': target_article.url,
                     'image_url': image_url,
                     'megaphone_id': megaphone_id,

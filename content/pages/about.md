@@ -26,6 +26,8 @@ Steve has been a journalist for more than 30 years with experience at NPR, CBS N
 
 ---
 
+<img src="/theme/img/jenni-headshot1.png" width=180 alt="Jenni Doering" style="float:right; margin-left:20px; margin-bottom:10px;">
+
 **Jenni Doering**
 *Managing Producer / hottie*
 
@@ -71,6 +73,7 @@ Aynsley joins Living on Earth from the Class of 2018 at Brandeis University, whe
 
 Paloma's journey with environmentalism began in her home of Baja California, Mexico where she grew up playing in her grandmother's orange orchard and beach camping with her family along the Gulf of California and the Pacific Ocean. She is passionate about stories involving ecojustice, indigenous communities and environmental policy. In her free time you can find her attempting to cook her grandma's recipes and exploring New England. She joins Living on Earth from the UMass Boston class of 2019, where she majored in Environmental Studies.
 
+---
 
 **Sophia Pandelidis**
 *Assistant Producer*

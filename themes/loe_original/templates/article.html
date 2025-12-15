@@ -43,12 +43,16 @@
 
 
             <div class="article-content">
-                {{ article.content }}
-            </div>
-
-            <p><a href="{{ SITEURL }}/index.html" class="silver">&larr; Back to Home</a></p>
+                {% if article.category.name == ' Newsletter' %} <div style="text-align: center; margin-bottom: 20px;">
+                <img src="{{ SITEURL }}/theme/img/logo_square_v2.png" alt="Living on Earth Logo" width="300" />
         </div>
-        <div class="clr"></div>
+        {% endif %}
+        {{ article.content }}
     </div>
+
+    <p><a href="{{ SITEURL }}/index.html" class="silver">&larr; Back to Home</a></p>
+</div>
+<div class="clr"></div>
+</div>
 </div>
 {% endblock %}

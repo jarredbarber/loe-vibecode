@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} - {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<div class="body">
+    <div class="body_resize">
+        <div class="left">
+            <h2>{{ article.title }}</h2>
+            <p class="clr"></p>
+            <p><strong>Date: {{ article.date|strftime('%B %d, %Y') }}</strong></p>
+
+            <div class="article-content">
+                <div style="text-align: center; margin-bottom: 20px;">
+                    <img src="{{ SITEURL }}/theme/img/logo_square_v2.png" alt="Living on Earth Logo" width="300" />
+                </div>
+                {{ article.content }}
+            </div>
+
+            <p><a href="{{ SITEURL }}/newsletter.html" class="silver">&larr; Back to Newsletters</a></p>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+{% endblock %}

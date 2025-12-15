@@ -3,3 +3,5 @@ markdown
 pyyaml
 pelican
 beautifulsoup4
+requests
+markdownify

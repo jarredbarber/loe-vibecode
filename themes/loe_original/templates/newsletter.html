@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} | {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<div class="body">
+    <div class="body_resize">
+        <div class="newsletter-content">
+            <h1>{{ page.title }}</h1>
+            {{ page.content }}
+        </div>
+
+        <div class="newsletter-archive">
+            <h2>Previous Newsletters</h2>
+            <ul class="archive-list">
+                {% for article in articles %}
+                {% if article.category.name == 'Newsletter' %}
+                <li>
+                    <span class="date">{{ article.date|strftime('%Y-%m-%d') }}</span> -
+                    <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+{% endblock %}

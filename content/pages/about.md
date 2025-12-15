@@ -97,9 +97,6 @@ Support for Living on Earth is provided by:
 > 100 Morrissey Boulevard
 > Boston, MA 02125
 
-### Social Networks
-[Follow @livingonearth](https://twitter.com/livingonearth)
-
 ### Contact Us
 Living on Earth
 62 Calef Highway, Suite 212

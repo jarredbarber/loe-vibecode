@@ -54,6 +54,7 @@ PLUGIN_PATHS = ['plugins']
 PLUGINS = ['speaker_highlight', 'show_segments']
 
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 def ordinal(n):
     if 11 <= (n % 100) <= 13:
@@ -69,7 +70,7 @@ def strip_quotes(value):
 
 def current_time(value, format_string):
     """Return current datetime formatted with the given string"""
-    return datetime.now().strftime(format_string)
+    return datetime.now(ZoneInfo('America/New_York')).strftime(format_string)
 
 JINJA_FILTERS = {
     'ordinal': ordinal, 

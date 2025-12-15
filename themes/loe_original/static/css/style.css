@@ -1661,3 +1661,126 @@ figcaption {
     font-size: 0.9em;
     font-style: italic;
 }
+
+/* Newsletter Styles - Added to improve form appearance */
+.newsletter-content {
+    max-width: 600px;
+    margin: 40px auto;
+    background: var(--bg-white);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-light);
+}
+
+.newsletter-content h2 {
+    font-size: 24px;
+    color: var(--primary-green);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.newsletter-content p {
+    text-align: center;
+    color: var(--text-medium);
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+#mc-embedded-subscribe-form .mc-field-group {
+    margin-bottom: 20px;
+}
+
+#mc-embedded-subscribe-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--text-dark);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#mc-embedded-subscribe-form input[type="email"],
+#mc-embedded-subscribe-form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-input);
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mc-embedded-subscribe-form input[type="email"]:focus,
+#mc-embedded-subscribe-form input[type="text"]:focus {
+    outline: none;
+    border-color: var(--primary-green);
+    box-shadow: 0 0 0 3px rgba(46, 90, 76, 0.1);
+}
+
+#mc-embedded-subscribe-form .button {
+    width: 100%;
+    background-color: var(--primary-green);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+#mc-embedded-subscribe-form .button:hover {
+    background-color: var(--primary-green-dark);
+}
+
+.indicates-required {
+    text-align: right;
+    font-size: 12px;
+    color: var(--text-light);
+    margin-bottom: 15px;
+}
+
+.asterisk {
+    color: var(--error-red);
+}
+
+.newsletter-archive {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.newsletter-archive h2 {
+    color: var(--text-dark);
+    border-bottom: 2px solid var(--border-light);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.archive-list {
+    list-style: none;
+    padding: 0;
+}
+
+.archive-list li {
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--border-light);
+}
+
+.archive-list .date {
+    color: var(--text-light);
+    font-family: monospace;
+    margin-right: 10px;
+}
+
+.archive-list a {
+    color: var(--primary-green);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.archive-list a:hover {
+    text-decoration: underline;
+}

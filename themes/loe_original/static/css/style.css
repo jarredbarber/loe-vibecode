@@ -1653,14 +1653,14 @@ figcaption {
 }
 
 /* Recent Shows Section */
-.recent-shows-header {
+.body .recent-shows-header {
     font-size: 1.8em;
     color: var(--primary-green);
     border-bottom: 2px solid var(--primary-green);
     padding-bottom: 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    width: 75%;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 100%;
 }
 
 .blog h3 {

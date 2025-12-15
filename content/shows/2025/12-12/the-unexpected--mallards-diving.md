@@ -6,6 +6,7 @@ megaphone_id: LOE3424644860
 image_url: https://loe.org/content/2025-12-12/MSL_dabbling.JPG
 image_caption: Mallards are dabbling ducks, meaning they feed mainly at the surface rather than by diving. (Photo: Mark Seth Lender)
 summary: Living on Earth’s Explorer-in-Residence, Mark Seth Lender provides a refuge for hungry ducks during hunting season. He also observed something remarkable: these “dabbling” ducks have learned to dive for the seed he offers them.
+length: 3:53
 ---
 
 ## Transcript
@@ -49,5 +50,3 @@ CURWOOD: Living on Earth’s Explorer in Residence, Mark Seth Lender.
  
 
 **[Explore more of Mark Seth Lender’s work.](https://marksethlender.com/the-decisive-sequence-mobile/)**
-
-##

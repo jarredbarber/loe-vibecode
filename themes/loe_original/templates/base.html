@@ -23,9 +23,7 @@
                 <div class="menu">
                     <ul>
                         <li><a href="{{ SITEURL }}/index.html" class="active">Home</a></li>
-                        <li><a
-                                href="{% set ns = namespace(found=false, url='#') %}{% for article in articles %}{% if not ns.found and article.template == 'show' %}{% set ns.found = true %}{% set ns.url = SITEURL ~ '/' ~ article.url %}{% endif %}{% endfor %}{{ ns.url }}">This
-                                Week</a></li>
+                        <li><a href="{{ SITEURL }}/{{ articles|get_latest_show_url }}">This Week</a></li>
                         <li><a href="{{ SITEURL }}/archives.html">Archive</a></li>
                         <li><a href="#">Special Features</a></li>
                         <li><a href="{{ SITEURL }}/newsletter.html">Newsletter</a></li>
@@ -50,8 +48,7 @@
 
         <div class="footer">
             <div class="footer_resize">
-                <a href="https://prx.org" target="_blank"
-                    style="position: absolute; right: 15%; top: 50%; transform: translateY(-50%);">
+                <a href="https://prx.org" target="_blank" class="footer-logo-prx">
                     <img src="{{ SITEURL }}/theme/img/PRX-Logo-Horizontal-Dark.svg" alt="Distributed by PRX"
                         style="height: 50px; width: auto;" />
                 </a>

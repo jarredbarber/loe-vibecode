@@ -3,12 +3,12 @@ from pelican import signals
 from bs4 import BeautifulSoup
 
 def process_show_segments(generator):
-    sys.stderr.write("DEBUG: process_show_segments called\n")
+    # sys.stderr.write("DEBUG: process_show_segments called\n")
     for article in generator.articles:
         if article.metadata.get('template') != 'show':
             continue
         
-        sys.stderr.write(f"DEBUG: Processing show article: {article.title}\n")
+        # sys.stderr.write(f"DEBUG: Processing show article: {article.title}\n")
         soup = BeautifulSoup(article._content, 'html.parser')
         
         found_segments = []
@@ -20,7 +20,7 @@ def process_show_segments(generator):
                 continue
                 
             href = link.get('href')
-            sys.stderr.write(f"DEBUG: Checking link href: {href}\n")
+            # sys.stderr.write(f"DEBUG: Checking link href: {href}\n")
             
             target_article = None
             for art in generator.articles:
@@ -46,7 +46,7 @@ def process_show_segments(generator):
                     break
             
             if target_article:
-                sys.stderr.write(f"DEBUG: Found target: {target_article.title}\n")
+                # sys.stderr.write(f"DEBUG: Found target: {target_article.title}\n")
                 found_segments.append(target_article)
                 
                 # Prepare context for template

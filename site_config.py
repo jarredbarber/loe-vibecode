@@ -75,7 +75,8 @@ def current_time(value, format_string):
 JINJA_FILTERS = {
     'ordinal': ordinal, 
     'strip_quotes': strip_quotes,
-    'current_time': current_time
+    'current_time': current_time,
+    'get_latest_show_url': lambda articles: next((a.url for a in articles if a.metadata.get('template') == 'show'), '#')
 }
 
 

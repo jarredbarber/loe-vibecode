@@ -236,8 +236,6 @@ This is configured to scrape years 1991-2022. The script:
 - Extracts transcripts and metadata
 - Creates Markdown files in `content/shows/`
 
-**⚠️ Important**: Only use the scraper to add content. Don't manually edit files in `content/shows/` that were created by the scraper, as they may be overwritten.
-
 ## 🐛 Troubleshooting
 
 ### Site Not Updating

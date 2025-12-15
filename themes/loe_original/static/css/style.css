@@ -548,11 +548,19 @@ textarea {
     }
 
     .blog {
-        width: 80%;
-        margin: 0;
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
         padding: 10px 15px;
-        float: left;
+        float: none;
     }
+}
+
+.single-column {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    width: auto;
 }
 
 .indextopthree {
@@ -1346,13 +1354,14 @@ audio {
 }
 
 .mainbar {
-    float: left;
-    width: 62.5%;
+    float: none;
+    width: 100%;
+    margin: 0 auto;
 }
 
 @media (min-width: 1000px) {
     .mainbar {
-        width: 600px;
+        width: 100%;
     }
 }
 
@@ -1544,7 +1553,10 @@ figcaption {
     margin-bottom: 40px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .featured-show h1 {

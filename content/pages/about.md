@@ -9,7 +9,9 @@ slug: about
 
 Living on Earth is located at the School for the Environment at the University of Massachusetts/Boston.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7fFLtQomj64" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display: block; margin: auto;" width="560"  height="315" src="https://www.youtube.com/embed/7fFLtQomj64" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ## Cast and Crew
 
@@ -24,6 +26,7 @@ Steve Curwood is Executive Producer and Host of *Living on Earth*. Steve created
 
 Steve has been a journalist for more than 30 years with experience at NPR, CBS News, the *Boston Globe*, WBUR-FM/Boston and WGBH-TV/Boston. He shared the 1975 Pulitzer Prize for Public Service as part of the *Boston Globe's* education team. Steve Curwood is also the recipient of the 2003 Global Green Award for Media Design, the 2003 David A. Brower Award from the Sierra Club for excellence in environmental reporting and the 1992 New England Environmental Leadership Award from Tufts University for his work on promoting environmental awareness. He is president of the World Media Foundation, Inc. A faculty associate of the Havard University Center for the Environment, he is also a professor of practice at UMass Boston. He lives in Southern New Hampshire on a small woodlot with his wife and family.
 
+---
 
 **Jenni Doering**
 *Managing Producer / hottie*
@@ -31,6 +34,8 @@ Steve has been a journalist for more than 30 years with experience at NPR, CBS N
 617-287-4121 | [jdoering@loe.org](mailto:jdoering@loe.org) | [Twitter @jennidoering](https://twitter.com/jennidoering)
 
 A member of the Living on Earth team since 2014, Jenni Doering enjoys producing stories on climate science, chemical exposure, and outdoor inclusivity. One of her favorite parts of the job is getting to meet and interview some of her nature writing heroes! She majored in Environmental Humanities at Whitman College in Walla Walla, WA and will always have a soft spot for the PNW. She now lives in Watertown, Massachusetts with two very fluffy kitties and enjoys biking, hiking, and gardening.
+
+---
 
 **Mark Kausch**
 *Director of Advancement and Program Strategy*
@@ -41,6 +46,7 @@ Mark’s four-decade long work in non-profit broadcast media has included work i
 
 In addition to his non-profit broadcast media work, Mark teaches viola da gamba and electric bass and double bass from his home in Minneapolis, MN and at several area universities. Mark is a graduate of St. Olaf College and the Peabody Institute of The Johns Hopkins University.
 
+---
 
 **Jake Rego**
 *Technical Director*
@@ -49,7 +55,7 @@ In addition to his non-profit broadcast media work, Mark teaches viola da gamba 
 
 Jacob Rego has been with Living On Earth since 2012. He is a graduate from Berklee College of Music where he studied music production and engineering as well as acoustics and electronics. The science of audio engineering is his passion. When he’s not at work, Jacob can be found designing his own music equipment, and recording / producing local talent.
 
-
+---
 
 **Aynsley O'Neill**
 *Producer*
@@ -58,6 +64,7 @@ Jacob Rego has been with Living On Earth since 2012. He is a graduate from Berkl
 
 Aynsley joins Living on Earth from the Class of 2018 at Brandeis University, where she graduated with a double major in Biology and Environmental Studies, as well as a minor in Hispanic Studies. She has a special place in her heart for communicating science of any kind, and especially loves reporting on new and exciting scientific discoveries. Aynsley spends much of her free time learning everything she can, whether it be American Sign Language, advanced knitting techniques, or obscure comic book lore.
 
+---
 
 **Paloma Beltran**
 *Associate Producer*

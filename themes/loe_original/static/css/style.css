@@ -168,7 +168,8 @@ html {
 
 @media (min-width: 1000px) {
     .header {
-        width: 960px;
+        max-width: 800px;
+        width: 100%;
         padding: 0;
         margin: 0 auto;
         display: flex;
@@ -222,16 +223,18 @@ html {
         margin: 0;
         width: auto;
         float: none;
+        text-align: center;
     }
 }
 
 .menu ul {
-    text-align: left;
+    text-align: center;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     list-style: none;
     border: 0;
-    float: left;
+    float: none;
+    display: inline-block;
 }
 
 .menu ul li {

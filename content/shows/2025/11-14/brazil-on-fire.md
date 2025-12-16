@@ -42,7 +42,7 @@ ASTRINI: Thank you for the invitation. It was a really pleasure. Thank you.
 
 ## Related Links
 
-**[*Reuters* | “Brazil’s Amazon Rainforest Fires in August Reach 14-Year High”](https://www.reuters.com/world/americas/brazils-amazon-rainforest-fires-august-reach-14-year-high-2024-09-01/)**
+**[*Reuters*  | “Brazil’s Amazon Rainforest Fires in August Reach 14-Year High”](https://www.reuters.com/world/americas/brazils-amazon-rainforest-fires-august-reach-14-year-high-2024-09-01/)**
 
  
 

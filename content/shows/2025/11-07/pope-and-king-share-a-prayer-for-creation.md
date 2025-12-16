@@ -82,11 +82,11 @@ CURWOOD: By the way, a documentary film titled Finding Harmony: A King’s Visio
 
  
 
-**[*Vatican News* | “King’s Visit ‘Confirms Closeness Between Catholic and Anglican Churches’”](https://www.vaticannews.va/en/vatican-city/news/2025-10/pope-leo-xiv-king-charles-iii-ecumenism-care-for-creation.html)**
+**[*Vatican News*  | “King’s Visit ‘Confirms Closeness Between Catholic and Anglican Churches’”](https://www.vaticannews.va/en/vatican-city/news/2025-10/pope-leo-xiv-king-charles-iii-ecumenism-care-for-creation.html)**
 
  
 
-**[*Vatican News* | “Pope: God Will Ask Us if We Have Cared for Our Common Home’”](https://www.vaticannews.va/en/pope/news/2025-10/pope-leo-xiv-ecological-conversion-begins-in-the-heart.html)**
+**[*Vatican News*  | “Pope: God Will Ask Us if We Have Cared for Our Common Home’”](https://www.vaticannews.va/en/pope/news/2025-10/pope-leo-xiv-ecological-conversion-begins-in-the-heart.html)**
 
  
 

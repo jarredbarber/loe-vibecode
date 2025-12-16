@@ -66,6 +66,6 @@ KUTTOTHARA: Thank you very much for having me, and thank you for the opportunity
 
 ## Related Links
 
-**[*IFRC* | “20 Tons of IFRC Humanitarian Aid Arrive in Santiago De Cuba Following Hurricane Melissa”](https://www.ifrc.org/press-release/20-tons-ifrc-humanitarian-aid-arrive-santiago-cuba-following-hurricane-melissa)**
+**[*IFRC*  | “20 Tons of IFRC Humanitarian Aid Arrive in Santiago De Cuba Following Hurricane Melissa”](https://www.ifrc.org/press-release/20-tons-ifrc-humanitarian-aid-arrive-santiago-cuba-following-hurricane-melissa)**
 
 ##

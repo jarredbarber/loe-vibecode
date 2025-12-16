@@ -8,7 +8,7 @@ image_caption:
 summary: Braiding Sweetgrass author Robin Wall Kimmerer is also the author of a 2024 book that continues her explorations of gift economies. Robin Wall Kimmerer joins Host Jenni Doering to share insights from The Serviceberry: Abundance and Reciprocity in the Natural World and how gift economies can offer an alternative to overconsumption.
 ---
 
-*The cover of *The Serviceberry* by Robin Wall Kimmerer beautifully encapsulates the book's themes of nature’s abundance and reciprocity. (Photo: Courtesy of Robin Wall Kimmerer)*
+*The cover of  *The Serviceberry*  by Robin Wall Kimmerer beautifully encapsulates the book's themes of nature’s abundance and reciprocity. (Photo: Courtesy of Robin Wall Kimmerer)*
 
 
 
@@ -46,7 +46,7 @@ KIMMERER: It is, yeah, the berries are dried and pounded, and elk or venison is 
 
 DOERING: Tell me about the connection here between this idea of a gift economy and the way that resources are shared in the natural world. Could you maybe trace the path of a serviceberry for us? Maybe the berry itself falls to the ground or gets eaten by a bird, and what happens next?
 
-![A portrait of Robin Wall Kimmerer, author of *The Serviceberry,* reflecting her deep connection to nature and ecological knowledge. (Photo: The John D. and Catherine T. MacArthur Foundation)](https://loe.org/content/2024-11-22/SERVICEBERRY_robin.jpg)
+![A portrait of Robin Wall Kimmerer, author of  *The Serviceberry,*  reflecting her deep connection to nature and ecological knowledge. (Photo: The John D. and Catherine T. MacArthur Foundation)](https://loe.org/content/2024-11-22/SERVICEBERRY_robin.jpg)
 
 KIMMERER: Well, I think it's important to preface that by talking about what I mean by “gift.” And a gift in my thinking, and this reflects a lot of ancestral teachings, a gift is something that we have not earned, and yet it comes to us, someone bestows it upon you. So let's follow the thread that you suggest, Jenni, of the growth of a serviceberry. The sun, the sun is the energy that animates all of it, and so all of that sunshine, through photosynthesis, turns into the body of the serviceberry. One could argue that the sun, the sun's energy, is a gift. We have not earned it, and yet it comes. But that gift of photosynthesis is then shared with others. It's shared with the larvae of those caterpillars that are eating the leaves. It's shared in the abundance of fruits that the robins and the cedar waxwings and the blackbirds are all coming to feast on. The gift is shared. It's passed on. And then, of course, those birds that are splattering bird poop all over the ground, all of that nitrogen, right, is feeding the food web below ground and building soil. The fox that comes and snatches one of those robins off the ground while it's all full of berries, the gift stays in motion. And so if we start with the premise that what life produces for us is a gift, it's all a gift economy.
 
@@ -80,7 +80,7 @@ KIMMERER: Thank you.
 
  
 
-**[Discover insightful reader reviews and more about *The Serviceberry* by Robin Wall Kimmerer](https://www.goodreads.com/book/show/208840291-the-serviceberry)**
+**[Discover insightful reader reviews and more about  *The Serviceberry*  by Robin Wall Kimmerer](https://www.goodreads.com/book/show/208840291-the-serviceberry)**
 
  
 

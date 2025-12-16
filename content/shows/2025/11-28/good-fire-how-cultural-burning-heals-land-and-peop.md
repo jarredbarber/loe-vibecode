@@ -68,7 +68,7 @@ CHRISTIANSON: Yeah, thanks for chatting with me.
 
 ## Related Links
 
-**[*Métis National Council* | Video: "Métis National Council Wildfire Workshop"](https://www.youtube.com/watch?v=fe45DiYvgd4)**
+**[*Métis National Council*  | Video: "Métis National Council Wildfire Workshop"](https://www.youtube.com/watch?v=fe45DiYvgd4)**
 
  
 

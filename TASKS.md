@@ -1,5 +1,7 @@
 # Open tasks
 
+Agent instructions: When working on a task, update the status of the task in this TASKS.md file. Add notes to a subheading under the task you are working on that could help future agents complete the task if you are having trouble.
+
 ## Task 1: Update support section
 
 - [x] Move "Support" content from Events page into "About Us" page under the "support us" section and remove duplicate contact info. Replace with a link to the support us section.

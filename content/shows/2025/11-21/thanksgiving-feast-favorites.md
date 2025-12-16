@@ -24,17 +24,13 @@ DOERING: And because this is an encore, longtime listeners will hear a familiar 
 
 CURWOOD: So, sit back, relax and enjoy this mouthwatering starter course from producer Aynsley O’Neill.
 
-O'
-
-NEILL: Yeah, I wanted to share my mother's pumpkin soup recipe, by way of Martha Stewart. You just cut up you know, two to three cups of pumpkin, simmer it with onion, garlic, salt, pepper, thyme, in either chicken or veggie broth. When that's all nice and tender, you puree the mixture, you got to be careful there because it's really hot, so be gentle with it. You return the pureed soup to the pot, and then you add some heavy whipping cream. Warm it first, so it doesn't curdle, and you serve it. And the Martha Stewart version suggests using a little mini pumpkin to serve it in.
+O'NEILL: Yeah, I wanted to share my mother's pumpkin soup recipe, by way of Martha Stewart. You just cut up you know, two to three cups of pumpkin, simmer it with onion, garlic, salt, pepper, thyme, in either chicken or veggie broth. When that's all nice and tender, you puree the mixture, you got to be careful there because it's really hot, so be gentle with it. You return the pureed soup to the pot, and then you add some heavy whipping cream. Warm it first, so it doesn't curdle, and you serve it. And the Martha Stewart version suggests using a little mini pumpkin to serve it in.
 
 ![](https://loe.org/content/2023-11-17/FOOD_pumpkinsoup.jpg)
 
 PANDELIDIS: Aww!
 
-O'
-
-NEILL: But we use mugs so that the family can walk around and mix and mingle before we sit down to the main course.
+O'NEILL: But we use mugs so that the family can walk around and mix and mingle before we sit down to the main course.
 
 DOERING: How cute.
 
@@ -58,9 +54,7 @@ DOERING: So speaking of stuffing, I think our Technical Director Jacob Rego who 
 
 REGO: Yeah, a recipe my family enjoys every year is Portuguese stuffing. It's a secret family recipe. But its key ingredient is a Portuguese sausage called chouriço. We never seem to have any leftovers, though, because it's a family favorite.
 
-O'
-
-NEILL: Ooh, tasty.
+O'NEILL: Ooh, tasty.
 
 CURWOOD: Mm, mm! That's so good. I've had food from where your family's from around New Bedford, Massachusetts. They put chouriço in almost everything and it makes it delicious. All right, let's turn now to our Director of Advancement and Program Strategy, Mark Kausch, who's famous for playing the double bass in symphony orchestras, but you have something else that's double for us today, Mark, I think?
 
@@ -68,9 +62,7 @@ CURWOOD: Mm, mm! That's so good. I've had food from where your family's from aro
 
 KAUSCH: Yes, double in a manner of speaking. Correct. At the front end of the pandemic, I reached out to my dad to say, hey, we're going to be trapped here in Minnesota, just the two of us, my wife and I. Can we have your twice baked potato recipe? He said sure. And it actually was one that he'd made up himself. It wasn't something that he found in a recipe book. And the more we got talking about it, the more it dawned on me that basically twice baked potatoes are kind of like making pizza or making nachos. You can kind of do whatever you want. Bake the potatoes, carve out the potatoes. Keep the potato skins as your bowls for later on. And then his recipe mashes in a bunch of butter, some scallions, bacon bits, with apologies to the vegans and vegetarians out there. But those are optional. And then you put it all back into the potato skins, and bake it for another 15-20 minutes. And I thought, well, this doesn't sound so hard, I can totally do this. And I was absolutely stunned at how complicated it turned out to be. And sadly, how I just couldn't quite do quite as well as dad did with his every-year recipe. I'm off the hook now because he's back at it. And I'm looking forward to his version and hoping that someday I'll do as well as he does. So, yeah.
 
-O'
-
-NEILL: You'll have to shadow him in the kitchen this time around.
+O'NEILL: You'll have to shadow him in the kitchen this time around.
 
 KAUSCH: There we go. Good thought.
 
@@ -116,9 +108,7 @@ DOERING: Kicking us off with dessert. I think we've got El Wilson. What have you
 
 WILSON: Yeah, in my family we use the leftover pie crust to make cinnamon scraps. All you do is roll the crust into a sheet, cover it with melted butter. And then sprinkle it with cinnamon and sugar. You roll it up, cut it into pieces, and throw in the oven. They come out looking like mini cinnamon rolls.
 
-O'
-
-NEILL: Mmm!
+O'NEILL: Mmm!
 
 CURWOOD: Oh, yeah, that sounds really tasty. I'll have to try that. Now, Sophia Pandelidis, another one of our producers, I think you have a related dessert in your family repertoire, n'est-ce pas?
 
@@ -128,9 +118,7 @@ PANDELIDIS: Yeah, that's funny, El. My family does almost the same thing. We rol
 
 WILSON: Cute!
 
-O'
-
-NEILL: I love that.
+O'NEILL: I love that.
 
 CURWOOD: Yeah, that gets to play with the nice thing about this feast part of the holiday, getting together with folks, is being together, cooking and making things. It's not just a meal. It's a gathering.
 
@@ -142,9 +130,7 @@ ARENBERG: Hmm. Don't get my mouth watering, please. I'll drip on the microphone.
 
 ![An open-faced cranberry pie. (Photo: Jennifer Pallian, Unsplash, Unsplash License)](https://loe.org/content/2023-11-17/FOOD_cranberrypie.jpg)
 
-O'
-
-NEILL: Ooh, beautiful.
+O'NEILL: Ooh, beautiful.
 
 DOERING: Wow.
 
@@ -170,9 +156,7 @@ REGO: Yeah, dessert that is required for our family's Thanksgiving is a homemade
 
 ARENBERG: Mm, mm!
 
-O'
-
-NEILL: Ooh. My family, we also always have a chocolate course. Now we don't make it from scratch. But some chocolates, some clementines, some eggnog is the perfect way to wrap it up.
+O'NEILL: Ooh. My family, we also always have a chocolate course. Now we don't make it from scratch. But some chocolates, some clementines, some eggnog is the perfect way to wrap it up.
 
 ![Our Technical Director Jacob Rego’s family loves making homemade fudge for Thanksgiving. (Photo: Rachel, Flickr, CC BY-NC 2.0)](https://loe.org/content/2023-11-17/FOOD_fudge.jpg)
 

@@ -10,9 +10,7 @@ summary: The 30th UN climate talks are underway in Belém, the “gateway to the
 
 ## Transcript
 
-O’
-
-NEILL: It’s Living on Earth, I’m Aynsley O’Neill.
+O’NEILL: It’s Living on Earth, I’m Aynsley O’Neill.
 
 BELTRAN: And I’m Paloma Beltran.
 

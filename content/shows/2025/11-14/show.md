@@ -1,14 +1,11 @@
 ---
-title: Energy Powers Democratic Wins, Earth’s Cryosphere On Thin Ice, Rights of Nature for Stingless Bees and more.
+title: Living on Earth: November 14, 2025
 date: 2025-11-14
 category: Shows
 template: show
 megaphone_id: LOE3027582526
-summary: November’s elections brought victories across the country for state and local Democratic candidates who pledged to address rising energy costs. Marianne Lavelle, Washington bureau chief for our media partner, Inside Climate News, joins Hosts Aynsley O’Neill and Paloma Beltran to talk about the challenges of meeting those promises the new Governors-elect of Virginia and New Jersey, and the newly elected Mayor of New York, will likely face.
-host: Paloma Beltran
-length: 52:00
-thumb_url: https://loe.org/content/2025-11-14/t-LAVELLE-Zohran_Mamdani.jpg
-banner_url: https://loe.org/content/2025-11-14/b-LAVELLE-Zohran_Mamdani.jpg
+image_url: https://loe.org/content/2025-11-14/t-LAVELLE-Zohran_Mamdani.jpg
+summary: November’s elections brought victories across the country for state and local Democratic candidates who pledged to address rising energy costs. Marianne Lavelle, Washington bureau chief for our media partner, Inside Climate News, joins Hosts Aynsley O’Neill and Paloma Beltran to talk about the challenges of meeting those promises the new Governors-elect of Virginia and New Jersey, and the newly elected Mayor of New York, will likely face. (12:18)
 ---
 
 ## Segments

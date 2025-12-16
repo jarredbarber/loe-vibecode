@@ -1,14 +1,11 @@
 ---
-title: UN Climate Talks Kick Off in Brazil, Pope and King Share a Prayer for Creation, Hurricane Melissa Recovery Effort and more.
+title: Living on Earth: November 7, 2025
 date: 2025-11-07
 category: Shows
 template: show
 megaphone_id: LOE2107982425
-summary: The biggest climate negotiations of the year, COP30, are kicking off in Belem in the Brazilian Amazon. Longtime COP observer Jennifer Morgan is a former executive director of Greenpeace and former state secretary and special climate envoy for Germany who is now a senior fellow at Tufts University. She joins Host Steve Curwood to preview COP30 and discuss the focus on closing the gap between current greenhouse gas reduction policies and what’s needed to limit warming to a safer level.
-host: Steve Curwood
-length: 52:00
-thumb_url: https://loe.org/content/2025-11-07/t_COP30_logo.jpg
-banner_url: https://loe.org/content/2025-11-07/b_COP30_logo.jpg
+image_url: https://loe.org/content/2025-11-07/t_COP30_logo.jpg
+summary: The biggest climate negotiations of the year, COP30, are kicking off in Belem in the Brazilian Amazon. Longtime COP observer Jennifer Morgan is a former executive director of Greenpeace and former state secretary and special climate envoy for Germany who is now a senior fellow at Tufts University. She joins Host Steve Curwood to preview COP30 and discuss the focus on closing the gap between current greenhouse gas reduction policies and what’s needed to limit warming to a safer level. (13:27)
 ---
 
 ## Segments

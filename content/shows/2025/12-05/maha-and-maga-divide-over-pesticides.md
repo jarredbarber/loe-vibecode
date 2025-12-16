@@ -98,7 +98,7 @@ CURWOOD: We reached out to the Trump Administration and the Make America Healthy
 
  
 
-**[*The New Lede*  | “Citing “Serious Ethical Concerns,” Journal Retracts Key Monsanto Roundup Safety Study”](https://www.thenewlede.org/2025/12/citing-serious-ethical-concerns-journal-retracts-key-monsanto-roundup-safety-study/)**
+**[*The New Lede* | “Citing “Serious Ethical Concerns,” Journal Retracts Key Monsanto Roundup Safety Study”](https://www.thenewlede.org/2025/12/citing-serious-ethical-concerns-journal-retracts-key-monsanto-roundup-safety-study/)**
 
  
 

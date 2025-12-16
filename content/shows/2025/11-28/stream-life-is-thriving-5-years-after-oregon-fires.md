@@ -10,9 +10,7 @@ summary: In 2020 Oregon faced its most destructive wildfire disaster, when more 
 
 ## Transcript
 
-O’
-
-NEILL: It’s Living on Earth, I’m Aynsley O’Neill.
+O’NEILL: It’s Living on Earth, I’m Aynsley O’Neill.
 
 DOERING: And I’m Jenni Doering.
 

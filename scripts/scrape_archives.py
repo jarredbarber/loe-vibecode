@@ -540,7 +540,42 @@ def parse_segment_page(url, show_metadata=None, title_hint=None):
         # Add newlines before Speakers to ensure they start a paragraph
         # Pattern: Newline (or start) + NAME:
         # Use \b to ensure we match whole words (MCKIBBEN not cKibben)
-        full_text = re.sub(r'(?<!\n\n)\b([A-Z]+):', r'\n\n\1:', full_text)
+        # BUT don't match if preceded by apostrophe (to preserve O'NEILL:)
+        full_text = re.sub(r"(?<!\n\n)(?<!['\u2019'])(\b[A-Z]+):", r'\n\n\1:', full_text)
+        
+        # NOW fix broken speaker names like "O'" on one line, "NEILL:" on next
+        # This must run AFTER the speaker separation above
+        # The apostrophe might be different character encodings (' vs ')
+        lines = full_text.split('\n')
+        fixed_lines = []
+        i = 0
+        while i < len(lines):
+            line = lines[i]
+            # Check if this line looks like an apostrophe fragment (O' or O' etc)
+            # Match: optional whitespace, then O, then any apostrophe-like char, then optional whitespace
+            if i + 1 < len(lines) and re.match(r"^\s*O[''`´]\s*$", line):
+                # Find the next non-empty line
+                next_idx = i + 1
+                while next_idx < len(lines) and lines[next_idx].strip() == '':
+                    next_idx += 1
+                
+                if next_idx < len(lines):
+                    next_line = lines[next_idx]
+                    # Combine: remove trailing/leading whitespace and join
+                    merged = line.strip() + next_line
+                    # Add the merged line
+                    fixed_lines.append(merged)
+                    # Skip all lines up to and including the merged line
+                    i = next_idx + 1
+                else:
+                    # No non-empty line found, just keep the O'
+                    fixed_lines.append(line)
+                    i += 1
+            else:
+                fixed_lines.append(line)
+                i += 1
+        
+        full_text = '\n'.join(fixed_lines)
         
         # Clean up any leading newlines left after removal
         data['content'] = full_text.strip()

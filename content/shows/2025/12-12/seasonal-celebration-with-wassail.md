@@ -3,10 +3,9 @@ title: Seasonal Celebration with Wassail
 date: 2025-12-12
 category: Segments
 megaphone_id: LOE6570365424
-banner_url: https://loe.org/content/2025-12-12/WASSAIL_mug.jpg
+image_url: https://loe.org/content/2025-12-12/WASSAIL_mug.jpg
 image_caption: A hot mug of wassail is a delicious beverage made of mulled cider, sometimes spiked with whiskey or rum. The beverage is commonly drunk during wassailing, a tradition where people going door-to-door, singing and offering a drink from the wassail bowl in exchange for gifts or visiting the apple orchards and singing to the trees to promote a bountiful harvest in the coming year. (Photo: Deckhand, Flickr, CC BY-NC-ND 2.0)
 summary: As a preview for next week’s Winter Solstice storytelling special, we feature a traditional “Wassail Song” with storyteller Diane Edgecomb.
-length: 2:03
 ---
 
 ## Transcript

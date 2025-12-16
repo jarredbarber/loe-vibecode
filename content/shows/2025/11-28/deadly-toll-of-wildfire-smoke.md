@@ -12,17 +12,13 @@ summary: Wildfire smoke is fouling air quality across the US with increasing reg
 
 DOERING: From PRX and the Jennifer and Ted Stanley studios at the University of Massachusetts Boston, this is Living on Earth. I’m Jenni Doering.
 
-O’
-
-NEILL: And I’m Aynsley O’Neill.
+O’NEILL: And I’m Aynsley O’Neill.
 
 Our show today focuses on fire, including the growing threats our society faces from extreme wildfire as the planet warms. But fire is a creative as well as destructive force, so we’ll spend time later in the show discussing the roles of fire in ecology and culture, as well as how we can help each other heal and recover from the collective trauma of living through these megafires.
 
 DOERING: Yeah, and it really is a collective trauma for many here in the U.S. I mean, whether or not you’ve found yourself in the direct path of a wildfire, chances are you have been in the widening path of wildfire smoke and experienced the scratchy throat, coughing, and burning eyes that exposure can bring.
 
-O’
-
-NEILL: Yeah, you know Jenni, I certainly remember a lot of extra throat clearing when we’ve recorded this show during some of those really smoky days!
+O’NEILL: Yeah, you know Jenni, I certainly remember a lot of extra throat clearing when we’ve recorded this show during some of those really smoky days!
 
 DOERING: Yes, me too. Wildfire smoke has become extremely noticeable anecdotally but also in the scientific data. And a September 2025 study published in Nature quantifies just how deadly that smoke can be in a warming world. The researchers found that around 40,000 Americans are dying from wildfire smoke every year, with more on the way as the planet warms. Here to talk to us about the study is senior author Dr. Marshall Burke, a professor in the Doerr School of Sustainability at Stanford University. Hi Marshall, and welcome to the show!
 

@@ -72,6 +72,6 @@ GEARINO: Thank you.
 
 ## Related Links
 
-**[*Inside Climate News*  | “A New Unifying Issue: Just About Everyone Hates Data Centers”](https://insideclimatenews.org/news/13112025/inside-clean-energy-just-about-everyone-hates-data-centers/)**
+**[*Inside Climate News* | “A New Unifying Issue: Just About Everyone Hates Data Centers”](https://insideclimatenews.org/news/13112025/inside-clean-energy-just-about-everyone-hates-data-centers/)**
 
 ##

@@ -4,37 +4,40 @@ slug: events
 status: published
 ---
 
-## Bridging Communities with Hope: An Environmental Justice Conference for All
 
-Register for free [on Eventbrite](https://www.eventbrite.com/e/bridging-communities-with-hope-an-environmental-justice-conference-for-all-tickets-1544644325759?aff=oddtdtcreator)!
+## Upcoming Events
 
-## Speakers include
-
-- **Dr. Robert (Bob) Bullard**, Father of Environmental Justice, Texas Southern University, Environmental Justice Movement advocate and environmental justice scholar
-- **Nalleli Cobo Uriarte**, Environmental Activist and Storyteller Winner of the 2022 Goldman Environmental Prize and was named on the 2022 Time 100 Next list.
-- **Dr. Marccus D. Hendricks**, Former Senior Advisor for Climate and Community Resilience at the White House, University of Maryland
-- **Daniel Blackman**, Former EPA Regional Administrator, Founder of Renaissance94 (Ren94)
-- **David Cash**, Former EPA New England regional administrator
-- **Dr. Ben Chavis**, Activist, author, journalist and chemist, President and CEO of the National Newspaper Publishers Association (NNPA), Serves on the Board of the National Association for Equal Opportunity in Higher Education (NAFEO)
-- **Monique Harden**, Former Director of Law and Policy and the Community Engagement Program Manager at the Deep South Center for Environmental Justice
-- **Crystal Johnson**, MA EEA Assistant Secretary of Environmental Justice
-
-## Livestreams
-
-- [Day 1 Livestream Link](https://youtube.com/live/9eUNZ3eaXU0?feature=share)
-- [Day 2 Livestream Link](https://youtube.com/live/GuP4Kxw1x_0?feature=share)
-
-### Hosted at UMass Boston by the [Center for Climate and Environmental Justice Media](https://cejm.media/), a collaboration between Living on Earth and UMass Boston School for the Environment
+There are no upcoming events at this time.
 
 ---
 
-## Check out our previous events
+## Previous Events
 
-### [Watch](https://fb.watch/doMLwCDULG/) our interview with The Hawk's Way author Sy Montgomery, or [listen](https://www.loe.org/shows/segments.html?programID=22-P13-00018&segmentID=4) to the edited audio
+### September 17-18, 2025: [Bridging Communities with Hope: An Environmental Justice Conference for All](https://www.eventbrite.com/e/bridging-communities-with-hope-an-environmental-justice-conference-for-all-tickets-1544644325759?aff=oddtdtcreator)
 
-### [Watch](https://www.facebook.com/watch/?v=1548110318907590) our interview with Underwater Wild author Craig Foster, or [listen](https://www.loe.org/shows/segments.html?programID=21-P13-00051&segmentID=3) to the edited audio
+Hosted at UMass Boston by the [Center for Climate and Environmental Justice Media](https://cejm.media/), a collaboration between Living on Earth and UMass Boston School for the Environment.
 
-### [Watch](https://www.facebook.com/117348464962280/videos/991315664983932) our interview with Guardians of the Trees author Kinari Webb, or [listen](https://loe.org/shows/segments.html?programID=21-P13-00045&segmentID=4) to the edited audio
+**Speakers included:**
+
+- **Dr. Robert (Bob) Bullard**, Father of Environmental Justice, Texas Southern University
+- **Nalleli Cobo Uriarte**, Environmental Activist and Storyteller, 2022 Goldman Environmental Prize Winner
+- **Dr. Marccus D. Hendricks**, Former Senior Advisor for Climate and Community Resilience at the White House
+- **Daniel Blackman**, Former EPA Regional Administrator
+- **David Cash**, Former EPA New England regional administrator
+- **Dr. Ben Chavis**, Activist, author, journalist and chemist
+- **Monique Harden**, Deep South Center for Environmental Justice
+- **Crystal Johnson**, MA EEA Assistant Secretary of Environmental Justice
+
+**Livestreams:**
+
+- [Day 1 Livestream](https://youtube.com/live/9eUNZ3eaXU0?feature=share)
+- [Day 2 Livestream](https://youtube.com/live/GuP4Kxw1x_0?feature=share)
+
+### May 2022: [Watch](https://fb.watch/doMLwCDULG/) our interview with *The Hawk's Way* author Sy Montgomery, or [listen](https://www.loe.org/shows/segments.html?programID=22-P13-00018&segmentID=4) to the edited audio
+
+### December 2021: [Watch](https://www.facebook.com/watch/?v=1548110318907590) our interview with *Underwater Wild* author Craig Foster, or [listen](https://www.loe.org/shows/segments.html?programID=21-P13-00051&segmentID=3) to the edited audio
+
+### November 2021: [Watch](https://www.facebook.com/117348464962280/videos/991315664983932) our interview with *Guardians of the Trees* author Kinari Webb, or [listen](https://loe.org/shows/segments.html?programID=21-P13-00045&segmentID=4) to the edited audio
 
 ---
 

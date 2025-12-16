@@ -86,7 +86,7 @@ TOMASSONI: Thank you so much for having me.
 
 ## Related Links
 
-**[*Inside Climate News* | “Defending Stingless Bees in the Peruvian Amazon”](https://insideclimatenews.org/news/22102025/peru-amazon-stingless-bees-rights/)**
+**[*Inside Climate News*  | “Defending Stingless Bees in the Peruvian Amazon”](https://insideclimatenews.org/news/22102025/peru-amazon-stingless-bees-rights/)**
 
  
 

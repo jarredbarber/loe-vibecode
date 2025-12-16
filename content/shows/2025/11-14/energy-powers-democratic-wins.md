@@ -132,14 +132,14 @@ LAVELLE: Thanks for having me.
 
 ## Related Links
 
-**[*Inside Climate News* | “Green Groups’ Election Takeaway: Focus on Trump Energy Agenda Costs”](https://insideclimatenews.org/news/05112025/democrat-election-victories-new-jersey-virginia-georgia/)**
+**[*Inside Climate News*  | “Green Groups’ Election Takeaway: Focus on Trump Energy Agenda Costs”](https://insideclimatenews.org/news/05112025/democrat-election-victories-new-jersey-virginia-georgia/)**
 
  
 
-**[*Inside Climate News* | “New York Climate Advocates Celebrate Mamdani’s Victory, Prepare to Hold Him Accountable”](https://insideclimatenews.org/news/05112025/new-york-climate-advocates-celebrate-zohran-mamdani-win/)**
+**[*Inside Climate News*  | “New York Climate Advocates Celebrate Mamdani’s Victory, Prepare to Hold Him Accountable”](https://insideclimatenews.org/news/05112025/new-york-climate-advocates-celebrate-zohran-mamdani-win/)**
 
  
 
-**[*Inside Climate News* | “With a Lock on State Government Control, Virginia Democrats Now Face Difficult Decisions on Data Centers and Renewable Energy”](https://insideclimatenews.org/news/05112025/virginia-democrats-government-control-data-centers-renewable-energy/)**
+**[*Inside Climate News*  | “With a Lock on State Government Control, Virginia Democrats Now Face Difficult Decisions on Data Centers and Renewable Energy”](https://insideclimatenews.org/news/05112025/virginia-democrats-government-control-data-centers-renewable-energy/)**
 
 ##

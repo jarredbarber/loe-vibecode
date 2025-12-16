@@ -1,5 +1,5 @@
 import urllib.request
-from bs4 import BeautifulSoup, NavigableString
+from bs4 import BeautifulSoup
 import re
 import ssl
 import os
@@ -27,14 +27,14 @@ def get_soup(url):
         return None
 
 def get_2025_show_map():
-    """Returns a dict of date_str (YYYY-MM-DD) -> {'url': url, 'title_suffix': str}"""
+    """Returns a dict of date_str (YYYY-MM-DD) -> show_url"""
     soup = get_soup(SHOWS_TOC_URL)
     if not soup:
         return {}
     
     show_map = {}
     
-    # TOC format: [Month Day, Year](link) - Segment A; Segment B ...
+    # TOC format: [Month Day, Year](link) ...
     # We find all links, check if text looks like a date
     for a in soup.find_all('a', href=True):
         text = a.get_text(strip=True)
@@ -53,32 +53,7 @@ def get_2025_show_map():
                      full_url = f"{BASE_URL}/shows/{full_url}"
                 
                 if 'programID=' in full_url:
-                     # Get Title Suffix
-                     # The parent paragraph contains the full line.
-                     # "October 24, 2025 - Title Text..."
-                     # We can get the parent text, remove the date string.
-                     parent = a.find_parent()
-                     if parent:
-                         full_line = parent.get_text(" ", strip=True) # Replace newlines/tags with space
-                         # Remove the date part
-                         # Pattern: ^Month Day, Year\s*[-–—]?\s*(.*)
-                         # Use strict replacement of the date text we found
-                         # Note: a.get_text might differ slightly from parent text spacing
-                         
-                         # Split by the date string?
-                         parts = full_line.split(date_str_pretty, 1)
-                         if len(parts) > 1:
-                             suffix = parts[1].strip()
-                             # Remove leading dashes/colons
-                             suffix = re.sub(r'^[-–—:\s]+', '', suffix)
-                             # Remove trailing "Living on Earth wants to hear from you..." garbage if present
-                             if "Living on Earth wants to hear from you" in suffix:
-                                 suffix = suffix.split("Living on Earth wants to hear from you")[0].strip()
-                             
-                             show_map[date_key] = {
-                                 'url': full_url,
-                                 'title_suffix': suffix
-                             }
+                     show_map[date_key] = full_url
             except Exception as e:
                 print(f"Failed to parse date {text}: {e}")
                 
@@ -131,56 +106,14 @@ def infer_image_urls(soup, metadata):
                  metadata['image_url'] = full_img_url
 
         # Caption
-        # Check immediate siblings (text nodes) after the image
-        # If image is wrapped in a link, we need to check the link's siblings
-        caption_node = img
-        if img.parent.name == 'a':
-             caption_node = img.parent
-             
-        caption_text = ""
-        curr = caption_node.next_sibling
-        while curr:
-            if isinstance(curr, NavigableString):
-                t = curr.strip()
-                if t:
-                    caption_text += " " + t
-            elif curr.name == 'br':
-                pass
-            elif curr.name in ['strong', 'b', 'h2', 'h3', 'div', 'a']: 
-                 # Stop at block/bold/link elements usually starting next section
-                 # But if we haven't found any text yet, and we hit a 'p', maybe that 'p' is the caption?
-                 # Ignoring 'a' because sometimes caption refers to "photo by [link]"
-                 # Actually, usually "Photo: [Link]" is part of caption. 
-                 # Let's handle 'a' if inline.
-                 if curr.name == 'a':
-                     # If we haven't found any text yet, assume this link is a TITLE or NAVIGATION headers, not a caption.
-                     if not caption_text.strip():
-                         break
-                         
-                     caption_text += " " + curr.get_text(strip=True)
-                     curr = curr.next_sibling # Continue after link
-                     continue
-                 
-                 break
-            elif curr.name == 'p':
-                 # If we haven't found text yet, check if this P is caption
-                 if not caption_text.strip():
-                      t = curr.get_text(strip=True)
-                      # Heuristic: Caption < 300 chars, Summary > 300 or starts with Strong?
-                      if len(t) < 400 and len(t) > 5 and "Air Date" not in t:
-                           caption_text = t
-                 break
-            
-            curr = curr.next_sibling
-            
-        if caption_text:
-             clean_cap = caption_text.strip()
-             if len(clean_cap) > 5 and len(clean_cap) < 400:
-                  metadata['image_caption'] = clean_cap
-             else:
-                  # Fallback to parent check if sibling check failed?
-                  # No, parent check was the one failing (too greedy).
-                  pass
+        # Check for caption in parent or next sibling
+        # Logic from scrape_archive.py
+        parent = img.find_parent()
+        if parent:
+             caption_text = parent.get_text(strip=True)
+             # Basic filter to avoid grabbing the whole article
+             if len(caption_text) < 400 and len(caption_text) > 5:
+                  metadata['image_caption'] = caption_text
 
 def extract_metadata(soup):
     metadata = {}
@@ -227,50 +160,39 @@ def extract_metadata(soup):
                  t = bold.get_text(strip=True)
                  if len(t) > 20 and "Air Date" not in t and "FULL SHOW" not in t:
                       metadata['summary'] = t
-                      
-    # Clean Summary (remove trailing length)
-    if 'summary' in metadata:
-        # Remove (MM:SS) at the end, optionally surrounded by whitespace
-        metadata['summary'] = re.sub(r'\s*\(\d{1,2}:\d{2}\)\s*$', '', metadata['summary'])
 
     # Length
     # Heuristic: Show length is usually around 52 mins (45-59).
-    # We want the FULL show length.
-    # Scan the entire text content for (MM:SS) patterns.
-    # Collect all valid lengths.
-    # Pick the usage that is > 45 mins.
-    # If multiple > 45, pick the max? Or the one that appears near "Full Show"?
-    if left_div:
-        all_text = left_div.get_text()
-        # Regex for (MM:SS) or (H:MM:SS)
-        # Note: sometimes it's just MM:SS without parens? Usually parens in LOE.
-        matches = re.findall(r'\((\d{1,2}:\d{2})\)', all_text)
-        
-        candidates = []
-        for m in matches:
-             parts = m.split(':')
-             minutes = int(parts[0])
-             if minutes >= 45 and minutes < 90: # reasonable show length
-                 candidates.append(m)
-        
-        if candidates:
-             # Take the largest one?
-             # If multiple > 45, pick the max.
-             candidates.sort(key=lambda x: int(x.split(':')[0]), reverse=True)
-             metadata['length'] = candidates[0]
-        else:
-             # Default to 52:00 if no full show length found
-             # This avoids showing the first segment's length (e.g. 13:27) as the show length.
-             metadata['length'] = "52:00"
-    else:
-        # Fallback if no left_div (unlikely)
-        metadata['length'] = "52:00"
-             
+    # Segment lengths are usually < 20.
+    # Look for (MM:SS) in text, prefer one that is > 45 mins?
+    # Or just don't extract if we aren't sure.
+    # Actually, often the show summary ends with (52:00) or similar.
+    # If we found a summary, check end of it.
+    if 'summary' in metadata:
+         len_match = re.search(r'\((\d{1,2}:\d{2})\)', metadata['summary'])
+         if len_match:
+             l = len_match.group(1)
+             # Check if it looks like a full show?
+             min_part = int(l.split(':')[0])
+             if min_part > 45:
+                  metadata['length'] = l
+    
+    # If not found in summary, scan first 1000 chars but only accept > 45 mins
+    if 'length' not in metadata:
+        if left_div:
+            all_text_start = left_div.get_text()[:3000]
+            # Find ALL matches
+            matches = re.findall(r'\((\d{1,2}:\d{2})\)', all_text_start)
+            for m in matches:
+                 min_part = int(m.split(':')[0])
+                 if min_part > 45:
+                      metadata['length'] = m
+                      break
+
     # Images
     infer_image_urls(soup, metadata)
     
     return metadata
-
 
 def update_show_md(filepath, metadata):
     with open(filepath, 'r') as f:
@@ -365,11 +287,6 @@ def update_show_md(filepath, metadata):
         if v: # Only update if we found something
             current_fm[k] = v
             
-    # Cleanup: If we have banner_url or thumb_url, remove legacy image_url
-    if 'banner_url' in current_fm or 'thumb_url' in current_fm:
-        if 'image_url' in current_fm:
-            del current_fm['image_url']
-            
     # Reconstruct
     new_content = "---\n"
     for k, v in current_fm.items():
@@ -380,63 +297,6 @@ def update_show_md(filepath, metadata):
         f.write(new_content)
         
     print(f"Updated {filepath}")
-
-def process_segment_markdown(filepath):
-    """
-    Parse a segment markdown file.
-    Look for a caption pattern at the top of the body:
-    *Caption text... (Photo: Credt)*
-    Move it to metadata.
-    """
-    with open(filepath, 'r') as f:
-        content = f.read()
-        
-    parts = content.split('---', 2)
-    if len(parts) < 3:
-        return
-        
-    fm_text = parts[1]
-    body = parts[2]
-    
-    # Check if caption is already in metadata
-    if "image_caption: " in fm_text and "image_caption: \n" not in fm_text:
-         # Already has a caption value?
-         # Check if it is empty string
-         pass
-
-    # Regex for caption at start of body
-    # Pattern: Optional whitespace, then *Caption...*
-    # We want to match until the asterisk followed by newline.
-    # Use non-greedy match (.+?) which works because internal asterisks are not followed by newline.
-    
-    caption_match = re.search(r'^\s*\*([\s\S]+?)\*\s*\n', body)
-    if caption_match:
-        raw_caption = caption_match.group(1).strip()
-        # Heuristic: Captions usually have "Photo" or are reasonably long but not too long
-        if "Photo" in raw_caption or "Credit" in raw_caption or len(raw_caption) > 10:
-             print(f"Found caption in {os.path.basename(filepath)}: {raw_caption[:30]}...")
-             
-             # Remove from body
-             body = body.replace(caption_match.group(0), "", 1).strip()
-             
-             # Update Frontmatter
-             current_fm = {}
-             for line in fm_text.strip().split('\n'):
-                 if ':' in line:
-                     k, v = line.split(':', 1)
-                     current_fm[k.strip()] = v.strip()
-             
-             current_fm['image_caption'] = raw_caption
-             
-             # Rebuild
-             new_content = "---\n"
-             for k, v in current_fm.items():
-                 new_content += f"{k}: {v}\n"
-             new_content += "---\n\n" + body
-             
-             with open(filepath, 'w') as f:
-                 f.write(new_content)
-             print(f"Updated segment {filepath}")
 
 def main():
     print("Building Map...")
@@ -451,7 +311,8 @@ def main():
         print(f"Directory {shows_dir} not found.")
         return
 
-    # Process SHOW files
+    # Find all show.md files
+    # pattern: content/shows/2025/*/show.md
     show_files = glob.glob(os.path.join(shows_dir, "*", "show.md"))
     
     for sf in show_files:
@@ -464,28 +325,14 @@ def main():
         print(f"\nProcessing {full_date}...")
         
         if full_date in show_map:
-            entry = show_map[full_date]
-            url = entry['url']
-            title_suffix = entry.get('title_suffix', '')
-            
+            url = show_map[full_date]
             soup = get_soup(url)
             if soup:
                 meta = extract_metadata(soup)
-                
-                if title_suffix:
-                    meta['title'] = title_suffix
-                
                 print(f"Extracted: {meta.keys()}")
                 update_show_md(sf, meta)
         else:
             print(f"No URL found for {full_date} in TOC (or mismatch)")
-            
-        # Process SEGMENT files in this directory
-        segment_files = glob.glob(os.path.join(parent, "*.md"))
-        for seg_file in segment_files:
-            if os.path.basename(seg_file) == "show.md":
-                continue
-            process_segment_markdown(seg_file)
 
 if __name__ == "__main__":
     main()

@@ -6,15 +6,15 @@
 <div class="body">
     <div class="body_resize">
         <div class="single-column">
-            <h2>{{ article.date|strftime('%B') }} {{ article.date.day|ordinal }}, {{
-                article.date|strftime('%Y') }}: {{ article.title }}</h2>
+            <h2>Living on Earth: {{ article.date|strftime('%B') }} {{ article.date.day|ordinal }}, {{
+                article.date|strftime('%Y') }}</h2>
             <p class="clr"></p>
             <p><strong>Air Date: {{ article.date|strftime('%B %d, %Y') }}</strong></p>
             {% if article.summary %}
             <p> {{article.summary}} </p>
             {% endif %}
 
-            {% if article.banner_url %}
+            {% if article.image_url %}
             <figure class="header-image-container">
                 <img class="header-image" src="{{ article.banner_url }}" alt="{{ article.title }}" />
                 {% if article.image_caption %}

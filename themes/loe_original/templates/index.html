@@ -20,8 +20,9 @@
                 </a></h2>
 
             <div class="featured-content">
-                {% if latest.image_url %}
-                <img src="{{ latest.image_url }}" alt="{{ latest.title }}" class="featured-image" />
+                {% if latest.banner_url or latest.image_url %}
+                <img src="{{ latest.banner_url|default(latest.image_url) }}" alt="{{ latest.title }}"
+                    class="featured-image" />
                 {% endif %}
 
                 {% if latest.host %}
@@ -56,8 +57,9 @@
                     {{ article.date|strftime('%B') }} {{ article.date.day|ordinal }}, {{ article.date|strftime('%Y') }}
                 </a></h3>
             <div class="clr"></div>
-            {% if article.image_url %}
-            <img src="{{ article.image_url }}" alt="{{ article.title }}" class="floated" width="150" />
+            {% if article.thumb_url or article.image_url or article.banner_url %}
+            <img src="{{ article.thumb_url|default(article.image_url)|default(article.banner_url) }}"
+                alt="{{ article.title }}" class="floated" width="150" />
             {% endif %}
             <p>{{ article.summary }}{% if article.length %} <span class="show-length">({{ article.length }})</span>{%
                 endif %}</p>

@@ -14,9 +14,9 @@
             <p> {{article.summary}} </p>
             {% endif %}
 
-            {% if article.image_url %}
+            {% if article.banner_url or article.image_url %}
             <figure class="header-image-container">
-                <img class="header-image" src="{{ article.banner_url }}" alt="{{ article.title }}" />
+                <img class="header-image" src="{{ article.banner_url|default(article.image_url) }}" alt="{{ article.title }}" />
                 {% if article.image_caption %}
                 <figcaption>{{ article.image_caption }}</figcaption>
                 {% endif %}

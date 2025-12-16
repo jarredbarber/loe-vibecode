@@ -36,7 +36,7 @@ jobs:
         env:
           SITEURL: /loe-vibecode/staging
         run: |
-          pelican content -s site_config.py
+          FAST_BUILD=true pelican content -s site_config.py
       
       - name: Deploy to staging (live branch, staging folder)
         uses: JamesIves/github-pages-deploy-action@v4

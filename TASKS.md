@@ -70,10 +70,68 @@ Agent instructions: When working on a task, update the status of the task in thi
 5. Consider adding brief descriptions under each series link
 6. For series without original images, could generate topic-related placeholder images
 
+### Scraping Process Learnings
+
+**URL Patterns & Navigation:**
+
+- The loe.org site has malformed URLs in HTML (e.g., `seriesseries.html` duplicates)
+- Always filter and deduplicate by ID rather than trusting href uniqueness
+- Use both `series.html?seriesID=X` and check for variations like `story.html?seriesID=X`
+- Segment URLs follow pattern: `segments.htm?programID=YY-P13-XXXXX&segmentID=N`
+  - YY is 2-digit year (06 = 2006, 97 = 1997, etc.)
+  - Can extract approximate dates from programID when published dates unavailable
+
+**Content Structure:**
+
+- Main content in `<div class="left">` or `<div class="leftt">`
+- Primary title usually in `<h3>`, fallback to `<h2>`
+- Images often detached from captions (caption in next paragraph)
+- Audio/download links appear as siblings to content links
+- Published dates in format: `Published: Month DD, YYYY`
+
+**Metadata Extraction Strategy:**
+
+1. Check series page for image/description first
+2. If missing, fetch first segment/part URL and extract from there
+3. Parse dates from:
+   - Explicit "Published:" text near links
+   - ProgramID patterns in URLs (2-digit year prefix)
+   - Default to 2000-01-01 for undated content to avoid current date
+4. Clean descriptions by removing navigation text, JavaScript notices
+
+**BeautifulSoup Best Practices:**
+
+- Always decompose `<script>`, `<style>`, navigation divs before processing
+- Use `.get_text(strip=True)` but preserve structure for multi-element content
+- Check multiple possible locations (h2, h3, first p) for titles/descriptions
+- Siblings and parent traversal needed for associated content (captions, dates)
+
+**Error Handling:**
+
+- SSL verification bypass required: `ctx.check_hostname = False`
+- Handle 404s gracefully (many old series IDs no longer exist)
+- Use `.get()` with defaults for optional metadata fields
+- Regex patterns should have fallbacks for parsing variations
+
+**Performance Considerations:**
+
+- Fetching segment pages for missing images adds ~2x time per series
+- 47 series took ~2-3 minutes with segment fallbacks
+- Could optimize by: caching responses, parallel requests, only checking segments when needed
+- For archives (1000s of shows), batch processing and progress tracking essential
+
+**Quality Checks Needed:**
+
+- Verify dates are reasonable (not all defaulting to today)
+- Check for empty content (title but no body)
+- Validate image URLs are accessible
+- Review description text for HTML artifacts or garbled content
+- Ensure special characters (é, &, etc.) handled correctly in YAML
+
 ## Task 4: Show migration script
 
 - Improve the show migration script to properly scrape the LoE archives
-- Migrate 2025 shows into the `content/shows` folder
-- Migrate pre-2025 shows into the `content/archives/shows/` folder
+- Migrate shows after 2025-10-31 into the `content/shows` folder
+- Migrate pre-2025 shows into the `content/_wip/shows/` folder. This _wip folder is in the .gitignore to prevent cluttering git with hundreds of files. We will move them into content/archives/ as a separate task. You can also use_wip to store temporary data such as scraper output.
 - Agent should download several shows/segments and compare them to target where different content/metadata is located in order to build a robust migration script.
 - Since the archives go back to 1991, be advised that older content may have slightly different metadata/formatting and/or be missing information.

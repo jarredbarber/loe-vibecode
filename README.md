@@ -10,284 +10,151 @@ Living on Earth is a weekly, hour-long, award-winning environmental news program
 
 ### Viewing the Live Site
 
-The site is published at: **https://jarredbarber.github.io/loe-vibecode/**
+The site is published at: **<https://jarredbarber.github.io/loe-vibecode/>**
 
-### Making Changes
+# How to Add a New Show
 
-1. **Edit content directly on GitHub**
-   - Navigate to the file you want to edit
-   - Click the pencil icon (✏️) to edit
-   - Make your changes
-   - Scroll down and click "Commit changes"
+This guide is for the Living on Earth team. It explains how to add the weekly show and its segments to the website using GitHub.
 
-2. **The site updates automatically**
-   - After you commit, GitHub Actions will rebuild the site
-   - Check the "Actions" tab to see the build progress
-   - Your changes will be live in 2-3 minutes
+## 1. Quick Start & Staging
 
-### Where Things Are
+**Everything you save here goes to the "Staging" site first.**
 
-```
-loe-vibecode/
-├── content/shows/        ← Show and episode content (Markdown files)
-│   └── 2024/
-│       └── 12-05/
-│           ├── show-2024-12-05.md
-│           └── episode-name.md
-├── themes/loe_original/  ← Website design and layout
-│   ├── static/css/       ← Styling (colors, fonts, layout)
-│   └── templates/        ← HTML templates
-└── site_config.py        ← Site settings
-```
+1. **Go to GitHub**: Navigate to the `content/shows/[year]` folder (e.g., `content/shows/2025`).
+2. **Create a Folder**: Click **Add file > Create new file**. Name it `MM-DD/show.md` (example: `12-19/show.md`).
+3. **Copy Template**: Paste the "Show Template" below into the file.
+4. **Save (Commit)**: When you click **Commit changes**, the Staging site automatically rebuilds.
+5. **Preview**: Check your work on the Staging URL (ask your web lead for the link) before it goes Live.
 
-## 📝 Editing Content
+---
 
-### Content Structure
+## 2. The Show File (`show.md`)
 
-Each weekly show has:
-- **One show page** (`show-YYYY-MM-DD.md`) - Overview with links to segments
-- **Multiple segment pages** - Individual stories/interviews
+This is the cover page for the episode.
 
-### Editing a Segment
+### Template
 
-1. Go to `content/shows/YEAR/MM-DD/`
-2. Find the segment file (e.g., `climate-policy-update.md`)
-3. Click the pencil icon to edit
-4. The file has two parts:
-
-**Frontmatter** (metadata at the top):
 ```yaml
 ---
-title: Climate Policy Update
-date: 2024-12-05
-category: Segments
+title: Living on Earth: December 19, 2025
+date: 2025-12-19
+category: Shows
+template: show
 megaphone_id: LOE1234567890
-summary: A summary of the segment
+image_url: https://loe.org/images/content/2025-12-19/cover.jpg
+summary: The full description of the show goes here.
 ---
+
+## Segments
+
+### [First Segment Title]({filename}segment-slug.md)
+
+### [Second Segment Title]({filename}another-segment.md)
 ```
 
-**Content** (below the `---`):
-```markdown
+### Key Fields (Frontmatter)
+
+| Field | Description | Example |
+| :--- | :--- | :--- |
+| **title** | The main headline. | `Living on Earth: December 19, 2025` |
+| **date** | Publish date (Year-Month-Day). | `2025-12-19` |
+| **megaphone_id** | The ID from the Megaphone platform. | `LOE1234567890` |
+| **summary** | Short paragraph for the homepage. | `A look at the UN Climate Summit...` |
+
+> **Important**: You must manually list the segments at the bottom using the exact format shown above.
+
+---
+
+## 3. The Segment Files
+
+Each story gets its own file in the same folder. Name them descriptively, using dashes (e.g., `climate-summit.md`).
+
+### Template
+
+```yaml
+---
+title: Climate Summit Reaches Agreement
+date: 2025-12-19
+category: Segments
+megaphone_id: LOE0987654321
+image_url: https://loe.org/images/content/2025-12-19/summit.jpg
+image_caption: Description of the image. (Photo: UN Photo)
+summary: A short summary of this specific segment.
+---
+
 ## Transcript
 
-CURWOOD: This is the transcript...
+HOST: Welcome back to Living on Earth.
+
+GUEST: It's great to be here.
+
+<!-- Example of how to add an image in the body text -->
+![A wind turbine in a field](https://loe.org/images/content/2025-12-19/wind-turbine.jpg)
+
+<!-- Example of a link -->
+For more information, visit the [UN Climate Change website](https://unfccc.int).
 ```
 
-5. Make your edits and commit
+---
 
-### Adding a New Segment
+## 4. Markdown cheat sheet
 
-1. Create a new file in the appropriate date folder
-2. Name it with lowercase and hyphens: `my-new-segment.md`
-3. Add the frontmatter and content
-4. Update the show page to link to it:
+* **Bold**: `**text**` → **text**
+* **Italics**: `*text*` → *text*
+* **Links**: `[Link Text](https://google.com)`
+* **Images**: `![Alt Text](ImageURL)`
+* **Headers**: `# Title` (Big), `## Section` (Medium), `### Sub-section` (Small)
 
-```markdown
-### [My New Segment]({filename}my-new-segment.md)
-```
+> **Advanced (HTML)**: You can also use standard HTML codes in these files. This is useful for **embedding videos** (like YouTube) or creating special layouts. Just paste the "Embed Code" (usually an `<iframe>` tag) directly into the text where you want it to appear.
 
-## 🎨 Editing the Design
+---
 
-### Changing Styles (CSS)
+## 5. Saving (Committing)
 
-Edit: `themes/loe_original/static/css/style.css`
+When you are done editing:
 
-Common changes:
-- **Colors**: Search for color codes like `#333` or `rgb()`
-- **Fonts**: Look for `font-family` or `font-size`
-- **Spacing**: Adjust `margin` and `padding` values
+1. Scroll to the bottom of the page.
+2. Write a message like "Add show for Dec 19".
+3. Click the green **Commit changes** button.
 
-### Modifying Templates (HTML)
+---
 
-Templates are in `themes/loe_original/templates/`:
+## 6. How This Website Works (Behind the Scenes)
 
-- `base.html` - Main layout, navigation, header/footer
-- `article.html` - Individual segment pages
-- `show.html` - Weekly show overview pages
-- `archives.html` - Archive listing page
-- `index.html` - Homepage
+You might wonder where the "Save" button is or why there isn't a normal CMS like WordPress.
 
-**Example: Changing the navigation menu**
+This is a **Static Site**.
 
-Edit `base.html` and find the `<nav>` or menu section:
-```html
-<li><a href="/archives.html">Archive</a></li>
-```
-
-## ⚙️ Site Configuration
-
-### Environment-Based Configuration
-
-The site URL is configured via environment variable to support different deployment targets:
-
-**Local development** (default):
-```bash
-pelican content -s site_config.py
-# SITEURL defaults to '' (empty string)
-```
-
-**GitHub Pages**:
-```bash
-SITEURL=/loe-vibecode pelican content -s site_config.py
-```
-
-**Production** (future):
-```bash
-SITEURL=https://loe.org pelican content -s site_config.py
-```
-
-### Other Settings
-
-Edit `site_config.py` to change:
-- `SITENAME` - Site title
-- `TIMEZONE` - Time zone for dates
-- `AUTHOR` - Site author
-
-## 🔄 How Publishing Works
-
-Every time you commit to the `main` branch:
-
-1. **GitHub Actions triggers** (see `.github/workflows/deploy.yml`)
-2. **Pelican builds the site** - Converts Markdown to HTML
-3. **Site deploys to GitHub Pages** - Goes live automatically
-
-You can watch this happen in the "Actions" tab.
-
-## 🧪 Testing Locally (Optional)
-
-If you want to preview changes before publishing:
-
-### Setup (One-time)
-
-```bash
-# Clone the repository
-git clone https://github.com/jarredbarber/loe-vibecode.git
-cd loe-vibecode
-
-# Create virtual environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Build and Preview
-
-```bash
-# Activate virtual environment
-source venv/bin/activate
-
-# Build the site
-pelican content -s site_config.py
-
-# Start local server
-pelican --listen
-```
-
-Visit `http://localhost:8000` in your browser.
-
-**Remember**: Set `SITEURL = ''` in `site_config.py` for local testing!
-
-## 📚 Understanding the Content System
-
-### Shows vs Segments
-
-- **Show** = One weekly broadcast (e.g., "December 5, 2024")
-- **Segment** = Individual story within a show (e.g., "AI Power Demand")
-
-Each show page lists its segments with links. The custom plugins automatically connect them.
-
-### Metadata Fields
-
-Common fields in frontmatter:
-
-- `title` - Segment or show title
-- `date` - Publication date (YYYY-MM-DD)
-- `category` - "Shows" or "Segments"
-- `template` - "show" or "article"
-- `megaphone_id` - Audio player ID
-- `image_url` - Featured image
-- `summary` - Brief description
-
-### Special Formatting
-
-**Speaker names** in transcripts are automatically highlighted:
-```
-CURWOOD: Welcome to Living on Earth.
-```
-
-**Music blocks** are formatted specially:
-```
-[MUSIC: Title, Artist, Album]
-```
-
-## 🛠️ Advanced: Web Scraping
-
-The `scrape_archives.py` script imports content from the original loe.org site.
-
-**To scrape content:**
-```bash
-python3 scrape_archives.py
-```
-
-This is configured to scrape years 1991-2022. The script:
-- Fetches show data from loe.org
-- Extracts transcripts and metadata
-- Creates Markdown files in `content/shows/`
-
-## 🐛 Troubleshooting
-
-### Site Not Updating
-
-1. Check the "Actions" tab for build errors
-2. Look for red ❌ marks indicating failures
-3. Click on the failed workflow to see error details
-
-### Broken Links
-
-- Make sure segment filenames match the links in show pages
-- Use `{filename}segment-name.md` format in links
-- Check that files are in the correct date folder
-
-### CSS Not Loading
-
-- Verify `SITEURL = '/loe-vibecode'` in `site_config.py`
-- Clear your browser cache
-- Check that CSS files are in `themes/loe_original/static/css/`
-
-### Local Preview Not Working
-
-- Make sure virtual environment is activated
-- Set `SITEURL = ''` (empty string) for local development
-- Run `pelican content -s site_config.py` to rebuild
+1. **Files vs. Database**: Instead of storing stories in a hidden database, every show and segment is a simple text file (`.md`) that you can see and touch.
+2. **The "Build" Process**: When you "Commit" (save) a file on GitHub, a robot wakes up. It reads all these text files and uses them to build the actual HTML webpages you see in your browser.
+3. **Speed & Security**: Because the final website is just simple pages (not a complex program running every time someone clicks a link), it is incredibly fast, very secure, and almost impossible to crash.
 
 ## 📖 Additional Resources
 
 ### Markdown Guide
 
-- [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-- Use `#` for headers, `**bold**`, `*italic*`
-- Links: `[text](url)`
-- Images: `![alt text](url)`
+* [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+* Use `#` for headers, `**bold**`, `*italic*`
+* Links: `[text](url)`
+* Images: `![alt text](url)`
 
 ### Pelican Documentation
 
-- [Pelican Docs](https://docs.getpelican.com/)
-- [Writing Content](https://docs.getpelican.com/en/stable/content.html)
-- [Theming](https://docs.getpelican.com/en/stable/themes.html)
+* [Pelican Docs](https://docs.getpelican.com/)
+* [Writing Content](https://docs.getpelican.com/en/stable/content.html)
+* [Theming](https://docs.getpelican.com/en/stable/themes.html)
 
 ### GitHub Pages
 
-- [GitHub Pages Docs](https://docs.github.com/en/pages)
-- [Custom Domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
+* [GitHub Pages Docs](https://docs.github.com/en/pages)
+* [Custom Domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 
 ## 🤝 Getting Help
 
-- Check the "Actions" tab for build errors
-- Review this README for common tasks
-- Look at existing content files as examples
-- Test changes locally before committing
+* Check the "Actions" tab for build errors
+* Review this README for common tasks
+* Look at existing content files as examples
+* Test changes locally before committing
 
 ## 📄 License
 

@@ -1382,10 +1382,87 @@ audio {
     border-bottom: 1px solid var(--border-light);
 }
 
+
 /* Speaker Highlight */
 .speaker {
     font-weight: bold;
     color: var(--text-medium);
+}
+
+/* Subtitle Styling for Homepage */
+
+/* Featured Date */
+.featured-show h2 {
+    font-size: 2.5em;
+    /* Made even larger (was 2.2em) */
+    color: var(--primary-green-dark);
+    margin-bottom: 5px;
+}
+
+.featured-show h2 a,
+.featured-show h2 a:visited {
+    color: var(--primary-green-dark);
+    text-decoration: none;
+}
+
+/* Featured Title (Subtitle) */
+.featured-show h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    /* Made even smaller (was 1.3em) */
+    font-weight: normal;
+    font-style: italic;
+    color: var(--primary-green-dark);
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.featured-show h3 a,
+.featured-show h3 a:visited {
+    color: var(--primary-green-dark);
+    text-decoration: none;
+}
+
+.featured-show h3 a:hover {
+    color: var(--primary-green);
+}
+
+/* Recent Shows Date */
+.blog h3 {
+    font-size: 1.8em;
+    /* Made even larger (was 1.6em) */
+    color: var(--primary-green-dark);
+    margin-bottom: 5px;
+}
+
+.blog h3 a,
+.blog h3 a:visited {
+    color: var(--primary-green-dark);
+    text-decoration: none;
+}
+
+/* Recent Shows Title (Subtitle) */
+.blog h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.0em;
+    /* Made even smaller (was 1.1em) */
+    font-weight: normal;
+    font-style: italic;
+    color: var(--primary-green-dark);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.blog h4 a,
+.blog h4 a:visited {
+    color: var(--primary-green-dark);
+    text-decoration: none;
+}
+
+.blog h4 a:hover {
+    color: var(--primary-green);
 }
 
 .transcript-block {
@@ -1792,6 +1869,7 @@ figcaption {
 .archive-list a:hover {
     text-decoration: underline;
 }
+
 /* --- Custom adjustments for Index Titles --- */
 
 /* Featured Show: pull title (h3) closer to date (h2) */

@@ -2,8 +2,8 @@ from PIL import Image
 
 
 def process_logo():
-    input_path = 'themes/loe_original/static/img/logo_rect_v3.jpg'
-    output_path = 'themes/loe_original/static/img/logo_rect_v3.png'
+    input_path = 'themes/loe_original/static/img/logo_rect_v5.jpg'
+    output_path = 'themes/loe_original/static/img/logo_rect_v5.png'
 
     try:
         img = Image.open(input_path)

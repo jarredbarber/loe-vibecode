@@ -23,14 +23,34 @@
         transition: fill 0.2s;
     }
 
-    #stations-map-container svg path.state-highlight {
-        fill: #88BDBD;
+    /* Highlight Active State Overlay */
+    /* Target the <use> elements created in the highlight overlay group */
+    #stations-map-container svg use.state_highlight {
+        fill: #88BDBD !important;
+        pointer-events: none;
+        /* Ensure clicks pass through to the path below */
+    }
+
+    /* Legacy/Direct Path Highlighting (if needed for fallback) */
+    #stations-map-container svg path.state-highlight,
+    #stations-map-container svg circle.state-highlight,
+    #stations-map-container svg path.state_highlight,
+    #stations-map-container svg circle.state_highlight {
+        fill: #88BDBD !important;
         /* Blue highlight */
     }
 
     #stations-map-container svg .borders {
         stroke: #ffffff;
         fill: none;
+        pointer-events: none;
+    }
+
+    /* Fix for SVG artifacts: border paths like 'nm-tx' inherit fill, causing grey shapes */
+    #stations-map-container svg path[class*="-"] {
+        fill: none !important;
+        stroke: #ffffff;
+        stroke-width: 1px;
         pointer-events: none;
     }
 
@@ -96,30 +116,47 @@
             // Add ID to svg if missing for CSS specificity
             mapSvg.id = 'us-map-svg';
 
-            const paths = mapSvg.querySelectorAll('path');
+            // Select both paths and circles (for DC)
+            const paths = mapSvg.querySelectorAll('path, circle');
             const classToStateName = {};
+
+            // Create highlight layer group (for z-index handling without DOM reordering)
+            const highlightGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            highlightGroup.setAttribute('id', 'highlight-overlay');
+            highlightGroup.style.pointerEvents = 'none'; // Critical for anti-flicker
+            mapSvg.appendChild(highlightGroup);
 
             // Pass 1: Find state names for classes
             paths.forEach(path => {
                 const title = path.querySelector('title');
                 const pathClass = path.getAttribute('class');
                 if (title && pathClass) {
-                    // Extract the base class (e.g. "mi" from "mi other-class") if needed,
-                    // but usually it's just one class or we assume the first one is the identifier.
-                    // The SVG structure seems to use single classes like "mi", "nm", etc.
-                    // We'll trust the class attribute for grouping.
                     const stateName = title.textContent.trim();
-                    if (!pathClass.includes('borders') && !pathClass.includes('separator')) {
-                        classToStateName[pathClass] = stateName;
-                    }
+                    const classes = pathClass.split(/\s+/);
+                    classes.forEach(cls => {
+                        // Strict check: only 2-letter codes or specific ignored classes
+                        if (cls && cls.length === 2 && !['st', 'bo', 'se'].includes(cls.toLowerCase())) {
+                            classToStateName[cls] = stateName;
+                        }
+                    });
                 }
             });
 
             // Pass 2: Assign data-state-name and add listeners
             paths.forEach(path => {
+                // Find state name from classes
+                let stateName = null;
                 const pathClass = path.getAttribute('class');
-                // Use the map to get the state name, or fallback to local title if valid
-                let stateName = classToStateName[pathClass];
+
+                if (pathClass) {
+                    const classes = pathClass.split(/\s+/);
+                    for (const cls of classes) {
+                        if (classToStateName[cls]) {
+                            stateName = classToStateName[cls];
+                            break;
+                        }
+                    }
+                }
 
                 if (!stateName) {
                     const title = path.querySelector('title');
@@ -128,14 +165,41 @@
                     }
                 }
 
-                if (stateName && !path.classList.contains('borders') && !path.classList.contains('separator')) {
+                // Exclude borders and separators explicitly
+                if (stateName && pathClass && !pathClass.includes('borders') && !pathClass.includes('separator')) {
+
+                    // Assign unique ID if missing (needed for <use> href)
+                    if (!path.id) {
+                        path.id = 'map-path-' + Math.random().toString(36).substr(2, 9);
+                    }
+
                     path.setAttribute('data-state-name', stateName);
 
                     path.addEventListener('mouseenter', () => {
                         const safeStateName = stateName.replace(/"/g, '\\"');
-                        const stateParts = mapSvg.querySelectorAll(`path[data-state-name="${safeStateName}"]`);
+                        const stateParts = mapSvg.querySelectorAll(`[data-state-name="${safeStateName}"]`);
 
-                        stateParts.forEach(part => part.classList.add('state-highlight'));
+                        // Clear previous highlights
+                        while (highlightGroup.firstChild) {
+                            highlightGroup.removeChild(highlightGroup.firstChild);
+                        }
+
+                        stateParts.forEach(part => {
+                            // Create explicit clones (not <use>) to guarantee style override
+                            // <use> shadow DOM often resists styling if the original has classes
+                            const clone = part.cloneNode(true);
+                            clone.removeAttribute('id'); // Avoid ID conflicts
+                            clone.removeAttribute('class'); // Strip original classes to avoid interfering styles
+
+                            // Force highlight styles directly
+                            clone.style.setProperty('fill', '#88BDBD', 'important');
+                            clone.style.setProperty('stroke', '#ffffff', 'important');
+                            clone.style.setProperty('stroke-width', '1px', 'important');
+                            clone.style.pointerEvents = 'none'; // Critical for anti-flicker
+                            clone.classList.add('state_highlight'); // For good measure
+
+                            highlightGroup.appendChild(clone);
+                        });
 
                         if (stationMap[stateName]) {
                             displayDiv.innerHTML = `<h3>${stateName}</h3>${stationMap[stateName]}`;
@@ -145,19 +209,13 @@
                     });
 
                     path.addEventListener('mouseleave', () => {
-                        const safeStateName = stateName.replace(/"/g, '\\"');
-                        const stateParts = mapSvg.querySelectorAll(`path[data-state-name="${safeStateName}"]`);
-                        stateParts.forEach(part => part.classList.remove('state-highlight'));
+                        // Clear highlights
+                        while (highlightGroup.firstChild) {
+                            highlightGroup.removeChild(highlightGroup.firstChild);
+                        }
                     });
                 }
             });
-
-            // Optional: Reset on mouse leave of the whole map
-            /*
-            mapSvg.addEventListener('mouseleave', () => {
-                displayDiv.innerHTML = '<h3>Select a State</h3><p>Hover over a state to see available stations.</p>';
-            });
-            */
         }
     });
 </script>

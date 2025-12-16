@@ -153,3 +153,14 @@ Agent instructions: When working on a task, update the status of the task in thi
 - [x] The segment thumbnails are not showing up on the show pages.
 - [x] Investigate this and update the templates.
 - [x] DO NOT change any of the markdown files or any files in content/. Another agent is working on those and you will have conflicts.
+
+## Task 6: Documentation
+
+- Create a file called WORKFLOW.md
+- Document in detail the workflow to create a new weekly show with however many segments.
+- Assume the user is fairly non-technical. They are not engineers, they odn't have STEM degrees. They will probably just edit Markdown on github.
+- Explain just enough about how git works for them to be able to add content
+- Explain basic markdown syntax for headers, bold, italics, links, lists, images, etc.
+- Explain the frontmatter schema
+- When you are done, do a second pass to make sure that it is clear and not too verbose.
+- When you are done, do a third pass to make sure that it is clear and not too verbose.

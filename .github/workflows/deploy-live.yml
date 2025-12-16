@@ -1,0 +1,44 @@
+name: Deploy to Live
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+permissions:
+  contents: write  # Need write permission to push to gh-pages branch
+
+# Allow only one concurrent live deployment
+concurrency:
+  group: "live-deploy"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install pelican beautifulsoup4 requests markdown
+      
+      - name: Build site for live
+        env:
+          SITEURL: /loe-vibecode
+        run: |
+          pelican content -s site_config.py
+      
+      - name: Deploy to live branch (root)
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+          branch: live
+          clean: true
+          clean-exclude: staging  # Protect the staging folder from being wiped

@@ -1,5 +1,5 @@
 ---
-trigger: always_on
+trigger: model_decision
 description: working with show or segment content files, or archive scraping.
 ---
 
@@ -39,7 +39,3 @@ Some older years may not have complete metadata.
 I have metadata fields for both a banner URL and a thumbnail URL, but I'm not sure if there are more versions of the banner image present in the pages. We can revise the schema if needed.
 
 Each show.md contains metadata and links to the segments in the order that they appear in the main show audio. Each segment contains a transcript and possibly other things like a section of links.
-
-
-
-

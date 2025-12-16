@@ -4,11 +4,12 @@ slug: events
 status: published
 ---
 
-# Bridging Communities with Hope: An Environmental Justice Conference for All
+## Bridging Communities with Hope: An Environmental Justice Conference for All
 
-Register for free [here!](https://www.eventbrite.com/e/bridging-communities-with-hope-an-environmental-justice-conference-for-all-tickets-1544644325759?aff=oddtdtcreator)
+Register for free [on Eventbrite](https://www.eventbrite.com/e/bridging-communities-with-hope-an-environmental-justice-conference-for-all-tickets-1544644325759?aff=oddtdtcreator)!
 
-## Speakers include:
+## Speakers include
+
 - **Dr. Robert (Bob) Bullard**, Father of Environmental Justice, Texas Southern University, Environmental Justice Movement advocate and environmental justice scholar
 - **Nalleli Cobo Uriarte**, Environmental Activist and Storyteller Winner of the 2022 Goldman Environmental Prize and was named on the 2022 Time 100 Next list.
 - **Dr. Marccus D. Hendricks**, Former Senior Advisor for Climate and Community Resilience at the White House, University of Maryland
@@ -19,6 +20,7 @@ Register for free [here!](https://www.eventbrite.com/e/bridging-communities-with
 - **Crystal Johnson**, MA EEA Assistant Secretary of Environmental Justice
 
 ## Livestreams
+
 - [Day 1 Livestream Link](https://youtube.com/live/9eUNZ3eaXU0?feature=share)
 - [Day 2 Livestream Link](https://youtube.com/live/GuP4Kxw1x_0?feature=share)
 
@@ -26,7 +28,7 @@ Register for free [here!](https://www.eventbrite.com/e/bridging-communities-with
 
 ---
 
-## Check out our previous events:
+## Check out our previous events
 
 ### [Watch](https://fb.watch/doMLwCDULG/) our interview with The Hawk's Way author Sy Montgomery, or [listen](https://www.loe.org/shows/segments.html?programID=22-P13-00018&segmentID=4) to the edited audio
 
@@ -36,15 +38,4 @@ Register for free [here!](https://www.eventbrite.com/e/bridging-communities-with
 
 ---
 
-## Support Living on Earth
-
-If you are interested in [purchasing](https://bookshop.org/shop/livingonearth) any of the books above or any of the books we cover on Living on Earth...
-
-One option is to use Bookshop, which Living on Earth is partnering with. If you use our [link](https://bookshop.org/shop/livingonearth), 10% supports Living on Earth, and an additional 10% supports independent bookstores. LOE maintains editorial independence & Bookshop and book sales have no role in book selection.
-
-## Living on Earth wants to hear from you!
-Living on Earth  
-62 Calef Highway, Suite 212  
-Lee, NH 03861  
-Telephone: 617-287-4121  
-E-mail: comments@loe.org
+For support options or to contact us, please visit our [About Us]({filename}about.md) page.

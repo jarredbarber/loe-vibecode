@@ -13,6 +13,12 @@ Living on Earth is located at the School for the Environment at the University o
 
 Living on Earth is an independent media program and relies entirely on contributions from listeners and institutions supporting public service. Please [donate now]({filename}donate.md) to preserve an independent environmental voice.
 
+### Bookshop Support
+
+If you are interested in purchasing books we cover on Living on Earth...
+
+One option is to use Bookshop, which Living on Earth is partnering with. If you use [our Bookshop link](https://bookshop.org/shop/livingonearth), 10% supports Living on Earth, and an additional 10% supports independent bookstores. LOE maintains editorial independence & Bookshop and book sales have no role in book selection.
+
 ## Cast and Crew
 
 <img src="{static}/images/staff/steve-curwood.gif" alt="Steve Curwood" style="float:left; margin-right:20px; margin-bottom:10px;">

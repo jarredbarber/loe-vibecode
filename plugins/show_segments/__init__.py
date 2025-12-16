@@ -50,7 +50,7 @@ def process_show_segments(generator):
                 found_segments.append(target_article)
                 
                 # Prepare context for template
-                image_url = target_article.metadata.get('banner_url') or target_article.metadata.get('Image_url') or ''
+                image_url = target_article.metadata.get('banner_url') or target_article.metadata.get('Image_url') or target_article.metadata.get('image_url') or ''
                 image_url = image_url.strip('"')
 
                 megaphone_id = target_article.metadata.get('megaphone_id') or target_article.metadata.get('Megaphone_id') or ''
@@ -64,7 +64,7 @@ def process_show_segments(generator):
                 segment_data = {
                     'title': target_article.title,
                     'href': target_article.url,
-                    'image_url': image_url,
+                    'banner_url': image_url,
                     'megaphone_id': megaphone_id,
                     'summary': summary_text,
                     'length': length_text

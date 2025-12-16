@@ -135,3 +135,10 @@ Agent instructions: When working on a task, update the status of the task in thi
 - Migrate pre-2025 shows into the `content/_wip/shows/` folder. This _wip folder is in the .gitignore to prevent cluttering git with hundreds of files. We will move them into content/archives/ as a separate task. You can also use_wip to store temporary data such as scraper output.
 - Agent should download several shows/segments and compare them to target where different content/metadata is located in order to build a robust migration script.
 - Since the archives go back to 1991, be advised that older content may have slightly different metadata/formatting and/or be missing information.
+- Work on the recent 2025 shows first, double-check everything, and then we can start working backwards to earlier years.
+
+## Task 5: Fix segment images
+
+- [x] The segment thumbnails are not showing up on the show pages.
+- [x] Investigate this and update the templates.
+- [x] DO NOT change any of the markdown files or any files in content/. Another agent is working on those and you will have conflicts.

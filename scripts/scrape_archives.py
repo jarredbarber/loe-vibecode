@@ -610,8 +610,21 @@ def process_show_page(soup, metadata):
     
     print(f"Found {len(segments_list)} segments for {metadata['date']}")
     
-    out_dir = f"content/archive/shows/{metadata['year']}/{metadata['month_day']}"
+    # Determine output directory based on date
+    # Shows after 2025-10-31 go to content/shows/
+    # Earlier shows go to content/_wip/shows/
+    show_date = datetime.strptime(metadata['date'], '%Y-%m-%d')
+    cutoff_date = datetime(2025, 10, 31)
+    
+    if show_date > cutoff_date:
+        base_dir = "content/shows"
+    else:
+        base_dir = "content/_wip/shows"
+    
+    out_dir = f"{base_dir}/{metadata['year']}/{metadata['month_day']}"
     os.makedirs(out_dir, exist_ok=True)
+    
+    print(f"Output directory: {out_dir}")
     
     # Process Segments
     segment_filenames = []
@@ -682,7 +695,7 @@ def process_show_page(soup, metadata):
                  f.write(seg_data['content'])
 
     # Write Show File
-    show_filename = f"show-{metadata['date']}.md"
+    show_filename = "show.md"  # Changed from show-{date}.md to match existing structure
     show_filepath = f"{out_dir}/{show_filename}"
     
     with open(show_filepath, 'w') as f:
@@ -740,13 +753,11 @@ def main(year):
             print(f"Skipping show {date_str} (not {year})")
 
 if __name__ == "__main__":
-    # Process years 1991-2022 in descending order
-    for year in range(2025, 2023, -1):
-        print(f"\n{'='*60}")
-        print(f"Starting scrape for year {year}")
-        print(f"{'='*60}\n")
-        main(year)
-        print(f"\n{'='*60}")
-        print(f"Completed scrape for year {year}")
-        print(f"{'='*60}\n")
-
+    # Process only 2025 for now
+    print(f"\n{'='*60}")
+    print(f"Starting scrape for year 2025")
+    print(f"{'='*60}\n")
+    main(2025)
+    print(f"\n{'='*60}")
+    print(f"Completed scrape for year 2025")
+    print(f"{'='*60}\n")

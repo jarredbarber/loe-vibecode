@@ -164,3 +164,11 @@ Agent instructions: When working on a task, update the status of the task in thi
 - Explain the frontmatter schema
 - When you are done, do a second pass to make sure that it is clear and not too verbose.
 - When you are done, do a third pass to make sure that it is clear and not too verbose.
+
+## Task 7: Pitch deck
+
+- I want you to create a new file, PITCH.md, that is a "sales pitch" for why this site is better than the existing loe.org from a technical perspective. loe.org stores everything in some database and dynamically renders pages, and users need to manually input HTML for every story/segment into a text box. Look through the main loe.org HTML to see if you spot anything else that is useful for your pitch.
+
+- Assume the reader is non-technical. They are not an engineer, they odn't have STEM degrees, and they don't have a background in web development.
+
+- When you are done, do a second pass to make sure that it is clear and not too verbose.

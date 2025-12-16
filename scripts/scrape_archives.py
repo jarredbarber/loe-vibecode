@@ -4,6 +4,137 @@ import re
 import ssl
 import os
 from datetime import datetime
+from bs4 import Comment
+
+block_tags = ['p', 'div', 'blockquote', 'figure', 'ul', 'ol', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li']
+
+def process_children_to_markdown(children):
+    parts = []
+    children = list(children)
+    i = 0
+    while i < len(children):
+        child = children[i]
+        
+        # Check for Image to see if we can merge a caption
+        is_image = False
+        img_node = None
+        if hasattr(child, 'name') and child.name == 'img':
+            is_image = True
+            img_node = child
+        
+        if is_image and img_node:
+            src = img_node.get('src', '')
+            if src:
+                # Resolve relative URLs
+                if src.startswith('/'):
+                    src = f"https://loe.org{src}"
+                elif not src.startswith('http'):
+                    src = f"https://loe.org/shows/{src}"
+                
+                caption_text = ""
+                
+                # Look ahead for caption
+                lookahead_idx = i + 1
+                while lookahead_idx < len(children):
+                     next_elem = children[lookahead_idx]
+                     next_md = element_to_markdown(next_elem).strip()
+                     
+                     if not next_md:
+                         lookahead_idx += 1
+                         continue
+                     
+                     # Heuristic for caption
+                     if len(next_md) < 600 and ("Photo" in next_md or "Credit" in next_md or next_md.startswith('*')):
+                         caption_text = next_md
+                         
+                         # Normalize caption
+                         if caption_text.startswith('*') and caption_text.endswith('*'):
+                             caption_text = caption_text[1:-1]
+                         caption_text = caption_text.replace('\n', ' ').replace('[', '(').replace(']', ')')
+                         
+                         i = lookahead_idx
+                         break
+                     else:
+                         break
+                
+                parts.append(f"\n\n![{caption_text}]({src})\n\n")
+                i += 1
+                continue
+        
+        # Helper to get markdown of a child
+        child_md = element_to_markdown(child)
+        parts.append(child_md)
+        i += 1
+        
+    return "".join(parts)
+
+def element_to_markdown(element):
+    if element is None: return ""
+    
+    # Skip comments
+    if isinstance(element, Comment):
+        return ""
+        
+    # Handle NavigableString
+    if isinstance(element, str): # NavigableString inherits from str
+        if element.strip() == "": return str(element) # Keep significant whitespace?
+        return str(element)
+        
+    # Check if it's a tag
+    if not hasattr(element, 'name'):
+        return str(element)
+        
+    # Skip noise tags
+    if element.name in ['script', 'style', 'noscript']:
+        return ""
+        
+    # Handle Links
+    if element.name == 'a':
+        href = element.get('href', '')
+        text = process_children_to_markdown(element.children).strip()
+        if not text: return "" # Skip empty links
+        
+        # Resolve relative URLs
+        if href.startswith('/'):
+            href = f"https://loe.org{href}"
+        return f"[{text}]({href})"
+        
+    # Handle Images (Standalone check, usually handled by process_children)
+    if element.name == 'img':
+        src = element.get('src', '')
+        alt = element.get('alt', '')
+        if src:
+            if src.startswith('/'):
+                 src = f"https://loe.org{src}"
+            elif not src.startswith('http'):
+                 src = f"https://loe.org/shows/{src}"
+            return f"\n\n![{alt}]({src})\n\n"
+        return ""
+        
+    # Formatting
+    inner_text = process_children_to_markdown(element.children)
+    
+    if element.name == 'p':
+        return f"\n\n{inner_text.strip()}\n\n"
+    if element.name == 'br':
+        return "\n\n"
+    if element.name in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
+        level = int(element.name[1])
+        return f"\n{'#' * level} {inner_text.strip()}\n\n"
+    if element.name in ['em', 'i', 'cite']:
+        prefix = " " if inner_text.startswith(" ") else ""
+        suffix = " " if inner_text.endswith(" ") else ""
+        return f"{prefix}*{inner_text.strip()}*{suffix}"
+    if element.name in ['strong', 'b']:
+        prefix = " " if inner_text.startswith(" ") else ""
+        suffix = " " if inner_text.endswith(" ") else ""
+        return f"{prefix}**{inner_text.strip()}**{suffix}"
+    
+    if element.name in block_tags:
+        return f"\n\n{inner_text.strip()}\n\n"
+    
+    # Inline tags just pass through text
+    return inner_text
 
 # Bypass SSL verification
 ctx = ssl.create_default_context()
@@ -165,10 +296,16 @@ def extract_metadata(soup):
 
     # Summary: First substantial paragraph in .left that isn't the date or image caption
     if left_div:
+         # Use markdown processing to preserve formatting (italics)
          for p in left_div.find_all('p'):
-             text = p.get_text(strip=True)
-             if len(text) > 60 and "Air Date:" not in text and "Photo:" not in text:
-                 metadata['summary'] = text
+             # Get markdown text
+             md_text = element_to_markdown(p).strip()
+             # Simple formatting strip for checking content
+             plain_text = md_text.replace('*', '').replace('[', '').replace(']', '').replace('(', '').replace(')', '')
+             
+             if len(plain_text) > 60 and "Air Date:" not in plain_text and "Photo:" not in plain_text:
+                 # Flatten newlines for summary field
+                 metadata['summary'] = md_text.replace('\n', ' ').strip()
                  break
                  
     return metadata
@@ -252,133 +389,7 @@ def parse_segment_page(url, show_metadata=None, title_hint=None):
             div.decompose()
             
         content_parts = []
-        block_tags = ['p', 'div', 'blockquote', 'figure', 'ul', 'ol', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li']
-        
-        from bs4 import Comment
 
-        def process_children_to_markdown(children):
-            parts = []
-            children = list(children)
-            i = 0
-            while i < len(children):
-                child = children[i]
-                
-                # Check for Image to see if we can merge a caption
-                is_image = False
-                img_node = None
-                if hasattr(child, 'name') and child.name == 'img':
-                    is_image = True
-                    img_node = child
-                
-                if is_image and img_node:
-                    src = img_node.get('src', '')
-                    if src:
-                        # Resolve relative URLs
-                        if src.startswith('/'):
-                            src = f"https://loe.org{src}"
-                        elif not src.startswith('http'):
-                            src = f"https://loe.org/shows/{src}"
-                        
-                        caption_text = ""
-                        
-                        # Look ahead for caption
-                        lookahead_idx = i + 1
-                        while lookahead_idx < len(children):
-                             next_elem = children[lookahead_idx]
-                             next_md = element_to_markdown(next_elem).strip()
-                             
-                             if not next_md:
-                                 lookahead_idx += 1
-                                 continue
-                             
-                             # Heuristic for caption
-                             if len(next_md) < 600 and ("Photo" in next_md or "Credit" in next_md or next_md.startswith('*')):
-                                 caption_text = next_md
-                                 
-                                 # Normalize caption
-                                 if caption_text.startswith('*') and caption_text.endswith('*'):
-                                     caption_text = caption_text[1:-1]
-                                 caption_text = caption_text.replace('\n', ' ').replace('[', '(').replace(']', ')')
-                                 
-                                 i = lookahead_idx
-                                 break
-                             else:
-                                 break
-                        
-                        parts.append(f"\n\n![{caption_text}]({src})\n\n")
-                        i += 1
-                        continue
-                
-                # Helper to get markdown of a child
-                child_md = element_to_markdown(child)
-                parts.append(child_md)
-                i += 1
-                
-            return "".join(parts)
-
-        def element_to_markdown(element):
-            if element is None: return ""
-            
-            # Skip comments
-            if isinstance(element, Comment):
-                return ""
-                
-            # Handle NavigableString
-            if isinstance(element, str): # NavigableString inherits from str
-                if element.strip() == "": return str(element) # Keep significant whitespace?
-                return str(element)
-                
-            # Check if it's a tag
-            if not hasattr(element, 'name'):
-                return str(element)
-                
-            # Skip noise tags
-            if element.name in ['script', 'style', 'noscript']:
-                return ""
-                
-            # Handle Links
-            if element.name == 'a':
-                href = element.get('href', '')
-                text = process_children_to_markdown(element.children).strip()
-                if not text: return "" # Skip empty links
-                
-                # Resolve relative URLs
-                if href.startswith('/'):
-                    href = f"https://loe.org{href}"
-                return f"[{text}]({href})"
-                
-            # Handle Images (Standalone check, usually handled by process_children)
-            if element.name == 'img':
-                src = element.get('src', '')
-                alt = element.get('alt', '')
-                if src:
-                    if src.startswith('/'):
-                         src = f"https://loe.org{src}"
-                    elif not src.startswith('http'):
-                         src = f"https://loe.org/shows/{src}"
-                    return f"\n\n![{alt}]({src})\n\n"
-                return ""
-                
-            # Formatting
-            inner_text = process_children_to_markdown(element.children)
-            
-            if element.name == 'p':
-                return f"\n\n{inner_text.strip()}\n\n"
-            if element.name == 'br':
-                return "\n\n"
-            if element.name in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
-                level = int(element.name[1])
-                return f"\n{'#' * level} {inner_text.strip()}\n\n"
-            if element.name in ['em', 'i']:
-                return f"*{inner_text.strip()}*"
-            if element.name in ['strong', 'b']:
-                return f"**{inner_text.strip()}**"
-            
-            if element.name in block_tags:
-                return f"\n\n{inner_text.strip()}\n\n"
-            
-            # Inline tags just pass through text
-            return inner_text
 
         # Main processing call using the smart function
         # We process top-level children of the div
@@ -661,29 +672,7 @@ def process_show_page(soup, metadata):
     
     print(f"Output directory: {out_dir}")
     
-    # Process Segments
-    segment_filenames = []
-    segment_titles = []
-    
-    for i, seg in enumerate(segments_list):
-        print(f"Processing segment {i+1}: {seg['url']}")
-        seg_data = parse_segment_page(seg['url'])
-        if not seg_data:
-            continue
-            
-        # Use the title from the TOC/Show Page as it's cleaner than the segment page H2
-        # The segment page H2 often contains "Air Date: ..." which messes up the title.
-        # Fallback to page title only if TOC title is missing or empty.
-        final_title = seg['title'] if seg.get('title') else seg_data.get('title', f"Segment {i+1}")
-        
-        slug = slugify(final_title)
-        filename = f"{slug}.md"
-        filepath = f"{out_dir}/{filename}"
-        
-    print(f"Found {len(segments_list)} segments for {metadata['date']}")
-    
-    out_dir = f"content/archive/shows/{metadata['year']}/{metadata['month_day']}"
-    os.makedirs(out_dir, exist_ok=True)
+
     
     segment_titles = []
     segment_filenames = []

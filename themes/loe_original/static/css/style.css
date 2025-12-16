@@ -1907,3 +1907,25 @@ figcaption {
 .blog h4 a:hover {
     color: var(--link-info-hover);
 }
+/* Sponsor Cloud */
+.sponsor-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.sponsor-logo {
+    max-width: 200px;
+    max-height: 100px;
+    object-fit: contain;
+    /* Optional: grayscale to make it look uniform, color on hover */
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.sponsor-logo:hover {
+    filter: grayscale(0%);
+}

@@ -2,5 +2,6 @@ _site
 __pycache__
 .venv
 venv
+content/_wip
 *.log
 **/.DS_Store

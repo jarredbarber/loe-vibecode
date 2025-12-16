@@ -104,14 +104,19 @@ Sophia Pandelidis joined Living on Earth in 2022 as an Editorial Intern with a d
 
 Support for Living on Earth is provided by:
 
-- [Breckinridge Capital](http://www.breckenridge.com/)
-- [Barr Foundation](http://www.barrfoundation.org/)
-- [Grantham Foundation](http://www.granthamfoundation.org/)
-- [National Science Foundation](http://www.nsf.gov)
-- [Pax World Funds](http://www.paxworld.com/)
+<div class="sponsor-cloud">
+  <a href="http://www.breckenridge.com/" target="_blank"><img src="{static}/images/sponsors/breckinridge.png" alt="Breckinridge Capital Advisors" class="sponsor-logo"></a>
+  <a href="http://www.barrfoundation.org/" target="_blank"><img src="{static}/images/sponsors/barr.svg" alt="Barr Foundation" class="sponsor-logo"></a>
+  <a href="http://www.granthamfoundation.org/" target="_blank"><img src="{static}/images/sponsors/grantham.svg" alt="Grantham Foundation" class="sponsor-logo"></a>
+  <a href="http://www.nsf.gov" target="_blank"><img src="{static}/images/sponsors/nsf.svg" alt="National Science Foundation" class="sponsor-logo"></a>
+  <a href="http://www.paxworld.com/" target="_blank"><img src="{static}/images/sponsors/impax.png" alt="Impax Asset Management" class="sponsor-logo"></a>
+  <a href="http://www.stonyfield.com/" target="_blank"><img src="{static}/images/sponsors/stonyfield.png" alt="Stonyfield Farm" class="sponsor-logo"></a>
+</div>
+
+### Major Contributors
+
 - [The Richard and Rhoda Goldman Fund](http://www.goldmanfund.org/)
 - Gilman Ordway
-- [Stonyfield Farm](http://www.stonyfield.com/)
 - [Jennifer and Ted Stanley](http://www.stonyfield.com/)
 - [Public Radio International (PRI) Member Stations and their generous members. Thank you!](http://www.pri.org/)
 

@@ -6,13 +6,11 @@ This is the website for [Living on Earth](http://loe.org), a weekly environmenta
 
 Living on Earth is a weekly, hour-long, award-winning environmental news program distributed by the Public Radio Exchange. Hosted by Steve Curwood, the program features interviews and commentary on environmental issues. The show has been broadcasting since 1991 and airs on over 300 public radio stations nationwide.
 
-## 🚀 Quick Start for Content Editors
+# 🚀 Quick Start for Content Editors
 
 ### Viewing the Live Site
 
 The site is published at: **<https://jarredbarber.github.io/loe-vibecode/>**
-
-# How to Add a New Show
 
 This guide is for the Living on Earth team. It explains how to add the weekly show and its segments to the website using GitHub.
 

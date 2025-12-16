@@ -10,12 +10,12 @@ Living on Earth is located at the School for the Environment at the University o
 <iframe style="display: block; margin: auto;" width="560"  height="315" src="https://www.youtube.com/embed/7fFLtQomj64" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Support Us {: #support-us }
-Living on Earth is an independent media program and relies entirely on contributions from listeners and institutions supporting public service. Please [donate now]({filename}donate.md) to preserve an independent environmental voice.
 
+Living on Earth is an independent media program and relies entirely on contributions from listeners and institutions supporting public service. Please [donate now]({filename}donate.md) to preserve an independent environmental voice.
 
 ## Cast and Crew
 
-<img src="https://loe.org/images/content/staff/stc3.gif" alt="Steve Curwood" style="float:left; margin-right:20px; margin-bottom:10px;">
+<img src="{static}/images/staff/steve-curwood.gif" alt="Steve Curwood" style="float:left; margin-right:20px; margin-bottom:10px;">
 
 **Steve Curwood**
 *Host / Executive Producer*
@@ -28,7 +28,7 @@ Steve has been a journalist for more than 30 years with experience at NPR, CBS N
 
 ---
 
-<img src="/theme/img/jenni-headshot1.png" width=180 alt="Jenni Doering" style="float:right; margin-left:20px; margin-bottom:10px;">
+<img src="{static}/images/staff/jenni-doering.png" width=180 alt="Jenni Doering" style="float:right; margin-left:20px; margin-bottom:10px;">
 
 **Jenni Doering**
 *Managing Producer / hottie*
@@ -38,6 +38,8 @@ Steve has been a journalist for more than 30 years with experience at NPR, CBS N
 A member of the Living on Earth team since 2014, Jenni Doering enjoys producing stories on climate science, chemical exposure, and outdoor inclusivity. One of her favorite parts of the job is getting to meet and interview some of her nature writing heroes! She majored in Environmental Humanities at Whitman College in Walla Walla, WA and will always have a soft spot for the PNW. She now lives in Watertown, Massachusetts with two very fluffy kitties and enjoys biking, hiking, and gardening.
 
 ---
+
+<!-- <img src="{static}/images/staff/mark-kausch.jpg" alt="Mark Kausch" style="float:left; margin-right:20px; margin-bottom:10px;"> -->
 
 **Mark Kausch**
 *Director of Advancement and Program Strategy*
@@ -50,6 +52,8 @@ In addition to his non-profit broadcast media work, Mark teaches viola da gamba 
 
 ---
 
+<!-- <img src="{static}/images/staff/jake-rego.jpg" alt="Jake Rego" style="float:left; margin-right:20px; margin-bottom:10px;"> -->
+
 **Jake Rego**
 *Technical Director*
 
@@ -58,6 +62,8 @@ In addition to his non-profit broadcast media work, Mark teaches viola da gamba 
 Jacob Rego has been with Living On Earth since 2012. He is a graduate from Berklee College of Music where he studied music production and engineering as well as acoustics and electronics. The science of audio engineering is his passion. When he’s not at work, Jacob can be found designing his own music equipment, and recording / producing local talent.
 
 ---
+
+<!-- <img src="{static}/images/staff/aynsley-oneill.jpg" alt="Aynsley O'Neill" style="float:left; margin-right:20px; margin-bottom:10px;"> -->
 
 **Aynsley O'Neill**
 *Producer*
@@ -68,6 +74,8 @@ Aynsley joins Living on Earth from the Class of 2018 at Brandeis University, whe
 
 ---
 
+<!-- <img src="{static}/images/staff/paloma-beltran.jpg" alt="Paloma Beltran" style="float:left; margin-right:20px; margin-bottom:10px;"> -->
+
 **Paloma Beltran**
 *Associate Producer*
 
@@ -76,6 +84,8 @@ Aynsley joins Living on Earth from the Class of 2018 at Brandeis University, whe
 Paloma's journey with environmentalism began in her home of Baja California, Mexico where she grew up playing in her grandmother's orange orchard and beach camping with her family along the Gulf of California and the Pacific Ocean. She is passionate about stories involving ecojustice, indigenous communities and environmental policy. In her free time you can find her attempting to cook her grandma's recipes and exploring New England. She joins Living on Earth from the UMass Boston class of 2019, where she majored in Environmental Studies.
 
 ---
+
+<!-- <img src="{static}/images/staff/sophia-pandelidis.jpg" alt="Sophia Pandelidis" style="float:left; margin-right:20px; margin-bottom:10px;"> -->
 
 **Sophia Pandelidis**
 *Assistant Producer*
@@ -112,5 +122,3 @@ Support for Living on Earth is provided by:
 > Telephone: 617-287-4121
 >
 > E-mail: [comments@loe.org](mailto:comments@loe.org)
-
-

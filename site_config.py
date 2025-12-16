@@ -37,7 +37,7 @@ AUTHOR_FEED_RSS = None
 THEME = 'themes/loe_original'
 
 # Static paths
-STATIC_PATHS = ['static']
+STATIC_PATHS = ['static', 'images']
 
 # URL settings to match our previous structure
 ARTICLE_URL = '{date:%Y_%m_%d}_{slug}.html'

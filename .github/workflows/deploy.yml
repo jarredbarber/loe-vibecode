@@ -1,7 +1,10 @@
-name: Deploy Site
+name: Deploy to staging site
 
 on:
-  workflow_dispatch:  # Manual triggering only
+  push:
+    branches:
+      - main  # Change to 'master' if that's your default branch
+  workflow_dispatch:  # Allows manual triggering
 
 permissions:
   contents: read

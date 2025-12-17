@@ -58,7 +58,7 @@ In addition to his non-profit broadcast media work, Mark teaches viola da gamba 
 
 ---
 
-<img src="https://media.licdn.com/dms/image/v2/D5603AQE_fvZlAAZUBw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729640637386?e=2147483647&v=beta&t=gVZCO63X1qOvp6Kb3_mwUjcWHk2-fYYK08D_bXvNtXw" width=180 alt="Jake Rego" style="float:right; margin-left:20px; margin-bottom:10px;">
+<img src="https://about.me/cdn-cgi/image/q=80,dpr=1,f=auto,fit=cover,w=1200,h=630,gravity=auto/https://assets.about.me/background/users/j/a/c/jacob.rego_1360098872_87.jpg" width=180 alt="Jake Rego" style="float:right; margin-left:20px; margin-bottom:10px;">
 
 **Jake Rego**
 *Technical Director*

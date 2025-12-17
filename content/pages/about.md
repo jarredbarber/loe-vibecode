@@ -45,7 +45,7 @@ A member of the Living on Earth team since 2014, Jenni Doering enjoys producing 
 
 ---
 
-<!-- <img src="{static}/images/staff/mark-kausch.jpg" alt="Mark Kausch" style="float:left; margin-right:20px; margin-bottom:10px;"> -->
+<img src="https://bethel-university.imgix.net/academics/faculty/images/kausch-mark.jpg?w=400&auto=format" width=180 alt="Mark Kausch" style="float:left; margin-right:20px; margin-bottom:10px;">
 
 **Mark Kausch**
 *Director of Advancement and Program Strategy*
@@ -58,7 +58,7 @@ In addition to his non-profit broadcast media work, Mark teaches viola da gamba 
 
 ---
 
-<!-- <img src="{static}/images/staff/jake-rego.jpg" alt="Jake Rego" style="float:left; margin-right:20px; margin-bottom:10px;"> -->
+<img src="https://media.licdn.com/dms/image/v2/D5603AQE_fvZlAAZUBw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729640637386?e=2147483647&v=beta&t=gVZCO63X1qOvp6Kb3_mwUjcWHk2-fYYK08D_bXvNtXw" width=180 alt="Jake Rego" style="float:right; margin-left:20px; margin-bottom:10px;">
 
 **Jake Rego**
 *Technical Director*
@@ -69,7 +69,7 @@ Jacob Rego has been with Living On Earth since 2012. He is a graduate from Berkl
 
 ---
 
-<!-- <img src="{static}/images/staff/aynsley-oneill.jpg" alt="Aynsley O'Neill" style="float:left; margin-right:20px; margin-bottom:10px;"> -->
+<img src="https://media.licdn.com/dms/image/v2/C4E03AQH87PDBFCtIhA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1535224502967?e=2147483647&v=beta&t=4Ziv74BIh3PsNySwtYgWRNR3HBEliO5VEkGN_MxZXuM" width=180 alt="Aynsley O'Neill" style="float:left; margin-right:20px; margin-bottom:10px;">
 
 **Aynsley O'Neill**
 *Producer*
@@ -80,7 +80,7 @@ Aynsley joins Living on Earth from the Class of 2018 at Brandeis University, whe
 
 ---
 
-<!-- <img src="{static}/images/staff/paloma-beltran.jpg" alt="Paloma Beltran" style="float:left; margin-right:20px; margin-bottom:10px;"> -->
+<img src="https://media.muckrack.com/profile/images/9261220/paloma-beltran.jpeg.256x256_q100_crop-smart.jpg" width=180 alt="Paloma Beltran" style="float:right; margin-left:20px; margin-bottom:10px;">
 
 **Paloma Beltran**
 *Associate Producer*
@@ -91,7 +91,7 @@ Paloma's journey with environmentalism began in her home of Baja California, Mex
 
 ---
 
-<!-- <img src="{static}/images/staff/sophia-pandelidis.jpg" alt="Sophia Pandelidis" style="float:left; margin-right:20px; margin-bottom:10px;"> -->
+<img src="https://media.licdn.com/dms/image/v2/D4E03AQGOWtpoNT0MSQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1676044025653?e=2147483647&v=beta&t=DvzFiaFNQMRy1AyMlFIBF3iSY9SWEyVlGA9x1hY2NkU" width=180 alt="Sophia Pandelidis" style="float:left; margin-right:20px; margin-bottom:10px;">
 
 **Sophia Pandelidis**
 *Assistant Producer*

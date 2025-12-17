@@ -10,7 +10,7 @@ Living on Earth is a weekly, hour-long, award-winning environmental news program
 
 ### Viewing the Live Site
 
-The site is published at: **<https://jarredbarber.github.io/loe-vibecode/>**
+The site is published at: **<http://vibingon.earth>**
 
 This guide is for the Living on Earth team. It explains how to add the weekly show and its segments to the website using GitHub.
 

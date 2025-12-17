@@ -5,44 +5,67 @@
 {% block content %}
 <div class="body">
     <div class="body_resize">
-        <div class="newsletter-content">
-            <h2>Feed Your Eco-Curiosity with Living on Earth's Weekly Newsletter</h2>
-            <p>Sign up for our weekly newsletter to get the latest news and updates from Living on Earth.</p>
-            <form action="https://loe.us3.list-manage.com/subscribe/post?u=9f9ebdcfa232a532a7e70746b&id=2383d76cae"
-                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                    <div class="indicates-required">
-                        <span class="asterisk">*</span> indicates required
-                    </div>
-                    <div class="mc-field-group">
-                        <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
-                        <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required value="">
-                    </div>
-                    <div class="mc-field-group">
-                        <label for="mce-FNAME">First Name </label>
-                        <input type="text" name="FNAME" class="" id="mce-FNAME" value="">
-                    </div>
-                    <div class="mc-field-group">
-                        <label for="mce-LNAME">Last Name </label>
-                        <input type="text" name="LNAME" class="" id="mce-LNAME" value="">
-                    </div>
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display: none;">
+        <div class="newsletter-signup">
+            <div class="newsletter-content">
+                <h2>Feed Your Eco-Curiosity with Living on Earth's Weekly Newsletter</h2>
+                <p>Sign up for our weekly newsletter to get the latest news and updates from Living on Earth.</p>
+                <form action="https://loe.us3.list-manage.com/subscribe/post?u=9f9ebdcfa232a532a7e70746b&id=2383d76cae"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                    target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <div class="indicates-required">
+                            <span class="asterisk">*</span> indicates required
                         </div>
-                        <div class="response" id="mce-success-response" style="display: none;">
+                        <div class="mc-field-group">
+                            <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                            <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required value="">
+                        </div>
+                        <div class="name-fields">
+                            <div class="mc-field-group">
+                                <label for="mce-FNAME">First Name </label>
+                                <input type="text" name="FNAME" class="" id="mce-FNAME" value="">
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-LNAME">Last Name </label>
+                                <input type="text" name="LNAME" class="" id="mce-LNAME" value="">
+                            </div>
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display: none;">
+                            </div>
+                            <div class="response" id="mce-success-response" style="display: none;">
+                            </div>
+                        </div>
+                        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                            <input type="text" name="b_9f9ebdcfa232a532a7e70746b_2383d76cae" tabindex="-1" value="">
+                        </div>
+                        <div class="clear">
+                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button"
+                                value="Subscribe">
                         </div>
                     </div>
-                    <div aria-hidden="true" style="position: absolute; left: -5000px;">
-                        <input type="text" name="b_9f9ebdcfa232a532a7e70746b_2383d76cae" tabindex="-1" value="">
-                    </div>
-                    <div class="clear">
-                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button"
-                            value="Subscribe">
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
+        <div class="clr"></div>
+
+        {% set ns = namespace(first_newsletter_shown=false) %}
+        {% if articles %}
+        {% for article in articles %}
+        {% if article.category.name == 'Newsletter' and not ns.first_newsletter_shown %}
+        <div class="newsletter-featured">
+            <h2>Latest Newsletter</h2>
+            <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+            <p class="newsletter-date">{{ article.date|strftime('%B %d, %Y') }}</p>
+            <div class="newsletter-excerpt">
+                {{ article.content|striptags|truncate(300) }}
+            </div>
+            <a href="{{ SITEURL }}/{{ article.url }}" class="read-more-btn">Read Full Newsletter</a>
+        </div>
+        {% set ns.first_newsletter_shown = true %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
         <div class="clr"></div>
 
         <div class="newsletter-archive">

@@ -1748,49 +1748,63 @@ figcaption {
 }
 
 /* Newsletter Styles - Added to improve form appearance */
+.newsletter-signup {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
 .newsletter-content {
-    max-width: 600px;
-    margin: 40px auto;
     background: var(--bg-white);
-    padding: 40px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     border: 1px solid var(--border-light);
 }
 
 .newsletter-content h2 {
-    font-size: 24px;
+    font-size: 22px;
     color: var(--primary-green);
-    margin-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 8px;
     text-align: center;
 }
 
 .newsletter-content p {
     text-align: center;
     color: var(--text-medium);
-    margin-bottom: 30px;
-    font-size: 16px;
+    margin-bottom: 15px;
+    font-size: 15px;
 }
 
 #mc-embedded-subscribe-form .mc-field-group {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 15px;
+}
+
+.name-fields .mc-field-group {
+    flex: 1;
+    margin-bottom: 12px;
 }
 
 #mc-embedded-subscribe-form label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     color: var(--text-dark);
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #mc-embedded-subscribe-form input[type="email"],
 #mc-embedded-subscribe-form input[type="text"] {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid var(--border-input);
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 15px;
     box-sizing: border-box;
     transition: border-color 0.2s;
     font-family: Arial, Helvetica, sans-serif;
@@ -1807,14 +1821,14 @@ figcaption {
     width: 100%;
     background-color: var(--primary-green);
     color: white;
-    padding: 14px;
+    padding: 12px;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #mc-embedded-subscribe-form .button:hover {
@@ -1823,13 +1837,57 @@ figcaption {
 
 .indicates-required {
     text-align: right;
-    font-size: 12px;
+    font-size: 11px;
     color: var(--text-light);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .asterisk {
     color: var(--error-red);
+}
+
+.newsletter-featured {
+    max-width: 600px;
+    margin: 40px auto;
+    background: linear-gradient(135deg, rgba(220, 237, 234, 0.3) 0%, rgba(192, 224, 218, 0.3) 100%);
+    border-left: 4px solid var(--primary-green);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-featured h2 {
+    color: var(--primary-green);
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.newsletter-featured h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.newsletter-featured h3 a {
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+.newsletter-featured h3 a:hover {
+    color: var(--primary-green);
+}
+
+.newsletter-date {
+    color: var(--text-light);
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.newsletter-excerpt {
+    color: var(--text-medium);
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .newsletter-archive {
@@ -1907,6 +1965,7 @@ figcaption {
 .blog h4 a:hover {
     color: var(--link-info-hover);
 }
+
 /* Sponsor Cloud */
 .sponsor-cloud {
     display: flex;

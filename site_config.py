@@ -37,7 +37,13 @@ AUTHOR_FEED_RSS = None
 THEME = 'themes/loe_original'
 
 # Static paths
-STATIC_PATHS = ['static', 'images']
+STATIC_PATHS = ['static', 'images', 'extra']
+
+# Extra path metadata - serve files from extra directory at root
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/podcast.rss': {'path': 'podcast.rss'},
+}
 
 # URL settings to match our previous structure
 ARTICLE_URL = '{date:%Y_%m_%d}_{slug}.html'

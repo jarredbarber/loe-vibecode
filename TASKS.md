@@ -5,3 +5,5 @@ Agent instructions: When working on a task, update the status of the task in thi
 ## Task: Mobile friendly
 
 - [x] Make the templates and CSS mobile-friendly so that they display nicely on phones. For the menu, on smaller screens, we should display a centered LOE logo with a two-line menu underneath.
+
+- [x] Make the templates and CSS mobile-friendly so that they display nicely on phones. For the menu, on smaller screens, we should display a centered LOE logo with a two-line menu underneath.

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jarredbarber/loe-vibecode/main/themes/loe_original/static/img/logo_rect_v5.png" alt="Living on Earth" width="400">
+  <img src="https://raw.githubusercontent.com/jarredbarber/loe-vibecode/main/themes/loe_original/static/img/logo.png" alt="Living on Earth" width="400">
 </div>
 
 This is the website for [Living on Earth](http://loe.org), a weekly environmental news radio program. The site is built with Pelican (a static site generator) and automatically publishes to GitHub Pages.

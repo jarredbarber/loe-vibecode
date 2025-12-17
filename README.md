@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jarredbarber/loe-vibecode/main/themes/loe_original/static/img/logo.png" alt="Living on Earth" width="400">
+  <a href="https://vibingon.earth"><img src="https://raw.githubusercontent.com/jarredbarber/loe-vibecode/main/themes/loe_original/static/img/logo.png" alt="Living on Earth" width="400"></a>
 </div>
 
 This is the website for [Living on Earth](http://loe.org), a weekly environmental news radio program. The site is built with Pelican (a static site generator) and automatically publishes to GitHub Pages.
@@ -12,7 +12,7 @@ Living on Earth is a weekly, hour-long, award-winning environmental news program
 
 ### Viewing the Live Site
 
-The site is published at: **<http://vibingon.earth>**
+The site is published at: **<https://vibingon.earth>**
 
 This guide is for the Living on Earth team. It explains how to add the weekly show and its segments to the website using GitHub.
 

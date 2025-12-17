@@ -26,7 +26,7 @@ The mallards are here. They are here every Fall. Common enough, we tend to name,
 
 Also in this season, the gunners come. In flat bottomed boats. Behind impenetrable screens made of reeds. I understand and I would not forbid it. But for 54 mallards I feed at my seawall, more sometimes, sometimes a few less, I create a sanctuary. I visit there every day. And if I am not on time – their time - the drakes call out to me, loud, their mates are murmuring, at the first inkling of daylight when forms are no more than shadows and no colors reach the eye. Throughout the cold season I come. At that last half hour before the night gives way and the day begins, until the end when we no more hear the guns. The mallards move towards me, not away.
 
-![](https://loe.org/content/2025-12-12/MSL_mallard.JPG)
+![Mallard paddles in the clear water. (Photo: Mark Seth Lender)](https://loe.org/content/2025-12-12/MSL_mallard.JPG)
 
 High tide is early today. Full up to just below the top of the seawall. Much of the seed sinks down. I watch and wait, and the mallards dive to feed. Only some. Not all. A percentage that never grows nor diminishes. On high tide days. This is the third year in a row.
 
@@ -42,11 +42,7 @@ CURWOOD: Living on Earth’s Explorer in Residence, Mark Seth Lender.
 
 **[Learn more about the Stewart B. Mckinney National Refuge.](https://www.fws.gov/refuge/stewart-b-mckinney)**
 
- 
-
 **[Learn more about the wildlife at the Stewart B. McKinney National Refuge at Smeagull’s Guide to Wildlife.](https://smeagullsguide.org/)**
-
- 
 
 **[Explore more of Mark Seth Lender’s work.](https://marksethlender.com/the-decisive-sequence-mobile/)**
 

@@ -16,7 +16,7 @@ CURWOOD: Tune in next time for a holiday tradition here at Living on Earth, wint
 
 MUSIC: Diane Edgecomb and Margot Chamberlain, “Wassail Song” on The Winter Solstice in Story and Song.]
 
-![](https://loe.org/content/2025-12-12/WASSAIL_dancers.jpg)
+![There are several Wassail events across South Western England. Pictured above are Morris dancers performing during the 2022 Wassail at Bridport Community Orchard. (Photo: Stephen and Helen Jones, Flickr, CC BY SA 2.0)](https://loe.org/content/2025-12-12/WASSAIL_dancers.jpg)
 
 Wassail, wassail, all over the town,
 
@@ -60,23 +60,13 @@ With a wassailing bowl we'll drink to thee.
 
 **[Learn more about Diane Edgecomb.](https://livingmyth.com/)**
 
- 
-
 **[Learn more about the Wassailing tradition.](https://www.nationaltrust.org.uk/discover/history/art-collections/wassailing-ritual-and-revelry)**
-
- 
 
 **[*bon appétit* | “In New York’s Hudson Valley, the Ancient Wassail Tradition Is Alive and Well”](https://www.bonappetit.com/story/hudson-valley-wassail-tradition-holidays?srsltid=AfmBOorUD6Woo6c87QssC-mqUOO2_GnP7XaCWJeLwF_OAOahYzjjGCam)**
 
- 
-
 **[*Fruition Seeds* | “Wassail! A Brief History, Recipe & Invitation”](https://www.fruitionseeds.com/learn/blog/wassail-a-brief-history-recipe-invitation/)**
 
- 
-
 **[*BBC* | “Wassailing the Old English Apple Tree”](https://www.bbc.com/travel/article/20120113-wassailing-the-old-english-apple-tree)**
-
- 
 
 **[Find Diane Edgecomb's CD, "The Winter Solstice in Story and Song"](https://dianeedgecomb.bandcamp.com/album/the-winter-solstice-in-story-and-song)**
 

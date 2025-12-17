@@ -6,6 +6,8 @@ import re
 from datetime import datetime
 import time
 
+from scraping_utils import slugify
+
 # URL of the Mailchimp archive
 ARCHIVE_URL = "https://us3.campaign-archive.com/home/?u=9f9ebdcfa232a532a7e70746b&id=2383d76cae"
 OUTPUT_DIR = "content/newsletters"
@@ -14,15 +16,12 @@ OUTPUT_DIR = "content/newsletters"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def get_soup(url):
+    """Fetch using requests library (required for Mailchimp)."""
     response = requests.get(url)
     response.raise_for_status()
     return BeautifulSoup(response.content, 'html.parser')
 
-def slugify(text):
-    text = text.lower()
-    text = re.sub(r'[^a-z0-9\s-]', '', text)
-    text = re.sub(r'[\s-]+', '-', text)
-    return text.strip('-')
+# slugify function now imported from scraping_utils
 
 def scrape_archive():
     print(f"Fetching archive list from {ARCHIVE_URL}...")

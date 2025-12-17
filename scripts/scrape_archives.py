@@ -1,10 +1,9 @@
-import urllib.request
-from bs4 import BeautifulSoup
-import re
-import ssl
 import os
+import re
 from datetime import datetime
-from bs4 import Comment
+from bs4 import BeautifulSoup, Comment
+
+from scraping_utils import get_soup, slugify, BASE_URL, SHOWS_URL
 
 block_tags = ['p', 'div', 'blockquote', 'figure', 'ul', 'ol', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li']
 
@@ -135,25 +134,7 @@ def element_to_markdown(element):
     
     # Inline tags just pass through text
     return inner_text
-
-# Bypass SSL verification
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
-
-BASE_URL = "https://loe.org"
-SHOWS_URL = f"{BASE_URL}/shows/"
-
-def get_soup(url):
-    print(f"Fetching {url}...")
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, context=ctx) as response:
-            html = response.read()
-            return BeautifulSoup(html, 'html.parser')
-    except Exception as e:
-        print(f"Error fetching {url}: {e}")
-        return None
+# Utility functions (get_soup, slugify) now imported from scraping_utils
 
 def find_latest_year_url():
     soup = get_soup(SHOWS_URL)
@@ -587,16 +568,11 @@ def parse_segment_page(url, show_metadata=None, title_hint=None):
                 i += 1
         
         full_text = '\n'.join(fixed_lines)
-        
         # Clean up any leading newlines left after removal
         data['content'] = full_text.strip()
     return data
 
-def slugify(text):
-    text = text.lower()
-    text = re.sub(r'[^a-z0-9\s-]', '', text)
-    text = re.sub(r'\s+', '-', text)
-    return text[:50]
+# slugify function now imported from scraping_utils
 
 def get_show_urls(year_url):
     soup = get_soup(year_url)

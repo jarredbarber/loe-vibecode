@@ -1,30 +1,14 @@
-import urllib.request
-from bs4 import BeautifulSoup
-import re
-import ssl
 import os
-from datetime import datetime
+import re
 import glob
+from datetime import datetime
 
-# Bypass SSL verification
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
+from scraping_utils import get_soup, BASE_URL
 
-BASE_URL = "https://loe.org"
 SHOWS_TOC_URL = f"{BASE_URL}/shows/toc.html?year=2025"
 CONTENT_DIR = "content/shows/2025"
 
-def get_soup(url):
-    print(f"Fetching {url}...")
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, context=ctx) as response:
-            html = response.read()
-            return BeautifulSoup(html, 'html.parser')
-    except Exception as e:
-        print(f"Error fetching {url}: {e}")
-        return None
+# get_soup function now imported from scraping_utils
 
 def get_2025_show_map():
     """Returns a dict of date_str (YYYY-MM-DD) -> show_url"""

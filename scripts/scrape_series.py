@@ -1,36 +1,12 @@
-import urllib.request
-from bs4 import BeautifulSoup
-import re
-import ssl
 import os
+import re
 from datetime import datetime
 
-# Bypass SSL verification (per scraping_reference.md)
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
+from scraping_utils import get_soup, slugify, BASE_URL, SERIES_URL
 
-BASE_URL = "https://loe.org"
 SERIES_INDEX_URL = f"{BASE_URL}/series/"
 
-def get_soup(url):
-    """Fetch and parse a URL, returning BeautifulSoup object."""
-    print(f"Fetching {url}...")
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, context=ctx) as response:
-            html = response.read()
-            return BeautifulSoup(html, 'html.parser')
-    except Exception as e:
-        print(f"Error fetching {url}: {e}")
-        return None
-
-def slugify(text):
-    """Convert text to URL-friendly slug."""
-    text = text.lower()
-    text = re.sub(r'[^a-z0-9\s-]', '', text)
-    text = re.sub(r'\s+', '-', text)
-    return text[:50]
+# Utility functions now imported from scraping_utils
 
 def get_all_series_urls():
     """Extract all series URLs from the main series index page."""

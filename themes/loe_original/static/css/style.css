@@ -68,6 +68,13 @@ body {
     padding: 0;
     width: 100%;
     background-color: var(--bg-main);
+    overflow-x: hidden;
+    /* Prevent horizontal scroll */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 html {
@@ -130,8 +137,11 @@ html {
 }
 
 .header {
-    padding: 0;
+    padding: 15px 0;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (min-width: 1000px) {
@@ -141,6 +151,7 @@ html {
         padding: 0;
         margin: 0 auto;
         display: flex;
+        flex-direction: row;
         align-items: center;
         /* Aligns logo and menu vertically */
     }
@@ -164,25 +175,32 @@ html {
 /* logo */
 .logo {
     padding: 0;
-    margin: 0;
+    margin: 0 0 15px 0;
     width: auto;
-    /* Let it shrink to image size */
-    margin-right: 20px;
-    /* Space between logo and menu */
     float: none;
-    /* Remove float */
+    text-align: center;
+}
+
+.logo img {
+    max-height: 80px;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+@media (min-width: 1000px) {
+    .logo {
+        margin: 0 20px 0 0;
+    }
 }
 
 /*menu*/
 .menu {
-    padding: 18px 0 10px 0;
+    padding: 0;
     margin: 0;
-    width: auto;
-    /* Let it take remaining space */
+    width: 100%;
     float: none;
-    /* Remove float */
     flex-grow: 1;
-    /* Allow it to take up remaining space if needed */
 }
 
 @media (min-width: 1000px) {
@@ -202,18 +220,38 @@ html {
     list-style: none;
     border: 0;
     float: none;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 15px;
+    /* Row Gap, Column Gap */
+}
+
+@media (min-width: 1000px) {
+    .menu ul {
+        display: inline-block;
+        gap: 0;
+    }
 }
 
 .menu ul li {
-    float: left;
+    float: none;
     margin: 0;
-    padding: 0 10px;
-    border-right: 1px solid var(--text-lighter);
+    padding: 0;
+    border: none;
+    /* No border on mobile for cleaner wrap */
 }
 
-.menu ul li:last-child {
-    border-right: none;
+@media (min-width: 1000px) {
+    .menu ul li {
+        float: left;
+        padding: 0 10px;
+        border-right: 1px solid var(--text-lighter);
+    }
+
+    .menu ul li:last-child {
+        border-right: none;
+    }
 }
 
 .menu ul li a {
@@ -235,10 +273,21 @@ html {
 
 /* search */
 .search {
-    padding: 31px 0 0 0;
+    padding: 10px 0;
     margin: 0 auto;
     width: 220px;
-    float: right;
+    float: none;
+    /* Center on mobile */
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1000px) {
+    .search {
+        padding: 31px 0 0 0;
+        float: right;
+        display: block;
+    }
 }
 
 .search form {
@@ -468,31 +517,48 @@ textarea {
 .body img {
     margin: 10px auto;
     padding: 0;
+    display: block;
+    /* Ensure block */
 }
 
-.body img.floated {
-    float: right;
-    margin: 5px 20px;
-    padding: 0;
-}
-
-.body img.floated2 {
-    display: table-cell;
-    float: left;
-    margin: 5px 15px 5px 0;
-    padding: 0;
-}
-
-.body img.floatleft {
-    float: right;
-    margin: 5px 20px;
-    padding: 0;
-}
-
+/* Mobile: Stack images */
+.body img.floated,
+.body img.floated2,
+.body img.floatleft,
 .body img.floatright {
-    float: left;
-    margin: 5px 15px 5px 0;
-    padding: 0;
+    float: none;
+    display: block;
+    margin: 10px auto;
+}
+
+@media (min-width: 1000px) {
+    .body img.floated {
+        float: right;
+        margin: 5px 0 5px 20px;
+    }
+
+    .body img.floated2 {
+        float: left;
+        margin: 5px 15px 5px 0;
+    }
+
+    .body img.floatleft {
+        float: left;
+        /* Name suggests left, orig was right? checking logic */
+        /* Original floatleft had float: right; confusing naming? 
+           Original: .body img.floatleft { float: right; ... }
+           Original: .body img.floatright { float: left; ... }
+           This seems inverted or legacy naming. I will preserve original behavior.
+        */
+        float: right;
+        margin: 5px 0 5px 20px;
+    }
+
+    .body img.floatright {
+        float: left;
+        /* Preserving original inverted behavior */
+        margin: 5px 15px 5px 0;
+    }
 }
 
 
@@ -544,7 +610,13 @@ textarea {
 
 .indextopthree {
     padding: 10px 15px;
-    float: left;
+    float: none;
+}
+
+@media (min-width: 1000px) {
+    .indextopthree {
+        float: left;
+    }
 }
 
 
@@ -554,22 +626,20 @@ textarea {
 /** inline text images **/
 
 .imageleft {
-
-    float: left;
-    /*"shrink wraps the box width to that of the widest content*/
-    width: 275px;
+    float: none;
+    width: 100%;
+    max-width: 275px;
+    margin: 10px auto;
     text-align: center;
     height: auto;
-    margin-right: 1em;
-
 }
 
 .imageright {
-    width: 275px;
+    width: 100%;
+    max-width: 275px;
     height: auto;
-    float: right;
-    /*"shrink wraps the box width to that of the widest content*/
-    margin-left: 1em;
+    float: none;
+    margin: 10px auto;
 }
 
 .imagecenter {
@@ -579,7 +649,9 @@ textarea {
 }
 
 .smallpicture {
-    width: 45%;
+    width: 100%;
+    max-width: 275px;
+    margin: 0 auto;
 }
 
 .largepicture {
@@ -587,7 +659,9 @@ textarea {
 }
 
 .archivessmallpicture {
-    width: 42.62%;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
 }
 
 @media (min-width: 1000px) {
@@ -776,10 +850,21 @@ textarea {
 }
 
 .footer-logo-prx {
-    position: absolute;
-    right: 15%;
-    top: 50%;
-    transform: translateY(-50%);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    position: static;
+    transform: none;
+}
+
+@media (min-width: 1000px) {
+    .footer-logo-prx {
+        position: absolute;
+        right: 15%;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+    }
 }
 
 
@@ -892,7 +977,7 @@ p.clr,
     height: 23px;
 }
 
-.galeria a:hover {}
+/* .galeria a:hover {} Removed empty ruleset */
 
 .galeria a.first {
     background: url(images/rss_1.gif) top no-repeat;
@@ -1349,17 +1434,59 @@ audio {
 @media (min-width: 1000px) {
     .mainbar {
         width: 100%;
+        /* If sidebar is present, mainbar usually wraps or floats left? 
+           Based on archives.html structure: <div class="left">...</div> <div class="sidebar">...</div>
+           Wait, archives.html DOES NOT use .mainbar. It uses .left and .sidebar directly inside .body_resize.
+           Index uses .mainbar. 
+           Let's fix .sidebar generally first.
+        */
     }
 }
 
 .sidebar {
-    float: right;
-    width: 31.25%;
+    float: none;
+    width: 100%;
+    margin-top: 20px;
 }
 
 @media (min-width: 1000px) {
     .sidebar {
+        float: right;
         width: 290px;
+        margin-top: 0;
+    }
+}
+
+/* Also fix .left and .right generic classes if they aren't already */
+.left {
+    margin: 0;
+    padding: 15px;
+    width: auto;
+    float: none;
+}
+
+@media (min-width: 1000px) {
+    .left {
+        width: 610px;
+        margin: 0;
+        padding: 15px;
+        float: left;
+    }
+}
+
+.right {
+    margin: 0;
+    padding: 15px;
+    width: auto;
+    float: none;
+}
+
+@media (min-width: 1000px) {
+    .right {
+        width: 290px;
+        margin: 0;
+        padding: 15px;
+        float: right;
     }
 }
 
@@ -1564,10 +1691,21 @@ figcaption {
 }
 
 .segment-image {
-    float: left;
-    width: 25%;
-    margin-right: 20px;
-    height: 200px;
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+    height: auto;
+    max-height: 300px;
+}
+
+@media (min-width: 1000px) {
+    .segment-image {
+        float: left;
+        width: 25%;
+        margin-right: 20px;
+        height: 200px;
+    }
 }
 
 .segment-image img {
@@ -1579,8 +1717,15 @@ figcaption {
 }
 
 .segment-content {
-    float: left;
-    width: 70%;
+    float: none;
+    width: 100%;
+}
+
+@media (min-width: 1000px) {
+    .segment-content {
+        float: left;
+        width: 70%;
+    }
 }
 
 .segment-player {
@@ -1660,12 +1805,23 @@ figcaption {
 }
 
 .featured-image {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     object-fit: cover;
     border-radius: 4px;
-    margin: 0 30px 15px 0 !important;
-    float: left;
+    margin: 0 auto 15px auto !important;
+    float: none;
+    display: block;
+}
+
+@media (min-width: 1000px) {
+    .featured-image {
+        width: 250px;
+        height: 250px;
+        float: left;
+        margin: 0 30px 15px 0 !important;
+    }
 }
 
 .featured-summary {
@@ -1988,3 +2144,52 @@ figcaption {
 .sponsor-logo:hover {
     filter: grayscale(0%);
 }
+
+/* Mobile first adjustments for body_resize to ensure padding */
+.body_resize {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* Add horizontal padding for mobile */
+}
+
+@media (min-width: 1000px) {
+    .body_resize {
+        width: 960px;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+/* Additional Responsive Classes */
+
+.header-image-container {
+    margin: 0 auto 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.header-image-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.series-content {
+    line-height: 1.6;
+    overflow-wrap: break-word;
+}
+
+.series-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Ensure iframes (e.g., Megaphone, Maps) are responsive */
+iframe {
+    max-width: 100%;
+    /* Let height be determined by attribute or specific classes if needed */
+}
+

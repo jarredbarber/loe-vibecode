@@ -41,7 +41,7 @@ Steve has been a journalist for more than 30 years with experience at NPR, CBS N
 
 617-287-4121 | [jdoering@loe.org](mailto:jdoering@loe.org) | [Twitter @jennidoering](https://twitter.com/jennidoering)
 
-A member of the Living on Earth team since 2014, Jenni Doering enjoys producing stories on climate science, chemical exposure, and outdoor inclusivity. One of her favorite parts of the job is getting to meet and interview some of her nature writing heroes! She majored in Environmental Humanities at Whitman College in Walla Walla, WA and will always have a soft spot for the PNW. She now lives in Somerville, Massachusetts with two very fluffy kitties and enjoys biking, hiking, and gardening.
+A member of the Living on Earth team since 2014, Jenni Doering enjoys producing stories on climate science, chemical exposure, and outdoor inclusivity. One of her favorite parts of the job is getting to meet and interview some of her nature writing heroes! She majored in Environmental Humanities at Whitman College in Walla Walla, WA and will always have a soft spot for the PNW. She now lives in Somerville, Massachusetts with [two very fluffy kitties](https://www.instagram.com/torikatsu.the.cat/) and enjoys biking, hiking, and gardening.
 
 ---
 

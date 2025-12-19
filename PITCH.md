@@ -8,21 +8,33 @@ We are upgrading Living on Earth from `"The Old Way"` to `"The Modern Way"`. Her
 
 ### 🔴 The Old Site (Dynamic)
 
-1. **User Visits**: "I want to read about Solar Power."
-2. **Server Wakes Up**: "Okay, hold on."
-3. **Database Query**: Server asks the database: "Find the text for Solar Power."
-4. **Template Query**: Server asks the file system: "Find the design for the story page."
-5. **Assembly**: Server stitches the text and design together into a page.
-6. **Delivery**: Server sends the page to the user.
+It was a complex relay race every time someone visited a page.
 
-* *Result: Slower, harder work for the server, prone to breaking if any step fails.*
+```mermaid
+graph LR
+    User((User)) --Request--> Server[Server]
+    Server --Query--> Database[(Database)]
+    Database --Content--> Server
+    Server --Builds Page--> User
+    style Database fill:#ff9999,stroke:#333,stroke-width:2px
+```
+
+* **Process**: The server has to "wake up", ask the database for text, find the design templates, glue them together, and *then* send it to you.
+* **Result**: Slower, harder work for the server, and if the database has a hiccup, the whole site breaks.
 
 ### 🟢 The New Site (Static)
 
-1. **User Visits**: "I want to read about Solar Power."
-2. **Server Delivers**: "Here it is."
+It is a simple hand-off. The work is already done.
 
-* *Result: Instant. The page was already built and waiting on the shelf.*
+```mermaid
+graph LR
+    User((User)) --Request--> Server[Server]
+    Server --Delivers Page--> User
+    style Server fill:#99ff99,stroke:#333,stroke-width:2px
+```
+
+* **Process**: The page was built once, text and design combined, before the user ever arrived. It's sitting there waiting.
+* **Result**: Instant. Reliable. Cannot "crash" because there are no moving parts.
 
 ## 2. Reliability (Oral Tradition vs. The Printed Book)
 
@@ -31,7 +43,7 @@ We are upgrading Living on Earth from `"The Old Way"` to `"The Modern Way"`. Her
 
 ## 3. Speed
 
-* **Then**: 🐢 The server had to "think" before showing every page.
+* **Then**: 🐢 **Slow.** The server had to build the page from scratch for every single visitor.
 * **Now**: 🐇 **Instant.** Because the pages are pre-built, they load immediately. This is crucial for listeners on mobile phones or slow connections.
 
 ## 4. Security
@@ -59,9 +71,9 @@ What does this feel like for the person writing the stories?
   * **No Undo**: If you accidentally deleted a paragraph and clicked "Save", it was gone forever.
 
 * **The New Way (Markdown & Git)**:
-  * **Human Readable**: You write in `Markdown`, which looks like normal text. You use simple stars for **bold** or *italics*. It’s clean and easy to read even before it’s published.
+  * **Human Readable**: You write in simple text. You use simple stars for **bold** or *italics*. It is as easy as writing an email.
   * **Work Anywhere**: You can write your stories offline on your laptop, on a plane, or in your favorite text editor.
-  * **Time Travel**: Every time you save (commit), we keep a permanent snapshot. If you make a mistake, you can go back to exactly how the file looked yesterday, last month, or last year. You can never "ruin" the site.
+  * **Time Travel**: Every time you save, we keep a permanent snapshot. You can go back to exactly how the file looked yesterday, last month, or last year. You can never "ruin" the site.
 
 ## Summary
 

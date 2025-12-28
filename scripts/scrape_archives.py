@@ -1,5 +1,6 @@
 import os
 import re
+import argparse
 from datetime import datetime
 from bs4 import BeautifulSoup, Comment
 
@@ -722,7 +723,7 @@ def process_show_page(soup, metadata):
             
     print(f"Done! Created files in {out_dir}")
 
-def main(year):
+def main(year, target_date=None):
     print(f"Processing year: {year}")
     
     year_url = f"{BASE_URL}/shows/toc.html?year={year}"
@@ -745,19 +746,47 @@ def main(year):
         metadata = extract_metadata(soup)
         date_str = metadata.get('date', '')
         
-        # Filter for the specified year only
-        if date_str.startswith(str(year)):
-            print(f"Processing {year} show: {metadata['title']} ({date_str})")
-            process_show_page(soup, metadata)
+        if target_date:
+            if date_str == target_date:
+                print(f"Processing target show: {metadata['title']} ({date_str})")
+                process_show_page(soup, metadata)
+                return # Done finding the specific date
+            else:
+                 # Optional: print(f"Skipping {date_str}")
+                 pass
         else:
-            print(f"Skipping show {date_str} (not {year})")
+            # Filter for the specified year only
+            if date_str.startswith(str(year)):
+                print(f"Processing {year} show: {metadata['title']} ({date_str})")
+                process_show_page(soup, metadata)
+            else:
+                print(f"Skipping show {date_str} (not {year})")
 
 if __name__ == "__main__":
-    # Process only 2025 for now
+    parser = argparse.ArgumentParser(description='Scrape LOE archives.')
+    parser.add_argument('--year', type=int, default=2025, help='Year to scrape (default: 2025)')
+    parser.add_argument('--date', type=str, help='Specific date to scrape (YYYY-MM-DD)')
+    
+    args = parser.parse_args()
+    
+    year = args.year
+    if args.date:
+        try:
+            dt = datetime.strptime(args.date, '%Y-%m-%d')
+            year = dt.year
+        except ValueError:
+            print("Invalid date format. Use YYYY-MM-DD")
+            exit(1)
+
     print(f"\n{'='*60}")
-    print(f"Starting scrape for year 2025")
+    if args.date:
+        print(f"Starting scrape for date {args.date}")
+    else:
+        print(f"Starting scrape for year {year}")
     print(f"{'='*60}\n")
-    main(2025)
+    
+    main(year, target_date=args.date)
+    
     print(f"\n{'='*60}")
-    print(f"Completed scrape for year 2025")
+    print("Completed scrape")
     print(f"{'='*60}\n")

@@ -1,0 +1,71 @@
+---
+title: Earth Day - 1970 vs Now
+date: 2026-04-17
+category: Segments
+megaphone_id: LOE3102358658
+image_url: "https://loe.org/content/2026-04-17/EARTHDAY_rally.jpg"
+image_caption: "The first Earth Day, held on April 22, 1970, was estimated to have drawn crowds of 20 million people, nearly an eighth of the country’s population at the time. Above, protestors at the Washington, D.C. rally. (Photo: U.S. National Park Service, Wikimedia Commons, Public Domain)"
+summary: "The first Earth Day in 1970, when some 20 million people peacefully demonstrated, arrived amid Vietnam War protests and other social unrest. And it came not long after the Apollo 8 astronauts snapped the iconic “Earthrise” photo that showed all of us were on a single, fragile planet amid the blackness of space. In this moment when humans have finally returned to the Moon after decades, Adam Rome, University at Buffalo environmental historian and author of The Genius of Earth Day, joins Host Steve Curwood to reflect on the movement that led to that first Earth Day and how the world has changed."
+---
+
+## Transcript
+
+O’NEILL: From PRX and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth, I’m Aynsley O’Neill
+
+CURWOOD: And I’m Steve Curwood.
+
+Earth Day comes in a moment of human solidarity during times as troubled as back during the first Earth Day in 1970. Violent Vietnam War protests, burning black ghettos and girdles and bras publicly trashed by feminists spoke of great social divides. And then like the sweetest chord in a symphony, Christmas Eve of 1968 brought photos of Earth taken by the first humans to circle the Moon. We gasped as Apollo 8 showed all of us were on a single gorgeous blue marble, shimmering in the black vastness of space. Within sixteen months the first Earth Day had brought 20 million Americans together in peaceful demonstrations, which is still a record. We rallied to care for our common home, and for that day, at least, each other. This Earth Day much does seem to divide us, but we have brand new pictures with an Earth overview, thanks to Artemis II. To see if history can offer help, we turn now to Adam Rome, University at Buffalo environmental historian and author of *The Genius of Earth Day.* Welcome to Living on Earth!
+
+ROME: Thanks, Steve, glad to be here.
+
+CURWOOD: So tell us a little about the political atmosphere of the late 60s. I mean, to what extent did movements like Civil Rights, the anti-war, women's rights, set the stage for that first Earth Day, do you think, in 1970?
+
+![](https://loe.org/content/2026-04-17/EARTHDAY_gaylordnelson.jpg)
+
+Wisconsin Senator Gaylord Nelson founded Earth Day in hopes of channeling the activist spirit of the sixties toward a renewed environmental political agenda. By combining forces with Republican Congressman Pete McCloskey and enlisting youth activists like Denis Hayes, Nelson ensured that all Americans felt welcomed by the movement. (Photo: The U.S. Congress, Wikimedia Commons, Public Domain)
+
+ROME: The founder of Earth Day was a senator from Wisconsin, Gaylord Nelson, and he was a liberal Democrat, so he was interested in all the big issues of the day. But when he had been governor, he became convinced that the environment was going to be the biggest issue that we had to solve. So there's no doubt that the sort of protest spirit and the sense that things were going wrong, but also the sense that a lot of people had that if we really set our minds to it, we could solve a lot of problems, was really important. And not just for him. He ended up hiring a whole bunch of 20-something people to help him organize Earth Day, and they had all been involved in the anti-war or the Civil Rights or the feminist movement. Only one of them had any environmental experience. So it was a cause that I think brought a lot of people who'd been involved in other unrest in the 60s and other movements to try to make the country better. But surprisingly, it also appealed to conservatives. It was really bipartisan, and that nowadays, it's kind of mind-boggling to me to think about that.
+
+CURWOOD: So how many people were in attendance on that first Earth Day? I hear the number 20 million.
+
+ROME: Yeah, 20 million people was about an eighth of the population, which was astonishing. Pretty much every college, every K to 12 school, had some kind of Earth Day event. And there also were events in public spaces and in front of offices of corporations or government buildings. So it was everywhere. It was such a big deal that Congress shut down for the day. Two thirds of the members were going to be speaking somewhere, and that was Republicans as well as Democrats.
+
+CURWOOD: Now, your book describes the first Earth Day as a teach-in, or a national conversation about the environment. What was the energy like on that first Earth Day of 1970, do you think?
+
+![](https://loe.org/content/2026-04-17/EARTHDAY_earthrise2.jpg)
+
+The famous 1968 *Earthrise* photograph of the Earth from the Moon caused many Americans to see our planet differently, a feeling that Nelson and others leveraged leading up to the 1970 movement. (Photo: William Anders, NASA, Public Domain)
+
+ROME: The teach-in was Gaylord Nelson's phrase, that was a strategy that the anti-war movement had used a few years before to have these sort of politicized events on campuses that brought both pro-war and anti-war people together to debate. And Gaylord Nelson was convinced that that could empower people, that it could lead them to action. So he said he would organize an environmental teach-in. But I think his insight was shrewd, that the issues hadn't really been widely discussed. There weren't a lot of experts, there weren't a lot of books, there weren't journalists writing on the environmental beat, and Earth Day became this soul-searching experience for a lot of people, that was a phrase The New York Times used to describe Earth Day events at the University of Michigan. And tens of thousands of people spoke on Earth Day who had never spoken about environmental issues publicly. People really debated, first of all, how serious the issues were. Were they annoyances, or were they civilization-threatening? People debated, how deep did the causes go? I mean, was there something fundamentally wrong with capitalism? Was there something fundamentally wrong with Judeo-Christian religious tradition, or was it something that you could just, through ordinary political means, figure out solutions to? And people also really had to decide how much it mattered to them personally. Were they going to do anything different? This was also the first time, really, that people imagined that maybe they needed to consume less or differently. So people asked really practical day to day questions, you know, what do we do about Lake Erie? It seems to be dying. To these epochal, existential kinds of questions about what kind of relationship we had with nature and whether that needed to change in some profound way. So the conversations, they were civil, but they were incredibly challenging. They forced a lot of people to think about things in a way they hadn't thought about before.
+
+CURWOOD: This year's Earth Day draws a lot of parallels to that first event back in 1970. Both then and now we're seeing a lot of political division and unrest. The US is waging a war in another country and another continent, but at the same time, we're sending people to the moon. How can we apply lessons from the original movement to today, do you think?
+
+![](https://loe.org/content/2026-04-17/EARTHDAY_adamromecover.jpg)
+
+Adam Rome’s 2014 book, *The Genius of Earth Day: How a 1970 Teach-In Unexpectedly Made the First Green Generation*. (Photo: Courtesy of University at Buffalo)
+
+ROME: That's a great question, Steve, and really, \[LAUGH] really hard to answer. In the past, I could easily give a variety of lessons about what made Earth Day so powerful, what was the genius of Earth Day and ways that we, even though we can't ever have another Earth Day like 1970, what we might do. The current moment feels much more challenging to me, because although there are all the parallels that you just mentioned, I don't think people in 1970 really thought that democracy might be at stake, and a lot of people did look then to government to help solve these problems. And there's a huge part of our country now that just can't begin to accept that idea. So I think actually, I mean, when I talked about this with my students, they're really interested in finding ways to bridge the partisan divide, if that's possible. And many of the ways that they find compelling are not big public events that are obviously political, but other kinds of things, like they have hopes that community gardens could bring people together and be empowering and allow people to talk who might otherwise disagree about a lot of things, and if they start growing some of their own food, they might think about other environmental issues. So that's really profoundly different than Gaylord Nelson's sense that if we just had a really civil, but deep conversation, people would change. It's hard to imagine a really civil, deep conversation right now for lots of reasons.
+
+CURWOOD: So despite the unexpected success of its inaugural event, 20 million people attending, today, Earth Day feels, let's face it, a little more symbolic than it is impactful. It might be celebrated, say with a local trash cleanup or maybe a craft in a classroom, if it's remembered at all. So how did we get there?
+
+ROME: Well, ironically, Gaylord Nelson never envisioned when he was first planning Earth Day 1970 that it would be more than a one time event. And some places have had Earth days ever since. And sometimes they're pretty amazing, but as you say, mostly they're much tamer. They're mostly for kids. And the 2020 one, which would have been the 50th anniversary, was wiped out by the pandemic. So we don't have that example. There had only been one other one that was nationally organized, that was 1990, the 20th anniversary. So we don't really have a recent example of what a really kick-ass Earth Day could be. And this year, I again, I asked my class, you know, what do you expect this year? And they all expected pretty much nothing. I hope they're wrong. But they had a hard time imagining anything really dramatically meaningful. Other than, you know, and this show is a great example of it, people pausing and saying, let's talk about this and see where we're at.
+
+![](https://loe.org/content/2026-04-17/EARTHDAY_adamromephoto.jpg)
+
+Adam Rome is an environmental historian and a professor at the University at Buffalo in New York. (Photo: Courtesy of University at Buffalo)
+
+CURWOOD: So sometimes in the classes you give, people ask your opinion, Professor, what do you think of all of this? What have we lost by not paying much attention to Earth Day anymore? And you would say?
+
+ROME: I mean, I've been asked over the years by a number of people like, is it even worth it to have Earth Day anymore? And that question, to me, is less interesting than asking questions about why the first one was so powerful and what we could learn from it. So the lessons that we learned from the first Earth Day might not be applied to Earth Day itself. The biggest lesson I draw is that it was empowering. And so how can we think about what would be empowering today? What would change the way people think and act? And it might be something totally different than what we think of as Earth Day. But I think for me, whenever I get depressed, and it's not hard to get depressed when you think about climate change and some other issues, I am inspired by the story of the first Earth Day, which was totally unexpected and led, in all kinds of ways, to dramatic, measurable progress in dealing with environmental problems. Our air is much cleaner, our water is much cleaner, all the problems that people wanted to address in 1970, we've done a lot. We haven't solved them all, but we've done a lot. So I would say, read about the first Earth Day and see if that inspires you. I think we need inspiration, and especially we need to do things that make us feel more powerful. We can't solve any problem if we all feel powerless.
+
+CURWOOD: Adam Rome is an environmental historian and a professor at the University at Buffalo. His book is called *The Genius of Earth Day: How a 1970 Teach-In Unexpectedly Made the First Green Generation.* Professor, thanks so much for taking the time with us today.
+
+ROME: It was my pleasure, Steve. I really enjoyed talking with you.
+
+## Related Links
+
+- [Find an Earth Day 2026 event near you!](https://www.earthday.org/earth-day-2026/#map)
+- [Purchase Adam Rome’s 2014 book, The Genius of Earth Day: How a 1970 Teach-In Unexpectedly Made the First Green Generation](https://bookshop.org/a/20556/9780865477742)
+- [Learn more about the history of Earth Day](https://www.earthday.org/history/)
+- [EPA  | "EPA History: Earth Day"](https://www.epa.gov/history/epa-history-earth-day)
+- [NASA  | "Apollo 8: Christmas at the Moon"](https://www.nasa.gov/missions/apollo/apollo-8-christmas-at-the-moon/)

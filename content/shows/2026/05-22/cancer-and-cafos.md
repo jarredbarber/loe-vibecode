@@ -1,0 +1,106 @@
+---
+title: Cancer and CAFOS
+date: 2026-05-22
+category: Segments
+megaphone_id: LOE7081512813
+image_url: "https://loe.org/content/2026-05-22/CAFOS_turkey.jpg"
+image_caption: "Large Concentrated Animal Feeding Operations, or CAFOs, can contain thousands of animals in tight quarters to maximize production. The EPA rates as large CAFOs with 55,000 or more turkeys. (Photo: Mercy for Animals, Wikimedia Commons, CC BY 2.0)"
+summary: "Living near many large Concentrated Animal Feeding Operations or CAFOs appears to raise cancer risk, according to a study from Yale researchers. CAFOs pack thousands of pigs, cows, and chickens together to produce meat, dairy, and eggs. All those crowded animals can produce a lot of waste that pollutes air and water, which may explain an association between CAFOs and cancer, though the study does not prove causation. Brian Bienkowski, managing editor of The New Lede, joins Host Steve Curwood to talk about the research and how concerns transcend politics."
+---
+
+## Transcript
+
+O’NEILL: From PRX and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth, I’m Aynsley O’Neill.
+
+CURWOOD: And I’m Steve Curwood.
+
+Many people know smoking tobacco or spraying certain pesticides can elevate the risk of cancer, but few of us know that living in a county with a lot of large Concentrated Animal Feeding Operations, or CAFOs may also raise cancer risk. But that perception may be changing, thanks to experts at Yale University reporting in Environmental Research who examined cancer prevalence in three states, comparing counties with more of these massive operations to counties with less. CAFOs pack thousands of animals together to produce meat, dairy, and eggs, and large ones have more than a thousand cows, 2,500 pigs or 30,000 chickens, and supply most of the meat you buy at the grocery store. Critics have long raised ethical questions about CAFOs, the unpleasant odors and the climate costs of related methane emissions. This research showing an association between CAFOs and cancer prevalence does not provide conclusive proof, but it does ask questions about possible mechanisms such as air and water pollution. Joining us to discuss is Brian Bienkowski, managing editor of The New Lede. Welcome back to Living on Earth, Brian!
+
+BIENKOWSKI: Steve, it's so nice to see you again.
+
+CURWOOD: So, the other day, a study came out from Yale University, looking at these massive feeding operations. You've looked at this research, what were the main findings?
+
+BIENKOWSKI: So, they looked at counties in Iowa, Texas, and California, and they looked at county-level cancer rates and CAFO density in the counties, and they found that cancer rates were 4% higher in high CAFO counties in California, and they were 8% higher in highly exposed counties in Iowa and Texas. And it's important to point out, I mean, Steve, you've been doing this a long time, these studies are a data point, right? This is a correlation, this is not causation. So, they didn't measure what people were exposed to in these counties, they basically said if there's more CAFOs, there's more cancer. So, it's a data point in kind of this broader body of evidence that's growing that shows that these CAFOs are putting out pollutants that could plausibly cause cancer. So, this isn't a causal study, this doesn't prove that CAFOs cause cancer, but just another data point pointing to that evidence.
+
+![](https://loe.org/content/2026-05-22/CAFOS_northcarolina.jpg)
+
+A hog CAFO in North Carolina. A recent study from Yale University found that people living near CAFOs in California, Texas and Iowa suffer from higher rates of cancer. (Photo: Waterkeeper Alliance, Inc., Flickr, CC BY-NC-ND 2.0)
+
+CURWOOD: But it is an association, isn't it? I mean, if you have an area that has more CAFOs, and there's more cancer, it certainly bears looking into, yes?
+
+BIENKOWSKI: Correct. Yes, and we already know that CAFOs emit ammonia, hydrogen sulfide, VOCs, fine particulate pollution. These are air pollutants that can form carcinogens in the air and induce inflammation, oxidative stress, and other things in our bodies that can cause cancer. And then, in addition to that, there's a massive amount of manure, and often that manure will find its way into nearby creeks and streams and waterways that people end up drinking, and this manure can form nitrates, which is linked to all kinds of different cancers. So, we know that CAFOs put out cancer-causing pollution, and now we know that counties with a lot of CAFOs have higher rates of cancer.
+
+CURWOOD: So, talk to me about the state of Iowa, where there's a fair amount of research about the potential dangers of the agricultural pollution there. What's going on?
+
+BIENKOWSKI: Yeah, Iowa has become ground zero for this, and you're seeing more and more headlines, more and more reporters paying attention to Iowa, because, I don't know if you've been there, but Iowa is corner to corner farms. They plant corn and soybean right up to the road, and then they are the top state for the amount of CAFOs, anywhere from, I think, 4,000 to 8,000 is kind of the rough estimate. There's a lot of CAFOs there, and a lot of hog farming. And lately, you may have seen this, Iowa is one of the only one of two states in the country where cancer rates are rising, so it's Kentucky and Iowa. And a massive report recently from the Harkin Institute found that one of the reasons, one of the culprits behind this is nitrates, which, as we just talked about, comes from manure. Also, they looked at pesticides, air pollution, and other problems in Iowa that could be causing this, but yeah, you're starting to see people pay attention in Iowa who haven't paid attention before and questioning whether Big Ag is impacting people's health.
+
+CURWOOD: So, who's pushing back against these CAFOs, given that there are these growing concerns? Who's saying, "Hey, maybe we don't want these in our backyards?”
+
+![](https://loe.org/content/2026-05-22/CAFOS_cows.jpg)
+
+Livestock produce manure, which contains nitrates and can potentially pollute local waterways. The EPA rates large CAFOs as those with one thousand or more cows. (Photo: USDA.gov, Wikimedia Commons, public domain)
+
+BIENKOWSKI: So, there's the usual chorus of environmental and health groups. This is in Iowa and beyond. I mean, these are organizations like Food and Water Watch, Farm Stand, Farm Forward. They've been saying for years that not only are we treating animals poorly by packing them into these tight facilities, but increasingly, beyond the animal welfare concerns, you're hearing these organizations talk about the human health concerns that we're talking about today. But we've been spending a lot of time, the New Lede, in Iowa, and they've been holding town halls over the last year as they come out with this cancer report, and they're trying to listen to residents, and you know some of this is anecdotal, but you are seeing increasingly more and more people who don't fall along the typical, whether it's the environmentalist demographic or younger or urban, the people that you would maybe anticipate to be at these town halls yelling about pollution. We saw a lot of people from rural areas, we saw farmers, I mean, a lot of farmers are upset at the fact that they cannot compete anymore, because there are, if you are a pig farmer and you want to have them grazing on grass, you cannot compete with the guy that has 2,000 of them in a concrete facility. It doesn't work. So, in addition to the pollution concerns, you have kind of a growing rural and farmer-led backlash to some of the, especially Iowa, the way agriculture has just grown at such a fast rate.
+
+CURWOOD: And when you say agriculture, then you're saying largely sort of industrial scale "factory farming," as it were.
+
+BIENKOWSKI: Correct. Yeah, "factory farming" is kind of looked at as a pejorative term that environmental and health groups use, but it's really accurate when you look at a facility that has thousands of animals and is keeping them in really tight, you know, tight little areas, and kind of pumping them through. It's similar to like a factory in Detroit that's doing that for auto parts. So, I think it's apt, and in Iowa, of course, you're not just dealing with CAFOs, as I said, you're dealing with massive amounts of corn and soybeans that are just, you know, this is Big Ag as well, those are not small scale farms.
+
+CURWOOD: And of course, there must be concern based on the fact that cancer affects us all — us ourselves, or somebody we know, our family.
+
+![](https://loe.org/content/2026-05-22/CAFOS_MAHA.jpg)
+
+Health and Human Services Secretary Robert F. Kennedy Jr. (right) and the “Make America Healthy Again” or “MAHA” movement have called for a focus on meat as a protein source in American diets. (Photo: The White House, Wikimedia Commons, public domain)
+
+BIENKOWSKI: I think that's a great point, Steve, you can talk until you’re blue in the face about the fact that ammonia is coming from these pig farms, or that nitrates are in the water. Those terms are largely meaningless to most people, but when you talk about cancer, as you said, it affects everybody. So, I think that's what's getting people out of their house and into these town halls, and into talking to their legislators in Iowa. I'm seeing a real shift there, where again, this isn't a red versus blue thing, urban versus rural, it's people who have been affected by cancer who want answers.
+
+CURWOOD: So, talk to me about how CAFOs are regulated across the United States. What rules, if any, do the people who do this have to answer to?
+
+BIENKOWSKI: Right, so there's been some controversy over that. A lot of groups think they should be regulated more tightly, so CAFOs themselves under the federal Clean Water Act are point source, so they do have to abide by certain regulations in terms of what they release into the waterways. However, as I said, when you're generating this amount of manure, it doesn't stay on-site, you have to put it somewhere, so when they spread it on fields, that's often considered non-point source pollution that is regulated in a much more lax way, and that's where a lot of people think the pollution from CAFOs is the most acute. When you spread it on these fields, if you spread it at the wrong time of year, if you spread it before a rain event, if you spread it in winter when it can run off and not be absorbed by the field, this is how it gets into nearby waterways, so and then the air pollution is just not nearly as highly regulated as, say, a factory in Detroit or Gary, Indiana. So, it's operating at a much lower level than heavy industry.
+
+CURWOOD: I would imagine that there's a lot of manure from these operations, and that the people who are operating these places are spreading, covering large areas that then what become run off into local waterways, as you say, officially non-point pollution, but in the aggregate, probably fairly intense, huh?
+
+BIENKOWSKI: Correct. Yeah, and if you talk to farmers, the farm bureaus, and people who are in support of CAFOs, and not more tightly regulating them, they'll say that this manure is full of good things for fields and good things for soil, you know, nitrogen and phosphorus are important, they're vital fertilizers. And as we know right now, with the Strait of Hormuz closed, getting fertilizer is a hard thing, so they're getting it where they can, so it can be a really important source of fertilizer for these fields, but the problem is the sheer amount. This is a lot of, it's a lot of poop. It's a lot of manure. So, you have to find enough places for it.
+
+CURWOOD: So, Brian, the 2026 farm bill, the latest version has just gotten through the House of Representatives, and it's now on to the Senate. To what extent are CAFOs a point of contention in this year's iteration of the farm bill?
+
+![](https://loe.org/content/2026-05-22/CAFOS_houseofreps.jpg)
+
+The 2026 Farm Bill (H.R. 7567 – Farm, Food, and National Security Act of 2026) passed through the House of Representatives 224-200, includes a provision that would override states’ rights to regulate CAFOs. The Bill will now be taken up by the Senate. (Photo: Noclip, Wikimedia Commons, public domain)
+
+BIENKOWSKI: Yeah, it's a good question, Steve. This is a timely conversation, because the House just passed their version of the farm bill, which most people probably know is a massive piece of legislation, you know, over 800 pages that really dictates our farming policy over the next four to five years, and the House version passed a provision called Section 12006, kind of referred to as the Save Our Bacon Act, which seeks to override California's Proposition 12 and Massachusetts Question Number Three. Both of these are state laws that look to have animal welfare standards be taken into account. So, in California, there are certain basic standards that animals have to be raised in, in order to be raised in that state or sold in that state. You know, this is like very basic things like being able to turn around in their cage, lie down, things like that. And the National Pork Producers Council and legislators in heavy agricultural states don't like this, because their pork products - this is largely targets hogs, but it's for any animal. They don't like that, because their products can't be sold in California, so they want this removed. These are people who are often very for states' rights, are not for states' rights in this case. They say it violates the Commerce Clause. So that did pass the House, and now we wait to see what the Senate does with that.
+
+CURWOOD: Okay, I know you don't have a crystal ball, but what does it look like in the Senate?
+
+BIENKOWSKI: Senator Boozman, who runs the Agricultural Committee, said that this will not pass, he said that to a group of agricultural journalists. He doesn't think it has support. This has been in farm bills previously and has gotten shot down. So, I don't have a crystal ball. I don't know people I've talked to. They also do not want to make predictions about this, but if history is a predictor of the future, it seems like it will not pass. But we wait and see.
+
+CURWOOD: Just how powerful is the meat and ag lobby in DC? And talk to me about where the MAHA, the Make America Healthy Again movement, comes into play here.
+
+BIENKOWSKI: Yeah, I mean, the agricultural lobby across the board is massive. It's one of the largest lobbies in the United States. The National Pork Producers Council is the one that I most often deal with. They are constantly lobbying on these issues. When we were just talking about the Save Our Bacon Act, I mean, they took that all the way to the Supreme Court with a lawsuit. So, they're a massive lobby. They have the ear of a lot of senators and House members across the country. In terms of MAHA, this is a really important part of it. MAHA has made meat and protein a really big part of their agenda. MAHA as you know, is a kind of fractured coalition, and it's not a monolith, so we can't say everybody agrees on these things, but RFK Jr. the Secretary of HHS, when they redid their dietary guidelines, really put an emphasis on meat and whole milk, and put these things at the top of the food pyramid, and what that does, according to sources that I speak to, I mean that locks in CAFOs, right? You cannot meet the demand of meat that they want to meet with their new guidelines without these very large scale CAFO farms. So, what I find interesting is MAHA has been very vocal about the pollution concerns from pesticides, glyphosate, paraquat, and other things that we also cover at the New Lede, but they do not seem to mention or seem to be as concerned about the pollutants from the meat industry that we've been discussing today.
+
+![](https://loe.org/content/2026-05-22/CAFOS_bienkowski.jpg)
+
+Brian Bienkowski is the managing editor for *The New Lede.* (Photo: Courtesy of Brian Bienkowski)
+
+CURWOOD: What are the alternatives here? How might we do agriculture differently without admonishing people for wanting to eat meat?
+
+BIENKOWSKI: This is a tricky one. There's a lot of people, there's a lot of demand, and protein is important, and meat tastes good, so it's a tricky one. I can speak personally, living in a pretty rural community that doesn't have a Whole Foods, that doesn't have large grocery suppliers. We try to eat locally. I think across the board, it is more environmentally friendly if you can find both meat and produce on a local level and try to support your local farmers, things that haven't traveled really far. Often, if you can find a local farmer, they are not using CAFOs. Those are sold on the wholesale market, so you could find people who are butchering their own animals or sending them to a local slaughterhouse if you want to be eating meat. Ultimately, if you want to tackle this at scale, it's going to have to be a reduced demand for meat. There's no way around that. Our demand for meat right now, and our, between exports and what we consume, it simply dictates that we need to have CAFOs to fulfill that demand if it's going to be at all affordable for people.
+
+CURWOOD: Brian, at the end of the day, how loud are your alarm bells going off here? I mean, how concerning is all of this to you as a journalist, looking at this to serve the public?
+
+BIENKOWSKI: Having been a journalist for 16 years, my alarm bells are very dulled at this point. However, I will say, when you see one of these CAFOs, it's jarring. It's jarring. The idea of the family farm, the idea of the red barn, cows grazing, pigs grazing, rolling around in the mud, the kids playing with them, that idea is, I mean, it exists in the country in certain places, but that is not where your meat is coming from when you go to the grocery store. And this massive amounts of pollution, if you look at, again, not to go back to Iowa, but that is the epicenter of this, and if you look at a state that has had very little guardrails with how they regulate, and just consider zoning when it comes to agriculture, and have just allowed their state to be completely full of agriculture. They're full of pollution now. Their big cities, as we mentioned, cannot keep up with the amount of nitrates that are coming into their water system. So, that is a public health crisis. And just last week, more than 80 groups sent a letter to HHS and the US EPA saying that there is a nitrate drinking water public health crisis in this country and told them they need to take immediate action. So, it's not just me saying this. There are a lot of people right now who say that this is a crisis going on across the country.
+
+CURWOOD: Brian Bienkowski is the managing editor of The New Lede. Thanks so much for taking the time with us today, Brian.
+
+BIENKOWSKI: Thanks, Steve. It's always great to see you.
+
+## Related Links
+
+- [Environmental Research Journal  | “Density of Animal Feeding Operations, Including Concentrated Animal Feeding Operations (CAFOs), and Cancer Incidence: A County-Level Ecological Study Across Three U.S. States”](https://www.sciencedirect.com/science/article/pii/S0013935126006286)
+- [The New Lede  | “Higher Cancer Rates in Counties with More CAFOs, Study Finds”](https://www.thenewlede.org/2026/04/cafos-cancer-pollution/)
+- [Watch Environmental Working Group’s Documentary on Iowa’s water crisis](https://www.youtube.com/watch?v=VqRHVXjghKM)
+- [The New Lede  | “WATCH: Cancer and Water Contamination Fuel Public Outcry in Iowa”](https://www.thenewlede.org/2025/08/iowa-cancer-water-pollution-farms-public-outcry/)
+- [The New Lede  | “Iowa Cancer Rates Surge — Farm Chemicals Are a Key Risk, New Report Finds”](https://www.thenewlede.org/2026/03/iowa-cancer-pesticides-nitrates/)
+- [The New Lede  | “Farm Runoff Linked to Elevated Nitrate Levels in Drinking Water Serving More Than 60 million Americans”](https://www.thenewlede.org/2026/04/nitrate-drinking-water-corn-soybeans-cafos/)
+- [The New Lede  | “Controversial Farm Bill Measure Targeting State Animal Laws Heads to Senate Showdown”](https://www.thenewlede.org/2026/05/farm-bill-save-our-bacon-livestock-cafos/)
+- [Read the letter to HHS Secretary Robert F. Kennedy Jr and US EPA Administrator Lee Zeldin calling for urgent action on the “public health emergency” of nitrate contamination in drinking water](https://protectcleanwater.org/wp-content/uploads/2026/05/Letter-to-HHS-and-USEPA-re-Harkin-NO3_final-signed.pdf)

@@ -1,0 +1,21 @@
+{
+  "date": "2026-04-17",
+  "show": {
+    "url": "https://loe.org/shows/shows.html?programID=26-P13-00016",
+    "file": "show.html"
+  },
+  "segments": [
+    {
+      "url": "https://loe.org/shows/segments.html?programID=26-P13-00016&segmentID=1",
+      "file": "segment-01.html"
+    },
+    {
+      "url": "https://loe.org/shows/segments.html?programID=26-P13-00016&segmentID=2",
+      "file": "segment-02.html"
+    },
+    {
+      "url": "https://loe.org/shows/segments.html?programID=26-P13-00016&segmentID=3",
+      "file": "segment-03.html"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+---
+title: Colonizing the Moon
+date: 2026-04-03
+category: Segments
+megaphone_id: LOE1170252824
+image_url: "https://loe.org/content/2026-04-03/NASA_launch.jpg"
+image_caption: "NASA’s Artemis II mission launched at 6:35 p.m. EDT on April 1, 2026 from the Kennedy Space Center. (Photo: Joel Kowsky, NASA, Public Domain)"
+summary: "The astronauts of the Artemis II mission are prospecting for a planned base on the moon, the first lunar expedition since 1972. The crew includes the first woman, the first person of color, and first Canadian to travel to the Moon. John Daniel \"Danny\" Olivas, an engineer and retired NASA astronaut, speaks with Host Aynsley O’Neill about the mission objectives and challenges, why it faced delays and what sets the Artemis program apart from the Apollo visits to the moon of more than 50 years ago."
+---
+
+## Transcript
+
+DOERING: It’s Living on Earth, I’m Jenni Doering
+
+O’NEILL: And I’m Aynsley O’Neill.
+
+\[LAUNCH SFX]
+
+\[ROCKET HISSING SOUND]
+
+And here we go – 10, 9, 8, 7, RS 25 engines lift – 4, 3, 2, 1… booster ignition – and LIFTOFF! The crew of Artemis II now bound for the moon. Humanity’s next great voyage begins.
+
+\[ROCKET SOUND]
+
+O’NEILL: The astronauts of the Artemis II mission are now flying to and from the moon for the first time since Apollo 17 in 1972. It’s a ten-day mission and its role is to test the Orion spacecraft’s system. There are four astronauts in the crew including the first person of color, as well as the first woman and first Canadian to travel to the moon! The previous mission, Artemis I, was an uncrewed flight in 2022, during which an earlier Orion module orbited the moon for nearly a week, collecting crucial data to help prepare for this recent launch. But Artemis II has had several years of delays, with some of the most major issues involving engineering investigations into the Orion spacecraft support systems, heat shields, and even fuel leaks. John Daniel “Danny” Olivas is an American engineer and a former NASA astronaut. Olivas has flown on two space shuttle missions, and to kick off our conversation, I asked him about the Artemis delays and what needs to happen to actually get a space mission off the ground.
+
+OLIVAS: So a lot of us in the space industry really kind of put personalities on the vehicles that we fly. You know, for example, like all the space shuttles, we refer to them in the female context, you know, Discovery, they’re all like, you know, she’s. They have their own personalities. And sometimes, you know, you wake up in the morning, you’re a little grumpy and, you know, sometimes, you know, rockets, when they get ready to launch off the pad, they’re a little grumpy. And so that’s what we saw earlier this year, when we saw that the valves were not working the way they were supposed to. We had leaks here and there, and so we just had to take her back into the barn and get those things taken care of. And you know, fortunately, everything was good enough for her to fly, and the launch was was spectacular.
+
+![](https://loe.org/content/2026-04-03/NASA_astronautlineup.jpg)
+
+From left to right: Canadian Space Agency astronaut Jeremy Hansen, and NASA astronauts Victor Glover, Reid Wiseman, and Christina Hammock Koch, are the four astronauts who will venture around the Moon on Artemis II. (Photo: James Blair, NASA, JSC, Public Domain)
+
+O’NEILL: And now Artemis II is the first time we’ve sent humans back into the moon’s space in over 50 years. What are some key differences between our space race of the 60s and 70s and the current state of space flight operations?
+
+OLIVAS: Wow, how much time do we have? \[LAUGH] There’s a number of things that make our journey to the moon back in the 1960s and early 70s different from what it is today. First off, is a programmatic and financial thing. NASA gets less than .5% of the US budget, and back then we were getting closer to 5%, and even when you adjust for inflation, the equivalent dollar value of Apollo dollars that were going back in the program back then is equivalent to about $200 and maybe $225 billion today. NASA does with far less than that, somewhere around 16 or 14, depending on how much they get allocated. The technology itself has advanced and evolved. You know, remember, back in the days of Apollo, they were solving equations using slide rules and, you know, basically their noggin and pencil and paper. Now we have, you know, computers and computational technology. We have all sorts of, you know, wonderful instrumentation and sensors. And none of that, by the way, at least for a lunar excursion, has ever been tested and vetted. So it is kind of a brand new game. And then the mission itself, you know, we went to the moon with three astronauts. So we know how to do that. This is going to be a crew of four as part of a much more complex architecture than just trying to land on the equator of the moon. We’re actually ultimately destined for a southern pole landing where we believe that there’s water ice. So it’s essentially flying back to the moon this time to stay, not just to go collect rocks and beat our adversaries to a technological leap into space.
+
+O’NEILL: And how differently do we think about safety in this day and age compared to the last time we went to the moon?
+
+OLIVAS: The last time we went to the moon, you know we did so under the shadow of a horrific accident happened in Apollo I, and there were some lessons learned there, but as time wore on and we became much more comfortable and mature in the space program, specifically the Space Shuttle Program, we saw what happened when we let our guard down. Challenger was a perfect example, and so was Colombia. Artemis is elevated by the astronauts who paved the way before through the hard lessons, and those lessons have not been forgotten. Safety is front of mind for the entire mission. And I like to say that the crew’s job is to take care of the mission, but the ground’s job is to take care of the crew. And you know, so long as everybody remembers that in that priority, then we’re going to be good to go. There’s been a lot of increases in our understanding, in our capability. Systems are far more robust and mature, but still, you know, this is the first time, as you said, we haven’t done this in 50 years, 50 plus years. So now you know this is going to be your first time to do it all over again, and there’ll be a lot of lessons that will be learned, and we’ll do everything we can to take care of the crew and ensure that they get the support they need to be able to complete the mission.
+
+![](https://loe.org/content/2026-04-03/NASA_clearingthelaunchtower.jpg)
+
+Artemis II clearing the launch tower April 1, 2026 after several years of launch date delays. (Photo: NASA, John Kraus, Public Domain)
+
+O’NEILL: I think a lot of us lay people have some understanding of challenges from launch and landing, but what are some of the challenges that the astronauts may face while they’re up there in space, orbiting the moon?
+
+OLIVAS: Well, your food never stays on your plate for one \[LAUGH] no, living and working in space is a challenge, and we’ve come to, I won’t say master it, but we’ve come to really understand it over the course of the past 30 years that we’ve had the International Space Station. We’ve had a human being colony in space on low Earth orbit since the year 2000 and it’s been a phenomenal journey. So you know we’re talking it’ll be 2030 by the time ISS de-orbits. And so doing space and living and working in space is something that we have taught ourselves to do, and I think we do it pretty effectively. So a lot of things happen when you’re up there, especially when you’re doing something like a lunar mission, where you’ve never done that before. So there are systems that are designed to handle the lunar trajectory and the lunar profile, and those are all brand new pieces of equipment. So the mundane things that we don’t necessarily think about, like getting water from the galley, you know, cooking in your food, even using the toilet, these kinds of things, as trivial as they might seem, I mean, that’s part of the human experience and you have to get that right, otherwise you can end up with just a really, really miserable flight. Then there’s the more tactical things that actually carry out the mission, such as, you know, firing thrusters and communicating with the earth and rendezvousing with vehicles. I mean, all these kinds of things need to be tested out and the only way you’re ever going to get that is by having a human in the loop who can introduce the things that humans do naturally. That is, there’s no computer software, there’s no modeling, there’s no algorithm, even AI can’t get it right. You have to have a belly button in the loop, you know, flipping the switch and pulling the lever.
+
+O’NEILL: And now you, of course, are not just an astronaut, but also an engineer, and you were involved in an independent review team for the Artemis heat shield. What were some of the concerns with that heat shield, and how were those concerns rectified?
+
+![](https://loe.org/content/2026-04-03/NASA_trajectory.jpg)
+
+Artemis II is planned to take around 10 days to circle the moon and land back on earth. (Photo: NASA, Wikimedia Commons, Public Domain)
+
+OLIVAS: Yeah, so the heat shield, when it was originally designed, it’s actually the material is very similar. It’s actually almost identical to what was used in the Apollo era. In fact, we, as a country, we have been the only country on the planet to actually bring people, human beings, back from lunar orbit, which is a pretty phenomenal thing, but in doing so, you have to dissipate all the energy that it takes to get there, and that means you’re coming in really hot and fast, somewhere in the order of 25,000 miles an hour, and it exposes the spacecraft to a lot of heat as you enter the atmosphere. So this material can exceed, temperatures can exceed 5000 degrees Fahrenheit exterior. And normally a heat shield is supposed to ablate, you know, think of it here as kind of like it wears away because of the heat. So it’s a nice gradual event that occurs. When we flew Artemis I we designed this heat shield with this AVCOAT, which slightly changed the manufacturing process, slightly changed the design, and in doing so, we introduced some variability that caused the heat shield not to wear away, but in fact, it actually cracked, and pieces started flying off, and that’s a bad thing. NASA doesn’t want that, NASA didn’t plan for that, so it really, it was a surprise to everybody. Over the course of a couple of years you know, NASA conducted a very thorough investigation trying to understand the nature of the cracking of the heat shield, to understand why it happened, what the root cause was and then what they could do to mitigate the effects of cracking the heat shield. And then also, in the process, they discovered how to make it so it doesn’t crack in the future. Now, for Artemis II, they bounded the problem and were able to fly with the heat shield kind of as is, so that they’re going to still experience the same kind of issues. It’s still going to crack, however, the time that it cracks, and the severity of cracking that could possibly happen will happen later in the entry profile, when a majority of the heat has already been dissipated, so the crew should be able to come home safely without any issues. So there’s lots of supporting evidence to suggest that that’s a very good way to approach this. But for Artemis III, they’re changing the design and changing the material so that the material then goes back to wearing away thermally the way it was designed.
+
+O’NEILL: And now the Artemis II mission is planned for about 10 days, but how long is the actual time spent orbiting the moon and what kind of science are these astronauts performing during that time?
+
+![](https://loe.org/content/2026-04-03/NASA_astronautswave.jpg)
+
+From right to left, NASA astronauts Reid Wiseman, commander; Christina Koch, mission specialist; Victor Glover, pilot; and CSA (Canadian Space Agency) astronaut Jeremy Hansen, mission specialist before they board the Orion spacecraft. (Photo: NASA, Aubrey Gemignani, Flickr, CC BY-NC-ND 4.0)
+
+OLIVAS: Well, so from a standpoint of science, think of it as basically the science of exploration. Everything, pretty much that’s on the agenda for the Artemis crew is really focused on trying to run experiments on what it takes human beings to get to and from the moon. As far as orbiting the moon, well, it’s only going to do one lap around it, right? We blast off the planet. Artemis will spend about a day getting into what’s referred to as a high elliptical orbit around Earth, and then use gravity to help that in conjunction with a rocket burn, to do a trans lunar injection. And at that point, it will be on a free trajectory flight to the moon. And then once it actually comes into the gravitational forces of the moon, somewhere on the order of around 20,000 miles or so away from the moon, much more closer to the moon than the Earth. The gravitational tug of the moon will pull it towards the moon, but it’ll miss the moon, because it’ll be going so fast that it’ll pass right by it. And then it’ll pass beyond it, and as the moon passes between Artemis II and the Earth, that gravitational tug will pull the capsule back and towards the moon, and then ultimately it’ll pass the moon on its way back to Earth for free trajectory. So we basically get a, we have Sir Isaac Newton at the helm of the motor for coming back from the moon, basically use gravity. So that’s going to be it. And then it’s going to take about four days to get there, about four days to get back. Figure about a day or so, kind of first, when they first take off. So it’ll be a nine plus day, you know, ten day mission.
+
+O’NEILL: Now, overall, we’re still in the very early stages of the Artemis program. What do you find so exciting or interesting about the missions that are yet to come?
+
+![](https://loe.org/content/2026-04-03/NASA_judd.jpg)
+
+Judd Frieling, the Artemis II lead flight director for ascent, at his station during the Artemis II launch. (Photo: NASA, Robert Markowitz, Public Domain)
+
+OLIVAS: For me it’s the vision of what lunar exploration could be. You know, back in the days of Apollo, the destination to the moon was the objective, and that was to demonstrate to our adversaries that we had technological prowess and we could actually do something really hard and complex, and we did so, but I don’t know that there was necessarily a grand plan afterwards, that here’s what we’re going to do, a, b, c, x, y, z, and I think that’s one of the reasons why it fell out of favor with Congress and the American public, because there was no evolution from there. We are explorers. We, as human beings, are explorers. We always look over the horizon to see what’s next. And, you know, it’s very tantalizing for us to think about, you know, a journey to Mars but in doing so we know that the journey is perilous. We don’t have the propulsion to be able to do that. It would take us anywhere from seven to nine months to get there. Typical mission duration would be two and a half to three years. So it could be a really long journey. And what better way to test things out, as we’ve discovered on ISS someplace close to home. Well, the moon is a perfect place for that. We know there are resources there. There’s water in the southern pole of the moon that could be mined that would allow us to be able to understand how to do in situ resource allocation and utilization, which is what we’re gonna need to do when we get to Mars, because there are no hardware stores that we can go by lumber and all sorts of things that we want to use to build things. So we learn how to use what’s there, and also try different types of technologies, everything from lunar, well, they refer to them as lunar terrain vehicles or basically moon buggies, new moon buggies. To potentially even nuclear electricity, so using nuclear power to be able to, you know, keep things warm at night. All these are going to be important technologies that ultimately we would need when we go to a destination like Mars, but in the case of the moon, it’s a relatively short trip away, any problems come up, we can get back quickly. Communication with the Earth is relatively quick. If we go to Mars, you know you’re talking about as much as a 20 minute delay between the time that you discover you have a problem and you ask for help, and it’s gonna be another 20 minutes before you get the answer back, right?
+
+![](https://loe.org/content/2026-04-03/NASA_artemisilaunch.jpg)
+
+Shown here is the Artemis I launch, with NASA’s Space Launch System, carrying the Orion spacecraft on Nov. 16, 2022. Artemis I provided crucial research and the groundwork for Artemis II. (Photo: Chris Coleman and Kevin Dav, NASA, Public Domain)
+
+O’NEILL: Mm-hm. Yeah.
+
+OLIVAS: So there are lots of issues associated with exploration and then, so this is just, I think, kind of a more comprehensive story that was lacking in Apollo that I think will inspire generations to come of people looking up into the heavens knowing that we are an exploratory species on this planet.
+
+O’NEILL: To what extent do you think that this Artemis program is going to renew a public interest in spaceflight, generally speaking?
+
+OLIVAS: So I mean, I’m Mexican American and I would be lying if I told you that I’m not excited about seeing the diverse nature of this particular crew. You have Victor, who’s, you know, a Black astronaut, and Christina has a female astronaut, you know, Reid’s this wonderful Commander, you got Jeremy, who’s a Canadian. So this tends to cut across a number of different demographic spectrums that we didn’t necessarily see before. It didn’t preclude us from, didn’t preclude me from, you know, becoming an astronaut. I mean, I was a child of the Apollo era, and that didn’t take away my dream for wanting to become an astronaut. But when we see in society the people that reflect that, we can see that they would share some sort of commonality, some sort of connectivity with who we are and our lived experience. It’s exciting to know the kind of generation that this is going to inspire. I mean, we’ve already seen just a tremendous amount of interest, you know, globally about the Artemis missions that we didn’t see necessarily with the Apollo. Apollo is more of a curiosity. Everyone was cheering the US on, but now even the Europeans have stake in the game. You know, the service module is a European contribution to the program, and this is going to provide opportunities for people across the globe to participate in lunar exploration. It’s very exciting, and I’m so thrilled that NASA, when it came time to pick the crew, that this was the crew that was picked, and it wasn’t because of these attributes, but these attributes being part of the crew make it just an absolutely, you know, wonderful crew to be associated with and to know that they’re out there representing us.
+
+![](https://loe.org/content/2026-04-03/NASA_olivas.jpg)
+
+Danny Olivas is an American engineer and former NASA astronaut. He’s flown on two space station missions, STS-117 and STS-128. (Photo: NASA, Public Domain)
+
+\[MUSIC: Fred Steiner, Royal Philharmonic Orchestra, “Main Title And Closing Theme” on Star Trek, Vol. 1 (Original Television Scores) Varese Sarabande Records]
+
+O’NEILL: We’re speaking with Danny Olivas, engineer and former NASA astronaut. We’ll be right back with more after the break, including the all-hands-on-deck approach to solving problems in space.
+
+OLIVAS: My very first space mission, you know, we had a problem with the thermal protection system and you might think to yourself, well, who's going to solve that problem for a thermal protection system? You may say, well, maybe it's going to be a thermal analyst, or maybe another astronaut, maybe trainers or flight director, flight controllers. The answer is, no, it was actually a medical doctor who solved the problem and came up with a solution.
+
+O’NEILL: Stay tuned to Living on Earth!
+
+ANNOUNCER: Support for Living on Earth comes from the estate of Rosamund Stone Zander - celebrated painter, environmentalist, and author of The Art of Possibility – who inspired others to see the profound interconnectedness of all living things, and to act with courage and creativity on behalf of our planet. Support also comes from Sailors for the Sea and Oceana. Helping boaters race clean, sail green and protect the seas they love. More information @sailorsforthesea.org.
+
+\[CUTAWAY MUSIC: Jerry Goldsmith, “Overture” on Star Trek: The Motion Picture – The Director’s Edition (Music from the Motion Picture) Paramount Music]
+
+DOERING: It’s Living on Earth, I’m Jenni Doering.
+
+O’NEILL: And I’m Aynsley O’Neill. We’re back now with Danny Olivas, an engineer and retired NASA astronaut who flew on two shuttle missions. His journey to space was an achievement decades in the making.
+
+![](https://loe.org/content/2026-04-03/NASA_olivasspacewalk.jpg)
+
+Danny Olivas at the end of the Integrated Truss Structure of the International Space Station installing the inboard starboard solar array in 2007. (Photo: NASA, Public Domain)
+
+OLIVAS: When I was seven years old, I went on a family vacation to Houston, Texas, and I grew up in El Paso Texas, even though I was born in California. And I just remember being fascinated by the things I saw in Houston, you know, at the Astrodome, AstroWorld, Gulf of Mexico, it was really phenomenal. But we went to Johnson Space Center and as I said, before being a child of the Apollo era, going through the museum and seeing all the relics of the Apollo era that were still relevant at that time for me, I mean, it had just happened. And so it was then that I was kind of inspired that this is something that I wanted to be part of. I didn't know exactly where or how I was going to be associated with it. You know, I think as a kid, you always, you think of space, you think of astronauts, or you think of spacemen, and so that's the first thing that came to my mind, it stuck. Now, I never really thought that I was going to pursue, like becoming an astronaut, but it always sat in the back of my mind. When I became an engineer, I just kind of came to the conclusion that, hey, one day, these astronauts or these spacemen are going to need someone to work on their rockets and I can do that. You know, I can turn a wrench. And that's how I used my engineering degree to basically focus on space and my passion for space and lo and behold, you know, after maybe almost a decade of trying to get in, my application was finally accepted and nine years later, I flew my first mission. So from the time I put in my first application to the time I flew my first mission was 19 years, so it was with me for a while.
+
+O'NEILL: Gosh, yeah, 19 years is definitely, you had patience, is what I'll tell you.
+
+OLIVAS: Well, so let's be clear, I think more of it is like perseverance.
+
+O'NEILL: Yeah.
+
+![](https://loe.org/content/2026-04-03/NASA_patch.jpg)
+
+The Artemis program patch floating in the International Space Station’s cupola. (Photo: NASA, Jessica Meir, public domain)
+
+OLIVAS: You know you want something, and you just have to continue working hard every single day and never giving up. And it's so easy just to stop, but the second you stop, then you know that you'll never achieve your dream but so long as you continue to work towards it, you know, long as you continue to apply yourself and you're trying to improve yourself, you know you're still in the game. And that's what I love about space. Even though I'm no longer flying as an astronaut, I still take the lessons that I've learned in space and I apply it to everything that I do, and I view every project the way I would as if I was on the moon by myself. It's a science project and I just try to bring that astronaut way of thinking to the work that I do and the people that I work with.
+
+O'NEILL: NASA is at a really, I think, unique position in the public sphere here in the United States. What do you think it is that sort of sets NASA apart in that way?
+
+OLIVAS: I think from my perspective and from my experience, it is NASA as an agency's ability to synthesize diverse thought, the inclusion of diverse thought. You know, time and time again, we've seen the value associated in space exploration through that inclusion of diversity. We saw that ushered in, in the Apollo era, where we saw people of all walks of life fly in space and become inspiration to future generations. And I even say, for example, in even my own mission, you know, on STS 117, my very first space mission. You know, we had a problem with the thermal protection system and you might think to yourself, well, who's going to solve that problem for a thermal protection system? You may say, well, maybe it's going to be a thermal analyst, or maybe another astronaut, maybe trainers or flight director, flight controllers. The answer is, no, it was actually a medical doctor who solved the problem and came up with a solution.
+
+![](https://loe.org/content/2026-04-03/NASA_testflight.jpg)
+
+NASA’s Space Launch System (SLS) rocket and Orion spacecraft launch on the Artemis II test flight. (Photo: NASA, Michael DeMocker, public domain)
+
+O'NEILL: Oh, wow.
+
+OLIVAS: And the reason I think that that's a wonderful story was that when everyone has a common goal in mind and everyone sits at the table and understands what the problems are they can bring their own unique frame of reference to bear on the solution. You know, I was the one who was actually asked to go outside and fix the space shuttle but, you know, I was happy that Jim Lock, our flight doctor, came up with the solution that he did, was that it was simple, it was elegant, it did the job. You know, I recall the story he told me, and I actually had this really cool photograph, it's kind of the Apollo 13 mission where they throw a bunch of stuff onto a table and say, you know, hey, we got to basically take this square cartridge and fit inside of a round hole, type of an event. And Jim was in the corner, just kind of watching what was going on, him thinking in his world and he said "hey, you know, could you guys use a stapler?" and they turned around and looked at him and said "we don't have staplers on orbit.” He says, "yeah, you do it's in the medical kit". And turns out that they pulled the stapler out, they tried the material, they tried the technique, they developed a repair solution, and a few days later, they read it up to me on orbit, and I went outside and did it and came home with it.
+
+O’NEILL: Wow.
+
+OLIVAS: But that, that experience, you know, all of us kind of pulling together our own skills and expertise to bear on a problem, and being open enough and willing to listen to other people who may not necessarily be the leading expert in x, y, or z, but man, they could have a solution to sitting right there, if we give them an opportunity to bring that forward. And that's what I love about NASA, is that NASA is filled with stories like that, and that's why we've accomplished all the things that we've accomplished. And I think while you look consistently in the federal agencies, NASA is always one of the best places to work, if not the best place to work, because it's a very inclusive environment.
+
+O'NEILL: Daniel Olivas is an engineer and retired NASA astronaut. Danny, thank you so much for taking the time with me today.
+
+OLIVAS: Thank you very much for the invitation.
+
+## Related Links
+
+- [Learn more about Artemis II](https://www.nasa.gov/mission/artemis-ii/)
+- [BBC | “'Absolutely Phenomenal’: Astronauts in Awe of Earth as They Prepare for Next Phase of Moon Mission”](https://www.bbc.com/news/live/c4g4ygw0r02t)
+- [Learn more about John Daniel “Danny” Olivas](https://www.nasa.gov/people/dr-john-daniel-danny-olivas-pe/)
+- [Follow Danny Olivas on Instagram](https://www.instagram.com/dannyolivasofficial/?hl=en)

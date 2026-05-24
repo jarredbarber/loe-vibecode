@@ -1,0 +1,77 @@
+---
+title: The Possibility of Tenderness
+date: 2026-02-27
+category: Segments
+megaphone_id: LOE9490003862
+image_url: "https://loe.org/content/2026-02-27/PoT_cover_resized.jpg"
+image_caption: "The Possibility of Tenderness: A Jamaican Memoir of Plants and Dreams, written by Jason Allen-Paisant digs beneath the surface of land kinship and accessibility through his time spent in Jamaica. (Photo: Courtesy of Milkweed Editions and Penguin Books)"
+summary: "Poet and author Jason Allen-Paisant left his native Jamaica to gain a graduate school education and prize-winning poetry career in England and France. He now looks back with wonder at the green of Jamaica where generations of his ancestors fed and healed his family. He shares this history in his book The Possibility of Tenderness: A Jamaican Memoir of Plants and Dreams. Jason Allen-Paisant spoke with Living on Earth’s Andrew Skerritt."
+---
+
+## Transcript
+
+BELTRAN: It’s Living on Earth, I’m Paloma Beltran
+
+CURWOOD: And I’m Steve Curwood.
+
+The stories of human history often involve the land, and in today's segment for Black History month we turn now to Jamaican born poet and author Jason- Allen-Paisant. From the 17th and into the 19th century the British enslaved captured black Africans in Jamaica to power the lucrative sugar, rum, spice and coffee enterprises. And when the Africans were freed in 1838 they stayed on the island and tilled the land, which is lush and plenty fertile for subsistence farming. But Jason Allen-Paisant left Jamaica to gain a graduate school education and a prize winning poetry career in England and France. He now looks back with wonder at the green of Jamaica where generations of his ancestors fed and healed his family. He shares this history in his book *The Possibility of Tenderness: A Jamaican Memoir of Plants and Dreams.* From his home in Leeds England, he spoke with Living on Earth’s Andrew Skerritt, who also grew up on a former British Caribbean possesion before moving to the UK and America.
+
+![](<https://loe.org/shows/ /content/2026-02-27/PoT_leedspark.jpg >)
+
+Roundhay Park in Leeds, United Kingdom is 700 acres of vegetation and recreational land. (Photo: Jason Allen-Paisant)
+
+ALLEN-PAISANT: Thank you so much for having me.
+
+SKERRITT: Jason, what inspired a possibility of tenderness?
+
+ALLEN-PAISANT: I had moved to a different location in Leeds, which was a very green location on the edge of a park, in fact, inside the park itself. And all of a sudden, I was going for walks, and I had a flashback to my childhood. I grew up surrounded by trees and plants. It was also a wholesome environment. It was the wholesomeness of that space as well, with the fresh air and something that felt like privilege, something that felt like I had never had this in all my time in the UK, I'd never had access to a place like that. Access is, I think, a big word in the story. And I think what I was feeling was that here, we've got a lot of space to roam. And I started writing when I asked myself the question, isn't it a hell of a paradox, isn't it a real paradox that one needs to land in a privileged, affluent neighborhood to have access to all this green space and place to walk and roam and look at plants. Whereas I grew up with all of that, I was from all of that. So the question that generated the book was the loss, the loss of access to green space, to wholesome land plants, and all their usage. I wanted to poke at or dig below that loss. How did we lose that? How did I lose that? And how did I need to travel such a long distance and distance of time to come back to something that was fundamentally me, that I knew so that's the question, really, that opened the book.
+
+![](<https://loe.org/shows/ /content/2026-02-27/PoT_farmers.jpg >)
+
+Farmers such as Congolin (top left corner) value their land immensely and often feel a deep connection to the plants and produce that it brings. (Photo: Jason Allen-Paisant)
+
+SKERRITT: As an immigrant, I know what the loss feels like, and one of the things we say about immigrants is that a lot of our dreams are set at home. Talk about the landscape that you lost. What did it look like? What did it sound like? That landscape of your boyhood.
+
+ALLEN-PAISANT: You know, coffee grove. Think of fields, lots of fields being tilled by men and women who earn their livelihoods from what they plant by selling it in the village or taking it to the market. So the sounds I hear are the thud or the clink of a machete or of a hoe or a fork on the ground or on stone. I also hear a lot of birds chirping and singing. I hear peeny wallies. They're these insects. They're a type of Firefly, but they make a sound. They make a scratching sound in the night. I hear a lot of silence. I hear a lot of silence. Silence is one of the main things that I hear, and I think within that silence, there is a cool breeze blowing. There's a gentle breeze that's always blowing, that's always making things flutter. The banana tree, the banana leaves, they're fluttering like like pennons, like flags. And I hear the the wind blowing through the mango trees and all sorts of trees. And I hear farmers calling to each other. I hear people passing along the dirt tracks and shouting to a farmer working his ground as we call the cultivation plots, and just shouting, oh, you know, good morning, whatever you know, how's the work? How's the day, how's the family and people just responding to each other, because the village was sparsely populated, and most of what was going on during the day was just the cultivation of the ground. So I hear that kind of familiarity and that kind of greetings that make me feel and think about the close-knit nature of the neighborhood, of the community, the district. That's the soundscape that I'm thinking of at the moment.
+
+![](<https://loe.org/shows/ /content/2026-02-27/PoT_tree.jpg >)
+
+Planting a child’s umbilical cord under a tree is a Jamaican cultural practice that literalizes a connection between the families and their land. (Photo: Jason Allen-Paisant)
+
+SKERRITT: You write about the importance of the land, you talk about people burying navel strings, what Americans call umbilical cords of their children on their land. There's also the practice of burying relatives on family land. What's the significance of these practices, and how do they help people stay connected to the home place?
+
+ALLEN-PAISANT: The significance of burying the umbilical cord, the navel string, as we call it. It goes back to ancient rituals that some of our forebears brought with them. I've been able to read about this that in certain places in Africa, and this is not just West Africa. I met an artist, a photographer from Zimbabwe. I believe it is who was documenting this practice of the connections between the individual under the tree, this practice of burying, interring the umbilical cord and then planting a tree on top of it. That's something that we do in in Jamaica. I had a tree right, therefore I knew exactly where mine was was planted. It's, uh, the ritual has to do with affirming your connection to the land, binding you to the land, to say, as it were, this, this land is, is a part of me, and I'm a part of it. It's a physical connection, because you're bearing a part of yourself in that place, right? So it's also, I think, a sign of the cycle of life. The connection, that gesture, act of interring, is prefiguring the fact that we will be there ultimately, but the circle will continue. And that brings us then to this issue you talk about, I talk about it in the book, this practice of burying the dead on the land. It's, I think, something in the same vein and having the same sort of connections, this thing of burying your dead ones on your land. It was never something I thought about as a child, I mean, but it was so ever present in these hillside districts.
+
+![](<https://loe.org/shows/ /content/2026-02-27/PoT_familyland.jpg >)
+
+The tradition of burying loved ones on familial land shows a way of thinking of the land not as a commodity to be sold, but something that can be handed down through generations. (Photo: Jason Allen-Paisant)
+
+SKERRITT: In America, one of the tragedies of the 20th century is the scale of black land loss. Black farmers lost more than 90% of their land between 1910 and 1997 in Jamaica, things look a little different. You write about Jamaicans holding on to the land, not for profit, but for posterity. Why is that so important?
+
+ALLEN-PAISANT; Yes, I'd say it's quite connected to the point I articulated just now. Because if you're burying your loved ones on the land. What that clearly indicates is that you're not viewing the land as a commodity to be sold or to make a profit on. In the book, I found it interesting, therefore, to talk about an aspect of Jamaica that people don't often hear about, which is the hilly, mountainous areas, the small land holdings of farmers, these people have a different idea of land value. The importance of land is tenure. That something Commonwealth, something to be held to be exactly held, to pass down from generation to generation, which is why you can bury your dead on it without any problems, because that land is never meant to be sold to a developer. It's never meant to be sold to outside the family. That land is for the family. I think a lot of what my book does is invite people to step into a new way of thinking. I think to understand, of a lot of what I put into this book, you need to put on different lenses. And I think this is one of the things, this idea of, why would you keep your dead far from you? You need to have them close to you and and they're there, and they have to be talked about, and you have to to mention them in conversations, and it's part of the Commonwealth, and it's part of the physical community that you create with them. And I think that goes back to a different epistemology of what it is to be a part of the circle of life. It's a different cosmology as well.
+
+SKERRITT: I grew up in a household where people believed in the power of dreams. Talk about how plans and dreams were integral to your life as a boy growing up in rural Jamaica.
+
+ALLEN-PAISANT: You know, this is one of the areas I was excited to tease out in the book, because, as you'll appreciate, it's something I'd never mused on before, mainly because it was just so natural to us. It was just an everyday occurrence. And our people in Jamaica touch generally, a lot of significance of their dreams. One thing that I remembered was how much my grandmother, who is the main character in this book, how much she dreamed. About plants and plants would appear to her in her dreams in response to illnesses she herself. My grandmother might have had a bad cold that turned into bronchitis, and she would wake up in the morning excited, sort of spirited, because she'd got the solution. It was revealed to her what she should get so she would go to just go foraging for those things, right? That was just a common kind of occurrence. But the plants themselves are spirits. The plants come to visit you and to be with you. If you want to be with them, they come and be and they that they will be with you. They will heal you through your dreams. So this is, this is something that I knew without having the theory for it, or without, more importantly, without needing the theory for it, because this is how we live. So I come to the conclusion in the book that dreams are part of what we understand as ecology, because it's the meeting point of the plant world and the human world. It takes place within dreams. That's something that's that may sound strange to many people, but it isn't actually.
+
+![](<https://loe.org/shows/ /content/2026-02-27/PoT_disregardedlandscapes.jpg >)
+
+Author Jason Allen-Paisant wanted to highlight the value and beauty of “disregarded” landscapes. (Photo: Jason Allen-Paisant)
+
+SKERRITT: It really doesn't sound strange to me, because I recall there were times when we'd have a class picnic for half term, and I couldn't go because my grandmother had a bad dream the night before.
+
+ALLEN-PAISANT: \[LAUGH]
+
+And so being raised by grandparents, it's a gift. After all the time and research that went into this book, what's the main thing that you hope readers take away from *The Possibility of Tenderness*?
+
+ALLEN-PAISANT: I would want readers to come away from this book feeling that the Earth wants to connect with us. The Earth wants us back. Land, wants us to be with it and to see it as kin. And that will change the way we look at a piece of land, the way we look at the Earth and the produce of the Earth, the way we look at the plants and the food that we eat. So that's one of the main things, this idea of how the earth shapes the people that we, that we become, and how the Earth is seeking kinship with us.
+
+Another thing I would like is to shift the way people think about so called small spaces, like coffee grove to shift the way people think about people who live with the land. Our idea often of a beautiful landscape is the epic landscape.Kilimanjaro, Everest, the Alps, is kind of landscapes which are epic on a grand scale. But my book is about small, hidden, or I would say, disregarded landscapes. Often these are landscapes which nourish us, which are important for the preservation of life. And so I wanted this book to create a broader ability for us to understand these landscapes and to see the beauty within them.
+
+CURWOOD: Jason Allen-Paisant’s book is *The Possibility of Tenderness: A Jamaican Memoir of Plants and Dreams*, and he spoke with Living on Earth’s Andrew Skerritt.
+
+## Related Links
+
+- [Oxford University/ Merton College: Paisant Wins T.S. Eliot poetry prize](https://www.merton.ox.ac.uk/news/dr-jason-allen-paisant-wins-t-s-eliot-prize)
+- [About Jason Allen-Paisant](https://jasonallenpaisant.com)
+- [Purchase a copy of  The Possibility of Tenderness: A Jamaican Memoir of Plants and Dreams  (Affiliate link supports Living on Earth and local bookstores)](https://bookshop.org/a/20556/9781639551576)

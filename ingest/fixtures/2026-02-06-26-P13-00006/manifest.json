@@ -1,0 +1,25 @@
+{
+  "date": "2026-02-06",
+  "show": {
+    "url": "https://loe.org/shows/shows.html?programID=26-P13-00006",
+    "file": "show.html"
+  },
+  "segments": [
+    {
+      "url": "https://loe.org/shows/segments.html?programID=26-P13-00006&segmentID=1",
+      "file": "segment-01.html"
+    },
+    {
+      "url": "https://loe.org/shows/segments.html?programID=26-P13-00006&segmentID=2",
+      "file": "segment-02.html"
+    },
+    {
+      "url": "https://loe.org/shows/segments.html?programID=26-P13-00006&segmentID=3",
+      "file": "segment-03.html"
+    },
+    {
+      "url": "https://www.loe.org/shows/segments.html?programID=22-P13-00038&segmentID=1",
+      "file": "segment-04.html"
+    }
+  ]
+}

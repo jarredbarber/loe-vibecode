@@ -1,0 +1,76 @@
+---
+title: Boundary Waters Mining Threat
+date: 2026-04-24
+category: Segments
+megaphone_id: LOE5847594697
+image_url: "https://loe.org/content/2026-04-24/SENATE_poselake.jpg"
+image_caption: "Sunset over Pose Lake, a small lake accessible only by foot, in Boundary Waters Canoe Area Wilderness, Minnesota. (Photo: R27182818, Wikimedia Commons, CC BY-SA 3.0)"
+summary: "On April 16 the US Senate voted to reverse a moratorium on mining near the Boundary Waters Canoe Area Wilderness in Minnesota, a million acres on the US-Canada border that’s teeming with wildlife and crystal-clear waters. For years a Chilean company has proposed to extract valuable copper, nickel, and cobalt there using copper sulfide mining. Democratic Senator from Minnesota Tina Smith speaks with Host Jenni Doering about why in her view mining in the same watershed as the Boundary Waters is not worth the risk."
+---
+
+## Transcript
+
+BELTRAN: From PRX and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth, I’m Paloma Beltran.
+
+DOERING: And I’m Jenni Doering.
+
+The Boundary Waters Canoe Area Wilderness in Minnesota protects over a million acres on the US-Canada border that’s teeming with wildlife and crystal-clear waters. But the region is rich in copper and other minerals, which Twin Metals, a subsidiary of the Chilean company Antofagasta, has proposed to mine. Wilderness advocates say the risks of mining in the same watershed as the Boundary Waters are simply too high. And in 2023 after extensive review and public comments, the Biden administration put in place a 20-year mining moratorium. Then, on April 16th of this year the US Senate voted to reverse that moratorium after the House had done the same. They did so using the Congressional Review Act, greatly expanding the interpretation of the law in a way that could make other long protected areas across the country vulnerable to development. The 50-49 vote was mostly along party lines, though Republican Senators Thom Tillis and Susan Collins joined Democrats in opposition. Democratic Senator from Minnesota Tina Smith has been a vocal opponent of mining in the Boundary Waters and she joins me now. Senator, welcome to Living on Earth!
+
+SEN. SMITH: Well, thank you. I'm so glad to be talking with you today.
+
+DOERING: So Senator, you held the Senate floor for hours in an attempt to convince your colleagues to leave this 2023, 20-year moratorium on mining in the Boundary Waters intact. Why was it so important to you to make that case?
+
+SEN. SMITH: I know that the Boundary Waters is so important to Minnesota, and that was the main reason. Of course, it's so important to literally millions of people around the country. And I don't know if you've ever been to the Boundary Waters, but it is a million acres of bog and river and stream and lake. It is an incredible resource. The water is so clean in the Boundary Waters that you literally can drink it out of the middle of the lakes. And it is a non-motorized wilderness area. So when you are there, you are completely away from the modern technology and noise and all of that. You're surrounded by nature in a really incredible way, and I know how precious this is, and I believe that these unique and precious places that belong to all of us should be protected for all of us. And I will just tell you that I was there just for a day trip last summer, and we paddled around. We had an amazing shore lunch, and it was beautiful weather, and we saw two wolves just in one day while we were, you know, in for just a day. And that gives you an idea of how exceptional this place is.
+
+DOERING: So how far back does this fight over whether to mine in the Boundary Waters area go? And what are some of the main concerns about that mining?
+
+![](https://loe.org/content/2026-04-24/SENATE_commonloon.jpg)
+
+A common loon at Pickle Lake situated within Boundary Waters Canoe Area Wilderness. The area was first protected in 1909. (Photo: Timothy Riley, Wikimedia Commons, CC BY-SA 3.0)
+
+SEN. SMITH: Yeah, well, it goes back for many, many years. And, you know, it's interesting, I think, to think about the history of this place. So imagine this million acres of lake and bog, and it's right on the US, Minnesota-Canadian border, right next to Voyageurs National Park. Of course, human beings have been in this part of the world for hundreds and hundreds and hundreds of years. It is the traditional homeland of the Anishinaabe people during the fur-trapping Hudson Bay years, it was also the place where there were people trapping beaver and hunting and fishing. And over the years, though, this particular place has been set aside and protected starting in like 1909, I think, when the first protections were put in place. In 1978 the Boundary Waters Canoe Area Wilderness was protected as a non-motorized wilderness area. And meanwhile, now in many other places in northern Minnesota, there's been a lot of mining that has gone on. This is traditionally also a mining part of Minnesota. Minnesota is a mining state, the largest producer of iron ore in the whole country. My view, and I think the view of most Minnesotans, is we support mining, but not this particular mine in this particular place. And this mine is unique because it is a copper sulfide mine, which is a very dangerous and polluting kind of mine to build. Every single time that this kind of mine has been built, it has resulted in polluting the watershed, and that's why it is so dangerous here, because this is a very wet, as I said, damp, boggy part of the country, and that copper sulfide pollution flows into the Boundary Waters, and it can move hundreds of miles through the watershed and do great damage.
+
+DOERING: Yes, I mean just how close would the mining be, and why is there this connection of the water systems up there?
+
+SEN. SMITH: So this mine is not in the Boundary Waters, but it is on the doorstep of the Boundary Waters. It is extremely close to this lake called Birch Lake that connects to the Boundary Waters. What you see with this kind of mine is, essentially what happens is that you mine this rock that has copper and sulfur in it, you bring it up to the surface, hundreds and hundreds of tons of this rock, it sits on the surface, and then the sulfur in the rock immediately interacts chemically with oxygen and the water in the air and on the ground, and it basically turns into sulfuric acid, like battery acid. And what happens is, then, of course, that there's that hundreds of millions of tons of rocks. It's just forever. It's not like it goes anywhere after it's been processed and the copper has been taken out. And though the mining companies will say that they have ways of containing this and that they have ways of protecting the watershed, of course, as I've said, in 100% of the cases, that has not been the case, and particularly right here in this place, which is so dangerous.
+
+![](https://loe.org/content/2026-04-24/SENATE_sensmith.jpg)
+
+United States Senator Tina Smith (D-MN) held the Senate floor for hours trying to convince her colleagues to leave in place a moratorium on mining near the Boundary Waters. (Photo: Rebecca Hammel, U.S. Senate Photographic Studio, Wikimedia Commons, public domain)
+
+DOERING: Senator, proponents of this mine do say that this operation could be a huge financial gain for the US, for Minnesota, these valuable copper reserves there in the ground, near boundary waters. So how do you weigh the economic benefits versus the costs here?
+
+SEN. SMITH: I'm very empathetic to the economic argument, and I think it's important, though, to balance the economic benefits of this mine in this place, with the economic benefits of not building the mine in this place. And in fact, there have been studies done that show that over the life of the mine, which is probably only about 15 years or so, the economic benefits of not building it are greater because this is a thriving outdoor recreation economy. In the Ely Grand Marais area, there are hundreds of small businesses that support their families and support the local economy. There are 150,000 people who visit the region every year, and they spend their money. And of course, that only works if this is the pristine place that it is today.
+
+DOERING: What have you been hearing from your constituents about this?
+
+SEN. SMITH: Oh, man. I mean, this fight has really captured the heart and this imagination of Minnesotans and I think people all over the country. I went home on Friday and I was traveling around the state, in a completely different part of the state. And so many people came up to me and just said, "Thank you, Tina, for fighting for the Boundary Waters." I believe that the public opinion polling shows that something like 70% of Minnesotans don't want to see this mine built in this place. And I feel like a lot of them came up to me.
+
+![](https://loe.org/content/2026-04-24/SENATE_miners.jpg)
+
+Miners at work on the Mesabi Iron Range in northeast Minnesota, US, in 1903. The state has a long mining history, being the largest producer of iron ore in the country. (Photo: Frances Benjamin Johnston, Wikimedia Commons, public domain)
+
+DOERING: Why does this issue matter to the Indigenous peoples in the area? I mean, you mentioned the Anishinaabe peoples who have lived there for thousands of years.
+
+SEN. SMITH: So that is such a great point. And I am so grateful for the ways that the Minnesota Chippewa tribes, the Anishinaabe tribes, spoke so strongly about their treaty rights here. The Superior National Forest, which is right next to the Boundary Waters and the Boundary Waters itself are all part of the land that is covered by the 1854 Treaty of La Pointe. Okay, so this was a treaty between the federal government and the Chippewa tribes, saying that, in exchange for the tribes giving up their ancestral lands, that they would maintain hunting and fishing rights, and also the rights to harvest wild rice, which is prevalent in the Boundary Waters. Manoomin is what the Anishinaabe people call wild rice. And there is no doubt that this mine because of the pollution that would happen because of this sulfuric acid, this sulfide acid would do great damage to those hunting and fishing rights. And of course, the tribes treaty rights to this land can't just be abrogated by an act of Congress. I mean, those treaty rights are enshrined in the treaty and in the Constitution. It goes back to the fundamental sovereignty of tribes in northern Minnesota and all over the country. And boy, did they organize and connect with people about how this was so important to them.
+
+DOERING: So you mentioned the protections being put in place in 1909 and that was when Theodore Roosevelt was president. He was the first to conserve the Superior National Forest where Boundary Waters sits, and that was as part of this larger tradition in American history of conserving public lands. But that tradition seems to be changing now, in some ways, with the Trump administration aiming to open up public lands to more logging, more drilling. How do you see that change, and what might that mean for the future of the country?
+
+![](https://loe.org/content/2026-04-24/SENATE_darksunset.jpg)
+
+A dark sunset is reflected on Alice Lake in Minnesota’s Boundary Waters Canoe Area Wilderness. (Photo: Dan Carlson, Wikimedia Commons, public domain)
+
+SEN. SMITH: What you say is exactly right, that for you know, well over 100 years, there has been a bipartisan consensus that there are special, precious places in this country that need to be set aside, not for nobody to ever go to, but set aside for everybody in the country to be able to enjoy and that they belong to all of us, and the Boundary Waters is very much a part of that tradition and that value that has been bipartisan. If you think about Yosemite or the Grand Canyon or Yellowstone or Voyageurs National Park, or you think about places like Chaco Canyon or places that have such a deep connection to the diverse history of this place that we now call the United States. And the undermining of that support for public lands is happening during this Trump administration. Sometimes I think my colleagues are like, okay with developing public lands in other people's states while they want to protect the public lands in their state. And that for sure, there was some of that going on here, though, I have to say, many Republicans came up to me in the midst of this debate and expressed basically some version of, I'm not really so sure that we're setting the right precedent here, but I'm not going to stand in the way of it.
+
+DOERING: So what comes next now that the Senate has taken this vote and presumably the President will be signing that. What can be done now to protect boundary waters from mining?
+
+SEN. SMITH: I think that what will happen next is that people are going to stay mobilized on this. They are going to continue to stay active, and I'm going to do everything I can to make sure that that happens. I also think that there will be lot of work that is going to happen at the state level. There will be state permits and mining operations plans that need to be submitted, and, of course, at the federal level, there also will be an environmental impact statement. I'm a little worried, honestly, about how the Trump administration will handle that at the federal level, but I have confidence at the state level that the facts and the science and the data will rule and that will take quite a few years to go through. So we will continue the effort, and there may also be lawsuits to stop this. I know that some of the tribal nations are quite concerned about what this means for their treaty rights. We'll see what happens, but the fight will continue.
+
+DOERING: Senator Tina Smith is a Democrat representing Minnesota. Thank you so much, Senator.
+
+SEN. SMITH: Thank you. It's so great to talk with you.
+
+## Related Links
+
+- [MPRnews | "Senate Votes 50–49 to Overturn Mining Ban Near Boundary Waters"](https://www.mprnews.org/story/2026/04/16/boundary-waters-vote-on-mining-by-us-senate-thursday)
+- [Learn more and visit Boundary Waters](https://bwca.com/)

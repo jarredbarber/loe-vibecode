@@ -1,0 +1,50 @@
+---
+title: Climate Coverage Dropoff
+date: 2026-04-10
+category: Segments
+megaphone_id: LOE2413218622
+image_url: "https://loe.org/content/2026-04-10/COVERAGE_nyt.jpg"
+image_caption: "According to research from the University of Colorado Boulder’s Media and Climate Change Observatory, climate coverage has seen a 38% dropoff since its peak in 2021. Major news outlets like The New York Times (shown above), CBS News, and The Washington Post have decreased their coverage of climate change or gutted their climate reporters. (Photo: Kurt Kaiser, Wikimedia Commons, CC0)"
+summary: "News media outlets are retreating from covering climate change, according to the Media and Climate Change Observatory at the University of Colorado Boulder, which has been tracking this trend for decades. They report that since a peak in 2021, climate news stories across the globe have dropped nearly 40 percent. Professor Max Boykoff is director of the Media and Climate Change Observatory and spoke with Living on Earth Host and Executive Producer, Steve Curwood."
+---
+
+## Transcript
+
+BELTRAN: You hear a lot about climate change on this broadcast, and for good reason. The global temperature rise above pre-industrial levels is headed well past 1.5 degrees Celsius, and some climate scientists have recently warned that climate change appears to be accelerating. Yet news media outlets in general are retreating from covering this existential crisis. That’s according to the Media and Climate Change Observatory at the University of Colorado Boulder, which has been tracking this trend for decades. They report that since a peak in 2021, climate news stories across the globe have dropped nearly 40 percent. The decline comes amid disinformation from the fossil fuel industry and other interests on the right and left. Professor Max Boykoff is director of the Media and Climate Change Observatory at CU Boulder. He also contributed to the Intergovernmental Panel on Climate Change or IPCC Sixth Assessment and spoke with Living on Earth Host and Executive Producer, Steve Curwood.
+
+CURWOOD: What's causing this drop off in coverage?
+
+![](https://loe.org/content/2026-04-10/COVERAGE_exxon.jpg)
+
+The effect of disinformation from fossil fuel companies like ExxonMobil, shown above, is more pronounced in the second Trump administration. Fossil fuel companies contributed to the Heritage Foundation’s Project 2025, which called for many of the climate rollbacks that the Trump administration has since implemented. (Photo: Farragutful, Wikimedia Commons, CC BY-SA 4.0)
+
+BOYKOFF: There could be several factors involved. Among them, the ongoing media consolidation that we see around us, particularly pronounced in the United States, recent layoffs of Washington Post climate reporters, layoffs at CBS, an NBC reporter who's resigned in the face of fighting for media coverage of climate change, the political economic forces are strong currents that those who continue to cover climate change are swimming upstream against them. Another part of all of this, frankly, could be the way in which the zone, if you will, the news hole, has been flooded with other issues, developments, events and on that when there is just so much news you can cover in a day that unfortunately, the international conflicts that are happening, other kinds of activities are generating media attention and drowning out some of this news coverage around climate change. We saw it around the coronavirus pandemic in a most pronounced way in 2020. Another part of this, too, could be climate fatigue. I work with young people at the University of Colorado Boulder, and as I've been working with them, really have been in conversation with their frustrations about how they've been growing up in a world where this has been part of a conversation and not seeing concerted progress and action made, and there can be some fatigue of the ongoing news stories providing more strong diagnoses, largely through the sciences, not matched with progress in the policy space.
+
+CURWOOD: How do you think disinformation from the fossil fuel industry and others complicate this issue?
+
+BOYKOFF: As another part of my research over the years, I've been tracking mis and disinformation among right of center, sometimes multipurpose think tanks. I myself have tracked work of the Heartland Institute for several years. They work in partnership with the Heritage Foundation. Many of your listeners may be familiar with the Project 2025, with many of these planned rollbacks and ways in which the at the U.S. national level, at least, there was going to be a dismantling of science in the scientific process that lead to our understanding of climate change, and much of that has been taking place while I had been tracking that work for over a decade, and had actually documented some of that in the IPCC Sixth Assessment Report, I had been thinking that maybe that had been moving to the edges, that those outlier perspectives had reduced influence in the decision making halls of power. That has proven to be very much not the case in this second Trump administration, and so therefore the way in which contrarian communities have been feeding into, overall news coverage has been more pronounced now than before.
+
+![](https://loe.org/content/2026-04-10/COVERAGE_dropoff.jpg)
+
+The dropoff in climate coverage could lead to a decline in climate action, as media coverage often affects public discourse around relevant issues and sets public policy priorities. (Photo: Frankie Fouganthin, Wikimedia Commons, CC BY-SA 4.0)
+
+CURWOOD: What do you think are the effects of the drop off in climate coverage by the big media outlets such as the Washington Post or CBS News? How likely is this to have an impact on climate action, do you think?
+
+BOYKOFF: Quite simply, when policy actors and their staffers are trying to get their finger on the pulse of what are public pressures, public concerns, they rely on news media to translate these considerations. When news media is diminished, they may perceive that public pressure is also diminished. When the public themselves, who don't read into the peer reviewed literature, who don't really follow policy decision making on a daily, weekly, monthly basis, they rely on media as well to understand that. And so when media coverage drops off, as it's done, the public themselves may feel as though this is a lower set of priorities now, and so it has negative impacts. I will say that other work that's done by fellow researchers in this community have found that 64% of people rarely, if ever, are talking about climate change in the United States nowadays. When there is diminished media coverage, that can only fuel the diminished way in which people are prompted to talk about this in their everyday lives with their neighbors and friends and colleagues and coworkers and roommates. And so diminished media coverage translates to fewer opportunities to make the connections about the urgent challenges we face through human caused climate change.
+
+CURWOOD: All too often, climate change most affects those who are least able to cope with the impacts. Why does that make more coverage even more imperative in your view?
+
+BOYKOFF: Yes, one of the many cruel paradoxes, if you will, is that those who are at the forefront of climate impacts often have the least voice, the least influence on the kinds of changes that are needed, and conversely, those that are in the halls of power often are insulated from the realities in those communities. And so media, again, really helped tell these stories and help bring these stories to these new spaces. And it's that kind of storytelling through media accounts that can, through creative ways, really help connect us up, help us connect the dots and help people understand that this is again a collective action problem that requires responses at scale, requires an international community to come together and make sustained commitments in order to alleviate those negative impacts for those frontline communities.
+
+CURWOOD: As coverage and engagement is dropping, the intensity of climate disruption is increasing. You have wildfires, you have these killer storms, you have flooding, you have drought. The list goes on. So what can citizens, media outlets and individual journalists do about this gap between the reality of the emerging climate emergency and the public response, or rather, rather lack of public response?
+
+BOYKOFF: It's a big question. There are many different things that folks can do, though, for those who are able, who can frankly, contribute to independent news media in these times, it's more needed than ever, as there have been rollbacks, Public Broadcasting and others, that those who can't contribute, those contributions are well received in these times. Those who may not be able to contribute but want to contribute in other ways, letters to the editor, ways in which we can talk with one another about supporting media outlets that are covering these issues. Those are ways forward as well. And then there's direct engagement with our elected officials. They still remain to some extent accountable to us as members of the voting public within the United States, and so these are just opportunities that we can engage to increase the amount that we're talking about this as pathways to further engagement and action overall.
+
+BETLRAN: That’s Max Boykoff, director of the Media and Climate Change Observatory at CU Boulder, speaking with Living on Earth Host and Executive Producer Steve Curwood.
+
+## Related Links
+
+- [Explore MeCCO’s work here:](https://mecco.colorado.edu/)
+- [Read MeCCO’s annual report on trends in media coverage of climate change and global warming in 2025:](https://mecco.colorado.edu/summaries/special_issue_2025.html)
+- [Grist  | “The Planet Is Overheating. Why Is the News Looking Away?”](https://grist.org/language/global-heating-climate-news-drought-chaos/)
+- [Explore examples of Max Boykoff’s work in communicating climate change through comedy:](https://www.youtube.com/channel/UCK9voQT50g15PqDYKuhbiZA)

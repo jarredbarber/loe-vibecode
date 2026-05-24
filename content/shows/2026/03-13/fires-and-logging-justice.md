@@ -1,0 +1,58 @@
+---
+title: Fires and Logging Justice
+date: 2026-03-13
+category: Segments
+megaphone_id: LOE2859141311
+image_url: "https://loe.org/content/2026-03-13/LOGGING_clearcut.jpg"
+image_caption: "Extensive logging in the Fremont-Winema National Forest in southern Oregon prompted conservationists to sue the U.S. Forest Service for the unlawful application of Categorical Exclusion 6 in 2022. Shown above is a clearcut section of Willamette National Forest, also in Oregon. (Photo: Calibas, Wikimedia Commons, CC BY-SA 3.0)"
+summary: "A decades-old US Forest Service rule that’s been used to supposedly reduce wildfire risk through large-scale logging while bypassing environmental review has been deemed unlawful by a federal court in Oregon. Timothy Ingalsbee, co-founder and Executive Director of Firefighters United for Safety, Ethics and Ecology, talks with Host Steve Curwood about why clearcutting can instead increase wildfire risk, and shares his view that USFS needs to rethink its entire approach to managing forests and wildfire risk."
+---
+
+## Transcript
+
+CURWOOD: From PRX and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth. I’m Steve Curwood.
+
+O’NEILL: And I’m Aynsley O’Neill.
+
+A decades-old US Forest Service rule that’s been used to justify logging to supposedly reduce wildfire risk has been deemed unlawful by a federal court in Oregon. The rule was what’s called a “categorical exclusion” to bypass environmental reviews for projects that should have an “insignificant” impact.
+
+CURWOOD: But the rampant clearcutting the forest service oversaw under one of these categorical exclusions, CE-6, often has devastating impacts on wildlife, soil and water quality, and the brush left behind may even increase fire risk. So, environmental groups including WildEarth Guardians, Oregon Wild, and Green Oregon Alliance sued the Forest Service, and in January of 2026 a district judge ruled in their favor and struck down the policy.
+
+O’NEILL: The way federal agencies handle wildfire risk more broadly is not working, according to Timothy Ingalsbee, co-founder and Executive Director of Firefighters United for Safety, Ethics and Ecology. He recalled the moment as a young wildland firefighter when he realized his profession needed a paradigm shift.
+
+INGALSBEE: Well, I was on one of the first 20-person hand crews to go to the Silver Fire, which was part of what we called the Siege of ’87, a string of massive wildfires burning up the Sierras and the Cascades. And we were the last stop here in Oregon. It was 100,000 acres, and they didn't even know what to do with us, so they just took us up to a high point. They told us to watch the fire. So here I am with my crew. I'm holding my shovel, and the entire horizon is one sea of smoke. There's just the very tops of the mountains. So, we're sticking up like islands, and here we are, we're gonna go fight this fire? It was a very humbling experience where we realized we are just human beings facing a force of nature much bigger and wilder than we can impose control. Our approach of making war on wildfire is really making war on Mother Nature. And you know, in that case, we're damned if we lose, and we are losing all the time, but we're also damned if we win, because we will have altered the planet in ways that just will drive species extinct and mess things up. So that was my epiphany of, I think we're on the wrong side of this war, and we need to make peace and learn to coexist and cooperate with this really elemental, foundational force of nature.
+
+![](https://loe.org/content/2026-03-13/LOGGING_fire.jpg)
+
+Ingalsbee says that by removing large trees and leaving behind flammable grasses, brush and debris, logging can promote huge out of control wildfires rather than smaller and more manageable ones. (Photo: U.S. Forest Service - Pacific Northwest Region, Wikimedia Commons, Public Domain)
+
+CURWOOD: Timothy Ingalsbee of Firefighters United for Safety, Ethics and Ecology. He says federal agencies need to rethink not only how and whether fires are fought, but their entire approach to managing landscapes, including the use of categorical exclusions to bypass environmental reviews. And he is celebrating the court decision aimed at ending these abusive practices.
+
+INGALSBEE: So these categorical exclusions short shrift the normal processes for planning projects on public lands, and what they do is allow the agencies to move forward with these projects with less or very minimal environmental analysis or scientific input, less public involvement, less government transparency or legal accountability. Well, it's been misapplied in terms of rushing through with these logging projects, all under the claim that they will prevent wildfires. It's really a very obsolete, bankrupted ideology that big trees cause big wildfires. Just the opposite. In most cases, naturally fires take out the small trees and leave the big trees. But these categorical exclusions let the Forest Service and Bureau of Land Management at the behest of timber companies, just in some cases, clear cut, or what they call thinning, is really kind of high grade logging, taking out these big trees, under the claim that, you know, this is going to help prevent or mitigate wildfires, and it's such an emergency we can't wait. We just got to rush through and get the project done. I mean, no one is disputing that it's a wildfire emergency, but that is more a reason to approach these problems urgently, not attack them blindly. And that's kind of what the agencies are trying to do on behalf of these resource extraction or land development corporations, just rush blindly to get the projects through and ignore the impacts.
+
+CURWOOD: So a few years ago, I think in 2022, there were some conservation nonprofits that sued the US Forest Service over the creation and application of the CE-6 exemption, and as I understand it, a court just ruled into their favor, essentially saying you can't use this excuse anymore. What's the significance of this? What makes it a landmark decision?
+
+![](https://loe.org/content/2026-03-13/LOGGING_firefighters.jpg)
+
+Shifting from a mode of complete fire suppression to controlled fire preparedness is necessary to combat the wildfire crisis, Ingalsbee says. (Photo: Navajo Region Fire and Aviation Management, Wikimedia Commons, Public Domain)
+
+INGALSBEE: Well, it's very significant. When you go to court battling over these environmental laws or applications, the deck is really stacked in the favor of government agencies. They have lots of discretion to apply these laws as they seem fit. In order to win a case like this, the abuse has to be so blatant, so extreme, that it really forces judges to rule in the favor of environmentalists. And that was what was going on there, using categorical exclusions for these wholesale, large scale logging projects, which will cause very significant impacts. You just can't claim that there'll be no impacts or minimal impacts. That was the original intent of categorical exclusions. You want to put a new sign in, you're gonna have to dig a post hole. Well, that's a minimal impact. They're using that same logic to apply to massive logging projects, leaving behind lots of stumps and slash. And the way they're doing this kind of fire prevention logging is actually wildfire promotion logging, making these areas more flammable as they you know, what was once tree covered, now becomes covered with shrubs and grasses, invasive weeds. They spread fire very rapidly. And then all the big old trees that mostly would have survived fires, or at least seeded the area after fires, they were long gone. And so the consequences of doing things, instead of making forests more resilient, make them more flammable, will last for generations.
+
+CURWOOD: Tim, wildfire prevention in the U.S. has, well, let's call it a complicated and somewhat misunderstood history. Think of Smokey the Bear, and also the dismissal of Indigenous wildfire stewardship practices. And of course, we have the influence of the logging industry. So where is the United States these days when it comes to wildfire prevention, do you think?
+
+INGALSBEE: Well, first of all, the whole premise that we can prevent all wildfires is kind of a bogus claim. Fire is a natural force that is nature's recycler of all this dead, down, woody debris. It turns it into soil nutrients. It rejuvenates habitats. It maintains a carbon balance. Fire has been on the terrestrial land service for 420 million years, and the legacy of Indigenous people stewarding the land with fire, you know, lasts as long as people have been on this continent. So that is a problem. Wildfire prevention is the wrong approach. What we need to do is wildfire preparation. Prepare for the fires that are part of nature. If we can't prevent them, we should prepare for them.
+
+CURWOOD: So despite this court decision, really a win for conservationists, the federal government does seem to keep wanting to ramp up efforts to have business continue as usual. In Congress right now, there is what's called the Fix Our Forests Act, which is currently awaiting Senate approval. It's similarly aims to combat wildfire threats by reducing environmental hurdles to logging. So Tim, to what extent is this fight far from over, do you think?
+
+INGALSBEE: It's far from over. And in fact, it's a bit confusing now with this categorical exclusions court decision that may preempt the Fix Our Forests Act, because that is the core objective of that bill's proponents is, let's rush forward more logging with less analysis, less transparency or accountability. And now the court is saying this one vehicle, using categorical exclusions, is no longer legal. So I'm not sure what will be the outcome of that bill, but that is one of the reasons it's been stalled in the Senate, is there's some wiser heads saying, maybe that's not the best approach here. But it's also a problem that it seems the Trump administration just wants to rush forward in defiance of laws and regulations and so, you know, depending on the courts to put a brakes on it, but you know, if it wants to rush forward all this massive logging under categorical exclusions and basically daring conservationists to take them to court, the wheels of justice roll very slow. The wheels of machines and industry roll very fast, and so I don't know. It's far from over.
+
+CURWOOD: Timothy Ingalsbee is a senior wildland fire ecologist, and he's co-founder and Executive Director of Firefighters United for Safety, Ethics, and Ecology. Tim, thanks so much for taking the time with us today.
+
+INGALSBEE: Thank you so much. Appreciate it.
+
+CURWOOD: Nick Smith, a spokesperson for the American Forest Resource Council, told our media partner Inside Climate News that they were disappointed with the decision to vacate the Baby Bear, Bear Wallow and South Warner projects in Oregon. Mr. Smith went on to say, “Litigation like this does not make forests or communities safer. What it does is take proven management tools out of the hands of public lands managers who are trying to reduce fuel loads, improve forest resilience and protect nearby communities from devastating fire.”
+
+## Related Links
+
+- [Inside Climate News  | “Decades-Old Rule that Allowed Logging on Vast Swaths of US Land Ruled Unlawful by Oregon Court”](https://insideclimatenews.org/news/21012026/forest-service-logging-rule-unlawful/)
+- [Learn more about Firefighters United for Safety, Ethics, and Ecology](https://fusee.org/)

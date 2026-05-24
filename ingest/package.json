@@ -1,0 +1,32 @@
+{
+  "name": "loe-ingest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TypeScript ingest pipeline for Living on Earth content. See ../INGEST.md.",
+  "bin": {
+    "ingest": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ingest": "tsx src/cli.ts",
+    "test": "node --test --import tsx test/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "hast-util-select": "^6.0.4",
+    "hast-util-to-text": "^4.0.2",
+    "rehype-parse": "^9.0.1",
+    "rehype-remark": "^10.0.0",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-stringify": "^11.0.0",
+    "unified": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

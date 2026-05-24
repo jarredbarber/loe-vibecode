@@ -1,0 +1,75 @@
+---
+title: A Vision of a Wind-Powered Venezuela
+date: 2026-03-20
+category: Segments
+megaphone_id: LOE5772527802
+image_url: "https://loe.org/content/2026-03-20/VENEZUELA_wind.jpg"
+image_caption: "While Venezuela has recently made headlines for its oil reserves, the coastal nation is also uniquely positioned to harness significant renewable energy capacity – ten times the country’s electricity needs – through offshore, shallow-water wind turbines. Above, a wind farm on the Paraguaná Peninsula in Venezuela. (Photo: Carlos Santos Colorado, Wikimedia Commons, CC BY-SA 3.0)"
+summary: "Since the US capture of President Nicolás Maduro in early January, there has been a lot of discussion about Venezuela’s massive oil reserves. But it also turns out that Venezuela is ideally positioned to harness abundant clean, renewable energy, particularly from wind. Dr. Paasha Mahdavi, associate professor of political science at UC Santa Barbara and consultant for the Natural Resources Governance Institute, joins Host Jenni Doering to map out this blue-sky vision for a green Venezuela."
+---
+
+## Transcript
+
+DOERING: Since the US capture of President Nicolás Maduro in early January, there has been a lot of discussion about Venezuela’s massive oil reserves. But when it comes to the energy sector, it turns out that Venezuela is ideally positioned to harness abundant clean, renewable energy, particularly from wind. Joining us to map out this blue-sky vision for a green Venezuela is Dr. Paasha Mahdavi. He’s an associate professor of political science at UC Santa Barbara and consultant for the Natural Resources Governance Institute. Welcome to Living on Earth, Professor!
+
+MAHDAVI: Well, thanks for having me. It's a pleasure to be on.
+
+DOERING: We're so glad to have you. So Venezuela is famously rich in oil, but we wanted to talk to you because we understand that it also has incredible renewable energy resources. What is it about Venezuela's geographic situation that makes it well positioned to harness renewable energy?
+
+MAHDAVI: Well, absolutely. I mean, it's quite fascinating that Venezuela is indeed so well known for its oil industry. It is now being touted as having the largest reserves in the world, but it also has incredible offshore wind potential in particular, in addition to solar potential, as well as some more advanced kind of geothermal, which is the heat underneath the earth. But it's the wind that really catches energy analysts' eyes, because it is tremendously advantageously positioned. In other words, it's really windy in shallower waters, and that matters, because when it's shallower, it's easier to build wind turbines. It has this incredible windiness that a number of other places have as well, the Great Plains in the US, for example. So it's exciting for that reason, and there's lots of other elements of this that are pretty fascinating and, and why some in Venezuela themselves are excited as well.
+
+DOERING: So what kind of scale are we talking about here? I mean, what kind of capacity for wind energy could Venezuela, in theory, harness?
+
+![](https://loe.org/content/2026-03-20/VENEZUELA_oil.jpg)
+
+Venezuela’s economy is heavily dependent on oil, making it essential that a clean energy transition would create jobs to replace those lost in the oil sector. Lake Maracaibo, pictured above, is the largest lake in South America and the heart of Venezuela’s oil industry. (Photo: Breddyjgalvis, Wikimedia Commons, CC BY-SA 3.0)
+
+MAHDAVI: So the World Bank does these great analyses across the world. And Venezuela's potential for offshore wind puts that number at 381 gigawatts of capacity. And to put that in perspective, that's 10 times the country's current electricity capacity as it stands of 38 gigawatts. All of the electricity that's produced in Venezuela is 1/10 of the amount that exists offshore. So it's a huge, a huge number in terms of its potential, but getting there is a different question.
+
+DOERING: And by the way, how much renewable energy does Venezuela already use?
+
+MAHDAVI: Almost zero. The catch is hydro power. But we think about hydro differently because of the way that, you know, Venezuela's hydro was constructed and some of the damages that are done, especially when trying to capture hydro power in sensitive areas like the Orinoco River basin or the Amazon places like that. But when it comes to kind of solar, wind, geothermal, effectively, effectively zero.
+
+DOERING: So how might the extracting and refining oil workforce in Venezuela translate to offshore wind from a labor perspective?
+
+![](https://loe.org/content/2026-03-20/VENEZUELA_maduro.jpg)
+
+Mahdavi says the biggest roadblock to implementing clean energy in Venezuela is the lack of government support, adding that presidents like Nicolás Maduro and Hugo Chávez have long prioritized oil and gas. (Photo: Wilfredor, Wikimedia Commons, CC0 1.0)
+
+MAHDAVI: I'm glad you asked that, because this is the trillion-dollar question when it comes to how we transition away from oil, which is, how do we ensure a just transition for workers that are impacted? One of the answers comes down to, what are the skill sets that are easily transferable through either minimal training or retraining, or through kind of altering, kind of the existing training pathways when we think about kind of the younger generation, so those who would have trained to be petroleum engineers can be trained to do something, something else. The kind of areas that have the greatest skills transferability when it comes to the renewable energy sector and any kind of decarbonized solution for oil are offshore wind and geothermal. So that's one area where you've got rig hands, engineers, even seismic and a whole number of different elements along the oil workers supply chain that are transferable to the offshore wind supply chain. The other part of it is what offshore wind does, and the whole idea behind creating these offshore wind hubs, Venezuela, let's say, developed 381 gigawatts of wind. That's crazy, but that's 10 times what it currently needs, right? And so what would it do with that? Well, typically, the model is that you create adjacent manufacturing hubs that are effectively getting subsidized electricity, and that's a huge attraction for whether it's heavy manufacturing, medium manufacturing, whatever the case may be, Port capacity, Venezuela is well positioned for both of those things, and that's where workers that are on the more manufacturing side of the oil and gas industry can transfer into and by that, I mean, you know, thinking about refining and processing and things like that. So that's another part of it, which is not in the actual turbines themselves, but the electrons that are generated that can go to power industries that can rehire oil workers that are transitioning away from, from oil and gas.
+
+DOERING: So coming back to this amazing potential for wind energy that Venezuela has, what are the main barriers preventing Venezuela from pursuing this transition to this form of energy?
+
+![](https://loe.org/content/2026-03-20/VENEZUELA_colombia.jpg)
+
+Colombia is an example of a South American nation heavily reliant on oil whose leadership is taking urgent steps towards a green energy transition. Pictured above is Colombian president Gustavo Petro at the White House. (Photo: Joel González, Wikimedia Commons, Public Domain)
+
+MAHDAVI: So there are, effectively, I would say, two big barriers to it. But the biggest roadblock is the government, that in many cases, these national oil companies, yes, they're oil companies, but they march to one drummer, and that drummer is the government and what the government wants to prioritize. And in Venezuela's case, Maduro and Chavez before him, and many before Chavez, prioritized oil and gas over anything else. And so what you get there is a roadblock that's erected by the government's decisions as to what to pursue. And the other barrier is the institutional capacity. And what we mean by that is not just the political will to do this and the government's decision to do it, but its capability of doing so, of having the kind of filled out bureaucracy and having the clear rule of law and the expectations that exist for companies to come invest, for others to do business in Venezuela, to assist the national companies when it comes to offshore wind in Venezuela, you just haven't had that technical capability when it comes from a bureaucratic standpoint of getting this off the ground.
+
+DOERING: Professor, we have to acknowledge that building out a ton of wind energy in Venezuela would not by itself, provide the same kind of exportable energy that its oil resources allow. You can't exactly load electricity into a tanker to ship around the world, at least not at this point, but walk us through how that wind energy might help power economic activity or be turned into other resources that could be exported.
+
+![](https://loe.org/content/2026-03-20/VENEZUELA_critics.jpg)
+
+Critics assert the arrest and removal to the US of President Maduro and U.S. military strike in Venezuela were motivated in part by control over the country’s vast oil reserves. (Photo: Mike Licht, Wikimedia Commons, CC BY 4.0)
+
+MAHDAVI: You're exactly right. You can't necessarily export electricity as easily, and they, I say that because there are, you know, opportunities for Venezuela to provide cheap and clean electricity via undersea cable around the Caribbean. But to think about what you do with this, you convert that cheap electricity and reliable electricity. Yes, the wind doesn't always blow, but it blows predictably, and you can pair it with all kinds of new technologies. It's not just batteries. There's other ways to draw out the potential from generating electricity from wind. You put that to use in something that is going to be exportable. And it's interesting, that's the entire story of the Industrial Revolution, because electricity is an energy and that's our lifeblood when it comes to creating economic products. And so that's the way to do it, and that's kind of how a number of other countries have done so when you're not directly exporting the electricity. Norway, for example, does directly export some of that electricity. But you look at, then the opportunities that exist if you think about exporting the clean energy products themselves. So if you start to get into EVs and start to get innovations in how you build wind turbines, look no further than China, and China now is a larger energy exporter by revenue than Saudi Arabia, which is a wild number, because it exports. You count you have to count up a lot of things. It's not just one product, right? You count up its TVs, it's solar panels, it's wind turbines, all of those made more money last year in terms of export revenue than Saudi Arabia's oil and gas sector, and that's a long way away. Takes a long time to get there, but it does to show you that there is a lot of money to be made for governments, economies in the clean energy space, and it's not just the electricity itself, but so many other things that it opens the door to. And it goes back to my point that Venezuela has the human know-how to do that, and that's because it's been an energy producer for a century or more, and that matters, and that's kind of what many are hoping to tap into.
+
+DOERING: Now, what examples do we have of nearby countries in South America that have been working to address the climate crisis while also growing their economies?
+
+MAHDAVI: So the best example is Venezuela's neighbor to the west, which is Colombia. Colombia is an oil and gas producer. It has a national oil company ,Ecopetrol, much like Venezuela has a national oil company, PDVSA. But these are two countries that are taking two very different paths, very much a tale of two cities kind of situation, because Colombia has a president that is seeking to decarbonize and move beyond oil and gas. Part of it is because of the profitability in the long term of Colombia's oil and gas, but the other part of it is a deep belief in solving the climate crisis, but it looks quite different than Venezuela, where the national oil company has been told to just focus on oil and gas, and it has been doing so for well before the latest actions in early January of taking out Maduro, and that's because that was Chavez's vision. That was Maduro's vision is to keep the golden goose laying eggs.
+
+DOERING: This question of which path Venezuela chooses, it feels like so much bigger than just Venezuela, which, of course, is what we're focusing on here, but this choice that the world faces right now, in terms of the stakes for the planet, for human civilization, how important is it for us all to get this right?
+
+MAHDAVI: It is the most important thing in the world, at least to me. I have two little kids. A lot of people have kids. We think about kids as kind of the next generation. We are already experiencing climate change, so it's not just a future thing, but we have to get it right. And we have these opportunities, these political windows that open up anytime there are new leaders in power to make that change. One of the founding members of OPEC could become one of the, you know, global leaders of clean energy, if it chooses to, because it has the ability to do it, it has the human capital to do it, has the resources to do it. It's a choice. So it's tremendously important, not just for all of us around the planet, but for other countries, to be able to point to, hey, look, Venezuela did it. We can do it too.
+
+DOERING: Pasha Mahdavi is an associate professor of political science at UC Santa Barbara, where his research focuses on the impact of oil and gas resources on governance and environmental politics. Thank you so much, Professor Mahdavi.
+
+MAHDAVI: Thanks so much for having me. I really enjoyed the conversation.
+
+DOERING: By the way, the total offshore wind capacity in the United States is forty-three hundred gigawatts, nearly four times the amount of all the electricity currently generated in the US.
+
+## Related Links
+
+- [Learn more about Paasha Mahdavi](https://www.polsci.ucsb.edu/people/paasha-mahdavi)
+- [Climate Home News  | “There Is Hope for Venezuela’s Future – and It Isn’t Based on Oil”](https://www.climatechangenews.com/2026/02/26/there-is-hope-for-venezuelas-future-and-it-isnt-based-on-oil/)
+- [Learn more about Colombia’s energy transition](https://investincolombia.com.co/en/resources/offshore-wind-energy-colombia)

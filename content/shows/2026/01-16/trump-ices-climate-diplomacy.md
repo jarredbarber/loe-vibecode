@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-01-16/WITHDRAWAL_whitehouse.jpg"
 image_caption: "President Trump recently announced the United States’ withdrawal from over 60 international treaties and organizations. (Photo: Matt H. Wade, Wikimedia Commons, CC BY-SA 3.0)"
 summary: "The Trump Administration recently announced plans to withdraw the United States from dozens of United Nations treaties and organizations including the UN Framework Convention on Climate Change, a treaty that was ratified by the US Senate in 1992 and is the key international forum for addressing the climate crisis. Marianne Lavelle, the Washington Bureau Chief for Inside Climate News, speaks with Host Jenni Doering about what this decision could mean for global climate progress."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00003&segmentID=1 -->
 
 ## Transcript
 

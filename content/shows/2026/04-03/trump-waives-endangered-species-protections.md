@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-04-03/GODSQUAD_snaildarter.jpg"
 image_caption: "The Endangered Species Committee, aka the “God Squad” was created in the 1970s after a Supreme Court decision regarding protecting the snail darter shown above. The Court ruled that only Congress could decide when exemptions to the Endangered Species Act should be made. (Photo: Jerry A. Payne, USDA Agricultural Research Service, Wikimedia Commons, CC BY 3.0 US)"
 summary: "A panel known as the “God Squad”, consisting mostly of Trump cabinet members, recently voted to exempt the oil and gas industry operating in the Gulf of Mexico from the Endangered Species Act. If courts do not intervene, this decision would waive the standard ESA requirements to protect endangered species including the Rice’s whale, of which there are only a few dozen left. Pat Parenteau, Emeritus Professor at Vermont Law and Graduate School, joins Host Jenni Doering to discuss."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00014&segmentID=1 -->
 
 ## Transcript
 

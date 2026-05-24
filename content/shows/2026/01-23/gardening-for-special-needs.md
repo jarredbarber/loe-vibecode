@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-01-23/MAYS_childrengardening.JPG"
 image_caption: "Gardening can help children regulate emotional health as well as learn mindfulness and resilience. (Photo: Elicarrera, Wikimedia Commons, CC BY SA 4.0)"
 summary: "For people with developmental or physical disabilities, growing plants in a garden may offer personal growth opportunities that unlock new possibilities outside of the garden too. This kind of transformation is something avid gardener Jill Mays has seen again and again in her work with disabled children and adults, and she speaks with Host Paloma Beltran about her book  Nurturing Nature: A Guide to Gardening for Special Needs."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00004&segmentID=4 -->
 
 ## Transcript
 

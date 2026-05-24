@@ -102,7 +102,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
             image_caption: doc.imageCaption,
             summary: doc.summary,
         });
-        const content = `${fm}\n${doc.body}`;
+        const content = `${fm}<!-- source: ${url} -->\n\n${doc.body}`;
         actions[path] = await safeWrite(path, content, { sourceUrl: url, force: opts.force });
         segmentPaths.push(path);
         segmentEntries.push({ title: doc.title, filename });
@@ -124,7 +124,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
     const segmentsList = segmentEntries
         .map(({ title, filename }) => `### [${title}]({filename}${filename})\n`)
         .join('\n');
-    const showContent = `${showFm}\n## Segments\n\n${segmentsList}`;
+    const showContent = `${showFm}<!-- source: ${showUrl} -->\n\n## Segments\n\n${segmentsList}`;
     actions[showPath] = await safeWrite(showPath, showContent, { sourceUrl: showUrl, force: opts.force });
 
     return { showPath, segmentPaths, actions };

@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-05-15/AF-Gary Steel Works.jpg"
 image_caption: "Shown above is US Steel's Gary Works, the largest steel mill in the United States, located in Gary, Indiana. (Photo: Reid Frazier / The Allegheny Front)"
 summary: "Just outside of Chicago, the country’s largest complex of steel mills faces an uncertain future. Air pollution, climate change and the preservation of union jobs are affecting the industry, as are the Trump administration’s stances on coal, steel, and tariffs. The Allegheny Front’s Reid Frazier reports on efforts to get big steelmakers in the region to switch from coal to natural gas or hydrogen, but overhauling existing infrastructure isn’t easy or cheap."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00020&segmentID=4 -->
 
 ## Transcript
 

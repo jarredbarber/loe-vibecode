@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-02-13/DAISY_cover.jpg"
 image_caption: "Daisy Rewilds, published in 2025 by Penguin Random House, follows a young girl’s journey reverting her own front yard to its natural state. (Photo: Taken by Andrew Skerrit, Book Cover via Penguin Random House)"
 summary: "The young hero of children’s book Daisy Rewilds not only likes nature, but she also wants to become nature. Daisy refuses to take baths and reverts the manicured lawn of her family home back into the wild, all with a bit of hilarity. Weeds and worms show her family and neighbors the true beauty in nature, chaotic as it can be. Daisy Rewilds author Margaret McNamara joins Host Steve Curwood to share how the concept of rewilding or allowing outdoor spaces to revert to more natural states, inspired this whimsical tale."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00007&segmentID=4 -->
 
 ## Transcript
 

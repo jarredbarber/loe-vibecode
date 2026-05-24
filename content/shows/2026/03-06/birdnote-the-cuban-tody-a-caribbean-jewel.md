@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-03-06/CUBANTODY_bird.jpg"
 image_caption: "A colorful Cuban tody perches on a stick. (Photo: Charles J. Sharp, Wikimedia Commons, CC BY-SA 4.0)"
 summary: "A “must-see” bird for anyone traveling in the West Indies, the Cuban Tody is a tiny bird with a lot of personality. In this week’s BirdNote®, Michael Stein introduces us to these striking Cuban natives."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00010&segmentID=6 -->
 
 ## Transcript
 

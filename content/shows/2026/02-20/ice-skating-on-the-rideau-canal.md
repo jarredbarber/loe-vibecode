@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2013-03-29/bigstock-Rideau-Canal-Under-A-Bri
 image_caption: "Winterlude Festival on the canal in Ottawa (photo: bigstockphoto.com)"
 summary: "The warmer winters of climate disruption are bringing shorter and shorter skating seasons on the Rideau Canal in Ottawa, Canada. We head into the Living on Earth archives for a taste of days gone by, when reporter Bob Carty hit the ice to meet locals enjoying the serenity of a skate along the canal."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00008&segmentID=3 -->
 
 ## Transcript
 

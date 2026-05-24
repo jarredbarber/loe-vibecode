@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-02-13/BIRDNOTE_bird.jpg"
 image_caption: "A male common yellowthroat perches atop a treebranch and sings. (Photo: George Gentry, U.S. Fish and Wildlife Service, Wikimedia Commons, public domain)"
 summary: "Common Yellowthroats, one of the most abundant warblers in North America, thrive in places that pickier warblers pass over. BirdNote®’s Ariana Remmel reports that they’re easy to find in urban areas, marshes, overgrown fields and more."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00007&segmentID=5 -->
 
 ## Transcript
 

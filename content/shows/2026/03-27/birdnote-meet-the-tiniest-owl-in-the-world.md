@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-03-27/ELF_smallowl.jpg"
 image_caption: "Elf owls are the smallest known species of owl. (Photo: Bettina Arrigoni, Flickr, CC BY 2.0)"
 summary: "At just six inches tall, the desert-dwelling Elf Owl is the smallest known species of owl in the world. As BirdNote®’s Michael Stein reports, despite its tiny stature the Elf Owl is a fierce predator of crickets, scorpions, and mice."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00013&segmentID=2 -->
 
 ## Transcript
 

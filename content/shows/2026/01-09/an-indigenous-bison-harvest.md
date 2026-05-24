@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-01-06/3_bison_buffalo_snow.jpeg"
 image_caption: "Buffalo herds were managed like Zoo animals in Denver for decades. It’s only been a few years since the city agreed to transfer any excess bison to local tribes so they can exercise their traditions. (Photo: Hart Van Denburg, Colorado Public Radio)"
 summary: "Efforts to bring back bison are helping to revive Indigenous culture on lands across the US West. And as Colorado Public Radio’s Sam Brasch reports, this revival is taking place right in the city of Denver."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00002&segmentID=4 -->
 
 ## Transcript
 

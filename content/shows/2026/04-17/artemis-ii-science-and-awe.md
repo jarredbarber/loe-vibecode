@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-04-17/ARTEMISII_crescentearth.jpg"
 image_caption: "Artemis II astronauts captured an image of Earth as seen in a crescent phase. The dark section of the Earth would be experiencing nighttime, while the light section would be experiencing daytime. (Photo: NASA)"
 summary: "The four astronauts of the Artemis II mission that safely splashed down on April 10 were able to test out Orion spacecraft systems during their journey, a crucial step towards NASA’s ultimate goal of establishing a continuous human presence on the moon and embarking on future missions to Mars and beyond. They also made new scientific observations that are helping to expand our knowledge of the Moon, as well as the Earth itself. Artemis II Lunar Science Lead Kelsey Young talks with Host Aynsley O’Neill about the scientific goals and accomplishments of the mission and the unforgettable moments the crew shared with people back on Earth."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00016&segmentID=2 -->
 
 ## Transcript
 

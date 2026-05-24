@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-03-06/MONSANTO_building.jpg"
 image_caption: "Monsanto, which was acquired by German-based biotechnology company Bayer in 2018, is facing a multitude of litigation related to its glyphosate-based pesticide RoundUp. (Photo: Karen Eliot, Wikimedia Commons, CC BY-SA 2.0)"
 summary: "President Trump has deemed glyphosate as essential for national security even though some 200,000 people have complained they have gotten cancer or other adverse health effects, while using it as directed. Meanwhile a Missouri state court has given preliminary approval to a class action settlement plan for people sickened by Roundup, which contains the herbicide glyphosate. Carey Gillam of The New Lede speaks with Host Steve Curwood about the latest developments in glyphosate lawsuits and why some in the Make America Healthy Again movement feel betrayed by the Trump Administration’s support for glyphosate."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00010&segmentID=2 -->
 
 ## Transcript
 

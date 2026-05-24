@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-01-30/SEED_teacher.JPG"
 image_caption: "Seed Global Health educator Chisomo Kumwenda (right) demonstrating neonatal resuscitation to midwifery students in the skills lab at School of Midwifery Bo, Sierra Leone. (Photo: Courtesy of Seed Global Health)"
 summary: "The current Trump administration has in its first year cut off the World Health Organization, dismantled the United States Agency for International Development or USAID, and overhauled vaccination recommendations, just to name a few decisions impacting health. Physician and Harvard public health professor Vanessa Kerry is also WHO Special Envoy for Climate Change and Health. She talks with Host Steve Curwood about the lives that could be lost as the US retreats from global health."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00005&segmentID=4 -->
 
 ## Transcript
 

@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-02-27/SCINOTE_wastewaterplant.jpg"
 image_caption: "Conventional wastewater treatment plants often fail to remove antibiotic residues, causing them to end up in water sources. (Photo: Czeva, Wikimedia Commons, CC BY-SA 4.0)"
 summary: "Wastewater treatment often fails to capture antibiotics, which can lead to antibiotic resistance and even “super microbes” when they end up in our waterways. Living on Earth’s Hedy Yang reports in this Note on Emerging Science that scientists in Brazil have found a novel way to improve antibiotic detection in wastewater, by using sewage sludge itself to create a coating for sensors."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00009&segmentID=4 -->
 
 ## Transcript
 

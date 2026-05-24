@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-02-27/TARPEH_fellowandprofessor.jpg"
 image_caption: "William Tarpeh is a 2025 MacArthur Fellow and a Stanford University Assistant Profesor. He’s a chemical engineer whose work centers on pulling useful chemicals from various kinds of wastewater. (Photo: Christopher Michel, Courtesy of Will Tarpeh)"
 summary: "Urine is packed with nutrients such as phosphorus and nitrogen, which can be pollutants when they enter the environment unchecked. But these can also be turned into vital fertilizer to nourish our crops, and 2025 MacArthur Fellow William Tarpeh, an Assistant Professor of Chemical Engineering at Stanford University, is developing methods for “refining” wastewater. He discusses with Host Steve Curwood how we can turn wastewater into wealth."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00009&segmentID=5 -->
 
 ## Transcript
 

@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-03-06/CANCERALLEY_monique.jpg"
 image_caption: "Veteran environmental justice attorney and advocate Monique Harden speaks about environmental justice and the law at the Center for Environmental Justice Media (CEJM) conference in September 2025. Harden discusses the history of the 13th and 14th Amendments as it relates to the Cancer Alley land use lawsuit brought by residents of St. James Parish. (Photo: CEJM)"
 summary: "Descendants of enslaved people fighting pollution in Louisiana’s ‘Cancer Alley’ have been greenlit for a trial. Their lawsuit alleges the St. James Parish government discriminated against Black residents by repeatedly permitting industrial plants in predominantly Black districts while shielding mostly white districts from industry. Monique Harden, a longtime environmental justice attorney and advocate, joins Host Jenni Doering to explain how the 13th amendment outlawing slavery plays into the case."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00010&segmentID=1 -->
 
 ## Transcript
 

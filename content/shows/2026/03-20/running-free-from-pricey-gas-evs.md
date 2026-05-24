@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-03-20/EVs_gaspump.jpg"
 image_caption: "Rising costs at the pump resulting from the war with Iran could push consumers towards electric vehicles. (Photo: Harrison Keely, Wikimedia Commons, CC BY 4.0)"
 summary: "Facing pain at the pump, US drivers looking to buy an electric vehicle now have more and cheaper choices than ever. But with the $7500 federal tax credit for new electric vehicles now gone, you may be wondering whether EVs are the smart buy in 2026. Jim Motavalli, who writes about green transportation for Autoweek, Barron’s and the New York Times shares some insights about EV options, cost and the charging network with Host Aynsley O’Neill."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00012&segmentID=3 -->
 
 ## Transcript
 

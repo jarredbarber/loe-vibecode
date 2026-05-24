@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-05-08/BORIM_taean.jpg"
 image_caption: "Borim Kim is the founder of Youth 4 Climate Action and winner of the 2026 Goldman Environmental Prize for Asia. Here she stands in front of the Taean Coal Power Plant, one of the largest coal power plants in the world. (Photo: Goldman Environmental Prize)"
 summary: "The recipient of the 2026 Goldman Environmental Prize for Asia is South Korean activist Borim Kim. She and her organization, Youth 4 Climate Action, sued the South Korean government on the grounds that it was putting future generations at risk. And in August of 2024, they won at the South Korean Constitutional Court, making this case the first successful youth-driven climate litigation in Asia. Borim Kim joins Host Aynsley O’Neill to discuss this historic decision."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00019&segmentID=5 -->
 
 ## Transcript
 

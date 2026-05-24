@@ -7,6 +7,7 @@ megaphone_id: LOE9409388731
 image_url: "https://loe.org/content/2026-01-06/tn_W.A._Parish_Generating_Plant.jpg"
 summary: "In its first year, the second Trump Administration slashed environmental regulations and programs, overstepping its executive authority in the eyes of some environmental advocates. Pat Parenteau, who served as EPA regional counsel under President Reagan, talks with Host Aynsley O’Neill about the inability or reluctance of the judicial and legislative branches to provide a check on what he sees is abusive executive power that is threatening the health of people and planet."
 ---
+<!-- source: https://loe.org/shows/shows.html?programID=26-P13-00002 -->
 
 ## Segments
 

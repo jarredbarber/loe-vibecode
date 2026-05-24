@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-05-01/LENDER_turtle.jpg"
 image_caption: "A snapping turtle’s age can be estimated by the rough size and condition of its shell. (Photo: Mark Seth Lender)"
 summary: "Now that it’s spring in the Northern Hemisphere, before long snapping turtles will be laying their eggs. Living on Earth’s Explorer in Residence, Mark Seth Lender shares this encounter with one old mother turtle."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00018&segmentID=3 -->
 
 ## Transcript
 

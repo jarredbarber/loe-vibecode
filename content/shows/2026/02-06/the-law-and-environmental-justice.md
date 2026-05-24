@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-02-06/EJ_BobBullardSpeaks.jpg"
 image_caption: "Dr. Robert Bullard, a pioneer in the movement for environmental justice, speaks at the Center for Climate and Environmental Justice Media (CEJM) Conference at UMass Boston in September 2025. Dr. Bullard is founder of the Bullard Center for Environmental and Climate Justice at Texas Southern University in Houston, and author of Dumping In Dixie, (1982) the first of more than sixteen books he has published about environmental racism. His most recent is The Wrong Complexion for Protection (2018). (Photo: CEJM)"
 summary: "The National Academy of Sciences has found black people are exposed to 66 percent more pollution than they produce, while white people are exposed to 17 percent less pollution than they create. In honor of Black History Month Special we highlight some of the voices that stood up against environmental injustice including Civil rights activist the Rev. Dr. Ben Chavis, and Dr. Robert Bullard who’s been deemed the “Father of Environmental Justice,” And in a conversation with Living on Earth’s Paloma Beltran we also look back and look forward at prospects for breaking the chains of environmental racism with long time environmental lawyer and activist Monique Harden. a trail blazer in addressing problems of people and pollution in Louisiana’s “Cancer Alley”."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00006&segmentID=1 -->
 
 ## Transcript
 

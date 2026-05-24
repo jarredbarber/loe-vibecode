@@ -7,6 +7,7 @@ image_url: "https://loe.org/content/2026-03-13/AF_testing.jpg"
 image_caption: "Three Rivers Waterkeeper’s Koa Reitz tests water from Montour Run for PFAS contamination. Montour Run is a tributary of Fishing Creek, located near the Pittsburgh International Airport. (Photo: Reid Frazier, Courtesy of The Allegheny Front)"
 summary: "Foams containing PFAS or “forever chemicals” are excellent at suppressing fires involving jet fuel and other oil products, but they leave behind a toxic legacy. And they have long been used for firefighting drills, including at a training facility based at Pittsburgh International Airport. Although the facility now uses PFAS-free firefighting foam, the Allegheny Front’s Reid Frazier reports that sampling is still showing high levels of PFAS being discharged into nearby streams."
 ---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00011&segmentID=2 -->
 
 ## Transcript
 

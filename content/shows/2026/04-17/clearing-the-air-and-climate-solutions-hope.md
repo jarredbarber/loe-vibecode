@@ -84,7 +84,7 @@ RITCHIE: Yeah, I think this is a very, very common misconception about nuclear p
 
 CURWOOD: So you must have had some fun doing this, huh?
 
-RITCHIE: \[LAUGH] Yeah. I mean, part of what was enjoyable about it, and I think is just really, really important, is that for some of the questions, I was also just coming at them, no idea of what the answer would be, right? And just willing to accept what the answer was. So part of it was also just discovery of me, is like putting into context, how much mining does solar panels and batteries need, and how does that compare to the mining impact of fossil fuels, like, again, before coming to this, I didn't know exactly what the answer would be. So it was a bit of a kind of discovery process as well, which was, you know, extremely fun.
+RITCHIE: [LAUGH] Yeah. I mean, part of what was enjoyable about it, and I think is just really, really important, is that for some of the questions, I was also just coming at them, no idea of what the answer would be, right? And just willing to accept what the answer was. So part of it was also just discovery of me, is like putting into context, how much mining does solar panels and batteries need, and how does that compare to the mining impact of fossil fuels, like, again, before coming to this, I didn't know exactly what the answer would be. So it was a bit of a kind of discovery process as well, which was, you know, extremely fun.
 
 CURWOOD: And what's the answer?
 

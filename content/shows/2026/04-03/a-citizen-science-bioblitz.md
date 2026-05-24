@@ -12,11 +12,11 @@ summary: "The City Nature Challenge is an international contest known as a biobl
 
 O’NEILL: Last month, we brought you the stories of pioneering female scientists, from Marie Curie to Vera Rubin, Mamie Phipps Clark to Sau Lan Wu. But before any of those women made their names in the scientific world, they were young girls whose interests and passions for science would lead them down their life's path. A few years back, I joined up with a similar group of young, passionate, scientists called the Boston BioBlitz Initiative for Girls. A bioblitz is a citizen science competition where people rush to document nature in their own communities. While the team that collects the most data does get bragging rights for the year, the real winner is the scientific community, which is able to use that data for research. So I caught a ferry out to the Boston Harbor Islands National Recreation Area with this group of teenage girls as they practiced their citizen science skills.
 
-\[BOAT RUMBLE]
+[BOAT RUMBLE]
 
 O’NEILL: It’s an overcast spring day, but our group of girls is still excited to be heading out to explore the island habitat. There are ten of us onboard a small ferry boat, five teenagers from different Boston public schools, and their educators from Zoo New England, Brandeis University, and the National Park Service.
 
-\[FOOTSTEPS]
+[FOOTSTEPS]
 
 O’NEILL: On the island, the spring thaw and rain mean plenty of mud. Fortunately our guide for the day, Luke Thorson from Thompson Island Outward Bound, has planned ahead.
 
@@ -30,7 +30,7 @@ O’NEILL: This field site on Thompson Island is maintained by the program Outwa
 
 LUKE: It is early in the season, so we’re gonna have to do some looking, and get down, and get dirty, and see where things are, meet them where they’re at.
 
-\[FOOTSTEPS]
+[FOOTSTEPS]
 
 O’NEILL: Luke passes out some field guides and we hit the trail down to the salt marsh.
 
@@ -80,7 +80,7 @@ VOICE #4: That’s so interesting!
 
 LUKE: They appeared here just a few years ago, just a male and female adult that came over, so we have a land bridge that opens up at low tide. So they made their way over, and then they had pups, so they had pups here. And so now we have a family, a grown-up family, that lives somewhere around here. They stay pretty much to themselves.
 
-\[FOOTSTEPS]
+[FOOTSTEPS]
 
 O’NEILL: When we arrive at the marsh it’s a flurry of activity to get out nets and Petri dishes, and to grab the smartphones and tablets we’ll use to document the species. Within minutes the girls are sifting through water to find plankton, bugs, and perhaps the most hoped-for critter, hermit crabs.
 
@@ -114,13 +114,13 @@ VOICE #4: Really tiny!
 
 VOICE #5: Let’s go see how many hermit crabs we can collect and see if we can find the biggest one.
 
-\[FOOTSTEPS]
+[FOOTSTEPS]
 
 O’NEILL: When we wrap up at the marsh, the sun comes out and we head to the beach to look for native and invasive oysters.
 
 MARC: So we want to go down as low as possible into the low tide area because oysters live underwater basically. They don’t want to be up here where it’s only covered during the high tides. But you can start to see oyster shells already. These are dead oysters, the shells wash up higher. But we ideally want to find some live oysters.
 
-\[FOOTSTEPS]
+[FOOTSTEPS]
 
 O’NEILL: The oyster data that’s collected from the City Nature Challenge, will help researchers trying to determine the current ratio of native to invasive oysters in this region. The bioblitz team marks off an area and identifies as many oysters as they can find in that space.
 
@@ -146,7 +146,7 @@ MARC: These two are the native ones.
 
 O’NEILL: Eventually, the team finds 26 of the invasive oysters, and just two of the native ones.
 
-\[FOOTSTEPS]
+[FOOTSTEPS]
 
 O’NEILL: As Thompson Island fades in the distance, I ask the girls what they’ve liked best.
 
@@ -160,7 +160,7 @@ The Boston BioBlitz Initiative for Girls and their chaperones. (Photo: Courtesy 
 
 O’NEILL: And to document the life they’ve seen, the girls log on to iNaturalist. With heads down, huddled around our phones, we must look quite the sight – windswept, muddy, slightly sunburnt, and appreciating nature in our own new-fashioned way.
 
-\[BOAT RUMBLE]
+[BOAT RUMBLE]
 
 O’NEILL: The 2026 City Nature Challenge kicks off with the bioblitz from April 24 through April 27th, so if you're looking to hone your skills beforehand, you can learn more at the Living on Earth website, LOE.org.
 

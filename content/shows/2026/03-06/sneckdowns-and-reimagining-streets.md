@@ -1,5 +1,5 @@
 ---
-title: "\"Sneckdowns\" and Reimagining Streets"
+title: '"Sneckdowns" and Reimagining Streets'
 date: 2026-03-06
 category: Segments
 megaphone_id: LOE5848704106
@@ -28,7 +28,7 @@ ECKERSON: I have taken a tour in one of my videos of downtown Manhattan and seen
 
 SMITH: And if you don’t get any snow where you live, don’t worry. The same kind of thing happens when leaves clump by the side of the road, creating “leafdowns”.
 
-ECKERSON: And there was, even in California, people like, couldn't be left out. So they started noticing the palm trees, the palm fronds were falling and then kind of getting scuttled to the sides of the road and they were calling them palm frond neckdowns. So, you know, it's really had its own kind of \[LAUGHS] fun journey to like, letting people get creative.
+ECKERSON: And there was, even in California, people like, couldn't be left out. So they started noticing the palm trees, the palm fronds were falling and then kind of getting scuttled to the sides of the road and they were calling them palm frond neckdowns. So, you know, it's really had its own kind of [LAUGHS] fun journey to like, letting people get creative.
 
 SMITH: And for those of us still struggling through snowbanks, snowy neckdowns or sneckdowns offer a simple, playful way to step outside, document your neighborhood, and imagine a safer transportation future for your community. So whether you’re welcoming the first signs of spring or still stuck in the winter blues, sneckdowns just might help you see your streets in a whole new light. For Living on Earth, I’m Bella Smith.
 

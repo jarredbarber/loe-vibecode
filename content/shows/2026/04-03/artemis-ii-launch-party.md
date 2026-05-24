@@ -12,7 +12,7 @@ summary: "As the Artemis II launch counted down, folks of all ages gathered exci
 
 DOERING: More than 100 people gathered in front of a big screen at the McAuliffe-Shepard planetarium and Discovery Center in Concord, New Hampshire to see the giant Artemis rocket light up and fly. And Living on Earth’s Steve Curwood was there.
 
-\[CROWD SFX]
+[CROWD SFX]
 
 CURWOOD: As a big digital clock counted down, ripples of anticipation coursed through\
 this all-age crowd including one six-year-old, who could not stay in his seat. Why was\
@@ -50,10 +50,10 @@ NASA LIVESTREAM: And here we go. 10, 9…
 
 CROWD CHANTING: … 8, 7, 6, 5, 4, 3, 2, 1!
 
-\[CROWD CHEERS, CLAPS]
+[CROWD CHEERS, CLAPS]
 
 GOLUBIEWSKI: It was really amazing to watch. It was an incredible experience. And I've\
-been waiting to see this my whole life. So being here has been amazing so far. \[LAUGHS]
+been waiting to see this my whole life. So being here has been amazing so far. [LAUGHS]
 
 ![](https://loe.org/content/2026-04-03/WATCH_curwoodinterviews.jpeg)
 
@@ -78,7 +78,7 @@ NASA LIVESTREAM: Confirm separation. Main engine…
 
 The audience at the Artemis II launch party on April 1, 2026. (Photo: Jennifer Stevens-Curwood)
 
-\[CROWD CHEERS]
+[CROWD CHEERS]
 
 CURWOOD: I asked another astronomy club member, Liam Pearl, to say what he\
 thinks the Artemis Moon Mission means.

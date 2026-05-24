@@ -47,7 +47,26 @@ function hastToMarkdown(node: Element | Root): string {
         .use(remarkGfm)
         .use(remarkStringify, { bullet: '-', emphasis: '*', strong: '*', fences: true });
     const mdast = proc.runSync(node as never);
-    return proc.stringify(mdast as never).toString();
+    const raw = proc.stringify(mdast as never).toString();
+    return unescapeSafe(raw);
+}
+
+/**
+ * remark-stringify defensively escapes `[`, `]`, and `:` in URL-like contexts
+ * to prevent accidental link/autolink interpretation. Real markdown links in
+ * our pipeline come from <a> tags via rehype-remark and emit unescaped, so
+ * any escape we see here is over-zealous on literal text. Strip the noisy ones.
+ *
+ * Keeps escapes that are correctness-preserving (e.g. `\###` at line start,
+ * which would otherwise become an h3 heading).
+ */
+function unescapeSafe(md: string): string {
+    return md
+        .replace(/\\\[/g, '[')
+        .replace(/\\\]/g, ']')
+        .replace(/(https?)\\:\/\//g, '$1://')
+        // `\.` after a digit (e.g. "0.06-.10\.") — not meaningful in markdown.
+        .replace(/(\d)\\\./g, '$1.');
 }
 
 function findMegaphoneId(root: Root): string | null {

@@ -12,7 +12,7 @@ summary: "Wastewater treatment often fails to capture antibiotics, which can lea
 
 BELTRAN: After the break, mining wastewater for nutrients but first this note on emerging science from Hedy Yang.
 
-\[SCIENCE NOTE THEME]
+[SCIENCE NOTE THEME]
 
 YANG: For a lot of the developed world, the motto around waste is: out of sight, out of mind. Like when it comes to wastewater, we flush the toilet or pour something down the sink, and it gets carried away into a sewage system that we never see the inner workings of. Most of us trust these systems to take care of things, and our wastewater treatment systems are pretty good at filtering out most of the harmful stuff. But one thing that they often fail to capture is pharmaceuticals — and in particular, antibiotics that end up in our waterways from improper medication disposal and human excrement. Antibiotic contamination can lead to antibiotic resistance and even create “super microbes” that impact entire aquatic ecosystems. But now, scientists have found a novel way to detect antibiotics in our wastewater — in a very full circle way.
 

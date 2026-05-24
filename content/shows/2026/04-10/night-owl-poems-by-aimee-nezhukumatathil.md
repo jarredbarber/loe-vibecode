@@ -1,5 +1,5 @@
 ---
-title: "\"Night Owl\" -- Poems by Aimee Nezhukumatathil"
+title: '"Night Owl" -- Poems by Aimee Nezhukumatathil'
 date: 2026-04-10
 category: Segments
 megaphone_id: LOE9296516678

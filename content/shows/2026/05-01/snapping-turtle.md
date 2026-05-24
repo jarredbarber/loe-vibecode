@@ -1,5 +1,5 @@
 ---
-title: "\"Snapping Turtle\""
+title: '"Snapping Turtle"'
 date: 2026-05-01
 category: Segments
 megaphone_id: LOE4996838408

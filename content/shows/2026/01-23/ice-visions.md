@@ -14,7 +14,7 @@ BELTRAN: Winters are changing as the climate warms but occasionally the ice is t
 
 HOFFNER: The first house I rented after moving to New England two decades ago was on a lake. I love ice skating, and felt lucky when a cold, dry December created a perfect scenario for skating just outside my door.
 
-\[ICE SKATING SOUNDS]
+[ICE SKATING SOUNDS]
 
 Most mornings I’d pull on skates and glide across that lake until my legs were shaky and sore. The hiss and scrape of blades on ice was often the only sound against the deep, cold quiet of the sleeping landscape. The ice that first year was so clear I could watch fish swimming below. In early winter as the ice formed, I could even hear its cracks, and groans, and pings through the floor of my house.
 
@@ -22,7 +22,7 @@ Most mornings I’d pull on skates and glide across that lake until my legs were
 
 A “climate-changed” version of Hoffner’s Ice Visions. (Photo: Courtesy of Erik Hoffner)
 
-\[GROANS & PINGS OF ICE]
+[GROANS & PINGS OF ICE]
 
 Then ice fishermen drilled perfectly round holes in the lake. And overnight tiny bubbles filtering up from sediments below were caught in thickening water inside those holes while inches of new ice formed. The bubbles stretched as the water refroze, creating streaks that radiated from the center outward much like the lines that radiate out in the iris of an eye. These holes seemed to become the lake’s own eyes, gazing at and reflecting the starry night sky. Formations were all different, like snowflakes. In the morning light, they just could look like stars, cells, or galaxies.
 
@@ -32,7 +32,7 @@ Last winter started cold, and good, safe ice set early, but then the weather war
 
 Instead of building 2 or 3 inches of new ice in each hole overnight, there was often just a skin at the surface, so thin you could poke a finger through it. And the tiny bubbles trapped beneath that thin layer of ice pooled with others to create large, semi-frozen bubbles that oozed and flowed together. They looked entirely different, not so much like eyes or stars but rather distorted faces, and strange animals. It was like seeing the face of climate change. It’s too soon to say whether it will be too warm again this year. But there’s already safe ice on lakes in my town, so I’ve taken the cameras and skates out several times and look forward to discovering what wonders this winter will bring.
 
-\[ICE SKATING SOUNDS]
+[ICE SKATING SOUNDS]
 
 BELTRAN: That’s journalist and photographer Erik Hoffner. His work is now part of the permanent collection of the Bates Museum of Art in Maine. For links to his photographs visit the Living on Earth website loe.org.
 

@@ -16,7 +16,7 @@ O’NEILL: And I’m Aynsley O’Neill.
 
 In a moment, we’ll look at how electricity from the sun and wind could provide an alternate power source for the oil-rich nation of Venezuela. But first this note on emerging science from Living on Earth’s Don Lyman about how electricity from the sky helps power the ecology of the rainforest.
 
-\[SCIENCE NOTE THEME]
+[SCIENCE NOTE THEME]
 
 LYMAN: Last spring, scientists who were studying the effects of lightning strikes on tropical forests at the Barro Colorado Nature Monument in Panama reported an unexpected finding — one especially tall species of rainforest tree — Dipteryx oleifera — also known as "almendro", actually benefited from lightning strikes, which killed off parasitic woody vines, known as lianas, as well as competing trees of other species.\
 The scientists documented one case in 2019 where a liana-covered *D. oleifera* suffered a powerful lightning strike, which damaged 115 surrounding trees, half of which died within two years. The lianas that covered the almendro tree all died. “It looked like a bomb went off,” said forest ecologist Evan Gora of the Cary Institute of Ecosystem Studies in Millbrook, N.Y. The *D. oleifera tree,* however, was still standing and healthy. The research team studied 93 trees struck by lightning, including nine *D. oleifera.* Gora reported that after two years, all the almendro trees were thriving, in stark contrast to 56 percent mortality among the other tree species.

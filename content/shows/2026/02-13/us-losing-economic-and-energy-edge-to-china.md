@@ -74,11 +74,11 @@ CURWOOD: My guest is Isabel Hilton, veteran journalist and BBC presenter, and fo
 
 Wind farm in Guangling County, Shanxi. (Wikimedia Commons, CC BY SA 4.0)
 
-\[MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
+[MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
 
 ANNOUNCER: Support for Living on Earth comes from the estate of Rosamund Stone Zander - celebrated painter, environmentalist, and author of The Art of Possibility – who inspired others to see the profound interconnectedness of all living things, and to act with courage and creativity on behalf of our planet. Support also comes from Sailors for the Sea and Oceana. Helping boaters race clean, sail green and protect the seas they love. More information @sailorsforthesea.org.
 
-\[CUTAWAY MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
+[CUTAWAY MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
 
 DOERING: It’s Living on Earth, I’m Jenni Doering.
 
@@ -106,7 +106,7 @@ HILTON: We have abandoned, we the collective West, abandoned the processing, in 
 
 CURWOOD: And that those minerals were also actually in the iPhones or the smartphones that we're using to talk with each other, yes?
 
-HILTON: They're in everything. Your house is full of them. Your pocket has quite a few. \[LAUGH] So yes, I mean, they are, in a way, they're as essential to the contemporary economy, to the digital world as oil was to or coal was to the old industrial world. These are the new, you know, you can't do without them.
+HILTON: They're in everything. Your house is full of them. Your pocket has quite a few. [LAUGH] So yes, I mean, they are, in a way, they're as essential to the contemporary economy, to the digital world as oil was to or coal was to the old industrial world. These are the new, you know, you can't do without them.
 
 CURWOOD: So my iPhone speaks Mandarin, apparently, huh?
 

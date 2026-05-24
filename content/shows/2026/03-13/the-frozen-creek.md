@@ -1,5 +1,5 @@
 ---
-title: "\"The Frozen Creek\""
+title: '"The Frozen Creek"'
 date: 2026-03-13
 category: Segments
 megaphone_id: LOE4731648635

@@ -60,7 +60,7 @@ Author Jason Allen-Paisant wanted to highlight the value and beauty of “disreg
 
 SKERRITT: It really doesn't sound strange to me, because I recall there were times when we'd have a class picnic for half term, and I couldn't go because my grandmother had a bad dream the night before.
 
-ALLEN-PAISANT: \[LAUGH]
+ALLEN-PAISANT: [LAUGH]
 
 And so being raised by grandparents, it's a gift. After all the time and research that went into this book, what's the main thing that you hope readers take away from *The Possibility of Tenderness*?
 

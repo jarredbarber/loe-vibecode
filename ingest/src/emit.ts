@@ -8,10 +8,14 @@ import type { SegmentDoc } from './parse-segment.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 export const CONTENT_DIR = join(__dirname, '..', '..', 'content', 'shows');
 
-/** YAML-escape a scalar string. Quotes only when necessary. */
+/** YAML-escape a scalar string. Quotes only when necessary; prefers single
+ *  quotes when the value contains " but no ' (avoids ugly backslash escapes). */
 function yamlString(v: string): string {
     const needsQuoting = /[:#&*!|>'"%@`,\[\]{}]|^\s|\s$|^-\s/.test(v) || v === '';
     if (!needsQuoting) return v;
+    if (v.includes('"') && !v.includes("'")) {
+        return `'${v}'`;
+    }
     return `"${v.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
 }
 

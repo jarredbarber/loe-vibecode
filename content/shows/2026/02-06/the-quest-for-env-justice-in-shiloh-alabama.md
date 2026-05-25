@@ -19,19 +19,19 @@ For Black History Month we bring you a cautionary tale brought to us by the Cent
 
 WILLIAMS: Here in Shiloh, our community has been affected by flood damage due to the expansion of highway 84 by the Alabama Department of Transportation six years ago, and we face choices of what is to be done. My name is Melissa Williams, and I'm talking to people here in Shiloh so we can hear each other, understanding we are not alone with these challenges. Many other communities of color are facing issues of what some call environmental justice.
 
-\[SFX highway]
+{% cue text="SFX highway" %}
 
-\[Music: TAOUDELLA AZALAI, CHOARCOAL LINE]
+{% cue text="Music: TAOUDELLA AZALAI, CHOARCOAL LINE" %}
 
 WILLIAMS M: When I was 16, coming back from the church, one Sunday afternoon, we found our home flooded. Water was running through our living room, bedroom and kitchen.
 
-\[SFX highway]
+{% cue text="SFX highway" %}
 
 WILLIAMS M: The damage was caused by the rainwater runoff from the widening of highway 84 an expressway that passes through the heart of our community, Shiloh, which is located in our small town of Elba, Alabama. At the time, it was very confusing. Our friends and neighbors were also affected. Yards kept flooding. Septic tanks overflowed. Our house foundation began to show cracks. Water moccasins made it dangerous to go outside after a heavy rain. At 22, I began to reflect on what had happened that day and the troubles that followed in the years afterwards. My name is Melissa Williams, and I'm here today with my father, Timothy Williams, seated in our living room to start a conversation about the struggles of the last six years.
 
 ![Shiloh resident Rev. Timothy Williams (right) shows pictures of the damage caused by flooding from runoff on Highway 84. Dr. Bob Bullard (left), who grew up in nearby Elba, Alabama, looks on. Bullard, a pioneer in the environmental justice movement, has worked with Shiloh residents in search of justice. (Photo: Andrew J. Skerritt)](https://loe.org/content/2026-02-06/SHILOH_revwilliams.jpg)
 
-\[Music]
+{% cue text="Music" %}
 
 WILLIAMS M: Shiloh is a historical Black community where land has been passed down from generation to generation. I want to talk about this unique story that has to do with environmental injustice, because I'm sure there are others that are going through the same thing that Shiloh is going through. So me talking about what we're going through, I'm sure this could help someone today, tomorrow, in the future. To better understand the history of this historical community, I'm going to turn it to my father to speak about his upbringing and how he was raised here in Shiloh. Okay, Dad, can you tell me about your upbringing and the history behind Shiloh?
 
@@ -41,7 +41,7 @@ WILLIAMS T: When I was about probably 14 or 15, I would come to the Shiloh commu
 
 WILLIAMS M: For me, I can share my little memories of me living here, being raised here, about how we would just be able to go outside. Like you said, we didn't have any problems that we're having now, just dealing with the water, frogs, snakes, all that stuff. We didn't have to experience any of those things. We will be able to go outside, ride bicycles, play in the mud, make like, you know, little dirt pies, all of that stuff.
 
-\[SFX kids playing]
+{% cue text="SFX kids playing" %}
 
 WILLIAMS M: Yeah, we just lived normal lives. I mean, what little kids would do outside.  
 Could you tell me about how this affected you, with the Highway coming through here?
@@ -52,7 +52,7 @@ WILLIAMS M: I know I can remember coming from church on Sundays, and this is whe
 
 ![The Shiloh neighborhood sits along the east bound lane of Highway 84. Since the roadway was widened from two lanes to four and raised, residents say they feel as if they live in a bowl that fills up with rainwater runoff following heavy downpours. (Photo: Andrew J. Skerritt)](https://loe.org/content/2026-02-06/SHILOH_highway.jpg)
 
-\[SFX water sloshing]
+{% cue text="SFX water sloshing" %}
 
 WILLIAMS M: I mean, that didn't really too much help, but we did everything that we could to get the water. And it just kept happening over and over again every time that it would rain. It was crazy. After the first flooding situation, and after we had to, you know, get, use the towels to clean the water, what did you do for us to take action?
 
@@ -64,11 +64,11 @@ WILLIAMS T: The backlash came from the state of Alabama, you know, because now h
 
 WILLIAMS M: How would you describe the frustration when you would ask for help, and these people, they wouldn't help you, especially with the lawyer, thinking that you're going to get help with your lawyer, and there's no help.
 
-\[MUSIC: TAOUDELLA, AZALAI, BLUEDOTSESSIONS]
+{% cue text="MUSIC: TAOUDELLA, AZALAI, BLUEDOTSESSIONS" %}
 
 WILLIAM T: It was sad, because here it is. You thinking, people will have your best interest. Because first lawyer I talked with, he says, we cannot help you, because there's a conflict of interest, because they represent the state of Alabama, we were misled. It was bigger than us, and they want our property, and they want us out of here, and they don't want us to talk. So it was a frustrating situation.
 
-\[MUSIC: TAOUDELLA, AZALAI, BLUEDOTSESSIONS]
+{% cue text="MUSIC: TAOUDELLA, AZALAI, BLUEDOTSESSIONS" %}
 
 WILLIAMS M: Well, how did your life or your perspective changed when you were able to get in contact with Dr. Bullard?
 
@@ -76,7 +76,7 @@ WILLIAMS M: Well, how did your life or your perspective changed when you were ab
 
 WILLIAMS T: It changed dramatically, because it was five years and four months we were dealing with this situation. And so here it is, when FHWA came, they saw the situation, but then they told people, Hey, y'all got to stay quiet. You can't get other folks involved. You can't go back on the media. I was told Dr. Bullard the father of environmental justice. And I asked a question to a lot of people that was telling us, you need to get in touch with your cousin. You need to call Dr. Bullard. That man is all over the world. He's a father of environmental justice. How is that gonna be? I'll never forget one day I left from the restaurant. It was on my birthday, on June the first, and I'll never forget this. On my way back from up Alabama, the Lord spoke to me and said, go by Dr. Bullard's brother's house. And so I obey God. And I went by there, and I knocked on the door. Then here come Leon, his brother. He said, What you doing here? You supposed to be at that restaurant, right? I said, Yeah. I said, but I had to stop by here. I got to get in touch with Dr. Bullard. And I said, let's call your brother. Do all of that. He didn't pick up the phone. I said, I tell you what. Let's text this video to him and let him see this video. Between one and two o'clock that afternoon, we get some phone call from Dr Bullard, and the first thing he says is, this is horrific. And he says, I tell you what, so I need you to gather the people together. And it was less than 24 hours. We're in a zoom call with Dr. Bullard, and he assured us. He said, if I cannot fight for my community and for my city and for my family, I don't need the name father of environmental justice, he said because I'm fighting everywhere else and I can't come back home? He says, I want to assure y'all that I'm gonna be with you and I'm gonna help you, and we're gonna get victory on this situation. And that's when he came and it changed the whole dynamic of everything.
 
-\[MUSIC: STUFFLED MONSTER, BLUEDOT]
+{% cue text="MUSIC: STUFFLED MONSTER, BLUEDOT" %}
 
 WILLIAMS M: I can remember when Dr. Bullard told us that we're going to Washington, DC, and he said that we're going to go to US DLT to share our stories about this situation that's going on in Shiloh. What was your experience when you were in the room?
 
@@ -84,7 +84,7 @@ WILLIAMS M: I can remember when Dr. Bullard told us that we're going to Washingt
 
 WILLIAMS T: Never been to DC, sitting at tables that we never would have known of. And the first thing was like people saying, we don't want no false hope and everything.
 
-\[music]
+{% cue text="music" %}
 
 WILLIAMS T: 2018 I was fired from my job at the school, and then didn't have no work. And so that's when Destiny came about, and that first year is when the construction ended, even though we were fighting that I took my kids and I began to put them into, allowed them to work with the cleaning business, to alleviate a lot of the frustration, a lot of the things that we were going because if we dwelled on what we were going through, people would lose their mind, go crazy, the kids would be so frustrated they couldn't even function.
 
@@ -108,7 +108,7 @@ WILLIAMS T: It was a prayer answered, because now you see that that trip DC, it 
 
 BUTTIGIEG: I don't claim to have a magic wand on me, but I got a lot of tools because, as both Reverend and Dr. Bullard said, one thing I'm sure of is that nobody in this community is responsible for what you all are going through, and nobody should have to live with what you all are going through right now.
 
-\[music]
+{% cue text="music" %}
 
 WILLIAMS T: You know, going to DC was not in vain. Somebody heard us, you know I'm saying, and that means a lot. It changed the whole dynamic.
 

@@ -11,7 +11,7 @@ summary: Common Yellowthroats, one of the most abundant warblers in North Americ
 
 ## Transcript
 
-\[BIRDNOTE THEME]
+{% cue text="BIRDNOTE THEME" %}
 
 DOERING: One of the birds that occasionally brightens Daisy’s front yard could easily be the common yellowthroat warbler, chirping and whistling as it darts and dives to find its meals of insects and spiders. Here’s BirdNote®’s Ariana Remmel.
 
@@ -20,30 +20,30 @@ Common Yellowthroat
 Written by Conor Gearin  
 This is BirdNote.
 
-\[Common Yellowthroat song]
+{% cue text="Common Yellowthroat song" %}
 
 Flitting from stem to stem, a yellow bird in a tiny black bandit mask sings with a voice many times his size.
 
-\[Common Yellowthroat song]
+{% cue text="Common Yellowthroat song" %}
 
 Common Yellowthroats are one of the most abundant warblers in North America. They’re adaptable birds, thriving in places that pickier warblers pass over. So it’s easy to find yellowthroats in urban areas. Check for them in marshes, overgrown fields, and brushy areas along streams or trails.
 
-\[Common Yellowthroat song]
+{% cue text="Common Yellowthroat song" %}
 
 Many people remember the yellowthroat’s song pattern with the phrase “witchety-witchety-witchety!” During the breeding season, males may repeat the song an earworm-inducing 300 times an hour.
 
-\[Common Yellowthroat song]
+{% cue text="Common Yellowthroat song" %}
 
 Only adult males have those bandit masks. But females and young males have light brown backs and those signature bright yellow throats, which helps distinguish them from similar-looking warblers.
 
-\[Common Yellowthroat call]
+{% cue text="Common Yellowthroat call" %}
 
 To get a good look, you might have to look down rather than up. Yellowthroats spend most of their time among low-growing plants and shrub branches. There, they feast on insects and spiders on leaves and bark, or grab a snack from a fruit bush.  
 Common Yellowthroats are warblers that are skillful at living alongside people — making them a great introduction to the songs and bright colors of the warbler family.
 
 [YouTube video player](https://www.youtube.com/embed/SXBazcTZ-OE?si=WGLmoMzcesamO2tR)
 
-\[Common Yellowthroat song]
+{% cue text="Common Yellowthroat song" %}
 
 I’m Ariana Remmel.  
 \###  

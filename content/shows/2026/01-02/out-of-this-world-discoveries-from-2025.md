@@ -29,7 +29,7 @@ DOERING: What? You mean, like lightning on Mars?
 
 O'NEILL: Well, okay, so pop science has been calling them "mini lightning strikes," but the research article itself uses the technical term, "triboelectric discharges," which I had to look up, but it's the kind of electric activity that's generated from friction. And if you listen to the sounds that the perseverance rover recorded, to me, it definitely sounds closer to a static shock. I'll play it for you. It's pretty subtle, so you should listen close.
 
-\[SFX triboelectric discharges]
+{% cue text="SFX triboelectric discharges" %}
 
 DOERING: Oh yeah, actually, it's taking me back to being at the science museum as a kid, and you know those metal spheres that you could put your hand on and it would make your hair stand on end?
 

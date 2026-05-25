@@ -1,87 +1,68 @@
-import sys
+"""
+Resolve `### [Title]({filename}slug.md)` segment links in show pages into
+rich segment cards (rendered via modules/show-segment.html). Also attach a
+`related_segments` list to the show article so templates can iterate it.
+
+Match strategy: the `{filename}path/to/segment.md` form is authoritative —
+each show.md lists segments by their on-disk path. We previously also fell
+back to slug-substring matching, but that mis-linked when two different
+segments shared a slug (e.g. `tropical-forests-forever` across years).
+Removed.
+"""
+
 from pelican import signals
 from bs4 import BeautifulSoup
 
+
+def _resolve_segment(href, articles):
+    """Match an href like `{filename}slug.md` against article.source_path."""
+    if '{filename}' not in href:
+        return None
+    needle = href.replace('{filename}', '').lstrip('/')
+    for art in articles:
+        if art.source_path and art.source_path.endswith(needle):
+            return art
+    return None
+
+
+def _segment_data(article):
+    md = article.metadata
+    return {
+        'title': article.title,
+        'href': article.url,
+        'banner_url': md.get('banner_url') or md.get('image_url', ''),
+        'megaphone_id': md.get('megaphone_id', ''),
+        'summary': md.get('summary', ''),
+        'length': str(md.get('length', '')) if md.get('length') else '',
+    }
+
+
 def process_show_segments(generator):
-    # sys.stderr.write("DEBUG: process_show_segments called\n")
+    template = generator.env.get_template('modules/show-segment.html')
+
     for article in generator.articles:
         if article.metadata.get('template') != 'show':
             continue
-        
-        # sys.stderr.write(f"DEBUG: Processing show article: {article.title}\n")
+
         soup = BeautifulSoup(article._content, 'html.parser')
-        
-        found_segments = []
-        
-        headers = soup.find_all('h3')
-        for header in headers:
+        found = []
+
+        for header in soup.find_all('h3'):
             link = header.find('a')
             if not link:
                 continue
-                
-            href = link.get('href')
-            # sys.stderr.write(f"DEBUG: Checking link href: {href}\n")
-            
-            target_article = None
-            for art in generator.articles:
-                # Handle {filename} syntax
-                if '{filename}' in href:
-                    clean_path = href.replace('{filename}', '')
-                    # Normalize paths for comparison (remove leading slashes if any)
-                    clean_path = clean_path.lstrip('/')
-                    # art.source_path is absolute usually, or relative to content?
-                    # Pelican articles have .source_path attribute
-                    if art.source_path and art.source_path.endswith(clean_path):
-                        target_article = art
-                        break
-                
-                # Fallback to URL matching (if resolved)
-                elif href == art.url or href == '/' + art.url or href.endswith(art.url):
-                    target_article = art
-                    break
-                
-                # Fallback to slug match
-                elif art.slug and art.slug in href:
-                    target_article = art
-                    break
-            
-            if target_article:
-                # sys.stderr.write(f"DEBUG: Found target: {target_article.title}\n")
-                found_segments.append(target_article)
-                
-                # Prepare context for template
-                image_url = target_article.metadata.get('banner_url') or target_article.metadata.get('Image_url') or target_article.metadata.get('image_url') or ''
-                image_url = image_url.strip('"')
 
-                megaphone_id = target_article.metadata.get('megaphone_id') or target_article.metadata.get('Megaphone_id') or ''
-                megaphone_id = megaphone_id.strip('"')
+            target = _resolve_segment(link.get('href', ''), generator.articles)
+            if not target:
+                continue
 
-                summary_text = target_article.metadata.get('summary', '') or target_article.metadata.get('Summary', '')
-                length_text = target_article.metadata.get('length', '') or target_article.metadata.get('Length', '')
-                if length_text:
-                    length_text = str(length_text)
+            found.append(target)
+            rendered = template.render(segment=_segment_data(target))
+            header.replace_with(BeautifulSoup(rendered, 'html.parser'))
 
-                segment_data = {
-                    'title': target_article.title,
-                    'href': target_article.url,
-                    'banner_url': image_url,
-                    'megaphone_id': megaphone_id,
-                    'summary': summary_text,
-                    'length': length_text
-                }
-
-                # Render template
-                template = generator.env.get_template('modules/show-segment.html')
-                rendered_html = template.render(segment=segment_data)
-                
-                # Parse back to soup tag
-                new_tag = BeautifulSoup(rendered_html, 'html.parser')
-                
-                # Replace the header
-                header.replace_with(new_tag)
-        
-        article.related_segments = found_segments
+        article.related_segments = found
         article._content = soup.decode_contents()
+
 
 def register():
     signals.article_generator_finalized.connect(process_show_segments)

@@ -21,7 +21,7 @@ CURWOOD: And Rachel Ignotofsky wrote about some of these trailblazing women in h
 
 IGNOTOFSKY: Well, for me, I have a lot of friends in education, and we were talking a lot about the gender gap in the STEM fields. Why is math and science still considered such a boys’ game? And I just kept saying over and over again, we maybe only talk about female scientists during women's history month. We're not taught about them in school. We're not taught about them in history class, and the only one that we do talk about is Marie Curie. So, what happens to young girls and boys when, you know, you're not introduced to these strong female role models, who all throughout history have made an immense impact on the sciences? I just kept talking about it and talking about it, and after a while, if you say something enough and you don't do something, you're just a schmuck.
 
-\[CURWOOD LAUGHS]
+{% cue text="CURWOOD LAUGHS" %}
 
 IGNOTOFSKY: So, yeah, I started using my own skill set to try and be a part of the conversation a positive way. So I started making these posters that really celebrated some women in science that I thought were great and really talk about their accomplishments and hopefully get more people interested in talking about them.
 

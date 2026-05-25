@@ -48,7 +48,7 @@ function hastToMarkdown(node: Element | Root): string {
         .use(remarkStringify, { bullet: '-', emphasis: '*', strong: '*', fences: true });
     const mdast = proc.runSync(node as never);
     const raw = proc.stringify(mdast as never).toString();
-    return rewriteAudioCuesToShortcodes(fixHardBreaks(unescapeSafe(raw)));
+    return rewriteAudioCuesToShortcodes(splitInlineBracketCues(fixHardBreaks(unescapeSafe(raw))));
 }
 
 /**
@@ -94,14 +94,50 @@ function resolveAudioUrl(url: string): string | null {
 }
 
 /**
- * Convert standalone bracketed audio cues into {% audio %} shortcodes the
- * Pelican plugin understands. Only touches paragraphs that consist entirely
- * of `[...]` AND whose URLs all resolve to audio. Inline references mid-
- * sentence are left as plain text. Bracketed text without a resolvable audio
- * URL is also left alone (citations, asides, etc.).
+ * Some sources (BirdNote in particular) place multiple audio cues inside one
+ * <p> separated by <br> instead of using separate paragraphs:
  *
- * Multi-cue paragraphs (separated by `;`) become a sequence of shortcodes,
- * each its own block.
+ *   This is BirdNote.<br>[Elf Owl song]<br>As twilight deepens...
+ *
+ * After hard-break normalization those become lines within a single markdown
+ * paragraph. Split the paragraph so any line that's purely `[...]` becomes its
+ * own paragraph — then rewriteAudioCuesToShortcodes picks it up like any other
+ * standalone cue.
+ */
+function splitInlineBracketCues(md: string): string {
+    return md
+        .split(/\n\n+/)
+        .map((para) => {
+            const lines = para.split(/\n/);
+            if (lines.length < 2) return para;
+            const result: string[] = [];
+            let buffer: string[] = [];
+            for (const line of lines) {
+                const trimmed = line.replace(/\s+$/, '');
+                if (/^\\?\[[^\]]+\]$/.test(trimmed)) {
+                    if (buffer.length) result.push(buffer.join('\n'));
+                    result.push(trimmed);
+                    buffer = [];
+                } else {
+                    buffer.push(line);
+                }
+            }
+            if (buffer.length) result.push(buffer.join('\n'));
+            return result.join('\n\n');
+        })
+        .join('\n\n');
+}
+
+/**
+ * Convert every standalone bracketed paragraph into a shortcode:
+ *
+ *   [Northern Cardinal, http://...mp3, 0.06-.10]  →  {% audio ... %}
+ *   [CROWD CHEERS]                                →  {% cue text="..." %}
+ *   [CUTAWAY MUSIC: Jerry Goldsmith, ...]         →  {% cue text="..." %}
+ *
+ * Audio cues (one URL per `;`-separated segment) become one `{% audio %}` each.
+ * Audio cues with mixed audio/non-audio URLs degrade to a single `{% cue %}`
+ * (rare). Inline `[...]` references mid-paragraph are left as plain text.
  */
 function rewriteAudioCuesToShortcodes(md: string): string {
     return md
@@ -109,28 +145,40 @@ function rewriteAudioCuesToShortcodes(md: string): string {
         .map((para) => {
             const m = para.trim().match(/^\\?\[([\s\S]+)\]$/);
             if (!m) return para;
-            const inner = m[1];
+            const inner = m[1].trim();
 
+            // Audio path: every `;`-separated segment must contain a resolvable
+            // audio URL. If any segment fails, fall back to a single {% cue %}.
             const segments = inner.split(/;\s*/);
-            const shortcodes: string[] = [];
+            const audioParts: string[] = [];
+            let allAudio = true;
             for (const seg of segments) {
                 const urlMatch = seg.match(URL_RE);
-                if (!urlMatch) return para;
-                const src = resolveAudioUrl(urlMatch[0]);
-                if (!src) return para; // bail: not audio, leave the paragraph alone
+                const src = urlMatch ? resolveAudioUrl(urlMatch[0]) : null;
+                if (!urlMatch || !src) {
+                    allAudio = false;
+                    break;
+                }
                 const idx = seg.indexOf(urlMatch[0]);
                 const before = seg.slice(0, idx);
                 const after = seg.slice(idx + urlMatch[0].length);
                 const label = before.replace(/[,;\s]+$/, '').trim();
                 const duration = after.replace(/^[,;\s]+|[.\s\]]+$/g, '').trim();
                 const parts = [`src="${src}"`];
-                if (label) parts.push(`label="${label.replace(/"/g, '')}"`);
-                if (duration) parts.push(`duration="${duration.replace(/"/g, '')}"`);
-                shortcodes.push(`{% audio ${parts.join(' ')} %}`);
+                if (label) parts.push(`label="${quoteAttr(label)}"`);
+                if (duration) parts.push(`duration="${quoteAttr(duration)}"`);
+                audioParts.push(`{% audio ${parts.join(' ')} %}`);
             }
-            return shortcodes.join('\n\n');
+            if (allAudio && audioParts.length) return audioParts.join('\n\n');
+
+            // Non-audio cue path: stage direction, attribution, etc.
+            return `{% cue text="${quoteAttr(inner)}" %}`;
         })
         .join('\n\n');
+}
+
+function quoteAttr(s: string): string {
+    return s.replace(/"/g, '&quot;');
 }
 
 /**

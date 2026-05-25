@@ -67,11 +67,11 @@ CURWOOD: My guest is Isabel Hilton, veteran journalist and BBC presenter, and fo
 
 ![Wind farm in Guangling County, Shanxi. (Wikimedia Commons, CC BY SA 4.0)](https://loe.org/content/2026-02-13/CHINA_windfarmshanxi.jpg)
 
-\[MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
+{% cue text="MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc." %}
 
 ANNOUNCER: Support for Living on Earth comes from the estate of Rosamund Stone Zander - celebrated painter, environmentalist, and author of The Art of Possibility – who inspired others to see the profound interconnectedness of all living things, and to act with courage and creativity on behalf of our planet. Support also comes from Sailors for the Sea and Oceana. Helping boaters race clean, sail green and protect the seas they love. More information @sailorsforthesea.org.
 
-\[CUTAWAY MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
+{% cue text="CUTAWAY MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc." %}
 
 DOERING: It’s Living on Earth, I’m Jenni Doering.
 

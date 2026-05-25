@@ -15,13 +15,13 @@ DOERING: It’s Living on Earth, I’m Jenni Doering
 
 O’NEILL: And I’m Aynsley O’Neill.
 
-\[LAUNCH SFX]
+{% cue text="LAUNCH SFX" %}
 
-\[ROCKET HISSING SOUND]
+{% cue text="ROCKET HISSING SOUND" %}
 
 And here we go – 10, 9, 8, 7, RS 25 engines lift – 4, 3, 2, 1… booster ignition – and LIFTOFF! The crew of Artemis II now bound for the moon. Humanity’s next great voyage begins.
 
-\[ROCKET SOUND]
+{% cue text="ROCKET SOUND" %}
 
 O’NEILL: The astronauts of the Artemis II mission are now flying to and from the moon for the first time since Apollo 17 in 1972. It’s a ten-day mission and its role is to test the Orion spacecraft’s system. There are four astronauts in the crew including the first person of color, as well as the first woman and first Canadian to travel to the moon! The previous mission, Artemis I, was an uncrewed flight in 2022, during which an earlier Orion module orbited the moon for nearly a week, collecting crucial data to help prepare for this recent launch. But Artemis II has had several years of delays, with some of the most major issues involving engineering investigations into the Orion spacecraft support systems, heat shields, and even fuel leaks. John Daniel “Danny” Olivas is an American engineer and a former NASA astronaut. Olivas has flown on two space shuttle missions, and to kick off our conversation, I asked him about the Artemis delays and what needs to happen to actually get a space mission off the ground.
 
@@ -73,7 +73,7 @@ OLIVAS: So I mean, I’m Mexican American and I would be lying if I told you tha
 
 ![Danny Olivas is an American engineer and former NASA astronaut. He’s flown on two space station missions, STS-117 and STS-128. (Photo: NASA, Public Domain)](https://loe.org/content/2026-04-03/NASA_olivas.jpg)
 
-\[MUSIC: Fred Steiner, Royal Philharmonic Orchestra, “Main Title And Closing Theme” on Star Trek, Vol. 1 (Original Television Scores) Varese Sarabande Records]
+{% cue text="MUSIC: Fred Steiner, Royal Philharmonic Orchestra, “Main Title And Closing Theme” on Star Trek, Vol. 1 (Original Television Scores) Varese Sarabande Records" %}
 
 O’NEILL: We’re speaking with Danny Olivas, engineer and former NASA astronaut. We’ll be right back with more after the break, including the all-hands-on-deck approach to solving problems in space.
 
@@ -83,7 +83,7 @@ O’NEILL: Stay tuned to Living on Earth!
 
 ANNOUNCER: Support for Living on Earth comes from the estate of Rosamund Stone Zander - celebrated painter, environmentalist, and author of The Art of Possibility – who inspired others to see the profound interconnectedness of all living things, and to act with courage and creativity on behalf of our planet. Support also comes from Sailors for the Sea and Oceana. Helping boaters race clean, sail green and protect the seas they love. More information @sailorsforthesea.org.
 
-\[CUTAWAY MUSIC: Jerry Goldsmith, “Overture” on Star Trek: The Motion Picture – The Director’s Edition (Music from the Motion Picture) Paramount Music]
+{% cue text="CUTAWAY MUSIC: Jerry Goldsmith, “Overture” on Star Trek: The Motion Picture – The Director’s Edition (Music from the Motion Picture) Paramount Music" %}
 
 DOERING: It’s Living on Earth, I’m Jenni Doering.
 

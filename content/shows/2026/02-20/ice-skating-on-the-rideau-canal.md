@@ -13,21 +13,21 @@ summary: The warmer winters of climate disruption are bringing shorter and short
 
 DOERING: One of the many casualties of climate disruption and weird winter weather is the Rideau Canal in downtown Ottawa, Canada, which can no longer count on becoming a skateway every winter. But this year the January cold blasting out of the Arctic had people gliding on the canal for 41 straight days, so today we reprise a 2013 piece when veteran broadcaster Bob Carty hit the ice.
 
-\[TRAFFIC COMMUTE]
+{% cue text="TRAFFIC COMMUTE" %}
 
-\[RADIO ANNOUNCER: “CURRENTLY IN OTTAWA IT’S AROUND 16 DEGREES...]
+{% cue text="RADIO ANNOUNCER: “CURRENTLY IN OTTAWA IT’S AROUND 16 DEGREES..." %}
 
 CARTY: Rush hour in Ottawa on a cold March morning. So cold you have to scrape the frost off the inside of the car windows. So cold your tires have frozen flat on the bottom, and until they warm up you get a bumpy ride, what Canadians call having square tires. And then there's the slippery streets, the snowbanks, and the slush.
 
-\[RADIO ANNOUNCER: “...AND ANOTHER ACCIDENT. WE’RE UP TO 6 NOW\...”]
+{% cue text="RADIO ANNOUNCER: “...AND ANOTHER ACCIDENT. WE’RE UP TO 6 NOW\...”" %}
 
 CARTY: In Ottawa, where winter is a five-month affair, there is at least an alternative to the morning madness of rush hour. Instead of the expressway, you can take the skateway.
 
-\[PHONE RINGS]
+{% cue text="PHONE RINGS" %}
 
-\[RECORDED VOICE: “RIDEAU CANAL CONDITIONS AT 8:30 A.M. THE ICE SURFACE CONDITIONS ARE GOOD FROM THE NATIONAL ARTS CENTER TO PATTERSON CREEK...”]
+{% cue text="RECORDED VOICE: “RIDEAU CANAL CONDITIONS AT 8:30 A.M. THE ICE SURFACE CONDITIONS ARE GOOD FROM THE NATIONAL ARTS CENTER TO PATTERSON CREEK...”" %}
 
-\[SKATES ON ICE]
+{% cue text="SKATES ON ICE" %}
 
 MAN 1: Early in the morning, when the sun comes up, and there's hardly anybody on the canal and you can just hear your skates, it's about the only thing you can hear. It's wonderful.
 
@@ -57,15 +57,15 @@ WOMAN 6: As you can see, I got on a really ugly hat that keeps me warm. And you 
 
 WOMAN 7: You need to have Kleenex in your pocket for two reasons. One, you need to be able to blow your nose, because it gets cold and then you go into the warmth. The second reason is to wipe off your skate blades when you're finished.
 
-\[CHILDREN TALKING, SKATING]
+{% cue text="CHILDREN TALKING, SKATING" %}
 
 CARTY: After the morning rush hour, the skateway is taken over by others - children and their teachers on a school outing, pairs of mothers, on skates, pushing strollers, reckless teenagers bobbing in between tentative tourists who are trying not to break any bones.
 
-\[SKATES SWOOSHING]
+{% cue text="SKATES SWOOSHING" %}
 
 WOMAN 8: The amazing thing is, on a beautiful Saturday or Sunday, to see thousands and thousands of people on this canal walking, pushing their kids in these little sleighs. And you see people who are new to Canada, who are valiantly trying to skate and kind of staggering along, and it's great.
 
-\[SKATING ON ICE]
+{% cue text="SKATING ON ICE" %}
 
 ![Ottawa skaters (photo: bigstockphoto.com)](https://loe.org/content/2013-03-29/bigstock-Rideau-Canal-3896864.jpg)
 
@@ -79,11 +79,11 @@ CARTY: Yes, you heard it right. He ordered a beaver tail. What exactly is a beav
 
 CUSTOMER 2: It's really a flat, long, dough-like pastry thing, and this one has garlic butter and cheese on it, so it's almost like a mini-pizza. But you can get just plain cinnamon and sugar, and even if you want some jams on top, you can do that, too.
 
-\[SKATES ON ICE]
+{% cue text="SKATES ON ICE" %}
 
 CARTY: Recharged and refreshed, the final mile home is like skating downhill. The wind is gone. The stars are coming out. Skateway commuters can give you sound ecological arguments for doing this: it saves fossil fuels, it reduces pollution, it lessens the risk of climate change. But frankly, the real reason is that it just feels good. As one 7-year-old put it, you don't have to go around in circles. It's fun to skate straight. For Living on Earth, I'm Bob Carty, skating straight on the Rideau Canal in Ottawa, Canada.
 
-\[MUSIC: Paul Winter “Wolf Eyes” from Common ground (A\&M Records 1977)]
+{% cue text="MUSIC: Paul Winter “Wolf Eyes” from Common ground (A\&M Records 1977)" %}
 
 DOERING: We first aired this piece back in 2013. The following year Bob Carty passed away after an award-winning career with the Canadian Broadcasting Corporation and he also produced many fine stories for Living on Earth. We miss him and his great gifts in audio and reporting.
 

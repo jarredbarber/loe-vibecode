@@ -37,7 +37,32 @@ def _parse_args(s):
     return args
 
 
-# ----- audio --------------------------------------------------------------
+# ----- cards --------------------------------------------------------------
+
+_SPEAKER_RE = re.compile(r'^\s*([A-Z][A-Z\s]+):')
+
+
+def _cue_card(inner_html):
+    return (
+        '<div class="music-cue">'
+        '<div class="music-cue-item">'
+        f'{inner_html}'
+        '</div>'
+        '</div>'
+    )
+
+
+def _meta_html(label, duration):
+    if not (label or duration):
+        return ''
+    bits = ['<div class="music-cue-meta">']
+    if label:
+        bits.append(f'<div class="music-cue-label">{label}</div>')
+    if duration:
+        bits.append(f'<div class="music-cue-duration">{duration}</div>')
+    bits.append('</div>')
+    return ''.join(bits)
+
 
 def render_audio(args):
     src = args.get('src', '').strip()
@@ -45,18 +70,7 @@ def render_audio(args):
         return ''
     label = args.get('label', '').strip()
     duration = (args.get('duration') or args.get('time') or '').strip()
-
-    meta_html = ''
-    if label or duration:
-        bits = ['<div class="music-cue-meta">']
-        if label:
-            bits.append(f'<div class="music-cue-label">{label}</div>')
-        if duration:
-            bits.append(f'<div class="music-cue-duration">{duration}</div>')
-        bits.append('</div>')
-        meta_html = ''.join(bits)
-
-    player_html = (
+    player = (
         '<div class="mcp">'
         '<button class="mcp-play" type="button" aria-label="Play">▶</button>'
         '<div class="mcp-progress"><div class="mcp-fill"></div></div>'
@@ -64,18 +78,30 @@ def render_audio(args):
         f'<audio class="mcp-audio" preload="none" src="{src}"></audio>'
         '</div>'
     )
+    return _cue_card(_meta_html(label, duration) + player)
 
-    return (
-        '<div class="music-cue">'
-        '<div class="music-cue-item">'
-        f'{meta_html}{player_html}'
-        '</div>'
-        '</div>'
-    )
+
+def render_cue(args):
+    """Non-audio cue: stage directions, music attributions, ambient SFX.
+    Examples: {% cue text="BIRDNOTE THEME" %}, {% cue text="CROWD CHEERS" %}.
+    If the text starts with an ALL-CAPS speaker label (e.g. 'CUTAWAY MUSIC:'),
+    the label is styled like a transcript speaker."""
+    text = args.get('text', '').strip()
+    if not text:
+        return ''
+    m = _SPEAKER_RE.match(text)
+    if m:
+        label = m.group(1)
+        rest = text[m.end():]
+        body = f'<p><span class="speaker">{label}:</span>{rest}</p>'
+    else:
+        body = f'<p>{text}</p>'
+    return _cue_card(body)
 
 
 TAG_HANDLERS = {
     'audio': render_audio,
+    'cue': render_cue,
 }
 
 

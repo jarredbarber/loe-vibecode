@@ -50,6 +50,8 @@ collections:
     identifier_field: title
     path: '{{year}}/{{month}}-{{day}}/show'
     filter: { field: category, value: Shows }
+    summary: '{{date}} — {{title}}'
+    sortable_fields: [date, title]
     extension: md
     format: yaml-frontmatter
     fields:
@@ -69,12 +71,13 @@ collections:
     folder: content/shows
     create: true
     identifier_field: title
-    # Sveltia doesn't support Decap's `nested` option yet; the recursive
-    # subfolder scan happens via this path template instead.
+    # Sveltia doesn't support Decap's `nested` option yet; recursion happens
+    # via the {{slug}} placeholder in the path template (becomes [^/]+? in
+    # the file matcher regex). See sveltia-cms/src/.../file/config.js.
     path: '{{year}}/{{month}}-{{day}}/{{slug}}'
-    # TEMP: filter removed to diagnose whether files are being scanned
-    # at all. Re-add `filter: { field: category, value: Segments }`
-    # after confirming entries appear.
+    filter: { field: category, value: Segments }
+    summary: '{{date}} — {{title}}'
+    sortable_fields: [date, title]
     extension: md
     format: yaml-frontmatter
     fields:

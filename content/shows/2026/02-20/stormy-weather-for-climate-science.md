@@ -33,9 +33,7 @@ SEALLS: So I think the duties that NCAR has could be moved around, and still, th
 
 CURWOOD: So you are president of the American Meteorological Society, and you had an annual meeting at the end of January. So what's the overall mood, the sentiment within your colleagues regarding these proposed changes to the National Center for Atmospheric Research?
 
-![](https://loe.org/content/2026-02-20/NCAR_plane.jpg)
-
-NCAR’s two research aircraft are among the world’s most advanced tools for gathering atmospheric data. Sealls worries that private industry may take over these capabilities, resulting in a less equitable spread of data for all. (Photo: National Science Foundation, Wikimedia Commons, Public Domain)
+![NCAR’s two research aircraft are among the world’s most advanced tools for gathering atmospheric data. Sealls worries that private industry may take over these capabilities, resulting in a less equitable spread of data for all. (Photo: National Science Foundation, Wikimedia Commons, Public Domain)](https://loe.org/content/2026-02-20/NCAR_plane.jpg)
 
 SEALLS: It was a mixed feeling. We actually had a town hall session specific to what was going on at NCAR, and it was a packed house, hundreds of people, and almost all those people in one form or another, had either worked with NCAR, at NCAR, or received the benefit of NCAR. And as you would imagine, people were, they weren't surprised, but no one was happy about what was going on. And it was really more questions about, how do we go forward, rather than people saying, oh, we need to hold on to what was. Because it's pretty obvious right now that NCAR will not be allowed to be what it was. So within the American Meteorological Society, we are trying to get all of our members to give us input, so that we can give input to the National Science Foundation. But a large part of our membership is private industry. So for example, NCAR maintains two research aircraft. It doesn't specify, what should we do with this aircraft or these aircraft, but the letter does say, what do you think we can do to replace that capability? Private industry could say, hey, we've got aircraft. We can do this research. Some of that I find a little bit odd, because private industry is all about competition with other businesses, whereas NCAR is about collaboration and sharing on on an equal level. And that is one of the strengths of a government funded agency, is that everybody benefits equally.
 
@@ -43,9 +41,7 @@ CURWOOD: This isn't the first pushback by the federal government against climate
 
 SEALLS: So in weather technology, there is always research where we say, here's the latest, greatest tool that we need to replace our current tools. And that requires funding, government funding. It requires research. And the latest round of satellite technology, there are some sensors that could go on the satellite that right now, the government is not funding for them to go there. It's available. The hardware is there. The technology is there. But the government is saying, well, we don't think that part is important. Sometimes, because that part happens to be associated with climate which right now is associated with something negative, but that's really short-sighted.
 
-![](https://loe.org/content/2026-02-20/NCAR_storm.jpg)
-
-Sealls emphasizes the importance of weather satellites for forecasting and tracking storms, adding that sustained government funding is required to update and maintain this technology. (Photo: NASA/Goddard Space Flight Center, Wikimedia Commons, CC BY 2.0)
+![Sealls emphasizes the importance of weather satellites for forecasting and tracking storms, adding that sustained government funding is required to update and maintain this technology. (Photo: NASA/Goddard Space Flight Center, Wikimedia Commons, CC BY 2.0)](https://loe.org/content/2026-02-20/NCAR_storm.jpg)
 
 CURWOOD: So what are the risks that we face when it comes to weather forecasting and disaster preparedness without a fully functioning NCAR?
 

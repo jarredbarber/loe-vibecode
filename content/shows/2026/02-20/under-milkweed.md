@@ -23,9 +23,7 @@ LENDER: When milkweed is in bloom I love to be in the middle. “Weed” must ha
 
 Last year and the year before and for a number of years before that by the time the monarchs arrived milkweed had gone to seed. This year the same, all the monarchs too late. Except one. One monarch butterfly who came to the right place, for milkweed, in flower, just in time.
 
-![](https://loe.org/content/2026-02-20/MSL_resting.JPG)
-
-A male monarch butterfly at rest. (Photo: © Mark Seth Lender)
+![A male monarch butterfly at rest. (Photo: © Mark Seth Lender)](https://loe.org/content/2026-02-20/MSL_resting.JPG)
 
 Spring is around the corner now. Nothing is certain. Maybe that one monarch will tell her friends. Maybe, I’ll just… help her out. Under milkweed, as milkweed blooms, at the top of my lungs “Heh! Monarch Butterflies! Over heeeere!”
 

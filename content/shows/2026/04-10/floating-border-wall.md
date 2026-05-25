@@ -27,9 +27,7 @@ BELTRAN: And can you describe what these buoys look like? You know, how might th
 
 PSKOWSKI: The buoys are these huge orange cylinders, so they're each about 12 to 15 feet long, and then about four to five feet in diameter, and they link together in a continuous chain. So it's supposed to create this barrier across the river that doesn't have any breaks in it. So if someone were trying to swim across the river to the Texas side, they would be stopped by this buoy, and they're designed to roll if someone tries to climb up on it. But part of what Customs and Border Patrol has said about these buoys is that it will buy them time, so they will be able to detect if someone's trying to get across and send agents out.
 
-![](https://loe.org/content/2026-04-10/BORDER_humveeparked.jpg)
-
-A Humvee is parked by a section of the Rio Grande in Texas where Custom and Border Protection plans to install buoys. (Photo: Martha Pskowski, Inside Climate News)
+![A Humvee is parked by a section of the Rio Grande in Texas where Custom and Border Protection plans to install buoys. (Photo: Martha Pskowski, Inside Climate News)](https://loe.org/content/2026-04-10/BORDER_humveeparked.jpg)
 
 BELTRAN: And Martha, you talked to people who are raising concerns over how these buoys might impact the Rio Grande. What are some of those concerns?
 
@@ -39,9 +37,7 @@ BELTRAN: And this is not the first time buoys have been installed as a border se
 
 PSKOWSKI: Well, the earliest record I found of this idea goes back to the first Trump administration. There was a proposal to place buoys in the river. It wasn't implemented during that administration. But then a couple years later, Texas Governor Greg Abbott decided to put buoys in the Rio Grande at Eagle Pass. The buoys at Eagle Pass, it's only 2000 feet of buoys, so it's a much, much smaller area than what the federal government is doing now, but even so, it caused a lot of issues. There was a lawsuit with a kayaking guide who sued because he could no longer get kayaks in the river and operate his business. And there's also safety concerns that people could get trapped in the buoys and drown, and there was one person's body found in the buoys. It wasn't determined whether he had drowned further upstream or because he was trapped, but all those concerns came up with only 2000 feet of buoys, and now we're talking about over 500 miles.
 
-![](https://loe.org/content/2026-04-10/BORDER_cbp.jpg)
-
-Customs and Border Protection plans to install buoys in the Rio Grande in Zapata County, Texas, where border fencing is also present on the banks of the river. (Photo: Martha Pskowski, Inside Climate News)
+![Customs and Border Protection plans to install buoys in the Rio Grande in Zapata County, Texas, where border fencing is also present on the banks of the river. (Photo: Martha Pskowski, Inside Climate News)](https://loe.org/content/2026-04-10/BORDER_cbp.jpg)
 
 BELTRAN: And you wrote about Brownsville, a town in Texas that has deep connections to the Rio Grande. Can you tell us more about their connections, and how are they being impacted?
 
@@ -51,9 +47,7 @@ BELTRAN: And what about other towns in the region? How are they being impacted?
 
 PSKOWSKI: Another city on the border where there's been a really active protest movement is in Laredo, Texas. That's also on the Rio Grande, and during the first Trump administration, they were successful in opposing border wall construction. So there's still city parks that are right on the river, and people can go fishing, go boating. So a lot of people there are really adamant about keeping that aspect of the community. And you know, there's lots of just small towns along the border where, you know, we see these images of the border in the media, sometimes that makes it seem very scary or intense, but if you go down to the river, people are fishing, people are picnicking. So in a lot of ways, there's still that just draw, that the water has, that exists everywhere, and people want to preserve that.
 
-![](https://loe.org/content/2026-04-10/BORDER_brownsville.jpg)
-
-Local environmental groups in Brownsville, Texas protested the buoy project during Charro Days, a festival shared between Brownsville and its direct neighbor across the border, the Mexican city of Matamoros. (Photo: Martha Pskowski, Inside Climate News)
+![Local environmental groups in Brownsville, Texas protested the buoy project during Charro Days, a festival shared between Brownsville and its direct neighbor across the border, the Mexican city of Matamoros. (Photo: Martha Pskowski, Inside Climate News)](https://loe.org/content/2026-04-10/BORDER_brownsville.jpg)
 
 BELTRAN: Now, earlier this year, Customs and Border Protection released a map charting major construction and expansion of the border wall. The map has been updated a few times, but there's been protests from communities across the Southwest. Where does this construction stand?
 
@@ -65,9 +59,7 @@ PSKOWSKI: One source I spoke with in South Texas, she called this an experiment 
 
 BELTRAN: And you know, it seems like we're seeing more and more border projects at odds with the natural environment, and you've had a chance to talk to both conservationists and residents across the border. How do they feel about the situation so far, you know? What have they shared with you?
 
-![](https://loe.org/content/2026-04-10/BORDER_marthapskowski.jpg)
-
-Martha Pskowski covers climate change and the environment in Texas for Inside Climate News. She has also reported for The Guardian and Yale E360. (Photo: Courtesy of Martha Pskowski)
+![Martha Pskowski covers climate change and the environment in Texas for Inside Climate News. She has also reported for The Guardian and Yale E360. (Photo: Courtesy of Martha Pskowski)](https://loe.org/content/2026-04-10/BORDER_marthapskowski.jpg)
 
 PSKOWSKI: I think at this moment, people just feel frustrated that all of these projects are going forward without a lot of accountability and without very much justification from the federal government of why they're necessary. You know, there's already hundreds of miles of border wall, and we've seen the impacts on wildlife, and at this point in time, the number of people attempting to cross the border has really gone down. So just all of the impacts that these projects could have, people are questioning whether it's worth it. The big, beautiful bill last summer allocated $46.5 billion for these border wall projects. So there's really more money than they even need, and that's allowed so many of these contracts to be issued and for residents, these projects are just moving really quickly, and they're struggling to even get basic information about what's happening. So you know, as word is spreading more, there is more outcry in these different communities, but there just hasn't been a lot of transparency, and that's really frustrating for people who are impacted.
 

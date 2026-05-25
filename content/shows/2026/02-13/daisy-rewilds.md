@@ -25,9 +25,7 @@ MCNAMARA: Rewilding is a movement in conservation where land, or tracts of land,
 
 CURWOOD: You might say it's just letting the weeds grow.
 
-![](https://loe.org/content/2026-02-13/DAISY_author.jpg)
-
-Margaret McNamara has written over three dozen children’s books, including *How Many Seeds in a Pumpkin&#x20;*&#x61;nd *The Apple Orchard Riddle*. (Photo: Amy Wilton)
+![Margaret McNamara has written over three dozen children’s books, including  How Many Seeds in a Pumpkin  and  The Apple Orchard Riddle. (Photo: Amy Wilton)](https://loe.org/content/2026-02-13/DAISY_author.jpg)
 
 MCNAMARA: It's exactly letting the weeds grow, because what is a weed but a plant in the wrong place.
 
@@ -47,9 +45,7 @@ CURWOOD: So how important do you think nonconformists are to the success of, of 
 
 MCNAMARA: Well, that's an interesting question. I'm sorry that they have to be nonconformists to deal with this question. I wish they were the conformists who, just like everybody else, were concerned with the question of the environment. I think that Daisy's rebellion is pretty small. It takes place in the safety of her own backyard. Her parents know what she's doing. Her auntie Betsy is there to aid and abet. And I love that her wise parents call in the real gardener in the family. And so she's getting homeschooled. There's a page in the book where you see Daisy learning about photosynthesis to indicate that she's not missing out on her education. It is kind of a science experiment. So this is good for girls who are interested in the sciences, the STEM subjects. And by the end of the book, everybody in the neighborhood wants to conform to what Daisy's doing. So she does turn it on its head a little bit. She's not too much of a rebel.
 
-![](https://loe.org/content/2026-02-13/DAISY_gardening.jpg)
-
-Margaret McNamara gardening. She and her family live in New York City and spend summers in Maine. (Photo: Mr. Charles, Courtesy of Margaret McNamara)
+![Margaret McNamara gardening. She and her family live in New York City and spend summers in Maine. (Photo: Mr. Charles, Courtesy of Margaret McNamara)](https://loe.org/content/2026-02-13/DAISY_gardening.jpg)
 
 CURWOOD: Yeah, I mean, you have Auntie Betsy. How vital is it for adults to nurture and encourage kids who are paying attention to the environment?
 
@@ -61,9 +57,7 @@ MCNAMARA: Well, I'll admit that the young readers I show this to tend to be kids
 
 CURWOOD: And let's face it, a taste for things like lettuce. Mean, it's not exactly easy to get a kid to eat lettuce.
 
-![](https://loe.org/content/2026-02-13/DAISY_rewilding.jpg)
-
-Rewilding is a conservation practice that allows indigenous nature to grow with minimal cultivation. This photo shows the rewilding of Forty Hall, a historic manor house in the Enfield borough of London. (Photo: Christine Matthews, Wikimedia Commons, CC BY-SA 2.0)
+![Rewilding is a conservation practice that allows indigenous nature to grow with minimal cultivation. This photo shows the rewilding of Forty Hall, a historic manor house in the Enfield borough of London. (Photo: Christine Matthews, Wikimedia Commons, CC BY-SA 2.0)](https://loe.org/content/2026-02-13/DAISY_rewilding.jpg)
 
 MCNAMARA: It's not but if they grow it themselves, then it's a whole different story. Because they see it as a seed. They plant it, they water it, they watch it grow, and then, you know, hey presto, they made food. And I've seen kids who wouldn't be able to swallow a fork full of broccoli, who are entranced by the idea of growing their own food, and who will eat it, and will find the joy in that and the taste in that, and then might not eat it again at the kitchen table, but they like it because they grew it themselves.
 

@@ -23,9 +23,7 @@ KELLY WEINERSMITH: Yeah, I, totally behind that, because at the time, we were se
 
 DOERING: Yeah.
 
-![](https://loe.org/content/2026-01-02/ACOM2_outerspacetreaty.jpg)
-
-The Outer Space Treaty states that the supervising nation is legally responsible for both governmental and non-governmental activities in outer space. (Image: Drawn by Zach Weinersmith)
+![The Outer Space Treaty states that the supervising nation is legally responsible for both governmental and non-governmental activities in outer space. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM2_outerspacetreaty.jpg)
 
 KELLY WEINERSMITH: Yeah. And another part of it says that you're not allowed to claim sovereignty over anything in space. So when we landed astronauts on the moon, and they put down an American flag, that was not claiming that the moon is ours, that was just like a symbolic, uplifting act. But it sounds like Musk would like to be able to claim something as their own, or something as the ownership of whoever goes out there, like the first group of Martians. But the Outer Space Treaty also says that well, according to international law, anyone who goes to space is the responsibility of some nation, and so if SpaceX sends a bunch of people to space, they will probably be the responsibility of the United States, which means they really can't be starting their own nation in space and claiming that territory as their own.
 
@@ -39,9 +37,7 @@ KELLY WEINERSMITH: Yeah, very dry concrete, yeah. And so if you want water on th
 
 DOERING: That's a long, cold night. Two weeks.
 
-![](https://loe.org/content/2026-01-02/ACOM2_solarpanels.jpg)
-
-The light rims found on the edge of the craters on the Moon would be ideal places to put up solar panels (Image: Drawn by Zach Weinersmith)
+![The light rims found on the edge of the craters on the Moon would be ideal places to put up solar panels (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM2_solarpanels.jpg)
 
 KELLY WEINERSMITH: A really long, cold night followed by a blisteringly hot day. But if you're at the poles, the temperature swings are way less extreme. And because of the way that the moon is tilted, if you're on some of those rims, you can get sunlight almost all the time. So they're called the peaks of eternal light, and they should probably be called the like peaks of almost sort of eternal light, because you get it like 93% of the time. But that's much better. And so you can set up solar panels there and have a reliable source of power. And then you're next to these craters of eternal darkness, which is where you get the water. And so most of the proposals from NASA or the Chinese space program that talk about where they want to, like, set up research stations or land and think about staying for a while. You're looking at the poles, and this is a very small surface area of the Moon. And so we are set up for a scramble for the best parts of the Moon because the Moon kind of all looks the same, but you definitely just want to go to the poles.
 
@@ -49,9 +45,7 @@ DOERING: You know, given that some of the most powerful and wealthy people in th
 
 KELLY WEINERSMITH: We're a little nervous. I think it would maybe be an understatement. So you know, one of the problems is uncertainty. So you can't go out and say, "This is mine." But for example, if the United States or China got to the poles of the Moon, where you can find some water, if they got there first, there's nothing stopping them from setting up on what is arguably the best part of the Moon and then saying, "Okay, it's not safe to come in this area, because I'm working on some stuff. And if you land your rocket, you're going to hit me with debris, and that could be bad for my people. So nobody else is allowed in this area. And I'm not saying that it belongs to me, but I also don't plan on ever leaving." And that's sort of quasi sovereignty. It certainly feels like sovereignty. So I would love to see more clarity for international law. And you asked how optimistic I am that we're going to get that. There's reasons to be optimistic. It does seem like we're getting clarity on the resource question we talked about already. So the Artemis Accords came out through NASA in 2020, a lot of nations have signed, and that does essentially say we all agree that it's okay to go out and extract resources and sell them, and that we're all cool with that. So like, a consensus does seem to be building there, but no treaties have been ratified that bind the behavior of the major space players through the United Nations in like 50 years, and so I'm not optimistic that we'll get a treaty to solve these problems.
 
-![](https://loe.org/content/2026-01-02/ACOM2_quasi.jpg)
-
-A “quasi-sovereignty” could hypothetically be set up at one of the poles of the Moon without directly being claimed. (Image: Drawn by Zach Weinersmith)
+![A “quasi-sovereignty” could hypothetically be set up at one of the poles of the Moon without directly being claimed. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM2_quasi.jpg)
 
 DOERING: So Kelly, Zach, as a couple, what was it like writing *A City on Mars&#x20;*&#x74;ogether?
 
@@ -69,9 +63,7 @@ ZACH WEINERSMITH: No, I mean, you know, our last book, *Soonish&#x20;*, we kind 
 
 KELLY WEINERSMITH: \[LAUGHS]
 
-![](https://loe.org/content/2026-01-02/ACOM2_comicselves.jpg)
-
-Zach’s rendering of Kelly and himself. (Image: Drawn by Zach Weinersmith)
+![Zach’s rendering of Kelly and himself. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM2_comicselves.jpg)
 
 DOERING: \[LAUGHS] And Kelly, what was it like for you, and if I may, how did it change your relationship?
 
@@ -115,9 +107,7 @@ ZACH WEINERSMITH: It's easy to say... What?
 
 KELLY WEINERSMITH: It feels like you're retreating. Go ahead. \[LAUGHS]
 
-![](https://loe.org/content/2026-01-02/ACOM2_reproduction.jpg)
-
-The particulars of human reproduction in lower-gravity environments than Earth require further scientific study to be fully understood. (Image: Drawn by Zach Weinersmith)
+![The particulars of human reproduction in lower-gravity environments than Earth require further scientific study to be fully understood. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM2_reproduction.jpg)
 
 ZACH WEINERSMITH: \[LAUGHS] No. Okay. But listen, you're working in theory. I'm working in practice. You could say it's been a long time with lots of people but you cannot pinpoint where it could possibly have happened. You know, you want to talk about what was it Jan and Mark Davis, who were newlyweds, and they go up in the space shuttle, but the space shuttle has the living space of a bus, and there are seven people in it, and so they have, like, a week and a half to make it happen. So the only possible opportunity is for there to be a seven-person space sex conspiracy that hasn't been revealed for 30 years. And I just don't believe it.
 
@@ -133,9 +123,7 @@ DOERING: Now, so Zach, one of the things I haven't really asked you too much abo
 
 ZACH WEINERSMITH: Yeah, so you know our view of pop science is that, essentially, you're trying to take something big and make it palatable for a general audience. And you can either water it down enough that people will roll with it, or you can at least try to give people the real thing, but put enough sugar on it that it'll go down. I think that actually can be non-trivial. Like if you're talking about something complicated, and you tell a joke, the audience relaxes and can say, "Okay, maybe it's not that hard to understand." To be frank, the most boring thing was international law to research. Not that there weren't like occasional oases of funny stuff. I mean, it's thick and it's written by lawyers. It was just very hard. And so trying to take that and say, "How do we go to a normal audience and make this interesting? Because we think it's important. It's part of the picture. It's almost always skipped." You basically have all the most powerful nations on Earth saying how they feel on paper. You have to understand this. And unfortunately, it exists in a whole milieu of history which you kind of have to understand. So it was like, how do we make this palatable? So, like, there's a comic, and it's one of the few comics that really doesn't add anything intellectual, but it's just...we discovered this anecdote that actually happened where the Nazis tried to claim a chunk of Antarctica, and literally, at one point this is documented, they came out and heiled a penguin. I think it was an emperor penguin. And I remember reading that and being like, "This is going to get us through how does Antarctic treaty law work." Generally speaking, most of the illustrations actually provide a kind of diagram or an intellectual addition to the topic, but a lot of them are just there to get you through it, to say, like, "Come along with me. I'll tell you a few jokes and stories. I'm sorry you have to understand this." So that was the approach.
 
-![](https://loe.org/content/2026-01-02/ACOM2_penguin.jpg)
-
-In the process of the Nazis trying to claim a chunk of Antarctica, they 'heil’ed a penguin. (Image: Drawn by Zach Weinersmith)
+![In the process of the Nazis trying to claim a chunk of Antarctica, they 'heil’ed a penguin. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM2_penguin.jpg)
 
 KELLY WEINERSMITH: And our editor is such a saint, because she was like, "How many chapters on how international law applies to space do you want to write?" And we're like, "Five?" And she was like, "You guys better be really funny." \[LAUGHS]  
 ZACH WEINERSMITH: \[LAUGHS]
@@ -156,9 +144,7 @@ KELLY WEINERSMITH: It was the female end nobody wanted to be, yeah. Well, and th
 
 ZACH WEINERSMITH: Yes.
 
-![](https://loe.org/content/2026-01-02/ACOM2_authors.jpg)
-
-Zach and Kelly Weinersmith pose with a copy of *A City on Mars*. (Photo: Courtesy of Zach and Kelly Weinersmith)
+![Zach and Kelly Weinersmith pose with a copy of A City on Mars. (Photo: Courtesy of Zach and Kelly Weinersmith)](https://loe.org/content/2026-01-02/ACOM2_authors.jpg)
 
 DOERING: Well, what do you hope that readers take away from this book?
 

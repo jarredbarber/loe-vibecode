@@ -55,9 +55,7 @@ named Stickiness, named Tranquility, named
 
 Clouds, named Sleep, and my favorite—¬ named Love.
 
-![](https://loe.org/content/2026-04-10/NIGHTOWL_cover.jpg)
-
-*Night Owl: Poems&#x20;*&#x62;y Aimee Nezhukumatathil. (Artwork: Charlie Buckley)
+![Night Owl: Poems by Aimee Nezhukumatathil. (Artwork: Charlie Buckley)](https://loe.org/content/2026-04-10/NIGHTOWL_cover.jpg)
 
 DOERING: It's beautiful, and I think my favorite line is, "sometimes fungi fatten only at night." I love that.
 
@@ -71,9 +69,7 @@ DOERING: I mean, who hasn't had the experience of your head hitting the pillow, 
 
 NEZHUKUMATATHIL: Absolutely. My normal state is like, oh, I have the perfect comeback for something that happened when I was in sixth grade or something. So I just was like, oh, I've never written about this. I've never kind of collected or had an eye towards, kind of my truest creative self in that way. And I was like, I'm seeing this thread throughout the poems that I was writing in the last decade, of noticing the world at night. You know, the outside world at night. How animals move or don't move, how plants and fungi move and percolate a little bit at night. The outdoors is so alive at night.
 
-![](https://loe.org/content/2026-04-10/NIGHTOWL_artificiallights.jpg)
-
-Artificial lights can disturb nighttime creatures like fireflies and migratory birds. (Photo: Jud McCranie, Wikimedia Commons, CC BY-SA 4.0)
+![Artificial lights can disturb nighttime creatures like fireflies and migratory birds. (Photo: Jud McCranie, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-04-10/NIGHTOWL_artificiallights.jpg)
 
 DOERING: These days, it really is hard to connect with the nighttime world the way humans once did.
 
@@ -87,9 +83,7 @@ DOERING: What do you think we miss out on when we lose access to nature at night
 
 NEZHUKUMATATHIL: Oh my gosh. I love that question. That's like, that's a whole essay collection right there. But one of the initial things is, like observing the outdoors at night, it's a good reminder that we're all connected and like our actions during the day, often, I mean, they do influence what goes on in the outside at night, you know. I mean, like, in a couple months, it's going to be firefly season here in northern Mississippi. And, you know, I am railing constantly in my neighborhood about, like, let's dim the lights. Let's turn the lights out at least for this, you know, it's like, late May early June. And then bird migration, for example, there's that as well. So both, you know, just two animals in particular, birds and lightning bugs, if we are just constantly flooding the night, birds don't actually get to where they need to be going for their nesting and things like that, because they get derailed. They think it's stars. When we are actually watching whole populations of lightning bugs and birds decline. And guess what, folks, if that declines, if those go away, we go away eventually, you know? So I don't know that completely answers your question, but I would say it's that connection of realizing like, oh my gosh, look at my actions influence all these creatures here, and then also more in the "woo woo" sense, when you're able to look up and see stars, stars that maybe your grandparents saw, or maybe a loved one on the other side of this country might be looking at as well. We just had a beautiful blood moon lunar eclipse, and my dad in Florida was watching that. So knowing that he was watching that also gives connections to other humans too. So it's not just oh, I'm connected to these lightning bugs. We're connected to each other as well by looking at these markers of time up in the sky as well.
 
-![](https://loe.org/content/2026-04-10/NIGHTOWL_bloodmoon.jpg)
-
-Our guest, Aimee Nezhukumatathil, discusses the wonder of seeing a blood moon at the same time as loved ones who are far away. (Photo: Jan Reichelt, Pexels, public domain)
+![Our guest, Aimee Nezhukumatathil, discusses the wonder of seeing a blood moon at the same time as loved ones who are far away. (Photo: Jan Reichelt, Pexels, public domain)](https://loe.org/content/2026-04-10/NIGHTOWL_bloodmoon.jpg)
 
 DOERING: Another poem that hearing you talk made me think about a little bit was "Letter for Noctiluca."
 
@@ -120,9 +114,7 @@ Procyon like Betelgeuse like Sirius, the dog star.
 
 DOERING: Where did this poem come from?
 
-![](https://loe.org/content/2026-04-10/NIGHTOWL_luminescent.jpg)
-
-Luminescent particles (presumably dinoflaggelates noctiluca scintillans) caught in seagrass and washed up at the beach of Spiekeroog, Germany. (Photo: Stephan Sprinz, Wikimedia Commons, CC BY 4.0)
+![Luminescent particles (presumably dinoflaggelates noctiluca scintillans) caught in seagrass and washed up at the beach of Spiekeroog, Germany. (Photo: Stephan Sprinz, Wikimedia Commons, CC BY 4.0)](https://loe.org/content/2026-04-10/NIGHTOWL_luminescent.jpg)
 
 NEZHUKUMATATHIL: You know, I was imagining kind of like all the different stars, all the different versions of kind of sparkle in the outdoors, like non-manmade sparkle, you know. So instead of like these glaring house lights that drive me nuts here in the suburb, or car lights and things like that, this is just imagining the light that is created at night from these tiny dinoflagellates that light up.
 
@@ -134,9 +126,7 @@ DOERING: Absolutely, and there is sort of you call it a lantern, a way of unders
 
 NEZHUKUMATATHIL: All right, yeah, an "invective," and this is also in the back of the book, is a song of anger, a poem that goes back to ancient Rome, when people would write invectives against government or against anything that they saw was unjust or wrong. And it's a way to kind of corral that anger and rage. But this was inspired by, I went snorkeling on the island of Oahu, and in spite of there being so many signs, please don't step on the coral. Basically, if we're allowing you to snorkel here, you have to basically tread water. And then, of course, with the exception of my family and maybe one other, everybody was stepping and just like putting their giant gross flippers on all these precious corals. This part of the reef was just coming back. I just, oh, I just wanted to, like, play lifeguard or something and whistleblow on them. And it was really kind of heartbreaking to see.
 
-![](https://loe.org/content/2026-04-10/NIGHTOWL_hanauma.jpg)
-
-Hanauma Bay in Oahu, Hawai’i. (Photo: Olusola O, Pexels, public domain)
+![Hanauma Bay in Oahu, Hawai’i. (Photo: Olusola O, Pexels, public domain)](https://loe.org/content/2026-04-10/NIGHTOWL_hanauma.jpg)
 
 "Triggerfish Invective."
 
@@ -182,9 +172,7 @@ NEZHUKUMATATHIL: No, no, no.
 
 DOERING: And there doesn't always have to be, I guess.
 
-![](https://loe.org/content/2026-04-10/NIGHTOWL_author.jpg)
-
-Aimee Nezhukumatathil served as poetry editor for *Orion* and *Sierra* magazines and has been a professor of English for 25 years, currently teaching at the University of Mississippi. (Photo: Dustin Parsons)
+![Aimee Nezhukumatathil served as poetry editor for Orion and Sierra magazines and has been a professor of English for 25 years, currently teaching at the University of Mississippi. (Photo: Dustin Parsons)](https://loe.org/content/2026-04-10/NIGHTOWL_author.jpg)
 
 NEZHUKUMATATHIL: Yeah, I very much did not want this to be a thing like, look at Aimee. She's always talking about joy and beauty and light. I mean, that's not, I mean, I could do that, but that wouldn't feel authentic to me. That wouldn't feel authentic to what I've experienced in the planet. That's just not how the world works.
 

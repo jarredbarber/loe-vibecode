@@ -61,17 +61,13 @@ BELTRAN: Yeah. One thought that came to mind when reading your book is that, you
 
 MAYS: Yeah, exactly. So the title of the book is, *For Special Needs, Gardening for Special Needs&#x20;*. But we really all have special needs. And from the, from the birth, you know, from the cradle, children really need to be engaged, moving and outside. As we get older, we need to disconnect from our devices to help de-stress, and then way at the other end of the life cycle, it's a use it or lose it situation. So whereas children are gardening to develop skills, the elderly are gardening in a way that can help them maintain skills, in ways that, you know, just going to the gym doesn't do. It's incredibly impactful.
 
-![](https://loe.org/content/2026-01-23/MAYS_sensorygarden.JPG)
-
-The Sensory Garden in the grounds of St Christopher's School in Westbury Park, Bristol, a school for children with special needs. (Photo: Michael Murray, Wikimedia Commons, CC BY SA 2.0)
+![The Sensory Garden in the grounds of St Christopher's School in Westbury Park, Bristol, a school for children with special needs. (Photo: Michael Murray, Wikimedia Commons, CC BY SA 2.0)](https://loe.org/content/2026-01-23/MAYS_sensorygarden.JPG)
 
 BELTRAN: As a society, what do we lose by not incorporating differently abled people into nature-based activities like gardening?
 
 MAYS: Well, these are the most vulnerable people, you know. They have a lot of stress in their life from internal things, and also they are oftentimes isolated. And gardening is something, as we've mentioned throughout talking, that there's so many ways that it helps to calm us down, de-stress us, it makes us healthier. And so they will be able to benefit enormously. But the other thing is that these are wonderful people, and gardening is a great equalizer, and so people of all different walks of life can garden together. And so it is an opportunity that there's more of a commingling, so to speak, and that both can share together in the joys of gardening.
 
-![](https://loe.org/content/2026-01-23/MAYS_picardo.JPG)
-
-Picardo Farm, Wedgwood neighborhood, Seattle, Washington. A community allotment garden with raised beds for the physically disabled. (Photo: Joe Mabel, Wikimedia Commons, CC BY SA 3.0)
+![Picardo Farm, Wedgwood neighborhood, Seattle, Washington. A community allotment garden with raised beds for the physically disabled. (Photo: Joe Mabel, Wikimedia Commons, CC BY SA 3.0)](https://loe.org/content/2026-01-23/MAYS_picardo.JPG)
 
 BELTRAN: Jill Mays is the author of *Nurturing Nature: A Guide to Gardening for Special Needs&#x20;*. Jill, thank you so much for joining us.
 

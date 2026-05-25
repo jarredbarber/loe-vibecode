@@ -29,9 +29,7 @@ O'NEILL: So walk us through how a frog can keep swimming even in a body of water
 
 LYMAN: So basically, frogs are going to go down to the bottom of a pond or a lake or a stream during the winter, and they're going to kind of hang out, maybe on the surface of the mud or sand, and they might burrow a little ways into it. And the way they survive is through something called cutaneous respiration, which basically means they're breathing through their skin. They're absorbing oxygen through their skin. Frogs and other amphibians, such as some salamander species, have a very thin mucus covered skin with a network of small blood vessels underneath the skin, and those blood vessels can absorb oxygen directly from water or from air. And of course, frogs, when they're not in the water, would breathe through their lungs, but they can't do that when they're, when they're in the water. They can also open their mouths and absorb oxygen through the blood vessels and the linings of their mouths. And they can also sometimes open their cloaca, which is a multipurpose opening for excretion and reproduction. And they can absorb oxygen that way from the water as well, from the network of blood vessels in the cloaca, but mostly through the skin.
 
-![](https://loe.org/content/2026-03-13/FROG_donwithturtle.JPG)
-
-Don Lyman is a freelance journalist and adjunct professor of biology at Merrimack College. Pictured is Don holding a musk turtle at Lake Martin, Louisiana, in April of 2012. (Photo: Matthew Lyman, Courtesy of Don Lyman)
+![Don Lyman is a freelance journalist and adjunct professor of biology at Merrimack College. Pictured is Don holding a musk turtle at Lake Martin, Louisiana, in April of 2012. (Photo: Matthew Lyman, Courtesy of Don Lyman)](https://loe.org/content/2026-03-13/FROG_donwithturtle.JPG)
 
 O'NEILL: And now we're talking about a bullfrog here, but how common is this in other frogs, toads, amphibians, generally speaking?
 

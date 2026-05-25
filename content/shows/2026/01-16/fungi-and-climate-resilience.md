@@ -41,9 +41,7 @@ DOERING: And each of these partners make sure that it's a fair trade, don't they
 
 KIERS: They do. So, over this evolutionary relationship that's about 450 million years old, both partners have evolved very clever strategies to be able to make sure that it's a fair trade. And it's not that it's fair every time, but just that on average, that both partners are benefiting from the relationship.
 
-![](https://loe.org/content/2026-01-16/KIERS_fungi.jpg)
-
-Kiers studies mycorrhizal fungi, which are primarily underground and form crucial partnerships with plants. In the photo above, the mycorrhizal mushroom Cortinarius albomagellanicus emerges from a hyper-diverse but hidden underground fungal community in Tierra de Fuego, Chile. (Photo: Mateo Barrenengo)
+![Kiers studies mycorrhizal fungi, which are primarily underground and form crucial partnerships with plants. In the photo above, the mycorrhizal mushroom Cortinarius albomagellanicus emerges from a hyper-diverse but hidden underground fungal community in Tierra de Fuego, Chile. (Photo: Mateo Barrenengo)](https://loe.org/content/2026-01-16/KIERS_fungi.jpg)
 
 DOERING: So I think one of the most mind blowing aspects of this is realizing that I don't know these networks don't necessarily have a mind like we do, you know, like a centralized nervous system. Or maybe they do. I don't know. How exactly are these decisions being made? And what's driving this, I guess?
 
@@ -53,9 +51,7 @@ DOERING: So I imagine that while a lot of this research is taking place in your 
 
 KIERS: Well, this was the real motivation for starting SPUN. So SPUN stands for the Society for the Protection of Underground Networks. And it had a really like simple but audacious mission, and that's to actually go out and map the networks of mycorrhizal communities that regulate the Earth's ecosystems, and then start advocating for their protection. And so SPUN started, really, to transform how fungi are used in climate change strategies and conservation and restoration efforts. But to be able to do that, you need to map. You need to understand which mycorrhizal communities are where and what they're doing. So that's what we started doing. We, in 2021, we started working with researchers all over the world and local communities across, I guess, some of the most understudied ecosystems on Earth, and start generating these global data sets of what these fungi, who they are, and what they're doing.
 
-![](https://loe.org/content/2026-01-16/KIERS_undergroundnetworks.jpg)
-
-Underground fungal networks are crucial to the vast majority of plant species’ survival, not just plants in forests or jungles. (Photo: Mateo Barrenengo)
+![Underground fungal networks are crucial to the vast majority of plant species’ survival, not just plants in forests or jungles. (Photo: Mateo Barrenengo)](https://loe.org/content/2026-01-16/KIERS_undergroundnetworks.jpg)
 
 DOERING: I mean, it sounds a lot like a network. I mean, it sounds like, literally, the form that SPUN has taken is something akin to the fungi networks that you're studying.
 
@@ -67,17 +63,13 @@ KIERS: Yeah, exactly. And there's really a need right now to focus on what we ca
 
 DOERING: So tell me more about climate change and fungi and how they could maybe be part of the solution, or a solution, at least, to helping us weather the storms ahead.
 
-![](https://loe.org/content/2026-01-16/KIERS_photoofnetwork.jpg)
-
-A photo of mycorrhizal fungi network. Mycorrhizal fungi form vast underground networks that transport nutrients in a way to maximize how much carbon the fungi receive from the plants. Despite the research, no one quite understands how the fungi do this without a central nervous system. (Photo: Loreto Oyarte Gálvez - VU Amsterdam)
+![A photo of mycorrhizal fungi network. Mycorrhizal fungi form vast underground networks that transport nutrients in a way to maximize how much carbon the fungi receive from the plants. Despite the research, no one quite understands how the fungi do this without a central nervous system. (Photo: Loreto Oyarte Gálvez - VU Amsterdam)](https://loe.org/content/2026-01-16/KIERS_photoofnetwork.jpg)
 
 KIERS: Well, we know that fungi lie at the base of life on Earth, and so we have to protect these fungi. The amount of carbon that is going down into mycorrhizal networks is astonishing, and we need to keep that circulatory system alive. Fungi create this scaffolding underground. You can really think of it as like a physical scaffolding that holds all of these underground ecosystems together, and if you lose that scaffolding, then these ecosystems wash away. And so when we're thinking about climate change and all of the global change that we're facing, fungi offer all kinds of solutions, whether it be to carbon drawdown to protection against pollutants and heavy metals, to sustainable sources of nutrients. They offer solutions that we just haven't considered before. So it feels like it's a great time to start collaborating with fungi.
 
 DOERING: Could you please tell us a story, to give us a sense of what some of these projects that SPUN is undertaking, what they look like?
 
-![](https://loe.org/content/2026-01-16/KIERS_spun.jpg)
-
-SPUN conducts research all over the world to map ecosystems’ fungal communities, including in difficult to reach places, like this forest in Ghana. (Photo: Natalija Gormalova)
+![SPUN conducts research all over the world to map ecosystems’ fungal communities, including in difficult to reach places, like this forest in Ghana. (Photo: Natalija Gormalova)](https://loe.org/content/2026-01-16/KIERS_spun.jpg)
 
 KIERS: Of course. So some recent ones, recent expeditions that I've been working with are, for example, in Tunisia. Tunisia is an incredible country that's facing extreme changes as we face the climate crisis in terms of drought, and so we had an expedition with scientists in Tunisia to really understand the fungal communities that allow plants to adapt to extreme drought. So that involved collecting fungi right on the edge of the Sahara and trying to understand what was unique about these fungal communities that allowed plants to survive such harsh conditions. This is particularly important for agriculture. What are the fungi that are going to allow our crops to survive in the future as conditions get more and more extreme? In other cases, it's working with fungi that might be destroyed or lost to global change. We had a project with scientists in Ghana, for example, where we are trying to map the fungal biodiversity along the coast, Ghana's coast, which is facing extreme changes from sea level rise. So one worry that we have is that whole fungal communities are going to disappear. How do we protect those fungal communities? So in some cases, it's about leveraging and working with fungal communities, let's say, for agriculture, and in other cases, it's about drawing attention to really important fungal communities that may be lost and trying to protect — sort of, you could think of them as libraries of solutions — before they disappear.
 

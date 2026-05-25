@@ -15,9 +15,7 @@ CURWOOD: This long winter took Living on Earth’s Don Lyman back to a childhood
 
 LYMAN: On a cold winter day when I was 12 years old, I wandered along the edge of Little Creek, which flowed next to the golf course on the Quantico Marine Base in northern Viriginia. The creek was frozen over, but my thoughts drifted back to summer, and memories of splashing through the cool, flowing water on hot, humid days, looking for queen snakes and snapping turtles with my friends. Brightly colored minnows called red-sided dace swam in small schools, and darted into the safety of tree roots that dangled in the water in deep pools. Tall oaks, sweetgums, and yellow poplars provided shade for the young explorers, and protected us from the hot Virginia sun. Barn swallows flew under the golf course bridge. I wondered if they had nests there.
 
-![](https://loe.org/content/2026-03-06/CREEK_lively.jpg)
-
-In the warmer months, Little Creek is lively and full of snakes, turtles, fish, and frogs. (Photo: Don Lyman)
+![In the warmer months, Little Creek is lively and full of snakes, turtles, fish, and frogs. (Photo: Don Lyman)](https://loe.org/content/2026-03-06/CREEK_lively.jpg)
 
 But in the dead of winter, there were no snakes or turtles or dace or swallows. I felt forlorn, and longed for summer. Suddenly, I saw a frog, a big bull frog, swimming under the ice! It kicked along slowly, and I followed it. I couldn’t believe what I was seeing. I’d never seen a frog swimming under the ice. Shouldn’t the frog be fast asleep at the bottom of the stream?
 

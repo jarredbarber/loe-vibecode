@@ -23,9 +23,7 @@ DOERING: Well, I will never deny you the opportunity to nerd out about space. So
 
 O'NEILL: So to start, just like our home planet, the Martian surface occasionally plays host to dust devils, these swirling whirlwinds that form when hot air rises quickly and starts to spin. And on Mars, these can get huge. I'm talking absolutely massive. One reached even over a mile in height. And we've known about them since the 80s, but in 2025 scientists confirmed the existence of electrical activity in those dust devils, just like we sometimes get here on Earth.
 
-![](https://loe.org/content/2026-01-02/A1_dustdevil.gif)
-
-It turns out “dust devils” on Mars, swirling whirlwinds that form when hot air rises quickly, sometimes contain electrical activity, according to 2025 research. (Photo: NASA/JPL-Caltech/SSI, Wikimedia Commons, public domain)
+![It turns out “dust devils” on Mars, swirling whirlwinds that form when hot air rises quickly, sometimes contain electrical activity, according to 2025 research. (Photo: NASA/JPL-Caltech/SSI, Wikimedia Commons, public domain)](https://loe.org/content/2026-01-02/A1_dustdevil.gif)
 
 DOERING: What? You mean, like lightning on Mars?
 
@@ -43,9 +41,7 @@ O'NEILL: Well, you're right. So there are lightning storms on planets like Jupit
 
 DOERING: Oh, okay. I mean knowing about possible lightning strikes also seems like it would be really important for like, the stuff we're sending up there, rovers, any future human habitats or exploration, pretty important to know if you're going to get zapped. But I know there's a ton of space science that we're looking at on Mars, and I just love hearing about what we're learning about whether life ever existed there. So Aynsley, you know, did 2025 bring us any closer on that front?
 
-![](https://loe.org/content/2026-01-02/A1_chevaya.jpg)
-
-An image taken by the Perseverance Rover at the Cheyava Falls boulder site on Mars. A rock sample collected by the rover, nicknamed “Sapphire Canyon,” appears to show patterns associated with microbial activity and compounds that usually form in the presence of life. It’s not yet a confirmation, though, of a history of life on Mars. (Photo: color processing by areo.info, raw data by NASA/JPL-Caltech, Wikimedia Commons, CC BY 4.0)
+![An image taken by the Perseverance Rover at the Cheyava Falls boulder site on Mars. A rock sample collected by the rover, nicknamed “Sapphire Canyon,” appears to show patterns associated with microbial activity and compounds that usually form in the presence of life. It’s not yet a confirmation, though, of a history of life on Mars. (Photo: color processing by areo.info, raw data by NASA/JPL-Caltech, Wikimedia Commons, CC BY 4.0)](https://loe.org/content/2026-01-02/A1_chevaya.jpg)
 
 O'NEILL: I feel like every year we get a little closer to finding out. There's been pretty exciting news. Researchers have been studying the rocks on Mars, because God knows, if there's one thing Mars has, it's rocks, and they've noticed what they called a “potential biosignature” in this sample that they nicknamed “Sapphire Canyon.” And to be clear, when I say “potential biosignature,” the word “potential” does a lot of heavy lifting there.
 
@@ -71,9 +67,7 @@ O’NEILL: And ever since, scientists around the world have been studying those 
 
 DOERING: Yes, you're jogging my memory. Yeah, I watched a YouTube video about this, but tell me more.
 
-![](https://loe.org/content/2026-01-02/A1_bennu.jpg)
-
-A Japanese research team discovered examples of ribose and the first ever extraterrestrial example of glucose on the asteroid Bennu. (Photo: NASA/Goddard/University of Arizona, Wikimedia Commons, public domain)
+![A Japanese research team discovered examples of ribose and the first ever extraterrestrial example of glucose on the asteroid Bennu. (Photo: NASA/Goddard/University of Arizona, Wikimedia Commons, public domain)](https://loe.org/content/2026-01-02/A1_bennu.jpg)
 
 O'NEILL: Okay, so there was this Japanese team that found examples of ribose, as well as the first ever extraterrestrial example of glucose, and both of those are sugars that are massively important for biology on Earth, ribose is a part of DNA and RNA, and of course, glucose is one of the key building blocks of food for many organisms, including ourselves, and other samples from Bennu have also shown signs of some of life's other building blocks. We're talking amino acids, nucleobases, carboxylic acids, all this stuff that helps life as we know it work together.
 
@@ -89,9 +83,7 @@ DOERING: Oh yeah, I have seen some headlines about this. So what can you tell me
 
 O'NEILL: Well, so the first one was only discovered in 2017. That was called 1I/ʻOumuamua. And following that naming pattern, this is 3I/ATLAS, which we only saw last summer, coming in as a comet from another solar system.
 
-![](https://loe.org/content/2026-01-02/A1_atlas.jpg)
-
-The interstellar comet, 3I/ATLAS, captured by the Gemini Multi-Object Spectrograph. (Photo: Processed by J. Miller, M. Rodriguez, T.A. Rector, M. Zamani, International Gemini Observatory/NOIRLab/NSF/AURA/B, Wikimedia Commons, CC BY 4.0)
+![The interstellar comet, 3I/ATLAS, captured by the Gemini Multi-Object Spectrograph. (Photo: Processed by J. Miller, M. Rodriguez, T.A. Rector, M. Zamani, International Gemini Observatory/NOIRLab/NSF/AURA/B, Wikimedia Commons, CC BY 4.0)](https://loe.org/content/2026-01-02/A1_atlas.jpg)
 
 DOERING: Oh, my gosh. So what do we know about this interstellar visitor? Could it be aliens?
 

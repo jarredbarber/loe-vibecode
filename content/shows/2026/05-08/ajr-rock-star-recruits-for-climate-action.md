@@ -26,9 +26,7 @@ DOERING: So how did you first become interested in raising awareness about the c
 
 MET: Yeah, so when I was in high school, they offered a human rights class. During that class, we actually took a field trip to go see Mary Robinson speak. Mary Robinson is the former president of Ireland. She was the UN High Commissioner for Human Rights. She made that case for the relationship between climate and human rights, and ever since then, I was just a fan of hers, in awe of everything that she did. I studied this in undergrad, doing my master's, doing my PhD. So that was one piece of it, and the other side of it is being on the road as a musician. I'm in a band called AJR, and I see both the impacts of climate in many cities that I go to, but also fans coming up to me all the time, saying, I want to participate. I want to be part of this. What can I do?
 
-![](https://loe.org/content/2026-05-08/AJR_footprint.jpg)
-
-At a 2024 AJR concert at the Footprint Center in Phoenix, Arizona, unbearable temperatures motivated fans to petition the city to release funds to combat extreme heat. (Photo: Troutfarm27, Wikimedia Commons, CC BY-SA 4.0)
+![At a 2024 AJR concert at the Footprint Center in Phoenix, Arizona, unbearable temperatures motivated fans to petition the city to release funds to combat extreme heat. (Photo: Troutfarm27, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-05-08/AJR_footprint.jpg)
 
 DOERING: So as a musician, what are some of the similarities that you found between starting a band and producing music, and building a successful climate movement?
 
@@ -44,9 +42,7 @@ MET: There are not a lot of settings that can do what music does. When people ga
 
 DOERING: Oh, that’s a beautiful term.
 
-![](https://loe.org/content/2026-05-08/AJR_effervescence.jpg)
-
-“Collective effervescence” is the intense joy and unity felt when people come together for a shared purpose. Adam says this feeling can be felt at concerts as well as when building social movements. (Photo: Caitlin Wilkins, Wikimedia Commons, Public Domain)
+![“Collective effervescence” is the intense joy and unity felt when people come together for a shared purpose. Adam says this feeling can be felt at concerts as well as when building social movements. (Photo: Caitlin Wilkins, Wikimedia Commons, Public Domain)](https://loe.org/content/2026-05-08/AJR_effervescence.jpg)
 
 MET: Yeah, it's great, right? It was coined by the sociologist Emile Durkheim. And Durkheim wrote about this phrase in the religious context, and so when people were getting together to participate in religion. But it really does apply to music as well. You are there. You know almost none of the people that are in the same room as you, but you all have this shared vision and shared purpose and shared community when you're going to see a concert. You all sing along, dance along, etc. And I think one of the things that we've done really effectively is tap into that collective effervescence and apply it to other places. Most people use it for the music in and of itself, which is great, but there's real opportunity to apply it for social change.
 
@@ -56,9 +52,7 @@ MET: Yeah, so Planet Reimagined is an incubator. We incubate creative climate so
 
 DOERING: So hearing us talk, some people might think, all right, so, AJR's lyrics must talk a lot about climate, environment. That's not really the case. Is there a reason that you kind of avoid, or just don't want to go there with climate messaging in your music?
 
-![](https://loe.org/content/2026-05-08/AJR_amplify.jpg)
-
-Adam’s latest book, *Amplify: How to Use the Power of Connection to Engage, Take Action, and Build a Better World*, is a field guide for activists that applies strategies from the music industry to social movements. (Photo: Courtesy of Shore Fire Media)
+![Adam’s latest book, Amplify: How to Use the Power of Connection to Engage, Take Action, and Build a Better World, is a field guide for activists that applies strategies from the music industry to social movements. (Photo: Courtesy of Shore Fire Media)](https://loe.org/content/2026-05-08/AJR_amplify.jpg)
 
 MET: So we've done all of the research, and injecting stories of climate, injecting information about climate into music, doesn't work. I've had so many people saying, oh, you need to write a climate anthem. That is so disingenuous, unless the artist is already so deep in that issue with their fans. The other piece of it is a lot of fans use music as an escape, and if you keep injecting social issues into music over and over and over again and all of these different types, it's not going to feel like an escape. However, there are ways to do it effectively. There are ways to do it that normalizes and creates almost a normative approach to climate action, or mental health, or any other issue that you want in music. Megan Thee Stallion does this really well. Doechii has done this really well, by just having it be a little piece of the song as part of your day-to-day. So we have a song called Inertia that was on our last album, and one of the lyrics in the song is, "I was gonna save the planet, but today I've got plans." And it's real, right? It makes sense, and it's something that other people are going through, and it just kind of is a little injection, but it's relatable, and it's something that people can understand. And it's not, "I was going to save the planet, but today I've got plans, but tomorrow I'm going to go recycle and buy an electric car and do all..." right? So it's it's really just injecting it in a way that fans see it as real, and not as trying to push them to do something.
 
@@ -68,9 +62,7 @@ MET: Exactly.
 
 DOERING: So a large part of your fan base is youth. What role do you think younger generations have to play in the fight against climate change?
 
-![](https://loe.org/content/2026-05-08/AJR_adammet.jpg)
-
-Adam Met is a climate activist, educator, and bassist of the indie-rock band, AJR. (Photo: Shervin Lainez)
+![Adam Met is a climate activist, educator, and bassist of the indie-rock band, AJR. (Photo: Shervin Lainez)](https://loe.org/content/2026-05-08/AJR_adammet.jpg)
 
 MET: We've seen all different ways for young people to participate, both on our tours and off. If you are 18, the number one thing that you can do is vote in local elections. Yes, of course, vote in the presidential and national and federal elections around the world, but local elections are happening every week now, it seems. And there are elections that have happened in the last few months that have come down to a single vote. There are elections that have come down to seven votes. There are elections that have been around 20 votes that make the difference. Those are school board elections. Those are mayoral elections. Those are city councils. They are places that make the decision about transportation, about how waste is picked up, about parking on streets, about zoning. All of those things are climate issues. So that's the number one thing you could do right now is look up, literally, go look up when your next local election is, make sure you're registered to vote, and go vote in that election. It's much more than every four years, and every two years. If you are under that age, you need to bully your parents into going to vote in those local elections. We had some young children on our tour who couldn't sign petitions and couldn't call their representatives, but we had them with clipboards running around the concerts, getting other people to do it, so you have the power to push the people in your family to take these kinds of actions.
 

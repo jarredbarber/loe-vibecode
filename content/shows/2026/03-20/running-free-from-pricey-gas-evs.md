@@ -21,15 +21,11 @@ MOTAVALLI: Well, I think there's a lot of reasons to consider an EV right now, a
 
 O'NEILL: To what extent do you think this drop in EV interest comes from the removal of federal tax credits for EVs? How much did that have an impact on people going well, I'm not sure the money makes sense anymore.
 
-![](https://loe.org/content/2026-03-20/EVs_teslachargers.jpg)
-
-Most EVs are now able to access Tesla’s supercharging network, whose chargers allow drivers to charge their vehicles up to 200 miles in just 15 minutes. (Photo: Ank Kumar, Wikimedia Commons, CC0)
+![Most EVs are now able to access Tesla’s supercharging network, whose chargers allow drivers to charge their vehicles up to 200 miles in just 15 minutes. (Photo: Ank Kumar, Wikimedia Commons, CC0)](https://loe.org/content/2026-03-20/EVs_teslachargers.jpg)
 
 MOTAVALLI: Well, I think unfortunately, we saw a drop off even before that happened. Before Trump took office, one of the first things he did was remove that $7,500 federal income tax credit, but we were seeing a drop off in interest even before that. I also think the federal income tax credit is not as important as it was, because EV prices have come down. If you look at some of the newest options that are in some of the cars that are on the market now, they're actually priced lower than the average price Americans pay for cars. I mean, keep in mind that that price is around $50,000, that's the average price of a vehicle today, and there are a whole lot of EVs that, even without federal subsidies, are well below that. So I think we could actually say we're either close to or at price parity, maybe not all EVs, but there's certainly a lot of available EVs that are below the average of what Americans pay for a car anyway. So I don't think it's critical, that federal income tax credit. It was nice, and I'm sure some people decided not to buy because of that, but in many cases, automakers lowered their prices to sort of compensate for the loss of the federal income tax credit. I think if consumers were to really look at EVs now, they'd see that they're pretty fairly priced, and they could buy a really competent one at prices not exorbitantly more, or even more at all, than a gas car.
 
-![](https://loe.org/content/2026-03-20/EVs_bbb.jpg)
-
-While Trump’s “One Big Beautiful Bill” removed the $7500 tax credit for electric vehicles, interest in EVs had already begun to drop off prior to the legislation’s passage. (Photo: White House, Wikimedia Commons, CC0)
+![While Trump’s “One Big Beautiful Bill” removed the $7500 tax credit for electric vehicles, interest in EVs had already begun to drop off prior to the legislation’s passage. (Photo: White House, Wikimedia Commons, CC0)](https://loe.org/content/2026-03-20/EVs_bbb.jpg)
 
 O'NEILL: Well, let's talk a little bit more about the charging network as well. So not only has there been limited charging access, that's been a challenge for EV adoption, but also long charging times. Where does that stand at this moment?
 
@@ -37,17 +33,13 @@ MOTAVALLI: Well, I think the charging companies are doing their best to reduce t
 
 O'NEILL: Well, and so Jim, if somebody's looking right now and they are considering an EV, what would you say are particular standouts in terms of manufacturers or particular models even?
 
-![](https://loe.org/content/2026-03-20/EVs_carmanufacturers.jpg)
-
-Many car manufacturers have begun to produce mid-range electric vehicles like the Nissan Leaf or Chevy Bolt, making EVs more affordable for the average consumer. (Photo: Mariordo, Wikimedia Commons, CC BY-SA 4.0)
+![Many car manufacturers have begun to produce mid-range electric vehicles like the Nissan Leaf or Chevy Bolt, making EVs more affordable for the average consumer. (Photo: Mariordo, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-03-20/EVs_carmanufacturers.jpg)
 
 MOTAVALLI: Well, I'm a big fan of the Hyundai IONIQ 5 and 6, which are reasonably priced EVs that will go 300 miles on a charge. And I just happened to borrow one, my brother owns one, I was using his IONIQ 5, and I think it's a terrific car. Another one to consider is the new Chevy Bolt, which has just come out, which is priced under $30,000, has almost 300 mile range, and, rather strangely, will only be offered for one year, as things stand now. But Chevrolet also produces the Equinox, which is a larger EV. That has many of the same specs. The new Nissan Leaf is another one that has finally enough range to be worthy of consideration. So those are some EVs I like, on the lower end of the spectrum. The problem has been there's too many luxury EVs priced at $100,000 or more, and companies like Lucid, for instance, just announced that they're going to be producing sub-$50,000 EVs, when everything they've had so far has been, you know, 80,000 to over 100,000. So, and Rivian also is producing cheaper EVs. That's their next phase after producing high priced ones. They're trying to get in on the, you know, Tesla Model 3 market. Everybody's aiming at that.
 
 O'NEILL: Yeah, and we talked about the Chinese manufacturer BYD. As far as I understand it, they're not available in the United States, correct?
 
-![](https://loe.org/content/2026-03-20/EVs_byd.jpg)
-
-The Chinese electric vehicle manufacturer BYD has recently made a deal with Canada to establish dealerships in the greater Toronto area. BYD’s cars are currently unavailable in the United States because of the costs of tariffs. (Photo: iMoD Official, Wikimedia Commons, CC BY 3.0)
+![The Chinese electric vehicle manufacturer BYD has recently made a deal with Canada to establish dealerships in the greater Toronto area. BYD’s cars are currently unavailable in the United States because of the costs of tariffs. (Photo: iMoD Official, Wikimedia Commons, CC BY 3.0)](https://loe.org/content/2026-03-20/EVs_byd.jpg)
 
 MOTAVALLI: Well, it's because of the tariffs that are put on Chinese-made vehicles. It would be pretty cost prohibitive to bring them in. It's interesting to point out that the Chinese automakers do seem to be making a deal with Canada, and I think we'll see widespread Chinese EV adoption in Canada. We've already seen it in Europe, all over Asia, Central America, Mexico. I mean, Chinese EVs are everywhere in the world but in the United States right now.
 

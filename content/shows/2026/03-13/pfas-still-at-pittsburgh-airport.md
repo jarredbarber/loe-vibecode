@@ -32,9 +32,7 @@ REITZ: And this is the tributary that the outfalls that we've seen them self-rep
 
 FRAZIER: After getting consistently high numbers in these streams, Hohman and Reitz decided to look at new, publicly available data. Since last year, the airport's been sampling its stormwater outfalls for PFAs and reporting it to the Pennsylvania Department of Environmental Protection. The highest levels recorded were nearly 63,000 parts per trillion for one type of PFAs. That's 15,000 times what the EPA considers safe in drinking water. Hohman said she was shocked.
 
-![](https://loe.org/content/2026-03-13/AF_trainingfacility.jpg)
-
-PFAS, also known as ‘forever chemicals’ due to their long-lasting polluting effects, were used for years in firefighting foam. Pittsburgh International Airport’s Aircraft Rescue and Fire Fighting (ARFF) training facility has stopped using firefighting foam with these compounds, but the contamination persists. (Photo: Reid Frazier, Courtesy of The Allegheny Front)
+![PFAS, also known as ‘forever chemicals’ due to their long-lasting polluting effects, were used for years in firefighting foam. Pittsburgh International Airport’s Aircraft Rescue and Fire Fighting (ARFF) training facility has stopped using firefighting foam with these compounds, but the contamination persists. (Photo: Reid Frazier, Courtesy of The Allegheny Front)](https://loe.org/content/2026-03-13/AF_trainingfacility.jpg)
 
 HOHMAN: It was alarming when we did pull that number, because I initially, I think all of us were like, this has to be a mistake. Like ...
 
@@ -62,9 +60,7 @@ FRAZIER: Carrie McDonough is an associate professor of chemistry at Carnegie Mel
 
 MCDONOUGH: And, because for a long time, the risks associated with PFAs were not really well understood, these foams were basically treated like soap.
 
-![](https://loe.org/content/2026-03-13/AF_water.jpg)
-
-Studies show that PFAS compounds, like those found in Montour Run, can increase the risk of certain cancers, developmental conditions, or fertility complications in human beings. (Photo: Reid Frazier, Courtesy of The Allegheny Front)
+![Studies show that PFAS compounds, like those found in Montour Run, can increase the risk of certain cancers, developmental conditions, or fertility complications in human beings. (Photo: Reid Frazier, Courtesy of The Allegheny Front)](https://loe.org/content/2026-03-13/AF_water.jpg)
 
 FRAZIER: And because of this, many airports and military bases around the country now have PFAs contaminated soil and water. The EPA has since labeled two of the main PFAs chemicals as likely carcinogens. And in the past decade, states and federal agencies have begun the process of regulating PFAs in the environment. Pennsylvania established its own drinking water standard for two of the chemicals in 2023 and the EPA is on pace to set even tighter standards by 2031. Pittsburgh International Airport, in a statement, said it had stopped using firefighting foam with PFAs, but did not answer questions about what it would do to prevent future releases of the chemicals from its site. But PFAs is still present in nearby streams like Montour Run. After taking a few samples, Hohman is startled by a visitor flying over the stream.
 

@@ -23,9 +23,7 @@ O'NEILL: Now you wrote a paper about elephants passing down survival knowledge t
 
 BATES: The primary sort of area that we think knowledge is being passed down from elders is in calf survival, and that would involve things like finding food sources, finding water sources, but also just how to behave with a calf, how much time you should spend feeding it, for example, versus looking after yourself. And there's quite a lot of evidence now that families that are led by older females tend to do better in certain things, most importantly, calf survival.
 
-![](https://loe.org/content/2026-05-15/Elephant_running_resized.jpg)
-
-Lucy Bates' 2025 study suggests that elder elephants may teach crucial survival skills to their youth, and that the loss of these elders can have irrevocable effects on the lifetimes of the orphaned young. (Photo: Byrdyak, Wikimedia Commons, CC BY-SA 4.0)
+![Lucy Bates' 2025 study suggests that elder elephants may teach crucial survival skills to their youth, and that the loss of these elders can have irrevocable effects on the lifetimes of the orphaned young. (Photo: Byrdyak, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-05-15/Elephant_running_resized.jpg)
 
 O'NEILL: So Lucy, to what extent do we know that elephants are learning these skills from their elders or each other, rather than these being some sort of genetic or biological responses or some sort of individually acquired piece of knowledge?
 
@@ -43,9 +41,7 @@ O'NEILL: And so what does it look like when elephants grow up without elders or 
 
 BATES: There's a lot of evidence that suggests that elephants that grow up without elders make poor decisions, so things like responding appropriately to predators, but also how they respond to other elephant families. Families that grew up without elders, essentially waste time by being fearful of all other elephants and can't really recognize the difference between families that they know and are friends with and families that they don't, for example.
 
-![](https://loe.org/content/2026-05-15/Elephants_of_Kidepo_resized.jpg)
-
-Elder female elephants, or matriarchs, are the leaders of elephant family structures. (Photo: Vincent Mugaba, Wikimedia Commons, CC BY-SA 4.0)
+![Elder female elephants, or matriarchs, are the leaders of elephant family structures. (Photo: Vincent Mugaba, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-05-15/Elephants_of_Kidepo_resized.jpg)
 
 O'NEILL: A number of years ago, Living on Earth, we've actually done a story about a group of orphaned young elephants who were relocated to a National Park in South Africa. Researchers saw these relocated male elephants showing this particularly aggressive behavior. Could you tell us a little bit about what that behavior is in elephants?
 
@@ -55,9 +51,7 @@ O'NEILL: So obviously we've been talking about the importance of culture and soc
 
 BATES: It's probably more at risk now than it has been for a long time. There have been various waves of poaching. Individuals obviously come in and kill elephants so they can remove the ivory, the elephant tusks and elephant tusks grow throughout their lives. So it stands to reason, obviously, that the older, larger individuals have the largest tusks. So it's typically the older individuals in a community, in a society, that poachers will be targeting. The other issue that elephants are facing at the moment is just extremely rapid changes to their environment. As human populations grow, the sort of wild habitat available to elephants is decreasing. So there's a competition for space and also a competition for resources, and I think a lot of that is driven by changes in the climate.
 
-![](https://loe.org/content/2026-05-15/Elephants_in_Pilanesberg_Game_Reserve_resized.jpg)
-
-Elephants in the Pilanesberg National Park & Game Reserve. After a group of young, orphaned elephants were moved there in the late 20th century, they were seen developing aggressive behaviors. (Photo: South African Tourism, Wikimedia Commons, CC BY 2.0)
+![Elephants in the Pilanesberg National Park & Game Reserve. After a group of young, orphaned elephants were moved there in the late 20th century, they were seen developing aggressive behaviors. (Photo: South African Tourism, Wikimedia Commons, CC BY 2.0)](https://loe.org/content/2026-05-15/Elephants_in_Pilanesberg_Game_Reserve_resized.jpg)
 
 O'NEILL: What are the implications of all of these things that we've found out on, say, our conservation efforts when it comes to protecting these species of elephants?
 

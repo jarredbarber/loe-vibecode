@@ -41,9 +41,7 @@ CURWOOD: I mean, yeah, 10 million people's pee. That's, that is a lot, isn't it?
 
 TARPEH: It is. Fun fact, each of us pees around one liter per day. So that's like 10 million liters of pee per day.
 
-![](<https://loe.org/shows/ /content/2026-02-27/TARPEH_oilrig.jpg >)
-
-Much of Tarpeh’s work aims to treat wastewater the way that oil companies (like the one that runs this oil rig off the Gulf of Mexico) treat crude oil: he pulls the useful chemicals out of the original liquid and turns them into products. That’s why his team refers to the work as “wastewater refining.” (Photo: GuavaTrain, Wikimedia Commons, CC0)
+![Much of Tarpeh’s work aims to treat wastewater the way that oil companies (like the one that runs this oil rig off the Gulf of Mexico) treat crude oil: he pulls the useful chemicals out of the original liquid and turns them into products. That’s why his team refers to the work as “wastewater refining.” (Photo: GuavaTrain, Wikimedia Commons, CC0)](<https://loe.org/shows/ /content/2026-02-27/TARPEH_oilrig.jpg >)
 
 CURWOOD: Okay well, why, of all things, study pee?
 
@@ -57,9 +55,7 @@ CURWOOD: Yeah, so how valuable is that nitrogen? How valuable is that phosphorus
 
 TARPEH: Yeah, it really depends where you are and what you make. So at the base level, with the fertilizers --- think like fertilizer you could purchase at the store, something like that --- it's around like $1 per kilogram. So these aren't very expensive components. And part of that is because fertilizer is very cheap and subsidized in the US. However, we've shown that in places like Kenya, where I've done some of my field work, making fertilizer from urine is actually one of the cheapest ways to do it because it's locally produced. There, ertilizer is produced outside of the country, by and large, and then it's imported into the country. And so there are huge markups every time the fertilizer changes hands. So one of the huge benefits of our approach, that honestly, I didn't anticipate, was simply that it's locally derived fertilizer. Where there are people, there's urine, and therefore we can make fertilizer. And it was about 40% cheaper than imported fertilizers.
 
-![](<https://loe.org/shows/ /content/2026-02-27/TARPEH_urinsample.jpg >)
-
-William Tarpeh researches how to pull chemicals used in fertilizer from human urine because it contains high concentrations of phosphorus, nitrogen, and potassium, the key ingredients in many fertilizers. This is a sample from a U.S. Army laboratory in Maryland. The appearance of U.S. Department of Defense (DoW) visual information does not imply or constitute DoW endorsement. (Photo: David McNally, Army Research Laboratory, dvidshub.net)
+![William Tarpeh researches how to pull chemicals used in fertilizer from human urine because it contains high concentrations of phosphorus, nitrogen, and potassium, the key ingredients in many fertilizers. This is a sample from a U.S. Army laboratory in Maryland. The appearance of U.S. Department of Defense (DoW) visual information does not imply or constitute DoW endorsement. (Photo: David McNally, Army Research Laboratory, dvidshub.net)](<https://loe.org/shows/ /content/2026-02-27/TARPEH_urinsample.jpg >)
 
 CURWOOD: So there's a problem in our oceans with too much nitrogen, and that comes from fertilizer runoff from people who use commercial nitrogen as part of fertilizer. To what extent does your work give us some insights as to how we might be able to shift from this sort of chemical burden of using nitrogen-based fertilizer to recycling and having more of a virtuous circle there?
 
@@ -69,9 +65,7 @@ CURWOOD: So talk to me about these various projects you've done. You mentioned t
 
 TARPEH: Yeah, so we've started some work on farm in Salinas, California, a little bit south of us. And it's in partnership with the US Department of Agriculture, and we've managed to measure different nitrogen forms in runoff at that farm. And so things like nitrate, which is another form of nitrogen --- that actually can cause forms of thyroid cancer, also can cause several disorders for infants --- that nitrate just goes into the water and eventually makes its way to streams, rivers, lakes, et cetera. What we've done is developed a way to capture that nitrate and convert it, at least partially, into ammonia, so that it can be a product that you use on site. So there we're making a small circle, if you will, on the farm, so that the nitrate that would leave the farm gets trapped, converted to ammonia that we can then use on the farm, and again, avoid the energy and emissions of the farm that would have been not importing but transporting fertilizers for use.
 
-![](<https://loe.org/shows/ /content/2026-02-27/TARPEH_algalbloom.jpg >)
-
-The buildup of phosphorus and nitrogen in natural bodies of water can lead to harmful algal blooms, like this one in Lake Erie. (Photo: NOAA Great Lakes Environmental Research Laboratory, Wikimedia Commons, CC BY-SA 2.0)
+![The buildup of phosphorus and nitrogen in natural bodies of water can lead to harmful algal blooms, like this one in Lake Erie. (Photo: NOAA Great Lakes Environmental Research Laboratory, Wikimedia Commons, CC BY-SA 2.0)](<https://loe.org/shows/ /content/2026-02-27/TARPEH_algalbloom.jpg >)
 
 CURWOOD: So we've been talking predominantly about fertilizer, urine, but what other products do you envision coming from wastewater?
 
@@ -81,9 +75,7 @@ CURWOOD: So you're suggesting that we could get the minerals we might need for s
 
 TARPEH: Yeah. So rather than sewage there, because those are in low concentrations, we instead go to, actually, industrial water. So one of the things we do is look at when batteries are recycled, we can actually leach the old batteries. By that, I mean put them in acid and get the ions out, and then make new batteries. So we can make a circular economy out of batteries. We can also do that with waste electronics. Think some of the circuit boards and other things that get wasted. They often get leached, and then we can make pure forms of each metal that you need, so that you can go back to the front end of the factory.
 
-![](<https://loe.org/shows/ /content/2026-02-27/TARPEH_smartphones.jpg >)
-
-Not only does Tarpeh research how to utilize chemicals from sewage, but his team also explores how to pull critical minerals, such as lithium, from industrial wastewater. Those minerals could then be used to make smartphones, like those pictured. (Photo: Ka Kit Pang, Wikimedia Commons, CC BY-SA 4.0)
+![Not only does Tarpeh research how to utilize chemicals from sewage, but his team also explores how to pull critical minerals, such as lithium, from industrial wastewater. Those minerals could then be used to make smartphones, like those pictured. (Photo: Ka Kit Pang, Wikimedia Commons, CC BY-SA 4.0)](<https://loe.org/shows/ /content/2026-02-27/TARPEH_smartphones.jpg >)
 
 CURWOOD: So how does environmental justice fit into the work you're doing?
 

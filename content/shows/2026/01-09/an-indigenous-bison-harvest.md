@@ -38,9 +38,7 @@ Modern herds again provide a reliable food source. During the recent government 
 
 \[SOUNDS OF PEOPLE CHATTING]
 
-![](https://loe.org/content/2026-01-06/2_bison_nutritional_supplements.jpeg)
-
-Bison are a big part of Native identity in the region. Tribes historically hunted the animals for meat, nutritional supplements, and ceremonial objects. (Photo: Hart Van Denburg, Colorado Public Radio)
+![Bison are a big part of Native identity in the region. Tribes historically hunted the animals for meat, nutritional supplements, and ceremonial objects. (Photo: Hart Van Denburg, Colorado Public Radio)](https://loe.org/content/2026-01-06/2_bison_nutritional_supplements.jpeg)
 
 TALLBULL: Us Indians who are forced to live in the city, we don't have anything like that.
 
@@ -82,9 +80,7 @@ BRASCH: And he’s not grossed out by the gory scene in front of us. He’s pump
 
 SANCHEZ: My mom like makes this soup thing, right? She puts in bison, onions, and then she lets that, like, cook inside of a slow cooker and it’s so good.
 
-![](https://loe.org/content/2026-01-06/1_bisosn_tallbull_council.jpeg)
-
-Every year the TallBull Memorial Council in Denver organizes a ceremonial buffalo hunt, slaughtering an animal donated from Daniels Park. (Photo: Hart Van Denburg, Colorado Public Radio)
+![Every year the TallBull Memorial Council in Denver organizes a ceremonial buffalo hunt, slaughtering an animal donated from Daniels Park. (Photo: Hart Van Denburg, Colorado Public Radio)](https://loe.org/content/2026-01-06/1_bisosn_tallbull_council.jpeg)
 
 BRASCH: Sanchez says those meals make him proud to be Native, even though his family isn’t linked to a single tribe.
 

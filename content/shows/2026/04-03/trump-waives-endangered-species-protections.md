@@ -21,9 +21,7 @@ DOERING: So Pat, what exactly is this "God Squad", as it’s nicknamed?
 
 PARENTEAU: Yeah, so this is a cabinet level committee, and it was created in 1978 after the Supreme Court’s decision in Tennessee Valley Authority versus Hill, the infamous snail darter case in which the supreme court basically said only Congress can decide how to deal with a situation where the Endangered Species Act is causing a matter of national interest to be blocked. So that’s where the term "God Squad" comes from, because the committee does have the power to waive the requirements of the ESA all the way to the point of allowing a species to go extinct, but only after there has been every effort expended to avoid that outcome. So the exemption process is the last resort where there’s truly an irreconcilable conflict between a matter of national interest, sometimes national security, and preservation of an endangered species. That’s the background.
 
-![](https://loe.org/content/2026-04-03/GODSQUAD_hegseth.jpg)
-
-Secretary of War Pete Hegseth asked the "God Squad" to exempt the oil and gas industry operating in the Gulf of Mexico from Endangered Species Act regulations, citing national security. (Photo: U.S. Department of Defense, Wikimedia Commons, public domain)
+![Secretary of War Pete Hegseth asked the "God Squad" to exempt the oil and gas industry operating in the Gulf of Mexico from Endangered Species Act regulations, citing national security. (Photo: U.S. Department of Defense, Wikimedia Commons, public domain)](https://loe.org/content/2026-04-03/GODSQUAD_hegseth.jpg)
 
 DOERING: Gotcha. Okay, so when you say that this is usually part of a long process, this is the measure of last resort. There’s no other options available. Everything else has been exhausted. Pat, I don’t think there’s been much of a process at all when it comes to this most recent use of the "God Squad."
 
@@ -31,17 +29,13 @@ PARENTEAU: There’s been no process at all. None of the steps required in the s
 
 DOERING: What does this decision to exempt oil and gas in the Gulf of Mexico from the Endangered Species Act really mean?
 
-![](https://loe.org/content/2026-04-03/GODSQUAD_ricewhale.jpg)
-
-The exemption threatens the existence of the Rice’s whale, of which there are only 50 or so left in the wild. (Photo: National Oceanic and Atmospheric Association (NOAA), Wikimedia Commons, public domain)
+![The exemption threatens the existence of the Rice’s whale, of which there are only 50 or so left in the wild. (Photo: National Oceanic and Atmospheric Association (NOAA), Wikimedia Commons, public domain)](https://loe.org/content/2026-04-03/GODSQUAD_ricewhale.jpg)
 
 PARENTEAU: Well, if it was upheld by the courts, it would be a devastating blow to multiple endangered species that are in the Gulf of Mexico. That includes the critically endangered Rice’s whale, of which there are only about 51 in the wild, as well as the sperm whale, two species of endangered sea turtles and the manatee. These are all species that require protection of the Endangered Species Act to survive and recover. Without those protections, the risk of extinction becomes much greater for these species. So that’s the real world consequence of what Trump is trying to do. He could actually be the first president in history to be responsible for the extinction of a marine mammal, the Rice’s whale. The science is saying, If just one breeding female of that population were to be killed as a result of a vessel strike, that could doom the Rice’s whale to extinction. This kind of decision is not only unprecedented, it’s wildly irresponsible, because the mechanisms to avoid jeopardy to these species are common sense things. For example, NOAA, the National Oceanic and Atmospheric Administration has determined that to avoid jeopardy to the Rice’s whale, boats need to keep a lookout for when whales are in the vicinity, and then slow down so you don’t run over them. So you see this is crazy kind of approach to the law. The law is operating very reasonably, just trying to avoid the worst impacts to these species. And along comes Secretary Hegseth and says, “I don’t care about any of that. I want oil and gas development to proceed without regard to protection of any of these species.”
 
 DOERING: And explain how the Trump administration is using national security to justify this most recent use of the "God Squad."
 
-![](https://loe.org/content/2026-04-03/GODSQUAD_whoopingcrane.jpg)
-
-Pat Parenteau worked to secure protections for the whooping crane when the Endangered Species Committee first met 50 years ago. Parenteau says it’s never an either-or choice between protecting species and investing in national interests. (Photo: Gary Leavens, Wikimedia Commons, CC BY-SA 2.0)
+![Pat Parenteau worked to secure protections for the whooping crane when the Endangered Species Committee first met 50 years ago. Parenteau says it’s never an either-or choice between protecting species and investing in national interests. (Photo: Gary Leavens, Wikimedia Commons, CC BY-SA 2.0)](https://loe.org/content/2026-04-03/GODSQUAD_whoopingcrane.jpg)
 
 PARENTEAU: There is a provision in the law for a national security exemption, but the legislative history of the 1978 amendments that created the exemption process makes it clear that that is a very narrow exception, and it is only to be used where there is a direct threat to military readiness and military operations. Hegseth’s finding that he presented to the committee on the 31st is that the supply chain for oil has been interrupted because of the war in Iran and the closure of the Straits of Hormuz. But none of that has anything to do with the Endangered Species Act. The Endangered Species Act is not threatening oil supplies in the United States at all. It’s not even slowing down oil and gas development. There’s no outstanding injunction against oil and gas development in the Gulf of Mexico, none. So I don’t know what Hegseth is talking about.
 

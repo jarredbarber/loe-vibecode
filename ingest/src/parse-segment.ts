@@ -196,6 +196,48 @@ function collectLinks(root: Root): { href: string; text: string }[] {
     return links;
 }
 
+/**
+ * For each <div class="imagecenter"> that wraps an <img> and a <p class="caption">,
+ * move the caption text into the img's `alt` attribute and drop the <p>.
+ * The speaker_highlight plugin downstream looks for <img> with non-empty alt
+ * inside a paragraph and converts it to <figure><figcaption>, which is what
+ * we want for inline image captions.
+ */
+function inlineImageCaptions(node: ElementContent | Element): void {
+    if (node.type !== 'element') return;
+    const el = node as Element;
+    if (el.tagName === 'div' && (el.properties?.className as string[] | undefined)?.includes('imagecenter')) {
+        const img = (el.children ?? []).find(
+            (c): c is Element => c.type === 'element' && (c as Element).tagName === 'img',
+        );
+        const captionIdx = (el.children ?? []).findIndex(
+            (c) =>
+                c.type === 'element' &&
+                (c as Element).tagName === 'p' &&
+                ((c as Element).properties?.className as string[] | undefined)?.includes('caption'),
+        );
+        if (img && captionIdx !== -1) {
+            const cap = el.children[captionIdx] as Element;
+            const captionText = textOf(cap).trim();
+            if (captionText) {
+                img.properties = img.properties ?? {};
+                img.properties.alt = captionText;
+                el.children.splice(captionIdx, 1);
+            }
+        }
+    }
+    for (const child of el.children ?? []) inlineImageCaptions(child as ElementContent);
+}
+
+function textOf(node: Element): string {
+    let s = '';
+    for (const c of node.children ?? []) {
+        if (c.type === 'text') s += (c as { value: string }).value;
+        else if (c.type === 'element') s += textOf(c as Element);
+    }
+    return s;
+}
+
 function absolutizeUrls(node: ElementContent | Element): void {
     if (node.type !== 'element') return;
     const el = node as Element;
@@ -216,7 +258,10 @@ function buildBodyMarkdown(
     transcriptChildren: ElementContent[],
     links: { href: string; text: string }[],
 ): string {
-    for (const c of transcriptChildren) absolutizeUrls(c);
+    for (const c of transcriptChildren) {
+        inlineImageCaptions(c);
+        absolutizeUrls(c);
+    }
     const wrapper: Element = {
         type: 'element',
         tagName: 'div',

@@ -33,9 +33,7 @@ MAN 1: Early in the morning, when the sun comes up, and there's hardly anybody o
 
 WOMAN 1: I haven't skated for years. I skated when I was a kid, and it's great to be able to skate again, and it's just so much fun skating to work. I just think it's incredible. This frozen Rideau Canal is like a wonder of the world.
 
-![](https://loe.org/content/2013-03-29/bigstock-Winterlude-Festival-in-Ottawa-7003728.jpg)
-
-Winterlude Festival on the canal in Ottawa (photo: bigstockphoto.com)
+![Winterlude Festival on the canal in Ottawa (photo: bigstockphoto.com)](https://loe.org/content/2013-03-29/bigstock-Winterlude-Festival-in-Ottawa-7003728.jpg)
 
 CARTY: For two-and-a-half months, from late December to the usual mid-March thaw, an old canal running through Ottawa becomes the world's largest skating rink. It's 15 yards wide in most places. On one side students head south towards the University. On the other side, some neighbors and I are heading downtown with backpacks and briefcases. It's a three-and-a-half-mile commute for me, a 20-minute skate on a good day.
 
@@ -69,9 +67,7 @@ WOMAN 8: The amazing thing is, on a beautiful Saturday or Sunday, to see thousan
 
 \[SKATING ON ICE]
 
-![](https://loe.org/content/2013-03-29/bigstock-Rideau-Canal-3896864.jpg)
-
-Ottawa skaters (photo: bigstockphoto.com)
+![Ottawa skaters (photo: bigstockphoto.com)](https://loe.org/content/2013-03-29/bigstock-Rideau-Canal-3896864.jpg)
 
 CARTY: At the end of the day, the commuters reappear on the skateway, a bit rubbery in the legs. Which sometimes requires a brief stop for rest and refreshment at one of the outdoor eateries on the canal.
 

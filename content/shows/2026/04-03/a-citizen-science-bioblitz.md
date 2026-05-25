@@ -23,9 +23,7 @@ O’NEILL: On the island, the spring thaw and rain mean plenty of mud. Fortunate
 
 LUKE: We have some tools that we’re gonna give you that’s gonna help you explore today, help you feel comfortable going out, getting your feet… not wet, but your boots wet.
 
-![](https://loe.org/content/2019-04-26/CNC_marsh.jpg)
-
-Luke Thorson from Thompson Island Outward Bound (left) Marc Albert from the National Park Service (center) help two of the BioBlitz teens out of a particularly sticky spot in the marsh. (Photo: Courtesy of Colleen Hitchcock)
+![Luke Thorson from Thompson Island Outward Bound (left) Marc Albert from the National Park Service (center) help two of the BioBlitz teens out of a particularly sticky spot in the marsh. (Photo: Courtesy of Colleen Hitchcock)](https://loe.org/content/2019-04-26/CNC_marsh.jpg)
 
 O’NEILL: This field site on Thompson Island is maintained by the program Outward Bound, and frequently hosts Boston public school students. Luke directs us to a shed where we change into knee-high waders.
 
@@ -87,9 +85,7 @@ O’NEILL: When we arrive at the marsh it’s a flurry of activity to get out ne
 
 VOICE #1: Oh, a hermit crab! Aah! Success!
 
-![](https://loe.org/content/2019-04-26/CNC_hermitcrab.jpg)
-
-Hermit crabs were among the favorite finds of the girls. (Photo: Courtesy of Colleen Hitchcock)
+![Hermit crabs were among the favorite finds of the girls. (Photo: Courtesy of Colleen Hitchcock)](https://loe.org/content/2019-04-26/CNC_hermitcrab.jpg)
 
 VOICE #2: He’s, like, hiding! Should we go do it on iNaturalist?
 
@@ -155,9 +151,7 @@ VOICE #1: I think the salt marshes, because that’s when we saw the most life, 
 
 VOICE #2: Well, I also really liked the salt marshes, because we got to, like. I never really paid that close of attention to how much life there was. And I really liked just getting muddy and just exploring.
 
-![](https://loe.org/content/2019-04-26/CNC_ferry.jpg)
-
-The Boston BioBlitz Initiative for Girls and their chaperones. (Photo: Courtesy of Colleen Hitchcock)
+![The Boston BioBlitz Initiative for Girls and their chaperones. (Photo: Courtesy of Colleen Hitchcock)](https://loe.org/content/2019-04-26/CNC_ferry.jpg)
 
 O’NEILL: And to document the life they’ve seen, the girls log on to iNaturalist. With heads down, huddled around our phones, we must look quite the sight – windswept, muddy, slightly sunburnt, and appreciating nature in our own new-fashioned way.
 

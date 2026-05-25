@@ -25,9 +25,7 @@ SEN. SMITH: I know that the Boundary Waters is so important to Minnesota, and th
 
 DOERING: So how far back does this fight over whether to mine in the Boundary Waters area go? And what are some of the main concerns about that mining?
 
-![](https://loe.org/content/2026-04-24/SENATE_commonloon.jpg)
-
-A common loon at Pickle Lake situated within Boundary Waters Canoe Area Wilderness. The area was first protected in 1909. (Photo: Timothy Riley, Wikimedia Commons, CC BY-SA 3.0)
+![A common loon at Pickle Lake situated within Boundary Waters Canoe Area Wilderness. The area was first protected in 1909. (Photo: Timothy Riley, Wikimedia Commons, CC BY-SA 3.0)](https://loe.org/content/2026-04-24/SENATE_commonloon.jpg)
 
 SEN. SMITH: Yeah, well, it goes back for many, many years. And, you know, it's interesting, I think, to think about the history of this place. So imagine this million acres of lake and bog, and it's right on the US, Minnesota-Canadian border, right next to Voyageurs National Park. Of course, human beings have been in this part of the world for hundreds and hundreds and hundreds of years. It is the traditional homeland of the Anishinaabe people during the fur-trapping Hudson Bay years, it was also the place where there were people trapping beaver and hunting and fishing. And over the years, though, this particular place has been set aside and protected starting in like 1909, I think, when the first protections were put in place. In 1978 the Boundary Waters Canoe Area Wilderness was protected as a non-motorized wilderness area. And meanwhile, now in many other places in northern Minnesota, there's been a lot of mining that has gone on. This is traditionally also a mining part of Minnesota. Minnesota is a mining state, the largest producer of iron ore in the whole country. My view, and I think the view of most Minnesotans, is we support mining, but not this particular mine in this particular place. And this mine is unique because it is a copper sulfide mine, which is a very dangerous and polluting kind of mine to build. Every single time that this kind of mine has been built, it has resulted in polluting the watershed, and that's why it is so dangerous here, because this is a very wet, as I said, damp, boggy part of the country, and that copper sulfide pollution flows into the Boundary Waters, and it can move hundreds of miles through the watershed and do great damage.
 
@@ -35,9 +33,7 @@ DOERING: Yes, I mean just how close would the mining be, and why is there this c
 
 SEN. SMITH: So this mine is not in the Boundary Waters, but it is on the doorstep of the Boundary Waters. It is extremely close to this lake called Birch Lake that connects to the Boundary Waters. What you see with this kind of mine is, essentially what happens is that you mine this rock that has copper and sulfur in it, you bring it up to the surface, hundreds and hundreds of tons of this rock, it sits on the surface, and then the sulfur in the rock immediately interacts chemically with oxygen and the water in the air and on the ground, and it basically turns into sulfuric acid, like battery acid. And what happens is, then, of course, that there's that hundreds of millions of tons of rocks. It's just forever. It's not like it goes anywhere after it's been processed and the copper has been taken out. And though the mining companies will say that they have ways of containing this and that they have ways of protecting the watershed, of course, as I've said, in 100% of the cases, that has not been the case, and particularly right here in this place, which is so dangerous.
 
-![](https://loe.org/content/2026-04-24/SENATE_sensmith.jpg)
-
-United States Senator Tina Smith (D-MN) held the Senate floor for hours trying to convince her colleagues to leave in place a moratorium on mining near the Boundary Waters. (Photo: Rebecca Hammel, U.S. Senate Photographic Studio, Wikimedia Commons, public domain)
+![United States Senator Tina Smith (D-MN) held the Senate floor for hours trying to convince her colleagues to leave in place a moratorium on mining near the Boundary Waters. (Photo: Rebecca Hammel, U.S. Senate Photographic Studio, Wikimedia Commons, public domain)](https://loe.org/content/2026-04-24/SENATE_sensmith.jpg)
 
 DOERING: Senator, proponents of this mine do say that this operation could be a huge financial gain for the US, for Minnesota, these valuable copper reserves there in the ground, near boundary waters. So how do you weigh the economic benefits versus the costs here?
 
@@ -47,9 +43,7 @@ DOERING: What have you been hearing from your constituents about this?
 
 SEN. SMITH: Oh, man. I mean, this fight has really captured the heart and this imagination of Minnesotans and I think people all over the country. I went home on Friday and I was traveling around the state, in a completely different part of the state. And so many people came up to me and just said, "Thank you, Tina, for fighting for the Boundary Waters." I believe that the public opinion polling shows that something like 70% of Minnesotans don't want to see this mine built in this place. And I feel like a lot of them came up to me.
 
-![](https://loe.org/content/2026-04-24/SENATE_miners.jpg)
-
-Miners at work on the Mesabi Iron Range in northeast Minnesota, US, in 1903. The state has a long mining history, being the largest producer of iron ore in the country. (Photo: Frances Benjamin Johnston, Wikimedia Commons, public domain)
+![Miners at work on the Mesabi Iron Range in northeast Minnesota, US, in 1903. The state has a long mining history, being the largest producer of iron ore in the country. (Photo: Frances Benjamin Johnston, Wikimedia Commons, public domain)](https://loe.org/content/2026-04-24/SENATE_miners.jpg)
 
 DOERING: Why does this issue matter to the Indigenous peoples in the area? I mean, you mentioned the Anishinaabe peoples who have lived there for thousands of years.
 
@@ -57,9 +51,7 @@ SEN. SMITH: So that is such a great point. And I am so grateful for the ways tha
 
 DOERING: So you mentioned the protections being put in place in 1909 and that was when Theodore Roosevelt was president. He was the first to conserve the Superior National Forest where Boundary Waters sits, and that was as part of this larger tradition in American history of conserving public lands. But that tradition seems to be changing now, in some ways, with the Trump administration aiming to open up public lands to more logging, more drilling. How do you see that change, and what might that mean for the future of the country?
 
-![](https://loe.org/content/2026-04-24/SENATE_darksunset.jpg)
-
-A dark sunset is reflected on Alice Lake in Minnesota’s Boundary Waters Canoe Area Wilderness. (Photo: Dan Carlson, Wikimedia Commons, public domain)
+![A dark sunset is reflected on Alice Lake in Minnesota’s Boundary Waters Canoe Area Wilderness. (Photo: Dan Carlson, Wikimedia Commons, public domain)](https://loe.org/content/2026-04-24/SENATE_darksunset.jpg)
 
 SEN. SMITH: What you say is exactly right, that for you know, well over 100 years, there has been a bipartisan consensus that there are special, precious places in this country that need to be set aside, not for nobody to ever go to, but set aside for everybody in the country to be able to enjoy and that they belong to all of us, and the Boundary Waters is very much a part of that tradition and that value that has been bipartisan. If you think about Yosemite or the Grand Canyon or Yellowstone or Voyageurs National Park, or you think about places like Chaco Canyon or places that have such a deep connection to the diverse history of this place that we now call the United States. And the undermining of that support for public lands is happening during this Trump administration. Sometimes I think my colleagues are like, okay with developing public lands in other people's states while they want to protect the public lands in their state. And that for sure, there was some of that going on here, though, I have to say, many Republicans came up to me in the midst of this debate and expressed basically some version of, I'm not really so sure that we're setting the right precedent here, but I'm not going to stand in the way of it.
 

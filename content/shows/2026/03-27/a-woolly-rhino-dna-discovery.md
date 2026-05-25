@@ -25,9 +25,7 @@ DOERING: So I understand that you found this woolly rhino DNA in the belly of a 
 
 CHAĆON-DUQUE: It all starts in 2011 when some local people that were exploring the permafrost around a village called Tumat in northeast Siberia, found this very unusual mummy. They really didn't know what it was, so they called a team of paleontologists, including one of the coauthors of the study. And then they went to the site. They did all the characterization of the site. They took the specimen to the museum, and they define it was wolf puppy. There's been a lot of studies on this puppy, and actually another puppy that was found in the same site a few years after that, and they found out that they were two female cubs, two female puppies. They were around seven to nine weeks old, and they probably died because the den where they lived collapsed, so they died quite quickly. And since the environment was so cold, they pretty much froze immediately.
 
-![](https://loe.org/content/2026-03-27/RHINO_chaconduque.JPG)
-
-J. Camilo Chacón-Duque is one of the researchers on a recent paper describing how scientists pulled DNA from an extinct species called the woolly rhinoceros. The results have implications for how species go extinct today. (Photo: Natalia Romagosa, courtesy of J. Camilo Chacón-Duque)
+![J. Camilo Chacón-Duque is one of the researchers on a recent paper describing how scientists pulled DNA from an extinct species called the woolly rhinoceros. The results have implications for how species go extinct today. (Photo: Natalia Romagosa, courtesy of J. Camilo Chacón-Duque)](https://loe.org/content/2026-03-27/RHINO_chaconduque.JPG)
 
 DOERING: I guess that immediate collapse and dying pretty quickly helped preserve this ancient DNA. So how did your team manage to extract this DNA from the puppy's stomach?
 
@@ -35,9 +33,7 @@ CHAĆON-DUQUE: Okay, this is where my colleagues at the Center for Paleogenetics
 
 DOERING: What actually makes this discovery special and exciting for you?
 
-![](https://loe.org/content/2026-03-27/RHINO_woollyrhinotissue.JPG)
-
-The researchers were astounded by the intact nature of the woolly rhino tissue found inside the stomach of the wolf puppy. Note that the small cut marks are from the DNA sampling done at the Centre for Palaeogenetics in Stockholm. (Photo: Love Dalén, courtesy of J. Camilo Chacón-Duque)
+![The researchers were astounded by the intact nature of the woolly rhino tissue found inside the stomach of the wolf puppy. Note that the small cut marks are from the DNA sampling done at the Centre for Palaeogenetics in Stockholm. (Photo: Love Dalén, courtesy of J. Camilo Chacón-Duque)](https://loe.org/content/2026-03-27/RHINO_woollyrhinotissue.JPG)
 
 CHAĆON-DUQUE: It's actually, to our understanding, the first time that we can get such a high resolution on the genetic code of an organism from such an unusual and challenging sample. So then being able to get this very detailed picture of its genetic background profile is amazing. Also, the fact that this individual dates back to very close to the extinction of the species. So basically, the species disappear from the fossil record around that time, like some 400 years after the time where this specific individual existed. So it meant for us that we got very, very close to the final extinction event of the species. We could have not done that with just a regular fossil.
 
@@ -51,9 +47,7 @@ CHAĆON-DUQUE: This is probably one of the most fun and challenging projects I'v
 
 DOERING: So Camilo, what do we know about what caused the extinction of the woolly rhino maybe 14,000 or so years ago?
 
-![](https://loe.org/content/2026-03-27/RHINO_preserved.JPG)
-
-This research built off of previous work done on other preserved woolly rhinos, including this one residing in Yakutsk, Russia. (Photo: Mammoth Museum of North-Eastern Federal University, courtesy of J. Camilo Chacón-Duque)
+![This research built off of previous work done on other preserved woolly rhinos, including this one residing in Yakutsk, Russia. (Photo: Mammoth Museum of North-Eastern Federal University, courtesy of J. Camilo Chacón-Duque)](https://loe.org/content/2026-03-27/RHINO_preserved.JPG)
 
 CHAĆON-DUQUE: Okay, that's pretty interesting question. And there was a big climate change event happening around the same time that the species disappeared, like a warming event, and this tell us that climate change must have been one of the main, or the main cause of extinction. Obviously, we cannot rule out that there were other things influencing like humans, but climate change probably played a main role.
 

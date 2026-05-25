@@ -27,9 +27,7 @@ GOLBERT: Thank you very much, I’m very glad to be here.
 
 CURWOOD: Please tell me how your genealogical research connects to resisting heavy industry?
 
-![](https://loe.org/content/2023-02-24/BLACKHISTORY_plant.jpg)
-
-A petrochemical plant owned by Formosa. (Photo: Formulanone, Flickr, CC BY SA 2.0)
+![A petrochemical plant owned by Formosa. (Photo: Formulanone, Flickr, CC BY SA 2.0)](https://loe.org/content/2023-02-24/BLACKHISTORY_plant.jpg)
 
 GOBERT: Well, it's really interesting. And the way I like to characterize it is, if you're familiar with some of the culture of Louisiana, there's something called a second line, which traditionally has been the line of people that have followed the casket and the musicians taking somebody to a burial site. And that's how I look at my work. There are people who have been fighting the fight against the petrochemical companies. And this includes the community organizations as well as lawyers and other environmental organizations working along with them. I am coming behind them to help document the claims that are being made about ancestors being buried on the plantations and therefore being threatened by the expansion of petrochemical companies. And people who are from the area have always said that there are grave sites there, there are people buried there. So this started sparking the interest of other community members and people working at the Bucket Brigade, to ask me to start looking into it and see what I could find. And yes, in fact, from the St. James courthouse, I went to the mortgage records to find out which enslaved people had been mortgaged by Benjamin Winchester, who owned the Buena Vista plantation. And a lot of people don't know that enslaved people were mortgaged to raise money to keep the plantations running. And there was an organization, or a financial organization called the Consolidated Association of Louisiana Planters that Benjamin Winchester mortgaged his enslaved people to. So I researched it and found out that their papers are held at the Louisiana State Archives in Baton Rouge. And I went up there, and they're just organized by month and by year in boxes. So I went there, and I had to start looking through documents from about 1820, up until about 1850, to see what transactions of Benjamin Winchester I could find. And in one of the papers, there was—he had a few papers where he had mortgaged people and he had them listed, but in this particular one, he had the men listed together, the women and the children. And there was nine-year-old Rachel, and next to her name was written the word "dead," - D-E-A-D. And that sent shivers up my spine, because obviously, Benjamin Winchester had intended to mortgage her, she was on the list with everybody else, but she died before he could mortgage her. So if she died, and she's from that plantation, logic and everything that we know historically about this institution says that she is buried on Buena Vista plantation, in the enslaved peoples' burial site. So that was how the story came about. This work that I did and this document that I found, starts setting the stage for other documents to be found in additional situations, to provide this as a tool to help stop these petrochemical companies from expanding further.
 
@@ -37,9 +35,7 @@ CURWOOD: So what does the records tell you about Rachel, the slave, aged nine, n
 
 GOBERT: Nothing, so far. Not many records were kept on enslaved people, as I'm sure you know. And a find like this is for me and for a lot of other genealogists extremely rare and very special, because it starts giving names and locations to people and what may have happened in their lives. But again, she was only nine years old. So I haven't revealed this yet outside of just talking to one or two people, but I have found the document where Benjamin Winchester purchased her and her mother and two brothers. So I know where she came from. I know who sold her, but I don't know anything about her life other than that, and that she died at nine years old.
 
-![](https://loe.org/content/2023-02-24/BLACKHISTORY_plastic.jpg)
-
-Plastic nurdles created by ethane cracker plants like the ones in Cancer Alley. Plastic nurdles are the primary feedstock of plastic manufacturing. (Photo: Mark Dixon, Flickr, Public Domain)
+![Plastic nurdles created by ethane cracker plants like the ones in Cancer Alley. Plastic nurdles are the primary feedstock of plastic manufacturing. (Photo: Mark Dixon, Flickr, Public Domain)](https://loe.org/content/2023-02-24/BLACKHISTORY_plastic.jpg)
 
 CURWOOD: Well, so, okay, where did she come from? Who sold her?
 
@@ -53,9 +49,7 @@ CURWOOD: So how do you feel that uncovering stories like Rachel's help to push b
 
 GOBERT: Well, you know, these are sacred sites, actually. But the fact that this area is considered so vital to the US economy, that this heavy industry must be sited there, means that they will do pretty much anything that they need to do to overlook the fact that there are human beings who are buried all along the river, there are thousands of these burial sites. But they do not want to acknowledge them, because of course, it prevents them from building there. So the sacred sites of the enslaved people count for nothing. And this is my opinion, but I believe that to be totally true.
 
-![](https://loe.org/content/2023-02-24/BLACKHISTORY_sugarcane.jpg)
-
-Sugarcane fields in front of the Marathon Garyville refinery between Baton Rouge and New Orleans, Louisiana. Enslaved African Americans once toiled to grow sugarcane on plantations, and today petrochemical plants are replacing agriculture in the region. (Photo: Jenni Doering)
+![Sugarcane fields in front of the Marathon Garyville refinery between Baton Rouge and New Orleans, Louisiana. Enslaved African Americans once toiled to grow sugarcane on plantations, and today petrochemical plants are replacing agriculture in the region. (Photo: Jenni Doering)](https://loe.org/content/2023-02-24/BLACKHISTORY_sugarcane.jpg)
 
 CURWOOD: So the records that you found for Rachel indicate that she and her mother came from the Kentucky area. And there's a saying in the American English vernacular of being "sold down the river." How does that saying pertain in this case?
 
@@ -73,9 +67,7 @@ CURWOOD: The Mississippi River was home to many slave plantations, and of course
 
 GOBERT: That it's been there since the peculiar institution was invented, and it's never gone away. And because it's not right in our face the way it was in the 1700s, 1800s, it feels like things have gotten better. But you're right, institutionalized slavery is more insidious, it's there. It keeps people of color from reaching their full potential, from participating in the full economy of the United States. And for some reason, people don't want to hear this. They don't want to know this. And I believe that through the work that people like me are doing, genealogists, because we document individual family stories, and we document community stories, and we let people know what has happened and what is continuing to happen, and tie those things together for them -- plantation life is still going on to this day. It's in a different form, but it's still there.
 
-![](https://loe.org/content/2023-02-24/BLACKHISTORY_map2.jpg)
-
-Pictured above is an 1858 map from Persac's Mississippi plantations map, that clearly shows the site of the Benjamin Winchester Buena Vista plantation at the top left. (Photo: Courtesy of Lenora Gobert)
+![Pictured above is an 1858 map from Persac's Mississippi plantations map, that clearly shows the site of the Benjamin Winchester Buena Vista plantation at the top left. (Photo: Courtesy of Lenora Gobert)](https://loe.org/content/2023-02-24/BLACKHISTORY_map2.jpg)
 
 CURWOOD: Are you suggesting that if you talk back against the chemical plant in your neighborhood, that you or your family is likely to lose their employment, their livelihood, there is no freedom for those folks?
 

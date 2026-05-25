@@ -25,9 +25,7 @@ WARREN: So, one of the things that my team does primarily is that we manage the 
 
 O'NEILL: Well, so Amy, you're the perfect person for this. If somebody has never seen one of these right whales, not even a photo, how can we help visualize them? What makes these whales identifiable? What helps them stand out?
 
-![](https://loe.org/content/2026-05-22/WHALES_bocce.JPG)
-
-The 2025-2026 North Atlantic right whale calving season, which runs from mid-November to mid-April, saw 23 calves born, the largest number seen since 2009. Bocce’s calf, mom in the background (#3860). (Photo: New England Aquarium, taken under NOAA Permit #25739-01)
+![The 2025-2026 North Atlantic right whale calving season, which runs from mid-November to mid-April, saw 23 calves born, the largest number seen since 2009. Bocce’s calf, mom in the background (#3860). (Photo: New England Aquarium, taken under NOAA Permit #25739-01)](https://loe.org/content/2026-05-22/WHALES_bocce.JPG)
 
 WARREN: A lot of people know humpback whales, so I think it's sometimes easiest to start with them. And right whales are similar in some ways to people who don't know them in size. They're actually a little bit bigger, a little bit heavier, 50 feet long, 50 tons, but what's unique about right whales is they have these white patches on their head, they're called callosities, and they're actually collections of whale lice, so they're actually small...
 
@@ -57,9 +55,7 @@ WARREN: Yes, exactly. So their population actually did start to increase because
 
 O'NEILL: And as I understand it, the problem isn't only with the whales themselves dying, but there's also an issue with the birth rates overall. How right is that?
 
-![](https://loe.org/content/2026-05-22/WHALES_echo.JPG)
-
-In the last decade, North Atlantic right whale mothers have gone as many as 10 years between birthing calves, but in the 2025-2026 season, several mothers had given birth only a few years prior. Shown above is Echo’s (#2642) calf. (Photo: New England Aquarium, taken under NOAA Permit #25739-01)
+![In the last decade, North Atlantic right whale mothers have gone as many as 10 years between birthing calves, but in the 2025-2026 season, several mothers had given birth only a few years prior. Shown above is Echo’s (#2642) calf. (Photo: New England Aquarium, taken under NOAA Permit #25739-01)](https://loe.org/content/2026-05-22/WHALES_echo.JPG)
 
 WARREN: Yeah, so there's a lot going into it, and it overall comes down to the health of the population, but also the health of each individual whale. So, you know, if whales aren't healthy, they're not going to be able to give birth, and when we say a whale isn't healthy, that could be for a number of reasons. It could be because they're not finding enough food, it could be that a whale was hit by a boat and it survived, but it has this injury that now its body is kind of like fighting back from.
 
@@ -73,9 +69,7 @@ WARREN: We need years and years of these very high calf counts, and years and ye
 
 O'NEILL: Amy, what do you think is important for people to keep in mind when they see this headline about, oh, great year for the North Atlantic right whale?
 
-![](https://loe.org/content/2026-05-22/WHALES_warren.JPG)
-
-Amy Warren is a Scientific Program Officer at the New England Aquarium. (Photo: Courtesy of Amy Warren)
+![Amy Warren is a Scientific Program Officer at the New England Aquarium. (Photo: Courtesy of Amy Warren)](https://loe.org/content/2026-05-22/WHALES_warren.JPG)
 
 WARREN: I know we like to talk about numbers a lot, right? We like to talk about the population number, we like to talk about the calf numbers, but in general, I think it's important to take a step back and look at the status of the population, just 20 whales here and 10 whales there, like in the grand scheme of things, that doesn't matter as much of the population, whether it's healthy or not, whether it's doing well, and like are there things that we could do to be helping them more, and I think over the years we have established a lot of management mitigation measures that do seem to be working, and especially giving a year with some positive news, I hope that can just be incentive to keep going, like don't stop, don't fall back thinking we fixed everything, it's not that simple.
 

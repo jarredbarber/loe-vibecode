@@ -31,9 +31,7 @@ O'NEILL: And there's a factor here that we haven't talked about yet, which is th
 
 KAUFMAN: So the Chinese government does cap its aluminum production. This is part of a concern over overcapacity. There are questions about whether there's a possibility China could raise its cap. But in the meantime, what this signifies is that China is indeed looking to clean up its industry with some of these pushes into green aluminum, as opposed to augmenting its demand with more green aluminum, while maintaining the existing incumbent production.
 
-![](https://loe.org/content/2026-05-15/greenalu_alloy.jpg)
-
-China is “greening” its aluminum production by shifting to the use of renewable electricity sources, producing fewer carbon emissions compared to traditional coal-powered smelting. (Photo: Whoisjohngalt, Wikimedia Commons, CC-BY-SA-4.0)
+![China is “greening” its aluminum production by shifting to the use of renewable electricity sources, producing fewer carbon emissions compared to traditional coal-powered smelting. (Photo: Whoisjohngalt, Wikimedia Commons, CC-BY-SA-4.0)](https://loe.org/content/2026-05-15/greenalu_alloy.jpg)
 
 O'NEILL: And there's a possibility, right, that China would start exporting aluminum production overseas, so to places that might not be using these same green standards. What do you make of that?
 

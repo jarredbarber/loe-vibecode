@@ -20,9 +20,7 @@ All Rights Reserved
 
 Snapping turtles have taken over the dyke road. As it winds its way through the Seney National Wildlife Refuge the dyke separates the ponds, upper from lower, in a series of cascades. Like the locks on a canal. The snapping turtles crawl up here from those ponds, each one to dig a nest and lay her eggs. They set themselves, clawed feet grasping the earth. And they labor. And will not move. Until the purpose is complete. To drive this road you drive around them. They were here first.
 
-![](https://loe.org/content/2026-05-01/LENDER_closeup.jpg)
-
-A closeup of a snapping turtle’s eyes. (Photo: Mark Seth Lender)
+![A closeup of a snapping turtle’s eyes. (Photo: Mark Seth Lender)](https://loe.org/content/2026-05-01/LENDER_closeup.jpg)
 
 The shells of snapping turtles tell their age. The measure of their overall size, of course and like tree rings, the concentric circles in the plates. It is much more than this. Putting a number to the years won’t tell you a thing compared to just - looking.
 

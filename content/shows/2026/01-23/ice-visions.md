@@ -19,9 +19,7 @@ HOFFNER: The first house I rented after moving to New England two decades ago wa
 
 Most mornings I’d pull on skates and glide across that lake until my legs were shaky and sore. The hiss and scrape of blades on ice was often the only sound against the deep, cold quiet of the sleeping landscape. The ice that first year was so clear I could watch fish swimming below. In early winter as the ice formed, I could even hear its cracks, and groans, and pings through the floor of my house.
 
-![](https://loe.org/content/2021-01-15/VISIONS_climatechanged.JPG)
-
-A “climate-changed” version of Hoffner’s Ice Visions. (Photo: Courtesy of Erik Hoffner)
+![A “climate-changed” version of Hoffner’s Ice Visions. (Photo: Courtesy of Erik Hoffner)](https://loe.org/content/2021-01-15/VISIONS_climatechanged.JPG)
 
 \[GROANS & PINGS OF ICE]
 

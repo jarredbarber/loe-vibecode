@@ -35,9 +35,7 @@ KELLY WEINERSMITH: \[LAUGHS]
 
 ZACH WEINERSMITH: And so we did, and once that was sort of intellectually open to us, then we could kind of, I don't want to say building a case. I think we tried to be as neutral as possible. But like, have a picture that wasn't completely enthusiastic.
 
-![](https://loe.org/content/2026-01-02/ACOM1_zandk.jpg)
-
-Kelly and Zach Weinersmith are the co-authors of *A City on Mars: Can We Settle Space, Should We Settle Space, and Have We Really Thought This Through?* (Photo: Courtesy of Zach and Kelly Weinersmith)
+![Kelly and Zach Weinersmith are the co-authors of A City on Mars: Can We Settle Space, Should We Settle Space, and Have We Really Thought This Through? (Photo: Courtesy of Zach and Kelly Weinersmith)](https://loe.org/content/2026-01-02/ACOM1_zandk.jpg)
 
 DOERING: Of course, you had to change tack partway through this project, and your book opens with a dedication that reads in part, "To the space-settlement community. We worry that many of you will be disappointed by some of our conclusions, but where we have diverged from your views, we haven't diverged from your vision of a glorious human future." So tell me about your relationship with the space-settlement community.
 
@@ -61,9 +59,7 @@ DOERING: \[LAUGHS] Why is that?
 
 ZACH WEINERSMITH: Well, you could say because everywhere else is worse. Look, if you're on Mars, here are the upsides. One, there is, by space standards, readily available water, not Earth-available, but available. So like the Poles have lots of water ice. It appears that if you dig down far enough at many, even most places on Mars, you eventually get to some water that you can access. Mind you, it has to be cleaned, which is not ideal, compared to Earth, where you it's much easier to get access to water, but it's there. And so water, if you do a little chemistry on it, it's not just water for you to drink and shower and have water balloon fights. It's like... you can crack it into hydrogen and oxygen, which doesn't just mean you get oxygen, which we like to breathe. It also means, you know, hydrogen and oxygen are some of the best rocket propellants when you combine them. If you can get access to water, you've done a lot of the job. In addition, Mars has like the elemental buffet needed to survive. It's made of roughly Earth-like proportions of stuff. And that matters because the best alternative, which is the moon, is not. The moon is poor in all sorts of stuff. So one way to say it would be, Mars gives you a chance, almost everywhere else, not really.
 
-![](https://loe.org/content/2026-01-02/ACOM1_h2o.jpg)
-
-In the right circumstances and with the right kind of chemical reactions, water can be utilized not only for drinking and bathing, but also for manufacturing oxygen and rocket propellants. (Image: Drawn by Zach Weinersmith)
+![In the right circumstances and with the right kind of chemical reactions, water can be utilized not only for drinking and bathing, but also for manufacturing oxygen and rocket propellants. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM1_h2o.jpg)
 
 DOERING: You know, one of the subheadings in your book is, “The Sun Wants to Kill You,” and then the next one is, “The Whole Universe Wants to Kill You, Actually.” So part of that is radiation. Can we just back up a little bit and talk about like, why is space so dangerous when it comes to radiation?
 
@@ -81,9 +77,7 @@ DOERING: Oh my. What was that phrase? “Flashlight…” \[LAUGHS]
 
 ZACH WEINERSMITH: “Flashlight beam of doom.”
 
-![](https://loe.org/content/2026-01-02/ACOM1_habitat.jpg)
-
-Because of the dangerous amounts of radiation from the Sun and outer space that reach the surface of Mars, human habitats would likely need to be underground and covered by dirt. (Image: Drawn by Zach Weinersmith)
+![Because of the dangerous amounts of radiation from the Sun and outer space that reach the surface of Mars, human habitats would likely need to be underground and covered by dirt. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM1_habitat.jpg)
 
 DOERING: Wow. Kelly and Zach, your book covers three main areas of study that need to advance for humans to settle space: technology, medicine and the law. Let's start with the first one. Technologically speaking, how far away are we from being able to build a space settlement community?
 
@@ -91,9 +85,7 @@ KELLY WEINERSMITH: I'd say we're pretty far. Space is a really difficult environ
 
 DOERING: \[LAUGHS]
 
-![](https://loe.org/content/2026-01-02/ACOM1_majorchallenge.jpg)
-
-One major technological challenge for the possibility of living on Mars lies within the agricultural sector and the recycling of resources, such as plants. (Image: Drawn by Zach Weinersmith)
+![One major technological challenge for the possibility of living on Mars lies within the agricultural sector and the recycling of resources, such as plants. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM1_majorchallenge.jpg)
 
 KELLY WEINERSMITH: So figuring out these closed loop ecosystems is going to be important. And then, because of the radiation problem, Zach talked about earlier, we're going to need to figure out how to get our habitats underground because we'll need that like dirt to protect us from the radiation. And so, figuring out how we're going to dig or cover our habitats in dirt will be difficult.
 
@@ -101,9 +93,7 @@ DOERING: We are going to need to eat on Mars. Why is local food essential up the
 
 ZACH WEINERSMITH: Well, I mean, so, you know, local food would be great, essentially, because the alternative is to ship it 10s of millions of miles through space. So ideally, what you'd want to do is build one of these closed loop ecologies that Kelly's describing, and then just recycle as much as possible. That way, you can essentially make use of the incoming energy from the sun on Mars, which is lower than on Earth, but still pretty good. And you know, one way to think about it is, we really take for granted all the stuff Earth does. Right? You don't worry most of the time that if you go outside, you're breathing something that might kill you. If you're in a sealed container, and it is going to be sealed, you really need this biosphere to be enough to cleanse everything bad while providing you tasty food and getting rid of your waste.
 
-![](https://loe.org/content/2026-01-02/ACOM1_sustainableagriculture.jpg)
-
-Sustainable agriculture and local food would be an essential part of the closed loop ecosystem while on Mars. (Image: Drawn by Zach Weinersmith)
+![Sustainable agriculture and local food would be an essential part of the closed loop ecosystem while on Mars. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM1_sustainableagriculture.jpg)
 
 DOERING: You know, I have to say, a lot of the food we grow here on Earth is not the most sustainably grown, and it takes a lot of resources. And I don't know how feasible that would be up on Mars. So what are some of the ideas for how we actually get enough of the nutrients that we as human beings, biological beings, need?
 
@@ -121,9 +111,7 @@ DOERING: \[LAUGHS]
 
 KELLY WEINERSMITH: But the problems that come after, including reproduction and whether or not that can happen safely, we don't have good data for that, and that's one of the things that we are most worried about in terms of space settlements.
 
-![](https://loe.org/content/2026-01-02/ACOM1_children.jpg)
-
-Childbirth and rearing are two of the most uncertain aspects of a potential future human expansion past our Earth. (Image: Drawn by Zach Weinersmith)
+![Childbirth and rearing are two of the most uncertain aspects of a potential future human expansion past our Earth. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM1_children.jpg)
 
 DOERING: Well, I don't think when we talk about going to space, a lot of people really think about like, envision kids, like young kids in space. We're always thinking about like Matt Damon and The Martian. You know, it's these adults on these settlements. But what are the considerations when it comes to kids and human pregnancy in space?
 
@@ -141,9 +129,7 @@ DOERING: Wow, we're not there yet, it sounds like you're saying.
 
 KELLY WEINERSMITH: No, no.
 
-![](https://loe.org/content/2026-01-02/ACOM1_gravity.jpg)
-
-One proposed strategy for mimicking Earth gravity in the vacuum of space involves the use of something called a rotating wheel space station. (Image: Drawn by Zach Weinersmith)
+![One proposed strategy for mimicking Earth gravity in the vacuum of space involves the use of something called a rotating wheel space station. (Image: Drawn by Zach Weinersmith)](https://loe.org/content/2026-01-02/ACOM1_gravity.jpg)
 
 DOERING: Well, and there are some solutions, potential solutions, that have been raised in terms of manufacturing gravity in space, Earth-level gravity in space. What do you think about those ideas? Zach?
 

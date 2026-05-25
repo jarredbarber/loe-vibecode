@@ -21,9 +21,7 @@ CURWOOD: HHS Secretary Bobby Kennedy Jr. was an outspoken legal advisor against 
 
 GILLAM: This is a really dramatic move by the President really turned a lot of heads and shocked people that he would be taking such an effort right now to be so protective of one company, essentially, and one chemical that is highly controversial because it's been linked to cancer and reproductive harms and a whole array of environmental problems as well.
 
-![](https://loe.org/content/2026-03-06/MONSANTO_glyphosate.jpg)
-
-Glyphosate-based pesticides like Roundup have been linked to cases of Non-Hodgkin lymphoma, a form of cancer affecting the lymphatic system. (Photo: Slknight, Wikimedia Commons, CC BY-SA 4.0)
+![Glyphosate-based pesticides like Roundup have been linked to cases of Non-Hodgkin lymphoma, a form of cancer affecting the lymphatic system. (Photo: Slknight, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-03-06/MONSANTO_glyphosate.jpg)
 
 CURWOOD: So, how have people within Make America Healthy Again reacted to this executive order?
 
@@ -33,9 +31,7 @@ CURWOOD: Now, one of the sides of this issue on glyphosate and health is this cl
 
 GILLAM: Yeah and this is Bayer's second attempt at a class action settlement. There have been close to 200,000 legal claims brought against Monsanto and then Bayer, which inherited this litigation. And again, these are brought by people who say that they developed Non-Hodgkin's lymphoma because of their use of glyphosate herbicides sold by Bayer or Monsanto, such as Roundup. And there have been earlier settlements through what is known as multi-district litigation. But this class action settlement would be different, because it would cover not just people who have already sued, but people who may want to sue in the future, maybe haven't been diagnosed yet with non-Hodgkin lymphoma that they would blame on their exposure. So the class action is really to cover current claims as well as claims that could develop over the next 20 years or so. And Bayer has said that they would pay out $7.25 billion over the course of the next several years. And there would be a tiered sort of settlement arrangement in which people who have a certain degree of aggressiveness of non-Hodgkin lymphoma, who might be of a certain age, who used it in a certain way, they would get, on average, a certain amount. It's all very structured and the payouts really aren't that much that are being proposed. They range, on average, from $10,000 a claim, to $165,000 a claim. And so, people who are suffering from cancer, the lawyers that represent them are saying, you know, this may not be enough, and we don't know that we really trust the company to fund the settlement. The company has threatened to file for bankruptcy because of this litigation. But Bayer is really looking at the whole scenario and really trying to pressure people into agreeing to this deal. They actively are saying, hey, you better watch out, you know, the US Supreme Court could side with us, and then you wouldn't be able to sue us in the future. They've also proposed legislation in various states, as well as at the federal level, that would do the same thing that would block future litigation. So they're telling these plaintiffs, you better grab this deal now, because you might not be able to sue us anyway in the future.
 
-![](https://loe.org/content/2026-03-06/MONSANTO_rfkj.jpg)
-
-This presidential executive order boosting glyphosate has particularly angered supporters of the Make America Healthy Again (MAHA) movement, led by Health and Human Services Secretary Robert F. Kennedy Jr. (pictured above). MAHA supporters have indicated that they will protest when the Supreme Court reviews Monsanto’s appeal of a jury verdict in April. (Photo: The White House, Wikimedia Commons, CC0)
+![This presidential executive order boosting glyphosate has particularly angered supporters of the Make America Healthy Again (MAHA) movement, led by Health and Human Services Secretary Robert F. Kennedy Jr. (pictured above). MAHA supporters have indicated that they will protest when the Supreme Court reviews Monsanto’s appeal of a jury verdict in April. (Photo: The White House, Wikimedia Commons, CC0)](https://loe.org/content/2026-03-06/MONSANTO_rfkj.jpg)
 
 CURWOOD: So I understand that there were some settlements in California that involved many millions of dollars for exposure to glyphosate. How do those relate to this offer in the class action settlement?
 
@@ -45,9 +41,7 @@ CURWOOD: By the way, how does Bayer feel about buying Monsanto?
 
 GILLAM: I think it depends on who you ask. Within Bayer, you know, the CEO who engineered the acquisition is no longer with the company. He came under great pressure. Investors have been very upset, very angry. The stock price has really taken a beating over the last few years because of this, and Bayer has promised the investors, many of them who are suing Bayer, that they will find an off route, that they will escape this litigation, and they are pulling out all the stops now. And as we said, the Trump executive order seems to be one of those tactics that Bayer has engineered to really try to put an end to this litigation.
 
-![](https://loe.org/content/2026-03-06/MONSANTO_who.jpg)
-
-The International Agency for Research on Cancer, which is part of the World Health Organization (logo shown above), found that there was enough evidence to declare glyphosate a probable human carcinogen when it examined peer-reviewed research in 2015. (Photo: The World Health Organization, Wikimedia Commons, CC0)
+![The International Agency for Research on Cancer, which is part of the World Health Organization (logo shown above), found that there was enough evidence to declare glyphosate a probable human carcinogen when it examined peer-reviewed research in 2015. (Photo: The World Health Organization, Wikimedia Commons, CC0)](https://loe.org/content/2026-03-06/MONSANTO_who.jpg)
 
 CURWOOD: Talk to me about some of the stories of the plaintiffs involved in this case.
 
@@ -57,9 +51,7 @@ CURWOOD: In this first case that you described, what funds, if any, did the fami
 
 GILLAM: That case actually settled and never went to trial and we don't know the settlement amount. The very first case to go to trial and go through a trial was Lee Johnson, and that's the groundskeeper from Northern California, who sprayed Ranger Pro and other glyphosate based herbicides, again sold by Monsanto and Bayer, sprayed it in his job around school grounds and was doused in the chemical a couple of different times when sprayers would break and things would happen and developed just a really horrible, aggressive form of non-Hodgkin lymphoma. And I spent a lot of time with him, we talk about him in my second book. He had two little boys, and really fought hard in his trial, and Bobby Kennedy was one of the attorneys advising on that case. He did not actively represent Lee, but he was an advisor on that case, and was there on a daily basis, and they won $289 million on behalf of Lee Johnson in the jury verdict.
 
-![](https://loe.org/content/2026-03-06/MONSANTO_schooldistrict.jpg)
-
-The first case against Monsanto to go to trial, rather than be settled out of court, was that of Lee Johnson. Johnson was a groundskeeper from northern California who used RoundUp in his job on school grounds and later developed an aggressive form of Non-Hodgkin lymphoma. Shown above is the office for the Benicia Unified School District, which employed Lee Johnson. (Photo: Lhimec, Wikimedia Commons, CC0)
+![The first case against Monsanto to go to trial, rather than be settled out of court, was that of Lee Johnson. Johnson was a groundskeeper from northern California who used RoundUp in his job on school grounds and later developed an aggressive form of Non-Hodgkin lymphoma. Shown above is the office for the Benicia Unified School District, which employed Lee Johnson. (Photo: Lhimec, Wikimedia Commons, CC0)](https://loe.org/content/2026-03-06/MONSANTO_schooldistrict.jpg)
 
 CURWOOD: Carrie, what is the connection between glyphosate and cancer?
 
@@ -67,9 +59,7 @@ GILLAM: Well, there are many scientific studies that show an array of connection
 
 CURWOOD: So very specifically here, what are the arguments against saying that glyphosate is connected to cancer?
 
-![](https://loe.org/content/2026-03-06/MONSANTO_epalogo.jpg)
-
-The EPA (logo shown above) continues to claim that glyphosate-based herbicides are safe to use when used as intended. In 2022, the Court of Appeals for the Ninth Circuit threw out the EPA’s assessment of glyphosate, stating that the EPA wasn’t following its own rules around assessing science but the agency has yet to follow up with an assessment that would be accepted by the Court. (Photo: United States Environmental Protection Agency, Wikimedia Commons, CC0)
+![The EPA (logo shown above) continues to claim that glyphosate-based herbicides are safe to use when used as intended. In 2022, the Court of Appeals for the Ninth Circuit threw out the EPA’s assessment of glyphosate, stating that the EPA wasn’t following its own rules around assessing science but the agency has yet to follow up with an assessment that would be accepted by the Court. (Photo: United States Environmental Protection Agency, Wikimedia Commons, CC0)](https://loe.org/content/2026-03-06/MONSANTO_epalogo.jpg)
 
 GILLAM: Well, there's also a number of scientific studies, most of them that have been done by the companies themselves. There was a very prominent study that they released in the year 2000 that became really foundational for many regulators. The EPA has cited it in their review of glyphosate, as have European regulators and others. Monsanto put that study together, spent years actually working on it, writing it. Monsanto's own internal emails show that they referred to as ghost writing that study, it appeared to be independent. It had the names of independent scientists on it, not Monsanto scientists. We've known about that for many years because of all of the internal emails that came out and it was only recently, in the last couple of months that the journal actually retracted that scientific study, citing the ghost writing and the deception that went on behind it, and there are many other studies that we have been able to uncover that similarly, have ghost riding or have Monsanto's imprint on them that appear to be independent.
 
@@ -77,9 +67,7 @@ CURWOOD: I noticed that in Europe, an effort to have some sort of a EU wide conc
 
 GILLAM: Yeah, there was a real push after the International Agency for Research on Cancer came out with its classification, there was a real push to ban it throughout the European Union, the vote came down to basically one swing vote, and that swing vote was Germany, that came in and weighed in on favor of keeping it on the market in Europe. That was at the time that Bayer, which is a German-based company, was getting ready to close on its purchase of Monsanto, so that was very interesting timing. But EKA, EFSA, these key regulatory bodies in Europe, have looked at the science. They look at science that's presented to them by the companies. There's a very large, powerful, wealthy lobbying force behind these regulatory overviews, and they have similarly followed sort of the EPA's view, where they are evaluating that they are not yet saying that they feel that this causes cancer. But if you go through the work, the bodies that advise these regulatory agencies are funded and backed and stacked by Bayer and the other agrochemical companies. It's a huge lobbying force around the world.
 
-![](https://loe.org/content/2026-03-06/MONSANTO_election.jpg)
-
-The Trump administration’s reluctance to challenge big agricultural companies continues to sow discontent among MAHA supporters, which could affect the midterm elections. (Photo: Rama, Wikimedia Commons, CC BY-SA 2.0 FR)
+![The Trump administration’s reluctance to challenge big agricultural companies continues to sow discontent among MAHA supporters, which could affect the midterm elections. (Photo: Rama, Wikimedia Commons, CC BY-SA 2.0 FR)](https://loe.org/content/2026-03-06/MONSANTO_election.jpg)
 
 CURWOOD: Now, before you go Carey, to what extent can this issue of glyphosate chemicals and the health impact the upcoming midterm elections?
 

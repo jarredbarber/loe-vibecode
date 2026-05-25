@@ -31,9 +31,7 @@ Early spring migrants like robins and bluebirds return north in March, some even
 
 By May, birds continue flooding into northerly states and Canada. And even as late as June, birds like Willow Flycatchers \[song of Willow Flycatcher, http://macaulaylibrary.org/audio/106793] and Mourning Warblers are just completing the trek to northern breeding sites from South America. \[Mourning Warbler, http://macaulaylibrary.org/audio/191054, 0.15-.17]
 
-![](https://loe.org/content/2026-05-22/BIRDNOTE_robins.jpg)
-
-Robins, on the other hand, return north in March and may be feeding their second brood by midsummer. (Photo: Rhododendrites, Wikimedia Commons, CC BY-SA 4.0)
+![Robins, on the other hand, return north in March and may be feeding their second brood by midsummer. (Photo: Rhododendrites, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-05-22/BIRDNOTE_robins.jpg)
 
 By this time, those early robins… \[American Robin song, http://macaulaylibrary.org/audio/168300, 0.7-.11]
 

@@ -31,9 +31,7 @@ DOERING: And I hope you had a wonderful Mardi Gras.
 
 HARDEN: We had a pretty rambunctious Mardi Gras here in New Orleans, but I'm glad to have survived it and to be on your show.
 
-![](https://loe.org/content/2026-03-06/CANCERALLEY_stjames.jpg)
-
-St. James Parish East and West Bank with Mississippi River. Black residents of St. James Parish, Louisiana, are suing their local government accusing it of a history of discriminatory land use practices in the siting of industrial facilities in majority Black districts. (Photo: Spatms, Wikimedia Commons, CC BY-SA 4.0)
+![St. James Parish East and West Bank with Mississippi River. Black residents of St. James Parish, Louisiana, are suing their local government accusing it of a history of discriminatory land use practices in the siting of industrial facilities in majority Black districts. (Photo: Spatms, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-03-06/CANCERALLEY_stjames.jpg)
 
 DOERING: I'm glad you survived as well. We're here to talk to you about this lawsuit that concerns Cancer Alley and whether plaintiffs have been discriminated against in terms of land use. The judge denied the defendant's attempt to dismiss this lawsuit. What does this ruling really mean?
 
@@ -43,9 +41,7 @@ DOERING: Monique, this case does touch on some fundamental issues of race and ci
 
 HARDEN: Judge Karl Barbier, the Federal Court judge presiding over this case, really goes at length in discussing the constitutional claims brought by the community groups in St. James Parish. The violation of their rights under the US Constitution's 13th Amendment is an important one. Well, first of all, the 13th Amendment abolishes slavery and the in servitude, except for incarceration for a person convicted of a crime. That amendment has a second part to it that says Congress is to enact laws to enforce this abolition on slavery. The badges and incidents of slavery are those restrictions that a state government would impose on a population that results in Black residents being subjected to inferior treatment or being marked as subordinate to White citizens or White residents of that state or local government. Here, the claim is that the St. James Parish government through its decisions of land use that targets majority Black districts for toxic heavy industrial facilities, while protecting, actually, not just ignoring, but actually protecting majority White districts from that type of industrial development is in effect, continuing on a badge or incident of slavery within the parish government, and that is in violation of the US Constitution.
 
-![](https://loe.org/content/2026-03-06/CANCERALLEY_protest.jpg)
-
-Members of RISE St. James march in Washington, D.C. in October 2022. The group is one of several plaintiffs suing St. James Parish in Louisiana alleging discrimination in its land use policies. (Photo: Frypie, Wikimedia Commons, CC BY-SA 4.0)
+![Members of RISE St. James march in Washington, D.C. in October 2022. The group is one of several plaintiffs suing St. James Parish in Louisiana alleging discrimination in its land use policies. (Photo: Frypie, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-03-06/CANCERALLEY_protest.jpg)
 
 DOERING: What do you make of the fact that this judge, Carl D. Barbier, he seems to be open to this argument that this is a really long-standing history of practices. It's not just this one 2014 land use plan document, but this has been a historic pattern that's been established in this parish. What do you make of the fact that he is pretty open to that in this ruling?
 
@@ -53,9 +49,7 @@ HARDEN: The ruling is all about those decisions and the plaintiffs in this case,
 
 DOERING: And Monique, can you please explain this moratorium on industrial development that was requested by people in St. James Parish?
 
-![](https://loe.org/content/2026-03-06/CANCERALLEY_sharon.jpg)
-
-2021 Goldman Prize Winner Sharon Lavigne, founder of RISE St. James speaks during a rally in Washington, D.C. in 2022. Lavigne’s group is one of several suing St. James Parish over discriminatory land use practices. In February, a federal judge cleared the way for the lawsuit to proceed to trial. (Photo: Frypie, Wikimedia Commons, CC BY-SA 4.0)
+![2021 Goldman Prize Winner Sharon Lavigne, founder of RISE St. James speaks during a rally in Washington, D.C. in 2022. Lavigne’s group is one of several suing St. James Parish over discriminatory land use practices. In February, a federal judge cleared the way for the lawsuit to proceed to trial. (Photo: Frypie, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-03-06/CANCERALLEY_sharon.jpg)
 
 HARDEN: Yes, Black residents organized as Rise St James developed advocacy campaign for a moratorium on toxic industrial facilities in the parish. Why? Because they lived with them, and many of their members, family, relatives died and are dying from it, the pollution that is spewed from these toxic facilities. And so they brought that demand for a moratorium on industrial development to their parish government, and they were rejected, just out of hand, just rejected, notwithstanding the pain, the harm and the hazards that they were seeking to prevent. And this moratorium idea is a very important one in terms of where this lawsuit goes, because it would mean that St. James Parish government would have to rethink its earlier rejection of the moratorium, and it also means that toxic industrial facilities really have no place near any residential area, regardless of the color of residents, regardless of the race. You know what has transpired over time is that it's Black communities, Latino, Asian, Pacific Islander, Indigenous communities that bear the brunt of the environmental burden of toxic industrial development in this country. And this moratorium that sought in St. James Parish is one that has definite national overtones to it, and that's now further reinforced in terms of connecting those local decisions on land use and siting to the US Constitution now.
 
@@ -65,9 +59,7 @@ HARDEN: You're absolutely right. This is not a land use decision without impact.
 
 DOERING: Monique, the legal question at the heart of this case is a question of land use, how local regulations can really harm communities of color if residents are not vigilant, what's a solution here?
 
-![](https://loe.org/content/2026-03-06/CANCERALLEY_map.jpg)
-
-Shown here is a graphic depicting the 9 parishes of Louisiana’s Cancer Alley. (Graphic: WWWHHHHYYYYYY, Wikimedia Commons, Public Domain)
+![Shown here is a graphic depicting the 9 parishes of Louisiana’s Cancer Alley. (Graphic: WWWHHHHYYYYYY, Wikimedia Commons, Public Domain)](https://loe.org/content/2026-03-06/CANCERALLEY_map.jpg)
 
 HARDEN: Step one is fighting for your rights under the law. And that's exactly what's happening here. And it's taken what might look like a mundane, routine land use decision, like all other land use decisions that have come before it, and continuing, and compared it against the ruler of constitutional right, and found it wanting right because it's those decisions that are violating basic constitutional rights. That's the first thing. The second is that the siting of industrial facilities is really outside of a permitting decision by the EPA or state environmental agency. It really rests with the local government. It might be a county government or municipal government, but it's the decisions around how an area of land will be zoned. Will it be zoned for commercial use? Will it be zoned for residential use or heavy industrial use where those parcels of land are located, and what can then take place on them can be, and has shown to be here in Louisiana, and looking at our Cancer Alley, in particular, a life and death decision.
 

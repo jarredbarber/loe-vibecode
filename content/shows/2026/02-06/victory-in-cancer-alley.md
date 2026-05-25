@@ -33,9 +33,7 @@ LAVIGNE: Hmm.
 
 BASCOMB: Now I've read that the Formosa plant would have likely been the world's largest production facility for plastics, and it was supposed to be built about two miles or so from your home. Can you tell us please about the concerns you had with the plant that led you to dedicating yourself to fighting it?
 
-![](https://loe.org/content/2022-09-23/FORMOSA_risestjames.jpg)
-
-Members of RISE St. James gather in the group’s first annual African American Celebration in St. James Parish, Louisiana. (Photo: Courtesy of the Goldman Environmental Prize)
+![Members of RISE St. James gather in the group’s first annual African American Celebration in St. James Parish, Louisiana. (Photo: Courtesy of the Goldman Environmental Prize)](https://loe.org/content/2022-09-23/FORMOSA_risestjames.jpg)
 
 LAVIGNE: Well, we have 12 industries and refineries within a 10-mile radius in my hometown. And Formosa would have brought in 14 more, so 12 plus the 14, we wouldn't be able to breathe the air. And we would not live, we would die off one at a time, or dozen at a time or everybody would die because the emissions that they would put out in the air, and the chemicals they would pollute the water with, soil would be more contaminated. So we would have more people with cancer, more people with asthma, more people with skin rashes. So we would have more deaths. So that's the way I saw it. And that's the way it would have been if they would have come in here.
 
@@ -51,9 +49,7 @@ BASCOMB: Well, it sounds like Judge Trudy White in this case, she did do her hom
 
 LAVIGNE: Yes, it was a David and Goliath fight it was. I remember going to Judge Trudy White hearing three times. In the last time, she told both parties to make a proposal and to have it to her on May 13th. I was in a court when she said that. And it took her all of these months. So I know she went through everything with a fine-tooth comb. And I'm glad she did. Maybe somebody else would have just glanced at it and say, "Oh, Formosa can still come in." But she thought about the people, how do people lives would be destroyed. So I think that was a good thing. And I think more judges should be like that. Not just give them a rubber stamp and tell them go ahead on and build there and pollute the people. So I commend Judge Trudy White for that.
 
-![](https://loe.org/content/2022-09-23/FORMOSA_plastics.jpg)
-
-A photo taken in 2007 of the Formosa Plastics plant near Illiopolis, Illinois. An explosion occurred in the plant in April 2004, killing five workers and injuring two others. (Photo: Dual Freq, Wikimedia Commons, CC BY 3.0)
+![A photo taken in 2007 of the Formosa Plastics plant near Illiopolis, Illinois. An explosion occurred in the plant in April 2004, killing five workers and injuring two others. (Photo: Dual Freq, Wikimedia Commons, CC BY 3.0)](https://loe.org/content/2022-09-23/FORMOSA_plastics.jpg)
 
 BASCOMB: And Formosa has said that they're planning to appeal Judge White's decision. What's next for them, do you think, and for you and the people you're working with there at RISE St. James?
 

@@ -25,9 +25,7 @@ STOCKMAN: Right, yeah. As many people may have seen, it only really took a few d
 
 DOERING: Now, Lorne in 2022 the Russia-Ukraine conflict also triggered a cost of living crisis. What happened then and how does the chaos caused by this US and Israel military action against Iran compare?
 
-![](https://loe.org/content/2026-03-20/IRAN_gasprices.jpg)
-
-As of March 20, 2026, gas prices have increased approximately a dollar per gallon nationwide as a result of the US and Israel’s war with Iran. (Photo: Dawn McDonald, Unsplash, Unsplash license)
+![As of March 20, 2026, gas prices have increased approximately a dollar per gallon nationwide as a result of the US and Israel’s war with Iran. (Photo: Dawn McDonald, Unsplash, Unsplash license)](https://loe.org/content/2026-03-20/IRAN_gasprices.jpg)
 
 STOCKMAN: Yeah, it's an interesting comparison, actually. So prior to the invasion of Ukraine by Russia in February 2022, there was already a lot of pressure on oil and gas supplies globally. That was partly because the world was coming out of the lockdowns from the COVID pandemic. And so by sort of late 2021 the demand for oil and gas was surging ahead of supply, so we were already seeing some level of supply crunch before Russia invaded Ukraine, and that's why we saw sort of much more dramatic spikes in the oil price than we're actually seeing today. Prior to the US, Israel starting to bomb Iran, the oil market was seen as oversupplied that the growth in demand for oil has actually been slowing in the last year. Supply has been coming on very fast. Outside of the Persian Gulf, mostly in the Americas, in Canada and the US and Brazil and Guyana have been increasing production quite fast and so the market was seen as oversupplied. Now but you know, some people are saying this is the biggest shock, and in some ways it is bigger than in 2022 but the impact depends on how long this goes on.
 
@@ -37,9 +35,7 @@ STOCKMAN: I think the US is still very vulnerable. It is one of the largest prod
 
 DOERING: You know, how does the fossil fuel industry benefit from this volatility and conflict?
 
-![](https://loe.org/content/2026-03-20/IRAN_usoil.jpg)
-
-The United States is the biggest oil exporter in the world. The photo shows oil pumpjacks extracting oil in Wyoming. (Photo: Documerica, Unsplash, Unsplash license)
+![The United States is the biggest oil exporter in the world. The photo shows oil pumpjacks extracting oil in Wyoming. (Photo: Documerica, Unsplash, Unsplash license)](https://loe.org/content/2026-03-20/IRAN_usoil.jpg)
 
 STOCKMAN: So the President made a very insensitive statement on his social media accounts just recently when he said, look, it's great that oil and gas prices are high because the US produces more oil and gas than any other country, and so we're making lots of money, but when we look at who is making the money and who is paying, oil companies are making a lot more money, but we are all paying for that. We're the source of those extra revenues, right? We're paying the price. We saw in 2022 that with the oil prices staying high for much of the year, oil companies got a massive windfall, had record profits, my organization, Oil Change International, we actually did an analysis just of the top American companies, and they received a windfall in 2022 of around $200 billion. In the current crisis, it's a little bit early to say a lot depends on how long it goes on for and how high prices go. But just recently, the Department of Energy reassessed the oil price for 2026 and they raised their expectation for average oil prices from 53 to $73 per barrel, that's a $20 difference.
 
@@ -51,9 +47,7 @@ DOERING: So how do we break this cycle of vulnerability to oil and gas prices ri
 
 STOCKMAN: Well, we reduce our use of oil and gas, right? And that's been happening. We got this shock in 2022 and certainly in Europe and in some other parts of the world, we have seen significant progress in an acceleration in installations of wind and solar and storage. In Europe, the generation of renewable energy shot up 35% from 2022 to 2024 where we have the latest data. I believe in 2025 it's increased even more. So we're actually seeing, you know, particularly the countries that were hit hard in 2022 are actually just that little bit less reliant already, and I think this will reinforce that even more. Unfortunately, the country that is not going in that direction it's turned around and going in the opposite direction is the United States. This administration is all out on fossil fuels, where gas contributes about 40% of electricity generation. It's really become the sort of price setter in the electricity market in the US. This administration has attacked renewable energy projects, you know, I'm thinking specifically of, you know, the big offshore wind projects that were being built off the East Coast, making sort of illegal attacks that have now been reversed, so slowing those projects down, adding to their costs, and it seems to be intent on doing everything it can to slow down affordable renewable energy and promote fossil fuels. But the rest of the world took that signal pretty seriously in 2022 and I believe this situation is only going to reinforce that momentum away from oil and gas and towards cleaner and cheaper and more secure energy.
 
-![](https://loe.org/content/2026-03-20/IRAN_americancrudeoil.jpg)
-
-According to market research firm Rystad Energy, American crude oil producers could make an additional 100 billion dollars over 2026 due to rises in prices. (Photo: the\_tahoe\_guy from San Jose, California, USA, Wikimedia Commons, CC BY 2.0)
+![According to market research firm Rystad Energy, American crude oil producers could make an additional 100 billion dollars over 2026 due to rises in prices. (Photo: the\_tahoe\_guy from San Jose, California, USA, Wikimedia Commons, CC BY 2.0)](https://loe.org/content/2026-03-20/IRAN_americancrudeoil.jpg)
 
 DOERING: And to what extent is an economy powered by renewables less vulnerable to this volatility? And why would that be?
 

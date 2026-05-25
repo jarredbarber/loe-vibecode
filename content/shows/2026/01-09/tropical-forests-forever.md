@@ -29,9 +29,7 @@ COE: You know, there's three big blocks of tropical forest. It's in South Americ
 
 CURWOOD: So Mike, tell us why tropical forests are so crucial. What's their role in the climate system and beyond?
 
-![](https://loe.org/content/2025-11-21/COP30_xinguforest.jpg)
-
-Tropical forest in the Xingu Indigenous reserve in central Mato Grosso, Brazil. Tropical forests not only sequester carbon, they also act as planetary cooling “air conditioners” by pulling water from the soil and releasing it into the air as water vapor. (Photo: Michael Coe)
+![Tropical forest in the Xingu Indigenous reserve in central Mato Grosso, Brazil. Tropical forests not only sequester carbon, they also act as planetary cooling “air conditioners” by pulling water from the soil and releasing it into the air as water vapor. (Photo: Michael Coe)](https://loe.org/content/2025-11-21/COP30_xinguforest.jpg)
 
 COE: They are really fascinating for the climate system. We think mostly about them in terms of their carbon. You know, they have an enormous amount of carbon in them, so when you deforest, you're emitting a great deal. But what I have been interested in, and what's really fascinating, is that that's not the only reason they're great for climate. Another big part is they are just giant air conditioners. What they do is pull water out of the soil from very deep down, and they evaporate it. And when they're photosynthesizing, they're evaporating water. And when you evaporate water, that's energy. You're taking heat, and you're converting water to vapor, and you're carting it away. So what they do is they cool the land surface enormously. And we see this throughout the tropics. If you deforest a parcel of land, it will almost immediately something like five degrees C warmer than the forest right next door, and that's on annual average. So if you walk out of the forest in the dry season, and you walk out onto an open field that is fallow, it is 10 degrees C hotter, 15 degrees C hotter. It is just astounding how much, and that's not just a local effect, but it has global implications.
 
@@ -43,9 +41,7 @@ CURWOOD: Well, just how much are deforestation and the degradation of forest add
 
 COE: It's big. When you say tropical forest, it might be, say, 10% of all emissions, human emissions. If you talk all forest on the planet, probably 20% of all emissions. So deforestation is a big number. For many nations, it's by far the largest. And China's number one in emissions. US is number two. Deforestation is number three.
 
-![](https://loe.org/content/2025-11-21/COP30_deforestation.jpg)
-
-Deforestation in eastern Mato Grosso, Brazil. Deforestation of tropical forests, typically for agricultural purposes, is responsible for about 10% of all global emissions. (Photo: Michael Coe)
+![Deforestation in eastern Mato Grosso, Brazil. Deforestation of tropical forests, typically for agricultural purposes, is responsible for about 10% of all global emissions. (Photo: Michael Coe)](https://loe.org/content/2025-11-21/COP30_deforestation.jpg)
 
 CURWOOD: And we talk about the carbon that it sequesters, but what about when you cut those trees down? How much carbon does it stop taking out of the air? What's the loss there and the effect on the climate?
 
@@ -65,9 +61,7 @@ COE: The number one source of degradation in the tropics is fire. And the thing 
 
 CURWOOD: And by the way, to what extent are those fires related to the warming planet itself?
 
-![](https://loe.org/content/2025-11-21/COP30_burning.jpg)
-
-Burning fields near Yangambi, Democratic Republic of Congo. Fire is the number one cause of degradation in tropical forests. (Photo: CIFOR-ICRAF, Flickr, CC BY-NC-ND 2.0)
+![Burning fields near Yangambi, Democratic Republic of Congo. Fire is the number one cause of degradation in tropical forests. (Photo: CIFOR-ICRAF, Flickr, CC BY-NC-ND 2.0)](https://loe.org/content/2025-11-21/COP30_burning.jpg)
 
 COE: A great deal. And so last year was an incredible example. It was an El Niño year, which meant it was hotter, much hotter and drier. So when fires did start, they got huge. And it looks like last year, degradation committed as much CO2 to the atmosphere as deforestation did.
 
@@ -87,9 +81,7 @@ CURWOOD: So Michael, I know it's really hard to account for all of this, but it 
 
 COE: It's a big number. These forests are extremely important for our stable climate, and it’s one of the things we keep saying is they are going to mitigate some of the worst impacts of climate change occurring because of fossil fuels, and we are eliminating that, that incredible gift.
 
-![](https://loe.org/content/2025-11-21/COP30_lulaguterres.jpg)
-
-Brazilian President Luiz Inácio Lula da Silva (left) and UN Secretary-General António Guterres (right) attend the launch of the Tropical Forest Forever Facility. The TFFF is an investment fund designed to pay countries as well as local and indigenous persons for verified maintenance of their tropical forests. (Photo: Kiara Worth, UN Climate Change, Flickr, CC BY-NC-SA 4.0)
+![Brazilian President Luiz Inácio Lula da Silva (left) and UN Secretary-General António Guterres (right) attend the launch of the Tropical Forest Forever Facility. The TFFF is an investment fund designed to pay countries as well as local and indigenous persons for verified maintenance of their tropical forests. (Photo: Kiara Worth, UN Climate Change, Flickr, CC BY-NC-SA 4.0)](https://loe.org/content/2025-11-21/COP30_lulaguterres.jpg)
 
 CURWOOD: So we're speaking to you at COP30 during its last days, and there's been a proposal led by Brazil for this Tropical Forest Forever Facility to fund, to pay to keep the trees. This is different from the question of money for carbon offsets, where money is given to countries to say, well, keep the trees from burning. In this case, they're talking about setting up, I don't know if it's a bank or an insurance policy that if a country shows that it hasn't cut its trees, it will get some money, very different. How can you police such a thing?
 
@@ -103,9 +95,7 @@ DOERING: And by the way, what's in it for the people who are putting in money up
 
 COE: It's a fund, so it's going to be invested. And from my understanding, then that means that there's a certain rate that goes to the investors, and there's a certain amount then that is set aside to go to the nations to pay for their forest. You know, there's the positive of that is because now, if you're not buying a credit, other players, other investors can get involved, say pension funds or insurance companies who aren't necessarily interested in offsetting carbon, they're interested in making a profit. So it brings other actors into the forest conservation realm.
 
-![](https://loe.org/content/2025-11-21/COP30_coe.jpg)
-
-Forest ecologist Dr. Michael Coe is a Senior Scientist at the Woodwell Climate Research Center. He attended the COP30 climate talks in Belém, Brazil. (Photo: Sarah Moore)
+![Forest ecologist Dr. Michael Coe is a Senior Scientist at the Woodwell Climate Research Center. He attended the COP30 climate talks in Belém, Brazil. (Photo: Sarah Moore)](https://loe.org/content/2025-11-21/COP30_coe.jpg)
 
 CURWOOD: You know, it appears to me a unique aspect of this is it's talking about some percentage of these funds being paid directly to indigenous peoples and local communities. How big a deal is this?
 

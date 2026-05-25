@@ -37,9 +37,7 @@ FRAZIER: Terry Steagall says Nippon Steel, US Steel’s new owner, should start 
 
 STEAGALL: I've seen the history of the industry. And I want this industry to continue for future generations. And I also want the industry to clean up its act as far as environmentally. These things are important.
 
-![](https://loe.org/content/2026-05-15/AF-Robertson_and_Steagall.jpg)
-
-Megan Robertson (left), of Indiana Conservation Voters, and former union steelworker Terry Steagall (right), in front of the Cleveland-Cliffs’ Indiana Harbor steel mill. The two spoke against the environmental impacts of the steel industry at the annual meeting of the Society of Environmental Journalists in Chicago. (Photo: Reid Frazier / The Allegheny Front)
+![Megan Robertson (left), of Indiana Conservation Voters, and former union steelworker Terry Steagall (right), in front of the Cleveland-Cliffs’ Indiana Harbor steel mill. The two spoke against the environmental impacts of the steel industry at the annual meeting of the Society of Environmental Journalists in Chicago. (Photo: Reid Frazier / The Allegheny Front)](https://loe.org/content/2026-05-15/AF-Robertson_and_Steagall.jpg)
 
 FRAZIER: The best way to clean up, Steagall says, is to adopt a process called direct reduction of iron–-or D-R-I. This uses natural gas or hydrogen instead of coal to turn iron ore into steel. It’s a lot cleaner, with much less carbon pollution. The company is putting DRI in at its newest plant in Arkansas. But the company said this would require a major overhaul to do at Gary Works, which has been in operation for over a century. US Steel has said this changeover to DRI would result in job losses and be “financially disastrous” for the company. Steagall says cost shouldn’t be a problem. Nippon has promised to invest $11 billion in US Steel’s plants, including $4 billion in Gary. The company said in an email those investments will help the plant make steel cleaner, more efficiently, and with less coke, but Steagall wants them to go further.
 
@@ -55,9 +53,7 @@ SMITH: if you start looking to the left through the graffiti, that is the front 
 
 FRAZIER: A few blocks away, we go to the roof of a nearby garage to get a better look. The plant has massive blue-walled industrial buildings. Smoke and steam waft out of smokestacks. Kianna Grant, Air Quality Control Manager for the City of Gary is on the roof with us. Her office is across the street from Gary Works, where she keeps a watchful eye on the plant’s emissions.
 
-![](https://loe.org/content/2026-05-15/AF-Indiana_Harbor_Peninsula.jpg)
-
-Cleveland-Cliffs’ Harbor Works in East Chicago, Indiana, surrounded by Lake Michigan. (Photo: Sea Cow, Wikimedia Commons, CC BY-SA 4.0)
+![Cleveland-Cliffs’ Harbor Works in East Chicago, Indiana, surrounded by Lake Michigan. (Photo: Sea Cow, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-05-15/AF-Indiana_Harbor_Peninsula.jpg)
 
 GRANT: We're in communication with them very often about what they do to make sure that there's transparency.
 

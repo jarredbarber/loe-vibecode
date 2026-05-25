@@ -25,9 +25,7 @@ KOLLINS: I was surprised and disappointed. This is obviously another blow to off
 
 DOERING: Now, supporters of the Trump administration deal with TotalEnergies say that this $1 billion deal is merely a refund on money that TotalEnergies paid the government, and so taxpayers are breaking even. What's your response to that argument?
 
-![](https://loe.org/content/2026-04-10/OFFSHORE_burgum.jpg)
-
-Secretary Doug Burgum visits a fracking site in Pittsburgh, Pennsylvania on April 3, 2025. Burgum signed a deal with TotalEnergies allowing the French company to abandon two off-shore wind leases in exchange for $1 billion investment in oil, natural gas and LNG. (Photo: U.S. Department of Interior, Flickr, public domain)
+![Secretary Doug Burgum visits a fracking site in Pittsburgh, Pennsylvania on April 3, 2025. Burgum signed a deal with TotalEnergies allowing the French company to abandon two off-shore wind leases in exchange for $1 billion investment in oil, natural gas and LNG. (Photo: U.S. Department of Interior, Flickr, public domain)](https://loe.org/content/2026-04-10/OFFSHORE_burgum.jpg)
 
 KOLLINS: My response to the argument is that these funds were already paid and accounted for, and I don't think that those same folks would be supportive of the administration refunding the tax dollars that we all paid last year. So just because we've already paid something doesn't mean that it is acceptable to then refund it a year later, when those funds were already allocated by the Treasury.
 
@@ -37,9 +35,7 @@ KOLLINS: It is a continuation of the President's strategy to do whatever he can 
 
 DOERING: What's the economic impact of canceling offshore wind farms? Who wins and who loses?
 
-![](https://loe.org/content/2026-04-10/OFFSHORE_total.jpg)
-
-A Total Energies depot in the United Kingdom. The French company has signed an agreement with the Trump administration to abandon two offshore wind leases, and in exchange, be reimbursed for $1 billion invested in oil, natural gas and liquified natural gas projects in the United States. (Photo: Ian S, Wikipedia Commons, CC BY-SA 2.0)
+![A Total Energies depot in the United Kingdom. The French company has signed an agreement with the Trump administration to abandon two offshore wind leases, and in exchange, be reimbursed for $1 billion invested in oil, natural gas and liquified natural gas projects in the United States. (Photo: Ian S, Wikipedia Commons, CC BY-SA 2.0)](https://loe.org/content/2026-04-10/OFFSHORE_total.jpg)
 
 KOLLINS: I would venture to say that we all lose and we all lose because we are talking about over $30 billion of fully permitted economic activity just in the five projects that are currently under construction. That's over $11 billion in supply chain assets that have spun up to support construction. The reason that these manufacturing facilities are being developed and that manufacturers are looking at the U.S. is because the components are so large that they can only be transported on water, and so right now we are getting a lot of those components from Europe. They are being shipped to the U.S., where the U.S. hasn't developed the manufacturing facilities as of yet, and then we're installing these machines. That said, if we can build a U.S.- based supply chain, we're talking about at least $100 billion of potential economic activity.
 
@@ -51,9 +47,7 @@ DOERING: Katharine, you know, given this country's growing electricity demands, 
 
 KOLLINS: One of the really amazing things about offshore wind is that offshore wind is generating electrons when we need them most. So that happens to be in the wintertime when it is cold, when natural gas is constrained and prices are high. It happens to be winter mornings when folks are switching on heating. And it is also very highly correlated with winter storms. And what we've seen over the last few years with winter storms is gas prices become astronomical because of constrained supply, everybody is working very hard to heat their homes. And if we had offshore wind on the grid during those periods, that is effectively a hedge to those very high fuel costs, offshore wind has already proven itself to be integral to the power grid, especially along the East Coast. So there is an operating project South Fork Wind up in the Northeast and so over the course of its first year of energy production, it showed that it was delivering electrons to the grid nearly all of the time, and it had over an 80% capacity factor during winter storms, when that electricity is needed most.
 
-![](https://loe.org/content/2026-04-10/OFFSHORE_staged.jpg)
-
-In the above photo, components for the Revolution Wind Offshore project were being staged in New London, Connecticut in August 2025. The 704 megawatt project, which began generating power on March 13, 2026, is expected to provide electricity to more than 350,000 homes and businesses in Rhode Island and Connecticut. (Photo: 4300streetcar, Wikimedia Commons, CC BY 4.0)
+![In the above photo, components for the Revolution Wind Offshore project were being staged in New London, Connecticut in August 2025. The 704 megawatt project, which began generating power on March 13, 2026, is expected to provide electricity to more than 350,000 homes and businesses in Rhode Island and Connecticut. (Photo: 4300streetcar, Wikimedia Commons, CC BY 4.0)](https://loe.org/content/2026-04-10/OFFSHORE_staged.jpg)
 
 DOERING: And what is the current state of offshore wind off the Southeastern coast?
 

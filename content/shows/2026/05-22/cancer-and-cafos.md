@@ -23,9 +23,7 @@ CURWOOD: So, the other day, a study came out from Yale University, looking at th
 
 BIENKOWSKI: So, they looked at counties in Iowa, Texas, and California, and they looked at county-level cancer rates and CAFO density in the counties, and they found that cancer rates were 4% higher in high CAFO counties in California, and they were 8% higher in highly exposed counties in Iowa and Texas. And it's important to point out, I mean, Steve, you've been doing this a long time, these studies are a data point, right? This is a correlation, this is not causation. So, they didn't measure what people were exposed to in these counties, they basically said if there's more CAFOs, there's more cancer. So, it's a data point in kind of this broader body of evidence that's growing that shows that these CAFOs are putting out pollutants that could plausibly cause cancer. So, this isn't a causal study, this doesn't prove that CAFOs cause cancer, but just another data point pointing to that evidence.
 
-![](https://loe.org/content/2026-05-22/CAFOS_northcarolina.jpg)
-
-A hog CAFO in North Carolina. A recent study from Yale University found that people living near CAFOs in California, Texas and Iowa suffer from higher rates of cancer. (Photo: Waterkeeper Alliance, Inc., Flickr, CC BY-NC-ND 2.0)
+![A hog CAFO in North Carolina. A recent study from Yale University found that people living near CAFOs in California, Texas and Iowa suffer from higher rates of cancer. (Photo: Waterkeeper Alliance, Inc., Flickr, CC BY-NC-ND 2.0)](https://loe.org/content/2026-05-22/CAFOS_northcarolina.jpg)
 
 CURWOOD: But it is an association, isn't it? I mean, if you have an area that has more CAFOs, and there's more cancer, it certainly bears looking into, yes?
 
@@ -37,9 +35,7 @@ BIENKOWSKI: Yeah, Iowa has become ground zero for this, and you're seeing more a
 
 CURWOOD: So, who's pushing back against these CAFOs, given that there are these growing concerns? Who's saying, "Hey, maybe we don't want these in our backyards?”
 
-![](https://loe.org/content/2026-05-22/CAFOS_cows.jpg)
-
-Livestock produce manure, which contains nitrates and can potentially pollute local waterways. The EPA rates large CAFOs as those with one thousand or more cows. (Photo: USDA.gov, Wikimedia Commons, public domain)
+![Livestock produce manure, which contains nitrates and can potentially pollute local waterways. The EPA rates large CAFOs as those with one thousand or more cows. (Photo: USDA.gov, Wikimedia Commons, public domain)](https://loe.org/content/2026-05-22/CAFOS_cows.jpg)
 
 BIENKOWSKI: So, there's the usual chorus of environmental and health groups. This is in Iowa and beyond. I mean, these are organizations like Food and Water Watch, Farm Stand, Farm Forward. They've been saying for years that not only are we treating animals poorly by packing them into these tight facilities, but increasingly, beyond the animal welfare concerns, you're hearing these organizations talk about the human health concerns that we're talking about today. But we've been spending a lot of time, the New Lede, in Iowa, and they've been holding town halls over the last year as they come out with this cancer report, and they're trying to listen to residents, and you know some of this is anecdotal, but you are seeing increasingly more and more people who don't fall along the typical, whether it's the environmentalist demographic or younger or urban, the people that you would maybe anticipate to be at these town halls yelling about pollution. We saw a lot of people from rural areas, we saw farmers, I mean, a lot of farmers are upset at the fact that they cannot compete anymore, because there are, if you are a pig farmer and you want to have them grazing on grass, you cannot compete with the guy that has 2,000 of them in a concrete facility. It doesn't work. So, in addition to the pollution concerns, you have kind of a growing rural and farmer-led backlash to some of the, especially Iowa, the way agriculture has just grown at such a fast rate.
 
@@ -49,9 +45,7 @@ BIENKOWSKI: Correct. Yeah, "factory farming" is kind of looked at as a pejorativ
 
 CURWOOD: And of course, there must be concern based on the fact that cancer affects us all — us ourselves, or somebody we know, our family.
 
-![](https://loe.org/content/2026-05-22/CAFOS_MAHA.jpg)
-
-Health and Human Services Secretary Robert F. Kennedy Jr. (right) and the “Make America Healthy Again” or “MAHA” movement have called for a focus on meat as a protein source in American diets. (Photo: The White House, Wikimedia Commons, public domain)
+![Health and Human Services Secretary Robert F. Kennedy Jr. (right) and the “Make America Healthy Again” or “MAHA” movement have called for a focus on meat as a protein source in American diets. (Photo: The White House, Wikimedia Commons, public domain)](https://loe.org/content/2026-05-22/CAFOS_MAHA.jpg)
 
 BIENKOWSKI: I think that's a great point, Steve, you can talk until you’re blue in the face about the fact that ammonia is coming from these pig farms, or that nitrates are in the water. Those terms are largely meaningless to most people, but when you talk about cancer, as you said, it affects everybody. So, I think that's what's getting people out of their house and into these town halls, and into talking to their legislators in Iowa. I'm seeing a real shift there, where again, this isn't a red versus blue thing, urban versus rural, it's people who have been affected by cancer who want answers.
 
@@ -65,9 +59,7 @@ BIENKOWSKI: Correct. Yeah, and if you talk to farmers, the farm bureaus, and peo
 
 CURWOOD: So, Brian, the 2026 farm bill, the latest version has just gotten through the House of Representatives, and it's now on to the Senate. To what extent are CAFOs a point of contention in this year's iteration of the farm bill?
 
-![](https://loe.org/content/2026-05-22/CAFOS_houseofreps.jpg)
-
-The 2026 Farm Bill (H.R. 7567 – Farm, Food, and National Security Act of 2026) passed through the House of Representatives 224-200, includes a provision that would override states’ rights to regulate CAFOs. The Bill will now be taken up by the Senate. (Photo: Noclip, Wikimedia Commons, public domain)
+![The 2026 Farm Bill (H.R. 7567 – Farm, Food, and National Security Act of 2026) passed through the House of Representatives 224-200, includes a provision that would override states’ rights to regulate CAFOs. The Bill will now be taken up by the Senate. (Photo: Noclip, Wikimedia Commons, public domain)](https://loe.org/content/2026-05-22/CAFOS_houseofreps.jpg)
 
 BIENKOWSKI: Yeah, it's a good question, Steve. This is a timely conversation, because the House just passed their version of the farm bill, which most people probably know is a massive piece of legislation, you know, over 800 pages that really dictates our farming policy over the next four to five years, and the House version passed a provision called Section 12006, kind of referred to as the Save Our Bacon Act, which seeks to override California's Proposition 12 and Massachusetts Question Number Three. Both of these are state laws that look to have animal welfare standards be taken into account. So, in California, there are certain basic standards that animals have to be raised in, in order to be raised in that state or sold in that state. You know, this is like very basic things like being able to turn around in their cage, lie down, things like that. And the National Pork Producers Council and legislators in heavy agricultural states don't like this, because their pork products - this is largely targets hogs, but it's for any animal. They don't like that, because their products can't be sold in California, so they want this removed. These are people who are often very for states' rights, are not for states' rights in this case. They say it violates the Commerce Clause. So that did pass the House, and now we wait to see what the Senate does with that.
 
@@ -79,9 +71,7 @@ CURWOOD: Just how powerful is the meat and ag lobby in DC? And talk to me about 
 
 BIENKOWSKI: Yeah, I mean, the agricultural lobby across the board is massive. It's one of the largest lobbies in the United States. The National Pork Producers Council is the one that I most often deal with. They are constantly lobbying on these issues. When we were just talking about the Save Our Bacon Act, I mean, they took that all the way to the Supreme Court with a lawsuit. So, they're a massive lobby. They have the ear of a lot of senators and House members across the country. In terms of MAHA, this is a really important part of it. MAHA has made meat and protein a really big part of their agenda. MAHA as you know, is a kind of fractured coalition, and it's not a monolith, so we can't say everybody agrees on these things, but RFK Jr. the Secretary of HHS, when they redid their dietary guidelines, really put an emphasis on meat and whole milk, and put these things at the top of the food pyramid, and what that does, according to sources that I speak to, I mean that locks in CAFOs, right? You cannot meet the demand of meat that they want to meet with their new guidelines without these very large scale CAFO farms. So, what I find interesting is MAHA has been very vocal about the pollution concerns from pesticides, glyphosate, paraquat, and other things that we also cover at the New Lede, but they do not seem to mention or seem to be as concerned about the pollutants from the meat industry that we've been discussing today.
 
-![](https://loe.org/content/2026-05-22/CAFOS_bienkowski.jpg)
-
-Brian Bienkowski is the managing editor for *The New Lede.* (Photo: Courtesy of Brian Bienkowski)
+![Brian Bienkowski is the managing editor for  The New Lede. (Photo: Courtesy of Brian Bienkowski)](https://loe.org/content/2026-05-22/CAFOS_bienkowski.jpg)
 
 CURWOOD: What are the alternatives here? How might we do agriculture differently without admonishing people for wanting to eat meat?
 

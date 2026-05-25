@@ -48,9 +48,7 @@ BARBER: You know, there's a lot of critiques out there, but and they say, well, 
 
 BELTRAN: As Michael Coe, a senior scientist at the Woodwell Climate Research Center, explained when we first covered this back in November, forests are vital for a stable climate. They act not only as massive carbon stores, but also essentially the world’s air conditioners. So, trying to preserve them is worth this perceived risk.
 
-![](https://loe.org/content/2026-01-06/TFFF_map.jpg)
-
-The Tropical Forest Forever Facility is intended to fund the protection of tropical and subtropical forests by incentivizing countries to prevent degradation and deforestation. (Photo: Terpsichores, Wikimedia Commons, CC BY-SA 3.0)
+![The Tropical Forest Forever Facility is intended to fund the protection of tropical and subtropical forests by incentivizing countries to prevent degradation and deforestation. (Photo: Terpsichores, Wikimedia Commons, CC BY-SA 3.0)](https://loe.org/content/2026-01-06/TFFF_map.jpg)
 
 O’NEILL: Okay so ideally this fund is going to make, what, 3 to 5 billion dollars in profits each year and then it’s going to split those among eligible countries. But how would a country actually become eligible?
 
@@ -80,9 +78,7 @@ O’NEILL: But historically these groups have been excluded from discussions abo
 
 CARLOS: It’s not fair. It’s not fair, because is in my power, 80%, 60%, or maybe 50% is something that maybe we do a good step, good initiative, and the youth or other generation will push for more. But we need to show something is good, that we need to begin with something.
 
-![](https://loe.org/content/2026-01-06/Shuar_in_Parque_de_Logroño.jpg)
-
-The Shuar people are an Indigenous group living in the Ecuadorian region of the Amazon. They are among the local Indigenous groups that the TFFF has promised to allot 20% of the fund towards, helping to finance their traditional land stewardship. (Photo: Jlh249, Wikimedia Commons, CC BY-SA 3.0)
+![The Shuar people are an Indigenous group living in the Ecuadorian region of the Amazon. They are among the local Indigenous groups that the TFFF has promised to allot 20% of the fund towards, helping to finance their traditional land stewardship. (Photo: Jlh249, Wikimedia Commons, CC BY-SA 3.0)](https://loe.org/content/2026-01-06/Shuar_in_Parque_de_Logroño.jpg)
 
 O’NEILL: But before any of this can even get off the ground, the money needs to be in place, right? So where are we right now?
 

@@ -25,9 +25,7 @@ MCKENNA: Yeah, so I went to three sites in three days in three different states,
 
 DOERING: Yeah, it sounds like a huge project and I know it's not the point of the story, but I loved that you wove in a little bit of detail in your writing about the themes of this campus. Some pretty fun building themes.
 
-![](https://loe.org/content/2026-01-30/GEOTHERMAL_graphic.jpg)
-
-A graphic shows the location of West Union, Iowa, as well as its underground geothermal network and a corresponding diagram of the earth’s makeup under the local courthouse. (Image: Paul Horn, Inside Climate News)
+![A graphic shows the location of West Union, Iowa, as well as its underground geothermal network and a corresponding diagram of the earth’s makeup under the local courthouse. (Image: Paul Horn, Inside Climate News)](https://loe.org/content/2026-01-30/GEOTHERMAL_graphic.jpg)
 
 MCKENNA: Yeah, the whole theme of the campus, it's these fantasy theme buildings are sub campuses within a larger campus. So there's Willy Wonka's chocolate factory, there's the Emerald City of Oz, there's Hogwarts Castle, but to me, what was the most interesting is, you know, what's going on underneath all of this. Something that really hadn't gotten a lot of attention, and I don't think most people know about, but they've been doing it since 2006. Their buildings use one quarter the amount of energy for heating and cooling as the average office building. And they trust their system. They've been doing it for a long time, and they know that it's going to work like they expect it to.
 
@@ -39,9 +37,7 @@ DOERING: Now, what challenges has this large geothermal project in Wisconsin, at
 
 MCKENNA: I think it's the same for all geothermal heating and cooling networks in that the upfront cost is significant. The efficiency of the system, you know, about 75% more efficient than conventional heating and cooling, means that you're not going to be spending much on the system once it's operating but there is that hurdle, very significant hurdle, of that upfront cost. And I think that is a challenge now, as communities, as utility companies, look to either pile up these systems or deploy these systems. They know that it's going to work well, they know that's going to be very efficient, but you've still got to come up with the initial money to make the project happen.
 
-![](https://loe.org/content/2026-01-30/GEOTHERMAL_westunion.jpg)
-
-West Union, Iowa, relies on geothermal energy to provide high-efficiency, fossil-free heating and cooling for a dozen buildings in its downtown. (Photo: Phil McKenna, Inside Climate News)
+![West Union, Iowa, relies on geothermal energy to provide high-efficiency, fossil-free heating and cooling for a dozen buildings in its downtown. (Photo: Phil McKenna, Inside Climate News)](https://loe.org/content/2026-01-30/GEOTHERMAL_westunion.jpg)
 
 DOERING: So Phil, the 2022 Inflation Reduction Act included incentives for installing geothermal. Where do those benefits stand now with the Trump administration?
 
@@ -55,9 +51,7 @@ DOERING: What are you keeping your eye on when it comes to geothermal in the yea
 
 MCKENNA: I think in the coming year, there's going to be a continuation of these utility pilot projects. Thirteen states in recent years have passed legislation that either requires utilities to do a pilot project or incentivizes them through grants and other funding to make it easier to fund them. So there are now 26 pilot projects led by utilities that are either in some form of development, or in the case of Framingham, have been completed. States that I'm keeping a close eye on are New York State and Colorado, along with Massachusetts, really seem to be leading on this. But even states like Texas have passed legislation, a red state that you wouldn't think would be doing a lot of clean energy development, but again, very similar to oil and gas, a lot of oil and gas drilling in Texas. And I guess I'd add one more thing is having gone to Epic Systems and seeing such a large system, 6000 bores, compared to Framingham at about 90 bores, orders of magnitude larger. To me, it was an interesting place to visit because it seems to me as a model or potential model, of how these systems could really scale up from what we're seeing now by the utilities as these initial pilot projects that are relatively small could be going much larger. Epic’s campus employs about 12,000 people on site, really getting to the town or small city level.
 
-![](https://loe.org/content/2025-04-18/GEOTHERMAL_drillsite.jpg)
-
-Eversource, a natural gas company, is investing in geothermal to diversify its business model. Shown above is a geothermal construction site in Framingham, MA. (Photo: Provided by Eversource)
+![Eversource, a natural gas company, is investing in geothermal to diversify its business model. Shown above is a geothermal construction site in Framingham, MA. (Photo: Provided by Eversource)](https://loe.org/content/2025-04-18/GEOTHERMAL_drillsite.jpg)
 
 DOERING: Phil McKenna is a reporter for our media partner Inside Climate News. Thanks again, Phil.
 

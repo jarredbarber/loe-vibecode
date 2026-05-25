@@ -32,9 +32,7 @@ JENKS: So we're going to be watching to see how courts respond to it, and how di
 
 DOERING: So the repeal may not go into effect until Trump is out of office, when voters may well demand a return to federal climate action. This and other efforts of the current White House to walk back climate policy and clean energy development not only pose huge obstacles to addressing the climate emergency, but they may also be handing over the health of the US economy to our chief economic rival, China.
 
-![](https://loe.org/content/2026-02-13/CHINA_coalpower.jpg)
-
-A coal power plant in Hailar, in the Inner Mongolia region of China. China continues to build coal power plants, arguing that it will use the plants as backup energy sources while prioritizing renewables. (Photo: Herry Lawford, Wikimedia Commons, CC BY 2.0)
+![A coal power plant in Hailar, in the Inner Mongolia region of China. China continues to build coal power plants, arguing that it will use the plants as backup energy sources while prioritizing renewables. (Photo: Herry Lawford, Wikimedia Commons, CC BY 2.0)](https://loe.org/content/2026-02-13/CHINA_coalpower.jpg)
 
 CURWOOD: As the US fully withdrew from the UN climate negotiations in the fall of 2025, China stepped forward with an absolute emissions reduction target of at least 7 % by 2035. And while the US is the world’s largest historic emitter of greenhouse gases, China is the largest present-day emitter.
 
@@ -51,9 +49,7 @@ HILTON: China's position in terms of climate negotiations, I guess it's stronger
 
 CURWOOD: So how successful is China now in making its transition to renewables in its economy? I mean, I understand they're still building coal plants there, huh?
 
-![](https://loe.org/content/2026-02-13/CHINA_solarpowerwaterheaters.jpg)
-
-Solar power water heaters are very popular among middle sized cities in China. The photo shows a new neighborhood in Tieshan, a district of the prefectural city Huangshi in Hubei province. As is common in Hubei, the buildings feature solar water heaters. (Photo: Vmenkov, Wikimedia Commons, CC BY SA 3.0)
+![Solar power water heaters are very popular among middle sized cities in China. The photo shows a new neighborhood in Tieshan, a district of the prefectural city Huangshi in Hubei province. As is common in Hubei, the buildings feature solar water heaters. (Photo: Vmenkov, Wikimedia Commons, CC BY SA 3.0)](https://loe.org/content/2026-02-13/CHINA_solarpowerwaterheaters.jpg)
 
 HILTON: They are building coal plants, and there are a number of reasons for that. As we came out of the pandemic, there were two successive years in which, for different reasons, there were widespread power cuts in China, just as they were trying to get the economy off the ground. Now, if you're a provincial governor in China, you have targets to meet, you have an economy to grow, and losing power is not helpful, so you essentially want to have your form of energy security. So whilst we've seen a huge growth in electrification in China and a surge in electricity demand which has substantially been met by renewables, we still have the anxiety of what happens if there is a drought and there's no more hydropower? What happens if, for whatever reason, we lose supplies of gas and oil? The thing that China has in super abundance is coal. So it's not helpful for climate. They are very, efficient plants, and they are now saying that they're using them largely for the capacity market, which is slightly unconvincing, but that means that they're not going to have the same old system where they're committed to buy X amount of energy per year from the coal plants, which meant that they got priority access to the grid. What they're now saying about coal plants is that they will prioritize renewable energy, and they'll use the coal plants for backup when they need them. So that's the story. I'm not entirely convinced, but you know, that's the excuse, if you like. The other important thing is that the coal industry is very big in China, so you have a couple of provinces in the north that are almost entirely dependent on coal for their economies. It's quite hard to shut down vested interests that are quite that big. So it will go slowly. Building new coal is not helpful, but we have to recognize that China has politics too.
 
@@ -61,9 +57,7 @@ CURWOOD: So China is a leader now in renewable energy. How did it get there? To 
 
 HILTON: Well, bad air was certainly around when the decision was made. But it was quite a moment, and in the first decade of this century, you had China with an economic model that was beginning to fail. It was the catch up, the very rapid growth, the you know, let's go for GDP growth at all costs and that works for a while. You're making a lot of cheap, low added value goods. You’re really not counting your externalities but after a while that runs out of steam. You've used up all your first advantages, and you have to get more efficient. You have to move up the technology chain if you're going to go on growing, otherwise, you get stuck in the middle-income trap. And so China was looking at this, thinking, what are the technologies of the future? At a time when, as you say, there was also terrible air. So pollution was a thing. People were very, very unhappy, there were big demonstrations. But also the Chinese realized that climate change was real and that China was going to be impacted heavily by it. But also, if the world was going to make a transition to clean economies, it was going to need technologies, and China decided to combine industrial ambition, economic ambition and scientific realism, if you like, and invest enormously in every aspect of every technology that was going to be required for renewables. So that was wind energy, solar, carbon capture, nuclear power, there's a fusion program. There's pretty much everything that you can think of that the 21st century is going to need. And China decided that it was going to be the world's dominant purveyor of those goods and technologies, and it bet the economy on those with great success.
 
-![](https://loe.org/content/2026-02-13/CHINA_pandasolarstation.jpg)
-
-The Panda Solar Station, just south of Datong in Shanxi Province, China, shown here in 2017. (Photo: Planet Labs, Wikimedia Commons, CC BY-SA 4.0 Planet Labs, CC BY-SA 4.0)
+![The Panda Solar Station, just south of Datong in Shanxi Province, China, shown here in 2017. (Photo: Planet Labs, Wikimedia Commons, CC BY-SA 4.0 Planet Labs, CC BY-SA 4.0)](https://loe.org/content/2026-02-13/CHINA_pandasolarstation.jpg)
 
 CURWOOD: So historically, the West got very rich with fossil fuels. The economy really built up with the fossil fuel economy. So given that history and China's advance in the area of renewable energy, what does this put the United States and China vis a vis each other when it comes to economic growth and competition? I mean, to what extent is China in a position to eat America's lunch now for further development?
 
@@ -71,9 +65,7 @@ HILTON: Well, that's certainly what it looks like because, you know, the United 
 
 CURWOOD: My guest is Isabel Hilton, veteran journalist and BBC presenter, and founder of Dialogue Earth. We’ll be back in a moment with more on China’s dominance in the clean energy future. Stay tuned to Living on Earth.
 
-![](https://loe.org/content/2026-02-13/CHINA_windfarmshanxi.jpg)
-
-Wind farm in Guangling County, Shanxi. (Wikimedia Commons, CC BY SA 4.0)
+![Wind farm in Guangling County, Shanxi. (Wikimedia Commons, CC BY SA 4.0)](https://loe.org/content/2026-02-13/CHINA_windfarmshanxi.jpg)
 
 \[MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
 
@@ -87,9 +79,7 @@ CURWOOD: And I’m Steve Curwood.
 
 We’re back now with Isabel Hilton, veteran BBC journalist and founder of Dialogue Earth. One of the ways China has been asserting itself as the dominant force in the clean energy future is by forging trade partnerships with other nations, including Canada, which recently cut tariffs on Chinese EVs from 100 percent to just 6 percent. Talk to me about that deal, what does it mean both in terms of geopolitics and economics?
 
-![](https://loe.org/content/2026-02-13/CHINA_bydsongl.jpg)
-
-Pictured above is the BYD Song L EV, one of the many vehicles produced in China by a Chinese company. Europe has raised security concerns about the capabilities of a fleet of foreign-made smart vehicles. (Photo: JustAnotherCarDesigner, Wikimedia Commons, CC BY SA 2.0)
+![Pictured above is the BYD Song L EV, one of the many vehicles produced in China by a Chinese company. Europe has raised security concerns about the capabilities of a fleet of foreign-made smart vehicles. (Photo: JustAnotherCarDesigner, Wikimedia Commons, CC BY SA 2.0)](https://loe.org/content/2026-02-13/CHINA_bydsongl.jpg)
 
 HILTON: It's obviously distressing for the Canadian motor industry, and it raises another set of concerns. You know, if you look at the politics of energy these days, we used to talk about energy security in terms of a reliable supply at a reasonable price. So, you know, you secured your oil, wherever you secured it, and when the prices went up, your economy suffered when they went down and so on. So that was energy security. Now, energy security in a renewable age, is a given, because, I mean supply is a given because you install your wind or your solar energy, and you have storage. There is no problem of supply, but what there is a problem of is that all these technologies remain connected. So particularly electric vehicles, remain connected to their manufacturer. You know, they're intelligent machines. And the difficulty with that is that it opens up a whole other set of security concerns when the origins of those technologies are not in a country that you can reliably assume is a friendly country, and that is the case with China. We all have relations with China, but it is in some ways potentially an antagonistic power. Here in Europe we are deeply concerned about the China-Russia relationship because of Russia's invasion of Ukraine. So there are all sorts of questions about security, about energy security, which are to do with critical national infrastructure and access to the grid and the collection of data and the capacity to hit a kill switch, which are embodied in things like electric vehicles. So there is a whole parallel conversation going on about how you secure your systems with those technologies, or can you?
 
@@ -99,9 +89,7 @@ HILTON: You are. I mean, one is that there's a kill switch. You know, there's ve
 
 CURWOOD: So by the way, how important are certain minerals that the Chinese seem to have a pretty good hold of when it comes to the renewable energy business? What about these critical minerals and to what extent are US tech industries, as well as other industries, dependent on China for this material?
 
-![](https://loe.org/content/2026-02-13/CHINA_electricbikes.jpg)
-
-An electric bicycle store in China. (Photo: Robbie Sproule, Wikimedia Commons, CC BY 2.0)
+![An electric bicycle store in China. (Photo: Robbie Sproule, Wikimedia Commons, CC BY 2.0)](https://loe.org/content/2026-02-13/CHINA_electricbikes.jpg)
 
 HILTON: We have abandoned, we the collective West, abandoned the processing, in particular, of critical minerals to China, because it's a very dirty process. And in that time when the China price was what counted, so outsourcing of manufacturing of all kinds, that phase of China's growth and that phase of relations with the West, critical mineral processing was also left to China. And China has been de-risking its relations with the rest of the world since 2015 and part of the strategy of de-risking was to secure supply chains. So it made a concerted effort to source critical minerals all over the world, particularly in Congo or in Chile, in the lithium triangle in Latin America. It has some at home though it's looking speculatively at Afghanistan security issues, but still. But it's not just the mining, it is particularly the processing that China virtually monopolizes, and that is going to take some time for Europe or the United States to substitute, because we have left the technology to the Chinese. They've got very good at it. And we would be starting from scratch. Other countries would be starting from scratch. So although sourcing of these minerals is not a major problem, rendering them useful is, and they are absolutely essential. They're essential to batteries. They are essential to the defense industry, even if you know, the United States is turning its back on renewables, at least at the official level, it has a defense industry. So yes, every vehicle, everything you drive, everything you fly, you know, uses these critical minerals. So it's a very, very big and potentially powerful monopoly that China has at the moment.
 
@@ -113,9 +101,7 @@ CURWOOD: So my iPhone speaks Mandarin, apparently, huh?
 
 HILTON: Apparently it does, yes. And the Chinese have passed new rules on the export, they have facilitated export controls on critical minerals, and that includes recycling technologies as well. So they are very determined to keep a hold of it. And this is a weapon that can be deployed at any point. At the moment, we have a one-year suspension in the full deployment of these controls, but you know, that could change any minute.
 
-![](https://loe.org/content/2026-02-13/CHINA_smartphones.jpg)
-
-China dominates the processing of many of the critical minerals present in modern technologies like smartphones. (Photo: Pc1878, Wikimedia Commons, CC BY-SA 4.0)
+![China dominates the processing of many of the critical minerals present in modern technologies like smartphones. (Photo: Pc1878, Wikimedia Commons, CC BY-SA 4.0)](https://loe.org/content/2026-02-13/CHINA_smartphones.jpg)
 
 CURWOOD: Let's talk a bit about the geopolitics here and the climate. I mean, to what extent is progress on the climate a political, ideological warfare matter between the US and China?
 

@@ -17,9 +17,7 @@ O’NEILL: Like Apollo 8, the Artemis Two mission only plans to orbit the moon i
 
 CURWOOD: The four-person crew features the first woman, African-American and Canadian astronaut planned for a lunar mission, all standing by for a launch now scheduled in April of 2026. But the launch date has already been pushed back more than once because of the technical challenges of this extreme pioneering effort.
 
-![](https://loe.org/content/2019-04-19/PERSHING-earthrise.jpg)
-
-Earthrise is the image of planet Earth taken from the Apollo 8 spacecraft during the first manned orbits of the moon, led by NASA in 1968. (Photo: NASA, www\.earthday.org, Public Domain)
+![Earthrise is the image of planet Earth taken from the Apollo 8 spacecraft during the first manned orbits of the moon, led by NASA in 1968. (Photo: NASA, www.earthday.org, Public Domain)](https://loe.org/content/2019-04-19/PERSHING-earthrise.jpg)
 
 O’NEILL: As we wait for the Artemis Two blast off, we thought we would call up Erik Conway, a historian of science and technology at Purdue University. He’s a former historian at NASA's Jet Propulsion Laboratory. Erik, welcome to Living on Earth!
 
@@ -33,9 +31,7 @@ O'NEILL: And now, obviously there's the parallel name between the Artemis missio
 
 CONWAY: A big difference is the Artemis program is being pursued under the idea that it will be a more sustainable approach to lunar operations. The orientation is different. For example, the lunar module for Apollo was entirely disposable, which the new landing system is not intended to be.
 
-![](https://loe.org/content/2026-03-13/ARTEMIS_apollo11.jpg)
-
-Apollo 11 was the first mission to land humans on the moon, including astronaut Buzz Aldrin (pictured above) in 1969. NASA now plans to put humans back on the Moon again in 2028. Throughout the 1970s, Congress defunded NASA as it grappled with an expanding budget deficit and rising costs of geopolitical conflicts. (Photo: Neil A. Armstrong, Wikimedia Commons, CC0)
+![Apollo 11 was the first mission to land humans on the moon, including astronaut Buzz Aldrin (pictured above) in 1969. NASA now plans to put humans back on the Moon again in 2028. Throughout the 1970s, Congress defunded NASA as it grappled with an expanding budget deficit and rising costs of geopolitical conflicts. (Photo: Neil A. Armstrong, Wikimedia Commons, CC0)](https://loe.org/content/2026-03-13/ARTEMIS_apollo11.jpg)
 
 O'NEILL: Well, our last lunar human space flight mission was Apollo 17 in 1972, I believe. Now, how did the political climate of the time affect the success of that mission, but also lead to a halt in our trips to the moon?
 
@@ -45,9 +41,7 @@ O'NEILL: Well, so, Erik, I'm sure you've come across this exact sentiment before
 
 CONWAY: So I say two things, really, in response to that. And that is, you know, it's our elected representatives' job to decide what to spend our money on. And if you're concerned that it's being misspent, you should become more politically active, and therefore ensure that more of the money goes to your priorities over somebody else's. And second, NASA doesn't really compete with, for example, social programs. The way Congress actually funds things is there's 13 different subcommittees that fund various stuff, and NASA nowadays is actually in the science and commerce budget. NASA competes with other science agencies, not with, for example, it used to be in the committee that handled veterans' affairs, and so it was competing with veterans for money. And that's been different, gosh, about 20 years now, that it's in the science budgets. And so less money for science is less money for innovation, and that only gradually impoverishes the United States, instead of the opposite.
 
-![](https://loe.org/content/2026-03-13/ARTEMIS_congress.jpg)
-
-Despite the Trump administration’s attempts to slash NASA’s financial year 2026 budget, Congress ultimately voted to allot NASA its full funding. (Photo: United States House of Representatives, Wikimedia Commons, CC0)
+![Despite the Trump administration’s attempts to slash NASA’s financial year 2026 budget, Congress ultimately voted to allot NASA its full funding. (Photo: United States House of Representatives, Wikimedia Commons, CC0)](https://loe.org/content/2026-03-13/ARTEMIS_congress.jpg)
 
 O'NEILL: Well, I mean, you'll pardon the pun, but it takes an astronomical amount of money to actually launch any sort of space mission, especially going to the moon and, you know, launching humans into space. And in 2025, the Trump administration had threatened to slash NASA's budget by 24% in their budget request for 2026, although in January of 2026 Congress voted to allot NASA its full budget. So what have you seen as the, sort of, results of this back-and-forth regarding the budget? What is most at threat when something hangs in the balance like this?
 
@@ -55,9 +49,7 @@ CONWAY: What the administration had tried to do was to really slash the NASA sci
 
 O'NEILL: And now, as I understand it, in January, NASA also announced that it is ending funding to a number of independent advisory groups. So what does that mean? What is the purpose of these advisory groups, and how is this likely to impact research, or missions, or robotics, or any of that?
 
-![](https://loe.org/content/2026-03-13/ARTEMIS_curiosity.jpg)
-
-The Trump administration’s proposed budget cuts would have had the greatest impact on NASA’s robotics programs. Robotic systems often explore planets and other objects in the solar system as a precursor to crewed missions like Artemis II. (Photo: NASA's Marshall Space Flight Center, Flickr, CC BY-NC 2.0)
+![The Trump administration’s proposed budget cuts would have had the greatest impact on NASA’s robotics programs. Robotic systems often explore planets and other objects in the solar system as a precursor to crewed missions like Artemis II. (Photo: NASA's Marshall Space Flight Center, Flickr, CC BY-NC 2.0)](https://loe.org/content/2026-03-13/ARTEMIS_curiosity.jpg)
 
 CONWAY: So the ending of support for the advisory groups was clearly a step towards gaining more internal control over its programs on NASA's part. And to me, it's very short-term thinking, because the reason those groups exist is NASA quickly discovered that Congress wants to hear support from the external scientific community. And those advisory groups ensure that, you know, each of the disciplines in NASA—astronomy, planetary science, and earth science—all go to Congress with a common voice. Without those groups, what I suspect will happen is what was happening back in the 70s, before these groups got really going, individual scientists would go to Capitol Hill and pitch individual programs, and NASA will find itself with less support than it had in the past. So that's the real danger. You lose the community buy-in and the ability to speak clearly to Congress.
 

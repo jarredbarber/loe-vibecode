@@ -31,9 +31,7 @@ HURLEY: Bristol Bay is a extremely special place. It has all the different types
 
 CURWOOD: So Bristol Bay has huge environmental significance, but it's also important to many human communities. I had been told that it produces, what, more than $2 billion of annual revenue from Sockeye fishing alone. It's also an important food source and cultural site for Indigenous communities, First Alaskans. Talk to me about what the bay means to the people in the area.
 
-![](https://loe.org/content/2026-05-01/HURLEY_nushagakbay.jpg)
-
-Nushagak Bay in Alaska is home to numerous commercial fishing boats and camps. (Photo: Misty Nielsen for the Goldman Environmental Prize)
+![Nushagak Bay in Alaska is home to numerous commercial fishing boats and camps. (Photo: Misty Nielsen for the Goldman Environmental Prize)](https://loe.org/content/2026-05-01/HURLEY_nushagakbay.jpg)
 
 HURLEY: So there are three different Indigenous groups in Bristol Bay, the Yup'ik people, the Dena'ina people, and the Alutiiq people. And our homeland, you know, has been stewarded by our people for thousands and thousands of years. They've taken care of this place and entrusted it to us. Our lands, our water, and everything that that entails, the salmon, the moose, the caribou, the bears, us, our freshwater fish, our berries, our plants, our medicines, we very much view it as all very connected. So anything that happens to our lands and waters happens to us. And so it is everything to us. It is the health of our people, physically, culturally, spiritually, it sustains us. It nourishes us. We're so blessed to be able to live in the ways that our ancestors have lived. That kind of foundation is really critical in understanding our perspective and wanting to protect our home.
 
@@ -55,9 +53,7 @@ CURWOOD: So how did the Environmental Protection Agency, the US Environmental Pr
 
 HURLEY: So the tribes petitioned in 2010 to prohibit all mines like Pebble within the Bristol Bay watershed. The EPA came back and said, we’re not going to act on a prohibition immediately under our authority under the Clean Water Act, but we are going to study Bristol Bay. We want to do an assessment. And we want to ask, is this place really unique, and what does this fishery mean to the state and people? If this type of development, large-scale hard rock mining, were to move forward, what kind of impact could that have on the waters and people? And so really trying to answer those two main questions, and so they took three years to do a bunch of studies. They were in a lot of different communities, there was a lot of peer review to answer those questions, and after that very long, drawn out assessment, they determined what our people had been saying all along. That this type of development would devastate the water and everyone who was sustained by that water, and so that was really the basis for their action that came later.
 
-![](https://loe.org/content/2018-01-05/MCCOLLUM-Berkeley_pit.jpg)
-
-The Berkeley Pit is a former open pit sulfide-ore copper mine located in Butte, Montana that is now filled with heavily acidic water containing arsenic, cadmium, zinc, and sulfuric acid. It’s one of the largest Superfund sites. The proposed Pebble Mine would have resulted in an even larger pit lake with even more room for contaminated water. (Photo: Tjflex2, Flickr CC BY-NC-ND 2.0)
+![The Berkeley Pit is a former open pit sulfide-ore copper mine located in Butte, Montana that is now filled with heavily acidic water containing arsenic, cadmium, zinc, and sulfuric acid. It’s one of the largest Superfund sites. The proposed Pebble Mine would have resulted in an even larger pit lake with even more room for contaminated water. (Photo: Tjflex2, Flickr CC BY-NC-ND 2.0)](https://loe.org/content/2018-01-05/MCCOLLUM-Berkeley_pit.jpg)
 
 CURWOOD: At the end of the day, how did things turn out with the EPA?
 
@@ -67,9 +63,7 @@ CURWOOD: What's the risk that Trump administration number two could reverse all 
 
 HURLEY: There is very much still a risk that that could happen. The company, so Northern Dynasty, the state of Alaska and a few others, have challenged the EPA protections in court, which we anticipated they would. And so far, the Trump administration has continued to defend EPA's action in court, but that is ongoing litigation, and we're not putting all of our eggs in that basket with how unpredictable this administration has been in other arenas. So we're definitely remaining extremely vigilant. And we're continuing to defend the protections in court, and we also are working on legislation that would address the other 20 active mining claims throughout the watershed. Because while we've made great progress, unfortunately, Pebble isn't the only mining claim in the region, and so we're working really hard to put this type of development to bed for good, so that our kids aren't destined to fight project by project, now into eternity.
 
-![](https://loe.org/content/2026-05-01/HURLEY_pebblemine.jpg)
-
-The proposed Pebble Mine project threatened the local waterways and endangered wildlife like the sockeye salmon. After a long fight, the U.S. EPA officially canceled the project in 2023. (Photo: Goldman Environmental Prize)
+![The proposed Pebble Mine project threatened the local waterways and endangered wildlife like the sockeye salmon. After a long fight, the U.S. EPA officially canceled the project in 2023. (Photo: Goldman Environmental Prize)](https://loe.org/content/2026-05-01/HURLEY_pebblemine.jpg)
 
 CURWOOD: You eventually became the Executive Director of the United Tribes of Bristol Bay. How important would you say tribal cooperation has been during this fight?
 
@@ -77,9 +71,7 @@ HURLEY: Tribal unity and cooperation has been absolutely critical. I think in an
 
 CURWOOD: So you were involved in building that coalition, including Native Alaskans, but also other political constituencies, the commercial fisherpeople and such. Talk to me about that. What was it like to build a coalition like that?
 
-![](https://loe.org/content/2026-05-01/HURLEY_aleknagik.jpg)
-
-A landscape view near the village of Aleknagik, Alaska. As the executive director of the United Tribes of Bristol Bay, Alannah Acaq Hurley represented over a dozen federally recognized tribal nations and around 80% of the region’s population. (Photo: Misty Nielsen for the Goldman Environmental Prize)
+![A landscape view near the village of Aleknagik, Alaska. As the executive director of the United Tribes of Bristol Bay, Alannah Acaq Hurley represented over a dozen federally recognized tribal nations and around 80% of the region’s population. (Photo: Misty Nielsen for the Goldman Environmental Prize)](https://loe.org/content/2026-05-01/HURLEY_aleknagik.jpg)
 
 HURLEY: In the case of United Tribes of Bristol Bay, it was really about centering and amplifying the tribal voice and really holding the government accountable for government to government consultation. And there was real unity in that. And I think anytime you're building coalition, it can be challenging. I mean, it's hard to get five people to agree to where you're going to go to dinner, let alone 15 tribal governments from different cultural backgrounds who historically didn't always get along, coming together to fight a common enemy for our continued existence as Indigenous people. That threat really brought us all together in ways that we had never seen before, and that also translated out to non-native groups, commercial fishermen, the conservation community, these aren't people who usually got along. We're used to fighting over fish, \[LAUGHS] not working together to protect them, and so anytime you bring different groups together, there's going to be bumps in the road. At the end of the day, the connections between people, the relationships and the commitment to work through hard moments, and there were a lot of hard moments. \[LAUGHS] And I think a commitment by especially non-native folks, to be in a respectful relationship with Native people and us having that requirement, like, if we are going to be partners, this is how we expect to engage, I think really helped lay the groundwork for a successful coalition. But like I said, that's never easy, it's never pretty, but it was really the people to people relationships, those kind of connections, held us together even in the hard times.
 
@@ -105,9 +97,7 @@ HURLEY: \[LAUGHS] Something special Steve, some magical stuff, for sure.
 
 CURWOOD: What do you see the future of Bristol Bay to be? What does it look like in the future, do you think?
 
-![](https://loe.org/content/2026-05-01/HURLEY_ceremony.jpg)
-
-Alannah Acaq Hurley at the Goldman Environmental Prize award ceremony. (Photo: Goldman Environmental Prize)
+![Alannah Acaq Hurley at the Goldman Environmental Prize award ceremony. (Photo: Goldman Environmental Prize)](https://loe.org/content/2026-05-01/HURLEY_ceremony.jpg)
 
 HURLEY: The future of Bristol Bay is beautiful. We are still struggling with the impacts of colonization, but we have only begun our healing, our reclamation, our revitalization of who we are as Indigenous people, and we have been so lucky that even through all of that and all of those challenges, our people have been able to remember and retain and still pass on our values and way of life. And I'm just so excited. I feel like the potential to be a model of sustainability for the world led by Indigenous communities in modern society is boundless, and so I'm really excited and hopeful that our region can shift from having to put our energy in defense of our homelands, to now build, help build something beautiful and tackle some of the tough issues that we're facing.
 

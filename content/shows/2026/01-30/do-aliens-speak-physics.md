@@ -39,9 +39,7 @@ WARNER: Well, once I figured out that he was not an internet crackpot, it was ye
 
 CURWOOD: By the way, there's a theme in your book: donuts. Talk to me about why you bring the donut machine into this discussion.
 
-![](https://loe.org/content/2026-01-30/DASP_stringdonut.jpg)
-
-Through humorous cartoons, the writers make difficult physics, science, and philosophy topics accessible. (Image: Andy Warner)
+![Through humorous cartoons, the writers make difficult physics, science, and philosophy topics accessible. (Image: Andy Warner)](https://loe.org/content/2026-01-30/DASP_stringdonut.jpg)
 
 WHITESON: Well, you know, we like to balance deep ideas with silly concepts and jokes. It's actually a lesson I learned in an essay from one of my favorite human writers, Dave Barry, who said that, look, some words are just funny and you should work them into your writing, words like weasel or booger. And so we tried to use the word donut as a theme. And it actually is quite helpful in some cases. For example, we're imagining how one might reverse engineer a donut machine, what's going on inside the machine, as a metaphor for trying to understand the universe. We are experiencing the universe. We are trying to reverse engineer its fundamental workings. And we and aliens might come up with different explanations for what's going on behind the scenes, in the same way that two engineers given a crazy donut machine might come up with two different ways to imagine its internal blueprints.
 
@@ -49,9 +47,7 @@ WARNER: I have a distinct memory of during the editing process going through and
 
 CURWOOD: Now, you assume that we haven't made contact with aliens yet. What if they're here now, but they don't want to say?
 
-![](https://loe.org/content/2026-01-30/DASP_drake.jpg)
-
-For the writers, thinking about aliens became a way to investigate deeper questions about how humans understand the universe and how science develops. (Image: Andy Warner)
+![For the writers, thinking about aliens became a way to investigate deeper questions about how humans understand the universe and how science develops. (Image: Andy Warner)](https://loe.org/content/2026-01-30/DASP_drake.jpg)
 
 WHITESON: That's certainly possible. And there's lots of creative theories you could have about various aliens that have found us and don't want to communicate with us, or already here or dropped off instructions for building pyramids 1000s of years ago, etc, etc. But, you know, there's no evidence for that, and so it's hard to know how to proceed with a theory like that without any concrete evidence. I imagine instead, the scenario where aliens show up and they want to talk to us. They want to communicate with us. They land in Central Park and they are ready to have a conversation because, otherwise, I don't know how we get started with a conversation with somebody who doesn't want to talk to us.
 
@@ -63,9 +59,7 @@ WHITESON: Yeah, it's a really fun question. On one hand, you might say, "Look, w
 
 CURWOOD: So, Andy, you've written a lot about history of science, and of course, a large part of that history and what indeed guides human science is curiosity. A lot of the discussion in your book around the first contact assumes that the aliens are going to be curious, just the way we humans are. But I'm not sure your book really supports that. Talk to me about it.
 
-![](https://loe.org/content/2026-01-30/DASP_possible.jpg)
-
-The book hypothesizes over what contact between aliens and humans could be like. In one of those scenarios, extraterrestrials might answer scientific mysteries related to gravity, black holes, and time, for example. (Image: Andy Warner)
+![The book hypothesizes over what contact between aliens and humans could be like. In one of those scenarios, extraterrestrials might answer scientific mysteries related to gravity, black holes, and time, for example. (Image: Andy Warner)](https://loe.org/content/2026-01-30/DASP_possible.jpg)
 
 WARNER: Yeah. Curiosity is foundational to how we do science. It's really what drives humans to explore different directions. And the idea that science is this path, this singular path that moves in one direction, is false. It's more like a river with tributaries and waterfalls. And the way that human science moves forward just by human fixation on something, like one person becoming really, really into something, and then, frankly, devoting their life to something that might seem trivial to another human is one of the main drivers as a collective unit of what pushes us forward, or pushes our science forward. And a lot of it comes down to our basic human fascinations. What are humans interested in? Even things like our basic anatomy, the fact that we walk around on two legs and so our neck cranes up, that makes us interested in the stars, right? We were putting together constellation theories long before we even realized anything about what they were about. And so, the way that our basic anatomy, the way that our brains work, our hands work, our eyes work, actually governs the way that our science is put together, patchwork by patchwork in this big quilt. And you don't even know what's in between one patch and another. Maybe it's a formless void and you can't stitch it. We don't know that yet, but those patches will be different with any other intelligent species. I mean, they would be different for dolphins and dogs, and we evolved alongside them. I mean, frankly, we evolved dogs for us, right? But like a lot of where science takes us is based around us. It's based around our very humanness. And humans are curious. We don't know if other aliens will be curious, or if they are curious, in what way they will be curious.
 
@@ -73,9 +67,7 @@ CURWOOD: There's one topic you don't really have in your book. But if I had alie
 
 WHITESON: Yeah, well, they might start by saying, "Well, what do you mean by consciousness, exactly?" That's the way all philosophical conversations end up, disagreeing about terms. It's a really hard question, and it's a great example of something we have not been able to tackle. We have no scientific explanation for why you are having an experience right now, why you have a rich internal life. There is no explanation for that. And we don't know how, for example, tiny particles, “to-ing and fro-ing,” at the most basic level, somehow work together to emerge, to make our universe and classical physics and our experience of music and all this kind of stuff. We cannot explain that. And some philosophers I talked to said, "You know, that maybe we're just going about it the wrong way. Maybe it doesn't emerge from the microscopic “to-s and fro-s” in some complicated way we haven't figured out yet. Maybe it follows its own rules, right? Maybe there aren't rules only at the most basic level, and then everything bubbles up from that. Maybe every level of the universe, hurricanes and brains and particles, has its own set of rules." That flies in the face of sort of the traditional approach of Western science, reductionist approach, to go from the bottom up, but philosophers are much more willing to consider what you might think are crazy ideas. You know, that's not ruled out. It's certainly possible. It's consistent with everything we see out there in the universe. And so consciousness is a great example of a problem that we have not been able to solve, and it may be that the whole approach that we're taking is not one that's going to lead to an answer.
 
-![](https://loe.org/content/2026-01-30/DASP_ETs.jpg)
-
-Warner and Whiteson also propose that ETs might help us learn a lot more about what it means to be human and how our curiosity has propelled our discovery of the universe. (Image: Andy Warner)
+![Warner and Whiteson also propose that ETs might help us learn a lot more about what it means to be human and how our curiosity has propelled our discovery of the universe. (Image: Andy Warner)](https://loe.org/content/2026-01-30/DASP_ETs.jpg)
 
 CURWOOD: So let's say the aliens were here to teach us a bit about things. What might they tell us about things that have us scratching our heads, like time and gravity?
 
@@ -83,9 +75,7 @@ WHITESON: Yeah, great question. One of the possible scenarios for aliens arrivin
 
 CURWOOD: I want to look at this from a slightly different angle. What do you think is the biggest false assumption that people have made when thinking about first contact with aliens?
 
-![](https://loe.org/content/2026-01-30/DASP_observable.jpg)
-
-The book challenges readers to take a more expansive approach to science, considering what might happen if we consider the universe from different vantage points. Shown above is a circular representation of the observable universe, shown on a logarithmic scale, with our solar system at the center and enlarged images of various celestial objects. (Photo: Pablo Carlos Budassi, Wikimedia Commons, CC BY-SA 3.0)
+![The book challenges readers to take a more expansive approach to science, considering what might happen if we consider the universe from different vantage points. Shown above is a circular representation of the observable universe, shown on a logarithmic scale, with our solar system at the center and enlarged images of various celestial objects. (Photo: Pablo Carlos Budassi, Wikimedia Commons, CC BY-SA 3.0)](https://loe.org/content/2026-01-30/DASP_observable.jpg)
 
 WHITESON: I think a major theme in alien contact stories is that we get a message from space, not that aliens have arrived, but that we receive a message from them, and that we sit down and puzzle over it, and crank it through the computers, and we decode it, and we understand what it means. And, if you talk to linguists and philosophers of language, they all think that's probably impossible because every time you get a message, anytime you communicate, you're taking this step where you have your ideas in your mind and you transform them into symbols, which you can then communicate, and then the person at the receiving end transforms those symbols back into ideas. If it's a language we both understand, that works really well. And if I'm thinking in a way that you might be able to understand, but I write in code, you might be able to figure it out. You might be able to crack that code by thinking through the various possibilities. And when you get it right, you can see my original idea, right? It makes sense to you. But if you are talking to an alien intelligence that's thinking things that might be very, very alien, and using some other way to transcribe those ideas into symbols, the chance that you're going to figure out how to reverse that encoding without their help and recognize when you figured it out, seem very, very slim. And even the much simpler task of understanding human languages from ancient civilizations that are long gone, we don't have a great track record there either. I mean, we decoded Egyptian hieroglyphics, but only because we got this amazing cheat sheet, the Rosetta Stone, and it still took 20 years. And we never decoded Etruscan or other human languages. So the chances of getting an alien message and decoding it, I think, are quite amplified in science fiction, which is why in the book, we focused instead on the scenario that the aliens arrive, and they can help us actually build communication by having a context in common, by pointing at donuts or dolphins or apples and learning the symbols for those together.
 
@@ -103,9 +93,7 @@ WHITESON: Maybe it was donuts.
 
 WARNER: Maybe it was donuts. It is a real record, and it is really made out of gold, and we did really send it out into space.
 
-![](https://loe.org/content/2026-01-30/DASP_wishlist.jpg)
-
-The book features over 300 black and white illustrations. (Image: Andy Warner)
+![The book features over 300 black and white illustrations. (Image: Andy Warner)](https://loe.org/content/2026-01-30/DASP_wishlist.jpg)
 
 CURWOOD: So let's zoom out. What can we learn about ourselves by thinking about aliens?
 

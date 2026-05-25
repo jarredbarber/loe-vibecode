@@ -54,9 +54,7 @@ Enjoy the mosquito bites, the little sandals chaos- flung
 on the patio. Let’s see who can make the biggest, most brilliant  
 spray of light when we bite into our cobs of corn.
 
-![](https://loe.org/content/2026-04-10/NIGHTOWL_author.jpg)
-
-Aimee Nezhukumatathil served as poetry editor for *Orion* and *Sierra* magazines and has been a professor of English for 25 years in Oxford, Mississippi. She’s also the author of *Night Owl: Poems*. (Photo: Dustin Parsons)
+![Aimee Nezhukumatathil served as poetry editor for Orion and Sierra magazines and has been a professor of English for 25 years in Oxford, Mississippi. She’s also the author of Night Owl: Poems. (Photo: Dustin Parsons)](https://loe.org/content/2026-04-10/NIGHTOWL_author.jpg)
 
 DOERING: Brooding and letting go a little bit, I think? Starting to realize that at some point you'll have to let go?
 

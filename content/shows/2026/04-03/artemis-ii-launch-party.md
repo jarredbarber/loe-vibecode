@@ -31,9 +31,7 @@ where there will be humans occupying the moon as their residence in the future. 
 that's just, you know, this is the first step for it. And I just think that that's so incredibly  
 exciting.
 
-![](https://loe.org/content/2026-04-03/WATCH_goodlander.jpeg)
-
-Congresswoman Maggie Goodlander (D-NH) at the Artemis II launch party. (Photo: Jennifer Stevens-Curwood)
+![Congresswoman Maggie Goodlander (D-NH) at the Artemis II launch party. (Photo: Jennifer Stevens-Curwood)](https://loe.org/content/2026-04-03/WATCH_goodlander.jpeg)
 
 CURWOOD: The McAuliffe-Shepard Discovery Center honors two famous New  
 Hampshire astronauts. Alan Shepard was the first American in space and later the first  
@@ -56,9 +54,7 @@ CROWD CHANTING: … 8, 7, 6, 5, 4, 3, 2, 1!
 GOLUBIEWSKI: It was really amazing to watch. It was an incredible experience. And I've  
 been waiting to see this my whole life. So being here has been amazing so far. \[LAUGHS]
 
-![](https://loe.org/content/2026-04-03/WATCH_curwoodinterviews.jpeg)
-
-Living on Earth host Steve Curwood interviews the UNH Astronomy club. (Photo: Jennifer Stevens-Curwood)
+![Living on Earth host Steve Curwood interviews the UNH Astronomy club. (Photo: Jennifer Stevens-Curwood)](https://loe.org/content/2026-04-03/WATCH_curwoodinterviews.jpeg)
 
 CURWOOD: University of New Hampshire astronomy club member and student Rachel  
 Golubiewski.
@@ -75,9 +71,7 @@ Club.
 
 NASA LIVESTREAM: Confirm separation. Main engine…
 
-![](https://loe.org/content/2026-04-03/WATCH_audience.jpeg)
-
-The audience at the Artemis II launch party on April 1, 2026. (Photo: Jennifer Stevens-Curwood)
+![The audience at the Artemis II launch party on April 1, 2026. (Photo: Jennifer Stevens-Curwood)](https://loe.org/content/2026-04-03/WATCH_audience.jpeg)
 
 \[CROWD CHEERS]
 
@@ -104,9 +98,7 @@ who are involved with this. But at the same time, there is a lot of risk involve
 something new, and especially with the past missions, although there have been risks,  
 we wouldn't have been able to make a lot of the discoveries that we have now because of that. So I mean, I think they've done as much as they can to make sure this is safe, and we're hoping and praying that it will be and yeah, I mean, I guess all we can do is really learn from our mistakes, and hopefully this one will go well.
 
-![](https://loe.org/content/2026-04-03/WATCH_astronomyclub.jpeg)
-
-The University of New Hampshire Astronomy club, from left to right: Rachel Golubiewski, Joey Arena, Matthew Anderson, Liam Pearl, Ryad Ouhhabi. (Photo: Jennifer Stevens-Curwood)
+![The University of New Hampshire Astronomy club, from left to right: Rachel Golubiewski, Joey Arena, Matthew Anderson, Liam Pearl, Ryad Ouhhabi. (Photo: Jennifer Stevens-Curwood)](https://loe.org/content/2026-04-03/WATCH_astronomyclub.jpeg)
 
 CURWOOD: And I asked Rachel and the others from the astronomy club including  
 Matthew Anderson and Joey Arena what they might tell the astronauts right now, if they  

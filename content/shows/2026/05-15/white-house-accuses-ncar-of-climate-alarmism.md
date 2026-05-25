@@ -25,9 +25,7 @@ CURWOOD: Briefly, please describe for us what exactly the National Center for At
 
 ABDALATI: So NCAR carries out all aspects of atmospheric research and environmental research related to weather, climates, drought, fires, basically how the earth system works, how it moves energy, what the implications are for weather and the way we live, from our day to day lives to our longer-term planning.
 
-![](https://loe.org/content/2026-05-15/ncarlawsuit2.jpg)
-
-The National Center for Atmospheric Research in Boulder, Colorado. (Photo: Thomson M, Wikimedia Commons, CC BY 3.0).
+![The National Center for Atmospheric Research in Boulder, Colorado. (Photo: Thomson M, Wikimedia Commons, CC BY 3.0).](https://loe.org/content/2026-05-15/ncarlawsuit2.jpg)
 
 CURWOOD: So the University Corporation for Atmospheric Research, the holding company, if you will, of NCAR, has filed a lawsuit arguing that dismantling NCAR would threaten national security, public safety, the economy. How well-founded are these claims, do you think?
 
@@ -37,9 +35,7 @@ CURWOOD: So the lawsuit also suggests that the move by the Trump administration 
 
 ABDALATI: \[LAUGH] Well, I'm not going to put myself in the mind of officials that make these kinds of decisions. What I will say is a lot of people believe that this is retaliation. Colorado in particular, being singled out because the governor of the state of Colorado has not pardoned or shown leniency to Tina Peters, the county clerk who has been accused, actually convicted of tampering with ballots in her county.\* *(see update at end of this transcript)* And so this gets back to sort of the current administration's commitment to advancing the idea that the 2020 election was rigged, and the governor of Colorado is, I wouldn't say, pushing back on that. He's simply not agreeing to undo what a court has determined or has decided. And that, again, I'm not saying this myself, but many believe that has put the states in bad favor with the administration, and this is apparently an effort to retaliate against that.
 
-![](https://loe.org/content/2026-05-15/ncarlawsuit3.jpg)
-
-Colorado Governor Jared Polis has clashed with President Trump who wants a pardon of Tina Peters, the Mesa County clerk who was convicted in state court of tampering with 2020 election results on behalf of the president. Above, Trump (center) and Polis (right) meet at the White House. (Photo: The White House, Wikimedia Commons, Public Domain)
+![Colorado Governor Jared Polis has clashed with President Trump who wants a pardon of Tina Peters, the Mesa County clerk who was convicted in state court of tampering with 2020 election results on behalf of the president. Above, Trump (center) and Polis (right) meet at the White House. (Photo: The White House, Wikimedia Commons, Public Domain)](https://loe.org/content/2026-05-15/ncarlawsuit3.jpg)
 
 CURWOOD: Tina Peters was convicted for tampering with the election results in 2020 on behalf of President Trump, but of course, being a state conviction, he has no power to pardon her.
 
@@ -49,9 +45,7 @@ CURWOOD: So how are others in the world of climate research and weather reacting
 
 ABDALATI: I don't know how people are reacting to the lawsuit. I do think people are hopeful that they'll prevail, because the issue from the science perspective is this is a tremendous capability that at best will be compromised, at worst, would be destroyed. The administration did seem to single out NCAR's climate work and climate alarmism, as they call it. You know, one, NCAR does so much more. And two, I don't think there's alarmism by the scientists at NCAR. They do research and they report, through peer review, what they find. The fact that some of it is or can be alarming doesn't make the alarm the goal of the work. I think there's a great loss for the wrong reasons. I mean, there's no good reason for dismantling this or tearing it down, but I do think the allegations that are made are off the mark.
 
-![](https://loe.org/content/2026-05-15/ncarlawsuit4.jpg)
-
-Shown above is Hurricane Florence in 2018. Abdalati warns that a lack of understanding about atmospheric science puts us at greater risk when climate disasters strike. Tools like weather satellites are used by NCAR to forecast and track storms to reduce their impact. (Photo: NASA/Goddard Space Flight Center, Wikimedia Commons, CC BY 2.0)
+![Shown above is Hurricane Florence in 2018. Abdalati warns that a lack of understanding about atmospheric science puts us at greater risk when climate disasters strike. Tools like weather satellites are used by NCAR to forecast and track storms to reduce their impact. (Photo: NASA/Goddard Space Flight Center, Wikimedia Commons, CC BY 2.0)](https://loe.org/content/2026-05-15/ncarlawsuit4.jpg)
 
 CURWOOD: By the way, to what extent do you believe that we should all be very concerned, indeed, alarmed about the climate emergency that seems to be advancing?
 

@@ -31,9 +31,7 @@ BELTRAN: Yeah. So *Sea of Grass* centers around what you and Hage call the "para
 
 MARCOTTY: So the paradox of the prairie is, I think, partly rooted in the fear that early colonialists had when they first encountered it. It is a vast grassland, and that's not something that most Europeans had experience with. They didn't like that openness. They were fearful of the wetlands. They would easily get lost. The winters were terrifying because they were cold and windy, but it was, at the same time, a remarkably fertile place. At first, they thought nothing would grow there because there were no forests, and they thought, well, there must be just bad soil. But it turned out to be the most productive soil in the world, as we know now, based on our agricultural output from those former grasslands. So that's one of the paradoxes.
 
-![](https://loe.org/content/2026-01-06/sop_prarie_plants.jpg)
-
-Prairie plants are highly effective at sequestering carbon because of their extensive root systems, which also help them withstand wildfires and prevent erosion. (Photo: John E. Weaver, Wikimedia Commons, Public Domain).
+![Prairie plants are highly effective at sequestering carbon because of their extensive root systems, which also help them withstand wildfires and prevent erosion. (Photo: John E. Weaver, Wikimedia Commons, Public Domain).](https://loe.org/content/2026-01-06/sop_prarie_plants.jpg)
 
 BELTRAN: Yeah, I think most of us don't really equate prairies with biodiversity, but they are actually some of the richest ecosystems in the world. A recent study showed that the number of organisms present in grassland soil even rival the Amazon rainforest. What are some of the benefits of healthy prairies for humans and also for our planet?
 
@@ -47,9 +45,7 @@ BELTRAN: Wow. How are we losing our grasslands in the United States at such an a
 
 MARCOTTY: So for many, many decades, intensive agriculture stopped at around the 98th parallel because it was too dry in the West to really graze crops properly. And instead, that's why we have cattle there. That's because it was good country for cattle and bison. But through genetic technology, we now are creating seeds, like for corn, that is much more capable of withstanding severe weather, that can thrive in dry conditions. So we now have the kinds of seeds that will allow us to grow crops in places where we could never grow them before. And the profits from that are much greater than from growing cattle. So you can sell a piece of land that has been plowed for much higher price than you can sell it if it hasn't been plowed.
 
-![](https://loe.org/content/2026-01-06/sog_corn_ind_farming.jpg)
-
-Industrial farming is one of the driving forces behind prairie destruction. The practice of growing monoculture crops such as corn and soybeans uproots grasslands, depletes prairie soil, and increases the risk of pests, making farmers dependent on chemical fertilizers. (Photo: TwoScarsUp, Wikimedia Commons, CC0 1.0).
+![Industrial farming is one of the driving forces behind prairie destruction. The practice of growing monoculture crops such as corn and soybeans uproots grasslands, depletes prairie soil, and increases the risk of pests, making farmers dependent on chemical fertilizers. (Photo: TwoScarsUp, Wikimedia Commons, CC0 1.0).](https://loe.org/content/2026-01-06/sog_corn_ind_farming.jpg)
 
 BELTRAN: So prairies are vanishing largely due to commercial agriculture replacing grasslands with monoculture crops. To what extent is industrial farming to blame for the disappearing of the prairies?
 
@@ -71,25 +67,19 @@ And we’re back now with Josephine Marcotty, coauthor of the book, *Sea of Gras
 
 MARCOTTY: So Native American people grew crops for their own consumption. So they would grow a variety of food depending on where they were. They would have corn, they would have beans, they would have squash. So they had much more diversity within their farming system, and so they could grow their food on a plot of land, and when the soil played out, they could move on to another place and grow food in another spot and let that area recover and become more fertile again. When European colonialists came in, they began to grow food for markets. So they grew far more food than they needed for themselves, and then they would sell the extra. Indians, they never, they didn't function like that. They didn't have like, a capitalist system. They were people who grew their food for themselves and and for their community, and they just grew what they needed for a season or for a year. And you know, bison were the primary source of food for Western Native Americans for many, many, many years, and they still are. In the last several decades, there has been a push to bring the bison from Yellowstone National Park and return them to the Native Americans and the tribal lands that used to rely on them, and this has been a great story of revival, not only for bison, but also for those native tribes to be able to have food sovereignty and their own source of food, and also to develop businesses around that source of food that they can generate income for their communities. And it's such a story of the underdog. You know, if you think of Native Americans as an, as an underdog, and bison as an underdog, and their ability to come back together and find strength together in restoring bisons to the tribal lands.
 
-![](<https://loe.org/content/2026-01-06/sog_grass_glaciel ridge.jpg>)
-
-The Glacial Ridge National Wildlife Refuge was created in part out of a nearby agricultural town’s need for clean drinking water, emphasizing that restoring prairies is beneficial to farmers and conservationists alike. (Photo: Jasper Shide, Wikimedia Commons, CC0 1.0).
+![The Glacial Ridge National Wildlife Refuge was created in part out of a nearby agricultural town’s need for clean drinking water, emphasizing that restoring prairies is beneficial to farmers and conservationists alike. (Photo: Jasper Shide, Wikimedia Commons, CC0 1.0).](<https://loe.org/content/2026-01-06/sog_grass_glaciel ridge.jpg>)
 
 BELTRAN: So your book details the struggle between the farming industry and land conservation in the American West, but it sounds like restoring prairies is actually beneficial to farmers and to people everywhere. Could you describe that contradiction?
 
 MARCOTTY: One of the contradictions is that we have many different viewpoints and opinions on what land is for. So farmers and the agricultural industry and farming communities often believe that land is best used to produce food and to produce crops, and that that is the economic engine of those small, rural communities. That's been true for hundreds of years. That is the basis of what drove much of colonialism across the country. But at the same time, one of the chapters we have in our book is about a prairie restoration in Northwest Minnesota called the Glacial Ridge. It is the largest prairie restoration in the country, it's like 24,000 acres. And The Nature Conservancy and the other organizations that helped restore that prairie, one of the reasons they were able to do that was because the city of tiny, little city of Crookston, which is primarily an agricultural economic city, needed a place to get clean drinking water, and they were able to put the city's drinking wells in this restored prairie, and know that they would never be contaminated with fertilizer or with other farm contaminants. So just clean drinking water alone is one real benefit. The other of course, is pollinators. I mean, the prairie is a place where you find more pollinators than almost anywhere else in the country, and we need those pollinators to pollinate the crops that we eat for food. But there are estimates that pollinators have declined by up to 25% in some parts of the country, and we're losing bumblebees at a high rate. The rusty patched bumblebee is on the endangered species list because it's disappeared in much of the prairie states. So those are just two of the ecosystem services that prairies can provide.
 
-![](https://loe.org/content/2026-01-06/sog_ranch_bison_ranchers.jpg)
-
-Bison ranchers are especially important to the health of prairies, but the steady income promised by corn makes it difficult for farmers to want to convert their land. (Photo: Lamar Buffalo Ranch, Wikimedia Commons, Public Domain).
+![Bison ranchers are especially important to the health of prairies, but the steady income promised by corn makes it difficult for farmers to want to convert their land. (Photo: Lamar Buffalo Ranch, Wikimedia Commons, Public Domain).](https://loe.org/content/2026-01-06/sog_ranch_bison_ranchers.jpg)
 
 BELTRAN: And Josephine, you talk to multiple farmers, and you know, people within the agricultural industry for your book. What's their sentiment around the loss of the prairie and the loss of our grasslands?
 
 MARCOTTY: I think many of them grieve it. I think that many people who live on the grasslands today love it the same way we all love the place where we grow up and appreciate its beauty and its wildlife and what it means to them culturally. But it's very difficult to compete with corn. And if you are a rancher that owns land, and you want to retire, and all of your pension, all of your savings, are essentially the land that you own, and the only way that you can sell it is to sell it to someone who wants to raise corn and soybeans on it, you're in kind of a bad spot. You don't have a lot of options in terms of finding another rancher who wants to raise cattle on it. It's going to be much easier in many places to sell it to someone who wants to raise corn. I think that farmers are caught in a system, just like the rest of us, we are all part of a food system that we created and that we rely on. They don't have a lot of room to experiment with different kinds of growing systems or different kinds of crops, and they often feel like they can't really afford to let grasslands be and to maintain grasslands. For them, land has to produce. They need to make money on it.
 
-![](https://loe.org/content/2026-01-06/sog_marcotty_preserving.jpg)
-
-Marcotty encourages listeners to find a prairie to explore in order to understand the importance of preserving them. (Photo: Qwexcxewq, Wikimedia Commons, CC BY 4.0).
+![Marcotty encourages listeners to find a prairie to explore in order to understand the importance of preserving them. (Photo: Qwexcxewq, Wikimedia Commons, CC BY 4.0).](https://loe.org/content/2026-01-06/sog_marcotty_preserving.jpg)
 
 BELTRAN: And the farming industry relies heavily on support from the federal government, including from important legislation like the Farm Bill, which provides aid for farmers through programs like crop insurance and funding for research and development. How can the Farm Bill aid in preventing the loss and collapse of the American prairie while continuing to support farmers?
 
@@ -97,9 +87,7 @@ MARCOTTY: One of the things that would help a lot would be parity. So the Farm B
 
 /content/2026-01-06/sog\_Marcotty\_hage\_headshot.jpg
 
-![](https://loe.org/content/2026-01-06/sog_Marcotty_hage_headshot.jpg)
-
-Josephine Marcotty and Dave Hage are co-authors of *Sea of Grass: The Conquest, Ruin, and Redemption of Nature on the American Prairie.* (Photos: Courtesy of Josephine Marcotty)
+![Josephine Marcotty and Dave Hage are co-authors of Sea of Grass: The Conquest, Ruin, and Redemption of Nature on the American Prairie. (Photos: Courtesy of Josephine Marcotty)](https://loe.org/content/2026-01-06/sog_Marcotty_hage_headshot.jpg)
 
 BELTRAN: What are some of the restoration efforts currently taking place across the country?
 

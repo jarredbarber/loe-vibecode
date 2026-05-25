@@ -41,9 +41,7 @@ COOK: I think it's pretty cool. We've always enjoyed watching him. We've always 
 
 KUBIS: Cook does turn heads when he performs tricks. And it's obvious to everyone who sees him that he skis to the beat of his own drummer.
 
-![](<https://loe.org/shows/ /content/2026-02-27/AF_names.jpg >)
-
-Cook named two of his children, Zolin and Zolina, after his beloved Olin ballet skis. (Photo: Andy Kubis, The Allegheny Front)
+![Cook named two of his children, Zolin and Zolina, after his beloved Olin ballet skis. (Photo: Andy Kubis, The Allegheny Front)](<https://loe.org/shows/ /content/2026-02-27/AF_names.jpg >)
 
 COOK: In the beginning, in particular, when I skied ballet, I would have music in my head that I started to move to that the rhythm of it. And unlike typical ballet, it was always rock and roll that was going on in my head. But the slower pace rock and roll. "Lady," I forget who sings that song, even, but Lady, you know, and that made the 360s a whole lot easier.
 

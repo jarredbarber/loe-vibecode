@@ -1,11 +1,11 @@
 ---
-title: "Back to the Moon!"
+title: Back to the Moon!
 date: 2026-03-13
 category: Segments
 megaphone_id: LOE5057023539
-image_url: "https://loe.org/content/2026-03-13/ARTEMIS_rocket.jpg"
-image_caption: "The Artemis space program seeks to return humans to the moon by 2028. The Artemis II mission, currently set to launch in April 2026, will fly a crew of four astronauts around the moon for 10 days. (Photo: Olga Ernst, Wikimedia Commons, CC BY-SA 4.0)"
-summary: "The Artemis II mission is getting ready to use the most powerful rocket ever built by NASA to return to the moon for the first time since the original Apollo missions more than 50 years ago. Erik Conway, a historian of science and technology at Purdue University and former NASA historian, tells Host Aynsley O’Neill about how declining public support shut down the Apollo program and why NASA again faces headwinds in maintaining the public’s interest in space exploration."
+image_url: https://loe.org/content/2026-03-13/ARTEMIS_rocket.jpg
+image_caption: The Artemis space program seeks to return humans to the moon by 2028. The Artemis II mission, currently set to launch in April 2026, will fly a crew of four astronauts around the moon for 10 days. (Photo: Olga Ernst, Wikimedia Commons, CC BY-SA 4.0)
+summary: The Artemis II mission is getting ready to use the most powerful rocket ever built by NASA to return to the moon for the first time since the original Apollo missions more than 50 years ago. Erik Conway, a historian of science and technology at Purdue University and former NASA historian, tells Host Aynsley O’Neill about how declining public support shut down the Apollo program and why NASA again faces headwinds in maintaining the public’s interest in space exploration.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00011&segmentID=4 -->
 

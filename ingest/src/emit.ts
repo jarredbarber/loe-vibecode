@@ -8,22 +8,22 @@ import type { SegmentDoc } from './parse-segment.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 export const CONTENT_DIR = join(__dirname, '..', '..', 'content', 'shows');
 
-/** YAML-escape a scalar string. Quotes only when necessary; prefers single
- *  quotes when the value contains " but no ' (avoids ugly backslash escapes). */
-function yamlString(v: string): string {
-    const needsQuoting = /[:#&*!|>'"%@`,\[\]{}]|^\s|\s$|^-\s/.test(v) || v === '';
-    if (!needsQuoting) return v;
-    if (v.includes('"') && !v.includes("'")) {
-        return `'${v}'`;
-    }
-    return `"${v.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
+/**
+ * Pelican parses frontmatter with Python-Markdown's Meta extension, NOT YAML.
+ * Meta is plain `key: value` per line — quotes are taken literally and there's
+ * no escaping syntax. So we emit raw values with one normalization: collapse
+ * any embedded newlines/CRs to spaces, since Meta treats indented continuation
+ * lines as part of the value (we don't want surprises).
+ */
+function metaValue(v: string): string {
+    return v.replace(/[\r\n]+/g, ' ').trim();
 }
 
 function frontmatter(fields: Record<string, string | null | undefined>): string {
     const lines = ['---'];
     for (const [k, v] of Object.entries(fields)) {
         if (v == null) continue;
-        lines.push(`${k}: ${yamlString(String(v))}`);
+        lines.push(`${k}: ${metaValue(String(v))}`);
     }
     lines.push('---', '');
     return lines.join('\n');

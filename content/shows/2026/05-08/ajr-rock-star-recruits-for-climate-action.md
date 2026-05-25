@@ -3,9 +3,9 @@ title: AJR Rock Star Recruits for Climate Action
 date: 2026-05-08
 category: Segments
 megaphone_id: LOE1299734635
-image_url: "https://loe.org/content/2026-05-08/AJR_band.jpg"
-image_caption: "Adam Met (right) is the “A” in indie-rock band AJR, where he plays bass alongside his brothers Ryan (left) and Jack (center). (Photo: Elsi Delgado, Wikimedia Commons, Public Domain)"
-summary: "The indie-pop band AJR is known for its high-energy anthems and along with growing their fan base of mostly young adults, AJR is growing the climate movement. At sold-out concerts, they offer fans ways to plug in to climate advocacy. AJR bassist Adam Met also teaches sustainability as an adjunct at Columbia and is cofounder of the nonprofit Planet Reimagined, and he speaks with Host Jenni Doering about engaging fans to sign petitions, join local groups and, most importantly, vote."
+image_url: https://loe.org/content/2026-05-08/AJR_band.jpg
+image_caption: Adam Met (right) is the “A” in indie-rock band AJR, where he plays bass alongside his brothers Ryan (left) and Jack (center). (Photo: Elsi Delgado, Wikimedia Commons, Public Domain)
+summary: The indie-pop band AJR is known for its high-energy anthems and along with growing their fan base of mostly young adults, AJR is growing the climate movement. At sold-out concerts, they offer fans ways to plug in to climate advocacy. AJR bassist Adam Met also teaches sustainability as an adjunct at Columbia and is cofounder of the nonprofit Planet Reimagined, and he speaks with Host Jenni Doering about engaging fans to sign petitions, join local groups and, most importantly, vote.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00019&segmentID=3 -->
 

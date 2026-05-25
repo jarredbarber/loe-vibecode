@@ -1,11 +1,11 @@
 ---
-title: "A City on Mars and the Perils of Settling Space (Cont'd)"
+title: A City on Mars and the Perils of Settling Space (Cont'd)
 date: 2026-01-02
 category: Segments
 megaphone_id: LOE5237606633
-image_url: "https://loe.org/content/2026-01-02/ACOM2_explorationcould.jpg"
-image_caption: "Space exploration could set the stage for territorial conflicts. (Image: Drawn by Zach Weinersmith)"
-summary: "A City on Mars authors Kelly and Zach Weinersmith continue their conversation with Host Jenni Doering about the challenges of settling space. They discuss why the Moon has limited “primo” real estate, what it was like to write this book together as a married couple, and why they view humor as an essential piece of helping a general audience understand such complex issues as international space law."
+image_url: https://loe.org/content/2026-01-02/ACOM2_explorationcould.jpg
+image_caption: Space exploration could set the stage for territorial conflicts. (Image: Drawn by Zach Weinersmith)
+summary: A City on Mars authors Kelly and Zach Weinersmith continue their conversation with Host Jenni Doering about the challenges of settling space. They discuss why the Moon has limited “primo” real estate, what it was like to write this book together as a married couple, and why they view humor as an essential piece of helping a general audience understand such complex issues as international space law.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00001&segmentID=3 -->
 

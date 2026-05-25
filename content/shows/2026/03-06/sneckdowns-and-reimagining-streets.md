@@ -1,11 +1,11 @@
 ---
-title: '"Sneckdowns" and Reimagining Streets'
+title: "Sneckdowns" and Reimagining Streets
 date: 2026-03-06
 category: Segments
 megaphone_id: LOE5848704106
-image_url: "https://loe.org/content/2026-03-06/SNOW_snowystreet.jpg"
-image_caption: "A snowy neckdown, or sneckdown, models how streets can be made safer for both cars and pedestrians by extending sidewalk space at intersections. February brought record-breaking snow to the Northeastern U.S., inspiring sneckdown hunters to take to the streets. (Photo: Wil540 art, Wikimedia Commons, CC BY 4.0)"
-summary: "If you’re one of the millions of city-dwelling Americans who saw over a foot of snow in recent weeks, you might have felt a bit buried by the endless snowbanks. But all that snow made traffic slow down and gave people a chance to see sidewalks and streets differently than before. Living on Earth’s Bella Smith has this report on the phenomenon of the “sneckdown.”"
+image_url: https://loe.org/content/2026-03-06/SNOW_snowystreet.jpg
+image_caption: A snowy neckdown, or sneckdown, models how streets can be made safer for both cars and pedestrians by extending sidewalk space at intersections. February brought record-breaking snow to the Northeastern U.S., inspiring sneckdown hunters to take to the streets. (Photo: Wil540 art, Wikimedia Commons, CC BY 4.0)
+summary: If you’re one of the millions of city-dwelling Americans who saw over a foot of snow in recent weeks, you might have felt a bit buried by the endless snowbanks. But all that snow made traffic slow down and gave people a chance to see sidewalks and streets differently than before. Living on Earth’s Bella Smith has this report on the phenomenon of the “sneckdown.”
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00010&segmentID=3 -->
 

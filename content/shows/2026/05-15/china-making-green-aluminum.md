@@ -3,9 +3,9 @@ title: China Making Green Aluminum
 date: 2026-05-15
 category: Segments
 megaphone_id: LOE3011026034
-image_url: "https://loe.org/content/2026-05-15/greenalu_CHINALCO.jpg"
-image_caption: "Pictured above is a CHINALCO Mining Co. Ltd. plant in Shangjie District, Zhengzhou. According to a report by Fitch Ratings, Aluminum Corporation of China (Chinalco) is a major Chinese state-owned enterprise, serving as the world's largest producer of alumina and the third-largest provider of primary aluminum. As a country, China is responsible for about 60% of the world’s aluminum output. (Photo: Windmemories, Wikimedia Commons, CC BY-SA 4.0)"
-summary: "As China rapidly builds out renewable energy, it’s using some of that clean energy to power industrial activities like making aluminum, which is in high demand from data center and electrification projects. China produces 60% of the world’s aluminum, and smelting the metal uses massive amounts of electricity. Energy and climate journalist Alexander Kaufman joins Host Aynsley O’Neill to explain how Chinese aluminum is going green."
+image_url: https://loe.org/content/2026-05-15/greenalu_CHINALCO.jpg
+image_caption: Pictured above is a CHINALCO Mining Co. Ltd. plant in Shangjie District, Zhengzhou. According to a report by Fitch Ratings, Aluminum Corporation of China (Chinalco) is a major Chinese state-owned enterprise, serving as the world's largest producer of alumina and the third-largest provider of primary aluminum. As a country, China is responsible for about 60% of the world’s aluminum output. (Photo: Windmemories, Wikimedia Commons, CC BY-SA 4.0)
+summary: As China rapidly builds out renewable energy, it’s using some of that clean energy to power industrial activities like making aluminum, which is in high demand from data center and electrification projects. China produces 60% of the world’s aluminum, and smelting the metal uses massive amounts of electricity. Energy and climate journalist Alexander Kaufman joins Host Aynsley O’Neill to explain how Chinese aluminum is going green.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00020&segmentID=3 -->
 

@@ -3,9 +3,9 @@ title: Trump Canceling Climate Regs
 date: 2026-02-20
 category: Segments
 megaphone_id: LOE7682768376
-image_url: "https://loe.org/content/2026-02-20/ENDANGERMENT_movedtorepeal.jpg"
-image_caption: "The E.P.A. has moved to repeal its 2009 “endangerment finding,” which says that greenhouse gases endanger human health. (Photo: Adina Voicu, Wikimedia Commons, CC0)"
-summary: "After a landmark Supreme Court case that directed EPA to determine whether carbon dioxide and other greenhouse gases endanger public health, the agency found in 2009 that indeed they do. Now, the Trump EPA is attempting to revoke that endangerment finding to unravel all subsequent regulations on tailpipes, smokestacks and more. Vermont Law and Graduate School emeritus Professor Pat Parenteau explains to Host Jenni Doering why this step is just the beginning of what looks to be a long legal fight."
+image_url: https://loe.org/content/2026-02-20/ENDANGERMENT_movedtorepeal.jpg
+image_caption: The E.P.A. has moved to repeal its 2009 “endangerment finding,” which says that greenhouse gases endanger human health. (Photo: Adina Voicu, Wikimedia Commons, CC0)
+summary: After a landmark Supreme Court case that directed EPA to determine whether carbon dioxide and other greenhouse gases endanger public health, the agency found in 2009 that indeed they do. Now, the Trump EPA is attempting to revoke that endangerment finding to unravel all subsequent regulations on tailpipes, smokestacks and more. Vermont Law and Graduate School emeritus Professor Pat Parenteau explains to Host Jenni Doering why this step is just the beginning of what looks to be a long legal fight.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00008&segmentID=1 -->
 

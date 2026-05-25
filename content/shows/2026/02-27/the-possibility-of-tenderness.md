@@ -3,9 +3,9 @@ title: The Possibility of Tenderness
 date: 2026-02-27
 category: Segments
 megaphone_id: LOE9490003862
-image_url: "https://loe.org/content/2026-02-27/PoT_cover_resized.jpg"
-image_caption: "The Possibility of Tenderness: A Jamaican Memoir of Plants and Dreams, written by Jason Allen-Paisant digs beneath the surface of land kinship and accessibility through his time spent in Jamaica. (Photo: Courtesy of Milkweed Editions and Penguin Books)"
-summary: "Poet and author Jason Allen-Paisant left his native Jamaica to gain a graduate school education and prize-winning poetry career in England and France. He now looks back with wonder at the green of Jamaica where generations of his ancestors fed and healed his family. He shares this history in his book The Possibility of Tenderness: A Jamaican Memoir of Plants and Dreams. Jason Allen-Paisant spoke with Living on Earth’s Andrew Skerritt."
+image_url: https://loe.org/content/2026-02-27/PoT_cover_resized.jpg
+image_caption: The Possibility of Tenderness: A Jamaican Memoir of Plants and Dreams, written by Jason Allen-Paisant digs beneath the surface of land kinship and accessibility through his time spent in Jamaica. (Photo: Courtesy of Milkweed Editions and Penguin Books)
+summary: Poet and author Jason Allen-Paisant left his native Jamaica to gain a graduate school education and prize-winning poetry career in England and France. He now looks back with wonder at the green of Jamaica where generations of his ancestors fed and healed his family. He shares this history in his book The Possibility of Tenderness: A Jamaican Memoir of Plants and Dreams. Jason Allen-Paisant spoke with Living on Earth’s Andrew Skerritt.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00009&segmentID=2 -->
 

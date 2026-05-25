@@ -3,9 +3,9 @@ title: Community-Led Wildfire Prevention in Africa
 date: 2026-04-24
 category: Segments
 megaphone_id: LOE2148939008
-image_url: "https://loe.org/content/2026-04-24/IRORO_headshot.jpg"
-image_caption: "Iroro Tanshi is a Nigerian conservation ecologist and winner of the 2026 Goldman Environmental Prize for Africa. (Photo: Etinosa Yvonne for Goldman Environmental Prize)"
-summary: "Nigerian conservation ecologist Iroro Tanshi rediscovered the short-tailed roundleaf bat in 2016, after decades when it was believed extinct in the region. The species is still critically endangered, with habitat loss from wildfires as one of its top threats. So Iroro joined with local groups to start a community-led program to develop safer field burning practices and wildfire fighting strategies. Iroro Tanshi is the recipient of the 2026 Goldman Environmental Prize for Africa and talks with Host Jenni Doering."
+image_url: https://loe.org/content/2026-04-24/IRORO_headshot.jpg
+image_caption: Iroro Tanshi is a Nigerian conservation ecologist and winner of the 2026 Goldman Environmental Prize for Africa. (Photo: Etinosa Yvonne for Goldman Environmental Prize)
+summary: Nigerian conservation ecologist Iroro Tanshi rediscovered the short-tailed roundleaf bat in 2016, after decades when it was believed extinct in the region. The species is still critically endangered, with habitat loss from wildfires as one of its top threats. So Iroro joined with local groups to start a community-led program to develop safer field burning practices and wildfire fighting strategies. Iroro Tanshi is the recipient of the 2026 Goldman Environmental Prize for Africa and talks with Host Jenni Doering.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00017&segmentID=3 -->
 

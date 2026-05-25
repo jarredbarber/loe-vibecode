@@ -3,9 +3,9 @@ title: Artemis II Launch Party
 date: 2026-04-03
 category: Segments
 megaphone_id: LOE4676589555
-image_url: "https://loe.org/content/2026-04-03/WATCH_launchscreen.jpeg"
-image_caption: "The Artemis II launch as seen on screen at the watch party. (Photo: Jennifer Stevens-Curwood)"
-summary: "As the Artemis II launch counted down, folks of all ages gathered excitedly to watch the livestream at the McAuliffe–Shepard Discovery Center in New Hampshire, named for two prominent astronauts from the state. Living on Earth’s Steve Curwood was there and caught up with members of the University of New Hampshire Astronomy Club and others to get their reactions and hear their hopes for the mission and the future of space exploration."
+image_url: https://loe.org/content/2026-04-03/WATCH_launchscreen.jpeg
+image_caption: The Artemis II launch as seen on screen at the watch party. (Photo: Jennifer Stevens-Curwood)
+summary: As the Artemis II launch counted down, folks of all ages gathered excitedly to watch the livestream at the McAuliffe–Shepard Discovery Center in New Hampshire, named for two prominent astronauts from the state. Living on Earth’s Steve Curwood was there and caught up with members of the University of New Hampshire Astronomy Club and others to get their reactions and hear their hopes for the mission and the future of space exploration.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00014&segmentID=3 -->
 

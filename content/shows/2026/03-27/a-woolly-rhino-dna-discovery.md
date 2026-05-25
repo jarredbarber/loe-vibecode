@@ -3,9 +3,9 @@ title: A Woolly Rhino DNA Discovery
 date: 2026-03-27
 category: Segments
 megaphone_id: LOE6418450829
-image_url: "https://loe.org/content/2026-03-27/RHINO_sergeyandother.JPG"
-image_caption: "The woolly rhino DNA was discovered in the stomach of a mummified wolf puppy found in this piece of permafrost in the Russian village of Tumat. Pictured above is a coauthor of the paper, Sergey Fedorov (right) and a local colleague. (Photo: Sergey Fedorov, courtesy of J. Camilo Chacón-Duque)"
-summary: "A recent discovery is giving us insights into the last days of the woolly rhinoceros in Siberia before it went extinct some 14,000 years ago. Researchers studied the DNA of a well-preserved piece of woolly rhino meat that was the last meal of a wolf pup. Study coauthor Camilo Chacón-Duque, a bioinformatician at Uppsala Universitet, speaks with Host Jenni Doering."
+image_url: https://loe.org/content/2026-03-27/RHINO_sergeyandother.JPG
+image_caption: The woolly rhino DNA was discovered in the stomach of a mummified wolf puppy found in this piece of permafrost in the Russian village of Tumat. Pictured above is a coauthor of the paper, Sergey Fedorov (right) and a local colleague. (Photo: Sergey Fedorov, courtesy of J. Camilo Chacón-Duque)
+summary: A recent discovery is giving us insights into the last days of the woolly rhinoceros in Siberia before it went extinct some 14,000 years ago. Researchers studied the DNA of a well-preserved piece of woolly rhino meat that was the last meal of a wolf pup. Study coauthor Camilo Chacón-Duque, a bioinformatician at Uppsala Universitet, speaks with Host Jenni Doering.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00013&segmentID=4 -->
 

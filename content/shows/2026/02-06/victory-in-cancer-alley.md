@@ -3,8 +3,8 @@ title: Victory in Cancer Alley
 date: 2026-02-06
 category: Segments
 megaphone_id: LOE9854549552
-image_url: "https://loe.org/content/2022-09-23/FORMOSA_lavigne.jpg"
-image_caption: "RISE St. James founder and director Sharon Lavigne stands in front of oil storage tanks in St. James Parish, Louisiana. (Photo: Courtesy of the Goldman Environmental Prize)"
+image_url: https://loe.org/content/2022-09-23/FORMOSA_lavigne.jpg
+image_caption: RISE St. James founder and director Sharon Lavigne stands in front of oil storage tanks in St. James Parish, Louisiana. (Photo: Courtesy of the Goldman Environmental Prize)
 summary: Environmental justice advocates are declaring victory after a Louisiana judge canceled permits for a plastic factory in the region known as ‘cancer alley’ for the high rate of the disease linked to emissions from some 150 petrochemical plants. RISE St. James director and founder Sharon Lavigne joins Host Bobby Bascomb to talk about what the ruling means for this majority black community in the parish and the pursuit of environmental justice.
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=22-P13-00038&segmentID=1 -->

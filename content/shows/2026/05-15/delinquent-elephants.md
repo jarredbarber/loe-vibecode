@@ -2,7 +2,7 @@
 title: Delinquent Elephants
 date: 2026-05-15
 category: Segments
-summary: "In the 1980’s, a group of orphaned elephants was relocated to a national park in South Africa with the hopes of repopulating the area. But park managers didn’t realize they were creating a juvenile delinquency problem. In the absence of older bulls, the young male elephants matured too soon and ended up killing endangered rhinos. Steve Curwood speaks with elephant researcher Rob Slotow on how the problem was solved."
+summary: In the 1980’s, a group of orphaned elephants was relocated to a national park in South Africa with the hopes of repopulating the area. But park managers didn’t realize they were creating a juvenile delinquency problem. In the absence of older bulls, the young male elephants matured too soon and ended up killing endangered rhinos. Steve Curwood speaks with elephant researcher Rob Slotow on how the problem was solved.
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=00-P13-00050&segmentID=7 -->
 

@@ -3,9 +3,9 @@ title: The Story of CO2 is the Story of Everything
 date: 2026-03-27
 category: Segments
 megaphone_id: LOE3968421385
-image_url: "https://loe.org/content/2026-03-27/CO2_cover.jpg"
-image_caption: "Published in August of 2025,  The Story of CO2 Is the Story of Everything  explains how crucial carbon dioxide is for life on Earth. (Photo: Courtesy of Ecco Press)"
-summary: "Over billions of years of its history, the planet has frozen over almost completely and then lost all its ice as crocodiles basked in a balmy Arctic. Carbon-based life arose and adapted to all this change. And at the center of it all is the notorious greenhouse gas, carbon dioxide, the focus of journalist Peter Brannen’s book The Story of CO2 Is the Story of Everything: How Carbon Dioxide Made Our World. He joins Host Jenni Doering to describe the extreme climate whiplash of Earth’s past."
+image_url: https://loe.org/content/2026-03-27/CO2_cover.jpg
+image_caption: Published in August of 2025,  The Story of CO2 Is the Story of Everything  explains how crucial carbon dioxide is for life on Earth. (Photo: Courtesy of Ecco Press)
+summary: Over billions of years of its history, the planet has frozen over almost completely and then lost all its ice as crocodiles basked in a balmy Arctic. Carbon-based life arose and adapted to all this change. And at the center of it all is the notorious greenhouse gas, carbon dioxide, the focus of journalist Peter Brannen’s book The Story of CO2 Is the Story of Everything: How Carbon Dioxide Made Our World. He joins Host Jenni Doering to describe the extreme climate whiplash of Earth’s past.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00013&segmentID=3 -->
 

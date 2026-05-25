@@ -3,9 +3,9 @@ title: $1 Billion to Abandon Offshore Wind
 date: 2026-04-10
 category: Segments
 megaphone_id: LOE4194023190
-image_url: "https://loe.org/content/2026-04-10/OFFSHORE_windproject.jpg"
-image_caption: "The Coastal Virginia Offshore Wind Project, built by Dominion Energy, began producing energy recently. When completed (expected to be in 2026), Coastal Virginia Offshore Wind is expected to provide electricity to 660,000 customers at peak demand. (Photo: Courtesy of Dominion Energy)"
-summary: "The US Department of the Interior recently announced an agreement to pay the multinational company TotalEnergies nearly $1 Billion to abandon its offshore wind leases and instead invest in oil, natural gas and LNG production in the U.S. Yet several major offshore wind projects are coming online, including Revolution Wind in New England and Coastal Virginia Offshore Wind. Katharine Kollins, president of the advocacy group Southeastern Wind Coalition, speaks with Host Jenni Doering about the Trump administration deal with TotalEnergies and the state of offshore wind."
+image_url: https://loe.org/content/2026-04-10/OFFSHORE_windproject.jpg
+image_caption: The Coastal Virginia Offshore Wind Project, built by Dominion Energy, began producing energy recently. When completed (expected to be in 2026), Coastal Virginia Offshore Wind is expected to provide electricity to 660,000 customers at peak demand. (Photo: Courtesy of Dominion Energy)
+summary: The US Department of the Interior recently announced an agreement to pay the multinational company TotalEnergies nearly $1 Billion to abandon its offshore wind leases and instead invest in oil, natural gas and LNG production in the U.S. Yet several major offshore wind projects are coming online, including Revolution Wind in New England and Coastal Virginia Offshore Wind. Katharine Kollins, president of the advocacy group Southeastern Wind Coalition, speaks with Host Jenni Doering about the Trump administration deal with TotalEnergies and the state of offshore wind.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00015&segmentID=2 -->
 

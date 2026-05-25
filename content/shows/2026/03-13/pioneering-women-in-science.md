@@ -3,9 +3,9 @@ title: Pioneering Women in Science
 date: 2026-03-13
 category: Segments
 megaphone_id: LOE1547856121
-image_url: "https://loe.org/content/2017-01-06/WOMEN-Rosalind-Franklin---p79.jpg"
-image_caption: "Rosalind Franklin’s work on x-ray diffraction helped lead to the discovery of the double-helix structure of DNA. (Photo: Reprinted with permission, Women in Science Copyright © 2016 by Rachel Ignotofsky. Published by Ten Speed Press, an imprint of Penguin Random House LLC.)"
-summary: "Women have historically been underrepresented in science and engineering, but that didn’t stop Marie Curie, Jane Goodall, and Rachel Carson, and there are many more women in these fields who are not as famous. Artist and author Rachel Ignotofsky joins Host Steve Curwood to share the contributions of some of the remarkable female scientists she profiles in her book, Women in Science: 50 Fearless Pioneers Who Changed the World."
+image_url: https://loe.org/content/2017-01-06/WOMEN-Rosalind-Franklin---p79.jpg
+image_caption: Rosalind Franklin’s work on x-ray diffraction helped lead to the discovery of the double-helix structure of DNA. (Photo: Reprinted with permission, Women in Science Copyright © 2016 by Rachel Ignotofsky. Published by Ten Speed Press, an imprint of Penguin Random House LLC.)
+summary: Women have historically been underrepresented in science and engineering, but that didn’t stop Marie Curie, Jane Goodall, and Rachel Carson, and there are many more women in these fields who are not as famous. Artist and author Rachel Ignotofsky joins Host Steve Curwood to share the contributions of some of the remarkable female scientists she profiles in her book, Women in Science: 50 Fearless Pioneers Who Changed the World.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00011&segmentID=5 -->
 

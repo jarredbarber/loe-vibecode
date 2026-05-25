@@ -1,11 +1,11 @@
 ---
-title: 'Nostalgic Mothering: "Saturnine" Poem'
+title: Nostalgic Mothering: "Saturnine" Poem
 date: 2026-05-08
 category: Segments
 megaphone_id: LOE2086786203
-image_url: "https://loe.org/content/2026-05-08/SATURNINE_saturn.jpg"
-image_caption: "In the poem “Saturnine,” Aimee Nezhukumatathil recalls when her then-seven-year-old son announced that one day, he would live on Saturn. (Photo: Zelch Csaba, Pexels, Public Domain)"
-summary: "Aimee Nezhukumatathil, author of the collection of poems Night Owl, joined us in April for poetry month. And in this poem, called “Saturnine,” Aimee recalls a moment when her then-seven-year-old son announced his plan to move to Saturn, reminding her that one day, she’d have to let her little boy fly from the nest. Aimee Nezhukumatathil speaks with Host Jenni Doering."
+image_url: https://loe.org/content/2026-05-08/SATURNINE_saturn.jpg
+image_caption: In the poem “Saturnine,” Aimee Nezhukumatathil recalls when her then-seven-year-old son announced that one day, he would live on Saturn. (Photo: Zelch Csaba, Pexels, Public Domain)
+summary: Aimee Nezhukumatathil, author of the collection of poems Night Owl, joined us in April for poetry month. And in this poem, called “Saturnine,” Aimee recalls a moment when her then-seven-year-old son announced his plan to move to Saturn, reminding her that one day, she’d have to let her little boy fly from the nest. Aimee Nezhukumatathil speaks with Host Jenni Doering.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00019&segmentID=4 -->
 

@@ -3,9 +3,9 @@ title: Elephant Elder Wisdom
 date: 2026-05-15
 category: Segments
 megaphone_id: LOE5995802166
-image_url: "https://loe.org/content/2026-05-15/Elephant_and_calf_resized.jpg"
-image_caption: "Strategies for calf survival is one of the skills researchers think elephants may be passing down through generations. (Photo: Kalyan Varma, Wikimedia Commons, CC BY-SA 4.0)"
-summary: "Elephants are social animals like us and pass down to their young knowledge and skills crucial to living a successful life. Researchers have found that elephant youths conduct themselves differently if they were raised without elders. Orphaned elephants have been seen struggling to integrate into broader social groups and inaccurately assessing threats from predators. Lucy Bates, a lecturer with the Center for Comparative and Evolutionary Psychology at the University of Portsmouth, speaks with Host Aynsley O’Neill about how this important role of elephant elders can help shape conservation priorities."
+image_url: https://loe.org/content/2026-05-15/Elephant_and_calf_resized.jpg
+image_caption: Strategies for calf survival is one of the skills researchers think elephants may be passing down through generations. (Photo: Kalyan Varma, Wikimedia Commons, CC BY-SA 4.0)
+summary: Elephants are social animals like us and pass down to their young knowledge and skills crucial to living a successful life. Researchers have found that elephant youths conduct themselves differently if they were raised without elders. Orphaned elephants have been seen struggling to integrate into broader social groups and inaccurately assessing threats from predators. Lucy Bates, a lecturer with the Center for Comparative and Evolutionary Psychology at the University of Portsmouth, speaks with Host Aynsley O’Neill about how this important role of elephant elders can help shape conservation priorities.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00020&segmentID=5 -->
 

@@ -1,11 +1,11 @@
 ---
-title: "Tropical Forests, Forever?"
+title: Tropical Forests, Forever?
 date: 2026-01-09
 category: Segments
 megaphone_id: LOE9566612759
-image_url: "https://loe.org/content/2025-11-21/COP30_tropicallowland.jpg"
-image_caption: "Tropical lowland forest in Mount Tupalao in the Philippines. About forty percent of the tropical forest in Southeast Asia has been lost due to deforestation and degradation. (Photo: Firth m, Wikimedia Commons, CC BY-SA 4.0)"
-summary: "As the host of this year’s UN climate treaty negotiations and home to most of the Amazon tropical rainforest, Brazil led a major advance for forests and their indigenous inhabitants called the Tropical Forest Forever Facility. The new $125 billion fund, with guarantees for investors, will send its profits to countries with documented forest preservation, including some cash going directly to indigenous and local populations. Michael Coe, a senior scientist at the Woodwell Climate Research Center who was at COP30, joins Hosts Steve Curwood and Jenni Doering to explain why forest protection is a vital piece of stabilizing the climate."
+image_url: https://loe.org/content/2025-11-21/COP30_tropicallowland.jpg
+image_caption: Tropical lowland forest in Mount Tupalao in the Philippines. About forty percent of the tropical forest in Southeast Asia has been lost due to deforestation and degradation. (Photo: Firth m, Wikimedia Commons, CC BY-SA 4.0)
+summary: As the host of this year’s UN climate treaty negotiations and home to most of the Amazon tropical rainforest, Brazil led a major advance for forests and their indigenous inhabitants called the Tropical Forest Forever Facility. The new $125 billion fund, with guarantees for investors, will send its profits to countries with documented forest preservation, including some cash going directly to indigenous and local populations. Michael Coe, a senior scientist at the Woodwell Climate Research Center who was at COP30, joins Hosts Steve Curwood and Jenni Doering to explain why forest protection is a vital piece of stabilizing the climate.
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=25-P13-00047&segmentID=1 -->
 

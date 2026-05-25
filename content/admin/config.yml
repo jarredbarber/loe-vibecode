@@ -54,10 +54,10 @@ collections:
     # field may be parsed by Sveltia as a special collection-of-tags field
     # rather than a scalar, which broke value-based filtering.
     filter: { field: template, value: show }
-    summary: '{{date}} — {{title}}'
+    summary: '{{date}} - {{title}}'
     sortable_fields: [date, title]
     extension: md
-    format: yaml-frontmatter
+
     fields:
       - { label: 'Title', name: 'title', widget: 'string', hint: 'e.g. "Living on Earth: May 22, 2026"' }
       - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
@@ -83,10 +83,10 @@ collections:
     # supports value: null to mean "field is unset", which lets us subset
     # to segment files.
     filter: { field: template, value: null }
-    summary: '{{date}} — {{title}}'
+    summary: '{{date}} - {{title}}'
     sortable_fields: [date, title]
     extension: md
-    format: yaml-frontmatter
+
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false, hint: 'Must match the parent show date.' }
@@ -106,7 +106,7 @@ collections:
     identifier_field: title
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     extension: md
-    format: yaml-frontmatter
+
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
@@ -124,7 +124,7 @@ collections:
     create: false
     identifier_field: title
     extension: md
-    format: yaml-frontmatter
+
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Slug', name: 'slug', widget: 'string', required: false }

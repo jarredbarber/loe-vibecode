@@ -1663,15 +1663,21 @@ audio {
 
 .music-cue-item {
     display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 8px 12px;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px 14px;
     background-color: rgba(255, 255, 255, 0.55);
     border-radius: 4px;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .music-cue-meta {
-    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
     min-width: 0;
 }
 
@@ -1696,14 +1702,14 @@ audio {
     word-break: break-all;
 }
 
-/* Custom music-cue player (.mcp) — replaces native <audio controls>. */
+/* Custom music-cue player (.mcp) — replaces native <audio controls>.
+ * Fills the full width of its parent card: play button on the left,
+ * progress bar grows to fill, time on the right. */
 .mcp {
-    flex: 0 0 auto;
     display: flex;
     align-items: center;
-    gap: 10px;
-    min-width: 220px;
-    max-width: 260px;
+    gap: 12px;
+    width: 100%;
 }
 
 .mcp-play {

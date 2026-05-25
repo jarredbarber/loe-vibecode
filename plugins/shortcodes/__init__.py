@@ -39,7 +39,8 @@ def _parse_args(s):
 
 # ----- cards --------------------------------------------------------------
 
-_SPEAKER_RE = re.compile(r'^\s*([A-Z][A-Z\s\d]+):')
+# Same speaker pattern as speaker_highlight — keep in sync.
+_SPEAKER_RE = re.compile(r"^\s*([A-Z](?:[A-Z'’\d\s.]|[a-z]{1,2}(?=[A-Z]))+):")
 
 
 def _cue_card(inner_html):

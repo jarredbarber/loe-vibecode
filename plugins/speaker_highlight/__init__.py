@@ -19,7 +19,14 @@ import re
 from pelican import signals
 from bs4 import BeautifulSoup
 
-_SPEAKER_RE = re.compile(r'^\s*([A-Z][A-Z\s\d]+):')
+# Speaker labels look like CURWOOD:, O'NEILL:, McKIBBEN:, MacKENZIE:, DR. SMITH:,
+# WOMAN 1:, etc. Allow:
+#   - apostrophes (straight + curly) inside the label
+#   - up to 2 lowercase letters between caps (Mc, Mac, Di, Van prefixes)
+#   - digits, spaces, periods
+# Reject sentence-case ("The President:") because runs of >2 lowercase letters
+# don't match.
+_SPEAKER_RE = re.compile(r"^\s*([A-Z](?:[A-Z'’\d\s.]|[a-z]{1,2}(?=[A-Z]))+):")
 
 
 def process_transcript(content):

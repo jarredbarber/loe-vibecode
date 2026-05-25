@@ -4,19 +4,30 @@ Sveltia CMS instance mounted at `/admin/` on staging deploys.
 
 ## Status
 
-**Currently in test mode** (`backend: test-repo` in `config.yml`). Anyone visiting `/admin/` can poke at the UI; nothing commits anywhere.
+**Live in PAT mode** (`backend: github`). Editors visit `/admin/`, click **Sign in with Token**, and paste a GitHub Personal Access Token. Commits land on `main` directly.
+
+### Editor sign-in (one-time per editor)
+
+1. Visit `https://vibingon.earth/admin/`
+2. Click **Sign in with Token**
+3. Click the GitHub link in the dialog — it deep-links you to GitHub's PAT generation page with the `repo` scope pre-selected
+4. Generate token (recommend no expiry for convenience, or 90 days)
+5. Copy + paste back into the dialog
+6. Done — token is stored in browser localStorage, future visits skip the prompt
 
 ## Gating
 
 Whether the admin UI is included in a build is controlled by the `STAGING` env var in `site_config.py`. When `STAGING=true`, `content/admin/` is added to `STATIC_PATHS` and copied to `_site/admin/`. When unset (production), the directory is excluded and `/admin/` 404s.
 
-## To go live (GitHub backend)
+## To switch to proper OAuth (optional)
 
-1. Stand up a Cloudflare Worker as the OAuth proxy. Sveltia's docs have a reference Worker (~30 lines).
-2. Register a GitHub OAuth app at https://github.com/settings/developers — set Authorization callback URL to the Worker URL.
-3. Edit `config.yml`: comment out the `test-repo` backend, uncomment the `github` backend, fill in `base_url` with the Worker URL.
-4. Each editor needs a GitHub account with write access to the repo.
-5. Commit and deploy.
+PAT mode works fine for small teams but each editor manages their own token. For "Sign in with GitHub" button + Google-style OAuth flow:
+
+1. Deploy [sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth) as a Cloudflare Worker (~10 min, instructions in that repo)
+2. Register a GitHub OAuth app at https://github.com/settings/developers — callback URL = the deployed Worker URL
+3. Set `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` as Worker env vars
+4. Add `base_url: https://<your-worker>.workers.dev` to the `backend:` block in `config.yml`
+5. Commit and deploy
 
 ## Local dev
 

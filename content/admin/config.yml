@@ -73,7 +73,6 @@ collections:
     label_singular: Segment
     folder: content/shows
     create: true
-    identifier_field: title
     path: '{{year}}/{{month}}-{{day}}/{{slug}}'
     filter: { field: template, value: null }
     summary: '{{title}}'

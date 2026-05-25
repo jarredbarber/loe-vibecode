@@ -44,16 +44,11 @@ collections:
   - name: shows
     label: Shows
     label_singular: Show
-    description: Weekly show pages. Segments are stored as separate files in each show's date folder and auto-discovered at build time.
+    description: Weekly show pages. Segments live in the matching content/segments/YYYY/MM-DD/ folder and are auto-discovered at build time.
     folder: content/shows
     create: true
     identifier_field: title
     path: '{{year}}/{{month}}-{{day}}/show'
-    # Discriminate shows from segments by the `template` field, which is
-    # `show` on show files and absent on segment files. Pelican's `category`
-    # field may be parsed by Sveltia as a special collection-of-tags field
-    # rather than a scalar, which broke value-based filtering.
-    filter: { field: template, value: show }
     summary: '{{date}} - {{title}}'
     sortable_fields: [date, title]
     extension: md
@@ -66,32 +61,30 @@ collections:
       - { label: 'Megaphone episode ID', name: 'megaphone_id', widget: 'string', required: false, hint: 'e.g. LOE6677141098' }
       - { label: 'Header image URL', name: 'image_url', widget: 'string', required: false }
       - { label: 'Summary', name: 'summary', widget: 'text', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false, hint: 'Usually empty — segments are auto-discovered from sibling files in the same folder.' }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false, hint: 'Usually empty — segments live in content/segments/ and render automatically.' }
 
   - name: segments
     label: Segments
     label_singular: Segment
-    folder: content/shows
+    description: Individual story segments. The YYYY/MM-DD subfolder pairs the segment with its parent show.
+    folder: content/segments
     create: true
+    identifier_field: title
     path: '{{year}}/{{month}}-{{day}}/{{slug}}'
-    filter: { field: template, value: null }
-    summary: '{{title}}'
+    summary: '{{date}} - {{title}}'
     sortable_fields: [date, title]
     extension: md
 
-    # MINIMAL schema while debugging. Every frontmatter field present in
-    # the actual file MUST be declared here or Sveltia may bail on the
-    # whole entry. Adding fields back incrementally if this shows content.
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
-      - { label: 'Category', name: 'category', widget: 'string', required: false }
-      - { label: 'Megaphone ID', name: 'megaphone_id', widget: 'string', required: false }
-      - { label: 'Image URL', name: 'image_url', widget: 'string', required: false }
+      - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false, hint: 'Must match the parent show date.' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'Segments' }
+      - { label: 'Megaphone episode ID', name: 'megaphone_id', widget: 'string', required: false }
+      - { label: 'Header image URL', name: 'image_url', widget: 'string', required: false }
       - { label: 'Image caption', name: 'image_caption', widget: 'string', required: false }
       - { label: 'Summary', name: 'summary', widget: 'text', required: false }
-      - { label: 'Order', name: 'order', widget: 'number', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+      - { label: 'Order', name: 'order', widget: 'number', required: false, hint: 'Optional. Lower numbers come first on the show page. Defaults to filename order.' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: newsletters
     label: Newsletters

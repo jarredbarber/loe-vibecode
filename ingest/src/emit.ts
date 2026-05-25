@@ -7,7 +7,10 @@ import type { ShowDoc } from './parse-show.js';
 import type { SegmentDoc } from './parse-segment.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-export const CONTENT_DIR = join(__dirname, '..', '..', 'content', 'shows');
+export const SHOWS_DIR = join(__dirname, '..', '..', 'content', 'shows');
+export const SEGMENTS_DIR = join(__dirname, '..', '..', 'content', 'segments');
+// Backwards-compat alias used elsewhere.
+export const CONTENT_DIR = SHOWS_DIR;
 
 /**
  * Emit proper YAML frontmatter. Pelican is now configured with the
@@ -76,7 +79,12 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
 }> {
     const { show, showUrl, segments } = input;
     const [year, month, day] = show.date.split('-');
-    const outDir = join(CONTENT_DIR, year, `${month}-${day}`);
+    // Shows go under content/shows/YYYY/MM-DD/show.md.
+    // Segments go under content/segments/YYYY/MM-DD/<slug>.md so the two
+    // entity types live in disjoint folders — required for Sveltia CMS to
+    // distinguish them as separate collections.
+    const showDir = join(SHOWS_DIR, year, `${month}-${day}`);
+    const segmentDir = join(SEGMENTS_DIR, year, `${month}-${day}`);
 
     const actions: Record<string, 'wrote' | 'skipped' | 'unchanged'> = {};
 
@@ -90,7 +98,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
         slugCounts.set(doc.slug, n);
         const slug = n === 1 ? doc.slug : `${doc.slug}-${n}`;
         const filename = `${slug}.md`;
-        const path = join(outDir, filename);
+        const path = join(segmentDir, filename);
 
         const fm = frontmatter({
             title: doc.title,
@@ -108,7 +116,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
     }
 
     // show.md — fall back to the first segment's summary if the show has none.
-    const showPath = join(outDir, 'show.md');
+    const showPath = join(showDir, 'show.md');
     const showSummary = show.summary ?? segments[0]?.doc.summary ?? null;
     const showImage = show.imageUrl ?? segments[0]?.doc.imageUrl ?? null;
     const showFm = frontmatter({

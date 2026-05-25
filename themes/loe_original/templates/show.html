@@ -17,7 +17,9 @@
             </div>
 
             {% if STAGING and article.relative_source_path %}
-            {% set show_dir = 'content/' ~ article.relative_source_path.rsplit('/', 1)[0] %}
+            {# Segments live in content/segments/YYYY/MM-DD/, paired by date with show under content/shows/. #}
+            {% set show_subdir = article.relative_source_path.rsplit('/', 1)[0] %}
+            {% set segment_dir = 'content/segments/' ~ show_subdir.split('/', 1)[1] if '/' in show_subdir else 'content/segments' %}
             {% set iso_date = article.date|strftime('%Y-%m-%d') %}
             {% set template_md %}---
 title: New Segment Title
@@ -35,7 +37,7 @@ CURWOOD:
 {% endset %}
             <p class="staging-add">
                 <a class="staging-add-link"
-                   href="https://github.com/{{ GITHUB_REPO }}/new/{{ GITHUB_BRANCH }}/{{ show_dir }}?filename=new-segment.md&value={{ template_md|urlencode }}"
+                   href="https://github.com/{{ GITHUB_REPO }}/new/{{ GITHUB_BRANCH }}/{{ segment_dir }}?filename=new-segment.md&value={{ template_md|urlencode }}"
                    target="_blank" rel="noopener">+ Add a new segment</a>
             </p>
             {% endif %}

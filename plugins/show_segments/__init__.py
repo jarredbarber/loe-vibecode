@@ -1,14 +1,20 @@
 """
-Auto-discover segments belonging to a show: any .md sibling of a `show.md`
-(other than show.md itself) is treated as a segment of that show. The
-plugin appends a rendered list of segment cards (via
-modules/show-segment.html) to the show's body, and attaches a
-`related_segments` list to the show article so templates can iterate it.
+Auto-discover segments belonging to a show. Segments live in a parallel
+folder tree:
 
-Authors don't need to maintain a `## Segments` list inside show.md any
-more. Drop a new segment.md into the show's date folder and it'll appear
-automatically. Ordering: by an optional `order:` frontmatter field
-(integer or float), then by source filename for ties.
+    content/shows/2026/05-22/show.md       ← the show
+    content/segments/2026/05-22/seg-1.md   ← its segments
+    content/segments/2026/05-22/seg-2.md
+    …
+
+A show owns every .md file in the matching content/segments/YYYY/MM-DD/
+directory. The plugin appends a rendered list of segment cards (via
+modules/show-segment.html) to the show's body and attaches a
+`related_segments` list to the show article.
+
+This split-folder layout exists so the CMS can model shows and segments
+as two distinct collections without filter ambiguity. Ordering: by
+optional `order:` frontmatter then source filename.
 """
 
 import os
@@ -18,24 +24,37 @@ from pelican import signals
 from bs4 import BeautifulSoup
 
 
-def _show_dir(article):
-    """Absolute filesystem dir containing the show.md, or None."""
-    return Path(article.source_path).parent if article.source_path else None
+def _segment_dir_for_show(show):
+    """Resolve a show's filesystem path to the matching segments dir.
+    `content/shows/2026/05-22/show.md` → `content/segments/2026/05-22/`."""
+    if not show.source_path:
+        return None
+    show_path = Path(show.source_path)
+    show_root_idx = None
+    for i, part in enumerate(show_path.parts):
+        if part == 'shows':
+            show_root_idx = i
+            break
+    if show_root_idx is None:
+        return None
+    parts = list(show_path.parts)
+    parts[show_root_idx] = 'segments'
+    # Drop the trailing 'show.md' filename — we want the directory.
+    return Path(*parts).parent
 
 
 def _segments_for_show(show, all_articles):
-    """Return segments that live in the same dir as the show, sorted by
-    explicit `order:` frontmatter then filename."""
-    show_dir = _show_dir(show)
-    if not show_dir:
+    """Return every segment article whose source_path is in this show's
+    paired content/segments/YYYY/MM-DD/ directory, sorted by optional
+    `order:` frontmatter then filename."""
+    segment_dir = _segment_dir_for_show(show)
+    if not segment_dir:
         return []
 
     def belongs(art):
-        if art is show:
+        if art is show or not art.source_path:
             return False
-        if not art.source_path:
-            return False
-        return Path(art.source_path).parent == show_dir
+        return Path(art.source_path).parent == segment_dir
 
     candidates = [a for a in all_articles if belongs(a)]
 

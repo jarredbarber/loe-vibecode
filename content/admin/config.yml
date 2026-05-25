@@ -46,12 +46,10 @@ collections:
     label_singular: Show
     description: Weekly show pages. Segments are stored as separate files in each show's date folder and auto-discovered at build time.
     folder: content/shows
-    nested:
-      depth: 4
-      summary: '{{filename}}'
     create: true
     identifier_field: title
     path: '{{year}}/{{month}}-{{day}}/show'
+    filter: { field: category, value: Shows }
     extension: md
     format: yaml-frontmatter
     fields:
@@ -69,11 +67,11 @@ collections:
     label_singular: Segment
     description: Individual story segments within a show. The folder a segment lives in determines which show it belongs to.
     folder: content/shows
-    nested:
-      depth: 4
-      summary: '{{filename}}'
     create: true
     identifier_field: title
+    # Sveltia doesn't support Decap's `nested` option yet; the recursive
+    # subfolder scan happens via this path template instead.
+    path: '{{year}}/{{month}}-{{day}}/{{slug}}'
     filter: { field: category, value: Segments }
     extension: md
     format: yaml-frontmatter

@@ -1689,12 +1689,6 @@ audio {
     margin-top: 2px;
 }
 
-.music-cue-audio {
-    flex: 0 0 auto;
-    height: 32px;
-    max-width: 220px;
-}
-
 .music-cue-link {
     flex: 0 0 auto;
     font-style: normal;
@@ -1702,9 +1696,76 @@ audio {
     word-break: break-all;
 }
 
-/* Safari/Chrome native control tinting */
-.music-cue-audio::-webkit-media-controls-panel {
-    background-color: rgba(220, 237, 234, 0.6);
+/* Custom music-cue player (.mcp) — replaces native <audio controls>. */
+.mcp {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 220px;
+    max-width: 260px;
+}
+
+.mcp-play {
+    flex: 0 0 auto;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background-color: #2a8c7a;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s ease, transform 0.05s ease;
+    font-style: normal;
+}
+
+.mcp-play:hover {
+    background-color: #226d5f;
+}
+
+.mcp-play:active {
+    transform: scale(0.95);
+}
+
+.mcp-playing .mcp-play {
+    background-color: #226d5f;
+}
+
+.mcp-progress {
+    flex: 1 1 auto;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.mcp-fill {
+    height: 100%;
+    width: 0%;
+    background-color: #2a8c7a;
+    transition: width 0.1s linear;
+}
+
+.mcp-time {
+    flex: 0 0 auto;
+    font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+    font-style: normal;
+    font-size: 0.75em;
+    opacity: 0.7;
+    min-width: 3em;
+    text-align: right;
+}
+
+.mcp-audio {
+    display: none;
 }
 
 .header-image {

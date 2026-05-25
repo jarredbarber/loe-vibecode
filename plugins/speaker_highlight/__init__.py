@@ -246,9 +246,24 @@ def _flush_bracket_buffer(soup, new_content, buffer_elements):
         if ml:
             asset_id = ml.group(1)
             mp3 = f"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/{asset_id}/audio"
-            audio = soup.new_tag("audio", controls="", preload="none", src=mp3)
-            audio["class"] = "music-cue-audio"
-            item.append(audio)
+            # Custom player shell (JS wires up play/pause/seek). The bare
+            # <audio> has no `controls` attribute; the surrounding markup is
+            # what's visible.
+            player = soup.new_tag("div", **{"class": "mcp"})
+            btn = soup.new_tag("button", **{"class": "mcp-play", "type": "button", "aria-label": "Play"})
+            btn.string = "▶"
+            progress = soup.new_tag("div", **{"class": "mcp-progress"})
+            fill = soup.new_tag("div", **{"class": "mcp-fill"})
+            progress.append(fill)
+            time = soup.new_tag("span", **{"class": "mcp-time"})
+            time.string = "0:00"
+            audio = soup.new_tag("audio", preload="none", src=mp3)
+            audio["class"] = "mcp-audio"
+            player.append(btn)
+            player.append(progress)
+            player.append(time)
+            player.append(audio)
+            item.append(player)
         else:
             a = soup.new_tag("a", href=url, target="_blank", rel="noopener")
             a["class"] = "music-cue-link"

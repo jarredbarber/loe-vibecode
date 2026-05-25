@@ -1,6 +1,6 @@
 ---
 title: Perseverance at the Public Media Conference
-date: 2025-09-16
+date: '2025-09-16'
 category: Newsletter
 slug: perseverance-at-the-public-media-conference
 summary: Newsletter from 2025-09-16

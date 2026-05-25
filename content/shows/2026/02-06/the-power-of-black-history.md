@@ -1,10 +1,10 @@
 ---
 title: The Power of Black History
-date: 2026-02-06
+date: '2026-02-06'
 category: Segments
 megaphone_id: LOE7598300998
 image_url: https://loe.org/content/2023-02-24/BLACKHISTORY_museum.jpeg
-image_caption: The Slavery Museum at the Whitney Plantation, the only former plantation site in Louisiana with an exclusive focus on slavery. (Photo: Cheburashka007, Wikimedia Commons, CC BY-SA 4.0)
+image_caption: 'The Slavery Museum at the Whitney Plantation, the only former plantation site in Louisiana with an exclusive focus on slavery. (Photo: Cheburashka007, Wikimedia Commons, CC BY-SA 4.0)'
 summary: The burial of a nine-year-old enslaved girl on a plantation in Louisiana may halt construction of a new petrochemical plant on that land in the state’s “Cancer Alley.” Many descendants of enslaved people in the region already live with health problems from exposure to industry and are looking to their ancestors to stop further expansion. Lenora Gobert, a genealogist for the Louisiana Bucket Brigade, joined Living on Earth’s Steve Curwood.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00006&segmentID=2 -->

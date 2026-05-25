@@ -1,11 +1,12 @@
 ---
 title: Shifting Gears to a New Transportation Future
-date: 2026-03-27
+date: '''2026-03-27'''
 category: Newsletter
 slug: shifting-gears-to-a-new-transportation-future
 summary: Newsletter from 2026-03-27
 template: newsletter_article
 ---
+
 ## Shifting Gears to a New Transportation Future
 
 Political unrest often forces us to rethink outdated systems, revealing solutions that have been within reach all along. From [electric vehicles as an alternative to rising gas prices,](https://www.loe.org/shows/segments.html?programID=26-P13-00012\&segmentID=3) to [renewed conversations about wind power in Venezuela,](https://www.loe.org/shows/segments.html?programID=26-P13-00012\&segmentID=5) climate-friendly options are often not only best for the environment, but economically and socially, too. As the planet [sends us increasingly dire warnings,](https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2025) it’s imperative that we understand that clinging to fossil fuels isn’t doing us any good, and that transitioning to renewable energy holds a much more just and equitable future for all.

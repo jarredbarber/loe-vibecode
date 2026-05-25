@@ -1,6 +1,6 @@
 ---
 title: Birdnote Fixture
-date: 2099-01-01
+date: '2099-01-01'
 category: Segments
 megaphone_id: LOEFIXTURE0003
 summary: Exercises the {% audio %} and {% cue %} shortcodes.

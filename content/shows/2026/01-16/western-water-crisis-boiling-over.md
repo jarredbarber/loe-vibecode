@@ -1,10 +1,10 @@
 ---
 title: Western Water Crisis Boiling Over
-date: 2026-01-16
+date: '2026-01-16'
 category: Segments
 megaphone_id: LOE8798251738
 image_url: https://loe.org/content/2026-01-16/COLORADO_riversnakes.jpg
-image_caption: The Colorado River snakes through desert canyons in the American Southwest, supplying drinking water and irrigation for the region’s cities. (Photo: Alexander Heilner, The Water Desk with support from LightHawk)
+image_caption: 'The Colorado River snakes through desert canyons in the American Southwest, supplying drinking water and irrigation for the region’s cities. (Photo: Alexander Heilner, The Water Desk with support from LightHawk)'
 summary: The Colorado River provides water to seven western states, and there is not enough to go around. Recently the federal government ordered the states to agree on a plan on how to share what's left amid a worsening drought. Luke Runyon co-directs The Water Desk at the University of Colorado-Boulder’s Center for Environmental Journalism. He joins Host Paloma Beltran to discuss the challenges of allocating water resources when demand continues to outstrip supply.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00003&segmentID=2 -->

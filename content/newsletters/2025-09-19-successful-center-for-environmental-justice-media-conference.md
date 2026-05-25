@@ -1,6 +1,6 @@
 ---
 title: Successful Center for Environmental Justice Media Conference
-date: 2025-09-19
+date: '2025-09-19'
 category: Newsletter
 slug: successful-center-for-environmental-justice-media-conference
 summary: Newsletter from 2025-09-19

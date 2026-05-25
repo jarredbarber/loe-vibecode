@@ -1,13 +1,13 @@
 ---
 title: Yaak Valley
-series_id: 15
+series_id: '15'
 slug: yaak-valley
-date: 2025-12-16
+date: '2025-12-16'
 category: Series
 template: series
 description: Aerial view of clearcuts & fragmentation in the Kootenai National Forest. Yaak Valley, Montana.(Copyright 2001, Randy Beacham.)
 image_url: https://loe.org/series/loe_today/img/020912yaak.jpg
-image_caption: 
+image_caption: ''
 ---
 
 - [Listen to the story as it appeared in our Sept. 13, 2002 broadcast](http://loe.org/audio/stream.m3u?file=http://audio.loe.org/audio/series/yaak/yaak_broadcast.mp3)

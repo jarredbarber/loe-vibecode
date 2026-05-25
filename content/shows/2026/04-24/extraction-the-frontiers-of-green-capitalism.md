@@ -1,11 +1,11 @@
 ---
-title: Extraction: The Frontiers of Green Capitalism
-date: 2026-04-24
+title: 'Extraction: The Frontiers of Green Capitalism'
+date: '2026-04-24'
 category: Segments
 megaphone_id: LOE3079052166
 image_url: https://loe.org/content/2026-04-24/EXTRACTION_cover.jpg
-image_caption: Thea Riofrancos’ latest book,  Extraction: The Frontiers of Green Capitalism. (Photo: Courtesy of Thea Riofrancos)
-summary: While electrifying transportation is essential to addressing the climate crisis, the mining of nickel, copper, and lithium required to build out these green technologies brings its own environmental and social costs. To understand these impacts, author and political scientist Thea Riofrancos traveled to the Atacama Desert in Chile, home to one of the largest lithium reserves in the world. She joins Host Paloma Beltran to discuss her book, Extraction: The Frontiers of Green Capitalism.
+image_caption: 'Thea Riofrancos’ latest book,  Extraction: The Frontiers of Green Capitalism. (Photo: Courtesy of Thea Riofrancos)'
+summary: 'While electrifying transportation is essential to addressing the climate crisis, the mining of nickel, copper, and lithium required to build out these green technologies brings its own environmental and social costs. To understand these impacts, author and political scientist Thea Riofrancos traveled to the Atacama Desert in Chile, home to one of the largest lithium reserves in the world. She joins Host Paloma Beltran to discuss her book, Extraction: The Frontiers of Green Capitalism.'
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00017&segmentID=2 -->
 

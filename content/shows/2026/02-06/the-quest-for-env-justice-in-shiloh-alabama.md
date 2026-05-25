@@ -1,10 +1,10 @@
 ---
 title: The Quest for Env. Justice in Shiloh Alabama
-date: 2026-02-06
+date: '2026-02-06'
 category: Segments
 megaphone_id: LOE4916211337
 image_url: https://loe.org/content/2026-02-06/SHILOH_flooding.jpg
-image_caption: Heavy rainfall in Shiloh, Alabama, is usually followed by flooding as runoff rushes down from the widened and elevated Highway 84. Residents say flooding has eroded their yards, cracked their foundations and caused septic tanks to overflow into their yards. (Photo: Bullard Center for Environmental and Climate Justice)
+image_caption: 'Heavy rainfall in Shiloh, Alabama, is usually followed by flooding as runoff rushes down from the widened and elevated Highway 84. Residents say flooding has eroded their yards, cracked their foundations and caused septic tanks to overflow into their yards. (Photo: Bullard Center for Environmental and Climate Justice)'
 summary: For black history month we bring you a cautionary tale brought to us by the Center for Climate and Environmental Justice Media or CEJM. CEJM helps people of color learn how to tell their own stories in the face of environmental injustice and the climate emergency. Melissa Williams is a storyteller for CEJM and she shares her community’s efforts and concerns as they seek justice from the State of Alabama after highway construction flooded their homes in Shiloh Alabama.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00006&segmentID=3 -->

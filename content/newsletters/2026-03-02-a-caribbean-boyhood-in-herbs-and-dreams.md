@@ -1,11 +1,12 @@
 ---
 title: A Caribbean Boyhood in Herbs and Dreams
-date: 2026-03-02
+date: '''2026-03-02'''
 category: Newsletter
 slug: a-caribbean-boyhood-in-herbs-and-dreams
 summary: Newsletter from 2026-03-02
 template: newsletter_article
 ---
+
 ## A Caribbean Boyhood in Herbs and Dreams
 
 The image is seared into my memory: I am a boy of eight or nine. I am wearing khaki shorts and a t-shirt. I am accompanying my grandmother and her old, stumped-tail dog, Bingo. We are on our way to her ground – a plot of leased land on what was then Amersham Estate.

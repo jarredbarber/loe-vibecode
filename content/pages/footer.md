@@ -1,6 +1,8 @@
-Title: Footer
-Slug: footer
-Status: hidden
+---
+title: Footer
+slug: footer
+status: hidden
+---
 
 &copy; Copyright World Media Foundation. All Rights Reserved
 

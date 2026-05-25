@@ -1,8 +1,8 @@
 ---
-title: Our 5-part series: Hurricane Maria in Puerto Rico
-series_id: 66
+title: 'Our 5-part series: Hurricane Maria in Puerto Rico'
+series_id: '66'
 slug: our-5-part-series-hurricane-maria-in-puerto-rico
-date: 2019-09-20
+date: '2019-09-20'
 category: Series
 template: series
 description: Roughly 10 percent of Puerto Rico’s corals were broken and damaged by Hurricane Maria in 2017. Corals are a first line of defense against storm surges and a critical habitat for juvenile fish but face an uphill battle against warming seas, ocean acidification and ship groundings. As Host Bobby Bascomb reports, Puerto Ricans are finding ways to give corals a fighting chance by reattaching healthy fragments.Back to the series and features homepage

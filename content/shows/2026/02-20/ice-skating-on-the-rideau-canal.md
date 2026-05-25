@@ -1,10 +1,10 @@
 ---
 title: Ice Skating on the Rideau Canal
-date: 2026-02-20
+date: '2026-02-20'
 category: Segments
 megaphone_id: LOE1930977023
 image_url: https://loe.org/content/2013-03-29/bigstock-Rideau-Canal-Under-A-Bridge-1320574.jpg
-image_caption: Winterlude Festival on the canal in Ottawa (photo: bigstockphoto.com)
+image_caption: 'Winterlude Festival on the canal in Ottawa (photo: bigstockphoto.com)'
 summary: The warmer winters of climate disruption are bringing shorter and shorter skating seasons on the Rideau Canal in Ottawa, Canada. We head into the Living on Earth archives for a taste of days gone by, when reporter Bob Carty hit the ice to meet locals enjoying the serenity of a skate along the canal.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00008&segmentID=3 -->

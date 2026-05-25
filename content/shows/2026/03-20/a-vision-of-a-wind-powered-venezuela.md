@@ -1,10 +1,10 @@
 ---
 title: A Vision of a Wind-Powered Venezuela
-date: 2026-03-20
+date: '2026-03-20'
 category: Segments
 megaphone_id: LOE5772527802
 image_url: https://loe.org/content/2026-03-20/VENEZUELA_wind.jpg
-image_caption: While Venezuela has recently made headlines for its oil reserves, the coastal nation is also uniquely positioned to harness significant renewable energy capacity – ten times the country’s electricity needs – through offshore, shallow-water wind turbines. Above, a wind farm on the Paraguaná Peninsula in Venezuela. (Photo: Carlos Santos Colorado, Wikimedia Commons, CC BY-SA 3.0)
+image_caption: 'While Venezuela has recently made headlines for its oil reserves, the coastal nation is also uniquely positioned to harness significant renewable energy capacity – ten times the country’s electricity needs – through offshore, shallow-water wind turbines. Above, a wind farm on the Paraguaná Peninsula in Venezuela. (Photo: Carlos Santos Colorado, Wikimedia Commons, CC BY-SA 3.0)'
 summary: Since the US capture of President Nicolás Maduro in early January, there has been a lot of discussion about Venezuela’s massive oil reserves. But it also turns out that Venezuela is ideally positioned to harness abundant clean, renewable energy, particularly from wind. Dr. Paasha Mahdavi, associate professor of political science at UC Santa Barbara and consultant for the Natural Resources Governance Institute, joins Host Jenni Doering to map out this blue-sky vision for a green Venezuela.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00012&segmentID=5 -->

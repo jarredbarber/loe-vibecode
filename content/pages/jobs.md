@@ -1,6 +1,8 @@
-Title: Jobs & Internships
-Slug: jobs
-Date: 2025-12-15
+---
+title: Jobs & Internships
+slug: jobs
+date: '2025-12-15'
+---
 
 ## Internships
 

@@ -1,8 +1,8 @@
 ---
 title: Salmon in the Pacific Northwest
-series_id: 9
+series_id: '9'
 slug: salmon-in-the-pacific-northwest
-date: 2000-01-01
+date: '2000-01-01'
 category: Series
 template: series
 description: Sixty years ago, the vision of President Franklin Roosevelt helped to harness the Columbia River for its power and brought immense change to the Pacific Norhwest. Now the idea of engineered rivers is provoking intense debate in Washington, Oregon and Idaho. Sandy Tolan reports on the past, present and possible future of the powerful river.

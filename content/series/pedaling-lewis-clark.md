@@ -1,8 +1,8 @@
 ---
 title: Pedaling Lewis & Clark
-series_id: 19
+series_id: '19'
 slug: pedaling-lewis-clark
-date: 2025-12-16
+date: '2025-12-16'
 category: Series
 template: series
 description: Barrett Golding and Josef Verbanac biked the Lewis & Clark Trail in two three-week installments during the summers of 2001 and 2002. They called their two-thousand-mile trip “The Great Pains and Accuracy Tour,” after Thomas Jefferson’s instructions to Lewis and Clark to explore the Missouri River and to document what they found with “Great pains and accuracy.” Jefferson charged the pair with finding a water passage that would connect the Mississippi with the Pacific, to allow passage from Europe to Asia through North America.

@@ -1,13 +1,13 @@
 ---
 title: Colombia Pipeline
-series_id: 26
+series_id: '26'
 slug: colombia-pipeline
-date: 2025-12-16
+date: '2025-12-16'
 category: Series
 template: series
 description: Colombia's guerrillas have blasted oil pipelines more than 900 times.
 image_url: https://loe.org/series/colombia_pipeline/blasted_tubes2.jpg
-image_caption: 
+image_caption: ''
 ---
 
 - [country under seige](http://www.guardian.co.uk/colombia)

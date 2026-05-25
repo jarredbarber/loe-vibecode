@@ -1,6 +1,6 @@
 ---
 title: Fireflies and the Night Sky
-date: 2025-08-15
+date: '2025-08-15'
 category: Newsletter
 slug: fireflies-and-the-night-sky
 summary: Newsletter from 2025-08-15

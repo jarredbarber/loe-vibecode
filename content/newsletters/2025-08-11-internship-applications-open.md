@@ -1,6 +1,6 @@
 ---
 title: Internship Applications Open!
-date: 2025-08-11
+date: '2025-08-11'
 category: Newsletter
 slug: internship-applications-open
 summary: Newsletter from 2025-08-11

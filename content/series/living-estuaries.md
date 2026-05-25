@@ -1,11 +1,11 @@
 ---
 title: Living Estuaries
-series_id: 4
+series_id: '4'
 slug: living-estuaries
-date: 1998-01-01
+date: '1998-01-01'
 category: Series
 template: series
-description: UPSTREAM DEVELOPMENT AND ITS EFFECTS IN WAQUOIT BAYPublished: October 2, 1998
+description: 'UPSTREAM DEVELOPMENT AND ITS EFFECTS IN WAQUOIT BAYPublished: October 2, 1998'
 ---
 
 - [THE JERSEY SHORES](http://www.loe.org/shows/segments.html?programID=98-P13-00049&segmentID=6)

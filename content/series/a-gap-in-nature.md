@@ -1,13 +1,13 @@
 ---
 title: A Gap in Nature
-series_id: 17
+series_id: '17'
 slug: a-gap-in-nature
-date: 2025-12-16
+date: '2025-12-16'
 category: Series
 template: series
 description: A Gap in NatureExtinction is forever they say, but according to the World Conservation Union's 2002 list of threatened species, two creatures have made the rare journey back from the apparently dead. These so-called “Lazarus species” are the Bavarian pine vole from Germany and the Lord Howe Island stick insect from Australia. Tiny populations of each of these critters evaded detection for decades before their recent rediscovery.
 image_url: https://loe.org/series/gap_in_nature/tylacine_sm.jpg
-image_caption: 
+image_caption: ''
 ---
 
 - [Click here to listen to an interview with Tim Flannery.](http://loe.org/audio/stream.m3u?file=http://audio.loe.org/audio/series/gap_in_nature/gap_flannery.mp3)

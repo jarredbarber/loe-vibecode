@@ -1,6 +1,7 @@
 import { mkdir, writeFile, readFile, stat } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import yaml from 'js-yaml';
 import { cachePathFor } from './fetch.js';
 import { slugify } from './parse-segment.js';
 import type { NewsletterRef } from './discover-newsletters.js';
@@ -9,18 +10,14 @@ import type { NewsletterContent } from './parse-newsletter.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 export const NEWSLETTER_DIR = join(__dirname, '..', '..', 'content', 'newsletters');
 
-function metaValue(v: string): string {
-    return v.replace(/[\r\n]+/g, ' ').trim();
-}
-
 function frontmatter(fields: Record<string, string | null | undefined>): string {
-    const lines = ['---'];
+    const data: Record<string, string> = {};
     for (const [k, v] of Object.entries(fields)) {
         if (v == null) continue;
-        lines.push(`${k}: ${metaValue(String(v))}`);
+        data[k] = String(v).replace(/[\r\n]+/g, ' ').trim();
     }
-    lines.push('---', '');
-    return lines.join('\n');
+    const body = yaml.dump(data, { lineWidth: -1, noRefs: true });
+    return `---\n${body}---\n`;
 }
 
 async function exists(path: string): Promise<boolean> {

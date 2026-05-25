@@ -1,10 +1,10 @@
 ---
 title: Punxsutawney Phil and Earlier Springtimes
-date: 2026-01-30
+date: '2026-01-30'
 category: Segments
 megaphone_id: LOE8552368216
 image_url: https://loe.org/content/2026-01-30/GROUNDHOG_phil.jpg
-image_caption: Punxsutawney Phil is perhaps the world’s most famous weather-groundhog. February 2, 2026, marks the 140th celebration of Phil's emergence and prediction based on the presence or absence of his shadow. (Photo: Chris Flook, Wikimedia Commons, CC BY-SA 4.0)
+image_caption: 'Punxsutawney Phil is perhaps the world’s most famous weather-groundhog. February 2, 2026, marks the 140th celebration of Phil''s emergence and prediction based on the presence or absence of his shadow. (Photo: Chris Flook, Wikimedia Commons, CC BY-SA 4.0)'
 summary: While Punxsutawney Phil of Groundhog Day correctly predicts when spring will come only around 40% of the time, he has been predicting earlier springs more often in recent decades, trending with the reality of climate change.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00005&segmentID=2 -->

@@ -1,10 +1,10 @@
 ---
 title: How Oil Fuels Conflict
-date: 2026-05-01
+date: '2026-05-01'
 category: Segments
 megaphone_id: LOE4969926629
 image_url: https://loe.org/content/2026-05-01/IRAN_strait.jpg
-image_caption: The Strait of Hormuz, effectively closed due to the US-Israel war on Iran, is a key trade route of global oil, natural gas, and critical mineral supplies. (Photo: eutrophication&hypoxia, Flickr, CC BY 2.0)
+image_caption: 'The Strait of Hormuz, effectively closed due to the US-Israel war on Iran, is a key trade route of global oil, natural gas, and critical mineral supplies. (Photo: eutrophication&hypoxia, Flickr, CC BY 2.0)'
 summary: The US-Israel joint war against Iran has shaken global energy markets, closed the Strait of Hormuz and restricted the flow of oil and natural gas worldwide. It's the latest of conflicts over Iranian oil, though for the first time the growing emergence of fossil free energy sources is prompting visions of ending our decades of dependence on oil, with its pollution and inevitable wars. Michael Klare, emeritus professor of Peace and Security studies at Hampshire College and the defense correspondent for The Nation magazine, speaks with Host Steve Curwood.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00018&segmentID=2 -->

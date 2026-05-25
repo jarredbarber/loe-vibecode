@@ -1,8 +1,8 @@
 ---
-title: Early Signs: Reports From a Warming Planet
-series_id: 33
+title: 'Early Signs: Reports From a Warming Planet'
+series_id: '33'
 slug: early-signs-reports-from-a-warming-planet
-date: 2006-01-01
+date: '2006-01-01'
 category: Series
 template: series
 ---

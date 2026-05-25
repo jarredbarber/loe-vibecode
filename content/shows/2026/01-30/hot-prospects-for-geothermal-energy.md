@@ -1,10 +1,10 @@
 ---
 title: Hot Prospects for Geothermal Energy
-date: 2026-01-30
+date: '2026-01-30'
 category: Segments
 megaphone_id: LOE2146096390
 image_url: https://loe.org/content/2026-01-30/GEOTHERMAL_epicsystemsbuilding.jpg
-image_caption: Pictured above is the Epic Systems Cassiopeia 'culinary venue', which is part of a massive 1,670-acre campus with geothermal HVAC systems. (Photo:  Mandy Aalderink, Wikimedia Commons,  CC BY-SA 4.0)
+image_caption: "Pictured above is the Epic Systems Cassiopeia 'culinary venue', which is part of a massive 1,670-acre campus with geothermal HVAC systems. (Photo:\_ Mandy Aalderink, Wikimedia Commons,\_ CC BY-SA 4.0)"
 summary: As geothermal heating and cooling slowly spreads in the U.S., some communities and utilities are looking to grow small pilot projects into much larger networks of pipes and heat pumps that extract and store heat in the earth to warm and cool homes and businesses as needed. Inside Climate News journalist Phil McKenna joins Host Jenni Doering to discuss the bipartisan interest in geothermal and describe a large geothermal HVAC system that demonstrates the possibilities and benefits of scaling up.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00005&segmentID=1 -->

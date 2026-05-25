@@ -1,8 +1,8 @@
 ---
 title: The Place Where You Live
-series_id: 57
+series_id: '57'
 slug: the-place-where-you-live
-date: 2012-07-09
+date: '2012-07-09'
 category: Series
 template: series
 description: The Place Where You Live – There’s no place like home…so, we want to hear about your home. LOE and Orion Magazine have launched a new series “The Place Where You Live.” Listen to some of our recent essays and find out how to submit yours.

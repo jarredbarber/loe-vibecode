@@ -1,6 +1,6 @@
 ---
 title: Waste into Wonder
-date: 2025-09-07
+date: '2025-09-07'
 category: Newsletter
 slug: waste-into-wonder
 summary: Newsletter from 2025-09-07

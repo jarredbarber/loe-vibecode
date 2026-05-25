@@ -1,6 +1,6 @@
 ---
 title: LoE Fall Campaign - Please Consider a Gift Today
-date: 2025-10-23
+date: '2025-10-23'
 category: Newsletter
 slug: loe-fall-campaign-please-consider-a-gift-today
 summary: Newsletter from 2025-10-23

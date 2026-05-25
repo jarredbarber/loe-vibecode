@@ -1,11 +1,11 @@
 ---
 title: LOE Student Productions
-series_id: 22
+series_id: '22'
 slug: loe-student-productions
-date: 2012-03-30
+date: '2012-03-30'
 category: Series
 template: series
-description: LOE's Student Produced Web Show (Northside College Prep.)listen/downloadPublished: March 30, 2012
+description: 'LOE''s Student Produced Web Show (Northside College Prep.)listen/downloadPublished: March 30, 2012'
 image_url: https://loe.org/series/NCPHS/franklin.jpg
 ---
 

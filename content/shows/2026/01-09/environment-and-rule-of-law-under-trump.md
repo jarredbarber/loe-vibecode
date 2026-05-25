@@ -1,6 +1,6 @@
 ---
 title: Environment and Rule of Law Under Trump
-date: 2026-01-09
+date: '2026-01-09'
 category: Segments
 megaphone_id: LOE7525279574
 image_url: https://loe.org/content/2026-01-06/W.A._Parish_Generating_Plant_a1.jpg

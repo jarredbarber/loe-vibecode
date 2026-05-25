@@ -1,8 +1,8 @@
 ---
-title: Generating Controversy: The Changing Climate of Coal
-series_id: 50
+title: 'Generating Controversy: The Changing Climate of Coal'
+series_id: '50'
 slug: generating-controversy-the-changing-climate-of-coa
-date: 2007-01-01
+date: '2007-01-01'
 category: Series
 template: series
 description: The world's appetite for energy seems insatiable and coal, cheap and plentiful, is increasingly being used to generate electricity. In the United States almost half of our electricity comes from burning coal and fast developing China already uses more coal than the United States, the European Union and Japan, combined.

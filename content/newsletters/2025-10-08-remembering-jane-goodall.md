@@ -1,6 +1,6 @@
 ---
 title: Remembering Jane Goodall
-date: 2025-10-08
+date: '2025-10-08'
 category: Newsletter
 slug: remembering-jane-goodall
 summary: Newsletter from 2025-10-08

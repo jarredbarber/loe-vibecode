@@ -1,8 +1,8 @@
 ---
 title: Gulf War 2003
-series_id: 25
+series_id: '25'
 slug: gulf-war-2003
-date: 2025-12-16
+date: '2025-12-16'
 category: Series
 template: series
 description: The Land of IraqSaving Iraq’s AntiguitiesNo More EdenThreats on Migrating Birds Associated with Iraqi WarMilitary ExemptionsDepleted UraniumPost War Environmental CleanupAll about Oil?Environmental Counter-TerrorismKuwait After the Fires

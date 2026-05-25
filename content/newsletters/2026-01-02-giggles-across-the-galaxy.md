@@ -1,11 +1,12 @@
 ---
 title: Giggles Across the Galaxy
-date: 2026-01-02
+date: '''2026-01-02'''
 category: Newsletter
 slug: giggles-across-the-galaxy
 summary: Newsletter from 2026-01-02
 template: newsletter_article
 ---
+
 ## Giggles Across the Galaxy
 
 For as long as I can remember, I have been called funny. My friends know me as a mix of snarky and silly. I can teasingly roast them (hence, the snarky) while wearing a festive elf hat (hence, the silly). Even back when I was an absolute tyrant in middle school, my parent-teacher conferences noted that one of my (only) strengths was "a good sense of humor." And oftentimes, I don't even intend to be funny. I blurt out something that is socially inappropriate enough to break the tension without creating any. At the core of my personality is a giggle monster tickling my soul. 

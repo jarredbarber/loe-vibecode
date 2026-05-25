@@ -1,5 +1,6 @@
 jinja2
 markdown
+markdown-full-yaml-metadata
 pyyaml
 pelican
 beautifulsoup4

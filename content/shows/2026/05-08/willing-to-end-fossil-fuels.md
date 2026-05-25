@@ -1,10 +1,10 @@
 ---
 title: Willing to End Fossil Fuels
-date: 2026-05-08
+date: '2026-05-08'
 category: Segments
 megaphone_id: LOE4495531543
 image_url: https://loe.org/content/2026-05-08/COALITION_protest.jpg
-image_caption: Pictured above is a collection of civil society groups, Indigenous representatives, and activists protesting at COP30 in Belém, Brazil (November 2025). The demonstration demanded stronger action against climate change, the protection of the Amazon, and a faster phase-out of fossil fuels. (Photo: Xuthoria, Wikimedia Commons, CC BY 2.0)
+image_caption: 'Pictured above is a collection of civil society groups, Indigenous representatives, and activists protesting at COP30 in Belém, Brazil (November 2025). The demonstration demanded stronger action against climate change, the protection of the Amazon, and a faster phase-out of fossil fuels. (Photo: Xuthoria, Wikimedia Commons, CC BY 2.0)'
 summary: The first gathering of a new international “coalition of the willing” to transition away from fossil fuels recently took place in Colombia. It’s a separate event from the UN COP climate negotiations and was born in part out of frustration over fossil fuel friendly nations like the US, Russia, China, and Saudi Arabia stalling the COP process. Rodrigo Estrada, Senior Climate Advisor at Greenpeace International, was there and joins Host Aynsley O’Neill to share the takeaways and next steps.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00019&segmentID=1 -->

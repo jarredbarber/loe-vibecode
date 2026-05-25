@@ -1,6 +1,7 @@
 import { mkdir, writeFile, readFile, stat } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import yaml from 'js-yaml';
 import { cachePathFor } from './fetch.js';
 import type { ShowDoc } from './parse-show.js';
 import type { SegmentDoc } from './parse-segment.js';
@@ -9,24 +10,22 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 export const CONTENT_DIR = join(__dirname, '..', '..', 'content', 'shows');
 
 /**
- * Pelican parses frontmatter with Python-Markdown's Meta extension, NOT YAML.
- * Meta is plain `key: value` per line — quotes are taken literally and there's
- * no escaping syntax. So we emit raw values with one normalization: collapse
- * any embedded newlines/CRs to spaces, since Meta treats indented continuation
- * lines as part of the value (we don't want surprises).
+ * Emit proper YAML frontmatter. Pelican is now configured with the
+ * `full_yaml_metadata` extension instead of Python-Markdown's Meta reader,
+ * so we can write real YAML — quoting, escaping, multi-line values all work.
+ *
+ * js-yaml chooses quoting style automatically; we just normalize embedded
+ * newlines to spaces in scalar values so we don't get unintentional block
+ * scalars in summaries.
  */
-function metaValue(v: string): string {
-    return v.replace(/[\r\n]+/g, ' ').trim();
-}
-
 function frontmatter(fields: Record<string, string | null | undefined>): string {
-    const lines = ['---'];
+    const data: Record<string, string> = {};
     for (const [k, v] of Object.entries(fields)) {
         if (v == null) continue;
-        lines.push(`${k}: ${metaValue(String(v))}`);
+        data[k] = String(v).replace(/[\r\n]+/g, ' ').trim();
     }
-    lines.push('---', '');
-    return lines.join('\n');
+    const body = yaml.dump(data, { lineWidth: -1, noRefs: true });
+    return `---\n${body}---\n`;
 }
 
 async function exists(path: string): Promise<boolean> {
@@ -121,10 +120,12 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
         image_url: showImage,
         summary: showSummary,
     });
-    const segmentsList = segmentEntries
-        .map(({ title, filename }) => `### [${title}]({filename}${filename})\n`)
-        .join('\n');
-    const showContent = `${showFm}<!-- source: ${showUrl} -->\n\n## Segments\n\n${segmentsList}`;
+    // Segments are auto-discovered by the show_segments Pelican plugin from
+    // sibling .md files; no need to enumerate them in the show body.
+    // segmentEntries is kept above only so emit returns a useful segmentPaths
+    // value for callers.
+    void segmentEntries;
+    const showContent = `${showFm}<!-- source: ${showUrl} -->\n`;
     actions[showPath] = await safeWrite(showPath, showContent, { sourceUrl: showUrl, force: opts.force });
 
     return { showPath, segmentPaths, actions };

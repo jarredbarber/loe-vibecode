@@ -1,6 +1,6 @@
 ---
 title: Wildfire Threats & Resilience
-date: 2025-11-28
+date: '2025-11-28'
 category: Newsletter
 slug: wildfire-threats-resilience
 summary: Newsletter from 2025-11-28

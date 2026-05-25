@@ -1,11 +1,11 @@
 ---
 title: Sea of Grass and the Disappearing Prairie
-date: 2026-01-09
+date: '2026-01-09'
 category: Segments
 megaphone_id: LOE1637239076
 image_url: https://loe.org/content/2026-01-06/sog_american_bison.jpg
-image_caption: The American bison is a well-loved symbol of the prairie, and for good reason. Bison provide important ecosystem services, such as creating wallows for smaller animals and increasing grassland seed diversity. (Photo: Dietmar Rabich, Wikimedia Commons, CC BY-SA 4.0).
-summary: The American prairie is one of the most biodiverse ecosystems in the world, with numbers of species rivaling even a tropical rainforest. But today, just one percent of eastern tallgrass prairie remains, and western shortgrass prairie is disappearing at a rate of more than a million acres a year. Author Josephine Marcotty joins Host Paloma Beltran to discuss her book Sea of Grass: The Conquest, Ruin, and Redemption of Nature on the American Prairie.
+image_caption: 'The American bison is a well-loved symbol of the prairie, and for good reason. Bison provide important ecosystem services, such as creating wallows for smaller animals and increasing grassland seed diversity. (Photo: Dietmar Rabich, Wikimedia Commons, CC BY-SA 4.0).'
+summary: 'The American prairie is one of the most biodiverse ecosystems in the world, with numbers of species rivaling even a tropical rainforest. But today, just one percent of eastern tallgrass prairie remains, and western shortgrass prairie is disappearing at a rate of more than a million acres a year. Author Josephine Marcotty joins Host Paloma Beltran to discuss her book Sea of Grass: The Conquest, Ruin, and Redemption of Nature on the American Prairie.'
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00002&segmentID=3 -->
 

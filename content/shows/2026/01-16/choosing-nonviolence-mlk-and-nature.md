@@ -1,10 +1,10 @@
 ---
-title: Choosing Nonviolence: MLK and Nature
-date: 2026-01-16
+title: 'Choosing Nonviolence: MLK and Nature'
+date: '2026-01-16'
 category: Segments
 megaphone_id: LOE1821745402
 image_url: https://loe.org/content/2026-01-16/MSL_grizzly.JPG
-image_caption: Valerie Elaine Pettis, artist and wife of Mark Seth Lender, draws the grizzly spotted in Yellowstone National Park. (Photo: © Valerie Elaine Pettis)
+image_caption: 'Valerie Elaine Pettis, artist and wife of Mark Seth Lender, draws the grizzly spotted in Yellowstone National Park. (Photo: © Valerie Elaine Pettis)'
 summary: The nonviolent resistance preached by Dr. Martin Luther King, Jr. was far from passive. It required peaceful confrontation and fierce courage to protect Black Americans from the constant threat of racist violence. Living on Earth’s Explorer-in-Residence, Mark Seth Lender sent us this essay about an encounter in Yellowstone National Park years back that reminded him of a story he heard from one of Dr. King’s defenders.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00003&segmentID=3 -->

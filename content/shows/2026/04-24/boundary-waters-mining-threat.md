@@ -1,10 +1,10 @@
 ---
 title: Boundary Waters Mining Threat
-date: 2026-04-24
+date: '2026-04-24'
 category: Segments
 megaphone_id: LOE5847594697
 image_url: https://loe.org/content/2026-04-24/SENATE_poselake.jpg
-image_caption: Sunset over Pose Lake, a small lake accessible only by foot, in Boundary Waters Canoe Area Wilderness, Minnesota. (Photo: R27182818, Wikimedia Commons, CC BY-SA 3.0)
+image_caption: 'Sunset over Pose Lake, a small lake accessible only by foot, in Boundary Waters Canoe Area Wilderness, Minnesota. (Photo: R27182818, Wikimedia Commons, CC BY-SA 3.0)'
 summary: On April 16 the US Senate voted to reverse a moratorium on mining near the Boundary Waters Canoe Area Wilderness in Minnesota, a million acres on the US-Canada border that’s teeming with wildlife and crystal-clear waters. For years a Chilean company has proposed to extract valuable copper, nickel, and cobalt there using copper sulfide mining. Democratic Senator from Minnesota Tina Smith speaks with Host Jenni Doering about why in her view mining in the same watershed as the Boundary Waters is not worth the risk.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00017&segmentID=1 -->

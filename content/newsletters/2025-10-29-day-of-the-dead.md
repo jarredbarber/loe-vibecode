@@ -1,6 +1,6 @@
 ---
 title: Day of the Dead
-date: 2025-10-29
+date: '2025-10-29'
 category: Newsletter
 slug: day-of-the-dead
 summary: Newsletter from 2025-10-29

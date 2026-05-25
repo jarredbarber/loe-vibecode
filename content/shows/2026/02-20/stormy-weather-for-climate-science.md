@@ -1,10 +1,10 @@
 ---
 title: Stormy Weather for Climate Science
-date: 2026-02-20
+date: '2026-02-20'
 category: Segments
 megaphone_id: LOE4740884605
 image_url: https://loe.org/content/2026-02-20/NCAR_boulder.jpg
-image_caption: The National Center for Atmospheric Research in Boulder, Colorado. (Photo: Thomson M, Wikimedia Commons, CC BY 3.0)
+image_caption: 'The National Center for Atmospheric Research in Boulder, Colorado. (Photo: Thomson M, Wikimedia Commons, CC BY 3.0)'
 summary: The Trump administration has declared scientists at places like the National Center for Atmospheric Research are promoting ‘climate hysteria’ by overstating the risks to public health and safety, so it’s moving to cut off funds for NCAR. Former TV weatherman Alan Sealls, president of the American Meteorological Society, joins Host Steve Curwood to discuss the important climate and weather modeling NCAR does and how the loss of funding could impact this research.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00008&segmentID=2 -->

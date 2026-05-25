@@ -1,8 +1,8 @@
 ---
-title: Go Fish: Striving for Sustainability
-series_id: 54
+title: 'Go Fish: Striving for Sustainability'
+series_id: '54'
 slug: go-fish-striving-for-sustainability
-date: 2011-11-30
+date: '2011-11-30'
 category: Series
 template: series
 description: Big retailers, like Target and Shaws, hop on the fish sustainability bandwagon but there's still disagreement on what's really sustainable. (broadcast 111118)Back to the series and features homepage

@@ -1,6 +1,6 @@
 ---
 title: Reruns have begun!
-date: 2025-08-01
+date: '2025-08-01'
 category: Newsletter
 slug: reruns-have-begun
 summary: Newsletter from 2025-08-01

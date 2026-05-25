@@ -1,6 +1,6 @@
 ---
 title: Giving Thanks
-date: 2025-11-21
+date: '2025-11-21'
 category: Newsletter
 slug: giving-thanks
 summary: Newsletter from 2025-11-21

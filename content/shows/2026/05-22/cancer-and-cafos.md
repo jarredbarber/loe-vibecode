@@ -1,10 +1,10 @@
 ---
 title: Cancer and CAFOS
-date: 2026-05-22
+date: '2026-05-22'
 category: Segments
 megaphone_id: LOE7081512813
 image_url: https://loe.org/content/2026-05-22/CAFOS_turkey.jpg
-image_caption: Large Concentrated Animal Feeding Operations, or CAFOs, can contain thousands of animals in tight quarters to maximize production. The EPA rates as large CAFOs with 55,000 or more turkeys. (Photo: Mercy for Animals, Wikimedia Commons, CC BY 2.0)
+image_caption: 'Large Concentrated Animal Feeding Operations, or CAFOs, can contain thousands of animals in tight quarters to maximize production. The EPA rates as large CAFOs with 55,000 or more turkeys. (Photo: Mercy for Animals, Wikimedia Commons, CC BY 2.0)'
 summary: Living near many large Concentrated Animal Feeding Operations or CAFOs appears to raise cancer risk, according to a study from Yale researchers. CAFOs pack thousands of pigs, cows, and chickens together to produce meat, dairy, and eggs. All those crowded animals can produce a lot of waste that pollutes air and water, which may explain an association between CAFOs and cancer, though the study does not prove causation. Brian Bienkowski, managing editor of The New Lede, joins Host Steve Curwood to talk about the research and how concerns transcend politics.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00021&segmentID=1 -->

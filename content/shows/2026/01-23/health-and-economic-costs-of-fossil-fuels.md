@@ -1,10 +1,10 @@
 ---
 title: Health and Economic Costs of Fossil Fuels
-date: 2026-01-23
+date: '2026-01-23'
 category: Segments
 megaphone_id: LOE3582222884
 image_url: https://loe.org/content/2026-01-23/KERRY_fpevent.jpg
-image_caption: Dr. Vanessa Kerry (second from left) speaks at the Foreign Policy event at the World Health Assembly in Geneva in May 2025. Under her leadership, Seed Global Health has helped educate more than 45,000 doctors, nurses, and midwives in seven countries, helping to improve health care for more than 76 million people. (Photo: Courtesy of Seed Global Health)
+image_caption: 'Dr. Vanessa Kerry (second from left) speaks at the Foreign Policy event at the World Health Assembly in Geneva in May 2025. Under her leadership, Seed Global Health has helped educate more than 45,000 doctors, nurses, and midwives in seven countries, helping to improve health care for more than 76 million people. (Photo: Courtesy of Seed Global Health)'
 summary: The burning of fossil fuels is linked to some 300,000 deaths in America every year, not to mention the related carbon emissions that promote global warming. Dr. Vanessa Kerry directs Global Health and Climate Policy and teaches at the Harvard T H Chan School of Public Health. She is also the World Health Organization Special Envoy for Climate Change and Health and joins Host Steve Curwood to discuss the major health costs and lost opportunities linked to pollution.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00004&segmentID=2 -->

@@ -1,13 +1,13 @@
 ---
 title: Degrees of Concern – Climate Change and New York City’s Future
-series_id: 39
+series_id: '39'
 slug: degrees-of-concern-climate-change-and-new-york-cit
-date: 2025-12-16
+date: '2025-12-16'
 category: Series
 template: series
 description: We are living in an era of extreme weather. The 1990s was the warmest decade of the 20th century, and by some estimates the warmest decade of the past thousand years. Many scientists believe man-madechanges to the world’s climateare promoting dramatic swings in the weather - more droughts and heat waves, but also more floods, hurricanes and tornadoes.
 image_url: https://loe.org/series/climate_change2003/hurricane_hugo.jpg
-image_caption: 
+image_caption: ''
 ---
 
 - [changes to the world’s climate](http://www.pewclimate.org/)

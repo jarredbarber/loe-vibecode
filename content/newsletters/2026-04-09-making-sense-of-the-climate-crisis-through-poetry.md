@@ -1,11 +1,12 @@
 ---
 title: Making Sense of the Climate Crisis through Poetry
-date: 2026-04-09
+date: '''2026-04-09'''
 category: Newsletter
 slug: making-sense-of-the-climate-crisis-through-poetry
 summary: Newsletter from 2026-04-09
 template: newsletter_article
 ---
+
 ## Making Sense of the Climate Crisis Through Poetry
 
 April is National Poetry Month, and we like to celebrate it at Living on Earth!

@@ -1,11 +1,12 @@
 ---
 title: Reflections from an LOE Intern
-date: 2025-12-26
+date: '''2025-12-26'''
 category: Newsletter
 slug: reflections-from-an-loe-intern
 summary: Newsletter from 2025-12-26
 template: newsletter_article
 ---
+
 ## Reflections from an LOE Intern
 
 Hello Living on Earth listeners!

@@ -1,13 +1,13 @@
 ---
-title: A River With Two Names: The Chattahoochee & Apalachicola Rivers
-series_id: 18
+title: 'A River With Two Names: The Chattahoochee & Apalachicola Rivers'
+series_id: '18'
 slug: a-river-with-two-names-the-chattahoochee-apalachic
-date: 2025-12-16
+date: '2025-12-16'
 category: Series
 template: series
 description: Journey Down a River With Two Names:A look at the pressures on the Chattahoochee and Apalachicola RiversThe Chattahoochee River begins in the northern mountains of Georgia, making its way through many small towns, as well as the city of Atlanta. The demands of a growing population in Atlanta are putting pressure on the river, and the reverberations are being felt down south, where the river is called the Apalachicola and runs through many of Florida’s fishing communities.
 image_url: https://loe.org/series/thisweek/021115chatahoochee.jpg
-image_caption: 
+image_caption: ''
 ---
 
 - [click here](http://www.macromedia.com/downloads/)

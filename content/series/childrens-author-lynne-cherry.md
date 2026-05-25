@@ -1,13 +1,13 @@
 ---
 title: Children's author, Lynne Cherry
-series_id: 21
+series_id: '21'
 slug: childrens-author-lynne-cherry
-date: 2025-12-16
+date: '2025-12-16'
 category: Series
 template: series
 description: Readings by children’s author, Lynne CherryLynne Cherry is the bestselling author and illustrator of numerous books for young readers. Many of her books concern environmental issues.
 image_url: https://loe.org/series/lynne_cherry/groundhog_cover.jpg
-image_caption: 
+image_caption: ''
 ---
 
 - [Click here](https://loe.org/series/lynne_cherry/groundhog.html)

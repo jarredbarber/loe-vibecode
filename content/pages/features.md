@@ -1,7 +1,7 @@
 ---
 title: Special Features
 slug: features
-date: 2025-12-16
+date: '2025-12-16'
 ---
 
 Living on Earth has produced numerous special series and features exploring critical environmental topics in depth. Browse our collection below, organized chronologically from most recent to oldest:

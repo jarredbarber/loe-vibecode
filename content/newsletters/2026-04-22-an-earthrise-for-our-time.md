@@ -1,11 +1,12 @@
 ---
 title: An “Earthrise” For Our Time
-date: 2026-04-22
+date: '''2026-04-22'''
 category: Newsletter
 slug: an-earthrise-for-our-time
 summary: Newsletter from 2026-04-22
 template: newsletter_article
 ---
+
 ## An “Earthrise” For Our Time
 
 Over the past decade I’ve spent at Living on Earth, there has been more than one weekly editorial meeting when Steve Curwood – Host, Founder, and Executive Producer – has sat at the head of the conference table and rhapsodized about the significance of the iconic “Earthrise” photo, snapped by astronaut Bill Anders on Christmas Eve of 1968 as Apollo 8 made a flyby of the Moon. Steve evocatively describes how, for the first time, we “Earthlings” got a vantage point of our planet as a small orb floating in the vast blackness of space. One planet, on which every human, ever, had been born and lived out their lives. One planet we all shared that was facing growing environmental threats. 

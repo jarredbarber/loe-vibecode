@@ -1,6 +1,6 @@
 ---
 title: Smelters and Serial Killers
-date: 2025-11-05
+date: '2025-11-05'
 category: Newsletter
 slug: smelters-and-serial-killers
 summary: Newsletter from 2025-11-05

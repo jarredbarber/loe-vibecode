@@ -1,13 +1,13 @@
 ---
 title: Women of Discovery
-series_id: 13
+series_id: '13'
 slug: women-of-discovery
-date: 2003-01-01
+date: '2003-01-01'
 category: Series
 template: series
-description: Along the way, she learned of women who braved the jungles of the Amazon, who traveled with cannibals in the Congo, and who overturned the mores of their society in order to explore. Polk chronicles the stories of 84 women in her book,Women of Discovery: A Celebration of Intrepid Women who Explored the World. And though many of their names and stories may be unfamiliar, she writes that "the story of women explorers is as old as time, as old as myth, and as real as memory."
+description: 'Along the way, she learned of women who braved the jungles of the Amazon, who traveled with cannibals in the Congo, and who overturned the mores of their society in order to explore. Polk chronicles the stories of 84 women in her book,Women of Discovery: A Celebration of Intrepid Women who Explored the World. And though many of their names and stories may be unfamiliar, she writes that "the story of women explorers is as old as time, as old as myth, and as real as memory."'
 image_url: http://www.loe.org/series/discovery_women/img/book_cover_large.jpg
-image_caption: 
+image_caption: ''
 ---
 
 - [Women of Discovery](http://realserver.bu.edu:8080/ramgen/w/b/wbur/livingonearth/series/discovery_women_combined.smil?mode=compact)

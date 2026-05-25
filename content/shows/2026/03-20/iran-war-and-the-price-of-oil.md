@@ -1,10 +1,10 @@
 ---
 title: Iran War and the Price of Oil
-date: 2026-03-20
+date: '2026-03-20'
 category: Segments
 megaphone_id: LOE5344109478
 image_url: https://loe.org/content/2026-03-20/IRAN_hormuz.jpg
-image_caption: About 20% of the world’s oil is shipped through the Strait of Hormuz, a narrow waterway located in the Persian Gulf that has been closed as a consequence of the US and Israel's war with Iran. (Photo: MODIS Land Rapid Response Team, NASA GSFC, Wikimedia Commons, Public Domain)
+image_caption: 'About 20% of the world’s oil is shipped through the Strait of Hormuz, a narrow waterway located in the Persian Gulf that has been closed as a consequence of the US and Israel''s war with Iran. (Photo: MODIS Land Rapid Response Team, NASA GSFC, Wikimedia Commons, Public Domain)'
 summary: The US and Israel’s war with Iran has stopped many ships from passing through the Strait of Hormuz in the Persian Gulf, a vital shipping corridor especially for fossil fuels, leading to global oil and gas price spikes. Lorne Stockman, the research co-director for Oil Change International, discusses with Host Jenni Doering why US consumers are paying through the roof price despite US dominance on oil and gas production, while oil companies cash in. Meanwhile, countries like Spain with significant renewable energy are enjoying price stability.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00012&segmentID=2 -->

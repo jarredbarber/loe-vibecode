@@ -1,8 +1,8 @@
 ---
 title: Alaskan River Riches
-series_id: 60
+series_id: '60'
 slug: alaskan-river-riches
-date: 2015-04-01
+date: '2015-04-01'
 category: Series
 template: series
 description: Southeast Alaska has one of the healthiest salmon fisheries in the world, thanks to strict regulation and bountiful wild rivers for fish to spawn. But mining developments upstream in British Columbia has the Alaskan fishing community worried about the future of their industry. In the summer of 2014, Living on Earth's Emmett FitzGerald traveled there and witnessed some of the tensions being put on this fragile ecosystem.

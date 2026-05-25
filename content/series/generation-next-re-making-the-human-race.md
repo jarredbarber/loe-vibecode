@@ -1,8 +1,8 @@
 ---
-title: Generation Next: Re-making the Human Race
-series_id: 12
+title: 'Generation Next: Re-making the Human Race'
+series_id: '12'
 slug: generation-next-re-making-the-human-race
-date: 2002-04-12
+date: '2002-04-12'
 category: Series
 template: series
 description: It seems hardly a week goes by without some announcement of yet another breakthrough in medical technology. These technologies, we are told, will revolutionize our lives and give humans the power to direct our own evolution. Technologies like stem cell research, genetic testing, gene therapy, cloning, nano-biotechnology and xenotransplantation will, in the not too distant future, make it possible to design our children, clone ourselves, genetically manipulate our intellectual and physical performance, and meld our minds with the artificial intelligence of computers. These are technologies that will not only revolutionize medicine, but also change who we are as human beings.

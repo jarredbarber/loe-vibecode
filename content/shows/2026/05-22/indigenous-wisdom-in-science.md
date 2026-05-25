@@ -1,11 +1,11 @@
 ---
 title: Indigenous Wisdom in Science
-date: 2026-05-22
+date: '2026-05-22'
 category: Segments
 megaphone_id: LOE4573605712
 image_url: https://loe.org/content/2026-05-22/RAINFOREST_cover.jpg
-image_caption: Dr. Rosa Espinoza’s book,  The Spirit of the Rainforest: How Indigenous Wisdom and Scientific Curiosity Reconnects Us to the Natural World, chronicles her experiences in the Peruvian Amazon, studying the natural world alongside her indigenous colleagues. (Cover: Alfredo Zagaceta, Courtesy of Octopus Publishing Group)
-summary: In accounts of scientific expeditions into the remotest parts of our world, indigenous people can often be depicted as mere backdrop—part of a quote “exotic” landscape, or at best, helpful sidekicks. But for Dr. Rosa Espinoza, a Peruvian chemical biologist and conservationist, the traditional knowledge and worldviews of indigenous people could be the key to unlocking some of nature’s greatest mysteries, if scientists are willing to listen—and collaborate. Host Aynsley O’Neill and Dr. Espinoza talk about her 2025 book, The Spirit of the Rainforest: How Indigenous Wisdom and Scientific Curiosity Reconnects Us to the Natural World.
+image_caption: 'Dr. Rosa Espinoza’s book,  The Spirit of the Rainforest: How Indigenous Wisdom and Scientific Curiosity Reconnects Us to the Natural World, chronicles her experiences in the Peruvian Amazon, studying the natural world alongside her indigenous colleagues. (Cover: Alfredo Zagaceta, Courtesy of Octopus Publishing Group)'
+summary: 'In accounts of scientific expeditions into the remotest parts of our world, indigenous people can often be depicted as mere backdrop—part of a quote “exotic” landscape, or at best, helpful sidekicks. But for Dr. Rosa Espinoza, a Peruvian chemical biologist and conservationist, the traditional knowledge and worldviews of indigenous people could be the key to unlocking some of nature’s greatest mysteries, if scientists are willing to listen—and collaborate. Host Aynsley O’Neill and Dr. Espinoza talk about her 2025 book, The Spirit of the Rainforest: How Indigenous Wisdom and Scientific Curiosity Reconnects Us to the Natural World.'
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00021&segmentID=4 -->
 

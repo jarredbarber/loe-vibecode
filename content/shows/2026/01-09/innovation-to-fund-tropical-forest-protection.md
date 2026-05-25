@@ -1,10 +1,10 @@
 ---
 title: Innovation to Fund Tropical Forest Protection
-date: 2026-01-09
+date: '2026-01-09'
 category: Segments
 megaphone_id: LOE6876269247
 image_url: https://loe.org/content/2021-11-12/HOLMES-jeremy-bezanger-unsplash.jpg
-image_caption: A tropical rainforest in the Danum Valley Conservation Area, Malaysia on the island of Borneo. (Photo: Jeremy Bezanger on Unsplash)
+image_caption: 'A tropical rainforest in the Danum Valley Conservation Area, Malaysia on the island of Borneo. (Photo: Jeremy Bezanger on Unsplash)'
 summary: The new Tropical Forest Forever Facility launched by Brazil at the 2025 UN climate talks is different from other efforts to protect nature in that it doesn’t rely on charity. Instead, it’s an investment fund that will pay dividends to both private investors and governments that keep their tropical and subtropical forest intact. Host Paloma Beltran walks Host Aynsley O’Neill through how it would work.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00002&segmentID=2 -->

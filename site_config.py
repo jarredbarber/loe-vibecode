@@ -29,6 +29,23 @@ if os.environ.get('FAST_BUILD') == 'true':
 PATH = 'content'
 OUTPUT_PATH = '_site'
 
+# Use full YAML frontmatter instead of Python-Markdown's default Meta extension.
+# Meta is not real YAML — it can't represent quoted strings, lists, or nested
+# values. YAML is what Decap-style CMSs write, and is the format we now emit
+# from the ingest pipeline.
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+    },
+    'extensions': [
+        'markdown.extensions.codehilite',
+        'markdown.extensions.extra',
+        'full_yaml_metadata',
+    ],
+    'output_format': 'html5',
+}
+
 TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
@@ -64,7 +81,7 @@ DIRECT_TEMPLATES = ['index', 'archives', 'newsletter']
 NEWSLETTER_SAVE_AS = 'newsletter.html'
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['speaker_highlight', 'show_segments', 'shortcodes']
+PLUGINS = ['yaml_reader', 'speaker_highlight', 'show_segments', 'shortcodes']
 
 from datetime import datetime
 from zoneinfo import ZoneInfo

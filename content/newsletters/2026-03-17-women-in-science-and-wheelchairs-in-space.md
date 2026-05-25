@@ -1,11 +1,12 @@
 ---
 title: Women in Science and Wheelchairs in Space
-date: 2026-03-17
+date: '''2026-03-17'''
 category: Newsletter
 slug: women-in-science-and-wheelchairs-in-space
 summary: Newsletter from 2026-03-17
 template: newsletter_article
 ---
+
 ## Women in Science and Wheelchairs in Space
 
 This week on the show, we [interviewed science historian Erik Conway about the upcoming Artemis II mission to the moon](https://loe.org/shows/segments.html?programID=26-P13-00011\&segmentID=4). When I heard the segment, the first person I thought of  was Michaela Benthaus. 

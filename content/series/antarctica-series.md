@@ -1,11 +1,11 @@
 ---
 title: Antarctica Series
-series_id: 6
+series_id: '6'
 slug: antarctica-series
-date: 1997-01-01
+date: '1997-01-01'
 category: Series
 template: series
-description: IS GLOBAL WARMING AFFECTING POLAR ICE SHELVES?Published: April 26, 1996
+description: 'IS GLOBAL WARMING AFFECTING POLAR ICE SHELVES?Published: April 26, 1996'
 ---
 
 - [ANTARCTICA UPDATE](http://www.loe.org/shows/segments.html?programID=97-P13-00002&segmentID=6)

@@ -14,9 +14,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@types/js-yaml": "^4.0.9",
     "commander": "^12.1.0",
     "hast-util-select": "^6.0.4",
     "hast-util-to-text": "^4.0.2",
+    "js-yaml": "^4.1.1",
     "rehype-parse": "^9.0.1",
     "rehype-remark": "^10.0.0",
     "remark-frontmatter": "^5.0.0",

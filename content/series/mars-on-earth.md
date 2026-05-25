@@ -1,13 +1,13 @@
 ---
 title: Mars on earth
-series_id: 41
+series_id: '41'
 slug: mars-on-earth
-date: 2025-12-16
+date: '2025-12-16'
 category: Series
 template: series
 description: Robin White recording the sound of the wind through the rocks of the Haughton Crater.
 image_url: https://loe.org/series/mars/recording.jpg
-image_caption: 
+image_caption: ''
 ---
 
 - [Day 1](https://loe.org/#Day1)

@@ -1,6 +1,6 @@
 ---
 title: Quote Test "Bursts" Forth
-date: 2099-01-01
+date: '2099-01-01'
 category: Segments
 megaphone_id: LOEFIXTURE0002
 image_url: https://example.org/test/quote.jpg

@@ -1,6 +1,6 @@
 ---
 title: Living on Earth Giving Tuesday - Please Consider a Gift
-date: 2025-12-02
+date: '2025-12-02'
 category: Newsletter
 slug: living-on-earth-giving-tuesday-please-consider-a-gift
 summary: Newsletter from 2025-12-02

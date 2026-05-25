@@ -1,11 +1,12 @@
 ---
 title: Meet our New Intern Julia Vaz
-date: 2026-03-11
+date: '''2026-03-11'''
 category: Newsletter
 slug: meet-our-new-intern-julia-vaz
 summary: Newsletter from 2026-03-11
 template: newsletter_article
 ---
+
 ## Reflections on Living with Nature, from Intern Julia Vaz
 
 Dear LOE listeners, 

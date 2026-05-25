@@ -1,6 +1,6 @@
 ---
 title: Chicago River Clean Up Brings Hope
-date: 2025-10-17
+date: '2025-10-17'
 category: Newsletter
 slug: chicago-river-clean-up-brings-hope
 summary: Newsletter from 2025-10-17

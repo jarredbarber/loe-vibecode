@@ -1,10 +1,10 @@
 ---
 title: Bonaire Residents Fight for Climate Justice
-date: 2026-02-27
+date: '2026-02-27'
 category: Segments
 megaphone_id: LOE5617758276
 image_url: https://loe.org/content/2026-02-27/BONAIRE_plaintiffsoutside.jpg
-image_caption: The attorneys and plaintiffs outside court July 2025. Bottom row, from left to right: Plaintiffs Daniela Siemal, Danique Martis, Jackie Bernabela, Director of Greenpeace Netherlands Marieke Vellekoop, and plaintiffs Helen Angela, and Kjelld Kroon. Middle row, from left to right: lawyer Michael Bacon, plaintiffs Angelo Vrolijk and Onnie Emerenciana, Judmar Emerenciana. Top row: Lawyer Emiel Jurjens from Prakken d'Oliveira. (Photo: Marten van Dijl, Courtesy of Greenpeace)
+image_caption: 'The attorneys and plaintiffs outside court July 2025. Bottom row, from left to right: Plaintiffs Daniela Siemal, Danique Martis, Jackie Bernabela, Director of Greenpeace Netherlands Marieke Vellekoop, and plaintiffs Helen Angela, and Kjelld Kroon. Middle row, from left to right: lawyer Michael Bacon, plaintiffs Angelo Vrolijk and Onnie Emerenciana, Judmar Emerenciana. Top row: Lawyer Emiel Jurjens from Prakken d''Oliveira. (Photo: Marten van Dijl, Courtesy of Greenpeace)'
 summary: The Dutch special municipality of Bonaire in the Caribbean is already experiencing dangerous heat and could see a fifth of its land disappear under rising seas by 2100. But the Netherlands is discriminating against these overseas citizens by failing to adequately reduce global warming emissions and develop adaptation plans to help them cope, according to a January 2026 Dutch court decision. Greenpeace Netherlands campaigner Eefje de Kroon worked with eight Bonaire residents to bring their case and joins Host Paloma Beltran.
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00009&segmentID=1 -->

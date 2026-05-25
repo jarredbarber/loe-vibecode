@@ -1,11 +1,12 @@
 ---
 title: Branching Out Into Tropical Forests
-date: 2026-01-12
+date: '''2026-01-12'''
 category: Newsletter
 slug: branching-out-into-tropical-forests
 summary: Newsletter from 2026-01-12
 template: newsletter_article
 ---
+
 ## Branching Into Tropical Forests
 
 One of the best parts about working at Living on Earth is that you learn something new every week. It’s the ultimate workplace for nerds, people with fractured attention spans, and anyone who enjoys a Wikipedia deep dive. And for me, who experiences shades of all three, it works out perfectly!

@@ -1,6 +1,6 @@
 ---
-title: Living on Earth: January 1, 2099
-date: 2099-01-01
+title: 'Living on Earth: January 1, 2099'
+date: '2099-01-01'
 category: Shows
 template: show
 megaphone_id: LOEFIXTURE0001

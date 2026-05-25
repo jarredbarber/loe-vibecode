@@ -1,13 +1,13 @@
 ---
 title: Obama's Cabinet
-series_id: 47
+series_id: '47'
 slug: obamas-cabinet
-date: 2009-01-01
+date: '2009-01-01'
 category: Series
 template: series
 description: Lisa Jackson has no small job ahead of her. As the new EPA administrator, she's charged with protecting public health and safeguarding the environment. One of her first initiatives is to follow up on a USA Today series that found hundreds of America's schools located dangerously close to toxic hot spots. Administrator Jackson talks with host Bruce Gellerman about testing the air that schoolchildren breathe, regulating carbon dioxide, and what she'd like to do with the EPA's proposed budget increase.
 image_url: https://loe.org/features/img/lisaJackson.jpg
-image_caption: (LOE broadcast: March 6, 2009)
+image_caption: '(LOE broadcast: March 6, 2009)'
 ---
 
 - [Lisa Jackson's Plan](http://www.loe.org/shows/segments.htm?programID=09-P13-00010&segmentID=1)

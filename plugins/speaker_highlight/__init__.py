@@ -194,18 +194,41 @@ def _flush_bracket_buffer(soup, new_content, buffer_elements):
     if match:
         label = match.group(1)
         rest = merged_text[match.end():]
-        
+
         span = soup.new_tag("span", **{"class": "speaker"})
         span.string = f"{label}:"
-        
+
         p.append(span)
-        p.append(rest)
+        _append_linkified(soup, p, rest)
     else:
-        p.string = merged_text
-        
+        _append_linkified(soup, p, merged_text)
+
     div.append(p)
-    
+
     new_content.append(div)
+
+
+_URL_RE = re.compile(r'(https?://[^\s\]\)<>"\']+)')
+
+
+def _append_linkified(soup, parent, text):
+    """Append `text` to `parent`, wrapping any URLs in <a href> tags so the
+    bird-sound and other reference URLs inside music cues are clickable."""
+    last = 0
+    for m in _URL_RE.finditer(text):
+        if m.start() > last:
+            parent.append(text[last:m.start()])
+        url = m.group(1).rstrip('.,;:')
+        a = soup.new_tag("a", href=url, target="_blank", rel="noopener")
+        a.string = url
+        parent.append(a)
+        # Add back any trailing punctuation we stripped from the URL itself.
+        trailing = m.group(1)[len(url):]
+        if trailing:
+            parent.append(trailing)
+        last = m.end()
+    if last < len(text):
+        parent.append(text[last:])
 
 
 def _clean_brackets(element, start=False, end=False):

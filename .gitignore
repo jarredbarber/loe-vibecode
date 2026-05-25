@@ -5,3 +5,4 @@ venv
 content/_wip
 *.log
 **/.DS_Store
+tests/fixtures/_build/

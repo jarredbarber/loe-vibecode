@@ -67,11 +67,14 @@ export async function discoverYear(year: number): Promise<ShowRef[]> {
     const html = await fetchCached(tocUrl);
 
     const hrefRe = /href=["']([^"']+programID=[^"']+)["']/gi;
+    // programID values are like "26-P13-00021" — require at least one digit so
+    // that malformed entries on older TOCs (e.g. `programID=--`) don't match.
+    const programIdRe = /programID=(\d[0-9A-Za-z-]*)/;
     const seen = new Map<string, string>();
 
     for (const match of html.matchAll(hrefRe)) {
         const rawHref = match[1];
-        const programMatch = rawHref.match(/programID=([0-9A-Za-z-]+)/);
+        const programMatch = rawHref.match(programIdRe);
         if (!programMatch) continue;
         const programId = programMatch[1];
 
@@ -89,13 +92,18 @@ export async function discoverYear(year: number): Promise<ShowRef[]> {
 
     const refs: ShowRef[] = [];
     for (const [programId, url] of seen) {
-        const showHtml = await fetchCached(url);
-        refs.push({
-            programId,
-            url,
-            date: extractShowDate(showHtml),
-            segments: extractSegmentUrls(showHtml),
-        });
+        try {
+            const showHtml = await fetchCached(url);
+            refs.push({
+                programId,
+                url,
+                date: extractShowDate(showHtml),
+                segments: extractSegmentUrls(showHtml),
+            });
+        } catch (e) {
+            // One broken link on the TOC shouldn't kill the whole year.
+            console.warn(`  ! skipping ${programId}: ${(e as Error).message}`);
+        }
     }
     return refs;
 }

@@ -19,7 +19,7 @@ import re
 from pelican import signals
 from bs4 import BeautifulSoup
 
-_SPEAKER_RE = re.compile(r'^\s*([A-Z][A-Z\s]+):')
+_SPEAKER_RE = re.compile(r'^\s*([A-Z][A-Z\s\d]+):')
 
 
 def process_transcript(content):

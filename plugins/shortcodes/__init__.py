@@ -39,7 +39,7 @@ def _parse_args(s):
 
 # ----- cards --------------------------------------------------------------
 
-_SPEAKER_RE = re.compile(r'^\s*([A-Z][A-Z\s]+):')
+_SPEAKER_RE = re.compile(r'^\s*([A-Z][A-Z\s\d]+):')
 
 
 def _cue_card(inner_html):

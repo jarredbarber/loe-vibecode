@@ -72,7 +72,9 @@ collections:
     # Sveltia doesn't support Decap's `nested` option yet; the recursive
     # subfolder scan happens via this path template instead.
     path: '{{year}}/{{month}}-{{day}}/{{slug}}'
-    filter: { field: category, value: Segments }
+    # TEMP: filter removed to diagnose whether files are being scanned
+    # at all. Re-add `filter: { field: category, value: Segments }`
+    # after confirming entries appear.
     extension: md
     format: yaml-frontmatter
     fields:

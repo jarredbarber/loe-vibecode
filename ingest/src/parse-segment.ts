@@ -48,25 +48,40 @@ function hastToMarkdown(node: Element | Root): string {
         .use(remarkStringify, { bullet: '-', emphasis: '*', strong: '*', fences: true });
     const mdast = proc.runSync(node as never);
     const raw = proc.stringify(mdast as never).toString();
-    return unescapeSafe(raw);
+    return fixHardBreaks(unescapeSafe(raw));
 }
 
 /**
- * remark-stringify defensively escapes `[`, `]`, and `:` in URL-like contexts
- * to prevent accidental link/autolink interpretation. Real markdown links in
- * our pipeline come from <a> tags via rehype-remark and emit unescaped, so
- * any escape we see here is over-zealous on literal text. Strip the noisy ones.
+ * Two post-processing fixes for the markdown remark-stringify emits:
  *
- * Keeps escapes that are correctness-preserving (e.g. `\###` at line start,
- * which would otherwise become an h3 heading).
+ * 1. `http\://` → `http://`. remark-stringify escapes the colon to prevent
+ *    autolink interpretation; safe to undo since we keep the brackets escaped
+ *    (see #2) so no `[text](url)` link can form by accident.
+ * 2. `\.` after a digit (e.g. `0.06-.10\.`) — never meaningful in markdown.
+ *
+ * Note: we deliberately KEEP `\[` and `\]` escaped. Pelican's Python-Markdown
+ * parser eats unescaped brackets as broken link references, leaving dangling
+ * `]` characters in the rendered HTML. The escape survives Pelican as a
+ * literal `[`, which is what we want for audio cues like
+ * `[Northern Cardinal song, http://...]` in syndicated BirdNote segments.
+ *
+ * Likewise we keep `\###` etc. — those preserve literal text that would
+ * otherwise become an h3 heading.
  */
 function unescapeSafe(md: string): string {
     return md
-        .replace(/\\\[/g, '[')
-        .replace(/\\\]/g, ']')
         .replace(/(https?)\\:\/\//g, '$1://')
-        // `\.` after a digit (e.g. "0.06-.10\.") — not meaningful in markdown.
         .replace(/(\d)\\\./g, '$1.');
+}
+
+/**
+ * remark-stringify emits CommonMark hard breaks as `\` followed by newline.
+ * Pelican's Python-Markdown does not recognize that syntax — it renders the
+ * backslash literally. Replace with the two-trailing-spaces form, which both
+ * CommonMark and Python-Markdown understand.
+ */
+function fixHardBreaks(md: string): string {
+    return md.replace(/\\\n/g, '  \n');
 }
 
 function findMegaphoneId(root: Root): string | null {

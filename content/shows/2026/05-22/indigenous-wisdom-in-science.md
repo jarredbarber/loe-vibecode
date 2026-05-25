@@ -13,7 +13,7 @@ summary: "In accounts of scientific expeditions into the remotest parts of our w
 
 CURWOOD: It’s Living on Earth, I’m Steve Curwood
 
-O’NEILL: And I’m Aynsley O’Neill. In Western accounts of scientific expeditions into the remotest parts of our world, indigenous people can often be depicted as mere backdrop—part of a quote “exotic” landscape, or at best, helpful sidekicks. But for Dr. Rosa Espinoza, a Peruvian chemical biologist and conservationist, the traditional knowledge and worldviews of indigenous people could be the key to unlocking some of nature’s greatest mysteries, if western scientists are willing to listen—and collaborate.\
+O’NEILL: And I’m Aynsley O’Neill. In Western accounts of scientific expeditions into the remotest parts of our world, indigenous people can often be depicted as mere backdrop—part of a quote “exotic” landscape, or at best, helpful sidekicks. But for Dr. Rosa Espinoza, a Peruvian chemical biologist and conservationist, the traditional knowledge and worldviews of indigenous people could be the key to unlocking some of nature’s greatest mysteries, if western scientists are willing to listen—and collaborate.  
 Dr. Espinoza’s 2025 book is called, *The Spirit of the Rainforest: How Indigenous Wisdom and Scientific Curiosity Reconnects Us to the Natural World,* and she joins me now. Welcome to Living on Earth, Rosa!
 
 ESPINOZA: Thank you so much for having me. It's such an honor.

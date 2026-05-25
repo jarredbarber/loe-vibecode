@@ -13,15 +13,15 @@ summary: "Hummingbirds are migrating north after a hot, dry winter in sunny Mexi
 
 BELTRAN: The Caribbean is a wintertime home to many migrating birds that summer in North America, including hummingbirds. Here’s Mary McCann with today’s BirdNote®.
 
-BirdNote®\
-Thirsty Hummingbirds\
+BirdNote®  
+Thirsty Hummingbirds  
 Written by Frances Wood
 
-[Whirring and call of Rufous Hummingbird]
+\[Whirring and call of Rufous Hummingbird]
 
 Here they come! Rufous Hummingbirds, Ruby-throats, and others are migrating north after a hot, dry winter in sunny Mexico or Central America. And they’re ready for a drink.
 
-[Whirring and call of Rufous Hummingbird]
+\[Whirring and call of Rufous Hummingbird]
 
 Hummingbirds need to consume several times their body weight each day, so they're looking for flowering plants to quench that mighty thirst. If a whirring puffball is hovering at your window, consider becoming a hummingbird bartender.
 
@@ -29,25 +29,25 @@ Hummingbirds need to consume several times their body weight each day, so they'r
 
 To help feed them, select a hummingbird feeder that you can easily clean on the inside, and one that has plenty of red to attract the birds. Then fill it with sugar water made by dissolving one part sugar in four parts water. No honey or sugar substitutes allowed. And please — no red food coloring.
 
-[Call of the Rufous Hummingbird]
+\[Call of the Rufous Hummingbird]
 
 There’s no need to feel guilty that feeding hummers will lure them away from their natural sources of nourishment. The birds will continue to consume a healthy balance of plant nectar, small insects, and sap.
 
 So set out a feeder, and before long, you may be hearing a hummingbird hovering around your watering hole.
 
-[Whirring and call of Rufous Hummingbird]
+\[Whirring and call of Rufous Hummingbird]
 
 You can learn a lot more about hummingbirds — and what attracts them. Begin at our website, BirdNote.org. I'm Mary McCann.
 
-\###\
-Senior Producer: Mark Bramhill\
-Producer: Sam Johnson\
-Managing Editor: Jazzi Johnson\
-Content Director: Jonese Franklin\
-Whirring, call and “J display” of the Rufous Hummingbird #109124, provided by The Macaulay Library of Natural Sounds at the Cornell Lab of Ornithology, Ithaca, New York. Sound Recordist: G.A. Keller.\
+\###  
+Senior Producer: Mark Bramhill  
+Producer: Sam Johnson  
+Managing Editor: Jazzi Johnson  
+Content Director: Jonese Franklin  
+Whirring, call and “J display” of the Rufous Hummingbird #109124, provided by The Macaulay Library of Natural Sounds at the Cornell Lab of Ornithology, Ithaca, New York. Sound Recordist: G.A. Keller.  
 BirdNote's theme music was composed and played by Nancy Rumbel and produced by John Kessler.
 
-© 2016 Tune In to Nature.org March 2013/2016/2022/2025 Narrator: Mary McCann\
+© 2016 Tune In to Nature.org March 2013/2016/2022/2025 Narrator: Mary McCann  
 ID# 033005RUHU hummingbird-06-2013-03-24 hummingbird-06
 
 BELTRAN: For pictures, zip on over to the Living on Earth website, loe dot org.

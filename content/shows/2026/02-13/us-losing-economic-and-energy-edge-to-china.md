@@ -15,7 +15,7 @@ CURWOOD: From PRX and the Jennifer and Ted Stanley Studios at the University of 
 
 DOERING: And I’m Jenni Doering.
 
-The Trump Administration is moving to have the Environmental Protection Agency revoke its 2009 finding that global warming gases present a hazard to public health.\
+The Trump Administration is moving to have the Environmental Protection Agency revoke its 2009 finding that global warming gases present a hazard to public health.  
 The so-called “endangerment finding” came after the US Supreme Court ruled in 2007 that states could sue the EPA over potential damages to their territories from climate disruption.
 
 CURWOOD: Carrie Jenks is Executive Director of the Environmental & Energy Law Program at Harvard Law School.
@@ -40,7 +40,7 @@ CURWOOD: As the US fully withdrew from the UN climate negotiations in the fall o
 
 DOERING: With the US now gone from the negotiating table, China is effectively in charge of the terms of international climate agreements. And since energy drives so much of modern commerce, China is already seizing the moment to develop its economy by supplying the world with the clean technologies of the future, as the US lags behind.
 
-CURWOOD: Analysis by Carbon Brief already shows that in 2025 solar power, electric vehicles and other clean-energy technologies powered more than a third of China’s GDP growth at the same time the US economy had lower growth and higher inflation.\
+CURWOOD: Analysis by Carbon Brief already shows that in 2025 solar power, electric vehicles and other clean-energy technologies powered more than a third of China’s GDP growth at the same time the US economy had lower growth and higher inflation.  
 Joining us now to discuss how the US is losing economic and geopolitical power as China races ahead, is veteran BBC journalist Isabel Hilton, the founder of Dialogue Earth, which started as China Dialogue. Isabel, welcome back to Living on Earth!
 
 HILTON: Well, thank you very much Steve, lovely to be with you.
@@ -75,11 +75,11 @@ CURWOOD: My guest is Isabel Hilton, veteran journalist and BBC presenter, and fo
 
 Wind farm in Guangling County, Shanxi. (Wikimedia Commons, CC BY SA 4.0)
 
-[MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
+\[MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
 
 ANNOUNCER: Support for Living on Earth comes from the estate of Rosamund Stone Zander - celebrated painter, environmentalist, and author of The Art of Possibility – who inspired others to see the profound interconnectedness of all living things, and to act with courage and creativity on behalf of our planet. Support also comes from Sailors for the Sea and Oceana. Helping boaters race clean, sail green and protect the seas they love. More information @sailorsforthesea.org.
 
-[CUTAWAY MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
+\[CUTAWAY MUSIC: Joshua Redman Elastic Band, “Shut Your Mouth” on Momentum, Nonesuch Records, Inc.]
 
 DOERING: It’s Living on Earth, I’m Jenni Doering.
 
@@ -107,7 +107,7 @@ HILTON: We have abandoned, we the collective West, abandoned the processing, in 
 
 CURWOOD: And that those minerals were also actually in the iPhones or the smartphones that we're using to talk with each other, yes?
 
-HILTON: They're in everything. Your house is full of them. Your pocket has quite a few. [LAUGH] So yes, I mean, they are, in a way, they're as essential to the contemporary economy, to the digital world as oil was to or coal was to the old industrial world. These are the new, you know, you can't do without them.
+HILTON: They're in everything. Your house is full of them. Your pocket has quite a few. \[LAUGH] So yes, I mean, they are, in a way, they're as essential to the contemporary economy, to the digital world as oil was to or coal was to the old industrial world. These are the new, you know, you can't do without them.
 
 CURWOOD: So my iPhone speaks Mandarin, apparently, huh?
 

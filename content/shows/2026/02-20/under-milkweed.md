@@ -13,10 +13,10 @@ summary: "One of the most heavenly scents on Earth is that of milkweed in bloom,
 
 CURWOOD: Monarch butterflies and the milkweed they depend on inspired this essay from Living on Earth’s Explorer in Residence, Mark Seth Lender.
 
-Under Milkweed\
-Monarch Butterfly\
-Stewart B. McKinney National Wildlife Refuge\
-© 2026 Mark Seth Lender\
+Under Milkweed  
+Monarch Butterfly  
+Stewart B. McKinney National Wildlife Refuge  
+© 2026 Mark Seth Lender  
 All Rights Reserved
 
 LENDER: When milkweed is in bloom I love to be in the middle. “Weed” must have meant something else when our Celtic-Anglo-Saxon-Norse-French-Roman tongue acquired the name and named it, because milkweed is beautiful when it blooms. Compound blossoms. Carmine violet. Each flowerlet a cup of nectar the scent of ambrosia... Do not give in to the temptation, to eat of it, or drink of it. Milkweed can stop your beating heart. Maybe that’s why the nomenclature is what it is. Never mind. Milkweed is not there for us. Milkweed brings monarch butterflies. Who feed on the sweets and the poison too. That black-orange-yellow-fluttering-butterfly of a monarch’s wings tells bird, and beast alike, take a bite and it is me, who will finish, you!

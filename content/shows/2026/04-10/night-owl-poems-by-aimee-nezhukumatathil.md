@@ -25,32 +25,32 @@ NEZHUKUMATATHIL: Sure, and yes, a nocturne, as I say in the back of the book, is
 
 "Nocturne for Dark Things."
 
-I do my finest listening in the dark.\
-My best friend has always been ink\
+I do my finest listening in the dark.  
+My best friend has always been ink  
 and she lets me talk so much at night.
 
-One of the marvels of my life—an\
-alphabet. A whole green and mossy\
+One of the marvels of my life—an  
+alphabet. A whole green and mossy  
 world can be made and remade
 
-from just twenty-¬ six dark curlicues.\
-Here’s more dark: sometimes birds sleep\
+from just twenty-¬ six dark curlicues.  
+Here’s more dark: sometimes birds sleep  
 tucked under a giraffe’s dusky armpit
 
-and sometimes fungi fatten only at night.\
-When I was a kid, I used to worry over\
+and sometimes fungi fatten only at night.  
+When I was a kid, I used to worry over  
 so many bugs and moths slamming
 
-into our windshield. My sons have never\
-known that concern, which is another kind\
+into our windshield. My sons have never  
+known that concern, which is another kind  
 of worry. But dark marvels still bloom
 
-and snick the soil, swim the oceans and air—and\
-even on the moon: wide, flat plains\
+and snick the soil, swim the oceans and air—and  
+even on the moon: wide, flat plains  
 are called seas, lakes, and marshes. Bays
 
-are named Joy, named Sorrow, named Hope,\
-named Nectar, named Softness, named Serpent,\
+are named Joy, named Sorrow, named Hope,  
+named Nectar, named Softness, named Serpent,  
 named Stickiness, named Tranquility, named
 
 Clouds, named Sleep, and my favorite—¬ named Love.
@@ -101,19 +101,19 @@ NEZHUKUMATATHIL: Yeah, absolutely.
 
 "Letter for Noctiluca," which is the proper name for sea sparkle or sea fire.
 
-It’s been so long since I heard from you\
-when I finally did, I was like a sandpiper\
-hearing thunder for the first time. You used to visit\
-my shore often, lap my ankles with your foamy laugh.\
-When I see your name, my heart claps like clamshell\
-or coquina—¬ or a scallop tambourine with dark stars\
-of shark teeth along the wrack. Even just hearing\
-your laugh sends me into a fig-¬ sugar crumble. I hear\
-reports of lit-¬ up mangroves, full of reptiles\
-that don’t know what to call the flecks of light on their backs.\
-You kiss me on the cheek in full view of others. We hold\
-each other a beat too long. We pledge ourselves to snow\
-to pink sand to fresh redbud shoots iced overnight\
+It’s been so long since I heard from you  
+when I finally did, I was like a sandpiper  
+hearing thunder for the first time. You used to visit  
+my shore often, lap my ankles with your foamy laugh.  
+When I see your name, my heart claps like clamshell  
+or coquina—¬ or a scallop tambourine with dark stars  
+of shark teeth along the wrack. Even just hearing  
+your laugh sends me into a fig-¬ sugar crumble. I hear  
+reports of lit-¬ up mangroves, full of reptiles  
+that don’t know what to call the flecks of light on their backs.  
+You kiss me on the cheek in full view of others. We hold  
+each other a beat too long. We pledge ourselves to snow  
+to pink sand to fresh redbud shoots iced overnight  
 when nothing moves except winter stars—like
 
 Procyon like Betelgeuse like Sirius, the dog star.
@@ -140,40 +140,40 @@ Hanauma Bay in Oahu, Hawai’i. (Photo: Olusola O, Pexels, public domain)
 
 "Triggerfish Invective."
 
-The last time I sank my face in the neritic ocean\
+The last time I sank my face in the neritic ocean  
 I found only beige and bleached out bones, instead
 
-of orange and green coral fans. I spoke to angry underwater\
+of orange and green coral fans. I spoke to angry underwater  
 ghosts in other languages I forgot I knew—¬ my mouth grew
 
-full of seaweed syllables and cracked shells. Too many\
+full of seaweed syllables and cracked shells. Too many  
 pale bodies have marched snorkel fins over this coral,
 
-snagged selfies on the coral, and scraped coral clean\
+snagged selfies on the coral, and scraped coral clean  
 of leafy food. Too many pale bodies don’t even leave
 
-a scintilla of small-¬ shelled meats. The fish ghosts cackle\
+a scintilla of small-¬ shelled meats. The fish ghosts cackle  
 and hiss. Sometimes they answer with light-¬ scatter.
 
-The sea in this bay once curved full of cucumbers\
+The sea in this bay once curved full of cucumbers  
 and other funny vegetables, some with fin and some
 
-with spine. Here the sea-¬ swollen ring of motion bursts—here\
+with spine. Here the sea-¬ swollen ring of motion bursts—here  
 the sea throws a dozen fish with pointed snouts
 
-towards me. I never thought I’d be lucky to see triggerfish\
+towards me. I never thought I’d be lucky to see triggerfish  
 in real life but they remain—¬ almost a warning or last chance
 
-for us. Why else would they activate their trigger fin\
+for us. Why else would they activate their trigger fin  
 and hold on to coral bones if there was no more hope
 
-of saving the bay? I am certain I will wear an anklet\
+of saving the bay? I am certain I will wear an anklet  
 of tiny bites from these ’humuhumunukunukuapua’a
 
-and why not: for all the fish I see now, thousands more\
+and why not: for all the fish I see now, thousands more  
 swam just last year. And the last year. And the last.
 
-The fish ghosts only send out mondegreens now.\
+The fish ghosts only send out mondegreens now.  
 Some scatter pale green light. Some scatter a cackle and a hiss—
 
 DOERING: Not much resolution in there.

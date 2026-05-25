@@ -19,39 +19,39 @@ For families with a high school senior, the month of May can be a bittersweet ti
 
 NEZHUKUMATATHIL: I think maybe some mothers would be like, oh, cute, haha. And I just, you know, I mean, that boy's mom was a poet, and all, and the one who stays up at night worrying and so that is just like the, almost the worst thing you could say as a seven-year-old. Oh, gosh, it's so dramatic. But it truly was like, I could feel my heart race, you know, like and "saturnine," I found out, you know, the origins of the kind of the most somber, morose god of Greek mythology, which is what the planet Saturn was named after. But to be "saturnine" means to be morose and brooding. So I just thought that was so interesting. This is my version of being saturnine.
 
-"Saturnine"\
+"Saturnine"  
 for P
 
-When you told me you wanted to live on Saturn,\
-my hands grew cold like all the blood rushed\
+When you told me you wanted to live on Saturn,  
+my hands grew cold like all the blood rushed  
 to my heart to help it in its purple panic. I never
 
-even thought of losing you until then. Silly, stupid\
-mother— arrogant from each moment you reached\
+even thought of losing you until then. Silly, stupid  
+mother— arrogant from each moment you reached  
 for my hand, reached for my neck, lifted your belly
 
-to mine, or begged me for a snack. My darling—\
-every season on Saturn lasts seven years. When you\
+to mine, or begged me for a snack. My darling—  
+every season on Saturn lasts seven years. When you  
 announced your plan of living among all those
 
-jumping yellow moons, we would have still been\
-in your first long summer— seven *years* of that\
+jumping yellow moons, we would have still been  
+in your first long summer— seven *years* of that  
 heat wave with ice pops staining your mouth.
 
-Seven years of collecting flowers in a butterfly net\
-for my pillow. Seven years of lifting the windows\
+Seven years of collecting flowers in a butterfly net  
+for my pillow. Seven years of lifting the windows  
 each morning, a small hallelujah to hear the cardinal
 
-spin a song over your bed. When you told me not\
-to worry, you’d visit, you’d come back to me—\
+spin a song over your bed. When you told me not  
+to worry, you’d visit, you’d come back to me—  
 all I could think of was the black-sick of you tunneling
 
-through space without me. How blue nebulas might\
-dampen your very good cheeks. I know it will come.\
+through space without me. How blue nebulas might  
+dampen your very good cheeks. I know it will come.  
 That day will come. But today, let’s enjoy the long summer.
 
-Enjoy the mosquito bites, the little sandals chaos- flung\
-on the patio. Let’s see who can make the biggest, most brilliant\
+Enjoy the mosquito bites, the little sandals chaos- flung  
+on the patio. Let’s see who can make the biggest, most brilliant  
 spray of light when we bite into our cobs of corn.
 
 ![](https://loe.org/content/2026-04-10/NIGHTOWL_author.jpg)

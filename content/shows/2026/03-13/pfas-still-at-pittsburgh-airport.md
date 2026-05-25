@@ -11,7 +11,7 @@ summary: "Foams containing PFAS or “forever chemicals” are excellent at supp
 
 ## Transcript
 
-*[The Allegheny Front](https://www.alleghenyfront.org/) covers the environment in Pennsylvania and eastern Ohio. Sign up for their newsletter [here.](https://www.alleghenyfront.org/newsletter/)*\
+*[The Allegheny Front](https://www.alleghenyfront.org/) covers the environment in Pennsylvania and eastern Ohio. Sign up for their newsletter [here.](https://www.alleghenyfront.org/newsletter/)*  
 \--
 
 O’NEILL: It’s Living on Earth, I’m Aynsley O’Neill.

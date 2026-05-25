@@ -55,31 +55,31 @@ A “quasi-sovereignty” could hypothetically be set up at one of the poles of 
 
 DOERING: So Kelly, Zach, as a couple, what was it like writing *A City on Mars&#x20;*&#x74;ogether?
 
-ZACH WEINERSMITH: You gonna let me have that one? [LAUGHS]
+ZACH WEINERSMITH: You gonna let me have that one? \[LAUGHS]
 
 KELLY WEINERSMITH: Well, I'll get my say. You can start.
 
 ZACH WEINERSMITH: Well, all right, good. Good. Good. Disappointingly non-dramatic. I kind of wish someone threw a chair through a window at some point, just so we can report it.
 
-KELLY WEINERSMITH: [LAUGHS]
+KELLY WEINERSMITH: \[LAUGHS]
 
-DOERING: [LAUGHS]
+DOERING: \[LAUGHS]
 
 ZACH WEINERSMITH: No, I mean, you know, our last book, *Soonish&#x20;*, we kind of just say, "Well, you do a chapter and I'll do a chapter, and then we'll come together." For this, we kind of had to, like, divide and conquer according to aptitude. So like, our joke was, you know, Zach reads very quickly with about 80% comprehension. Kelly reads very slowly with 100% comprehension. So essentially, like, I was vanguarding into, like, I'm gonna read a bunch of astronaut memoirs, and I'm gonna read all these, like, old books about the space future and this and that, and Kelly was often the one with the task of, like, NASA has 150 pages on the effects of radiation, with like, 8 billion citations. Kelly's going to read the whole damn thing. Essentially, the workflow we ended up with was we would both research and then we dropped these into a giant pile of notes in Google Docs. We like, literally have 1000s of pages of notes on all these different topics, and then Kelly, for a given chapter, would collate all of those notes and then create something we call the dossier, which is was a sort of like 30-page version of something that needed to be five or six pages with suggestions of structure and, like high points and quotations that might be amusing. And then my job was to kind of swoop in at the end and make it a little funny and jaunty, and then endless rewrites. But essentially, you know, we had to, like, play to our strengths because there was no way to get it across the finish line, otherwise. In terms of us not yelling at each other, I think the main thing we had going for us is that we really just cared a lot about this project. This wasn't just like a meal ticket for us. We spent, like, a decent amount of our careers on this. And so, like, the part where your spouse is like, "I think you wrote this badly, and you should start over." What you want to do is say... Well, I don't want to say. But, but what you do is you say, "All right, fine. I will because as much as I don't want you to tell me I suck, I really don't want the world to tell me I suck." And so we would go back and rewrite together, and no one had to die.
 
-KELLY WEINERSMITH: [LAUGHS]
+KELLY WEINERSMITH: \[LAUGHS]
 
 ![](https://loe.org/content/2026-01-02/ACOM2_comicselves.jpg)
 
 Zach’s rendering of Kelly and himself. (Image: Drawn by Zach Weinersmith)
 
-DOERING: [LAUGHS] And Kelly, what was it like for you, and if I may, how did it change your relationship?
+DOERING: \[LAUGHS] And Kelly, what was it like for you, and if I may, how did it change your relationship?
 
 KELLY WEINERSMITH: You know, I think Zach did a really good job of describing what the experience was like. There were so many instances where I would send a draft of the chapter to Zach and he'd be like, "What? No, this is all wrong." And then he'd send me a draft of the chapter, and I'd be like, "Are you kidding me? This is all wrong." And I think we both eventually got good at accepting that particular kind of criticism. I don't feel like that has translated into like, "Oh, you didn't do the laundry."
 
 KELLY WEINERSMITH: Somehow that still hurts—
 
-ZACH WEINERSMITH: [LAUGHS]
+ZACH WEINERSMITH: \[LAUGHS]
 
 KELLY WEINERSMITH: —you know, when it comes from either of us, but when it comes to like, "This writing isn't quite working," we've managed to sort of scrape our egos out of the equation. And we'd focus on, "All right. Well, we need to get the best version of this done." And we got pretty good at accepting each other's criticism when it comes to writing over the course of the four years.
 
@@ -95,39 +95,39 @@ ZACH WEINERSMITH: What were the two fights?
 
 KELLY WEINERSMITH: Google Docs versus Word—
 
-ZACH WEINERSMITH: [LAUGHS]
+ZACH WEINERSMITH: \[LAUGHS]
 
 KELLY WEINERSMITH: —and has sex ever happened in space? We came down on very different sides of that argument.
 
-DOERING: [LAUGHS] All right, so we got to settle this. Which one of you thinks sex has happened in space and which one of you does not?
+DOERING: \[LAUGHS] All right, so we got to settle this. Which one of you thinks sex has happened in space and which one of you does not?
 
 KELLY WEINERSMITH: I think it has.
 
 ZACH WEINERSMITH: I mean, all right, listen, my wife's mind is in the gutter about this.
 
-DOERING: [LAUGHS]
+DOERING: \[LAUGHS]
 
 ZACH WEINERSMITH: I think the problem is, all right, you can't just sort of, like, take the amount of time and multiply through because otherwise, you would have to apply this logic to every place that's ever existed. Like, like, has anyone had an excursion in the like, containment chamber of Chernobyl? Well, it's been there a while. Okay, okay. You think that's happened too, never mind. But the bigger issue is, like...
 
-KELLY WEINERSMITH: [LAUGHS] Are you retreating already?
+KELLY WEINERSMITH: \[LAUGHS] Are you retreating already?
 
 ZACH WEINERSMITH: It's easy to say... What?
 
-KELLY WEINERSMITH: It feels like you're retreating. Go ahead. [LAUGHS]
+KELLY WEINERSMITH: It feels like you're retreating. Go ahead. \[LAUGHS]
 
 ![](https://loe.org/content/2026-01-02/ACOM2_reproduction.jpg)
 
 The particulars of human reproduction in lower-gravity environments than Earth require further scientific study to be fully understood. (Image: Drawn by Zach Weinersmith)
 
-ZACH WEINERSMITH: [LAUGHS] No. Okay. But listen, you're working in theory. I'm working in practice. You could say it's been a long time with lots of people but you cannot pinpoint where it could possibly have happened. You know, you want to talk about what was it Jan and Mark Davis, who were newlyweds, and they go up in the space shuttle, but the space shuttle has the living space of a bus, and there are seven people in it, and so they have, like, a week and a half to make it happen. So the only possible opportunity is for there to be a seven-person space sex conspiracy that hasn't been revealed for 30 years. And I just don't believe it.
+ZACH WEINERSMITH: \[LAUGHS] No. Okay. But listen, you're working in theory. I'm working in practice. You could say it's been a long time with lots of people but you cannot pinpoint where it could possibly have happened. You know, you want to talk about what was it Jan and Mark Davis, who were newlyweds, and they go up in the space shuttle, but the space shuttle has the living space of a bus, and there are seven people in it, and so they have, like, a week and a half to make it happen. So the only possible opportunity is for there to be a seven-person space sex conspiracy that hasn't been revealed for 30 years. And I just don't believe it.
 
 KELLY WEINERSMITH: I am surprised by your lack of creativity, and I will point out that an absence of evidence isn't evidence of absence. So anyway, we'll let it go now.
 
-ZACH WEINERSMITH: Yeah. All right. [LAUGHS]
+ZACH WEINERSMITH: Yeah. All right. \[LAUGHS]
 
 DOERING: All right. So still a mystery.
 
-KELLY WENERSMITH: [LAUGHS]
+KELLY WENERSMITH: \[LAUGHS]
 
 DOERING: Now, so Zach, one of the things I haven't really asked you too much about yet is all the wonderful cartoons in this book. There's a lot of unique things about this book, but they make it really fun. So what was that like, taking the material, making sure that you're communicating the information, but also then being able to make cartoons about it?
 
@@ -137,8 +137,8 @@ ZACH WEINERSMITH: Yeah, so you know our view of pop science is that, essentially
 
 In the process of the Nazis trying to claim a chunk of Antarctica, they 'heil’ed a penguin. (Image: Drawn by Zach Weinersmith)
 
-KELLY WEINERSMITH: And our editor is such a saint, because she was like, "How many chapters on how international law applies to space do you want to write?" And we're like, "Five?" And she was like, "You guys better be really funny." [LAUGHS]\
-ZACH WEINERSMITH: [LAUGHS]
+KELLY WEINERSMITH: And our editor is such a saint, because she was like, "How many chapters on how international law applies to space do you want to write?" And we're like, "Five?" And she was like, "You guys better be really funny." \[LAUGHS]  
+ZACH WEINERSMITH: \[LAUGHS]
 
 DOERING: I think when people envision humans going out into space, sometimes there's this idea that we're just going to be like, better people up there were going to be different. What do you make of that idea?
 
@@ -146,7 +146,7 @@ KELLY WEINERSMITH: So you're referring to an idea put forward by philosopher Fra
 
 ZACH WEINERSMITH: This pertains to, we will not be angels in space. So this happened in 1975. Most people don't remember. It was called the Apollo-Soyuz Test Project. And the very short version is it was the first time the US and the Soviets docked together in space. And so you might think this is the perfect place to say, "You see, in space we transcend, and we are better than ourselves." Well, John Young wrote about this in his memoir. He's an astronaut's astronaut. He was one of the Apollo guys. He was one of the pilots of the first space shuttle. He wrote about how there was a dispute on Apollo-Soyuz Test Project over who was going to be which part of the dock. And as he put it, "Nobody wanted to be the one getting the business." This was a non-trivial dispute. Apparently cost a huge amount of money. By the end, they had to create an androgynous docking system because they couldn't agree to who got to be the boy and who got to be the girl. Okay, so this idea that we're going to stop being humans in space is just absurd. In addition to there being no evidence for it, there's tons of evidence against it.
 
-DOERING: That's such an interesting reflection, too, on gender dynamics. And, you know, I imagine nobody wanted to be the so-called female end. [LAUGHS]
+DOERING: That's such an interesting reflection, too, on gender dynamics. And, you know, I imagine nobody wanted to be the so-called female end. \[LAUGHS]
 
 KELLY WEINERSMITH: That's right, yes.
 
@@ -162,9 +162,9 @@ Zach and Kelly Weinersmith pose with a copy of *A City on Mars*. (Photo: Courtes
 
 DOERING: Well, what do you hope that readers take away from this book?
 
-KELLY WEINERSMITH: So we try not to be wet blankets, literally 100% of the time. So the uplifting message we like to send is that there's a lot of cool work that needs to be done. There's a lot of really awesome research projects. There's a lot of really important international law. And I mean, if you're in international law right now, you could be helping to establish the rules that guide humans as we move through the cosmos. Like, that's an amazing job to be involved with. And the scientists who get to run a research station on the moon to look at rodent reproduction, like that sounds really cool to me. And, you know, trying to figure out these closed loop ecosystems, figuring out how to recycle resources better, that could help Earth. Like there's so many cool questions with so many cool side projects that I think getting excited about being part of the generation, or generations, that get us ready for settling space is worth being excited about, even if I don't think we'll be settling space within my generation. I had to end on a, you know, sort of negative point because that's who I am. [LAUGHS]
+KELLY WEINERSMITH: So we try not to be wet blankets, literally 100% of the time. So the uplifting message we like to send is that there's a lot of cool work that needs to be done. There's a lot of really awesome research projects. There's a lot of really important international law. And I mean, if you're in international law right now, you could be helping to establish the rules that guide humans as we move through the cosmos. Like, that's an amazing job to be involved with. And the scientists who get to run a research station on the moon to look at rodent reproduction, like that sounds really cool to me. And, you know, trying to figure out these closed loop ecosystems, figuring out how to recycle resources better, that could help Earth. Like there's so many cool questions with so many cool side projects that I think getting excited about being part of the generation, or generations, that get us ready for settling space is worth being excited about, even if I don't think we'll be settling space within my generation. I had to end on a, you know, sort of negative point because that's who I am. \[LAUGHS]
 
-ZACH WEINERSMITH: [LAUGHS] It's what you do.
+ZACH WEINERSMITH: \[LAUGHS] It's what you do.
 
 DOERING: And Zach, any final thoughts?
 
@@ -174,13 +174,13 @@ DOERING: Zach and Kelly Weinersmith are the co-authors of *A City on Mars: Can W
 
 KELLY WEINERSMITH: Thanks. We had a blast.
 
-ZACH WEINERSMITH: Yeah, thanks for letting me argue with my wife about sex on the radio. That was...[LAUGHS]
+ZACH WEINERSMITH: Yeah, thanks for letting me argue with my wife about sex on the radio. That was...\[LAUGHS]
 
-DOERING: [LAUGHS]
+DOERING: \[LAUGHS]
 
-KELLY WEINERSMITH: [LAUGHS] Highlight of the marriage!
+KELLY WEINERSMITH: \[LAUGHS] Highlight of the marriage!
 
-ZACH WEINERSMITH: [LAUGHS]
+ZACH WEINERSMITH: \[LAUGHS]
 
 ## Related Links
 

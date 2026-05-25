@@ -57,11 +57,11 @@ MARCOTTY: Yes, it's mostly agriculture. If you look at a map, or if you fly over
 
 BELTRAN: We’re speaking with Josephine Marcotty about her book, *Sea of Grass: The Conquest, Ruin, and Redemption of Nature on the American Prairie*. We’ll be right back with more. Stay tuned to Living on Earth!
 
-[MUSIC: Tallgrass Express String Band, “Last Stand of the Tallgrass Prairie” on Clean Curve of Hill Against Sky – Songs of the Kansas Flint Hills, Anne B. Wilson]
+\[MUSIC: Tallgrass Express String Band, “Last Stand of the Tallgrass Prairie” on Clean Curve of Hill Against Sky – Songs of the Kansas Flint Hills, Anne B. Wilson]
 
 ANNOUNCER: Support for Living on Earth comes from the estate of Rosamund Stone Zander - celebrated painter, environmentalist, and author of The Art of Possibility – who inspired others to see the profound interconnectedness of all living things, and to act with courage and creativity on behalf of our planet. Support also comes from Sailors for the Sea and Oceana. Helping boaters race clean, sail green and protect the seas they love. More information @sailorsforthesea.org.
 
-[CUTAWAY MUSIC: Punch Brothers, “Passepied (Debussy)” on The Phosphorescent Blues, orig. by Claude Debussy, 2015]
+\[CUTAWAY MUSIC: Punch Brothers, “Passepied (Debussy)” on The Phosphorescent Blues, orig. by Claude Debussy, 2015]
 
 O’NEILL: It’s Living on Earth, I’m Aynsley O’Neill.
 

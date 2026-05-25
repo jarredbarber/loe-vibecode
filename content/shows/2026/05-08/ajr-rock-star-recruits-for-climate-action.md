@@ -13,9 +13,9 @@ summary: "The indie-pop band AJR is known for its high-energy anthems and along 
 
 DOERING: The indie-pop band AJR is known for high-energy anthems like “Weak,” “Burn the House Down,” and the chart-topping “Bang!”
 
-AJR: So put your best face on everybody\
-Pretend you know this song everybody\
-Come hang, let’s go out with a bang\
+AJR: So put your best face on everybody  
+Pretend you know this song everybody  
+Come hang, let’s go out with a bang  
 Bang! bang! bang!
 
 DOERING: Along with growing their fan base of mostly young adults, AJR is growing the climate movement. At sold-out concerts, they offer fans ways to plug in to climate advocacy, with tables set up for signing petitions, calling representatives and information about getting involved in local groups. AJR stands for Adam, Jack, and Ryan Met, brothers who founded the band together. Eldest brother and bassist Adam Met also has a PhD in human rights law and sustainable development, teaches sustainability as an adjunct at Columbia and is cofounder of the nonprofit Planet Reimagined. He joins me now – Adam, welcome to Living on Earth!

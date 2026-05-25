@@ -21,7 +21,7 @@ CURWOOD: And Rachel Ignotofsky wrote about some of these trailblazing women in h
 
 IGNOTOFSKY: Well, for me, I have a lot of friends in education, and we were talking a lot about the gender gap in the STEM fields. Why is math and science still considered such a boys’ game? And I just kept saying over and over again, we maybe only talk about female scientists during women's history month. We're not taught about them in school. We're not taught about them in history class, and the only one that we do talk about is Marie Curie. So, what happens to young girls and boys when, you know, you're not introduced to these strong female role models, who all throughout history have made an immense impact on the sciences? I just kept talking about it and talking about it, and after a while, if you say something enough and you don't do something, you're just a schmuck.
 
-[CURWOOD LAUGHS]
+\[CURWOOD LAUGHS]
 
 IGNOTOFSKY: So, yeah, I started using my own skill set to try and be a part of the conversation a positive way. So I started making these posters that really celebrated some women in science that I thought were great and really talk about their accomplishments and hopefully get more people interested in talking about them.
 
@@ -31,7 +31,7 @@ IGNOTOFSKY: Yeah, well, I really think that illustration is really one of the mo
 
 CURWOOD: I have to say your illustrations on all these women include lipstick.
 
-IGNOTOFSKY: [LAUGHS] Well, I wanted to make all of the images really bright and really vibrant, so each page is kind of this monochromatic image. All the women are either bright green or bright purple on this dark charcoal background. It kind of makes them kind of just pop off the page and kind of gives you this sort of excitement and wonder that they're kind of feeling while making their discoveries. The field that they contributed to, whether it's vulcanology or marine biology or chemistry, I put those objects around them, kind of floating around them, and you can kind of just feel this wonderment of discovery and exploration.
+IGNOTOFSKY: \[LAUGHS] Well, I wanted to make all of the images really bright and really vibrant, so each page is kind of this monochromatic image. All the women are either bright green or bright purple on this dark charcoal background. It kind of makes them kind of just pop off the page and kind of gives you this sort of excitement and wonder that they're kind of feeling while making their discoveries. The field that they contributed to, whether it's vulcanology or marine biology or chemistry, I put those objects around them, kind of floating around them, and you can kind of just feel this wonderment of discovery and exploration.
 
 CURWOOD: Well, there's some women in your book that we know much about, but we don't know about this part of them. I'm thinking of Hedy Lamarr. I mean, tell us that story.
 

@@ -15,11 +15,11 @@ DOERING: As the US honors the Reverend Dr. Martin Luther King, Jr., who paid the
 
 Explorer-in-Residence, Mark Seth Lender sent us this essay about a moment in Yellowstone National Park years back that reminded him of a story he heard from one of Dr. King’s defenders.
 
-Non Violence\
-Grizzly Bear, Yellowstone National Park\
+Non Violence  
+Grizzly Bear, Yellowstone National Park  
 Homo Sapiens, Bogalusa, Louisiana
 
-© 2026 Mark Seth Lender\
+© 2026 Mark Seth Lender  
 All Rights Reserved
 
 From the top of the hill the land falls off into a gulley where water in a thin cold stream cuts through, and on the other side a gradual grassy rise. There at the high point a young grizzly is feeding. It is impossible to tell what he is feeding on because he is standing on it, all fours. Newly awake from a winter of forty, fifty below for months he’s been feeding on himself. Now it is someone else’s turn. To be fed upon. He is not about to lose possession of this first meal. He rips and tears and every few seconds when he raises his head to swallow, he scowls. Brow furrowed, eyes screwed tight. Jaws working once twice. He does not need any more than this to make his point: I want to rip your head off. The subtext being, Try to take what is mine, from me, and I will.

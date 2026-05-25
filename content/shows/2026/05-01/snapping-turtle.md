@@ -13,9 +13,9 @@ summary: "Now that it’s spring in the Northern Hemisphere, before long snappin
 
 CURWOOD: Now that it’s spring in the Northern Hemisphere, before long snapping turtles will be laying their eggs. Living on Earth’s Explorer in Residence, Mark Seth Lender shares this encounter with one mother turtle.
 
-The Snapping Turtle\
-Seney National Wildlife Refuge\
-© 2025 Mark Seth Lender\
+The Snapping Turtle  
+Seney National Wildlife Refuge  
+© 2025 Mark Seth Lender  
 All Rights Reserved
 
 Snapping turtles have taken over the dyke road. As it winds its way through the Seney National Wildlife Refuge the dyke separates the ponds, upper from lower, in a series of cascades. Like the locks on a canal. The snapping turtles crawl up here from those ponds, each one to dig a nest and lay her eggs. They set themselves, clawed feet grasping the earth. And they labor. And will not move. Until the purpose is complete. To drive this road you drive around them. They were here first.

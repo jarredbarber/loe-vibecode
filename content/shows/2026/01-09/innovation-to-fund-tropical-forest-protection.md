@@ -17,7 +17,7 @@ O’NEILL: And I’m Aynsley O’Neill.
 
 BELTRAN: So Aynsley, you and I have both been digging a little deeper into a topic we covered briefly on the show back in November.
 
-O’NEILL: Yeah, back then Steve Curwood and Jenni Doering spoke with Michael Coe, a senior scientist from the Woodwell Climate Research Center about the United Nations climate talks, with a specific emphasis on the importance of forests and this new Tropical Forest Forever Facility launched by the COP30 host country Brazil.\
+O’NEILL: Yeah, back then Steve Curwood and Jenni Doering spoke with Michael Coe, a senior scientist from the Woodwell Climate Research Center about the United Nations climate talks, with a specific emphasis on the importance of forests and this new Tropical Forest Forever Facility launched by the COP30 host country Brazil.  
 Instead of relying on charity and government assistance to try and save tropical forests, the TFFF is an investment fund that will make money to pay countries to keep their forests standing, which I think is a pretty interesting concept all around. And I know you’ve been looking into how it might work from a financial standpoint, so what did you find out?
 
 BELTRAN: Yeah, so this is fascinating. It uses a strategy common on Wall Street. Basically, it’s relying on bonds. Investors buy the equivalent of a guaranteed bond that pays them around four percent a year, and the TFFF then buys higher yielding bonds in less developed parts of the world, which these days, pay as much as seven or eight percent. That difference generates a gain which will be used to pay countries who keep their forests healthy.

@@ -67,13 +67,13 @@ Volcanoes are large emitters of carbon dioxide, and some studies have tied histo
 
 BRANNEN: Right. As crazy as that is covering a lot of Russia in lava, it doesn't explain why things at the bottom of the ocean on the other side of the world are all going extinct at the same time. And for that, you really need the gasses coming out of the volcanoes to change the chemistry of the whole planet. And the one that geochemists have really honed in on is CO2 because geochemists have all these very clever ways of analyzing rocks, and they've teased out what looks like a huge change in the planet's inventory of carbon itself. Seems like there's a huge eruption of carbon dioxide. You can tell it gets really hot. The best estimates are like ten degrees C warming over a few thousand years. The oceans acidify, which is what happens when too much CO2 reacts with sea water. We're seeing it today on our own planet. So the Permian really is the worst case scenario. If you want to know what happens what we're doing today, just several centuries into the future, if we just keep our foot on the gas, you can eventually end up at this like planetary Armageddon, essentially, which is the End Permian. So it's sort of this helpful cautionary tale in the rocks of what can happen.
 
-[MUSIC: Chris Isaak, Martin Winch, “Wicked Game” on Espresso Guitar, Murray Thom and Carl Doy, THOM PRODUCTIONS LIMITED 1998]
+\[MUSIC: Chris Isaak, Martin Winch, “Wicked Game” on Espresso Guitar, Murray Thom and Carl Doy, THOM PRODUCTIONS LIMITED 1998]
 
 DOERING: We’re speaking with Peter Brannen, author of The Story of CO2 Is the Story of Everything. We’ll be right back with more after the break. Stay tuned to Living on Earth.
 
 ANNOUNCER: Support for Living on Earth comes from the estate of Rosamund Stone Zander — celebrated painter, environmentalist, and author of The Art of Possibility — who inspired others to see the profound interconnectedness of all living things, and to act with courage and creativity on behalf of our planet. Support also comes from Sailors for the Sea and Oceana. Helping boaters race clean, sail green, and protect the seas they love. More information @sailorsforthesea.org.
 
-[MUSIC: Chris Isaak, Martin Winch, “Wicked Game” on Espresso Guitar, Murray Thom and Carl Doy, THOM PRODUCTIONS LIMITED 1998]
+\[MUSIC: Chris Isaak, Martin Winch, “Wicked Game” on Espresso Guitar, Murray Thom and Carl Doy, THOM PRODUCTIONS LIMITED 1998]
 
 CURWOOD: It’s Living on Earth, I’m Steve Curwood.
 

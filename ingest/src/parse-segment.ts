@@ -75,16 +75,33 @@ function unescapeSafe(md: string): string {
 }
 
 const MACAULAY_RE = /https?:\/\/(?:www\.)?macaulaylibrary\.org\/(?:audio|asset)\/(\d+)/i;
+const URL_RE = /https?:\/\/[^\s\]\)<>"']+/i;
+const AUDIO_EXT_RE = /\.(mp3|wav|m4a|ogg|flac|opus)(?:\?.*)?$/i;
 
 /**
- * Convert standalone bracketed Macaulay audio cues into {% audio %} shortcodes
- * the Pelican plugin understands. Only touches paragraphs that consist entirely
- * of `[...]` and contain at least one Macaulay URL — inline references mid-
- * sentence are left alone (they remain plain text in the transcript).
+ * Resolve a source-HTML URL into a playable audio URL, or null if the URL
+ * doesn't look like audio. Extend per-host shorthands here:
+ *   - macaulaylibrary.org/(audio|asset)/<id>  → Cornell CDN MP3
+ *   - any URL ending in a known audio extension → pass through
+ */
+function resolveAudioUrl(url: string): string | null {
+    const ml = url.match(MACAULAY_RE);
+    if (ml) {
+        return `https://cdn.download.ams.birds.cornell.edu/api/v1/asset/${ml[1]}/audio`;
+    }
+    if (AUDIO_EXT_RE.test(url)) return url;
+    return null;
+}
+
+/**
+ * Convert standalone bracketed audio cues into {% audio %} shortcodes the
+ * Pelican plugin understands. Only touches paragraphs that consist entirely
+ * of `[...]` AND whose URLs all resolve to audio. Inline references mid-
+ * sentence are left as plain text. Bracketed text without a resolvable audio
+ * URL is also left alone (citations, asides, etc.).
  *
  * Multi-cue paragraphs (separated by `;`) become a sequence of shortcodes,
- * each its own block. We resolve the Macaulay asset id to Cornell's CDN MP3
- * URL here so the plugin stays site-agnostic.
+ * each its own block.
  */
 function rewriteAudioCuesToShortcodes(md: string): string {
     return md
@@ -97,15 +114,15 @@ function rewriteAudioCuesToShortcodes(md: string): string {
             const segments = inner.split(/;\s*/);
             const shortcodes: string[] = [];
             for (const seg of segments) {
-                const urlMatch = seg.match(MACAULAY_RE);
-                if (!urlMatch) return para; // bail: leave whole paragraph alone
-                const assetId = urlMatch[1];
+                const urlMatch = seg.match(URL_RE);
+                if (!urlMatch) return para;
+                const src = resolveAudioUrl(urlMatch[0]);
+                if (!src) return para; // bail: not audio, leave the paragraph alone
                 const idx = seg.indexOf(urlMatch[0]);
                 const before = seg.slice(0, idx);
                 const after = seg.slice(idx + urlMatch[0].length);
                 const label = before.replace(/[,;\s]+$/, '').trim();
                 const duration = after.replace(/^[,;\s]+|[.\s\]]+$/g, '').trim();
-                const src = `https://cdn.download.ams.birds.cornell.edu/api/v1/asset/${assetId}/audio`;
                 const parts = [`src="${src}"`];
                 if (label) parts.push(`label="${label.replace(/"/g, '')}"`);
                 if (duration) parts.push(`duration="${duration.replace(/"/g, '')}"`);

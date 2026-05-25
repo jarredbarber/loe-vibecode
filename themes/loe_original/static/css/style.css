@@ -1636,15 +1636,12 @@ audio {
     background-color: rgba(0, 0, 0, 0.04);
 }
 
-/* Music cues - similar to transcript blocks but italicized */
+/* Music cues. The outer .music-cue is now just a spacing wrapper; all the
+   visual treatment lives on .music-cue-item so single-shortcode cues render
+   as one box, not nested boxes. */
 .music-cue {
-    padding: 10px;
-    border-radius: 4px;
-    transition: background-color 0.2s ease;
-    margin-bottom: 5px;
+    margin: 8px 0;
     font-style: italic;
-    background-color: rgba(220, 237, 234, 0.3);
-    /* Light teal background */
 }
 
 .music-cue p {
@@ -1653,11 +1650,6 @@ audio {
 
 .music-cue .speaker {
     font-style: italic !important;
-}
-
-.music-cue:hover {
-    background-color: rgba(220, 237, 234, 0.5);
-    /* Slightly darker on hover */
 }
 
 .music-cue-items {
@@ -1672,11 +1664,16 @@ audio {
     flex-direction: column;
     gap: 8px;
     padding: 10px 14px;
-    background-color: rgba(255, 255, 255, 0.55);
+    background-color: rgba(220, 237, 234, 0.4);
     border-radius: 4px;
     width: 80%;
     margin: 0 auto;
     box-sizing: border-box;
+    transition: background-color 0.2s ease;
+}
+
+.music-cue-item:hover {
+    background-color: rgba(220, 237, 234, 0.6);
 }
 
 .music-cue-meta {

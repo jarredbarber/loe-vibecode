@@ -1913,6 +1913,7 @@ figcaption {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
 }
 
 .featured-show h1 {
@@ -1920,6 +1921,23 @@ figcaption {
     color: var(--primary-green);
     margin-top: 0;
     margin-bottom: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+@media (max-width: 600px) {
+    .featured-show {
+        padding: 18px 16px;
+        border-left-width: 3px;
+    }
+    .featured-show h1 {
+        font-size: 1.4em;
+        line-height: 1.25;
+    }
+    .featured-show h2 {
+        font-size: 1.15em;
+    }
 }
 
 .featured-show h2 {

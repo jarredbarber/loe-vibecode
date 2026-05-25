@@ -19,16 +19,17 @@
                 <div class="logo"><a href="{{ SITEURL }}/index.html"><img src="{{ SITEURL }}/theme/img/logo.png"
                             border="0" alt="Living On Earth" /></a></div>
 
+                {% set this_week_url = articles|get_latest_show_url %}
                 <div class="menu">
                     <ul>
-                        <li><a href="{{ SITEURL }}/index.html" class="active">Home</a></li>
-                        <li><a href="{{ SITEURL }}/{{ articles|get_latest_show_url }}">This Week</a></li>
-                        <li><a href="{{ SITEURL }}/archives.html">Archive</a></li>
-                        <li><a href="{{ SITEURL }}/features.html">Special Features</a></li>
-                        <li><a href="{{ SITEURL }}/newsletter.html">Newsletter</a></li>
-                        <li><a href="{{ SITEURL }}/stations.html">Stations</a></li>
-                        <li><a href="{{ SITEURL }}/events.html">Events</a></li>
-                        <li><a href="{{ SITEURL }}/about.html">About Us</a></li>
+                        <li><a href="{{ SITEURL }}/index.html"{% if output_file == 'index.html' %} class="active"{% endif %}>Home</a></li>
+                        <li><a href="{{ SITEURL }}/{{ this_week_url }}"{% if output_file == this_week_url %} class="active"{% endif %}>This Week</a></li>
+                        <li><a href="{{ SITEURL }}/archives.html"{% if output_file == 'archives.html' %} class="active"{% endif %}>Archive</a></li>
+                        <li><a href="{{ SITEURL }}/features.html"{% if output_file == 'features.html' %} class="active"{% endif %}>Special Features</a></li>
+                        <li><a href="{{ SITEURL }}/newsletter.html"{% if output_file == 'newsletter.html' %} class="active"{% endif %}>Newsletter</a></li>
+                        <li><a href="{{ SITEURL }}/stations.html"{% if output_file == 'stations.html' %} class="active"{% endif %}>Stations</a></li>
+                        <li><a href="{{ SITEURL }}/events.html"{% if output_file == 'events.html' %} class="active"{% endif %}>Events</a></li>
+                        <li><a href="{{ SITEURL }}/about.html"{% if output_file == 'about.html' %} class="active"{% endif %}>About Us</a></li>
                     </ul>
                 </div>
                 <div class="clr"></div>

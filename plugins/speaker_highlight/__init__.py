@@ -166,8 +166,17 @@ def process_transcript(content):
 
     content._content = new_content.decode_contents()
 
+_URL_RE = re.compile(r'(https?://[^\s\]\)<>"\']+)')
+# macaulaylibrary.org/audio/<id>  OR  /asset/<id>  → Cornell asset id
+_MACAULAY_RE = re.compile(r'https?://(?:www\.)?macaulaylibrary\.org/(?:audio|asset)/(\d+)', re.I)
+_SPEAKER_RE = re.compile(r'^\s*([A-Z][A-Z\s]+):')
+
+
 def _flush_bracket_buffer(soup, new_content, buffer_elements):
-    """Merges text from buffered elements and appends a single music cue block."""
+    """Append a styled music-cue block. When the cue contains URLs, restructure
+    as one card per URL with the label and any duration ("0.07-.10") shown as
+    captions above an inline <audio> player. When it has no URLs, render the
+    text as before."""
     if not buffer_elements:
         return
 
@@ -176,53 +185,62 @@ def _flush_bracket_buffer(soup, new_content, buffer_elements):
         txt = el.get_text(strip=True)
         if txt:
             full_text_parts.append(txt)
-            
     if not full_text_parts:
         return
-        
-    merged_text = " ".join(full_text_parts)
-    
+    merged_text = " ".join(full_text_parts).strip()
+
     div = soup.new_tag("div", **{"class": "music-cue"})
-    
-    p = soup.new_tag("p")
-    
-    # Check for Speaker/Label pattern (e.g. "MUSIC:", "CUTAWAY MUSIC:")
-    # Using a slightly broader pattern to catch caps-heavy labels
-    speaker_pattern = re.compile(r'^\s*([A-Z][A-Z\s]+):')
-    match = speaker_pattern.match(merged_text)
-    
-    if match:
-        label = match.group(1)
-        rest = merged_text[match.end():]
+    urls = list(_URL_RE.finditer(merged_text))
 
-        span = soup.new_tag("span", **{"class": "speaker"})
-        span.string = f"{label}:"
+    if not urls:
+        p = soup.new_tag("p")
+        match = _SPEAKER_RE.match(merged_text)
+        if match:
+            span = soup.new_tag("span", **{"class": "speaker"})
+            span.string = f"{match.group(1)}:"
+            p.append(span)
+            p.append(merged_text[match.end():])
+        else:
+            p.string = merged_text
+        div.append(p)
+        new_content.append(div)
+        return
 
-        p.append(span)
-        _append_linkified(soup, p, rest)
-    else:
-        _append_linkified(soup, p, merged_text)
+    # Each URL becomes one item with a label and (optional) duration.
+    # Text BEFORE the first URL → labels[0].
+    # Text AFTER the last URL  → durations[-1].
+    # Text between URL[i] and URL[i+1] → split on the first ';':
+    #   left of ; is durations[i]; right of ; is labels[i+1].
+    # The semicolon is BirdNote's separator in compound cues like
+    #   "...Grosbeak, http://...106598, 0.07-.10; House Wren, http://...144011, ..."
+    labels = [''] * len(urls)
+    durations = [''] * len(urls)
+    labels[0] = merged_text[:urls[0].start()].strip(" ,;[]")
+    for i in range(len(urls) - 1):
+        gap = merged_text[urls[i].end():urls[i + 1].start()]
+        left, _, right = gap.partition(';')
+        durations[i] = left.strip(" ,;[]")
+        labels[i + 1] = right.strip(" ,;[]")
+    durations[-1] = merged_text[urls[-1].end():].strip(" ,;[]")
 
-    div.append(p)
-
-    new_content.append(div)
-
-
-_URL_RE = re.compile(r'(https?://[^\s\]\)<>"\']+)')
-# macaulaylibrary.org/audio/<id>  OR  /asset/<id>  → Cornell asset id
-_MACAULAY_RE = re.compile(r'https?://(?:www\.)?macaulaylibrary\.org/(?:audio|asset)/(\d+)', re.I)
-
-
-def _append_linkified(soup, parent, text):
-    """Append `text` to `parent`. URLs in music cues become clickable links;
-    Macaulay Library asset URLs become inline <audio> players (Cornell's CDN
-    serves the raw MP3 for these), so users can play bird sounds in place."""
-    last = 0
-    for m in _URL_RE.finditer(text):
-        if m.start() > last:
-            parent.append(text[last:m.start()])
+    items_container = soup.new_tag("div", **{"class": "music-cue-items"})
+    for i, m in enumerate(urls):
         url = m.group(1).rstrip('.,;:')
-        trailing = m.group(1)[len(url):]
+        label = labels[i]
+        duration = durations[i]
+
+        item = soup.new_tag("div", **{"class": "music-cue-item"})
+
+        meta = soup.new_tag("div", **{"class": "music-cue-meta"})
+        if label:
+            lab = soup.new_tag("div", **{"class": "music-cue-label"})
+            lab.string = label
+            meta.append(lab)
+        if duration:
+            dur = soup.new_tag("div", **{"class": "music-cue-duration"})
+            dur.string = duration
+            meta.append(dur)
+        item.append(meta)
 
         ml = _MACAULAY_RE.match(url)
         if ml:
@@ -230,17 +248,17 @@ def _append_linkified(soup, parent, text):
             mp3 = f"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/{asset_id}/audio"
             audio = soup.new_tag("audio", controls="", preload="none", src=mp3)
             audio["class"] = "music-cue-audio"
-            parent.append(audio)
+            item.append(audio)
         else:
             a = soup.new_tag("a", href=url, target="_blank", rel="noopener")
+            a["class"] = "music-cue-link"
             a.string = url
-            parent.append(a)
+            item.append(a)
 
-        if trailing:
-            parent.append(trailing)
-        last = m.end()
-    if last < len(text):
-        parent.append(text[last:])
+        items_container.append(item)
+
+    div.append(items_container)
+    new_content.append(div)
 
 
 def _clean_brackets(element, start=False, end=False):

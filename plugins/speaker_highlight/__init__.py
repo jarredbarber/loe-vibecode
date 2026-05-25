@@ -209,21 +209,33 @@ def _flush_bracket_buffer(soup, new_content, buffer_elements):
 
 
 _URL_RE = re.compile(r'(https?://[^\s\]\)<>"\']+)')
+# macaulaylibrary.org/audio/<id>  OR  /asset/<id>  → Cornell asset id
+_MACAULAY_RE = re.compile(r'https?://(?:www\.)?macaulaylibrary\.org/(?:audio|asset)/(\d+)', re.I)
 
 
 def _append_linkified(soup, parent, text):
-    """Append `text` to `parent`, wrapping any URLs in <a href> tags so the
-    bird-sound and other reference URLs inside music cues are clickable."""
+    """Append `text` to `parent`. URLs in music cues become clickable links;
+    Macaulay Library asset URLs become inline <audio> players (Cornell's CDN
+    serves the raw MP3 for these), so users can play bird sounds in place."""
     last = 0
     for m in _URL_RE.finditer(text):
         if m.start() > last:
             parent.append(text[last:m.start()])
         url = m.group(1).rstrip('.,;:')
-        a = soup.new_tag("a", href=url, target="_blank", rel="noopener")
-        a.string = url
-        parent.append(a)
-        # Add back any trailing punctuation we stripped from the URL itself.
         trailing = m.group(1)[len(url):]
+
+        ml = _MACAULAY_RE.match(url)
+        if ml:
+            asset_id = ml.group(1)
+            mp3 = f"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/{asset_id}/audio"
+            audio = soup.new_tag("audio", controls="", preload="none", src=mp3)
+            audio["class"] = "music-cue-audio"
+            parent.append(audio)
+        else:
+            a = soup.new_tag("a", href=url, target="_blank", rel="noopener")
+            a.string = url
+            parent.append(a)
+
         if trailing:
             parent.append(trailing)
         last = m.end()

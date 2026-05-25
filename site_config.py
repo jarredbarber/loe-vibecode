@@ -29,6 +29,12 @@ if os.environ.get('FAST_BUILD') == 'true':
 PATH = 'content'
 OUTPUT_PATH = '_site'
 
+# Incremental builds attempted via Pelican's LOAD_CONTENT_CACHE +
+# CACHE_CONTENT, but our custom yaml_reader plugin doesn't integrate with
+# Pelican's per-reader cache (the gzipped pickle ended up empty for
+# articles). Left off pending a proper cache hook in yaml_reader. CI build
+# stays at ~3-5 min for the 12k-article archive.
+
 # Use full YAML frontmatter instead of Python-Markdown's default Meta extension.
 # Meta is not real YAML — it can't represent quoted strings, lists, or nested
 # values. YAML is what Decap-style CMSs write, and is the format we now emit

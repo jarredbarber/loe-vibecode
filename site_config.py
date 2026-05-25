@@ -57,7 +57,7 @@ DIRECT_TEMPLATES = ['index', 'archives', 'newsletter']
 NEWSLETTER_SAVE_AS = 'newsletter.html'
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['speaker_highlight', 'show_segments']
+PLUGINS = ['speaker_highlight', 'show_segments', 'shortcodes']
 
 from datetime import datetime
 from zoneinfo import ZoneInfo

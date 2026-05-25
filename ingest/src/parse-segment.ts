@@ -48,7 +48,7 @@ function hastToMarkdown(node: Element | Root): string {
         .use(remarkStringify, { bullet: '-', emphasis: '*', strong: '*', fences: true });
     const mdast = proc.runSync(node as never);
     const raw = proc.stringify(mdast as never).toString();
-    return fixHardBreaks(unescapeSafe(raw));
+    return rewriteAudioCuesToShortcodes(fixHardBreaks(unescapeSafe(raw)));
 }
 
 /**
@@ -72,6 +72,48 @@ function unescapeSafe(md: string): string {
     return md
         .replace(/(https?)\\:\/\//g, '$1://')
         .replace(/(\d)\\\./g, '$1.');
+}
+
+const MACAULAY_RE = /https?:\/\/(?:www\.)?macaulaylibrary\.org\/(?:audio|asset)\/(\d+)/i;
+
+/**
+ * Convert standalone bracketed Macaulay audio cues into {% audio %} shortcodes
+ * the Pelican plugin understands. Only touches paragraphs that consist entirely
+ * of `[...]` and contain at least one Macaulay URL — inline references mid-
+ * sentence are left alone (they remain plain text in the transcript).
+ *
+ * Multi-cue paragraphs (separated by `;`) become a sequence of shortcodes,
+ * each its own block. We resolve the Macaulay asset id to Cornell's CDN MP3
+ * URL here so the plugin stays site-agnostic.
+ */
+function rewriteAudioCuesToShortcodes(md: string): string {
+    return md
+        .split(/\n\n+/)
+        .map((para) => {
+            const m = para.trim().match(/^\\?\[([\s\S]+)\]$/);
+            if (!m) return para;
+            const inner = m[1];
+
+            const segments = inner.split(/;\s*/);
+            const shortcodes: string[] = [];
+            for (const seg of segments) {
+                const urlMatch = seg.match(MACAULAY_RE);
+                if (!urlMatch) return para; // bail: leave whole paragraph alone
+                const assetId = urlMatch[1];
+                const idx = seg.indexOf(urlMatch[0]);
+                const before = seg.slice(0, idx);
+                const after = seg.slice(idx + urlMatch[0].length);
+                const label = before.replace(/[,;\s]+$/, '').trim();
+                const duration = after.replace(/^[,;\s]+|[.\s\]]+$/g, '').trim();
+                const src = `https://cdn.download.ams.birds.cornell.edu/api/v1/asset/${assetId}/audio`;
+                const parts = [`src="${src}"`];
+                if (label) parts.push(`label="${label.replace(/"/g, '')}"`);
+                if (duration) parts.push(`duration="${duration.replace(/"/g, '')}"`);
+                shortcodes.push(`{% audio ${parts.join(' ')} %}`);
+            }
+            return shortcodes.join('\n\n');
+        })
+        .join('\n\n');
 }
 
 /**

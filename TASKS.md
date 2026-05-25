@@ -19,11 +19,14 @@ Agent instructions: When working on a task, update the status of the task in thi
 ## Open
 
 - [ ] **Skipped from review**: split `speaker_highlight` into separate plugins by responsibility. User declined for now — the dedup with `shortcodes` is gone, so this is no longer urgent.
-- [ ] **Ingest historical years** (2025 and earlier)
-- [x] **Port `scrape_newsletters.py`** — done. New modules in `ingest/src/`: `discover-newsletters.ts`, `parse-newsletter.ts`, `emit-newsletter.ts`. CLI subcommands: `discover-newsletters`, `fetch-newsletters`, `emit-newsletters`. Mailchimp archive yields 20 most-recent newsletters; all ingested and rendered correctly via Pelican. Legacy `scripts/scrape_newsletters.py` left in place pending broader cleanup below.
+- [ ] **Ingest historical years** (2025 and earlier) — cache is fully populated through 2003; the 2002→1991 agent is still running. After that, `ingest emit --year YYYY` for each historical year.
+- [x] **Port `scrape_newsletters.py`** — done.
 - [ ] **Port `scrape_series.py`**
 - [ ] **Delete `scripts/*.py`** once parity is reached
-- [x] **Slug collisions** — fixed. CLI `emit` does a pre-pass over all shows for the year, detects segments that share a slug across different show dates, and appends a per-show MMDD suffix (e.g. `the-frozen-creek-0306.md` vs `the-frozen-creek-0313.md`). Show pages' `{filename}` links update automatically. Pelican build emits no slug-duplicate warnings.
+- [x] **Slug collisions** — fixed (MMDD suffix at emit time).
+- [x] **YAML frontmatter** — Pelican now uses real YAML via the `yaml_reader` plugin + `markdown_full_yaml_metadata`. Ingest emit uses `js-yaml`. All existing content converted via `scripts/convert-frontmatter-to-yaml.py`.
+- [x] **Auto-discover segments** — `show_segments` plugin scans the show directory; show.md no longer needs a `## Segments` block. Optional `order:` frontmatter for explicit segment ordering.
+- [ ] **Pages audit** — review `content/pages/*.md` and `content/series/*.md` by hand for any field cleanups now that YAML quoting handles tricky values (the conversion script wrapped strings safely, but some content might still want manual cleanup).
 
 ## Done (this branch)
 

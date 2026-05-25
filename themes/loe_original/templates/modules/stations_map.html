@@ -81,7 +81,7 @@
     </div>
     <div id="stations-list-display">
         <h3>Select a State</h3>
-        <p>Hover over a state to see available stations.</p>
+        <p>Tap or hover on a state to see available stations.</p>
     </div>
 </div>
 
@@ -175,14 +175,17 @@
 
                     path.setAttribute('data-state-name', stateName);
 
-                    path.addEventListener('mouseenter', () => {
-                        const safeStateName = stateName.replace(/"/g, '\\"');
-                        const stateParts = mapSvg.querySelectorAll(`[data-state-name="${safeStateName}"]`);
-
-                        // Clear previous highlights
+                    const clearHighlight = () => {
                         while (highlightGroup.firstChild) {
                             highlightGroup.removeChild(highlightGroup.firstChild);
                         }
+                    };
+
+                    const selectState = () => {
+                        const safeStateName = stateName.replace(/"/g, '\\"');
+                        const stateParts = mapSvg.querySelectorAll(`[data-state-name="${safeStateName}"]`);
+
+                        clearHighlight();
 
                         stateParts.forEach(part => {
                             // Create explicit clones (not <use>) to guarantee style override
@@ -206,13 +209,23 @@
                         } else {
                             displayDiv.innerHTML = `<h3>${stateName}</h3><p>No stations listed.</p>`;
                         }
+                    };
+
+                    // Hover for desktop pointer users.
+                    path.addEventListener('mouseenter', selectState);
+                    path.addEventListener('mouseleave', () => {
+                        // Only auto-clear on hover-out for fine-pointer devices;
+                        // on touch we want the selection to stick until the user
+                        // taps another state or outside the map.
+                        if (window.matchMedia('(hover: hover)').matches) {
+                            clearHighlight();
+                        }
                     });
 
-                    path.addEventListener('mouseleave', () => {
-                        // Clear highlights
-                        while (highlightGroup.firstChild) {
-                            highlightGroup.removeChild(highlightGroup.firstChild);
-                        }
+                    // Tap for touch users (and a sticky click on desktop too).
+                    path.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        selectState();
                     });
                 }
             });

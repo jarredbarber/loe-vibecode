@@ -136,7 +136,38 @@ function collectBodyChildren(root: Root): ElementContent[] {
     for (const el of selectAll('p.transcript, div.imagecenter', root)) {
         out.push(el as ElementContent);
     }
-    return out;
+    return stripSyndicatedCredits(out);
+}
+
+/**
+ * Syndicated segments (BirdNote, EarthEar, etc.) end with a `###` divider
+ * followed by production credits (bird sounds attribution, Producer/Narrator
+ * lines, copyright, internal `ID# ...` codes). Drop the divider and every
+ * paragraph after it up to (but not including) the next paragraph that starts
+ * with a speaker label like `CURWOOD:` — that's the host outro and should stay.
+ *
+ * If no speaker line ever follows the divider, drop everything from `###` to
+ * the end.
+ */
+function stripSyndicatedCredits(children: ElementContent[]): ElementContent[] {
+    const isDivider = (n: ElementContent) =>
+        n.type === 'element' && toText(n as Element).trim() === '###';
+    const isSpeakerLine = (n: ElementContent) => {
+        if (n.type !== 'element') return false;
+        return /^\s*[A-Z][A-Z' ]+:/.test(toText(n as Element));
+    };
+
+    const dividerIdx = children.findIndex(isDivider);
+    if (dividerIdx === -1) return children;
+
+    let resumeIdx = children.length;
+    for (let i = dividerIdx + 1; i < children.length; i++) {
+        if (isSpeakerLine(children[i])) {
+            resumeIdx = i;
+            break;
+        }
+    }
+    return [...children.slice(0, dividerIdx), ...children.slice(resumeIdx)];
 }
 
 /**

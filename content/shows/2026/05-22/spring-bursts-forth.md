@@ -41,18 +41,6 @@ By this time, those early robins… \[American Robin song, http://macaulaylibrar
 
 I’m Mary McCann.
 
-\###
-
-Bird sounds provided by The Macaulay Library of Natural Sounds at the Cornell Lab of Ornithology, Ithaca, New York. Northern Cardinal \[168300] recorded by G A Keller; American Robin \[168300] Chipping Sparrow \[191234] and Eastern Bluebird \[107204] recorded by W L Hershberger.  
-Black-Headed Grosbeak \[106598] House Wren \[144011] and Willow Flycatcher \[106793] recorded by R S Little. Mourning Warbler \[191054] recorded by Jay W McGowan.  
-BirdNote’s theme music was composed and played by Nancy Rumbel and John Kessler.  
-Producer: John Kessler  
-Executive Producer: Dominic Black  
-© 2015 Tune In to Nature.org June 2015 March 2023 /2025  
-Narrator: Mary McCann
-
-ID# spring-13-2015-6-3 spring-13
-
 CURWOOD: For pictures, fly on over to the Living on Earth website, LoE.org.
 
 ## Related Links

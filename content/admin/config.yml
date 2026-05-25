@@ -49,7 +49,7 @@ collections:
     create: true
     identifier_field: title
     path: '{{year}}/{{month}}-{{day}}/show'
-    filter: { field: category, value: Shows }
+    filter: { field: category, pattern: '^Shows$' }
     summary: '{{date}} — {{title}}'
     sortable_fields: [date, title]
     extension: md
@@ -75,7 +75,7 @@ collections:
     # via the {{slug}} placeholder in the path template (becomes [^/]+? in
     # the file matcher regex). See sveltia-cms/src/.../file/config.js.
     path: '{{year}}/{{month}}-{{day}}/{{slug}}'
-    filter: { field: category, value: Segments }
+    filter: { field: category, pattern: '^Segments$' }
     summary: '{{date}} — {{title}}'
     sortable_fields: [date, title]
     extension: md

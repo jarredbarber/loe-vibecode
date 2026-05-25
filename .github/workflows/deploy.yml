@@ -11,10 +11,11 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment
+# Allow only one concurrent deployment; rapid saves from the CMS only
+# deploy the latest commit (older in-flight builds get cancelled).
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:

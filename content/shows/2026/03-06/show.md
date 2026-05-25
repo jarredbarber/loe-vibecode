@@ -17,7 +17,7 @@ summary: Descendants of enslaved people fighting pollution in Louisiana’s ‘C
 
 ### ["Sneckdowns" and Reimagining Streets]({filename}sneckdowns-and-reimagining-streets.md)
 
-### ["The Frozen Creek"]({filename}the-frozen-creek.md)
+### ["The Frozen Creek"]({filename}the-frozen-creek-0306.md)
 
 ### [Stinky Seaweed Menace]({filename}stinky-seaweed-menace.md)
 

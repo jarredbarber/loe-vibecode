@@ -20,9 +20,10 @@ Agent instructions: When working on a task, update the status of the task in thi
 
 - [ ] **Skipped from review**: split `speaker_highlight` into separate plugins by responsibility. User declined for now — the dedup with `shortcodes` is gone, so this is no longer urgent.
 - [ ] **Ingest historical years** (2025 and earlier)
-- [ ] **Port `scrape_newsletters.py` and `scrape_series.py`**
+- [x] **Port `scrape_newsletters.py`** — done. New modules in `ingest/src/`: `discover-newsletters.ts`, `parse-newsletter.ts`, `emit-newsletter.ts`. CLI subcommands: `discover-newsletters`, `fetch-newsletters`, `emit-newsletters`. Mailchimp archive yields 20 most-recent newsletters; all ingested and rendered correctly via Pelican. Legacy `scripts/scrape_newsletters.py` left in place pending broader cleanup below.
+- [ ] **Port `scrape_series.py`**
 - [ ] **Delete `scripts/*.py`** once parity is reached
-- [ ] **`tropical-forests-forever` / `the-frozen-creek` slug collisions** — Pelican warns; URLs are unique via date prefix, so no functional bug, but worth deduping slugs at emit time.
+- [x] **Slug collisions** — fixed. CLI `emit` does a pre-pass over all shows for the year, detects segments that share a slug across different show dates, and appends a per-show MMDD suffix (e.g. `the-frozen-creek-0306.md` vs `the-frozen-creek-0313.md`). Show pages' `{filename}` links update automatically. Pelican build emits no slug-duplicate warnings.
 
 ## Done (this branch)
 

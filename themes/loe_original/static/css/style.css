@@ -1777,7 +1777,14 @@ audio {
 .header-image {
     width: 100%;
     aspect-ratio: 2.35;
-    object-fit: cover;
+    /* Letterbox rather than crop — many legacy images are square or 4:3
+       and lose important content if cover-cropped to 2.35 widescreen.
+       The neutral tint matches the page background and provides
+       unobtrusive bars when an image's aspect ratio doesn't match. */
+    object-fit: contain;
+    object-position: center;
+    background-color: var(--bg-header, #e8f4f4);
+    border-radius: 4px;
 }
 
 /* Captions */

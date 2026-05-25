@@ -1,5 +1,6 @@
 ---
 title: '''Clearing the Air'' and Climate Solutions Hope'
+slug: clearing-the-air-and-climate-solutions-hope
 date: '2026-04-17'
 category: Segments
 megaphone_id: LOE8127091432

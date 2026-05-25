@@ -1,5 +1,6 @@
 ---
 title: US Leaves Top Climate Science Body
+slug: us-leaves-top-climate-science-body
 date: '2026-01-23'
 category: Segments
 megaphone_id: LOE9371454171

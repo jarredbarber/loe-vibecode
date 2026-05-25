@@ -1,5 +1,6 @@
 ---
 title: Running Free from Pricey Gas--EVs
+slug: running-free-from-pricey-gas-evs
 date: '2026-03-20'
 category: Segments
 megaphone_id: LOE8795912828

@@ -1,5 +1,6 @@
 ---
 title: Stormy Weather for Climate Science
+slug: stormy-weather-for-climate-science
 date: '2026-02-20'
 category: Segments
 megaphone_id: LOE4740884605

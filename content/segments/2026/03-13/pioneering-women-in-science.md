@@ -1,5 +1,6 @@
 ---
 title: Pioneering Women in Science
+slug: pioneering-women-in-science
 date: '2026-03-13'
 category: Segments
 megaphone_id: LOE1547856121

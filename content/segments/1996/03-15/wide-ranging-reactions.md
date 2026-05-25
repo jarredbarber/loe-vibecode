@@ -1,0 +1,20 @@
+---
+title: Wide Ranging Reactions
+slug: wide-ranging-reactions
+date: '1996-03-15'
+category: Segments
+summary: Living on Earth's Kim Motylewski reports on some of the reactions in the scientific community, from chemical manufacturers, and among policymakers to the controversial new book Our Stolen Future.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=96-P13-00011&segmentID=2 -->
+
+## Transcript
+
+CURWOOD: It's Living on Earth. I'm Steve Curwood. Much has changed since *Silent Spring* was published back in the '60s, including the response of government and business to possible threats to human health from synthetic chemicals. Back then, *Silent Spring* surprised and stunned the White House. This year, the Vice President wrote a foreword to Dianne Dumanoski, J. Peterson Myers, and Theo Colborn's *Our Stolen Future*. The book follows the scientific publications of Dr. Colborn and others over the last 5 years, so in one sense it is certainly not news. But its accessible, popular style is striking a nerve in the broader society, and the increasing public scrutiny of a theory that Dr. Colborn first introduced in 1991 is bringing a stepped up response from government and industry today. Living on Earth's Kim Motylewski has more.
+
+MOTYLEWSKI: It may have been a coincidence, but just as *Our Stolen Future* was scheduled to go on sale, a new international body was wrapping up meetings in Australia. The group agreed on a list of 12 toxic chemicals that persist in the environment, and on the urgency to stop or restrict their use. It's called the Inter-Governmental Forum on Chemical Safety, and the group includes just about all members of the United Nations. It's closely linked to the United Nations Environment Program, which developed a treaty to limit trade in hazardous waste, and another to phase out the use of ozone depleting chemicals. The chemicals which concern the panel are those which have been most firmly linked to endocrine disruption: dioxin, PCBs, DDT, Aldrin, Dieldrin, and Chlordane. The group's main task will be to determine how exactly countries should deal with these substances: whether to ban them or restrict them. And how other chemicals might be added to the list. Lynn Goldman, who heads the Environmental Protection Agency's Office on Toxic Substances, is part of this working group. She says a major barrier for researchers and regulators around the world is money. Dr. Goldman says the EPA has only about $5 million to look at endocrine disrupting chemicals.
+
+MOTYLEWSKI: The EPA will spend about $2 million inside the Agency, and about $3 million on outside research: the first external grants the Agency is making on the topic. Dr. Goldman says she's choosing projects that will have the greatest payoff.
+
+MOTYLEWSKI: Publication of the book *Our Stolen Future* has prompted calls for still more research into the effects of persistent toxics on human health. And there have been unconfirmed reports that Vice President Al Gore will soon announce a much larger program of Federal research into endocrine disruption. The White House has declined to confirm or deny this. Meanwhile, industry says it's on top of the issue and it's pressing ahead with research on endocrine toxicology. An industry funded lab plans to spend one and a half million dollars on it this year. That's in addition to research by individual companies. And for the past several years, the Chemical Manufacturers Association has been working closely with the EPA to develop a research agenda for hormone-like chemicals. Sandra Tirey is the CMA's Assistant Vice President for Regulatory Affairs. She's downplaying the significance of Dr. Colborn's book.
+
+MOTYLEWSKI: Safety is indeed the issue, and it's not at all clear that the new research will be reassuring, either to industry or the public. With tens of thousands of chemicals in commerce and no reliable way of testing them for a broad range of effects, endocrine disruption has become a priority issue for government and industry researchers. For Living on Earth, I'm Kim Motylewski.

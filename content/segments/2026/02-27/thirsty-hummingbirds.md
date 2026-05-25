@@ -1,5 +1,6 @@
 ---
 title: Thirsty Hummingbirds
+slug: thirsty-hummingbirds
 date: '2026-02-27'
 category: Segments
 megaphone_id: LOE2715422381

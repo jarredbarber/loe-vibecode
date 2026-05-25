@@ -1,0 +1,15 @@
+---
+title: Health Update
+slug: health-update-0119
+date: '2001-01-19'
+category: Segments
+---
+<!-- source: https://loe.org/shows/segments.html?programID=01-P13-00003&segmentID=3 -->
+
+## Transcript
+
+VILLIGER: The chaste berry plant grows in the Mediterranean and Central Asia and gets its name from the belief that it suppresses sex drive. For centuries the chaste berry has also been a key ingredient in herbal therapies to relieve premenstrual syndrome. And a study out of Germany confirms its effectiveness in treating its symptoms. One hundred and seventy women diagnosed with PMS were either given chaste berry extract or a placebo. After three months, women who received the herb reported significant reductions in a number of symptoms, including mood swings, headaches, and feelings of anger and irritability. Overall, more than half the women given chaste berry extract say their symptoms improved by at least 50 percent. Researchers think the active ingredient in the fruit works by lowering the level of the hormone prolactin. That's this week's health update. I'm Maggie Villiger.
+
+TOOMEY: And you're listening to Living on Earth.
+
+(Music up and under)

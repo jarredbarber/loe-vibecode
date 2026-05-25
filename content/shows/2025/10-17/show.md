@@ -1,0 +1,10 @@
+---
+title: 'Living on Earth: October 17, 2025'
+date: '2025-10-17'
+category: Shows
+template: show
+megaphone_id: LOE6317306001
+image_url: https://loe.org/content/2025-10-17/t_SOLAR_programcreated.jpg
+summary: Facing lost jobs and higher energy prices after the Trump EPA canceled $7 billion in low-income solar grants, a coalition of labor, green and anti-poverty groups is teaming up to fight in court for clean energy jobs and save “Solar for All.” Patrick Crowley, President of the Rhode Island AFL-CIO, and Kate Sinding Daly, Senior Vice President for Law and Policy at the Conservation Law Foundation, join Host Steve Curwood to explain the impact of the canceled grants and the legal basis for their lawsuit.
+---
+<!-- source: https://loe.org/shows/shows.html?programID=25-P13-00042 -->

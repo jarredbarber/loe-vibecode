@@ -1,5 +1,6 @@
 ---
 title: Punxsutawney Phil and Earlier Springtimes
+slug: punxsutawney-phil-and-earlier-springtimes
 date: '2026-01-30'
 category: Segments
 megaphone_id: LOE8552368216

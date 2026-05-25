@@ -1,5 +1,6 @@
 ---
 title: Ice Skating on the Rideau Canal
+slug: ice-skating-on-the-rideau-canal
 date: '2026-02-20'
 category: Segments
 megaphone_id: LOE1930977023

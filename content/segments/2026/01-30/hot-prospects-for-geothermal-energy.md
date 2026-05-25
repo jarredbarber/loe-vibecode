@@ -1,5 +1,6 @@
 ---
 title: Hot Prospects for Geothermal Energy
+slug: hot-prospects-for-geothermal-energy
 date: '2026-01-30'
 category: Segments
 megaphone_id: LOE2146096390

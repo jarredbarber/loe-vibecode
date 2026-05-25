@@ -1,5 +1,6 @@
 ---
 title: A Woolly Rhino DNA Discovery
+slug: a-woolly-rhino-dna-discovery
 date: '2026-03-27'
 category: Segments
 megaphone_id: LOE6418450829

@@ -1,5 +1,6 @@
 ---
 title: Wind Power Headwinds
+slug: wind-power-headwinds
 date: '2026-02-13'
 category: Segments
 megaphone_id: LOE2898896604

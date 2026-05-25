@@ -1,5 +1,6 @@
 ---
 title: Trump, Glyphosate and Cancer
+slug: trump-glyphosate-and-cancer
 date: '2026-03-06'
 category: Segments
 megaphone_id: LOE8587420476

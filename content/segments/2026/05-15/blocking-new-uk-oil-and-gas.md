@@ -1,5 +1,6 @@
 ---
 title: Blocking New UK Oil and Gas
+slug: blocking-new-uk-oil-and-gas
 date: '2026-05-15'
 category: Segments
 megaphone_id: LOE4301405023

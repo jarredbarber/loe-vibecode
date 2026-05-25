@@ -1,5 +1,6 @@
 ---
 title: Tropical Forests, Forever?
+slug: tropical-forests-forever
 date: '2026-01-09'
 category: Segments
 megaphone_id: LOE9566612759

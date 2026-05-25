@@ -1,5 +1,6 @@
 ---
 title: AJR Rock Star Recruits for Climate Action
+slug: ajr-rock-star-recruits-for-climate-action
 date: '2026-05-08'
 category: Segments
 megaphone_id: LOE1299734635

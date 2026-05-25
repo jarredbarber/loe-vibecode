@@ -1,0 +1,26 @@
+---
+title: Alaskan Wilderness Refuge Offered up for Oil Revenues
+slug: alaskan-wilderness-refuge-offered-up-for-oil-revenues
+date: '1995-06-02'
+category: Segments
+summary: Three high ranking Alaska congressmen are spearheading a renewed effort to open Alaska's most controversial wilderness park to oil drilling. The three are hoping to open the Arctic National Wildlife Refuge as a part of the latest balanced budget bill. Joel Southern reports.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=95-P13-00022&segmentID=1 -->
+
+## Transcript
+
+CURWOOD: This is Living on Earth. I'm Steve Curwood. In the far northeast corner of Alaska is the last great expanse of pristine wilderness in the United States, the almost 20 million acres of the Arctic National Wildlife Refuge.
+
+Millions of creatures live there free from the footsteps of civilization. But deep under its coastal plain, geologists say, there's a lot of oil. In the past, efforts to start drilling in the Arctic National Wildlife Refuge have gone down to noisy defeat in Congress. But with their party now in the majority, Alaska's all-Republican Congressional delegation, which favors drilling, holds key leadership slots. Frank Murkowski chairs the Senate Energy and Natural Resources Committee, Ted Stevens chairs the powerful Senate Rules Committee, and Don Young chairs the House Resources Committee. These men have now attached a refuge drilling measure to the budgets that have passed the House and Senate. They expect the Federal Government to collect over a billion dollars a year in oil fees from the refuge. And they're betting that fear of a bigger deficit will keep President Clinton from making a veto. From Washington, Alaska Public Radio's Joel Southern has more.
+
+SOUTHERN: At issue is whether to allow oil exploration on the 1.5 million acre coastal plain of the Arctic National Wildlife Refuge. The coastal plain is a band of fertile tundra and marshes by the Beaufort Sea at the north end of the 19 million acre refuge. Environmentalists compare the area to the Serengeti Plain in Africa. It's rich with Arctic wildlife such as snow geese, polar bears, and musk oxen. It's also the main calving ground for more than 150,000 porcupine caribou that migrate across the Canadian border and provide the subsistence base for Gwich'n native people in both countries. But big oil companies have a much different view of the coastal plain. They believe it could hold the last big petroleum find on the continent. For decades, environmentalists have prevailed in the debate about oil drilling there, but their fortunes have changed because of last November's elections. The Republican take-over of Congress put pro-development Alaskans in charge of key oversight committees. That's a big reason for the renewed push, says Alaska's Frank Murkowski, Chairman of the Senate Energy and Natural Resources Committee.
+
+SOUTHERN: Murkowski, Young, and Senator Ted Stevens believe the drilling prohibition in the Arctic refuge is unreasonable. They say advances in drilling technology would minimize harm to the coastal plain ecosystem. Alaska's Democratic governor and a strong majority of state residents agree. The Alaska lawmakers say if enough recoverable oil is found under the coastal plain, it will enhance national energy security, boost the sagging domestic oil industry, and create jobs. They also say leasing fees and royalties to the Federal Government would help cut the national budget deficit. Accordingly, they've gotten anywhere from $1.25 to $2.3 billion of leasing revenues written into House and Senate plans to balance the budget over the next 7 years. Use of the budget process in a Republican-controlled Congress could expedite something the Alaskans have been waiting for a long time, and environmentalists are worried.
+
+SOUTHERN: That's Pam Miller. She used to be a Federal wildlife biologist in the Arctic Refuge. She now chairs the Alaska Coalition, a hundred-member organization of groups that includes the Wilderness Society and the Sierra Club. Miller says use of the budget process will prevent full and fair debate of key environmental concerns about drilling.
+
+SOUTHERN: Someone else who's frustrated is Minnesota Democratic Congressman Bruce Vento. He's the lead House sponsor of an Arctic Refuge Wilderness bill. Vento says what's happening is no way to make a decision about oil exploration on the coastal plain.
+
+SOUTHERN: It's possible oil leasing in the Arctic Refuge could be authorized in bills Congress must pass this summer to lock a budget plan into law. The Alaskan lawmakers say the leasing revenues are important to the budget plan. If they're taken out, something else will have to replace them, maybe even higher taxes. That budget strategy is putting the Alaskans on a collision course with the Clinton Administration. Interior Secretary Bruce Babbitt has jurisdiction over the refuge.
+
+SOUTHERN: Babbitt says he is working against development efforts. But President Clinton will have tough decisions on the future of Medicare and other big fiscal issues to make, when the budget legislation eventually comes to him. It's not clear if protection of the Arctic Refuge is high enough on his priority list to warrant use of his veto pen. For Living on Earth, I'm Joel Southern in Washington.

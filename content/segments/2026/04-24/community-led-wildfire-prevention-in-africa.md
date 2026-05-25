@@ -1,5 +1,6 @@
 ---
 title: Community-Led Wildfire Prevention in Africa
+slug: community-led-wildfire-prevention-in-africa
 date: '2026-04-24'
 category: Segments
 megaphone_id: LOE2148939008

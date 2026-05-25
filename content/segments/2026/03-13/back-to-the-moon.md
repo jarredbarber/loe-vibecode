@@ -1,5 +1,6 @@
 ---
 title: Back to the Moon!
+slug: back-to-the-moon
 date: '2026-03-13'
 category: Segments
 megaphone_id: LOE5057023539

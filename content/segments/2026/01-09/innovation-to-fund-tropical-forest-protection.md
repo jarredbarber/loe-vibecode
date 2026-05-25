@@ -1,5 +1,6 @@
 ---
 title: Innovation to Fund Tropical Forest Protection
+slug: innovation-to-fund-tropical-forest-protection
 date: '2026-01-09'
 category: Segments
 megaphone_id: LOE6876269247

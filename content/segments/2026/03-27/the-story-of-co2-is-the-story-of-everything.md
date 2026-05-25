@@ -1,5 +1,6 @@
 ---
 title: The Story of CO2 is the Story of Everything
+slug: the-story-of-co2-is-the-story-of-everything
 date: '2026-03-27'
 category: Segments
 megaphone_id: LOE3968421385

@@ -1,5 +1,6 @@
 ---
 title: The Quest for Green Steel
+slug: the-quest-for-green-steel
 date: '2026-05-15'
 category: Segments
 megaphone_id: LOE3346240644

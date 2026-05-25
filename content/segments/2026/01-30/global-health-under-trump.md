@@ -1,5 +1,6 @@
 ---
 title: Global Health Under Trump
+slug: global-health-under-trump
 date: '2026-01-30'
 category: Segments
 megaphone_id: LOE1838709489

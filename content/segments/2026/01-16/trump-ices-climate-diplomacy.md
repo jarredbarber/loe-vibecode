@@ -1,5 +1,6 @@
 ---
 title: Trump Ices Climate Diplomacy
+slug: trump-ices-climate-diplomacy
 date: '2026-01-16'
 category: Segments
 megaphone_id: LOE9416409835

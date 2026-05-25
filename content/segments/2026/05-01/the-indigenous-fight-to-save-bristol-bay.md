@@ -1,5 +1,6 @@
 ---
 title: The Indigenous Fight to Save Bristol Bay
+slug: the-indigenous-fight-to-save-bristol-bay
 date: '2026-05-01'
 category: Segments
 megaphone_id: LOE7873752564

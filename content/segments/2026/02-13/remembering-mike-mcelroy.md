@@ -1,5 +1,6 @@
 ---
 title: Remembering Mike McElroy
+slug: remembering-mike-mcelroy
 date: '2026-02-13'
 category: Segments
 megaphone_id: LOE2072716350

@@ -1,5 +1,6 @@
 ---
 title: Vanguard Retreats from ESG
+slug: vanguard-retreats-from-esg
 date: '2026-03-20'
 category: Segments
 megaphone_id: LOE5790438035

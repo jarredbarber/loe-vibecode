@@ -1,5 +1,6 @@
 ---
 title: Gardening for Special Needs
+slug: gardening-for-special-needs
 date: '2026-01-23'
 category: Segments
 megaphone_id: LOE7061099857

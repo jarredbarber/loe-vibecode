@@ -1,5 +1,6 @@
 ---
 title: Willing to End Fossil Fuels
+slug: willing-to-end-fossil-fuels
 date: '2026-05-08'
 category: Segments
 megaphone_id: LOE4495531543

@@ -1,5 +1,6 @@
 ---
 title: Elephant Elder Wisdom
+slug: elephant-elder-wisdom
 date: '2026-05-15'
 category: Segments
 megaphone_id: LOE5995802166

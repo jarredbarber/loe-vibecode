@@ -1,0 +1,64 @@
+---
+title: The Health Toll of L.A.’s Oil Rigs
+slug: the-health-toll-of-las-oil-rigs
+date: '2022-07-29'
+category: Segments
+megaphone_id: LOE3103099430
+image_url: https://loe.org/content/2022-07-29/GOLDMAN_oilwells.jpg
+image_caption: 'Oil wells in Los Angeles, California (Photo: Tamara Leigh Photography for the Goldman Environmental Prize)'
+summary: "There are about 700 active oil and gas wells in the city of Los Angeles, mostly located in minority communities like the one where young activist Nalleli Cobo grew up, just 30 feet from a well. She and her neighbors have suffered for years from headaches, asthma, and cancer --\_illnesses linked\_to the proximity of oil well sites. For her work fighting the oil companies operating those wells Nalleli was awarded the 2022 Goldman Environmental prize. She spoke with Living on Earth's Paloma Beltran."
+---
+<!-- source: https://loe.org/shows/segments.html?programID=22-P13-00030&segmentID=4 -->
+
+## Transcript
+
+DOERING: Back in the 1890s, prospectors struck “black gold” in the small city of Los Angeles, California. Just 50,000 people lived there at the time, and with little in the way of laws, drilling rigs quickly popped up across the city. 130 years later, LA is home to nearly 4 million people and more than 5,000 oil and gas wells, 700 of which are still active. Most of those active wells are sited in minority communities like University Park, where Nalleli Cobo grew up within 30 feet of a well owned by AllenCo Energy. Like much of her community, Nalleli suffered from chronic headaches, nosebleeds, stomach pain, asthma, and at the age of 19, she was diagnosed with cancer. Following treatment, Nalleli is now cancer free, but unable to have children. Nalleli’s health struggles motivated her to fight AllenCo Energy and ultimately forced the company to close the site across the street from her house. And 24 AllenCo executives are facing criminal charges for health and safety violations. For her work, Nalleli was awarded the 2022 Goldman Environmental Prize. Nalleli Cobo shared her story with Living on Earth’s Paloma Beltran.
+
+BELTRAN: What are some of the long term health implications that University Park residents who resided near the operation of the AllenCo oil well exhibited?
+
+COBO: Asthma is a really common one. My mom developed asthma at the age of 40, which is really rare, and my grandma at the age of 70, which is even more rare. Cancer is unfortunately common as well. A lot of thyroid issues, reproductive issues, and issues with fertility.
+
+BELTRAN: So, how were you able to connect the health problems that you were suffering from to the AllenCo oil well?
+
+COBO: It was when Physicians for Social Responsibility Los Angeles sent a toxicologist to come speak to my community that we really were able to connect the dots that certain chemicals used during oil extraction, such as hydrogen sulfide or benzene, can cause XY and Z health symptoms.
+
+BELTRAN: And you really spearheaded an activism campaign that united celebrities and politicians and pushed AllenCo to act and take care of the contamination that they had been producing. Could you tell me about that process? How did you start? And where is it right now?
+
+COBO: So, I started my activism at the age of nine without even knowing it was considered activism; I was doing what I felt needed to be done to protect my family and my community. It was going door to door knocking after school or reading a paragraph over 10 times to learn what fracking was and how it was harmful not only to our health and our safety but to our planet. And it was sticking with that, it was learning to share my story and learning that storytelling is a compelling form of activism that nobody can really take away from you. Like, I don't know all the science behind this, I don't know all the legal terms, but I know my story. I know how my body has been affected, how my family has been affected, and that's what I'm here to share.
+
+![Nalleli Cobo stands in front of the closed AllenCo site (Photo: Tamara Leigh Photography for the Goldman Environmental Prize)](https://loe.org/content/2022-07-29/GOLDMAN_cobo.jpg)
+
+BELTRAN: You also co-founded the South Central Youth Leadership Coalition in 2015. And shortly after, the city of Los Angeles adopted new requirements for drilling applications. That's also a pretty big victory. Can you tell me more about that and the role that the South Central Leadership Coalition played?
+
+COBO: Yeah, so SCYLC, the South Central Youth Leadership Coalition, along with Youth for Environmental Justice, we sued the city of Los Angeles for environmental racism and violation of CEQA, which is the California Environmental Quality Act, and we won. So now when expanding or applying to open wells, there is a new application itself and a memorandum.
+
+BELTRAN: Can you tell me a little bit more about environmental racism across the United States?
+
+COBO: Environmental racism is if someone wants to open an oil well, and they were looking to drill in the city of Wilmington, prior to our SCYLC and Youth for Environmental Justice lawsuit, they would approve them without basically even reading them, just green stamps, green stamps. And if I were then trying to open a well in predominantly a white community, for example, Culver City or Beverly Hills, then I would be told to make sure I only operate during the hours of nine to five when people typically aren't home. I would have to make sure that there are silent drills, I would have to make sure that special filters are put up, I would have to ensure that the outside is beautified with mosaics and tiles and flowers, and I could only use five oil wells. In my community, AllenCo had 21 oil wells and they would produce an average of 80 barrels of crude oil a day. That's environmental racism. It's seeing our community as less than. It's seeing our zip code, our socio-economic status, or ethnicity as deeming us as less valuable. And that's not true, nor is it right.
+
+BELTRAN: Frontline communities across California and frankly across the United States have been historically left out of decision making processes, especially when it comes to decisions that involve exposure to toxic chemicals and health. How has your activism empowered you as a young Latina in a movement that's been mostly dominated by white voices?
+
+COBO: I grew up extremely shy. I would not even leave my mom's side at a family party. And it was really my activism and my public speaking that told me it's okay to have your own voice, it's okay to have different thoughts than other people, it's okay to be the first to do something. And it doesn't matter that I don't know all the science, I don't know all the technical terms, I'm still learning, I'm human. I'm a 21 year old girl who's just in college trying to figure out her life like anybody else, but I'm also fighting for my community. And that's something my mom has always told me is the most important thing. And it was so important that us youth did that. It was us demanding a livable future. It was us saying we don't know all the science, we're not lawyers, we're not professionals, we're teenagers. But we're teenagers whose bodies have been on the front lines. We're teenagers who deserve to breathe clean air, we're teenagers who will go down with a fight. And we're powerful, we're not voiceless, and we're here to fight. And it was us claiming back our community in a way, because these oil industries will do studies to see what communities are more vulnerable. What communities know less about their rights or are more likely to keep their head down. And they chose the wrong community.
+
+BELTRAN: How has your Latino background and your journey as an activist shaped your definition of community?
+
+![Nalleli Cobo and allies (Photo: Tamara Leigh Photography for the Goldman Environmental Prize)](https://loe.org/content/2022-07-29/GOLDMAN_allies.jpg)
+
+COBO: I'm a very proud daughter of two immigrants. My mom immigrated here from Mexico, my father from Colombia. I'm also a proud product of a single mother. My community is the most beautiful community you can imagine. It's made up of the most hardworking people, people that work 14 to 16 hours a day to provide for their families. And we're still willing to go door to door knocking after that shift to educate other neighbors to protect their loved ones. Something that my mom has always said is that when she immigrated here, she never thought she'd have to fight an oil well to give us a better life. And I think that's the reality for most immigrants when they come here looking in search of a better life. They live next to refineries or factories or freeways. We don't realize how our bodies are being put on the front line in that aspect. And it was a no brainer to me that if sharing what has happened to me, what has happened to my body, can inspire others and create a change in my community, I could be the voice for my community. And that was always something I do with great honor.
+
+BELTRAN: And it's thanks to you that you're not just breaking generational curses for your community, but for communities across the United States. So, in 2021, Governor Newsom proposed a statewide law to establish around a 3,200 foot buffer zone to separate homes, schools and hospitals from oil-gas wells. Can you walk us through what a safety buffer zone is and why this law would be so important for communities across California?
+
+COBO: Yes, definitely. So when drilling for oil, there's many chemicals released into the air that are harmful to one's health. Scientists have shown that if you're within 2,500 feet away with an oil well, you're exposed to any of those toxic chemicals. California right now, the buffer zone is only 600 feet. And before we had no buffer zone. And it was up to us frontline community activists to say hey, we need to do something to protect our health and our safety and the environment. We should have something, I mean, AllenCo operates with nine surrounding schools in the area, and they share a wall with a high school for children with disabilities such as paraplegia. They share a wall with Mount St. Mary's College, and inside there is a daycare for newborns to two year olds. They live across the street from a senior living facility. These are the people that are breathing in those toxic chemicals. To these industries, we're just a speck, we're $1 or two. But we're humans. We're a 21 year old whose favorite color is pink and loves Justin Bieber. We are a 15 year old girl who wants to go to Harvard and study law. We are an 89 year old woman who immigrated here from Colombia with seven kids on her back. We are people with stories. And it's time that we stop choosing profit over people.
+
+BELTRAN: And thanks to that, thanks to all of your work and bravery, AllenCo announced that it was suspending operations in that well that's 30 feet away from your home. And you mentioned that after you were notified that AllenCo was suspending operations of that well, you opened your window to smell the first breath of fresh air in years. Can you please tell me, what was that feeling like?
+
+COBO: Yeah, I remember that day vividly. We were having dinner as a family, my sister was getting married the next day, so it was a big group of us, we were having caldo de papa. And all of a sudden my mom gets a phone call from work, and we're like, "Okay, it's late, like it must be something important." She steps away, but she starts crying. And we're like, "Tell us!" And then she hung up the phone and she was like "AllenCo is closing." And we just started screaming and jumping and we were like, "Oh my gosh, it's happening." And I just ran to the window and opened it, like something so simple, something that nobody thinks about doing in their own home, but something that we weren't able to do to protect our own health for years. So when we got to do that, even if it was for 30 seconds because it was late at night and it was really cold, it was really special for me to be able to do that.
+
+DOERING: That’s Nalleli Cobo, recipient of the 2022 Goldman Environmental Prize for North America, speaking with Living on Earth’s Paloma Beltran. We reached out to AllenCo, but they declined to comment.
+
+## Related Links
+
+- [Learn more about Nalleli Cobo, 2022 Goldman Prize Winner for North America](https://www.goldmanprize.org/recipient/nalleli-cobo/)
+- [Nalleli Cobo’s Twitter](https://twitter.com/nallelicobo?lang=en)
+- [Los Angeles Times | “State Serves a Warrant on AllenCo Oil Facility in South L.A.”](https://www.latimes.com/california/story/2022-03-29/state-serves-warrant-on-south-la-oil-drilling-facility-overdue-site-inspection)
+- [The Guardian | “Los Angeles City Council Votes to Ban New Urban Oil And Gas Drilling In Historic Move"](https://www.theguardian.com/us-news/2022/jan/26/los-angeles-vote-phase-out-oil-and-gas-drilling)

@@ -1,5 +1,6 @@
 ---
 title: An Indigenous Bison Harvest
+slug: an-indigenous-bison-harvest
 date: '2026-01-09'
 category: Segments
 megaphone_id: LOE4837251631

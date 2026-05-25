@@ -1,5 +1,6 @@
 ---
 title: Health and Economic Costs of Fossil Fuels
+slug: health-and-economic-costs-of-fossil-fuels
 date: '2026-01-23'
 category: Segments
 megaphone_id: LOE3582222884

@@ -1,5 +1,6 @@
 ---
 title: Climate Resilience Grants Resume
+slug: climate-resilience-grants-resume
 date: '2026-03-27'
 category: Segments
 megaphone_id: LOE9747289304

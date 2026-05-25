@@ -1,5 +1,6 @@
 ---
 title: The Law and Environmental Justice
+slug: the-law-and-environmental-justice
 date: '2026-02-06'
 category: Segments
 megaphone_id: LOE9057046818

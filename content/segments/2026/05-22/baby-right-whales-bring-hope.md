@@ -1,5 +1,6 @@
 ---
 title: Baby Right Whales Bring Hope
+slug: baby-right-whales-bring-hope
 date: '2026-05-22'
 category: Segments
 megaphone_id: LOE2293748784

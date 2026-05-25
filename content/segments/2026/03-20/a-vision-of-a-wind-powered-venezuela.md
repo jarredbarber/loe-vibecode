@@ -1,5 +1,6 @@
 ---
 title: A Vision of a Wind-Powered Venezuela
+slug: a-vision-of-a-wind-powered-venezuela
 date: '2026-03-20'
 category: Segments
 megaphone_id: LOE5772527802

@@ -1,0 +1,78 @@
+---
+title: Deep-Freezing to Thwart Extinction
+slug: deep-freezing-to-thwart-extinction
+date: '2023-12-01'
+category: Segments
+megaphone_id: LOE9418356294
+image_url: https://loe.org/content/2023-12-01/BIOBANKING_restorationsite.jpg
+image_caption: 'Field biologists enter a restoration site for the endangered Preble’s meadow jumping mouse (Zapus hudsonius preblei), which is only found in parts of Wyoming and Colorado. (Photo: Kika Tuff, Revive & Restore)'
+summary: Scientists are turning to high tech solutions to preserve genetic diversity of endangered species, including biobanking with frozen cells and living tissues. A new project involving the U.S. Fish and Wildlife Service, the nonprofit Revive & Restore, and partners aims to biobank 24 endangered mammals to start. Pete Miraglia of Revive & Restore joins Host Jenni Doering to explain the science of using biobanked material to restore healthy populations of black-footed ferrets, Mexican wolves and more.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=23-P13-00048&segmentID=5 -->
+
+## Transcript
+
+DOERING: Unchecked global warming could bring the extinction of more than a third of all animal and plant species by 2050, according to a recent report by the Intergovernmental Panel on Climate Change. And many species are already in decline because of habitat loss, hunting, and invasive species. Addressing those problems is key in the long run but for some species on the brink like the endangered Mexican wolf, time is already running out. So scientists are turning to high tech solutions to preserve genetic diversity, including biobanking. That’s where living cells and tissues are collected and frozen, or cryopreserved. A new partnership is in the works to biobank 24 endangered mammals selected by the U.S. Fish and Wildlife Service, which has teamed up with the US Department of Agriculture, ViaGen Pets & Equine, the San Diego Zoo Wildlife Alliance and the non profit Revive & Restore. Pete Miraglia is the deputy Director for Revive and Restore and he joins me now. Welcome to Living on Earth Pete!
+
+MIRAGLIA: Thank you, Jenni, and thanks for having me on the show.
+
+DOERING: So how does this partnership actually work? How do scientists collect and then share these cells and these tissues?
+
+MIRAGLIA: Yeah, so we have a close partnership with the Fish and Wildlife Service, with the San Diego Zoo and wildlife Alliance, a company called ViaGen and USDA. And what we've done is we've created a constellation of partners that with a goal of lowering the barriers to biobanking. So making it really easy for field biologists and conservationists to collect tissue and get it cryopreserved. What that entails is we send a kit out to the field biologist, that kit is really easy to use, it comes with some instructions, and some vials. And they can very easily as part of their practice, do an air punch, and collect that tissue put it in the test tube and send it off. And a couple days later, it shows up in the lab and they generate a cell culture. And that cell culture, once it gets through its hoops and doubling times over a month or two that's cell culture gets cryopreserved. And once it's cryopreserved, we send it off to the USDA for long term cryopreservation at a federal facility.
+
+DOERING: And of course, cryopreservation means freezing the sample. How cold is it when you freeze it?
+
+MIRAGLIA: It's liquid nitrogen temperature, so I think it's about a minus 150 degrees Celsius.
+
+DOERING: That's pretty cold!
+
+MIRAGLIA: So it's not absolute zero, but it's pretty close and the idea behind getting that cold of a temperature is to cease all metabolism, all cell functions so that the cell actually just gets indefinitely preserved, as if it's a time machine, it'll go on indefinitely until you thaw it.
+
+DOERING: So once the cells are collected and frozen, what happens next?
+
+![A Sherman trap commonly used to capture small mammals in scientific studies. (Photo: Kika Tuff, Revive & Restore)](https://loe.org/content/2023-12-01/BIOBANKING_shermantrap.jpg)
+
+MIRAGLIA: So once they're collected and frozen, you know, there's two things one is we're just trying to preserve that genetic diversity that still exists today. And if you think out into the future, what the possibilities are, while the here and now is you can do genetic studies on that material, it does represent and contains the DNA of the individual. You can also consider looking at reconstituting populations, so you could take those cells, and you can take them and make them into new individuals and that sort of process today called cloning. And that's already been demonstrated by a couple of projects that we're working on, where you can take genetic information from previous decades and bring them back into the population, that's one option.
+
+DOERING: So tell me about the cloning that has already been done with this.
+
+MIRAGLIA: Yeah, there's a couple of exciting projects that we're working on. One is with the black footed ferret, which is a North American mammal, and highly endangered, another one is with przewalski's horse, which is an endangered horse. And in both cases we in collaboration with the San Diego Zoo and Biogen created clones from individuals that existed decades ago. And those cell lines were frozen at the San Diego Zoo, Frozen Zoo. They were collected and frozen there. And what's really exciting is that those individuals represent genetic diversity that does not exist in the current population. So what we're trying to do there was bringing lost genetics from previous generations back into the future and into the population.
+
+DOERING: Can you tell me a little more about the black footed ferret and the story of this individual that was cloned?
+
+MIRAGLIA: So the success story of the black footed ferret which really spawned this biobanking initiative, took a 40 year old frozen cell line back from the 1980s okay, back when I was a kid, and at that time the black footed ferret was assumed to be extinct in the wild and miraculously, a small population was rediscovered in Wyoming. And they have since grown that population through captive breeding of that initial group of founders they found to about 300 or 400 as they exist today. And the individual that was brought back through cloning, a cell line at the San Diego Zoo does not currently have its genetics, represented in the current population. So what we've actually done is taken those genetics and brought them back in a much needed way into the genetic diversity of the current pool. And this project is still going on, we're still trying to find ways to clone more ferrets, so that once these ferrets are fertile and can reproduce, their genetics can be brought back into the population.
+
+DOERING: Once we have this frozen cell sample or frozen tissue, how does it actually get incorporated into a living animal and created into a clone, for example?
+
+![A field biologist examines an endangered Preble’s meadow jumping mouse (Zapus hudsonius preblei) captured during a population survey. The mouse is assessed and weighed to confirm health. Before the mouse is released, a small piece of skin is collected for biobanking as part of the new initiative. (Photo: Kika Tuff, Revive & Restore)](https://loe.org/content/2023-12-01/BIOBANKING_biologistexamines.jpg)
+
+MIRAGLIA: Well, the state of the art today with cloning, and this is possible. If you have a very highly valued pet or a stallion that you really want to keep them going. What's possible today is what they call somatic nuclear transfer, which says, I'm going to take the nucleus from a skin cell, which contains the DNA of the individual and put that into an embryo. And the embryo will take it in and use that nucleus as its nucleus. And through some tricks with biotechnology, that embryo can be transferred and put into a surrogate host. And not necessarily a surrogate host for the endangered species but it could be a cousin or closely related species, and then that close related cousin can bear the offspring and those offspring will represent the genetics of that actual embryo and the nucleus of that skin cell that was offered as a donor. So in a sense, the clone represents truly represents the genetics of the individual that was frozen.
+
+DOERING: So you mentioned that beyond cloning, there are other things that can be done with this material years down the road. Please tell me about those.
+
+MIRAGLIA: Yeah, I mean, I think what we're talking about here is getting really on the cutting edge of biotechnology and applying it to wildlife and conservation. There's an interesting opportunity there, because what we can actually do is take these cells like for example, the cell line that comes from your skin and it is possible and has been demonstrated the mouse model to convert those cells into stem cells. They call them pluripotent stem cells, or induced pluripotent stem cells. And once you can create stem cells, you can reprogram them. And you can also get them to multiply much more rapidly and expand them well beyond what skin cells are capable of doing. And you can do research on them. You can look at disease resistance, you can look at, you know, climate change resistance, and you can look at many other aspects of their genetics that aren't really possible when you try to just work with individuals and animals themselves.
+
+DOERING: So what are the challenges of using frozen samples of tissues?
+
+![A field biologist records data during a study of the Endangered Preble’s meadow jumping mouse (Zapus hudsonius preblei). (Photo: Kika Tuff, Revive & Restore)](https://loe.org/content/2023-12-01/BIOBANKING_recordsdata.jpg)
+
+MIRAGLIA: I think what becomes challenging is if you go beyond mammals to other taxa, for example, consider like amphibians, birds, marine invertebrates, reptiles, insects, plants, these represent, you know, over 90% of all the other endangered species that I haven't mentioned yet. We're actively looking at solutions to these problems so that other taxa will have the same benefit as mammals and cryopreservation. And that's a pretty open field. And I think one particular area that's interesting to us or two are amphibians and plants, plants represent over half of the endangered species list, and cryopreserving plants is still in its infancy. It's been demonstrated for a number of species, but it's not widespread. Seed banking is still necessary, and it's possible but there are a number of plants that just can't be seed banked or the don't produce seeds. And amphibians also face similar challenges where if you want to be able to collect skin tissue, non lethally from a amphibian, it's very, very challenging, if you can imagine. And trying to do a cell culture for amphibians is also very challenging for mammals, you can expect to cell culture of a certain size that would be useful within you know, a month to month and a half, right. Whereas amphibians, you may have to wait almost a whole year. And over that course of that time, with that full year, there's very great opportunity for fouling and infection, and basically ruining of the cell culture. So there's a lot of work to be done there and we're exploring opportunities to do research in those areas.
+
+DOERING: So from what I understand there are about 25 animals that your biobanking project will focus on in its pilot phase. And there are some that are already cryopreserved like the Mexican red wolf, can you please tell me about that project?
+
+![Endangered Preble’s meadow jumping mouse (Zapus hudsonius preblei) released back to its home. (Photo: Kika Tuff, Revive & Restore)](https://loe.org/content/2023-12-01/BIOBANKING_mouse.jpg)
+
+MIRAGLIA: Sure, yeah there's about 25 species that were selected through the National Office of Fish and Wildlife and they have representation across the country and across all the fish and wildlife regions. And there are a number of large mammals including Mexican wolf, the pronghorn, the ocelot and the Santa Catalina Fox. The Mexican wolf is an interesting project because they went through a bottleneck that was similar to the black footed ferret, they got down to I think about seven founders. And the Mexican Wolf is endemic to the southwest and Mexico. And recently, you know, Mexico and the United States instituted a captive breeding program, in addition to habitat protection that has brought back the wolf populations to close to 200, which is really amazing. The project that we did together with Fish and Wildlife, the Wolf Conservation Center, the Endangered Wolf Center and St. Louis Zoo was kind of unique, because we took the opportunity to actually select individuals in the population based on the highest genetic value. So if you think about it, maybe tracing back much more closely to the original founders. And there were a couple individuals frozen, that is really under the category of what we call informed biobanking, which is, I'm going to carefully select, as best I can the highest genetic value and try to bank that so that when I want to take that out of the bank, again, it is the most useful.
+
+DOERING: So Pete, this all kind of sounds like Noah's Ark, except you don't get genetic diversity from just two animals of each species. And of course, genetic diversity is also changing with time. So what does this mean about how much cell material and genetic information you need to collect?
+
+MIRAGLIA: Yes, the number of individuals you might consider in a more expansive pilot or a more expansive project like this can get upwards of 50 to 100 individuals per depending on the size of the existing population. So you look at two and it's like, yeah, okay, I understand what you're saying there, Noah's Ark that's how it looks, but our pilot is really just to get this started and to start making it systematic. So that every year when field biologists and Fish and Wildlife species leads go out into the field, or even do a wellness check for a captive population, we really just wanted to try to get them into the practice of it to say, "hey, this is really easy to do, I could do this every year, I just need to add an additional, you know, five or 10 minutes to my routine, do a kit tissue small tissue collection, and send it off to the lab". And you can start building your bank that way and getting up to those numbers that you might consider for a larger population that you want to preserve. And you think about this long term if we can get to those kinds of numbers as part of normal practice, you could even consider looking at how genetics is changing over time. And you could even consider using this as a tool to manage existing populations. You know, if you look at captive breeding programs where they try to manage the genetics of their populations, you could look at the genetics end of this and say, "okay, I have the materials to do the sequencing, and actually be, you know, a little more surgical and precise about which individuals I want to have reproduced". So that you can maximize the genetic diversity of the pool.
+
+DOERING: Pete Miraglia is the Deputy Director of Revive and Restore. Thank you so much, Pete.
+
+MIRAGLIA: Thank you, Jenni, for having us on the show was a pleasure.
+
+## Related Links
+
+- [Learn more about Revive and Restore](https://reviverestore.org/projects/biobanking/)
+- [Revive and Restore | “New Biobanking Partnership Safeguards the Genetic Diversity of America’s Endangered Species”](https://reviverestore.org/new-biobanking-partnership-safeguards-genetic-diversity/#:~:text=Revive%20%26%20Restore%2C%20a%20non%2D,San%20Diego%20Zoo%20Wildlife%20Alliance)

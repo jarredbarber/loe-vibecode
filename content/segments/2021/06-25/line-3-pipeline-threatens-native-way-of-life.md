@@ -1,0 +1,60 @@
+---
+title: Line 3 Pipeline Threatens Native Way of Life
+slug: line-3-pipeline-threatens-native-way-of-life
+date: '2021-06-25'
+category: Segments
+image_url: https://loe.org/content/2021-06-25/LINE3_WaterProtectors.jpg
+image_caption: 'Water protectors and other activists gather to protest the Line 3 pipeline in St. Paul, Minnesota. (Photo: Lorie Shaull, Flickr, CC BY-SA 2.0)'
+summary: The Keystone XL pipeline has been finally cancelled, and activists are now ramping up actions against the Line 3 pipeline, which, like Keystone, would bring carbon heavy tar sands oil from Canada into the United States. Host Jenni Doering is joined by Frank Bibeau, a tribal attorney representing the White Earth Band of Ojibwe.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=21-P13-00026&segmentID=1 -->
+
+## Transcript
+
+BASCOMB: From PRX and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth. I’m Bobby Bascomb.
+
+DOERING: And I’m Jenni Doering
+
+After a decade-long battle, the Keystone XL pipeline has been officially cancelled and now, activists are ramping up actions against the Line 3 pipeline, which, like Keystone, would bring carbon heavy tar sands oil from Alberta, Canada into the United States. Line 3 is facing strong opposition from Native American tribes and environmental activists. They are concerned that the pipeline would carve a new path through delicate wetlands and the treaty territory of the Anishinaabe peoples in northern Minnesota. For more, we turn now to Frank Bibeau, a tribal attorney representing the White Earth Band of Ojibwe. Frank, welcome to Living on Earth!
+
+BIBEAU: Miigwech, thanks for having me.
+
+DOERING: Can you tell us a little bit about what the water in the Great Lakes region means for you?
+
+BIBEAU: Well, for us, that would almost be our entire cultural migration, spiritual story about how we came here. We migrated from the east coast, all the way through the Great Lakes to Minnesota where the food grows from the water. And that's wild rice. And so that whole area, that whole region of those great lakes, and here in Minnesota, at the headwaters of the Mississippi River, these are really the most important parts of our continent. One of the things that people don't know about the North American continent is three of the four watersheds for North America meet right here in Minnesota. And that place used to be the high point of the three watersheds besides the Rocky Mountains. But because of iron ore, they've mined all the way around this place. And while they know it's a spiritual place for us, they have like the cyclone fence and gates and, and that's how they protect our old historical, spiritual place. And now the tailings in the dumps from the extraction, the parts that they don't use, and they dump way over to another place, those are the high places. So in actuality that the center of the watersheds has been shifted by extraction of ore and rock from Minnesota.
+
+DOERING: So what are some of the risks that are associated with this construction of this new stretch of the Line 3 pipeline?
+
+![Protesters gather to speak out against the construction of the Enbridge Line 3 pipeline outside the Minnesota capitol in 2018. (Photo: Fibonacci Blue, Flickr, CC BY 2.0)](https://loe.org/content/2021-06-25/LINE3_protesters.jpg)
+
+BIBEAU: I would say there are two or three primary risks that we're concerned about. Number one is climate change. And that's what makes everything here the same as KXL and TransCanada and everything else that they were trying to do to get the tar sands oil out. Right now, the Shell River, as far as we can tell, and we've been in occupation camp down there. And you know, I look at that Shell River as being a place that they obviously ignored, because they're crossing the Shell River five times. And that tells me they don't understand what this cultural corridor is because it goes right from great wild rice harvesting. And if you go over to Shell Lake, then you're at the plains. And that's where you go out to go buffalo hunting. So this was a natural corridor already. And they don't seem to understand that from the work that they've done, because they're permitting the pipe to go through what looks like it's a large old village area. But because they've only found two areas that are, say two miles apart, then they say that they're not coming in within a mile of the two sites. But I would say that the two sites are connected, number one. Number two, I would say this is just like Standing Rock again, because one of the concerns and arguments was that the pipeline needed to be more than a half mile away from the reservation. Well, they were 0.55 miles from the reservation, so they were as close as you could possibly get without supposedly violating whatever that number was. And so that's how they look at this puzzle. They're using the water appropriations to drop the water levels. The rice is popping up out of the ground without having the water to support it. And there was a meeting of the Minnesota Chippewa tribe, the Tribal Executive Committee of the six Reservations met. And there was ultimately a letter that was drafted and sent to the governor with regard to the water appropriation for Enbridge in particular. And so there was a demand for consultation. I don't know what the deadline is. I don't have the letter yet. But we've only got a few days. And if the governor doesn't respond to that, then I think the next thing is actual litigation again, against the state of Minnesota.
+
+DOERING: Frank, how do your Ojibwe peoples' treaty rights play a role in the legal battle against Line 3?
+
+BIBEAU: One of the ways that it plays a role, besides our spirituality and being connected and making us have no other choice but to defend. One of the things that happened in some of the Federal cases that have happened, they look at the primary treaty food. And so out west where they have a case that sometimes referred to as Culverts versus Salmon, they found that the salmon was the primary treaty food of those tribal members, and they're going to have to spend several billion dollars to restore those waterways, so the salmon can return. And the same thing with the Klamath River and even though it's got water, it's killing the fish. So their primary treaty food isn't living in a quality environment that supports them so that the people can harvest them. So you start looking at that kind of case law. And you come over to where we are. Our 1837 Treaty says, hunt, fish and gather wild rice. That automatically makes wild rice our primary treaty food. That's the supreme law of the land. That's beyond Minnesota, and that's what they don't get.
+
+DOERING: Now, Enbridge Line 3 did recently clear a major legal hurdle when its approval was upheld by the Minnesota Court of Appeals. So what now? What opportunity do you see for stopping the pipeline?
+
+BIBEAU: We've been working on this for years. And one of the things that we're doing with law enforcement right now, which they don't always understand that comes back to our treaty rights. We have a conservation code that provides for hunt, fish, and gather. And sometimes when tribal members are out hunting, fishing, and gathering, they end up in a trespass circumstance. And a lot of times the state Conservation Officer wants to send that to state court. But in reality, that tribal member's rights are protected by our off reservation conservation code. And we have prohibited trespass in there. And so when you're charging a tribal member, if they're on public land, which is most of the territory that the pipeline crosses, from Park Rapids to Superior, we already have a preexisting right to be there. And so if we're not trespassing, and we have a right to be there, and gather and have free speech, then we should also have the right to have guests. And if our house is on fire, our guests should be able to help us put the house out, you know, because our home is in danger. And so we're going to try to also extend our rights to other people, other tribal members, just as people from here went to DAPL and to KXL, because we have to defend the entire planet. You can't just pick your local spot.
+
+DOERING: Now, we've been hearing a lot of calls recently from activists for President Biden to shut down this pipeline, to stop Line 3. What exactly is it that you're looking for Biden to do?
+
+BIBEAU: Well, in reality, we've never had an honest environmental review, that considered our tribal rights in a meaningful way. And so White Earth and Red Lake, we let them know right at the beginning that we believe our treaties require consent. We believe that we have water rights, we believe that the federal law that grants you some jurisdiction over things specifically exempts your right to regulate our rights under public law 280. And that you can't just unilaterally give our stuff away and do these things. And the administrative law judge for that proceeding said, Well, these are federal rights. And so they didn't want to hear them in the state court. Well, that's not how property rights work for white people. That's just how it works for Indians. And so they didn't even have a public comment period, on any draft environmental impact assessments, and then just granted it also. And so that's why we had to sue the Corps of Engineers last December, right before Christmas.
+
+DOERING: Well, what authority do you think the President has to stop Line 3 at this point?
+
+BIBEAU: Well, he probably has a couple kinds. I mean, the most logical one is to say: Corps of Engineers, you know that there wasn't a good environmental impact statement that went on. It should have happened with all this much water and all the Indians and the treaty rights. Let's pull that back and review it. That would be the honest way of doing it. That's what happened in Standing Rock. And that's what happened out there, you know, in Washington and Seattle, we have the fisheries out there. You know, unfortunately, we always end up having to sue them. And, you know, we would like to think that the President can have the right people say we made a mistake under a bad administration. And we pointed it out to him, the state of Minnesota came to the right conclusion, but disregarded it for political reasons. They look at our rights as being federal, you're the federal entity, you have a role.
+
+DOERING: Well, what's coming up next, Frank, what should we be looking for on this, in this Line 3 fight?
+
+BIBEAU: You're gonna see actions from manoomin. Manoomin is our word for wild rice. Manoomin actually means the good berry, that would be out of all the things that we pick, or gather, that would be the primary berry that we would want. So what we're looking at is we've created Rights of Manoomin so that it's recognized how mainstream people would see in law like a corporation, where it's given its own rights to exist and flourish and be protected. And the tribal members have a right to protect manoomin as well because of our religious freedoms. And so we're going to start using those kinds of laws and concepts against the state of Minnesota because they're harming those things. And it's going to be, I think, a very interesting fight and people are going to see that tribes have rights that have not been recognized very well and we're going to assert them.
+
+DOERING: Frank Bibeau is the tribal attorney representing the White Earth Band of Ojibwe. Thank you so much, Frank.
+
+BIBEAU: Have a great day. Miigwech.
+
+## Related Links
+
+- [Vox  | “The Keystone XL Pipeline Is Dead. But the Fight Against Similar Projects Is Far from Over.”](https://www.vox.com/2021/6/10/22526803/keystone-xl-oil-gas-biden-climate-change)
+- [Click here to listen to LOE’s recent story on the Line 3 pipeline](https://www.loe.org/shows/segments.html?programID=21-P13-00005&segmentID=2)
+- [NYTimes | "Biden Administration Backs Oil Sands Pipeline Project"](https://www.nytimes.com/2021/06/24/climate/line-3-pipeline-biden.html)

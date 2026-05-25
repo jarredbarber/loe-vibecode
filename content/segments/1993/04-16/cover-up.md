@@ -1,0 +1,14 @@
+---
+title: Cover Up
+slug: cover-up
+date: '1993-04-16'
+category: Segments
+summary: Commentator Tom Harris warns a family member and anyone else who will listen about the danger of the sun's ultraviolet rays in the age of ozone depletion.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=93-P13-00016&segmentID=4 -->
+
+## Transcript
+
+HARRIS: You're only going to hear one side of this conversation, but if you want to listen in, that's OK. I'm talking to my son-in-law about the ozone hole. He's a roofer in California, the land of forever-sun. So he can't afford to take this subject lightly -- no pun intended. Yo, Mike -- did you put your sunblock today? Whaddya mean it's cloudy? Ultraviolet light goes right through clouds. What? You already have a good tan so only have to worry about getting sunburned? Hey, there's no such thing as a good tan. Damaged skin is just that much closer to cancerous skin. Hey, we're talking dangerous stuff here -- the worst kind is malignant melanoma. The per capita death rate for that has more than doubled in the past thirty years. You could also get less lethal but still dangerous squamous or basal cell skin cancers. Yeah, I know, you're used to running around the desert all day in only your shorts. But that was then, and this is now. We've got a lot less ozone to protect us now, and we'll have even less in the years ahead, no matter what we do about those nasty chlorofluorocarbons now. Skin experts expect a ten percent increase in ultraviolet radiation, and the Environmental Protection Agency warns that there could be 200, 000 more deaths from skin cancer over the next 50 years. And that's a very conservative estimate. You know I love you, but it's -- well, it's more than that. I love my daughter Lynette and the kids too, and I'd like to know you're going to be around to look after them long after I'm gone. I know it doesn't hurt now -- I know you can't see any of those funny little sores now -- this stuff takes decades to show up and if you don't catch it in time, you won't catch it, period. The sky isn't falling, but it sure is getting thinner. No, it isn't hopeless, there are lots of things you can do. I'm worried about you up on those roofs with no shirt, no sunblock, no hat, no ultraviolet-blocking sunglasses. Keep a life, OK? Limit exposure between 10 AM and 3 PM, when the sun's rays are strongest. It's too hot to work outside then, anyway. Start earlier, work later, a longer lunch break. Now, you just can't put the sunblock on once and forget about it. Use #15 or higher, in your case, a lot higher. And put it on again in the afternoon, and keep your skin covered, too. I know it's hot -- you could wear tightly-woven clothes and wet them down; that'll keep you cool. You will? Hey, thanks, son -- love ya. 'Bye now.
+
+CURWOOD: Author and journalist Tom Harris is a commentator for Living on Earth. He live in Rancho Cordova, California.

@@ -1,5 +1,6 @@
 ---
 title: Coastal Damage Cases Move to Federal Court
+slug: coastal-damage-cases-move-to-federal-court
 date: '2026-05-08'
 category: Segments
 megaphone_id: LOE7581124464

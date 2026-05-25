@@ -1,5 +1,6 @@
 ---
 title: Earth Day - 1970 vs Now
+slug: earth-day-1970-vs-now
 date: '2026-04-17'
 category: Segments
 megaphone_id: LOE3102358658

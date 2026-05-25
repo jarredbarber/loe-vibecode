@@ -1,0 +1,12 @@
+---
+title: Technology Update
+slug: technology-update-1208
+date: '2000-12-08'
+category: Segments
+summary: Living On Earth’s Cynthia Graber reports on windows that become darker with the flick of a switch, helping reduce heat and glare from the sun.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=00-P13-00049&segmentID=7 -->
+
+## Transcript
+
+GRABER: Windows make a big difference in how much heating, cooling, and light a building needs. Today's best windows can reduce heat and glare from ultraviolet rays. But about half the heat streaming through them comes from visible light. So researchers have teamed up with the U.S. Department of Energy to produce the first electrically-powered tinting windows. These windows are coated with five layers of a thin metal mixture. With the twist of a dimmer, a user can send an electric charge through some of the coatings. Some layers absorb the charge and become darker, then lighter once again when the charge is released. Researchers say the new panels can save up to 40 percent of electricity needs even over today's best energy-saving windows. And because they cut down on both ultraviolet and visible sunlight, your couches, chairs, and carpets won't fade so quickly, either. That's this week's technology update. I'm Cynthia Graber.

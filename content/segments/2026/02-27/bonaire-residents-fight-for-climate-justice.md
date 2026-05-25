@@ -1,5 +1,6 @@
 ---
 title: Bonaire Residents Fight for Climate Justice
+slug: bonaire-residents-fight-for-climate-justice
 date: '2026-02-27'
 category: Segments
 megaphone_id: LOE5617758276

@@ -1,5 +1,6 @@
 ---
 title: Western Water Crisis Boiling Over
+slug: western-water-crisis-boiling-over
 date: '2026-01-16'
 category: Segments
 megaphone_id: LOE8798251738

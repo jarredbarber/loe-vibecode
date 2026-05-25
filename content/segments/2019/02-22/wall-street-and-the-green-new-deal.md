@@ -1,0 +1,50 @@
+---
+title: Wall Street and the Green New Deal
+slug: wall-street-and-the-green-new-deal
+date: '2019-02-22'
+category: Segments
+image_url: https://loe.org/content/2019-02-22/WALLSTREET_gnd.jpg
+image_caption: 'Representative Alexandria Ocasio-Cortez of New York and Senator Edward J. Markey of Massachusetts, right, announcing their Green New Deal resolution on February 7, 2019. (Photo: Senate Democrats, Flickr, CC BY 2.0)'
+summary: Much of the criticism of the Green New Deal, a bold plan to reduce greenhouse gas emissions and create jobs, focuses on its significant costs. But when it comes to financing, the federal government doesn’t have to go it alone, some Wall Street observers point out. Sustainable investing is already a $12 trillion market and growing. Jon Powers is the president of Clean Capital and sits down with Host Bobby Bascomb to explain how investors might be enticed to claim a slice of the Green New Deal pie.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=19-P13-00008&segmentID=1 -->
+
+## Transcript
+
+BASCOMB: From PRI and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth. I’m Bobby Bascomb, in for Steve Curwood.
+
+The Green New Deal resolution was recently introduced to Congress. It aims to address the climate crisis, in part, by committing to 100% zero carbon energy in the next ten years. It’s also a plan to alleviate poverty and create millions of new green jobs. One of the biggest criticisms of the ambitious plan is the cost. Even if Congress could agree in principle, critics say the government can’t afford to fund the proposed programs. However, they may be overlooking an obvious source of revenue: Wall Street. Sustainable investing is already a 12 trillion dollar market and growing. Jon Powers is the president of Clean Capital and served as federal Chief Sustainability Officer under President Obama. He joins me now to explain how investors might get behind portions of the Green New Deal. Jon, welcome to Living on Earth!
+
+POWERS: Thanks so much for having me.
+
+BASCOMB: So how willing are banks and private equity firms when it comes to investing in renewable energy? And why is green energy or renewable energy, why is that a good investment for these institutions?
+
+POWERS: Yeah. So the reality is they're looking for capital to put out that is going to have solid return. So let's look at a solar project and look at how it's financed, right. So when you have a big corporation, a lot of corporates, whether be Walmart, Apple, eBay, are going 100% renewable energy through these contracting measures called power purchase agreements, and it's a growing space. You've got unbelievable opportunity right now where corporate leaders are filling the void of Washington by going ahead and committing to this power. So they put in place a 20 year contract to buy electricity off of, for instance, solar panels that are on the roof of the warehouse. So that's a 20 year cash flow of an investment for a proven technology. It’s a pretty safe bet for the investors and you know, they can put their money to work and see returns pile up year after year.
+
+BASCOMB: So part of the strategy of the Green New Deal, of course, is to create jobs in the course of installing all that renewable energy, you know, solar panel installers, for instance. Is job creation something that investors consider it all or is this purely about the bottom line for them?
+
+POWERS: You know, it's obviously an important part; I think, depending on the investor, it's about the bottom line. Some investors have different metrics like ESG, Environmental Sustainability and Governance goals, and that can be driven by job growth or things like pollinators at solar panels, at solar arrays. So there's different ways to measure those ESG goals. The interesting things about the jobs space, and I think it's important to step back and look and where we are with clean energy. In 2008, there was barely any solar out there, for instance, and wind was just beginning to grow. Things really began to take off because you had policy certainty begin to come into place and you had alignment of efficiencies across the market. So what does that mean? Under President Bush, they put in place the Energy Security Act, which gave tax credits of things like wind and solar. And then when the market sort of crashed in 2008, a lot of government capital came into what was known as shovel-ready projects. And as a result, clean energy really started to get traction. Technologies like solar began to become proven. And then specific jobs like solar installers or O\&M technicians began to grow. And more and more folks entered that space. Then you have what's known as sort of efficiency in the market. Right? People knew how to install these things. They knew how to measure them and manage them. And as that efficiency grew, more and more capital moved into that market, continuing to drive down the cost of doing the deal and making, for instance, doing things like solar and wind that much more affordable.
+
+BASCOMB: Well, critics of the Green New Deal say that the proposals are just too expensive and the government can't foot the bill for them. What is the potential, do you think for Wall Street and private investors to cover these costs. I mean how far could this investment money actually get us towards these goals?
+
+POWERS: It's a weak argument for the critics, because the reality is the government capital that will be used is to hopefully provide certainty to allow the markets to flow, right. So if you looked at, again, flashing back to clean energy the last 10 years, as certainty began to come into place, people understand these technologies work. People talked about putting solar power in New Jersey in 2008. People would say, Hey, does the sun even shine enough in New Jersey to get these projects, do these solar panels work? Now, flash forward 10 years, there's solar all across New Jersey, people know what contracts like power purchase agreements are, they know what the solar renewable energy credits work, and how the market works. And capital’s flowing that you don't need the government money to do it. You just need that policy certainty.
+
+BASCOMB: We've always heard that the one thing that investors really need most when it comes to making decisions about where to put their money is stability, to know what the future of the market is going to look like. How true is that and why?
+
+POWERS: Yeah, that's, I think that's very important and critical. So when you're looking at investments -- so think about Nevada last year, there was an effort in Nevada to pull what were known as net metering policies off the table. So why does that matter? So if you're making clean energy or solar, you can sell the power back to the grid for a time that it's not being used. WelI, if you did a deal that had that policy in place, once that's removed it can cut the legs out of the transaction, because you actually have to, what's known as sort of model that risk into the deal. So every time those policies swing back and forth it's a challenge to get capital to commit. And the problem with that is not -- there's, there will be capital out there that will take those riskier bets. But the problem is that's more expensive money. The more certainty you have, the better cost of capital you can have. So you can have pension funds or long term life insurance investors for instance that have lower cost of capital commit to those longer investments, making the deals that much more efficient; it’d make the cost of electricity, for instance coming off that deal cheaper so we can see more and more growth of the market. Again, the certainty’s key to get that cheaper capital. When there's not certainty, the money will just be more expensive.
+
+BASCOMB: Right. Well, I've read that sustainable investing is already a $12 trillion market in the US. What do you see as the future for that type of investment? Where's it going from here do you suppose?
+
+POWERS: So, sustainable investing covers a broad spectrum. And it can go from investing in clean energy projects, it can count in things like green bonds, water programs, supply chain investing. But you know, that is a relatively, still a new area; corporate America is wrapping their heads around sustainability, for instance, in their practices. And as the data becomes clearer, the metrics become clearer, people will understand better what they're investing in, that will only continue to grow.
+
+BASCOMB: Now you are president of a company called Clean Capital. Investing in clean energy is your bread and butter. It's right there in the name. But if we look at Wall Street investors more generally, how willing are they to also put their money towards renewable energy projects? Do you think that you’re representative of the whole?
+
+POWERS: There is a phenomenal demand right now to move into clean energy. You'll see it, for instance, in the ideas around fossil fuel divesting that's happening with pension funds and college endowments. Now we need to take those initiatives to the next step, which is investing. For us, it's not just about investing in clean energy, though. It's about making a solid investment as an asset class. Clean energy is that asset class. It's matured enough that people understand that now, but it still takes continuous education, like in any asset age; not student loans, not home mortgages. This is still a growing space.
+
+BASCOMB: Jon Powers is host of the podcast Experts Only, President of Clean Capital and former federal Chief Sustainability Officer under President Obama. Jon, thank you so much for taking this time with me.
+
+POWERS: Yeah! Thanks so much for having me. And again, thanks so much for focusing on this issue.
+
+## Related Links
+
+- [Bloomberg Businessweek | “Wall Street is More Than Willing to Fund the Green New Deal”](https://www.bloomberg.com/news/articles/2019-02-14/wall-street-is-more-than-willing-to-fund-the-green-new-deal?srnd=climate-changed)

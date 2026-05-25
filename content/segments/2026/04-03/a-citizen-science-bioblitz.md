@@ -1,5 +1,6 @@
 ---
 title: A Citizen Science Bioblitz
+slug: a-citizen-science-bioblitz
 date: '2026-04-03'
 category: Segments
 megaphone_id: LOE5967321149

@@ -1,5 +1,6 @@
 ---
 title: Trump Canceling Climate Regs
+slug: trump-canceling-climate-regs
 date: '2026-02-20'
 category: Segments
 megaphone_id: LOE7682768376

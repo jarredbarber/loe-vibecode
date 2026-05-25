@@ -1,0 +1,22 @@
+---
+title: SEA TEMPERATURE CHANGE
+slug: sea-temperature-change
+date: '1997-09-05'
+category: Segments
+summary: Sea water currents flowing around the globe travel for thousands of miles, warming some areas and cooling others. Solar energy powers these global flows, and like a pump the ocean's currents, everything needs to work just right. In a recent issue of the journal Nature, researchers at the University of Bern in Switzerland ask if global climate change could cause one of these vast pumps to shut down. Living On Earth's Daniel Grossman reports.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=97-P13-00036&segmentID=1 -->
+
+## Transcript
+
+CURWOOD: This is Living on Earth. I'm Steve Curwood. The vast majority of climate researchers agree that human-induced release of carbon dioxide and other greenhouse gases will warm the Earth and alter weather patterns. But exactly how and when is still an open question. Some suggest that changes will come slowly, the way a car tire gradually wears down, leaving the world time to respond. Others fear sudden dramatic changes, more like a highway blowout, irreparably altering elements of the global climate. Two recent studies prominently reported in the journal Nature support those who say abrupt changes are likely. Living on Earth's Daniel Grossman explains the first study, which looked at the so-called Atlantic conveyor belt ocean currents.
+
+GROSSMAN: If you look at a map, Great Britain lies as far north as the frigid Canadian province of Labrador. But the island nation and much of northern Europe is much warmer. The reason, say climate researchers, is a system of global currents they call the great ocean conveyor belt. Right now the system's working just fine. But things could change, according to 2 researchers at the University of Bern in Switzerland. Thomas Stocker and Andreas Schmittner report in the August 28th issue of Nature that carbon dioxide emissions could play havoc with the Atlantic portion of the conveyor belt, significantly lowering temperatures in Europe and the eastern United States.
+
+To understand how this could happen, a little ocean science is needed. The great ocean conveyor belt is powered by convection, the same process that makes smoke go up. Light fluids rise and heavy ones fall. In the south Atlantic, surface water is heated, becoming more buoyant. As this warm water moves north, it heats westerly winds blowing toward Europe. This cools the flow, making the water less buoyant. So in the North Atlantic, it sinks more than a mile below the ocean's surface and flows back south. The system works like a global pump, with the force of 100 Amazon rivers, carrying as much water as the combined rainfall of the entire planet.
+
+Another factor is involved as well: salinity. Southern waters are saltier than the more dilute northern seas, and salt water is less buoyant. Thus, salinity tends to put the breaks on the convection engine, but not enough to stop it, at least not at present. If this critical global system shut down, and the 2 Swiss researchers say it could, the effects could chill Europe and disrupt fisheries worldwide.
+
+Climatologists say the great conveyor belt has broken down before. The last time was about 11,000 years ago, causing glaciers to advance over much of the continent. The pump needs just the right balance of temperature and salinity to work, and carbon dioxide emissions could tip the scales. The researchers predict more precipitation in the northern hemisphere will reduce the salinity of the North Atlantic, slowing the conveyor belt's convection engines. Other scientists had predicted that CO2 emissions could disrupt the current, but they didn't say what conditions were most likely to bring about the change.
+
+Using a computer model, the Swiss scientists found that it's not the amount of carbon dioxide in the atmosphere that matters but how fast the level increases that makes the biggest difference. They predict that if the level of carbon dioxide grows at today's rate, the ocean pump will grind to a halt in about a century. Slower CO2 growth will impede but not stop the conveyor belt. Other researchers caution that such simulations are notoriously inaccurate, as the atmosphere and oceans are incredibly complex. But even skeptics admit the new research can't be ignored. As climatologist Wallace Broecker puts it, “you do what you can with the tools you have.” For Living on Earth, I'm Daniel Grossman.

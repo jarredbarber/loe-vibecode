@@ -1,5 +1,6 @@
 ---
 title: US Losing Economic and Energy Edge to China
+slug: us-losing-economic-and-energy-edge-to-china
 date: '2026-02-13'
 category: Segments
 megaphone_id: LOE5251928774

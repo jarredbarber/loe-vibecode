@@ -1,5 +1,6 @@
 ---
 title: White House Accuses NCAR of "Climate Alarmism"
+slug: white-house-accuses-ncar-of-climate-alarmism
 date: '2026-05-15'
 category: Segments
 megaphone_id: LOE3676500678

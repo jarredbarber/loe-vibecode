@@ -1,5 +1,6 @@
 ---
 title: '"Sneckdowns" and Reimagining Streets'
+slug: sneckdowns-and-reimagining-streets
 date: '2026-03-06'
 category: Segments
 megaphone_id: LOE5848704106

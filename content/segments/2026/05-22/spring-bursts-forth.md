@@ -1,5 +1,6 @@
 ---
 title: Spring "Bursts" Forth
+slug: spring-bursts-forth
 date: '2026-05-22'
 category: Segments
 megaphone_id: LOE6677141098

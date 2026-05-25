@@ -1,5 +1,6 @@
 ---
 title: Glyphosate at the Supreme Court
+slug: glyphosate-at-the-supreme-court
 date: '2026-05-01'
 category: Segments
 megaphone_id: LOE7930467766

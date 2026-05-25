@@ -1,5 +1,6 @@
 ---
 title: Daisy Rewilds
+slug: daisy-rewilds
 date: '2026-02-13'
 category: Segments
 megaphone_id: LOE4047491111

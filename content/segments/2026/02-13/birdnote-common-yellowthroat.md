@@ -1,5 +1,6 @@
 ---
 title: 'BirdNote®: Common Yellowthroat'
+slug: birdnote-common-yellowthroat
 date: '2026-02-13'
 category: Segments
 megaphone_id: LOE2965524926

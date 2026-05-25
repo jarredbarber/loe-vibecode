@@ -1,5 +1,6 @@
 ---
 title: How Oil Fuels Conflict
+slug: how-oil-fuels-conflict
 date: '2026-05-01'
 category: Segments
 megaphone_id: LOE4969926629

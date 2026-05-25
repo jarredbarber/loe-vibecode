@@ -1,5 +1,6 @@
 ---
 title: Ice Visions
+slug: ice-visions
 date: '2026-01-23'
 category: Segments
 megaphone_id: LOE7157894676

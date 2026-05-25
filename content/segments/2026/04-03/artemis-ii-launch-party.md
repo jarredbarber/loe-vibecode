@@ -1,5 +1,6 @@
 ---
 title: Artemis II Launch Party
+slug: artemis-ii-launch-party
 date: '2026-04-03'
 category: Segments
 megaphone_id: LOE4676589555

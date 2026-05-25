@@ -1,5 +1,6 @@
 ---
 title: 'BirdNote®: The Cuban Tody, A Caribbean Jewel'
+slug: birdnote-the-cuban-tody-a-caribbean-jewel
 date: '2026-03-06'
 category: Segments
 megaphone_id: LOE8014004030

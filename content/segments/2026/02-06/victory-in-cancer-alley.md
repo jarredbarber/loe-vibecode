@@ -1,5 +1,6 @@
 ---
 title: Victory in Cancer Alley
+slug: victory-in-cancer-alley
 date: '2026-02-06'
 category: Segments
 megaphone_id: LOE9854549552

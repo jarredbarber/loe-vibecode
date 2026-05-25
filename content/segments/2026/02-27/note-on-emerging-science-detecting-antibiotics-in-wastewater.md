@@ -1,5 +1,6 @@
 ---
 title: 'Note on Emerging Science: Detecting Antibiotics in Wastewater'
+slug: note-on-emerging-science-detecting-antibiotics-in-wastewater
 date: '2026-02-27'
 category: Segments
 megaphone_id: LOE6996248370

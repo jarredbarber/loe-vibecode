@@ -1,0 +1,206 @@
+---
+title: Preserving the Congo Basin’s Trees, Part 2
+slug: preserving-the-congo-basins-trees-part-2
+date: '2013-05-31'
+category: Segments
+image_url: https://loe.org/images/content/100402/chief.jpg
+image_caption: 'Chief Mpono Pierre, hereditary leader of the village of forest village of Ngoyla in Cameroon has this question for Western nations contemplating buying carbon credits to offset greenhouse gas emissions: ''What are you waiting for?'' (Photo: Alex Chadwick)'
+summary: Living on Earth’s journey to the Congo Basin, with Alex Chadwick and Christopher Johnson, continues. Our special report looks at the promises and pitfalls of climate policy, and how REDD might protect the world’s second largest forest.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=13-P13-00022&segmentID=2 -->
+
+## Transcript
+
+CURWOOD: It’s Living on Earth. I’m Steve Curwood. And we’re back in Cameroon and the Congo Basin where reporter Alex Chadwick is trying to get to a small village beside a great forest, a place that may be a factor in the climate change equation.
+
+CHADWICK: The ferry-barge that links the village of Ngoyla to the outside world is on the opposite bank, and in no hurry to come get us. Time passes. River flies cluster on ankles and feet; other waiting travelers begin dabbing gasoline on bare skin; it’s better than getting bitten. At last the ferry-barge pushes off from the other shore and begins its slow passage. No one bothers us for a permit.
+
+{% cue text="SOUNDS OF MOVING FERRY AND WATER" %}
+
+CHADWICK: Maybe you can start to hear the water flowing past the stern of the ferry. It’s on its way across the river. It’s a square, floating platform, maybe 30 feet by 30 feet. It’s attached to a cable that runs from shore to shore, probably 20 feet up in the air. It’s got two cables from the ferry run to the long stretcher cable, and that’s what keeps the ferry in operation. The river here is about 100 yards across, and it flows very quickly.
+
+{% cue text="GRATING SOUND OF METAL CABLE RUNNING IN" %}
+
+CHADWICK: A ferryboat driven by current is not simply a means to cross open water; it conveys you into the past at the pace of life in a village. An outsider adjusts to this bucolic relic.
+
+{% cue text="CARS DRIVE OFF FERRY" %}
+
+JOHNSON: This road we’re on passes clusters of mud brick homes, fields of papaya, plantains, cassava. There aren’t many people…until Ngoyla.
+
+{% cue text="SOUNDS OF VILLAGE" %}
+
+CHADWICK: The village at the edge of the forest. This is rural, but it’s more active than any place we’ve seen for hours. Some people have generators for power, so there is this composition of mud-brick, corrugated roof and satellite dish. And young men pass by buzzing on motorbikes.
+
+{% cue text="MOTORBIKE ENGINES SPEED BY" %}
+
+JOSEPH: I am the District Officer. My name is Obati Oncong Joseph.
+
+JOHNSON: Now, Ngoyla has a mayor, but this guy – the District Officer – he’s the real big shot. The government owns the forest in Cameroon, and he? He’s the government’s man.
+
+JOSEPH: Those who are living here, everything they eat, everything they do, medical care, is coming from the forest. The forest is very, very important for the people who are living here. It is also the forest that gives land for the people to have their – for people to farm. Everything here is coming from the forest.
+
+{% cue text="SOUNDS OF FOREST" %}
+
+CHADWICK: Christopher’s been over talking to the Mayor…what did he say?
+
+JOHNSON: His name is Bantal Alphonse. He’s one of the town’s few elected officials. He told me a little bit about Ngoyla. He said there are about 6,000 people here, two major ethnic groups: the Gjim and the Baka. And if you walk around town, you’ll see a lot of people carrying machetes – men and boys. The mayor told me that they use those machetes to hack out their living. They grow plantains, cocoa and bananas. Ngoyla’s number one problem: poverty. This town is desperate for electricity, for running water, for cell phones, and for more teachers. And Mayor Alphonse says, ‘If carbon is the answer to Ngoyla’s problems, let’s make a deal…and fast.’
+
+CHADWICK: You know, as we’ve come along down the road from the main capitol, 6,000 people is actually a pretty substantial community, for at least this region of Cameroon. We see there are other dirt roads leading off from here, there’s a little church over there.
+
+{% cue text="SOUNDS OF ROOSTER CROWING" %}
+
+JOHNSON: Lots of chickens…
+
+CHADWICK: Lots of yard chickens. And we’re going to go see the women’s group?
+
+JOHNSON: Yeah, let’s go, they’re right down the road here.
+
+{% cue text="SOUNDS OF ROAD" %}
+
+{% cue text="JACQUETTE SPEAKING FRENCH" %}
+
+CHADWICK: Madame Mewol Jacquette…
+
+{% cue text="JACQUETTE SPEAKING FRENCH" %}
+
+CHADWICK: Invites us into her home, the front room a large space, comfortable with almost 20 ladies from the Ngoyla Women’s Association, each in an elegant print dress, many with a matching head wrap. I wish I had a clean shirt.
+
+{% cue text="JACQUETTE SPEAKING FRENCH" %}
+
+CHADWICK: You don’t need French to get it that Madame Jacquette is unhappy with the state of events here. Ngoyla needs phones, electricity, schools.
+
+{% cue text="JACQUETTE SPEAKING FRENCH" %}
+
+JOHNSON: And she told us she has ten children; eight of her kids have been away to school and they’ve come back; none of them can find a job in Ngoyla.
+
+{% cue text="SOUNDS OF SINGING AND DRUMS" %}
+
+CHADWICK: We spend four days in Ngoyla. The nearby forest is what Mike Korchinsky promised. The Ngoyla–Mintom conservation area is about 3,000 square miles, so vast it’s like looking at the ocean. The trees are densely packed and enormous carbon columns.
+
+{% cue text="SOUNDS OF SINGING AND DRUMS" %}
+
+CHADWICK: We interview farmers and foresters and confirm what the officials tell us…this place is poor. And if the villagers can’t exploit the forest, it’s going to stay that way. It’s just too remote, and there’s nothing else to develop. A farmers market opens at dawn on a Saturday in an area by the drooping town pavilion; four vendors offer a few wretched samples of local goods; a small boy has several yams on the bare earth. In half an hour, the dozen browsers who had come by are gone, and the vendors are quitting, too.
+
+{% cue text="DRUMS END" %}
+
+{% cue text="SOUNDS OF FERRY" %}
+
+CHADWICK: On the ferry, returning to the capital for an important interview, I’m mashing UN climate policy and carbon wealth and life in a forest village. Here are some of the parts:
+
+{% cue text="SOUNDS OF FERRY" %}
+
+CHADWICK: In Cameroon, trees are plentiful and money is scarce. Timber is the number two export. It was a real sacrifice to set aside Ngoyla-Mintom for conservation. Cameroon expected some green eco-development money for communities – like a timber company would offer, but the conservation money never came.
+
+Finally, officials moved to open this conservation forest to loggers. But, REDD was just then emerging as the favored policy option of climate negotiators, and the global recession was devaluing timber prices.
+
+JOHNSON: And so in the months that followed, our California investor, Mike Korchinsky came to Yaounde with his REDD bid. South African investors made another REDD offer. And the World Bank and the World Wildlife Fund are working together on a REDD proposal.
+
+{% cue text="SOUNDS OF YAOUNDE" %}
+
+CHADWICK: And suddenly Cameroon is rethinking what to do again.
+
+NGOLLE-NGOLLE: My name is Elvis Ngolle-Ngolle. I am the Minister of Forestry and Wildlife, meaning I’m in charge of all the tress and the wildlife.
+
+JOHNSON: Elvis Ngolle-Ngolle: married to an American; studied in the US for 11 years; used to listen to public radio.
+
+CHADWICK: And maybe that’s why he personally waived the 2,000-dollar fee that someone wanted to charge us for recording in the forest. Elvis is the person who decides what happens with the forests of Cameroon and REDD.
+
+![Children starting to school in the village of Ngoyla, Cameroon, in the northern Congo Basin. Experts estimate the carbon content of the forest at 46 billion tons. Community leaders hope some of that value can answer the desperate need for electricity, roads, and a bridge over a local river that would more easily connect them to the outside world. (Photo: Alex Chadwick)](https://loe.org/images/content/100402/IMG_8790.jpg)
+
+NGOLLE-NGOLLE: If the people see that their conditions of living are improving in terms of education, health, in terms of infrastructure development, in terms of opportunities for employment. I think that they will know that the efforts are meaningful to them, and are relevant to them.
+
+CHADWICK: Are you at all concerned that this is another form of selling off a part of Africa to other people to use to solve their problems?
+
+NGOLLE-NGOLLE: Africa has come of age, Africa has come out of its – of its, I don’t want to say grudge against colonialism. I think Africans have grown up to the point where they believe in looking forward, and not looking backwards. I think the history colonialism and colonial exploitation is there, but it’s looked upon by the present generation of African leaders as, ‘Well, that is an original sin, but we must go ahead, we must continue,’ and to not worry about those who want to exploit you and exploit you to extinction.
+
+CHADWICK: The Ministry of Forest and Wildlife has done well managing timber exports, but it’s nothing compared to what a REDD carbon market might bring. I worked through one investment prospectus. It projects a carbon value for Ngoyla-Mintom of more than seven billion dollars.
+
+JOHNSON: Now, Alex, you know officials never want to discuss numbers in public. But Minister Ngolle-Ngolle didn’t disagree with the figure you gave him – except that maybe it isn’t high enough.
+
+NGOLLE-NGOLLE: You’ve used the figure of seven billion. I’ve heard of figures way more than that. I think the Net Bank, the South African Net Bank came the other day and talked in terms of hundreds, I think it was somewhere around 200 billion. I think if it’s seven billion, then that’s fine. But if it’s more than seven million, then why not?
+
+The people will be more than happy if they can be told the best value for that pristine forest is more than they ever imagined, I think that will be great. On the entire continent of Africa, the Congo Basin forest is the only remaining contiguous forest mass that is remaining and that has value for the fight against climate change. And whatever we can derive in terms of carbon credits is the Congo Basin forest mass – so there is a huge economic value in ensuring that forest remains intact.
+
+CHADWICK: REDD, the Congo Basin forest, money. We’re leaving Cameroon for elsewhere in the Congo Basin. But I’ve got this flashback to the Ngoyla forest, and our town, and our encounter with Madame Mewol Jacquette.
+
+{% cue text="JACQUETTE SPEAKING FRENCH" %}
+
+CHADWICK: She doesn’t romanticize Ngoyla’s rustic river ferry – as I did – now I realize, she hates it.
+
+{% cue text="JACQUETTE SPEAKING FRENCH" %}
+
+CHADWICK: It’s a symbol, sure, but not of an earlier, more authentic human spirit. To Ngoyla, the ferry means impotence and isolation.
+
+{% cue text="SOUNDS OF FOREST" %}
+
+JOHNSON: And if REDD and carbon policy and climate change get her a bridge, she’s all for it. But, if the timber companies can do it – that’s okay, too.
+
+CHADWICK: The Minister of Forests and Wildlife, Mr. Ngolle-Ngolle, told us he’s never been to Ngoyla. He’s waiting to go, he says, until he has something to tell them. Soon, he hopes. But I would guess that he already knows about Madame Jacquette, and what she is expecting. What he and REDD are going to have to deliver. But…when?
+
+{% cue text="MUSIC: Papa Wemba “Aladji” from Et Viva La Musica (Sonodisc 1994)" %}
+
+{% cue text="SOUNDS OF STREET LIFE" %}
+
+CHADWICK: Whatever happens in Cameroon, the real big question of the Congo Basin Forest is going to be decided here: this is the Democratic Republic if Congo, and the city of Kinshasa. The Congo Basin is enormous; a huge amount of forest, but almost all of it is in this country.
+
+{% cue text="SOUNDS OF STREET" %}
+
+CHADWICK: Kinshasa calls itself the largest French-speaking city in the world, seven-and-a-half million people.
+
+JOHNSON: If you count Paris’s whole metro area, it has more.
+
+CHADWICK: But Paris doesn’t lie a few degrees south of the equator, hot and rainy, busy, poor, dangerous to walk around.
+
+JOHNSON: Not as dangerous as eastern Congo, site of what’s called Africa’s World War. The numbers vary: four million dead, five million dead, a 20-year conflict that still runs like a low-grade fever. Neighbor armies, militias, outsiders with greed and guns come to kill, rape and loot.
+
+CHADWICK: Congo is too rich in resources – minerals, gold, timber – for the outsiders to leave. Congo is too poor in civil development, maybe too corrupt, to drive them out. An actual government has been slowly reasserting itself in the last few years, but maybe it’s more an experiment than a process.
+
+JOHNSON: One healthy sign: many international aid agencies are no longer too scared to work here; another: there is money coming in. The Chinese are here very eagerly.
+
+CHADWICK: We went to see a man named John Flynn. He’s an American. He works for the U.S. Agency for International Development, and he runs a program called the Central African Regional Program for the Environment. They fund a lot of green conservation projects, they’re trying to figure out how to conserve the forest, how to manage the forest, how to keep the wildlife.
+
+{% cue text="SOUNDS OF STREET, CAR HORNS HONKING" %}
+
+CHADWICK: What would you say the rate of deforestation is in the Congo Basin?
+
+FLYNN: The rate of deforestation from at least1990 to 2000 is about one point five percent of the total canopy. And that’s less than point one five percent per year.
+
+CHADWICK: Isn’t that a fairly low rate of deforestation?
+
+FLYNN: It’s by far the lowest of any forested region of the world, including even the temperate forest. Really the principal cause of deforestation is small-scale farming – this is very small-scale, with small-scale villagers – and people harvesting wood for fuel, for charcoal and firewood.
+
+CHADWICK: This is key to understanding carbon and the Congo Basin. A lot of people cut a little forest for small farms but there is hardly any commercial use, no logging. There is no big local market for timber, and it costs too much to get logs out of here to sell internationally. The forest is not being cut, which is the good news, also in some way the bad news.
+
+JOHNSON: First, the good: we’re back with the American, John Flynn, who works for USAID, which funds the Central African Regional Program for the Environment, CARPE.
+
+CHADWICK: Is it an irony that the Democratic Republic of Congo has been ignored that now, suddenly it has potentially an enormous resource?
+
+FLYNN: Not only an enormous resource, but it puts the Congo on world stage in a way it hasn’t really been in a positive way in its entire history. These are critical days ahead of us, ahead of this region, ahead of this country, ahead of maybe the entire humanity if I could be a little dramatic. Because what’s decided here and how things work over the next few years may well determine the future of our planet.
+
+CHADWICK: I made notes over conversations I’ve had with you in the last couple of days – I went back and looked at them – you told me the danger of REDD is that it will provide disincentives.
+
+FLYNN: Any time you have a massive shift of the ground, it creates a lot of distortions in the system that’s not ready for all this attention yet. And one of my concerns has been that Central Africa needs time to get ready for this system, whatever it might be.
+
+![At the edge of a forest clearing in southeast Cameroon, a palm frond curtain marks the entrance to a sacred site of the traditional Baka people. This site is near an abandoned village. (Photo: Alex Chadwick)](https://loe.org/images/content/100402/IMG_8777.jpg)
+
+JOHNSON: Remember the ‘not cutting the forest equals bad news’ flag from a moment ago? Here’s how a history of benign forestry could be bad for Congo:
+
+CHADWICK: Your world fundamental goal is cut ongoing carbon emissions. Your REDD method is pay to reduce deforestation. So, look: Brazil cuts a lot of trees; it qualifies for big payments that actually will effect emissions in the atmosphere, which is what you want. And Congo cuts very few trees, so it qualifies for…what?
+
+{% cue text="SOUNDS OF KINSHASHA STREET" %}
+
+JOHNSON: UN climate negotiators have debated this for a while and more or less conclude that paying Brazil for bad behavior, and ignoring Congo’s good behavior makes no sense. They’re working on it.
+
+FLYNN: Something like this, we have to be thinking very long term.
+
+CHADWICK: John Flynn, the USAID man in Kinshasa.
+
+FLYNN: We’re not used to thinking long term in the United States, and we’re certainly not thinking long term most of the time in Africa. So it’s ushering in a whole new way of doing business, a whole new light on this region that’s been kind of shrouded. And I think it’s going to be a positive thing, but we have to be careful.
+
+CHADWICK: That’s John Flynn, a USAID official working in Kinshasa in the Democratic Republic of Congo. If he’s right about our human aversion to long-term thinking, and climate is all long term, maybe – maybe nothing happens until climate becomes crisis.
+
+{% cue text="MUSIC: Papa Wemba “Bravo Cathy” from Et La Musica Viva (Sonodisc 1994)" %}
+
+CURWOOD: This is a special report on REDD and the Congo Basin from Alex Chadwick. Our story on how climate change policy could work in the world’s second largest tropical forest continues in a minute. Stay tuned to Living on Earth.
+
+ANNOUNCER: Support for the environmental health desk at Living on Earth comes from The Cedar Tree Foundation. Support also comes from the Richard and Rhoda Goldman Fund for coverage of population and the environment. And from Gilman Ordway for coverage of conservation and environmental change. This is Living on Earth on PRI – Public Radio International.

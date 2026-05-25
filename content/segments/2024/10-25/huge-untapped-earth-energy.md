@@ -1,0 +1,55 @@
+---
+title: Huge Untapped Earth Energy
+slug: huge-untapped-earth-energy
+date: '2024-10-25'
+category: Segments
+megaphone_id: LOE8491447481
+image_url: https://loe.org/content/2024-10-25/GEOTHERMAL_iceland.jpeg
+image_caption: 'Pictured above is a geothermal feature in Mývatn Iceland. Geothermal energy close to the surface produces over a quarter of Iceland''s total electricity. (Photo: Courtesy of Jamie Beard)'
+summary: The heat within Earth’s crust could become a major source of always-on, carbon-free, renewable geothermal electricity thanks to the emergence of fracking technology that can drill now as much as six miles below the surface and reach hot zones. Jamie Beard is the founder of Project InnerSpace and joins Host Paloma Beltran to explain why a partnership between the oil and gas and geothermal industries could bring transformational change to the energy sector worldwide.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=24-P13-00043&segmentID=4 -->
+
+## Transcript
+
+BELTRAN: Earth’s crust holds an abundant supply of heat that can be turned into electricity through geothermal technology. So far geothermal power generation has been mostly limited to volcanic areas like Iceland, where that heat is easy to access. But advances in deep drilling technology are revolutionizing the field worldwide. Back in 2006, research led by MIT for the national labs pointed to the huge opportunity of this deep geothermal as an always-on renewable that some say could be a game-changer for the climate. And recently the Interior Department green-lit the massive Fervo Energy project in Utah that should produce as much as 2 gigawatts, enough to power more than 2 million homes. Joining us now is Jamie Beard, the founder of Project InnerSpace, which aims to kickstart geothermal with drilling expertise from oil and gas. Jamie, welcome to Living on Earth!
+
+BEARD: Hi, Paloma, thanks for having me.
+
+BELTRAN: How would you describe the current state of geothermal energy in the United States?
+
+BEARD: Well, the current state is really exciting. Geothermal has been pretty sleepy in the United States, and quite frankly, globally, if you look at geothermal development in the world, because geothermal is limited geographically in where you can do it in the hydrothermal sense, but also just because there has not been a lot of awareness about geothermal and the opportunity that it presents. And because of that, there's not been a whole lot of investment in the space. There's not been a whole lot of interested, you know, parties that want to do projects. And that's changing really rapidly in the United States, where now we have a lot of stakeholders interested in developing geothermal projects. Technology companies are engaging in geothermal wanting to produce geothermal energy to power data centers, and there's also a lot of interest coming out of the oil and gas industry now in geothermal. So we've kind of entered this renaissance period in the United States and, quite frankly, globally, for geothermal. So it's getting quite exciting.
+
+BELTRAN: And what would you see as the potential for geothermal in our energy landscape, especially when it comes to the idea of base load power?
+
+BEARD: Well, so most folks are aware when it comes to solar and wind, that they're intermittent, right? So they they're not on all the time. Geothermal doesn't have that issue. So geothermal, once you develop it, and you build a power plant, it's got a really high, what they call capacity factor, meaning how much it's on, and it doesn't really depend on when the sun is shining and when the wind is blowing, it's just always there. And you can even ramp it up and down, depending on energy demand at any given time. And that makes geothermal quite exciting when you look at particularly critical infrastructure and needs like data centers that they really depend on firm clean power, and they need a lot of it to service their demand. So geothermal as a base load is a really exciting prospect. Geothermal as a, you know, a heating and cooling application is also a really exciting prospect. So, you know, there are a lot of really interesting areas to explore in geothermal development.
+
+BELTRAN: So just to be clear, this is not your wwmother's backyard geothermal used for home heating and cooling. How deep are we talking about here for the next generation of geothermal?
+
+BEARD: Yeah, so... If you are familiar with geothermal, you very well may be familiar with geothermal heating and cooling for houses, and that's been around. So a lot of folks have what they call shallow or direct use geothermal heating systems and cooling systems, and those are great. We should absolutely grow that space too. But that is indeed not what we're talking about when we're talking about next generation geothermal. Not necessarily. What we're talking about is drilling for geothermal energy at depths at least as deep as we drill for oil and gas currently. So you're talking about between 10 and 30,000 foot depths, so pretty deep and oil and gas drilling depths are likely as far as we need to go in terms of depth for the next decade or so. Eventually, geothermal we will need to advance to very deep, very hot resources if we want to keep advancing the ball. But there is an enormous amount of developable geothermal energy at depths that we're already used to drilling within the oil and gas industry. So let's go get those first right like that's the low hanging fruit that we need to aim for.
+
+BELTRAN: You know, since this system involves deep drilling similar to the kind used in oil and gas extraction, what opportunities do you see for getting the fossil fuel industry on board with the clean energy transition?
+
+BEARD: I think that is the single biggest opportunity that we have in geothermal right now is leveraging the capabilities, the technologies and the workforce of the oil and gas industry. Also the global scale of the oil and gas industry, and as we look to going fast in finding Climate Solutions and going fast in producing clean energy, the oil and gas industry, very well may be the golden ticket to that, right, because they already have a highly skilled and trained workforce that knows how to drill, right? And it's just a matter of turning a lot of that workforce and energy and technologies that are coming out of the oil and gas industry to drilling for heat instead of drilling for oil and gas. So, massive opportunity, and in terms of the size of that opportunity, I mean, it's, quite frankly, mind blowing. Geothermal is currently sitting at 1% in estimates for global energy demand. I mean, it's almost nothing in most estimates. But if the oil and gas industry were to throw in on geothermal and really engage and we started drilling geothermal wells at the rate that we currently drill for oil and gas wells, so that's about 70,000 wells globally that we drill for oil and gas right now. And if we were to do that for geothermal between now and say, 2050, geothermal could supply almost 80% of the world's electricity demand and more than 100% of the world's heat demand. That's huge. It's a massive potential impact, but that impact is 100% reliant on the oil and gas industry really helping grow and scale the technology over the coming decades.
+
+![Oil and gas drill rig, Pennsylvania. Organizations like Project InnerSpace research and advocate for an oil and gas drilling technology transfer into deep geothermal. (Photo: Courtesy of Jamie Beard)](https://loe.org/content/2024-10-25/GEOTHERMAL_rig.jpeg)
+
+BELTRAN: So, just to be clear, Jamie, for people who are not familiar with geothermal technology, it doesn't involve fossil fuels?
+
+BEARD: Right! So with any energy technology, when you're drilling or building a power plant or manufacturing stuff you're gonna use energy to build that plant or to produce that energy project. So, unless we electrify everything, geothermal will probably produce some carbon emissions, because we're gonna have to build the plants, right? But geothermal, once it's developed and once it's producing power, it's using the heat that's in the earth to produce clean electricity and clean heat. So, in that way, it's a virtually carbon free clean energy source. Now, some next generation geothermal concepts actually adopt hydraulic fracturing, or fracking technology from the oil and gas industry. So, it's a technique where you're applying pressure to a well to essentially make more space in the rock. So you're cracking rocks open to make pore space in them. And if you're taking that technology from the oil and gas industry and transferring it into geothermal, you're leaving the oil and gas part behind and just using the technology to help the geothermal system work better.
+
+BELTRAN: So Jamie, what makes you so confident we can scale up this technology?
+
+BEARD: So, I love the question, and my answer would be the shale boom. So if folks remember back, you know, 15 or so years ago when natural gas and the natural gas boom, what the oil and gas industry calls unconventionals, had not happened yet, and folks were talking about how we had reached peak oil and peak gas, and it was all downhill from here. And then all of the sudden, within a decade, what we call colloquially the shale boom, occurred, massive flourish of technological development, massive advances in the oil field and in natural gas production techniques. And we went from talking about peak oil and peak gas to the US becoming the world's leading natural gas and oil producer in the world, right? And that happened within a decade, right? And if we look at that transformation, I mean massive geopolitical transformation within a decade in the energy landscape, and we look at the capabilities of the oil and gas industry to transfer all of that energy and speed into geothermal, that's a really exciting prospect. We're talking about the next shale boom, but it's not gas and it's not oil, it's geothermal. We've done it before. We can do it again.
+
+BELTRAN: Jamie Beard is the founder and executive director of Project InnerSpace. Jamie, thank you so much for joining us today.
+
+BEARD: Oh, it's been such a pleasure. Thanks for having me.
+
+## Related Links
+
+- [Learn more about Utah FORGE the laboratory sponsored by the Department of Energy (DOE) for developing Enhanced Geothermal Systems](https://utahforge.com/)
+- [Utah Geological Survey | “Utah’s Energy Renaissance: Geothermal Energy Development in Utah”](https://geology.utah.gov/map-pub/survey-notes/energy-news/energy-news-geothermal-energy-development-in-utah/)
+- [The Washington Post | “U.S. approves mega geothermal energy project in Utah"](https://www.washingtonpost.com/climate-solutions/2024/10/17/geothermal-energy-fervo-utah/)
+- [More on the Enhanced Geothermal Shot initiative](https://www.energy.gov/eere/geothermal/enhanced-geothermal-shot)
+- [Learn more about MIT’s seminal research paper on the potential of deep geothermal heat to power huge amounts of baseload electricity.](https://energy.mit.edu/wp-content/uploads/2006/11/MITEI-The-Future-of-Geothermal-Energy.pdf)

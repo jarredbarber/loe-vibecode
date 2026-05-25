@@ -1,5 +1,6 @@
 ---
 title: Do Aliens Speak Physics?
+slug: do-aliens-speak-physics
 date: '2026-01-30'
 category: Segments
 megaphone_id: LOE1249705343

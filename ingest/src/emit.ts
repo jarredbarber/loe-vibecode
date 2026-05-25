@@ -102,6 +102,11 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
 
         const fm = frontmatter({
             title: doc.title,
+            // Explicit slug ensures Pelican's URL output matches the dedup'd
+            // filename, even when two segments on different shows share a
+            // title that would otherwise slugify to the same value (e.g.
+            // 'Fall Gardening Tips' running in multiple years).
+            slug,
             date: show.date,
             category: 'Segments',
             megaphone_id: doc.megaphoneId,

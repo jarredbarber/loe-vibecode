@@ -1,5 +1,6 @@
 ---
 title: Iran War and the Price of Oil
+slug: iran-war-and-the-price-of-oil
 date: '2026-03-20'
 category: Segments
 megaphone_id: LOE5344109478

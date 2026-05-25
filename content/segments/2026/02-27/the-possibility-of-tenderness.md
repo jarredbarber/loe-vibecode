@@ -1,5 +1,6 @@
 ---
 title: The Possibility of Tenderness
+slug: the-possibility-of-tenderness
 date: '2026-02-27'
 category: Segments
 megaphone_id: LOE9490003862

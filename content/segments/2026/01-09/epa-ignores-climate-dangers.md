@@ -1,5 +1,6 @@
 ---
 title: EPA Ignores Climate Dangers
+slug: epa-ignores-climate-dangers
 date: '2026-01-09'
 category: Segments
 megaphone_id: LOE5892875398

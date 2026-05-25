@@ -1,0 +1,74 @@
+---
+title: Toxic Toll of the War in Afghanistan
+slug: toxic-toll-of-the-war-in-afghanistan
+date: '2023-10-13'
+category: Segments
+megaphone_id: LOE6238208308
+image_url: https://loe.org/content/2023-10-13/AFGHANISTAN_stream.jpg
+image_caption: 'Outside the Jalalabad airfield, residents wash in the stream that flows from a hole in the high wall surrounding the base. (Photo: Lynzy Billing)'
+summary: The 20-year U.S. war in Afghanistan brought tens of thousands of direct casualties but also dangerous pollutants that survivors are still living among. Lynzy Billing reported from Afghanistan for Inside Climate News and New Lines Magazine and joins Host Jenni Doering to describe the hazards and health problems some Afghans link to the war.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=23-P13-00041&segmentID=5 -->
+
+## Transcript
+
+DOERING: The war in Afghanistan was the longest the U.S. military has engaged in with the last of American troops withdrawing in 2021. Over twenty years, the U.S. military dropped tens of thousands of bombs in Afghanistan and more than 70,000 Afghan and Pakistani civilians died as a direct result of the war. The prolonged conflict also left many Afghan people without adequate food, clean water, and shelter, making them vulnerable to natural disasters including the devastating earthquakes that have taken thousands of lives in recent days. But there is another cost to the war that is often overlooked. Afghan civilians are now living among dangerous pollutants left behind in the wake of the fighting, according to reporting from Lynzy Billing. She’s a freelance journalist who was born in Afghanistan and dug into this for our media partner Inside Climate News and New Lines Magazine. Lynzy, welcome to Living on Earth!
+
+BILLING: Thank you for having me.
+
+DOERING: So we often think of the direct injuries that bombs and other weapons can inflict during a war, but they can also leave behind dangerous chemicals. So what kinds of toxic substances can munitions have?
+
+BILLING: Yeah, I think that beyond the obvious impacts of the bombs and weapons during the American war in Afghanistan, there was a longer lasting effect that came with the war. And that really is the chemicals and residue attached to these weapons and munitions. If we're speaking about bombs alone, tens of thousands of bombs were dropped on Afghanistan over the last 20 years. And most of these included explosives like RDX. And RDX has been described as being potentially carcinogenic. You know, those landmines that are still in waterways, there's a whole array of munitions that are left behind. But it's also the bases themselves, the military bases, and their waste disposal practices, and their activities during the war that also left behind the environmental effects that really we haven't had a chance to look at properly until now. I think I really wanted to get away from just talking about the weapons that are still left half buried or uncovered and really look at the longer lasting health impacts from the war in general, which are in soil and are in water and in the air and in people's food and what they eat and drink from on a daily basis.
+
+DOERING: You reported that the US military consistently dumped sewage into agricultural fields where Afghan people were growing their food. What pollutants were in that sewage, and what kinds of impacts did that have?
+
+![Many residents living near US military bases in Afghanistan say tankers would dump sewage waste directly into waterways. (Photo: Lynzy Billing)](https://loe.org/content/2023-10-13/AFGHANISTAN_sewage.jpg)
+
+BILLING: Yeah, one of the things that kept coming up around the three bases that I visited, which were in Nangarhar, Kandahar, and Parwan provinces, these were three of the largest US bases in the country, and residents living around these bases, or farmers, it was a lot of agricultural land around the fields, and farmers working in that land were telling me the same story, which was that US military contractors were bringing tankers out to their fields and dumping sewage or wastewater in them. And they all relayed that either the sewage was blue, or it was gray. And the gray wastewater and black wastewater comes from toilet facilities at the base. So it could be like sinks and showers. And it's like grey water, and it has a residue in it, which contains phosphates and other chemicals as well. But the blue that they were seeing was a dye that comes from portable toilets, which you know, like also has an array of chemicals that can have different levels of toxicities that are harmful to human health as well. So I started looking at studies that were done on wastewater and sewage sludge in other countries where, for example, sewage would go through a treatment process. And even that sewage had chemicals in it that couldn't be removed, such as PFAS, which are also known as forever chemicals, just because they have a really long shelf life. And those chemicals have been linked to a whole array of health problems: kidney problems, cancer. So I started to realize that this sewage and wastewater that was being dumped in the fields was, you know, incredibly harmful to the farmers who were working there. And, you know, children that were working there as well, just because, you know, they had talked about how it'd been dumped for 20 years.
+
+![Sewage waste can contain toxic substances like PFAS, phosphates, and artificial dyes. (Photo: Lynzy Billing)](https://loe.org/content/2023-10-13/AFGHANISTAN_sewagewaste.jpg)
+
+DOERING: Yeah, and those PFAS forever chemicals, you know, municipalities here in the US are spending many millions of dollars per facility to install systems that remove those chemicals. And we know that military bases, you know, often use these chemicals in their operations. So I can only imagine how much more difficult it would be in Afghanistan.
+
+BILLING: Yeah, I mean, I spoke with, as well as the residents living around the bases, I spoke with contractors who were tasked with the job of hauling this waste off the bases and finding somewhere to dump it. And they just relayed a really big problem just because of the amount of waste the bases were producing. I mean, some of them had 40,000 troops on them at one point. And there was just so much waste, it couldn't all be burned in a burn pit. It had to go somewhere. And one of the other areas aside from fields for sewage was waterways. And for the contractors, one of the reasons one relayed was that they could save on fuel if they found somewhere close by to dump. And in terms of those in charge at the bases, the waste really wasn't their priority at the time, and they were fighting a war, and the responsibility really went with the contractors to come up with their own solution of where to put the waste. No one was really checking it or thinking about any long term impacts, I think at the time. And there was no laws or any prohibitions, really, from a US military perspective, or international perspective, that was stopping them from dumping in waterways and fields and land or burning in areas around, also.
+
+DOERING: A couple of years ago, when the US finally did pull out of Afghanistan, there was a lot of talk about how important it was, you know, this moral obligation that we had to help out some of the Afghans who had helped us during the war, and who had, you know, worked with the US military, interpreted for the US military, done a whole range of different things. So some of those people were able to come to the US and flee the Taliban. But it seems like there's kind of a lack of understanding of the obligation that we have to protect Afghans from the environmental degradation that we've caused there.
+
+BILLING: Yeah, absolutely. I don't think there's any responsibility from the American military to protect Afghans. And I think that one of the reasons that we don't know much about the US military waste or it's not shared is that they're not required to share what they do with their waste. Like, if it comes to the Paris Agreement, they're not required to share what fuel they use, and how much they're really emitting greenhouse gases, for example. There's this whole black box on responsibility just because they don't actually have to share that information. And I think on top of that, there's actually a DOD prohibition that means that the US military doesn't actually have to clean up its bases when it leaves from a country overseas. And that it's then the host nation's responsibility to clean up. And you know, you look at the amount of bases in Afghanistan and the size of them. They are still sitting exactly the same today as August 2021 when America left. You can see it on satellite today, you can still see the amount of scrap and broken tanks and engines.
+
+And then on top of that, you can still see the burn pits, some as big as three football fields still scorched and charred from how they were left. So there was a lack of care when they were there at the bases for both their own service members and for the entire Afghan population, but then a definite lack after they left because they don't need to, there's no requirement for them to care about the environmental damage that they had on the country.
+
+DOERING: Yeah. What kinds of health impacts did you see on the ground while in Afghanistan? Can you tell us a story or two from Afghan civilians that really stood out to you?
+
+BILLING: Yeah, I mean, there was a lot, a lot of stories. I spoke, I spoke to a lot of people. One thing, though, that does come up is that there's definitely a pattern with the same health problems, which very much mirror the health problems of US service members who were returning from deployment. One around Jalalabad airfield, there was a farmer and his name's Khan Mohammad. He had been working there for 20 years in a field just by the base, and his whole family helped him work in this field. And he had two sons, who were five and seven, who both have kidney problems. He had another son who had other health problems, their cousins had kidney problems, his mother had a skin rash, a persistent skin rash, and she was working the land as well in that field. And so you have this whole family working in this field where tankers are dumping sewage waste, and they're coming down with really serious kidney problems, even at the ages of five and seven.
+
+DOERING: Wow.
+
+BILLING: And they really believe that they're sick from the waste being dumped in their fields. But the reality is, is that they can't afford the medical treatment they need, or they can't afford to constantly go and see doctors. And there's really not much they can do. You know, and then you'd go to speak with a farmer next to Khan Muhammad. There was another one next to him called Wali Rahman. He had the exact same problem. He had the same kidney problems. And so doctors might say, oh, it's from the water. But then the doctors also in that area know what's happening in the area. And they know the waste is being dumped there. And they say, no, there's a pattern here. People are getting sick from the same things. They're drinking and washing in the same rivers. They're working on the same land, they're eating the food they grow in the fields. It's all connected.
+
+DOERING: Yeah. And like you say, they don't really have the resources to get the medical help they need. I mean, I think in your story, there was somebody who maybe would need a kidney transplant at some point. But that's several thousands of dollars.
+
+BILLING: Yeah. And also, you know, there's people in areas that didn't have the possibility to travel to get the medical treatment they needed before because there was ongoing fighting going on, as well. I mean, a lot of people traveled to Pakistan to get treatment just because Afghanistan doesn't have the resources or medicines available for it as well.
+
+DOERING: I think in your story, you came upon a couple of kids who were collecting scrap metal from one of the piles of just waste that was left behind. Can you tell us about that?
+
+BILLING: Yeah, they were, had a little shop across the road from Kandahar airfields. And they'd moved there after their father had died. And they were making a living off a scrap metal collecting. And there's, outside of Jalalabad, and Kandahar and Bagram are just rows and rows of little shops, with a whole array of scrap in them, all of which comes from the base. And these two boys, you know, they had everything from broken motors and seats to Humvees to grenades, like whole grenades still, and--
+
+DOERING: Live grenades?
+
+BILLING: Live grenades, still like with the key hole. And, you know, unexploded artillery shells. So there's all these dangers of just them collecting these things just on top, like in the kind of backdrop of all these other things going on, you know, during the war. And there are a lot of the scrap metal collectors, not just in Kandahar, had these kinds of persistent skin rashes and problems as well. And the doctors were telling me about this also. And this is just because of the materials that they're dealing with on a daily basis.
+
+DOERING: This is really heavy reporting, Lynzy. What keeps you going back to Afghanistan to report stories like this?
+
+![Anwar has worked as a scrap worker outside Bagram airfield for eight years. He has had a rash on his hands for six years and believes it is caused by his work. (Photo: Lynzy Billing)](https://loe.org/content/2023-10-13/AFGHANISTAN_scrapworker.jpg)
+
+BILLING: I think I'll keep going back to Afghanistan until I can't get in anymore. And it is getting harder to get in. I think that Afghanistan is a country which the effects of this kind of environmental damage and the effects of the war in general, they didn't go away when the US left in 2021. And they're still there, and people are still there waiting for answers and some level of accountability. And this is an American war in Afghanistan. And I think, especially Americans should really know about what happened there and what happened with these waste disposal practices. And also just because the US military is in so many countries around the world using the exact same waste disposal practices, and right now there is no law saying they have to clean up, there is nothing that's stopping it.
+
+DOERING: Lynzy Billing is a freelance journalist who wrote about this for Inside Climate News and New Lines Magazine. Thank you so much, Lynzy.
+
+BILLING: Thank you so much for having me.
+
+## Related Links
+
+- [Read Lynzy’s full story on ICN](https://insideclimatenews.org/news/25092023/war-in-afghanistan-devastated-the-countrys-environment/)
+- [And in New Lines Magazine](https://newlinesmag.com/reportage/how-americas-war-devastated-afghanistans-environment/)

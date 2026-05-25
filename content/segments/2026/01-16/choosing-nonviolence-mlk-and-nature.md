@@ -1,5 +1,6 @@
 ---
 title: 'Choosing Nonviolence: MLK and Nature'
+slug: choosing-nonviolence-mlk-and-nature
 date: '2026-01-16'
 category: Segments
 megaphone_id: LOE1821745402

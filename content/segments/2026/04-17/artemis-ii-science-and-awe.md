@@ -1,5 +1,6 @@
 ---
 title: Artemis II Science and Awe
+slug: artemis-ii-science-and-awe
 date: '2026-04-17'
 category: Segments
 megaphone_id: LOE8049413096

@@ -1,5 +1,6 @@
 ---
 title: PFAS Still at Pittsburgh Airport
+slug: pfas-still-at-pittsburgh-airport
 date: '2026-03-13'
 category: Segments
 megaphone_id: LOE2114664083

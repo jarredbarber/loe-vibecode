@@ -1,5 +1,6 @@
 ---
 title: China Making Green Aluminum
+slug: china-making-green-aluminum
 date: '2026-05-15'
 category: Segments
 megaphone_id: LOE3011026034

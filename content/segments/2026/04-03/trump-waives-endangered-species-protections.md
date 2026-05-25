@@ -1,5 +1,6 @@
 ---
 title: Trump Waives Endangered Species Protections
+slug: trump-waives-endangered-species-protections
 date: '2026-04-03'
 category: Segments
 megaphone_id: LOE7605379997

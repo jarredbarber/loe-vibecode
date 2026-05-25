@@ -1,5 +1,6 @@
 ---
 title: A City on Mars and the Perils of Settling Space (Cont'd)
+slug: a-city-on-mars-and-the-perils-of-settling-space-contd
 date: '2026-01-02'
 category: Segments
 megaphone_id: LOE5237606633

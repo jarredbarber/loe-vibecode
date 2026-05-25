@@ -1,5 +1,6 @@
 ---
 title: Boundary Waters Mining Threat
+slug: boundary-waters-mining-threat
 date: '2026-04-24'
 category: Segments
 megaphone_id: LOE5847594697

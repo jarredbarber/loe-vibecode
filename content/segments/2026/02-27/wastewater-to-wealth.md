@@ -1,5 +1,6 @@
 ---
 title: Wastewater to Wealth
+slug: wastewater-to-wealth
 date: '2026-02-27'
 category: Segments
 megaphone_id: LOE9188623546

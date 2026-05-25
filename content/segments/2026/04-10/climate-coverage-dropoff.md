@@ -1,5 +1,6 @@
 ---
 title: Climate Coverage Dropoff
+slug: climate-coverage-dropoff
 date: '2026-04-10'
 category: Segments
 megaphone_id: LOE2413218622

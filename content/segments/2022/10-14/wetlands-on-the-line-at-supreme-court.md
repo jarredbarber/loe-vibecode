@@ -1,0 +1,50 @@
+---
+title: Wetlands On the Line at Supreme Court
+slug: wetlands-on-the-line-at-supreme-court
+date: '2022-10-14'
+category: Segments
+megaphone_id: LOE2886167926
+image_url: https://loe.org/content/2022-10-14/SCOTUS_lake.jpg
+image_caption: 'The Sackett property is located about 300 feet away from Idaho’s Priest Lake, known for its clear waters. (Photo: Lee Stone, Flickr, CC BY-NC-ND 2.0)'
+summary: "In 1972, Congress passed the Clean Water Act, the first significant federal regulation to protect the waters of the United States, or “WOTUS.” The rules that define WOTUS, however, have often been contested over the years.\_Now, the Supreme Court case Sackett vs. EPA brings the waters of the United States rules back to court. Pat Parenteau, Emeritus Professor of Law at Vermont Law School, joins Host Bobby Bascomb to discuss how the case could influence national policy."
+---
+<!-- source: https://loe.org/shows/segments.html?programID=22-P13-00041&segmentID=1 -->
+
+## Transcript
+
+DOERING: From PRX and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth, I’m Jenni Doering.
+
+BASCOMB: And I’m Bobby Bascomb.
+
+In 1972, Congress passed the Clean Water Act, the first significant federal regulation to protect the waters of the United States, or “WOTUS.” Years later the EPA established rules outlining when various bodies of water–like streams, wetlands, lakes, and ponds–would be protected under the law. Those rules have at times been murky to navigate and subject to revisions. Notably, in 2015, the Obama administration expanded federal protections to include roughly 60% of the country’s waterways. The Trump administration later proposed a more narrow, less protective standard that was challenged in court and ultimately tossed out. Now the Waters of the United States rule is back in court with the Supreme Court case Sackett vs EPA. For more on this case and what it could mean for national policy, we’re joined now by Pat Parenteau, emeritus professor of law at Vermont Law School. Pat, welcome back to Living on Earth!
+
+![The Environmental Protection Agency maintains that the Sackett property is located on a wetland and therefore subject to federal jurisdiction. The Sacketts have challenged this assertion in the courts for the past fourteen years. (Photo: Napoleon Benito, Flickr, CC BY-NC-ND 2.0)](https://loe.org/content/2022-10-14/SCOTUS_wetland.jpg)
+
+PARENTEAU: Thank you Bobby, good to be here! So, the Sacketts are a couple that live in northern Idaho. They bought property adjacent to Priest Lake, and they wanted to build a house on this lot. And it turns out the property has a wetland on it. And so EPA issued a compliance order telling the Sacketts they had to stop and apply for what's called a Corps of Engineers permit. And instead of complying, the Sacketts brought a lawsuit, saying that the Sacketts should be able to go to court and challenge the assertion of federal jurisdiction. And in the first round of this case, the US Supreme Court ruled in the Sacketts' favor and gave the Sacketts the right to go to federal district court in Idaho. And then the Idaho District Court ruled in EPA's favor and said, “Yes, it's a wetland because it's both adjacent to Priest Lake—because it's only 300 feet away—and it's adjacent to an unnamed tributary, which runs into a creek, which then runs in to the lake. The Sacketts then took the case to the Ninth Circuit Court of Appeals, and the Ninth Circuit upheld the District Court. But the Ninth Circuit limited its ruling to the fact that the wetland was adjacent to this unnamed tributary. It did not address the question of whether it would be jurisdictional merely by virtue of the fact that it was adjacent to the lake. And the Ninth Circuit further said, the basis upon which EPA can regulate this wetland is because of what we call a "significant nexus." So this significant nexus test for determining when a wetland is subject to the Clean Water Act has become the focal point for many, many cases across the country.
+
+BASCOMB: Now, from what I understand, the EPA is right now in the process of trying to clarify the rules so they can be easier to understand. Despite that, though, the Supreme Court has decided to hear this case now. What do you make of that timing?
+
+PARENTEAU: EPA and the Corps are right now as we speak, trying to finalize a rule to replace the Trump rule. And the Supreme Court could have stayed its hand and waited to see exactly what this new rule was saying about all these tests. Frankly, that would have been a much preferable way to address the question than looking at it through the very narrow lens of this one piece of property in northern Idaho, right? But the Supreme Court did not stay its hand and we do not expect that they will. We are expecting a decision in the Sackett case probably next year in the spring. You know, once again, just the way we saw the court last term getting out in front of EPA adopting greenhouse gas regulations, we have a very activist Supreme Court reaching out and taking a case to review this critical question of when are wetlands protected at the same time the agencies are trying to finalize a rule that will at least go some way towards clarifying this very muddy situation that we have: clarifying what adjacency means, clarifying what significant nexus means, clarifying which waters are not protected, and which waters are protected. So that's the kind of court we have now, you know, a court that's not willing to wait for the agencies to finally resolve any of these questions. They're going to jump in and issue some kind of a decision.
+
+![While the protection of wetlands is at the core of the Sackett case, environmental experts claim the Supreme Court’s ruling in the Sackett case could have broader implications for the protection of all waters of the United States, or WOTUS. (Photo: Matt Wade, Flickr, CC BY-SA 2.0)](https://loe.org/content/2022-10-14/SCOTUS_court.jpg)
+
+BASCOMB: Well, of course, there's much more at stake here than this one family and whether or not they can build a house where they want to. What are the possible ramifications if the court sides with the Sacketts? How might this ruling be interpreted more broadly?
+
+PARENTEAU: Yeah, it has major implications for wetlands protection and water quality in general, even though this case is about a wetland on a property in Idaho. The underlying question, really, and the bigger question is, how far can Congress go in regulating activities that impact on water quality? And we know that the conservative justices are skeptical, both about the authority of agencies to regulate broadly, but also—and this came up a little bit in the argument—also the power of Congress under the Constitution to regulate activities under the Commerce Clause of our United States Constitution.
+
+BASCOMB: You know, President Biden's Supreme Court Justice pick, Justice Ketanji Brown Jackson will be on the bench for this case, but the court still has a very solid conservative majority. Based on what you've seen so far, how do you think Sackett versus EPA is going to play out here?
+
+PARENTEAU: Well, going into the argument, most of us that have been close watchers of this Clean Water Act question and, of course, this new Supreme Court were fearful of a really bad decision for wetland and water quality protection. Coming out of the argument, we were surprised at how tough the questions were on the Sackett lawyer. Even the conservative justices were skeptical of some of the arguments that the Sacketts were making. The three justices in the sort of liberal wing, if you will, of the court, and that would include Justice Jackson, who was very, very active, by the way, in the argument, we have to count those three in favor of upholding federal jurisdiction. If we don't have them, then there's no chance. And so then you need two more. And my reading of the argument is the justices in the middle are going to be Roberts, Justice Barrett, and even potentially Justice Kavanaugh. All three of them were asking the kinds of questions that seem to be leaving the door open to some form of federal regulation of wetlands when they're in this close proximity to a major lake system. And there were a lot of questions about—legitimate questions, by the way—about, how is a landowner supposed to know if they have property that's subject to federal law? So, I would not be surprised to see an opinion spelling out in some more detail, which we'll have to wait to see, just how close the wetland and the larger water body must be not only geographically, but how are they connected? How does activity on the property containing the wetland affect the water quality of the larger water body? That's what I think we're going to see: some probably new test to try to give landowners some idea of when they can expect to be regulated.
+
+![Over the last three presidential terms, the precise scope of WOTUS, protected under the Clean Water Act of 1972, has been fiercely debated. (Photo: Tim Lumley, Flickr, CC BY-NC-ND 2.0)](https://loe.org/content/2022-10-14/SCOTUS_wotus.jpg)
+
+BASCOMB: Pat Parenteau is an emeritus professor of law at Vermont Law School. Pat, thanks so much for your time today.
+
+PARENTEAU: Well, thank you very much, Bobby. It's been a pleasure.
+
+## Related Links
+
+- [Supreme Court of the United States  | “Sackett vs. EPA Oral Argument Transcript: 10/03/2022”](https://www.supremecourt.gov/oral_arguments/argument_transcripts/2022/21-454_8m59.pdf)
+- [Environmental Protection Agency  | “Summary of the Clean Water Act”](https://www.epa.gov/laws-regulations/summary-clean-water-act)
+- [Environmental Protection Agency  | “About ‘Waters of the United States’”](https://www.epa.gov/wotus/about-waters-united-states)
+- [Environmental Protection Agency  | “The Navigable Waters Protection Rule: Definition of ‘Waters of the United States’: 2020”](https://www.epa.gov/sites/default/files/2020-01/documents/navigable_waters_protection_rule_prepbulication.pdf)

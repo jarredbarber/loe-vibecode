@@ -1,5 +1,6 @@
 ---
 title: 'Extraction: The Frontiers of Green Capitalism'
+slug: extraction-the-frontiers-of-green-capitalism
 date: '2026-04-24'
 category: Segments
 megaphone_id: LOE3079052166

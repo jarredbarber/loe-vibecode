@@ -1,0 +1,58 @@
+---
+title: Sounds of Winter
+slug: sounds-of-winter
+date: '2022-02-11'
+category: Segments
+image_url: https://loe.org/content/2013-02-08/bigstock-Beautiful-winter-landscape-wit-26902766.jpg
+image_caption: 'A beautiful winter landscape. (Photo: Bigstockphoto)'
+summary: Listen closely. The frigid months of winter have a sound uniquely their own. As commentator Sy Montgomery points out, the cold and gray season’s bareness and rigidity help make its sounds vibrant.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=22-P13-00006&segmentID=7 -->
+
+## Transcript
+
+BASCOMB: Winters can be cold and gray. But winter can also have a silver lining for those who take the time to listen. So from the wintery reaches of New Hampshire Living on Earth commentator Sy Montgomery explains.
+
+{% cue text="CHICKADEE CHIRPING AND WINGS FLAPPING" %}
+
+MONTGOMERY: At no other time of the year are sounds so sharp. The scolding winter call of the chickadee. Wind howling through oaks, or whispering through pines. The clarion call of wind chimes, piercing as the cold itself.
+
+{% cue text="XYLOPHONE-LIKE SCALE OF WIND CHIMES SOUNDING" %}
+
+MONTGOMERY: Hearing may be the richest sense. Helen Keller wrote she felt its absence a handicap far worse than blindness. As if to make up for winter’s void – of colors muted, touch numbed, and scents sealed – winter’s sounds are the most vibrant.
+
+{% cue text="WHIZZ OF RUBBER SNOW TUBE SLOWING TO A STOP, CHILDREN LAUGHING" %}
+
+MONTGOMERY: Sound travels further over frozen ground. Frozen surfaces are rockhard, so they don't absorb sound – they reflect it. And when the atmosphere above is warmer than the ground, sound bounces back toward the ground. Winter’s freeze is like having a sound reflector in the sky.
+
+{% cue text="SCRAPING, RHYTHMIC GLIDE OF SKATES ON ICE" %}
+
+MONTGOMERY: Winter’s bareness amplifies and clarifies its voices. Spring and summer are crowded with ambient noise: the sounds of birds and insects, the rustle of animals in the woods, the whisper of grasses and leaves – not to mention the hubbub of so many people and their machines.
+
+{% cue text="CREAK OF SWAYING TREE" %}
+
+MONTGOMERY: In summer, leaves absorb sound, especially the higher frequencies. But now, the trees are bare, summertime’s murmurs are hushed, and snow is covered with hard ice crust. Sound slices through the air—stark, clear, pure.
+
+![The frozen land of ice and snow has a sound all its own. (Photo: Bigstockphoto)](https://loe.org/content/2013-02-08/bigstock-romantic-winterlandscape-22221539.jpg)
+
+{% cue text="CRUNCH OF FOOTSTEPS IN SNOW" %}
+
+MONTGOMERY: So this is the best time of year, I think, to go somewhere secluded – just to listen. Listen for the voice of the wind. The ancients said that Boreas, the north wind, loved a nymph who was changed into a pine tree. Boreas still rages and howls through oaks and maples and beech, but his voice is quite different when he speaks to his love.
+
+Listen to the voices of the trees. They creak like rusty hinges as they sway in the wind. Sometimes trees will even pop loudly – it can sound like fireworks – their wood expanding and contracting during sudden changes in temperature.
+
+Listen to the voice of the ice. On a lake, sometimes, you can hear the ice squeak, or crack, or even boom. Even safe, solid ice will make a cracking sound as it expands. Scary to an ice skater – but if you’re walking in the woods, the booming of a lake is like music.
+
+And remember, in winter, that one of the greatest rewards of listening can be silence. Orchestras know this. At the end of a performance of Mozart’s Fantasy in C Minor, a thousand ears strain for the last note.
+
+{% cue text="MOZART FANTASIE IN C MINOR" %}
+
+MONTGOMERY: Silences are different in winter, too. This is not the soft, glowing stillness of pre-spring, or the absorbing quiet of swimming underwater. No, winter’s silence, like its sounds, is piercing, clear and cleansing, like a shooting star, well worth seeking and savoring.
+
+{% cue text="MOZART FANTASIE IN C MINOR" %}
+
+BASCOMB: Sy Montgomery is the author of more than a dozen books including The Good, Good Pig, and The Soul of an Octopus. Her latest book called The Hawk’s Way will be out in May.
+
+## Related Links
+
+- [Sy Montgomery's website](http://symontgomery.com/)

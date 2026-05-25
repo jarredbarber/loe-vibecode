@@ -1,5 +1,6 @@
 ---
 title: $1 Billion to Abandon Offshore Wind
+slug: 1-billion-to-abandon-offshore-wind
 date: '2026-04-10'
 category: Segments
 megaphone_id: LOE4194023190

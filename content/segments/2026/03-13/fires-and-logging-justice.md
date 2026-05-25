@@ -1,5 +1,6 @@
 ---
 title: Fires and Logging Justice
+slug: fires-and-logging-justice
 date: '2026-03-13'
 category: Segments
 megaphone_id: LOE2859141311

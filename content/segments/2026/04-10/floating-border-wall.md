@@ -1,5 +1,6 @@
 ---
 title: Floating Border Wall
+slug: floating-border-wall
 date: '2026-04-10'
 category: Segments
 megaphone_id: LOE1887072497

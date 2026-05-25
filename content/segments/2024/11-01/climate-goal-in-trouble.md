@@ -1,0 +1,56 @@
+---
+title: Climate Goal in Trouble
+slug: climate-goal-in-trouble
+date: '2024-11-01'
+category: Segments
+megaphone_id: LOE4769297765
+image_url: https://loe.org/content/2024-11-01/UN_flags.jpeg
+image_caption: 'A recent report from the United Nations admits that the goal of keeping global warming to 1.5º Celsius may now be out of reach. (Photo: Xabi Oregi, Pexels.com, public domain)'
+summary: The UN says the current plans of nations to reduce global warming emissions would result in a destructive three degrees Celsius of warming above pre-industrial levels, far higher than the 1.5 C goal set by the Paris Climate Agreement. Bob Berwyn of Inside Climate News joins Host Jenni Doering to discuss the widening gap between these plans and the ambition that’s needed to prevent catastrophic climate impacts.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=24-P13-00044&segmentID=1 -->
+
+## Transcript
+
+CURWOOD: From PRX and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth. I’m Steve Curwood.
+
+DOERING: And I’m Jenni Doering.
+
+As the world prepares for the UN climate treaty summit COP29 in Azerbaijan, a trio of scientific reports is warning that we are headed for a destructive three degrees Celsius of warming above pre-industrial levels. That’s a far cry from the 1.5 degrees Celsius goal set by the Paris Climate Agreement in 2015. With 1.3 degrees of average warming so far, our planetary fever is already spawning more catastrophic storms, heat waves, and sea level rise. To meet the Paris goal, the world needs to cut global warming emissions by nearly half by 2030, and so far, we are way off track. The continued burning of fossil fuels and the destruction of forests now has global warming gas emissions higher than ever, and the current plans of the 198 nations in the treaty add up to only a paltry reduction of 2.6 percent. Bob Berwyn who follows climate negotiations for our media partner, Inside Climate News, is here and he explains what’s required to meet Paris.
+
+BERWYN: The annual reductions needed now are about 7.5% a year, and we're very far away from that. And each year that it doesn't drop, that percentage cut gets bigger and bigger, so we're sort of slipping away. And actually, one of the most interesting things in the three reports was a comment from senior United Nations officials who acknowledged, one of the first times that I've seen it in writing from the UN, that the 1.5-degree goal may not be reachable.
+
+DOERING: Well, this 2.5% projected emissions reduction by 2030 it's where the world is headed collectively. But to what extent are certain countries pulling more weight here? Who is actually on track to make the most impact?
+
+BERWYN: Probably have to single out Europe, which has decreased its emissions by about 32 and a half percent since 1990 and so is really on track to meet that 40 to 50% emissions cut by 2030. And they've in the last couple of years, have even toyed with setting a more ambitious target of 50 to 55% reductions by 2030. And the US has cut emissions by about 17% in comparison to 1990. US emissions peaked in 2007 and so there is some progress among some developed countries, but again, not as much as is needed to meet these global goals. And when you look at the EU and the US, you're looking at a huge percentage of total global emissions, along, of course, with China, which is now the leading global emitter annually, and is hopefully also gonna peak emissions at some point. Under the Paris Agreement, countries are not all tied to reducing emissions at the same rate. In fact, it's recognized under the UNFCCC framework that developed, rich industrial countries have emitted the most historically, and thus have an obligation to make the biggest cuts the soonest, too. So, it's a very tiered, complex, layered system.
+
+![With every tenth of a degree the planet warms, climate change related weather events like drought and storms will become more pronounced. (Photo: NOAA Satellites, NOAA.gov, public domain)](https://loe.org/content/2024-11-01/UN_hurricane.jpeg)
+
+DOERING: You know, hearing about this gap between where we need to be in order to limit warming to 1.5 degrees Celsius and where we're headed at the moment, I imagine some people may be feeling a bit cynical about the efficacy of the UNFCCC right now. Some might even say, why keep having these meetings if we're so far off the mark? What's your response to that?
+
+BERWYN: Well, my response is that the UNFCCC process did deliver the Paris Climate Agreement, which 198 countries agreed to. I suppose, going into COP29 you can say it's good that we still have 198 countries at the table talking about this and at least in principle, agreeing that it's important and that something needs to be done. At COP28 last year, we had a statement about transitioning away from fossil fuels, finally. That was COP28, so that was after 27 years of climate summits. And it's not very specific, but it was, you know, it was hailed as a huge success. And there are studies out there showing that emissions globally would probably be higher, quite a bit higher, if we didn't have these global climate talks ongoing since the early 1990s. So, they have managed something. I mean, think about it, we might already be at two degrees warming now, instead of 1.2 degrees if we hadn't initiated these efforts.
+
+You know, look back to the Kyoto Protocol in the early 2000s, some countries took that really seriously. And I'm going to use Europe as an example, again, because I'm based here, and I'm a bit familiar with it. They took the goals of the Kyoto Protocol and kind of started working on them right away. And even when it fell apart, they said, well, this isn't our interest, and we're going to continue on this path. And so now they're sort of set to meet these next level climate targets that kind of come from the Paris Agreement. And I think that shows the benefit of persistence and incremental efforts and incremental improvements. And at the same time, things are getting worse fast, and it really is a climate emergency, a climate crisis, if you will. And I think we've seen that in the last few months in so many different ways. So there needs to be an urgency too. And I'm afraid that people will say, well, okay, well, then shoot, we'll just aim for two degrees and wow, that gives us a few more decades to kind of ease off, and, you know, hopefully invent some new technology that will help get us out of this mess.
+
+![The international community is accustomed to the United States flipping back and forth between climate policies. The Clinton Administration of Democrats declined to sign the final Kyoto Protocol and submit it to the Senate for ratification. Former Republican President Trump withdrew the U.S. from the Paris Agreement. (Photo: Gage Skidmore, Wikimedia Commons, CC BY-SA 2.0)](https://loe.org/content/2024-11-01/UN_trump.jpeg)
+
+DOERING: You mentioned that one of these reports grappled with the very real possibility that the world will overshoot 1.5 degrees Celsius at some point, of warming. What then? What happens if we go past that point?
+
+BERWYN: There's still lots of scientific discussion about what happens at those different levels of warming, but one thing is for sure, that the impacts from these increases are incremental. You know, some of these numbers don't sound like that much, you know, the difference between 1.5 and 1.6. But we know now, from climate science done just in the last few years, that small increments of warming make heat waves worse by magnitudes. A few tenths of degree in warmer ocean temperatures loads up hurricanes with that much more moisture, that makes that much more rainfall and can make the wind stronger as well, and so the impacts don't increase by these tiny increments. They're magnified many times over each time the increment goes up a little bit. But we still have to do everything we can to limit warming, because 1.5 isn't just sort of a trap door where everything changes all at once. It gets worse with every tenth of a degree, and so if you can't stop warming at 1.5 degrees, it's better to stop it at 1.6 or 1.7 as soon as we possibly can.
+
+DOERING: So, we're speaking on the eve of the US presidential election. What's the mood like in the international community about how this election might shape the next few years, or even decades of global climate action?
+
+BERWYN: I'd say that there's a pretty wide range of reactions from different parts of the world. You know, with close trade partners like Europe, where we've shared sort of a somewhat common climate policy, there's great concern that the election outcome will affect what happens over the next few years. It's pretty clear from the candidates in the US, their positions on energy and so forth, that a Republican win would probably result in more emissions, and a Democratic win would result in, you know, continued reductions, at least moderate, and maybe more. In other parts of the world, I spoke with a couple of climate economists in Africa over the last few months, and they don't really have as big a stake in it as some other regions of the world. Some of the comments I heard, well, the US doesn't really have any cohesive strategy or climate interests in Africa, other than perhaps, you know, getting minerals for the energy transition. So, they didn't feel that the outcome would have a really direct, strong effect on them. They may be right, or they may be wrong, depending on what happens.
+
+But one overriding sense that I got is that the world is pretty used to the US kind of reversing course on climate policy every now and then. I mean, that's the only country that's pulled out of the Paris Agreement, then rejoined. It also refused to ratify the Kyoto Protocol. And so, I don't think a reversal of US course would be a big surprise to a lot of people. And there's a consensus that, you know, the rest of the world is going to truck along and continue. The global climate effort will definitely be slowed, it can be delayed by US non-participation, or possibly even, you know, interference in promotion of fossil fuels, let's say, rather than trying to reduce them. But the rest of the world, with the exception of a few other countries, are gonna keep trying to do this because they all know that it's critical and that it's in their own interest to do it. In fact, some climate economists said that the US runs the risk of sort of ending up like a rusty locomotive on a railroad siding in terms of the energy transition. It's gonna leave the US isolated at some point in a world that has moved on beyond fossil fuels.
+
+DOERING: Bob Berwyn is a reporter with our media partner Inside Climate News, based in Austria. Thank you so much, Bob.
+
+BERWYN: You're very welcome.
+
+## Related Links
+
+- [Read Berwyn’s article in Inside Climate News](https://insideclimatenews.org/news/28102024/cop29-climate-reports-greenhouse-gas-emissions/)
+- [Explore COP29](https://cop29.az/en/home)
+- [Learn more about the Paris Agreement](https://unfccc.int/process-and-meetings/the-paris-agreement)
+- [Is the Paris Goal of Keeping Below the 1.5C Limit Out of Reach?](https://climateanalytics.org/comment/is-the-15c-limit-still-in-reach-faqs)

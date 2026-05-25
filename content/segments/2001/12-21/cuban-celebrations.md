@@ -1,0 +1,92 @@
+---
+title: Cuban Celebrations
+slug: cuban-celebrations
+date: '2001-12-21'
+category: Segments
+summary: Storyteller and actor Antonio Sacre has a story about his father’s life in Cuba and tales of celebrations on the island. Latino USA host Maria Hinojosa and storyteller Elida Guardia Bonet share their reactions.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=01-P13-00051&segmentID=4 -->
+
+## Transcript
+
+CURWOOD: It's Living on Earth, I'm Steve Curwood, and today we're putting the news aside and focusing on the news of celebrating human history. We're listening to stories of celebrations in Latino landscapes, in cooperation with NPR's Latino USA. And once again, I'm joined by storyteller Elida Guardia Bonet, Latino USA host Maria Hinojosa, and storyteller and actor Antonio Sacre.
+
+Antonio, it's your turn now. We asked you for a story from Cuba, and to get this story for us it turned out you had to make an important personal journey yourself. Why don't you start.
+
+SACRE: As a young boy, I would ask my father questions about Cuba, "What was it like? Why did you and your family leave? How did you get here? Don't you want to go back? Why can't we go visit?"
+
+He would say, "Mi'jo, someday when you get older I'll tell you all about Cuba." "Mi'jo" means, my son, my boy. But I got older and I still don't know. Nothing would stop a conversation with my father more quickly than a question from me about Cuba.
+
+At my grandmother Mimi's house in Little Havana in Miami, during our huge family gatherings, with plates of amazing Cuban food piled high, I would venture a question about Cuba, thinking maybe my uncles or my aunts would tell me something, anything. But these questions only bought discomfort and silence and an immediate end to the conversation. I loved those dinners so much that, soon, I learned to never ask about Cuba again.
+
+I became a professional bilingual storyteller, and when I lived in Chicago I met many Mexicans and Mexican-Americans who began to share their stories with me. This led me to live in Mexico for almost three months, over a period of two years, where I walked in the towns they came from, I danced and ate and learned all I could about that beautiful country. After those few months in Mexico and the many stories I heard there, I realized that I had never truly done that with my own culture, me, a Cuban-American storyteller with a wealth of stories about Mexico and nothing about Cuba.
+
+The last time I was in Mexico I was in the Yucatan, a quick and cheap flight away from Cuba. I called my dad from a travel agency, and told him I wanted to see the place he lived. I wanted to walk those beaches and those city streets. I wanted to smell the air and feel the land in my body, in a way that only being there would satisfy. He said that his dream was to take me to Cuba someday himself. But that I was a man and if I needed to go I could make my own decision. He then added that none of his immediate family would ever go back to Cuba until Castro died. My dad had never told me about his dream of taking me to Cuba, and I almost started to cry. I wanted so bad to go to Cuba with my dad. But I also remembered my grandmother telling me that Castro was going to outlive everybody, and here I was, so close. Legally, it is difficult to get to Cuba from the United States. I decided I would honor my father, and his family, and not go to Havana.
+
+Maybe someday, Castro will fall. Maybe someday, my dad and I will go to Havana, to the places where he lived and studied and played. Maybe someday. Maybe.
+
+A few months ago, I got a call from the radio show, Living On Earth. They told me they were doing a holiday program about land, culture and celebration in the Latino culture and they were looking for submissions from storytellers. There I was, a Cuban-American storyteller, and I knew nothing about the land and culture and celebrations in Cuba. I stammered through the initial interview, saying, "Well, I know a lot about Mexico. There is the Dia de los Muertos in Oaxaca, and the dances at the Zócalo, in Mexico City, and the celebration of the Sun and the Moon, at the pyramids in Teothihuacán. They were interested but not sure how it fit in, how I fit in to their program. I felt ashamed and sad and a little cheated. I wanted to have something authentic, something really Cuban, something from my family, but all I had from Cuba was silence.
+
+As a last ditch effort, I told them that I would ask my father about the celebrations in Cuba. I didn't tell them that all my previous attempts to learn about Cuba from him had failed. We hung up and I was nervous. I was nervous about causing my dad any pain by asking him about Cuba. I was nervous that I would ask and he would shut me off again. The closest we ever got was last summer, when my dad told, "Mi'jo, sometime when we have four or five days together, you know, alone, I want to tell you the whole story, you know?" But I live in Los Angeles and I travel a lot, and he lives in Delaware and still works harder than anyone I know. So these four or five days have not happened yet. Sometimes it seems almost like it's not going to happen at all.
+
+I called him and told him about the Living on Earth program. I set an appointment to interview him, one day the next week, about rituals and celebrations tied to the land in Cuba. Like I said, we're busy men. It was my assignment; it was my work. He understands work and he wanted to help me in any way he could. We agreed on the following Tuesday morning at nine a.m. We always talk many times during the week, with the conversations often less than a minute at a time. So, all week long he would call and say, "Mi'jo, I be calling you at nine a.m. on Tuesday, okay? Now, that is California time so it is noon my time, right? You give me 1,000 dollars and I help you out. Okay, Mi'jo? Okay, baby." We would laugh, and I couldn't wait until Tuesday.
+
+Here was the chance I had been waiting for, couched in the idea that it was for my career. But deep down I knew it was just an excuse for me to ask, and for my dad to answer, questions I've always had and he's always evaded. He called at 8:59 a.m. on Tuesday. I breathed deeply as I picked up the phone. He said, "Dime. Tell me, what do you want to know?"
+
+I said, "Tell me about the rituals and celebrations tied to the land or the harvest in Cuba."
+
+He thought for a minute and then he said, "There is the bringing in of the sugar cane harvest. You know, those men used to cut the fields down with the old machetes and they would come in and there will be a huge celebration for them." I couldn't believe it, a celebration in Cuba tied to the land, just what they wanted. I quickly asked if he ever went to one. He said, "No, no, that was for the campesinos and the people who lived in the country. I was a city boy, raised in Havana." There was silence. I tried to mask the disappointment in my voice. I asked if they had any celebrations in the city. Again, he thought for a minute. I could sense an urgency in his silence. He wanted to be able to help his first-born son, the son who shares his name.
+
+He said, "No, not really, Mi'jo. Many of those things are tied to the Indians and there are no Indians left in Cuba. The Spaniards killed all of them. Not like in Mexico and South America where a lot of them still survived. On the island there was no way for them to survive like the Indians in the mountains of the Americas." I waited, unsure what to say, waiting for the inevitable "that's enough" that I was so used to hearing. Then he said, "Wait a minute. We had two different kinds of celebrations every year. We celebrate the feast days of the saints, and so in our family we celebrate Santa Barbara, my mother's name, and San Antonio, my father's name, and any of the other saints we feel like, you know?" I asked what those celebrations were like. He said that there would be a huge gathering, usually at his grandmother's house. All the family would come, and there would be the special plates of food that they only cooked on the feast days, and special drinks, and wine, and all kinds of stories. I realized that he was describing, for me, a dinner at my own grandmother Mimi's house. Every detail was almost exactly the same.
+
+I asked what the other kind of celebration was. He said, "We would vacation at the beach at Cojímar and they would celebrate the feast of San Juan y Los Pargos, the feast of St. John the Baptist and the running of the red snapper. Some old tradition said that when the fish were running, San Juan was sending them. And we would have a huge street party, with singing and dancing, and we would bring out the finest clothes: the pants and the shirts and the pants-- you know, the clothes, you know? If some fisherman brought in a big catch of Pargo, we would cheer and eat it, and if not we'd have a huge party, so that San Juan will remember us and send us the food next year, you know? It was really just an excuse to get together and get drunk, really, but we did it every year, you know?"
+
+I heard a joy in my father's voice that I had rarely experienced. I know how his eyes crinkle up whenever he truly laughs and I knew they were crinkling up now. I felt my own eyes as he talked. They were crinkling too, just like my dad's. He talked this way for some time. I was pacing around my house, my hands tingling, wanting so badly to share this with my brothers, with my wife. I asked about other celebrations, ones that are not just an excuse to party, but our phone connection was wavering. I yelled into the phone. He kept saying: "Mi'jo, I don't hear you." I cursed the phone company; I cursed the stupid company that made my cordless phone. I panicked. If we hung up, would the spell be broken? Would he remember years of exile and hardship and sadness and forget the dream of celebration that we were sharing?
+
+"Pa, let me call you back," I said.
+
+He said, "What?"
+
+I yelled, "Let me call you back."
+
+"O.K., Mi'jo."
+
+I dialed as fast as I could. He picked up. His voice was perfectly clear. I asked him the question again. He started talking again, a little more subdued, but he continued. He began to talk about the big religious festivals, Holy Week before Easter, la Noche Buena, the Christmas Eve celebration, the feast of the Assumption of the Virgin Mary, August 15th. I asked what all these were like. He began to smile again, I could tell, thousands of miles away, that he was smiling again.
+
+He said, "The whole week there are ferrias and carnivales and different barrios would have different parties and dances in Mary's honor." I asked him what a ferria was. He said, "You know, games for kids and horse rides and the silla volar, the, you know, the flying seats, you know? They always had the long processions from the church through the different barrios and back to the church, you know? Everybody was either parading or on their porches as the procession went by. Mimi and me and my father would go to the porch and watch the, the, the saint, you know, that huge statue that four strong men would carry and say prayers as the Virgin went by. And Mimi would put her hand on my head and say prayers over me."
+
+I asked him what his favorite celebration was. He quickly said, "Noche Buena, Christmas Eve, that's the best celebration we have. We celebrate the Eve, not the day like you do here. Christmas Day, for us, is only to recover from La Noche Buena, the all night Christmas Eve vigil and feast. Okay. On the 20th of December my uncle Titi and I would go and pick out the pig, and he would kill it. I would help him shave the hair like bristles off the skin. First, I would pour boiling water over the skin, to soften the hair, while he would take the straight razor and sharpen it 50 times. Mimi and the other women would prepare the adobe, the marinade, made from the oil, the cumin and sour orange and oregano and garlic, and we would poke holes in the pig and adobe the pig. It took three or four days to fill it with a marinade, to cook it outside in the fire, you know? It was a big macho thing, killing the pig, stabbing it in the throat. I know it sounds a little disgusting but, Mi'jo, that's what we did.
+
+"Mimi used to say that the problem with America is people don't see their meat before they eat it, so they have less respect for the animal, and less respect for the land that is necessary to raise that animal. They always eat free range in Cuba, organic, you know, no hormones, and we live to be old, old, old, you know?"
+
+I thought, that's just like Mimi's house at Noche Buena in Miami. Mimi always had pork at Christmas Eve. Once, she even got a whole suckling pig and laid it on the table, head, eyes and all, complete with an apple in its mouth. I thought it was disgusting. My brother kept taking the apple out of the pig's mouth and saying, "Hola, Mimi, Como estás?" Moving the little head of that pig, she would laugh so hard.
+
+I asked him what happens after killing the pig. "Mi'jo, you eat it. We had a huge table outside, the weather always beautiful, with my grandmother at the head of the table. We have fruit trees in the yard, where we plucked the lime for the meat and the lemon for the water and the avocados for the salad, right from the tree to the table, and the mangoes for dessert. The toasts begin, you know, for the ones that are dead. And the ones that are alive. And we are happy to be alive. And we miss those who are dead. And we are happy that Jesus will be born soon and we are sad that he died. But we are happy that he rose. We toast everything, you know? For the pig, and Titi, and the table, and the laughter, we all laugh, very thankful for the laughing. Then we go to the Misa del Gallo, the Rooster's Mass, you know, the Midnight Mass, and we celebrate the birth of the baby Jesus. Then, off to somebody's house for breakfast and more drinks and food and stories."
+
+I had been to the Misa del Gallo Mass with Mimi, I told him. He laughed, "Mi'jo, I been to a bunch with her, you know?" I asked him if they ever had a pig for other celebrations. He said, "A pig could be for any event, you know, baptism, wedding, funeral. But Noche Buena was the big tradition. But it was a lot of work, and a lot of money, and a lot of preparation, you know? The last pig we had in Cuba was in 1957 and then the revolution happened and we all came to America."
+
+I asked if they ever did the pig in Miami, the way they did in Cuba. He said, only once, but things got too complicated. His father died; it wasn't the same. He said, "Listen, Mi'jo, we came with no language, no money, no job. Some families left in Cuba, divided by the politics. It was a mess, those first few years, you know? I asked if they did anything like it now, or the San Juan and the Pargo, the snappers, or the ferrias. He said, "No, no, those traditions are tied to Cuba. It's not the same here. My mother tried to do some of these things when she came, but after she died a lot of those traditions died as well, at least in our family. We move here, the traditions get broke. My friends in Cuba tell me the revolutionary government banned certain things in Cuba. So, the ferrias in Cuba, the carnivales, they're all different now, you know? And the snapper population is very small now, so nobody really celebrates that anymore. Maybe it's smaller because of the industry. I don't know.
+
+"We replace them with other excuses to get together now, you know? But they are not the same. You and I had this excuse of the radio program to get together now. It's different, not as big, but just as sweet."
+
+He said: "Mi'jo, before Batista, it was a big party, and the Batista started to rob the country, and then Castro promised different for a while, but he robbed the country in a different way, and after the both of them, the party was over. Our youth, our innocence was robbed from us, and it has never been the same. Our youth was taken, and I don't want to talk about this anymore." The point finally came that I had feared. He said, "You call me if you need anything else," and he hung up. And I felt a profound sadness for my father and his people. Maybe someday my father and I will walk the beaches of Cojímar, outside of Havana, laughing with the fishermen as they bring in a load of pargo, praying to San Juan to bring us more fish. Maybe someday I will pick a mango from a tree in Havana and bring it to the table and laugh with all my family as my brother takes the apple out of the pig's mouth and says something silly. Maybe someday my father will place his hand on his grandson's head as the statue of the Virgin Mary goes by on the backs of four strong men, and bless him, the way his grandmother did to him, and mine did to me. Maybe someday. Maybe. Until then, his stories will live in my memory and in my imagination, and maybe that will be enough.
+
+{% cue text="MUSIC" %}
+
+CURWOOD: Antonio Sacre, what an amazing story about celebration, and my eyes are soaking. Elida, how did you respond to this?
+
+BONET: It makes me sad to think that, as we do grow older and if we're not able to keep our ties to our homelands, we will lose some of those celebrations. And then, like Antonio says, there's always that hope that someday you will be able to do those things. And I think that we do have to keep them. And even if we can't go back to the homelands, like in Antonio's case, somehow bring them alive, for us, for ourselves, and for our children.
+
+CURWOOD: Maria?
+
+HINOJOSA: Well, it was wonderful. I think for me what made it more painful in a way is that I have been blessed with being able to go to Cuba several times, so I've been to Havana. I've been to the playa de Cojímar, and I was really rooting for you, Antonio. I was saying, "Get on the plane, get on the plane! Go, get on the plane." On the other hand, I think it's such an honorable thing that you've done, to wait for your father, and hopefully, you'll be able to go back together.
+
+{% cue text="MUSIC" %}
+
+CURWOOD: Well, we've just about run out of time now for today's holiday storytelling special on Living on Earth, in cooperation with Latino USA, and I want to thank all of you for sharing such wonderful stories with us today: Elida Guardia Bonet, Maria Hinojosa, and Antonio Sacre. Thank you all.
+
+HINOJOSA: Thank you.
+
+SACRE: Thank you.
+
+BONET: Thank you.

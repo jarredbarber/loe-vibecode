@@ -1,5 +1,6 @@
 ---
 title: Environment and Rule of Law Under Trump
+slug: environment-and-rule-of-law-under-trump
 date: '2026-01-09'
 category: Segments
 megaphone_id: LOE7525279574

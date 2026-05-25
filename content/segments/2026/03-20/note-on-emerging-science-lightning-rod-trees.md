@@ -1,5 +1,6 @@
 ---
 title: 'Note on Emerging Science: Lightning-Rod Trees'
+slug: note-on-emerging-science-lightning-rod-trees
 date: '2026-03-20'
 category: Segments
 megaphone_id: LOE1354220865

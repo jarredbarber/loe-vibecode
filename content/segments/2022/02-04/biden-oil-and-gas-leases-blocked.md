@@ -1,0 +1,69 @@
+---
+title: Biden Oil and Gas Leases Blocked
+slug: biden-oil-and-gas-leases-blocked
+date: '2022-02-04'
+category: Segments
+image_url: https://loe.org/content/2022-02-04/OIL_drill.jpg
+image_caption: 'A mobile offshore drilling unit in the Gulf of Mexico. (Photo: Petty Officer 3rd Class Patrick Kelley, Flickr, Deepwater Horizon Response, CC BY-ND 2.0)'
+summary: Despite pledging to dramatically cut U.S. greenhouse gas emissions, the Biden administration approved the sale of oil and gas drilling leases across 80 million acres of the Gulf of Mexico in November 2021. A coalition of environmental groups sued the administration to block the sales and on January 27, a federal Judge revoked the deal, citing climate concerns. Vermont Law School Professor Pat Parenteau joins Host Steve Curwood to discuss the case and what it says about how seriously the Biden administration is taking its promises to phase out fossil fuels.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=22-P13-00005&segmentID=1 -->
+
+## Transcript
+
+BASCOMB: From PRX and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth. I’m Bobby Bascomb.
+
+CURWOOD: And I’m Steve Curwood.
+
+Action on Joe Biden’s campaign promises to address climate change appear to be falling short, and it’s not just the stalled legislation on Capitol Hill. Back in November at COP 26 President Biden pledged to the world that he would dramatically cut US greenhouse gas emissions. But just days later his administration approved the sale of oil and gas leases across 80 million acres in the Gulf of Mexico starting with 1.7 million acres assigned to Chevron and Exxon Mobil. The Department of the Interior estimates more than a billion barrels of oil and nearly four and a half trillion cubic feet of gas could be extracted there over the next 50 years. That’s roughly equivalent to the annual emissions from 130 coal-fired power plants. A coalition of environmental groups sued the administration to block the sales and on January 27th, Judge Rudolph Contreras of the U.S. District Court in Washington D.C. revoked the deal, citing environmental concerns. He directed the Department of the Interior to conduct a new environmental analysis that examines the impact on climate that could result from these lease sales. For more I’m joined now by Vermont Law School Professor Pat Parenteau. Pat, welcome back to Living on Earth!
+
+PARENTEAU: Thanks, Steve. Good to be with you.
+
+CURWOOD: Now, some of the plaintiffs in this case say that it's a landmark decision by this judge Contreras in Washington. Why do they think it's such a big deal?
+
+PARENTEAU: Probably because of the size of the sale that we're talking about. This would be the biggest oil and gas sale in US history. Some 80 million acres of the Gulf of Mexico was up for bid and the bids that came in were over a million acres right off the bat. So the scale of this proposed oil and gas development is unprecedented, which is quite surprising, isn't it for an administration vowed to reverse our reliance on oil and gas and other forms of greenhouse gases.
+
+CURWOOD: So I'm wondering, why did the Biden administration push for more oil and gas drilling in the Gulf of Mexico in the first place? I mean, I thought he had campaigned against this.
+
+PARENTEAU: They definitely had campaigned against it and the administration is right to point out that they were ordered by another federal judge in Louisiana, this judge Contreras sits in the District of Columbia, and is an Obama appointee, which is not insignificant. And the judge in in Louisiana who's a Trump appointee had ordered the Biden administration to proceed with oil and gas leasing, including this very lease sale, because he ruled that the administration doesn't have the authority to put a pause on oil and gas leasing while they think about the future of the oil and gas program including its effects on climate. So you have one judge ordering the administration, full speed ahead and now we have another judge saying, wait a minute, that doesn't mean violate the law, it means think about what you're doing, look before you leap. So that’s kind of where we are now.
+
+CURWOOD: Where’s the Biden administration in this? So you have the Trump judge appointee, who says, no, you must go ahead. To what extent could the Biden administration push back against that order? Seek a stay or get an appeal or somehow block more leasing, it looks like they just went ahead and started leasing.
+
+PARENTEAU: Well, they did appeal and they took strong issue with the Louisiana district judge's opinion and said that it was wrong and that they were asking the Fifth Circuit Court of Appeals to overrule it. But to your point, that Biden administration did not ask for a stay. And so when the Biden administration was telling everyone well, the judge is making us do this, that wasn't entirely true because they could have sought a stay and might likely have gotten one, based on some pretty strong arguments that the Louisiana judge was wrong in his decision, and certainly had not taken into account the fact that the prior proposals for lease sales in the Gulf did have these serious legal flaws, which have now come to light in judge Contreras' decision.
+
+CURWOOD: So Pat, I am still scratching my head. Why is the Biden administration sort of wrapping itself in the black robes of a judge to halt oil and gas leasing in the Gulf of Mexico, when the President campaigned pretty hard that he was going to take on climate change? Why do they have to be ordered by a judge to not do what they say that they or they claim they wanted to do?
+
+PARENTEAU: Well, you know, it does provide the administration with some political cover, doesn't it, after all. On the one hand, the administration was saying we offered this lease because we were ordered to do so by a court, the Louisiana judge. Now they can say, well, we're going to stop leasing, because we've been ordered to do that by another judge whose opinion we think is more well-grounded than the first judge. So I don't know whether this is true. But certainly the administration can legitimately claim now that they've been ordered to conduct this further environmental review and to put a hold really, on the leases. The leases have not been issued, that's significant here, if they had been issued, that changes things quite a bit. I mean, that implicates compensation, it's more difficult to cancel a lease. So the administration really is in a better position now to say to the world and to those that will criticize it for, you know, not proceeding with the leasing that well, we've been ordered to go back to square one and do a better job of documenting the impacts from this leasing and we intend to do that.
+
+CURWOOD: To what extent does the administration's position imply that they lack backbone on this climate issue?
+
+![Anchor-handling tug boats battle the blazing remnants of the offshore oil rig Deepwater Horizon, which in 2010 had the biggest marine oil spill in history and provoked a range of adverse health effects amongst sea mammals like reproductive failure and organ damage. (Photo: U.S. Coast Guard, Flickr, CC BY-SA 2.0)](https://loe.org/content/2022-02-04/OIL_fire.jpg)
+
+PARENTEAU: It certainly implies that they don't have a clear path, that they don't have a clear policy. You know, the President has been pretty quiet about oil and gas leasing in general. Of course, he's got a lot of other things on his mind these days, but you know. And even Secretary Haaland, who we all thought was going to be leading a lot of the efforts on turning away from using public lands, for example, for fossil fuel development, she's been pretty quiet as well. I think you have to conclude that given the politics of the moment and given the fact that the administration, let's say is not riding high right now politically and that they've got a lot of irons in the fire, it appears that this oil and gas leasing is like the proverbial third rail of politics and the administration is afraid I think, of taking too strong an action in reining in oil and gas development. We're seeing, for example, in Pennsylvania, there's a Senate race underway to replace Senator Toomey who's retiring, even the leading Democratic candidate in Pennsylvania is saying he does not agree with the President on phasing out fracking, you know, the development of gas at the Marcellus Shale in Pennsylvania. So, the politics of oil and gas are still extremely volatile. And it looks like the administration just doesn't—isn't sure of its footing on this question at this point.
+
+CURWOOD: Hey Pat, the price of oil is through the roof, as we're recording this it's up to $87 a barrel. I mean, to what extent do we need more oil and gas production?
+
+PARENTEAU: We really don't need more oil and gas. This is mostly for export what's being leased today and it's also—these leases are being banked for the future. The Department of Interior has calculated, there's already 75% of the leases that have been issued for the Gulf are not being developed now. So, there's no immediate need for this. And in addition, you know, the fact that these tracks are leased, doesn't mean there's going to be any oil and gas flowing from them for years. And so that's not going to relieve the increased price of gasoline at the pump, a lot of people would naturally be thinking perhaps, well, if we get these leases out, you know, I can spend less at the gas pump but that's not true. Those prices are determined by global markets and this leasing program isn't going to provide any immediate relief for that.
+
+CURWOOD: You use the word banking, I'm wondering if the oil and gas industry takes the leases that they have and puts them on their balance sheet. Saying you know, we have access to X amount of oil because we have Y number of leases that will give us this access.
+
+PARENTEAU: Oh, they absolutely do that. They absolutely calculate the value of their assets, which is part of their sort of portfolio that they use when they go to a bank because, you know, the costs of developing oil and gas in the Gulf are incredibly expensive. Capital investment is huge for those rigs, and everything else that goes with it, that money is borrowed money, you know, the companies don't spend their own money or their stockholder’s money, they borrow the money from the bank, they use the reserves in the leases that they get as collateral for those loans. So yeah, it's all part of the carbon bubble that we're building and building with issuing these various leases, overvaluing the assets that they actually represent. You have the choice, you're either going to develop all of this oil and gas with billions of tons of carbon dioxide driving the climate even further into the danger zone, or you're not going to develop them, in which case those assets are really not worth what the companies are claiming.
+
+CURWOOD: But for today and this quarter, what they can tell the banks and what they can tell shareholders, it does have this value associated with those leases?
+
+PARENTEAU: It does. It's a false value. It's an inaccurate value but it's one they claim. It gives people the false impression that these companies are more solvent than they really are.
+
+CURWOOD: I mean the Biden administration has pledged to cut greenhouse gas emissions by half, I believe, by the year 2030. If I have that correct and, of course, extracting and burning more oil doesn't help that cause and supporting the infrastructure for oil and gas that creates loans that then have to be paid back also doesn't help that cause. What can be done to limit future oil and gas leasing at this point?
+
+PARENTEAU: Well, you know, we're at this inflection point in our history where we've got these emerging technologies, very promising — all of the electric vehicles that we're seeing coming to the market, but we need the infrastructure to support that and we need to enable people to afford these new forms of transportation EVs, and that's where the emphasis should be. But of course you've got to convince Congress of that, the administration has got to believe that it can do that and of course, stay in power so it can complete the job because, you know, if all we do is have a few years of kind of marginal improvements in the way we're transitioning away from fossil fuels, that's not enough. What we need is sustained effort over a long period of time, decades, in fact, with massive infusion of money, trillions, in fact, you know, that's kind of what we're facing. So maybe the Biden administration has that plan but if they do, they need to start sharing it with people so we can all understand what exactly is the plan because right now, we're going in the wrong direction.
+
+CURWOOD: Pat Parenteau is a professor of environmental law at the Vermont Law School. Pat, thanks so much for taking time with us again.
+
+PARENTEAU: Good to be with you, Steve. Thank you.
+
+## Related Links
+
+- [The Guardian  | “US Judge Blocks Sale of Gulf of Mexico Drilling Leases Over Climate Concerns”](https://www.theguardian.com/us-news/2022/jan/28/gulf-of-mexico-oil-gas-drilling-leases-judge-blocks-climate-biden)
+- [EarthJustice | “Court Finds Massive Offshore Oil Lease Sale in Gulf Based on Faulty Legal Analysis”](https://earthjustice.org/news/press/2022/court-finds-massive-offshore-oil-lease-sale-in-gulf-based-on-faulty-legal-analysis)
+- [Read the decision by US District Judge Rudolph Contreras](https://int.nyt.com/data/documenttools/78-memorandum-opinion-1-27/b0903c94e57b0cb5/full.pdf)
+- [Food and Water Watch | “Court Halts Gulf Oil and Gas Leases Where Biden Administration Failed to Lead”](https://www.foodandwaterwatch.org/2022/01/28/court-halts-gulf-oil-and-gas-leases-where-biden-administration-failed-to-lead/)

@@ -1,5 +1,6 @@
 ---
 title: Colonizing the Moon
+slug: colonizing-the-moon
 date: '2026-04-03'
 category: Segments
 megaphone_id: LOE1170252824

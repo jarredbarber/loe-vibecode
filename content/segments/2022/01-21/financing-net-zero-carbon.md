@@ -1,0 +1,48 @@
+---
+title: Financing Net Zero Carbon
+slug: financing-net-zero-carbon
+date: '2022-01-21'
+category: Segments
+image_url: https://loe.org/content/2022-01-21/GFANZ-Mark_carney_davos_2010.jpeg
+image_caption: 'Former Bank of England governor Mark Carney at the World Economic Forum in Davos, Switzerland in 2010 (Photo: World Economic Forum, Wikipedia Commons)'
+summary: The world’s largest financial institutions have formed an alliance to tackle climate change called the Glasgow Financial Alliance for Net Zero. Mindy Lubber, CEO of the sustainable investment group Ceres, joins Host Steve Curwood. They discuss the increasing pressure to steer capital away from fossil fuels and towards ventures that can put the world on a path to net zero carbon emissions by 2050.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=22-P13-00003&segmentID=4 -->
+
+## Transcript
+
+CURWOOD: It’s Living on Earth, I’m Steve Curwood.
+
+The Glasgow Financial Alliance for Net Zero has brought together some 450 financial institutions from about 45 countries with the common goal of net-zero carbon emissions. The alliance is the brainchild of Mark Carney, a former governor of the Bank of England, which is like the Federal Reserve in the US. Mark Carney also served as the financial advisor for the UK’s presidency of the COP26 climate summit last year. Mindy Lubber is the CEO of the sustainable investment group Ceres and joins me now to talk about the Glasgow Alliance. Welcome back to Living on Earth, Mindy.  
+Mindy Lubber: Terrific to be here. Thanks for having me.
+
+CURWOOD: Our pleasure. So Mark Carney put together and brought the Glasgow financial alliance for Net Zero (GFANZ) to COP26. Who has signed on to this initiative? And how difficult has it been to get some of the traditional institutions to sign up?
+
+LUBBER: Well, who has signed on actually is hundreds of the key players in finance. And I'll tell you, that's a great place to start. That's great. When Blackrock, who managed $7.5 trillion in assets under management, or CalPERS, $200 or $350 billion. I mean, the largest public pension funds, insurance companies and banks are signing up. The question now, because really, in today's world, we have to immediately move from making commitments to showing us the money, what are those commitments mean? Committing to net zero by 2050? Whether your Global Fortune 500 company, or you're a major investor is all good, but that is words, the proof will be in the pudding, everybody's got a need to follow those commitments with specific deeds. What are your plans for 2025? For 2030? And for 2035? And are you willing to disclose those plans? And will you stand with us as we're in the middle of a campaign right now, to get that Securities and Exchange Commission to mandate the disclosure of climate risk?
+
+CURWOOD: So Mindy, there are a few elephants in this room. And I'm thinking particularly of Saudi Arabia, I'm thinking of India, I'm thinking of the Russian Federation. The math is a little wobbly. But some say that, probably two thirds of the world's emissions come from state-controlled companies that don't issue shares, Coal India does not, Saudi Aramco, you can get in as an investor, but you're not going to get control. They're a big part of the problem here. And they don't operate under the sway of these institutional fund managers, and private sector bankers. As long as those folks who are running along the private sector is going to say, we're losing out.
+
+LUBBER: Well, if you throw China in there, it is a really incredible 900 pound gorilla or elephant, as you said, in the room. It is not easy, we need to start making sure we're having an impact on demand as well. If the demand for coal doesn't keep growing, but rather stops growing, there'll be less of a demand for those countries to produce it. If the demand for oil doesn't grow at the same rate, there'll be less for recent now, that's not going to be easy. As you say, these are huge, huge countries with state-owned facilities. Our hope is that through global initiatives, like the COP, the Conference of the Parties, that we're able to, through partnership and pressure, see some progress. I mean, we saw some progress, and I will put a yellow highlighter on the word “some” –
+
+CURWOOD: Yeah –
+
+LUBBER: —from China, who said, we'll get to net zero by 2070. I will tell you, Steve, that's not good enough, our kids and our children will suffer mightily, and our economy will suffer more than we saw it in the subprime meltdown, if we think we could wait until 2070 to solve the problem. So we've got a ways to go and the United States stepping back in, and hopefully staying in and exerting pressure, is certainly a part of the equation.
+
+![A wind farm in Power County, Idaho (Photo: ENERGY.GOV, Flickr public domain)](https://loe.org/content/2022-01-21/GFANZ-Power_County_Wind_Farm_002.jpeg)
+
+CURWOOD: By the way, many of these asset managers don't actually own the things that they're managing. So where's the accountability that we can count on to make sure that the commitments are kept?
+
+LUBBER: Yeah, perfect question. Because, as I said, words are just words, and without accountability systems, the climate is gonna continue to get worse and threaten our planet, our people and our economy. But truly part of the way to have accountability Steve, I just talked about the Securities and Exchange Commission. We need companies to be required, not voluntarily, but we need a standard by the government to make sure that climate risk is disclosed, that that disclosure is mandatory and available to investors and to the public. I mean, right now, we don't even know what the risk is for every company. And we need to know. And without climate risk disclosure with it all being voluntary, we see data in one place that looks one way we see disclosure in another place, that looks another way. It's got to be uniform, it's got to be consistent. We need a level playing field. And there's got to be transparency, so consumers, so everybody knows what the companies are really doing.
+
+CURWOOD: Now, what's the plan for the Glasgow financial alliance for fossil fuel divestment?
+
+LUBBER: Well, it's not immediate, and that's an issue. I will say that there is a theory and legitimate enough, that says over the short term if you haven't divested from fossil fuels, and many of the players have, and they ought to be on their way to doing so, you need to use your economic clout of ownership. Meaning if you're a pension fund, and you own Exxon Mobil, and you own Chevron and ConocoPhillips, if you haven't divested from them, you need to weigh in as an owner, because that's what these large shareholders are, and you need to tell them to come up with a plan for how they are going to transition out of fossil fuels. Now, five years ago, Steve, that was like talking to the wall. You know, we work with hundreds of investors who file hundreds of shareholder resolutions a year, telling companies that as their owners, they want to see more activity on climate. But look what happened in last year’s shareholder session: number one, three of Exxon's board members were taken out by activist investors who said, 'you are not being responsible fiduciaries, you are not doing your job as board members of one of the world's largest companies, you're not addressing climate change. And we're gonna take out board members and put in new board members.’ That was a revolution. We're seeing investors use their economic muscle and clout to change the companies and their portfolios. And look at what else happened. Not only was it the religious investors who voted for this, or the socially responsible investors who voted for this, it was BlackRock, it was State Street, it was Vanguard. So we are making progress. We've moved some of the largest players in finance, to see climate as a material financial risk that they have to do something about. Enough? Not even close. And not all of them are divesting from fossil fuels. If you even look at the banks, some of the largest banks who are taking steps, and they get credit for taking some steps, they are still financing. Some of the world's dirtiest projects that has to end. Financing, new coal fired power plants, oil plants, that's got to end, and the that should be an expectation of (GFANZ). We will keep pushing, we do a lot of similar work. We're aligned with them. But our job is as an advocacy group and think tank, working with some of the world's largest companies and investors to set the gold standard on what really needs to be done. Look, Mark Carney, and now Michael Bloomberg, who's his new co-chair and partner, deserve a lot of credit for bringing together bankers, and insurance company executives, and asset management firms like JP Morgan and pension funds. That's great. We've got to have them together, but we've got to have a goal of net zero by 2050 or sooner. Plans from each of them by 2030, about how we're going to get half of the way there. And they've got to start yesterday, not tomorrow. So GFANZ will help us push companies to get to that gold standard. Will we get there? It's just gotten started, but we're hopeful that this is one more way to set the standard for the world of finance.
+
+CURWOOD: Mindy Lubber is CEO of the Sustainable Investment Group series. Mindy, thanks so much for taking the time with us today.
+
+LUBBER: Great to be with you, Steve. Take care.
+
+## Related Links
+
+- [Glasgow Financial Alliance for Net Zero Carbon](https://www.gfanzero.com)
+- [About Ceres CEO Mindy Lubber](https://www.ceres.org/about-us/staff/lubber)

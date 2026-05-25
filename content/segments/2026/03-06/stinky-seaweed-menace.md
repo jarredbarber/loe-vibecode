@@ -1,5 +1,6 @@
 ---
 title: Stinky Seaweed Menace
+slug: stinky-seaweed-menace
 date: '2026-03-06'
 category: Segments
 megaphone_id: LOE5302976273

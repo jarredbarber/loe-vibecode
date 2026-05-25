@@ -1,0 +1,59 @@
+---
+title: Idai Disaster Update
+slug: idai-disaster-update
+date: '2019-04-05'
+category: Segments
+image_url: https://loe.org/content/2019-04-05/MOZAMBIQUE-truck.jpg
+image_caption: 'Cyclone Idai is one of the deadliest tropical cyclones in the Southern Hemisphere on record, with over a thousand dead and thousands more still missing and injured. (Photo: Denis Onyodi, Climate Centre, Flickr, CC BY-NC 2.0)'
+summary: Cyclone Idai on March 14 smashed into Beira, a coastal city of 500,000 in Mozambique. The storm, with its twenty-foot storm surge and winds of over 120 miles an hour, left catastrophic destruction in its wake in that locale and brought widespread flooding to the two million or more residents of Mozambique, Malawi, and Zimbabwe. With cholera on the rise in the aftermath, the UN says this is one of the worst natural disasters to ever hit the Southern hemisphere. James Elder, the UNICEF Regional Chief of Communication for Eastern and Southern Africa, joins host Steve Curwood to recount his experiences in Beira after the cyclone and discuss the road to recovery.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=19-P13-00014&segmentID=1 -->
+
+## Transcript
+
+CURWOOD: From PRI and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth. I’m Steve Curwood.
+
+When Cyclone Idai came ashore March 14th at Beira, Mozambique as a killer category 3 storm it almost completely destroyed that coastal city. The floods and winds also wrecked the homes or crops of two million people in the region that includes Malawi and Zimbabwe as well as Mozambique. And now officials are saying a cholera epidemic is surging, with over a thousand cases already. James Elder is the UNICEF Regional Chief of Communication for Eastern and Southern Africa. He joins us now. James, welcome to Living on Earth.
+
+ELDER: Thank you very much. Good to be here.
+
+CURWOOD: Jim, as I understand it, you've just gotten back from Beira in Mozambique. How was your journey?
+
+ELDER: Um, distressing, in a word. I mean, I've seen more than enough crisis situations, most of them around conflict. Unfortunately, this compared darkly well, to those. I mean even now, weeks after that cyclone, hit and the flooding hit, and you've still got communities with, you know, trees have just been thrown across a major city. Beira is not a small town, power lines are still down, families are still coming to reception centers exhausted, unwell, there are still some communities who are trapped, cattle and livestock are kind of stuck in hard, or they've already drowned. So it's pretty testing scene for people who, let's remember, are pretty used to difficult scenarios, people who are used to adversity and to tackling difficult days. But this really was a double blow. You know, it was a deathly wall of wind, but then also flooding that just never stopped, across an area that had been experiencing poverty and drought.
+
+CURWOOD: I've spent some time in Beira, and in Mozambique. If I recall correctly, Beira's in Sofala Province there, which has had horrific rain storms in the past. A couple of decades ago, I think they had a major problem. To what extent might this compare to their earlier troubles with water?
+
+ELDER: Well, ironically enough, I was there for the floods. Gosh, it must be 12 years ago now, they weren't at this scale, nonetheless, for those people suffering at that time, it was every bit as severe as anywhere else. But the difference here, I think, was as I said, that double blow. The cyclone was devastating, and for whatever climatic reasons, the eye of the storm did hit the city of Beira, thereby decimating homes and, and really picking things up and throwing them as if they were tin cans, whereas in fact, they were houses or trees. And then the flooding, then came seven, eight, nine days, really only the last few days are the first time it hasn't rained. So I think, I mean, the United Nations is referring to this, based on climatic empirical evidence, as, you know, the worst climate disaster in two decades, based on the idea of the amount of water but also, of course, just the sheer force of the cyclone that did so much damage before the flooding came.
+
+![In the aftermath of the cyclone, one of the most pressing concerns is the access to clean water and the spread of cholera, typhoid fever, dysentery and malaria. (Photo: Denis Onyodi, Climate Centre, Flickr, CC BY-NC 2.0)](https://loe.org/content/2019-04-05/MOZAMBIQUE-flood.jpg)
+
+CURWOOD: To what extent are you hearing from folks in the United Nations that this was related to the uptick in very strong storms we see as the planet warms, and that we're likely to see more and more of these stronger storms coming out of the Mozambican channel?
+
+ELDER: Yeah, I think unfortunately, it's fair. It's accurate. I mean, yeah, my place isn't science. But I know enough, even listening to the United Nations Secretary General talking about that, what this means in terms of mitigation and emissions, and remembering that, you know, four-fifths of all emissions are coming out of those G20 rich countries and so on. So the responsibility sits there, but certainly my own anecdotal experience, whether I'm in the north of Nigeria or southernmost tip in Zimbabwe, where we're talking about, you're talking to farmers who lived on the land for three, four, five decades, who are making it very clear that they just can't predict seasons anymore. Things were very predictable and they were their life source that guaranteed the next crop, the next round of food for their families. They can't predict those things. And this is not a generation of people romanticizing a bygone era. This is people who are very clearly reliant on the land and the climate, and they know it extremely well. And they just say now that they, you know, they cannot predict when to plant and how that, how that will go. We are going to continually see this, we're going to see a shortening of space between big storm events, like I'm sure you see in North America. My understanding is, we're just going to see, these are going to be exacerbated, and there's going to be less time in between them, which of course means less time for these people who are already on the margins to actually recover from.
+
+CURWOOD: Let's talk about recovery. And the prospects of these people. You've been to a lot of difficult places over the years, Jim Elder, you've seen things. What are the prospects of recovery for these folks, versus perhaps the need to move, to migrate, and to perhaps become refugees from their homes?
+
+ELDER: So I think these communities are no stranger to hardship. I think, I already saw it. They're just like, if we could just get one or two days without rain, we will rebuild. The international press will perpetually paint them as victims, and rightly so when you get climatic disasters like this, but I, perpetually, when I meet these people and hear their stories, I hear that heroic side. I hear their daily struggle, how people, without comment or whining about it, get on with life and, and find a way to continually take on these great challenges. But in this part of the world, at least for that area of Zimbabwe, in Malawi, in Mozambique, they will get cyclical storms, and cyclical drought. But I don't think these are people who should be having to think about, about migration, but as you're alluding to, you know, in a decade or two, if things continually worsen, then all those things become possible.
+
+![At its peak intensity, Cyclone Idai’s winds were over 120 miles per hour. (Photo: Denis Onyodi, Climate Centre, Flickr, CC BY-NC 2.0)](https://loe.org/content/2019-04-05/MOZAMBIQUE-wind.jpg)
+
+CURWOOD: You've been to a lot of very difficult places and seen a lot of very difficult things. What, if anything, did you see that surprised you when you went to Beira, Mozambique?
+
+ELDER: Honestly, I think... seven or eight-year-old girl who's lost, lost her entire family and was looking for her family and the way that the community rallied around. A community that had nothing and were sharing whatever they had with her. And were looking to support her in whatever way they could. Now, that's not necessarily something I haven't seen before. But it just surprises me every time. It surprises me in the most positive way, the way that people who've been through hell and lost everything, they still look to someone in the community they don't know at all, but who's part of the community and they will, they will give them that last thing they have. That, I mean, it's not new, but it surprises me every time I see it. That level of selflessness. I mean, I mentioned to the people who are helping her like, you know, how are you finding the capacity to do this? You don't have anything. And what's I guess surprising, is they look at you as if... well, what, what do you mean? What else would we possibly do?
+
+CURWOOD: Before you go, what is the United States doing to help with this calamity in Southern Africa? And what should the US be doing to help?
+
+ELDER: The aid arm of the United States government is always a very big supporter of organizations like my own. UNICEF is, is 100% donor-funded, there's no magic pool of money. So, on one hand, the United States government can be a big supporter in these environments. The World Food Program, and their essential airdrops. But also just moms and dads, their support to UNICEF USA is absolutely critical. At this point, I can't understate that. And I think going forward, it's that. I mean, there's two parts to this. One is it's simply money. Sometimes I feel uncomfortable saying that, but it is, I know that. When we're buying another million vaccines for cholera, or trying to rebuild schools, or even just trying to get people on the ground, so we can repatriate kids that have been separated from families, that costs money, you know. So that money that people can give, be it the government or be it everyday citizens is hugely, hugely valuable. And I guess in terms of what they continue to, beyond funds, is that leadership. Where I live in Eastern and Southern Africa, people continue to look to the States for a kind of leadership. And I think that probably comes to a climatic sense as well. We know that climate change isn't emanating out of those people in Eastern and Southern Africa. They are not part of it. But I think the leadership that comes from people in US, leadership telling the rest of the G20, and the OECD, and the rich world, around the need for reduction in emissions, the need for people to change behaviors, is incredibly important, has an incredibly important impact on the kind of moms and dads and kids who I just so recently saw trying to rebuild through after this disaster in Mozambique.
+
+![The infrastructural damages from Idai are estimated to cost at least $1 billion. (Photo: Denis Onyodi, Climate Centre, Flickr, CC BY-NC 2.0)](https://loe.org/content/2019-04-05/MOZAMBIQUE-road.jpg)
+
+CURWOOD: James Elder is the Regional Communications Chief for UNICEF speaking to us from Nairobi, in East Africa. Thank you so much for taking the time with us today. And we're all grateful for the work you're doing.
+
+ELDER: Thanks so much for the interest in it. Much appreciated.
+
+## Related Links
+
+- [UNICEF | Cyclone Idai Response](https://www.unicef.org/appeals/cyclone-idai-response.html)
+- [James Elder’s blog for UNICEF](https://blogs.unicef.org/blog/author/jameselder/)
+- [CNN  | “WHO Steps Up Response As Cyclone Idai Cholera Cases Skyrocket”](https://www.cnn.com/2019/04/02/africa/cyclone-idai-who-cholera-intl/index.html)
+- [CBC  | “Extraordinary Destruction and Flooding in Mozambique Point to Unprecedented Storm”](https://www.cbc.ca/news/world/mozambique-ayed-jenzer-beira-aftermath-1.5071399)

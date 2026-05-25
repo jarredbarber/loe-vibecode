@@ -1,5 +1,6 @@
 ---
 title: Cancer and CAFOS
+slug: cancer-and-cafos
 date: '2026-05-22'
 category: Segments
 megaphone_id: LOE7081512813

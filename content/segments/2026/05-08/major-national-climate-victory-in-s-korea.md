@@ -1,5 +1,6 @@
 ---
 title: Major National Climate Victory in S. Korea
+slug: major-national-climate-victory-in-s-korea
 date: '2026-05-08'
 category: Segments
 megaphone_id: LOE4799830944

@@ -1527,6 +1527,10 @@ audio {
     margin: 0;
     list-style: none;
     color: #929292;
+    /* Two columns so the 35-year list (1991-2025) fits inside the
+       sticky sidebar without getting cut off. */
+    column-count: 2;
+    column-gap: 12px;
 }
 
 .sb_menu li {
@@ -1534,6 +1538,8 @@ audio {
     padding: 5px 0 5px 15px;
     margin: 0;
     border-bottom: 1px solid var(--border-light);
+    /* Prevent items from breaking across columns mid-row. */
+    break-inside: avoid;
 }
 
 

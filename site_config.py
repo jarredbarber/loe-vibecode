@@ -14,6 +14,13 @@ SITENAME = 'Living on Earth'
 # Default to empty string for local development
 SITEURL = os.environ.get('SITEURL', '')
 
+# Staging mode: set STAGING=true to surface in-page "Edit on GitHub" and
+# "Add segment" buttons that deep-link to GitHub's web editor. Production
+# deploys leave this unset.
+STAGING = os.environ.get('STAGING', '').lower() in ('1', 'true', 'yes')
+GITHUB_REPO = os.environ.get('GITHUB_REPO', 'jarredbarber/loe-vibecode')
+GITHUB_BRANCH = os.environ.get('GITHUB_BRANCH', 'main')
+
 # Fast build setting
 if os.environ.get('FAST_BUILD') == 'true':
     ARTICLE_EXCLUDES = ['archive']

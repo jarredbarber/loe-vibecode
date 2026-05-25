@@ -2425,3 +2425,21 @@ iframe {
     }
 }
 
+
+/* Staging-mode editor links (hidden in production by template gate). */
+.staging-edit, .staging-add {
+    margin: 8px 0;
+}
+.staging-edit-link, .staging-add-link {
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: #fff8d6;
+    border: 1px solid #d4ba4a;
+    border-radius: 4px;
+    font-size: 0.85em;
+    color: #6b5c1e;
+    text-decoration: none;
+}
+.staging-edit-link:hover, .staging-add-link:hover {
+    background-color: #ffefa3;
+}

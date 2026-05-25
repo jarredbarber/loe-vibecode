@@ -13,6 +13,9 @@
 </head>
 
 <body>
+    {% if STAGING %}
+    <a href="{{ SITEURL }}/admin/" class="staging-badge" title="Staging build — opens the CMS editor">STAGING · /admin/</a>
+    {% endif %}
     <div class="main">
         <div class="header_resize">
             <div class="header">

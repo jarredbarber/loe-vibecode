@@ -71,32 +71,28 @@ collections:
   - name: segments
     label: Segments
     label_singular: Segment
-    description: Individual story segments within a show. The folder a segment lives in determines which show it belongs to.
     folder: content/shows
     create: true
     identifier_field: title
-    # Sveltia doesn't support Decap's `nested` option yet; recursion happens
-    # via the {{slug}} placeholder in the path template (becomes [^/]+? in
-    # the file matcher regex). See sveltia-cms/src/.../file/config.js.
     path: '{{year}}/{{month}}-{{day}}/{{slug}}'
-    # Segments have no `template:` field (only shows do). Sveltia's filter
-    # supports value: null to mean "field is unset", which lets us subset
-    # to segment files.
     filter: { field: template, value: null }
-    summary: '{{date}} - {{title}}'
+    summary: '{{title}}'
     sortable_fields: [date, title]
     extension: md
 
+    # MINIMAL schema while debugging. Every frontmatter field present in
+    # the actual file MUST be declared here or Sveltia may bail on the
+    # whole entry. Adding fields back incrementally if this shows content.
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false, hint: 'Must match the parent show date.' }
-      - { label: 'Category', name: 'category', widget: 'hidden', default: 'Segments' }
-      - { label: 'Megaphone episode ID', name: 'megaphone_id', widget: 'string', required: false }
-      - { label: 'Header image URL', name: 'image_url', widget: 'string', required: false }
+      - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
+      - { label: 'Category', name: 'category', widget: 'string', required: false }
+      - { label: 'Megaphone ID', name: 'megaphone_id', widget: 'string', required: false }
+      - { label: 'Image URL', name: 'image_url', widget: 'string', required: false }
       - { label: 'Image caption', name: 'image_caption', widget: 'string', required: false }
       - { label: 'Summary', name: 'summary', widget: 'text', required: false }
-      - { label: 'Order', name: 'order', widget: 'number', required: false, hint: 'Optional. Lower numbers come first on the show page. Defaults to filename order.' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Order', name: 'order', widget: 'number', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
 
   - name: newsletters
     label: Newsletters

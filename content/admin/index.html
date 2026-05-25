@@ -10,56 +10,8 @@
     <!-- Sveltia CMS: Decap-compatible config, faster UI. -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
 
-    <!-- Custom editor components for our {% audio %} and {% cue %} shortcodes.
-         These give editors a form-driven insert instead of typing raw shortcode. -->
-    <script type="module">
-        // Wait until window.CMS is registered, then add editor components.
-        const wait = setInterval(() => {
-            const CMS = window.CMS;
-            if (!CMS || typeof CMS.registerEditorComponent !== 'function') return;
-            clearInterval(wait);
-
-            CMS.registerEditorComponent({
-                id: 'audio',
-                label: 'Audio player',
-                fields: [
-                    { name: 'src', label: 'Audio URL (mp3 or Macaulay Library)', widget: 'string' },
-                    { name: 'label', label: 'Label (e.g. "Northern Cardinal")', widget: 'string', required: false },
-                    { name: 'duration', label: 'Duration / timecode', widget: 'string', required: false },
-                ],
-                pattern: /^\{%\s+audio\s+src="([^"]+)"(?:\s+label="([^"]*)")?(?:\s+duration="([^"]*)")?\s+%\}$/,
-                fromBlock(match) {
-                    return { src: match[1], label: match[2] || '', duration: match[3] || '' };
-                },
-                toBlock(data) {
-                    let s = `{% audio src="${data.src}"`;
-                    if (data.label) s += ` label="${data.label}"`;
-                    if (data.duration) s += ` duration="${data.duration}"`;
-                    return s + ' %}';
-                },
-                toPreview(data) {
-                    return `<div style="border:1px solid #b4d4d4;border-radius:4px;padding:8px;background:#dceeea;"><strong>▶ ${data.label || 'Audio'}</strong> <small style="opacity:.7">${data.duration || ''}</small><br><small style="opacity:.5">${data.src}</small></div>`;
-                },
-            });
-
-            CMS.registerEditorComponent({
-                id: 'cue',
-                label: 'Stage cue / sound effect',
-                fields: [
-                    { name: 'text', label: 'Cue text (e.g. "CROWD CHEERS" or "BIRDNOTE THEME")', widget: 'string' },
-                ],
-                pattern: /^\{%\s+cue\s+text="([^"]+)"\s+%\}$/,
-                fromBlock(match) {
-                    return { text: match[1] };
-                },
-                toBlock(data) {
-                    return `{% cue text="${data.text}" %}`;
-                },
-                toPreview(data) {
-                    return `<div style="font-style:italic;color:#666;padding:6px;background:#f4faf8;border-radius:4px;">[${data.text}]</div>`;
-                },
-            });
-        }, 100);
-    </script>
+    <!-- TEMP: editor components disabled while diagnosing why segments
+         show empty in the editor view. Re-enable once segments load. -->
+    <!-- <script type="module"> ...editor components... </script> -->
 </body>
 </html>

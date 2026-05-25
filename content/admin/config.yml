@@ -49,7 +49,11 @@ collections:
     create: true
     identifier_field: title
     path: '{{year}}/{{month}}-{{day}}/show'
-    filter: { field: category, pattern: '^Shows$' }
+    # Discriminate shows from segments by the `template` field, which is
+    # `show` on show files and absent on segment files. Pelican's `category`
+    # field may be parsed by Sveltia as a special collection-of-tags field
+    # rather than a scalar, which broke value-based filtering.
+    filter: { field: template, value: show }
     summary: '{{date}} — {{title}}'
     sortable_fields: [date, title]
     extension: md
@@ -75,7 +79,10 @@ collections:
     # via the {{slug}} placeholder in the path template (becomes [^/]+? in
     # the file matcher regex). See sveltia-cms/src/.../file/config.js.
     path: '{{year}}/{{month}}-{{day}}/{{slug}}'
-    filter: { field: category, pattern: '^Segments$' }
+    # Segments have no `template:` field (only shows do). Sveltia's filter
+    # supports value: null to mean "field is unset", which lets us subset
+    # to segment files.
+    filter: { field: template, value: null }
     summary: '{{date}} — {{title}}'
     sortable_fields: [date, title]
     extension: md

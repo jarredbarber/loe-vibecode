@@ -18,6 +18,10 @@ Agent instructions: When working on a task, update the status of the task in thi
 
 ## Open
 
+- [ ] **Decap/Sveltia admin — go live**: stand up the Cloudflare Worker OAuth proxy, swap `backend: test-repo` for `backend: github` in `content/admin/config.yml`, register GitHub OAuth app. Until then, `/admin/` works in test mode only (UI exploration, no commits). Tag `pre-decap-admin` marks the rollback point.
+
+## Older open
+
 - [ ] **Skipped from review**: split `speaker_highlight` into separate plugins by responsibility. User declined for now — the dedup with `shortcodes` is gone, so this is no longer urgent.
 - [ ] **Ingest historical years** (2025 and earlier) — cache is fully populated through 2003; the 2002→1991 agent is still running. After that, `ingest emit --year YYYY` for each historical year.
 - [x] **Port `scrape_newsletters.py`** — done.

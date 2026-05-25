@@ -62,6 +62,15 @@ THEME = 'themes/loe_original'
 
 # Static paths
 STATIC_PATHS = ['static', 'images', 'extra']
+# Admin UI is shipped only on staging builds. Production omits it so /admin/
+# 404s on the public site. To preview admin locally: STAGING=true pelican ...
+if STAGING:
+    STATIC_PATHS.append('admin')
+
+# Don't parse anything inside content/admin/ as an article or page —
+# the directory is purely static (SPA shell + config + README).
+ARTICLE_EXCLUDES = ['admin']
+PAGE_EXCLUDES = ['admin']
 
 # Extra path metadata - serve files from extra directory at root
 EXTRA_PATH_METADATA = {

@@ -1,0 +1,112 @@
+# Sveltia CMS config for Living on Earth.
+# Sveltia is a drop-in Decap replacement; this file is also valid Decap config.
+#
+# CURRENT BACKEND: test-repo
+#   Anonymous, in-memory only. Edits never commit anywhere. Use this to verify
+#   the UI, schema, and editor components before flipping to live GitHub commits.
+#
+# WHEN READY FOR LIVE EDITING:
+#   1. Deploy the OAuth proxy (Cloudflare Worker — instructions in admin/README.md)
+#   2. Swap the backend block below for the commented `github` block
+#   3. Done.
+
+backend:
+  name: test-repo
+  # name: github
+  # repo: jarredbarber/loe-vibecode
+  # branch: main          # later: switch to 'staging' once a staging deploy exists
+  # base_url: https://<your-cloudflare-worker>.workers.dev
+
+site_url: https://vibingon.earth
+display_url: https://vibingon.earth
+logo_url: /theme/img/logo.png
+
+# Images committed via the CMS land here. Existing legacy images on the
+# external CDN keep working — editors paste the URL into the image_url field.
+media_folder: content/images
+public_folder: /images
+
+# Default to publishing immediately (no draft/review workflow). Can switch
+# to editorial_workflow later for PR-based review per change.
+# publish_mode: editorial_workflow
+
+collections:
+  - name: shows
+    label: Shows
+    label_singular: Show
+    description: Weekly show pages. Segments are stored as separate files in each show's date folder and auto-discovered at build time.
+    folder: content/shows
+    nested:
+      depth: 4
+      summary: '{{filename}}'
+    create: true
+    identifier_field: title
+    path: '{{year}}/{{month}}-{{day}}/show'
+    extension: md
+    format: yaml-frontmatter
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', hint: 'e.g. "Living on Earth: May 22, 2026"' }
+      - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
+      - { label: 'Template', name: 'template', widget: 'hidden', default: 'show' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'Shows' }
+      - { label: 'Megaphone episode ID', name: 'megaphone_id', widget: 'string', required: false, hint: 'e.g. LOE6677141098' }
+      - { label: 'Header image URL', name: 'image_url', widget: 'string', required: false }
+      - { label: 'Summary', name: 'summary', widget: 'text', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false, hint: 'Usually empty — segments are auto-discovered from sibling files in the same folder.' }
+
+  - name: segments
+    label: Segments
+    label_singular: Segment
+    description: Individual story segments within a show. The folder a segment lives in determines which show it belongs to.
+    folder: content/shows
+    nested:
+      depth: 4
+      summary: '{{filename}}'
+    create: true
+    identifier_field: title
+    filter: { field: category, value: Segments }
+    extension: md
+    format: yaml-frontmatter
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false, hint: 'Must match the parent show date.' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'Segments' }
+      - { label: 'Megaphone episode ID', name: 'megaphone_id', widget: 'string', required: false }
+      - { label: 'Header image URL', name: 'image_url', widget: 'string', required: false }
+      - { label: 'Image caption', name: 'image_caption', widget: 'string', required: false }
+      - { label: 'Summary', name: 'summary', widget: 'text', required: false }
+      - { label: 'Order', name: 'order', widget: 'number', required: false, hint: 'Optional. Lower numbers come first on the show page. Defaults to filename order.' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: newsletters
+    label: Newsletters
+    label_singular: Newsletter
+    folder: content/newsletters
+    create: true
+    identifier_field: title
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    extension: md
+    format: yaml-frontmatter
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
+      - { label: 'Slug', name: 'slug', widget: 'string', hint: 'URL slug, e.g. "fire-we-can-walk-beside"' }
+      - { label: 'Category', name: 'category', widget: 'hidden', default: 'Newsletter' }
+      - { label: 'Template', name: 'template', widget: 'hidden', default: 'newsletter_article' }
+      - { label: 'Summary', name: 'summary', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: pages
+    label: Pages
+    label_singular: Page
+    description: Standalone site pages (About, Stations, etc.).
+    folder: content/pages
+    create: false
+    identifier_field: title
+    extension: md
+    format: yaml-frontmatter
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string', required: false }
+      - { label: 'Status', name: 'status', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

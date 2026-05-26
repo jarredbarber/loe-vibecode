@@ -1,42 +1,24 @@
 # Open tasks
 
-Agent instructions: When working on a task, update the status of the task in this TASKS.md file. Add notes to a subheading under the task you are working on that could help future agents complete the task if you are having trouble.
+## Backlog
 
-## Architecture cleanup pass — DONE
+- [ ] **Full-entry CMS preview** — Sveltia's `CMS.registerPreviewTemplate` is documented but not yet implemented (planned for 1.0). Until it lands, the in-pane preview falls back to Sveltia's built-in markdown renderer + our inline `{% audio %}` / `{% cue %}` toPreview handlers. The Fly.io render service at `https://loe-vibecode.fly.dev` is deployed and ready, returning pixel-identical HTML to the public site. Two ways to consume it once Sveltia supports it (or as a stop-gap): (a) wait for Sveltia 1.0 and wire `registerPreviewTemplate`, (b) build a companion `/admin/preview/` tab that reads Sveltia's draft from localStorage (`sveltia-cms.draft.<id>`) and POSTs to the Fly service for real-time render in a second window.
+- [ ] **Pages audit** — content/pages and content/series may want hand cleanup after the YAML conversion.
+- [ ] **OAuth proxy** — currently using GitHub PAT auth. Worth switching to a Cloudflare Worker OAuth proxy if more editors join (eliminates per-editor token management).
+- [ ] **`view_filters` for segments** — toggle row above the segments list (2026 / 2025 / All).
 
-- [x] **Reset 2025 content** — deleted; will be re-ingested
-- [x] **Retire the bracket-cue path**
-  - Added `{% cue %}` shortcode for non-audio bracketed content (stage directions, music attributions)
-  - Updated ingest to convert every standalone bracket paragraph to either `{% audio %}` or `{% cue %}`
-  - Added `splitInlineBracketCues` pre-pass to handle BirdNote-style `<br>`-separated cues within one paragraph
-  - Deleted ~120 lines of bracket-buffer code from `speaker_highlight` (`_clean_brackets`, `_flush_bracket_buffer`, `in_bracket_block` state)
-  - Music-cue HTML emission now lives in one place: `plugins/shortcodes/__init__.py`
-- [x] **Fix `show_segments` slug-substring fallback** — removed; only `{filename}` match remains. Also dropped case-permuted metadata access and dead `.strip('"')` calls. File shrank from 87 to 64 lines.
-- [x] **De-dupe `article.html` and `show.html`** — extracted `modules/_article_header.html`. Both templates now ~18 lines.
-- [x] **Unify CI deps** — `deploy.yml` now `pip install -r requirements.txt`.
-- [x] **Add golden tests** — 7 tests in `tests/test_render.py` against a fixture site built into tmp. Run with `pytest tests/`. Covers: title quoting, transcript blocks, figure captions, `{% audio %}` custom player, `{% cue %}` speaker detection, show headline synthesis, nav active state.
+## Done
 
-## Open
-
-- [ ] **Decap/Sveltia admin — go live**: stand up the Cloudflare Worker OAuth proxy, swap `backend: test-repo` for `backend: github` in `content/admin/config.yml`, register GitHub OAuth app. Until then, `/admin/` works in test mode only (UI exploration, no commits). Tag `pre-decap-admin` marks the rollback point.
-
-## Older open
-
-- [ ] **Skipped from review**: split `speaker_highlight` into separate plugins by responsibility. User declined for now — the dedup with `shortcodes` is gone, so this is no longer urgent.
-- [ ] **Ingest historical years** (2025 and earlier) — cache is fully populated through 2003; the 2002→1991 agent is still running. After that, `ingest emit --year YYYY` for each historical year.
-- [x] **Port `scrape_newsletters.py`** — done.
-- [ ] **Port `scrape_series.py`**
-- [ ] **Delete `scripts/*.py`** once parity is reached
-- [x] **Slug collisions** — fixed (MMDD suffix at emit time).
-- [x] **YAML frontmatter** — Pelican now uses real YAML via the `yaml_reader` plugin + `markdown_full_yaml_metadata`. Ingest emit uses `js-yaml`. All existing content converted via `scripts/convert-frontmatter-to-yaml.py`.
-- [x] **Auto-discover segments** — `show_segments` plugin scans the show directory; show.md no longer needs a `## Segments` block. Optional `order:` frontmatter for explicit segment ordering.
-- [ ] **Pages audit** — review `content/pages/*.md` and `content/series/*.md` by hand for any field cleanups now that YAML quoting handles tricky values (the conversion script wrapped strings safely, but some content might still want manual cleanup).
-
-## Done (this branch)
-
-- TS ingest pipeline + 2026 content
+- TS ingest pipeline + 2026 content + historical archive (1991-2025 cached)
 - Inline image captions → `<figure><figcaption>`
 - `{% audio %}` + `{% cue %}` shortcodes + custom inline player
 - Page-aware nav active state
 - Migration-review agent (Haiku)
-- Architecture cleanup pass (above)
+- Architecture cleanup: YAML frontmatter, auto-discover segments, slug collisions, template de-dup, golden tests, CI deps unified
+- Sveltia CMS at `/admin/` with custom audio + cue widgets, deep-link badges, GitHub PAT auth, client-side editor-mode detection (no STAGING flag)
+- Speaker regex handles O'NEILL, McKIBBEN, MacKENZIE, MAN 1, etc.
+- Letterboxed header images, 2-column year browser, tap-friendly stations map
+- Music-cue card de-nesting
+- Build down from 5 min to 6 sec (pre-2025 moved to `archive/`)
+- Fly.io preview render service deployed at `https://loe-vibecode.fly.dev`
+- Newsletter ingest port, legacy Python scrapers deleted, series scraper skipped (one-offs)

@@ -10,20 +10,13 @@
     <!-- Sveltia CMS: Decap-compatible config, faster UI. -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
 
-    <!-- Configure the preview pane:
-         - Load the live site CSS so styling matches.
-         - Register a remote preview template that POSTs body+frontmatter to
-           the Fly.io preview service and renders the returned HTML. This
-           makes the preview pixel-identical to the public site because it
-           runs through the SAME Pelican plugin chain.
-
-         To enable: change PREVIEW_URL below to your deployed Fly.io URL.
-         Setting it to null disables the remote preview and falls back to
-         the local toPreview() handlers in the editor components below
-         (still styled close but not pipeline-identical). -->
-    <script>
-        window.LOE_PREVIEW_URL = 'https://loe-vibecode.fly.dev/preview';
-    </script>
+    <!-- Full-entry preview is Sveltia's built-in markdown renderer +
+         the inline toPreview() handlers on each editor component below.
+         CMS.registerPreviewTemplate isn't implemented in Sveltia yet
+         (planned for 1.0). The Fly.io render service at
+         https://loe-vibecode.fly.dev is wired up and ready; see
+         TASKS.md for the backlog item to consume it from a companion
+         preview tab. -->
 
     <!-- Custom editor components for our {% audio %} and {% cue %} shortcodes.
          Editors get a toolbar button each instead of typing raw shortcode. -->
@@ -32,64 +25,6 @@
             const CMS = window.CMS;
             if (!CMS || typeof CMS.registerEditorComponent !== 'function') return;
             clearInterval(wait);
-
-            // Load the production site CSS into the preview pane so previews
-            // look pixel-identical.
-            if (typeof CMS.registerPreviewStyle === 'function') {
-                CMS.registerPreviewStyle('/theme/css/style.css');
-            }
-
-            // Remote preview via the Fly.io render service. Wires up a
-            // collection preview template that POSTs the entry to the same
-            // Pelican plugin chain that powers the public site, then injects
-            // the returned HTML into the preview pane.
-            if (window.LOE_PREVIEW_URL && typeof CMS.registerPreviewTemplate === 'function') {
-                const h = React.createElement;
-                const cache = new Map();
-
-                function RemotePreview({ entry, collection }) {
-                    const data = entry.get('data').toJS();
-                    const body = data.body || '';
-                    const fm = { ...data };
-                    delete fm.body;
-                    const key = JSON.stringify({ body, fm });
-
-                    const [html, setHtml] = React.useState(cache.get(key) ?? '<p>Rendering…</p>');
-
-                    React.useEffect(() => {
-                        if (cache.has(key)) { setHtml(cache.get(key)); return; }
-                        let cancelled = false;
-                        fetch(window.LOE_PREVIEW_URL, {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({ body, frontmatter: fm, collection: collection.get('name') }),
-                        })
-                            .then(r => r.json())
-                            .then(j => {
-                                if (cancelled) return;
-                                const result = j.html || `<p style="color:#a00">Preview error: ${j.error || 'unknown'}</p>`;
-                                cache.set(key, result);
-                                setHtml(result);
-                            })
-                            .catch(e => {
-                                if (cancelled) return;
-                                setHtml(`<p style="color:#a00">Preview unavailable: ${e.message}</p>`);
-                            });
-                        return () => { cancelled = true; };
-                    }, [key]);
-
-                    // The Fly service wraps response HTML in the site's
-                    // layout divs + injects the stylesheet, so we don't
-                    // need any extra wrapper here.
-                    return h('div', {
-                        dangerouslySetInnerHTML: { __html: html },
-                    });
-                }
-
-                for (const name of ['shows', 'segments', 'newsletters', 'pages']) {
-                    CMS.registerPreviewTemplate(name, RemotePreview);
-                }
-            }
 
             // Shared style block matching themes/loe_original/static/css/style.css
             // (.music-cue-item rules) so the editor preview looks like the

@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
         return api
             .getAll()
             .filter((item) => item.data.template === 'show')
-            .sort((a, b) => Number(b.data.date) - Number(a.data.date));
+            .sort((a, b) => Date.parse(b.data.date) - Date.parse(a.data.date));
     });
 
     // Segments, sorted newest first then by `order:` frontmatter.
@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
         return api
             .getAll()
             .filter((item) => item.data.category === 'Segments')
-            .sort((a, b) => Number(b.data.date) - Number(a.data.date));
+            .sort((a, b) => Date.parse(b.data.date) - Date.parse(a.data.date));
     });
 
     // Newsletters.
@@ -25,7 +25,7 @@ module.exports = function (eleventyConfig) {
         return api
             .getAll()
             .filter((item) => item.data.category === 'Newsletter')
-            .sort((a, b) => Number(b.data.date) - Number(a.data.date));
+            .sort((a, b) => Date.parse(b.data.date) - Date.parse(a.data.date));
     });
 
     // Index segments by date string ("YYYY-MM-DD") so the filter below is O(1)

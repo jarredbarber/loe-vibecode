@@ -7,3 +7,5 @@ content/_wip
 *.log
 **/.DS_Store
 tests/fixtures/_build/
+eleventy/node_modules
+_site_11ty

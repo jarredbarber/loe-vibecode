@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or "Living on Earth" }}</title>
+    <link rel="stylesheet" href="/theme/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header_resize">
+            <div class="header">
+                <div class="logo"><a href="/index.html"><img src="/theme/img/logo.png" alt="Living on Earth" /></a></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_resize">
+                <div class="mainbar">
+                    {{ content | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

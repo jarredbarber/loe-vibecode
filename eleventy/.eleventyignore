@@ -1,0 +1,11 @@
+# Skip content while we incrementally port templates. Remove paths as
+# each section gets ported.
+admin/**
+shows/**
+segments/**
+newsletters/**
+series/**
+pages/**
+extra/**
+images/**
+static/**

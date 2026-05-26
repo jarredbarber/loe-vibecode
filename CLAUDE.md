@@ -54,5 +54,5 @@ Python scrapers (`scrape_archives.py`, `scrape_newsletters.py`, `scrape_series.p
 ## Conventions
 
 - When editing show/segment markdown, preserve the frontmatter fields documented in `README.md` (`title`, `date`, `category`, `template`, `megaphone_id`, `image_url`, `summary`) — templates and plugins read them by name.
-- `TASKS.md` is the active task list. Per its own instructions: update task status there as you work, and leave notes for future agents under the task heading when something is tricky.
+- Open work lives in GitHub Issues: <https://github.com/jarredbarber/loe-vibecode/issues>. Reference issue numbers in commit messages (`Closes #2`) and use `gh issue create` for new items.
 - `_site/` and `output/` are build artifacts — don't edit by hand.

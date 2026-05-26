@@ -51,6 +51,9 @@ collections:
     path: '{{year}}/{{month}}-{{day}}/show'
     summary: '{{date}} - {{title}}'
     sortable_fields: [date, title]
+    view_filters:
+      - { label: '2026', field: date, pattern: '^2026-' }
+      - { label: '2025', field: date, pattern: '^2025-' }
     extension: md
 
     fields:
@@ -73,6 +76,9 @@ collections:
     path: '{{year}}/{{month}}-{{day}}/{{slug}}'
     summary: '{{date}} - {{title}}'
     sortable_fields: [date, title]
+    view_filters:
+      - { label: '2026', field: date, pattern: '^2026-' }
+      - { label: '2025', field: date, pattern: '^2025-' }
     extension: md
 
     fields:

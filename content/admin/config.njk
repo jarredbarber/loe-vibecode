@@ -36,7 +36,7 @@ collections:
   - name: shows
     label: Shows
     label_singular: Show
-    description: Weekly show pages. Segments live in the matching content/segments/YYYY/MM-DD/ folder and are auto-discovered at build time.
+    description: Recent show pages. Segments are auto-discovered at build time.
     folder: content/shows
     create: true
     identifier_field: title
@@ -61,7 +61,7 @@ collections:
   - name: segments
     label: Segments
     label_singular: Segment
-    description: Individual story segments. The YYYY/MM-DD subfolder pairs the segment with its parent show.
+    description: Recent story segments. Each is paired with its show by date.
     folder: content/segments
     create: true
     identifier_field: title

@@ -1,44 +1,35 @@
-# Sveltia CMS config for Living on Earth.
-# Sveltia is a drop-in Decap replacement; this file is also valid Decap config.
-#
-# CURRENT BACKEND: test-repo
-#   Anonymous, in-memory only. Edits never commit anywhere. Use this to verify
-#   the UI, schema, and editor components before flipping to live GitHub commits.
-#
-# WHEN READY FOR LIVE EDITING:
-#   1. Deploy the OAuth proxy (Cloudflare Worker — instructions in admin/README.md)
-#   2. Swap the backend block below for the commented `github` block
-#   3. Done.
+---
+permalink: /admin/config.yml
+eleventyExcludeFromCollections: true
+---
+{# Eleventy renders this to /admin/config.yml at build time.
 
+   Sveltia uses {{ }} for its own template variables (e.g. {{date}}, {{slug}},
+   {{year}}/{{month}}-{{day}}/show in path templates). To pass those through
+   literally we wrap the body in {% raw %} … {% endraw %} and break out for
+   the two values we inject:
+     - {{ recentWindow.pattern }} — rolling regex matching the visible date window
+#}
+{%- set PATTERN = recentWindow.pattern -%}
+{%- set WINDOW = recentWindow.months | join(", ") -%}
+{%- set GENERATED = recentWindow.generatedAt -%}
+# Sveltia CMS config for Living on Earth.
+# Rendered at build time from content/admin/config.njk so the date filters
+# get a fresh rolling window on every deploy.
+#
+# Window: {{ WINDOW }} (generated {{ GENERATED }}).
+{% raw %}
 backend:
   name: github
   repo: jarredbarber/loe-vibecode
-  branch: main          # later: switch to 'staging' once a staging deploy exists
-  # base_url is omitted on purpose. Without it Sveltia offers two sign-in
-  # paths on the login screen:
-  #   1. "Sign in with Token" — paste a GitHub Personal Access Token. No
-  #      infra needed. Each editor generates their own PAT with `repo` scope
-  #      at https://github.com/settings/tokens/new — Sveltia auto-deep-links
-  #      to that page with the right scope pre-selected.
-  #   2. "Sign in with GitHub" — proper OAuth flow. Requires deploying the
-  #      sveltia-cms-auth Cloudflare Worker and setting base_url to it.
-  #      See content/admin/README.md.
-  #
-  # PAT is the easiest path for small teams. OAuth is nicer for editors who
-  # don't want to manage tokens.
+  branch: main
 
 site_url: https://vibingon.earth
 display_url: https://vibingon.earth
 logo_url: /theme/img/logo.png
 
-# Images committed via the CMS land here. Existing legacy images on the
-# external CDN keep working — editors paste the URL into the image_url field.
 media_folder: content/images
 public_folder: /images
-
-# Default to publishing immediately (no draft/review workflow). Can switch
-# to editorial_workflow later for PR-based review per change.
-# publish_mode: editorial_workflow
 
 collections:
   - name: shows
@@ -51,9 +42,7 @@ collections:
     path: '{{year}}/{{month}}-{{day}}/show'
     summary: '{{date}} - {{title}}'
     sortable_fields: [date, title]
-    view_filters:
-      - { label: '2026', field: date, pattern: '^2026-' }
-      - { label: '2025', field: date, pattern: '^2025-' }
+    filter: { field: date, pattern: '{% endraw %}{{ PATTERN }}{% raw %}' }
     extension: md
 
     fields:
@@ -76,9 +65,7 @@ collections:
     path: '{{year}}/{{month}}-{{day}}/{{slug}}'
     summary: '{{date}} - {{title}}'
     sortable_fields: [date, title]
-    view_filters:
-      - { label: '2026', field: date, pattern: '^2026-' }
-      - { label: '2025', field: date, pattern: '^2025-' }
+    filter: { field: date, pattern: '{% endraw %}{{ PATTERN }}{% raw %}' }
     extension: md
 
     fields:
@@ -118,9 +105,9 @@ collections:
     create: false
     identifier_field: title
     extension: md
-
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Slug', name: 'slug', widget: 'string', required: false }
       - { label: 'Status', name: 'status', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+{% endraw %}

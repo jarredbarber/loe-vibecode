@@ -19,13 +19,18 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ '../themes/loe_original/static': 'theme' });
     eleventyConfig.addPassthroughCopy({ '../content/images': 'images' });
     eleventyConfig.addPassthroughCopy({ '../content/extra': '.' });
-    eleventyConfig.addPassthroughCopy({ '../content/admin': 'admin' });
+    // admin/index.html + README copy through; config.njk is templated
+    // (produces _site_11ty/admin/config.yml via its frontmatter permalink).
+    eleventyConfig.addPassthroughCopy({ '../content/admin/index.html': 'admin/index.html' });
+    eleventyConfig.addPassthroughCopy({ '../content/admin/README.md': 'admin/README.md' });
 
     // Skip content sections while we port templates incrementally.
     // .eleventyignore globs are relative to the ignore file's dir; ours
     // lives in eleventy/ which doesn't see ../content/. Use the JS API
     // with paths relative to the configured input dir.
-    eleventyConfig.ignores.add('../content/admin/**');
+    // Ignore admin/* templates EXCEPT config.njk which we want rendered.
+    eleventyConfig.ignores.add('../content/admin/index.html');
+    eleventyConfig.ignores.add('../content/admin/README.md');
     eleventyConfig.ignores.add('../content/series/**');
     eleventyConfig.ignores.add('../content/extra/**');
     eleventyConfig.ignores.add('../content/images/**');

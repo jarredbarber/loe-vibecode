@@ -167,20 +167,22 @@ async function runWithConcurrency(items, limit, fn) {
     return results;
 }
 
+// 403/429 typically mean "bot blocked" rather than broken — downgrade to warn.
+const classify = (r) => (r.ok ? 'ok' : r.status === 403 || r.status === 429 ? 'warn' : 'fail');
+
 const results = await runWithConcurrency(uniqueRefs, CONCURRENCY, async (ref) => {
     const r = await checkUrl(ref.url);
+    const level = classify(r);
     if (!quiet) {
-        const tag = r.ok ? 'OK  ' : 'FAIL';
+        const tag = { ok: 'OK  ', warn: 'WARN', fail: 'FAIL' }[level];
         process.stdout.write(`  [${tag}] ${r.status || '---'} ${ref.url}\n`);
     }
-    return { ...ref, ...r };
+    return { ...ref, ...r, level };
 });
 
 for (const r of results) {
-    if (r.ok) continue;
-    // 403/429 typically mean "bot blocked" rather than broken — downgrade to warn.
-    const level = r.status === 403 || r.status === 429 ? 'warn' : 'fail';
-    note(level, r.where, `URL ${r.status || 'unreachable'} ${r.error ?? ''}: ${r.url}`);
+    if (r.level === 'ok') continue;
+    note(r.level, r.where, `URL ${r.status || 'unreachable'} ${r.error ?? ''}: ${r.url}`);
 }
 
 // ---- summary ----

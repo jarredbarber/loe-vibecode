@@ -33,7 +33,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.ignores.add('../content/admin/index.html');
     eleventyConfig.ignores.add('../content/admin/preview.html');
     eleventyConfig.ignores.add('../content/admin/README.md');
-    eleventyConfig.ignores.add('../content/series/**');
     eleventyConfig.ignores.add('../content/extra/**');
     eleventyConfig.ignores.add('../content/images/**');
     eleventyConfig.ignores.add('../content/static/**');
@@ -57,6 +56,7 @@ module.exports = function (eleventyConfig) {
             if (data.layout === false) return false;
             if (data.layout) return data.layout;
             if (data.template === 'show') return 'layouts/show.njk';
+            if (data.template === 'series') return 'layouts/series.njk';
             if (data.template === 'newsletter_article') return 'layouts/newsletter_article.njk';
             if (data.category === 'Segments') return 'layouts/article.njk';
             if (data.category === 'Newsletter') return 'layouts/newsletter_article.njk';
@@ -70,6 +70,11 @@ module.exports = function (eleventyConfig) {
             if (data.permalink) return data.permalink;
             // Pages → /<slug>.html (Pelican PAGE_URL).
             if (data.page && data.page.inputPath && data.page.inputPath.includes('/pages/')) {
+                const slug = data.slug || (data.page.filePathStem.split('/').pop());
+                return `/${slug}.html`;
+            }
+            // Series → /<slug>.html (Pelican routed series at root, not under /series/).
+            if (data.template === 'series') {
                 const slug = data.slug || (data.page.filePathStem.split('/').pop());
                 return `/${slug}.html`;
             }

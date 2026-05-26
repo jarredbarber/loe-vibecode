@@ -24,6 +24,7 @@
     #}
     {% set _src = none %}
     {% set _collection = none %}
+    {% set _entry_slug = none %}
     {% if article is defined and article.relative_source_path %}
         {% set _src = article.relative_source_path %}
     {% elif page is defined and page.relative_source_path %}
@@ -33,11 +34,17 @@
         {% set _first = _src.split('/', 1)[0] %}
         {% if _first in ('shows', 'segments', 'newsletters', 'pages') %}
             {% set _collection = _first %}
+            {# Sveltia deep-link slug: strip the leading "<collection>/"
+               and trailing ".md" from the repo-relative source path. So
+               segments/2026/05-22/cancer-and-cafos.md becomes
+               2026/05-22/cancer-and-cafos — matches the slug derived by
+               Sveltia's path template. #}
+            {% set _entry_slug = _src[(_first|length + 1):-3] %}
         {% endif %}
     {% endif %}
     <div class="editor-badges" hidden>
         <a class="editor-badge editor-badge-cms"
-           href="{{ SITEURL }}/admin/{% if _collection %}#/collections/{{ _collection }}{% endif %}"
+           href="{{ SITEURL }}/admin/{% if _collection and _entry_slug %}#/collections/{{ _collection }}/entries/{{ _entry_slug }}{% elif _collection %}#/collections/{{ _collection }}{% endif %}"
            target="_blank" rel="noopener"
            title="Open this entry in the CMS">✎ Edit in CMS</a>
         <a class="editor-badge editor-badge-gh"

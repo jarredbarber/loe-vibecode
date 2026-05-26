@@ -3,6 +3,7 @@ title: 'Note on Emerging Science: Lightning-Rod Trees'
 slug: note-on-emerging-science-lightning-rod-trees
 date: '2026-03-20'
 category: Segments
+order: '4'
 megaphone_id: LOE1354220865
 image_url: https://loe.org/content/2026-03-20/SCINOTE_forest.jpg
 image_caption: 'New research indicates that a species of tree called Dipteryx oleifera, also known as almendro trees, shown above, are resistant to lightning strikes and even use them to their advantage. (Photo: keesgroenendijk, Wikimedia Commons, CC BY 4.0)'

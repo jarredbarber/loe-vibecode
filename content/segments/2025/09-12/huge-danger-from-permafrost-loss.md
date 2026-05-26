@@ -3,6 +3,7 @@ title: Huge Danger from Permafrost Loss
 slug: huge-danger-from-permafrost-loss
 date: '2025-09-12'
 category: Segments
+order: '3'
 megaphone_id: LOE4822521173
 image_url: https://loe.org/content/2025-09-12/BOREAL_carbonstorage.jpg
 image_caption: 'The boreal forests of the far north store as much carbon as has been released by human civilization since industrialization. (Photo: USFWSAlaska, Wikimedia Commons, public domain)'

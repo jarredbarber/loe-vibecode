@@ -3,6 +3,7 @@ title: Listening on Earth
 slug: listening-on-earth-0411
 date: '2025-04-11'
 category: Segments
+order: '5'
 megaphone_id: LOE6028006800
 image_url: https://loe.org/content/2025-04-11/LISTENING_peeper.jpg
 image_caption: 'A spring peeper perched on a tree. (Photo: U.S. Geological Survey, Wikimedia Commons, Public Domain)'

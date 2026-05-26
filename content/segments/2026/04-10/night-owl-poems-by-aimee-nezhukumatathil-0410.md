@@ -3,6 +3,7 @@ title: '"Night Owl" -- Poems by Aimee Nezhukumatathil'
 slug: night-owl-poems-by-aimee-nezhukumatathil-0410
 date: '2026-04-10'
 category: Segments
+order: '4'
 megaphone_id: LOE9296516678
 image_url: https://loe.org/content/2026-04-10/NIGHTOWL_authorandpoet.jpg
 image_caption: 'Author and poet Aimee Nezhukumatathil says she does her best creative work at night. (Photo: Sindre Fs, Pexels, public domain)'

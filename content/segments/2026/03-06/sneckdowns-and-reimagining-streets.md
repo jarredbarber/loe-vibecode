@@ -3,6 +3,7 @@ title: '"Sneckdowns" and Reimagining Streets'
 slug: sneckdowns-and-reimagining-streets
 date: '2026-03-06'
 category: Segments
+order: '3'
 megaphone_id: LOE5848704106
 image_url: https://loe.org/content/2026-03-06/SNOW_snowystreet.jpg
 image_caption: 'A snowy neckdown, or sneckdown, models how streets can be made safer for both cars and pedestrians by extending sidewalk space at intersections. February brought record-breaking snow to the Northeastern U.S., inspiring sneckdown hunters to take to the streets. (Photo: Wil540 art, Wikimedia Commons, CC BY 4.0)'

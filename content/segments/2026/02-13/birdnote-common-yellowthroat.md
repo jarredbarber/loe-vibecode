@@ -3,6 +3,7 @@ title: 'BirdNote®: Common Yellowthroat'
 slug: birdnote-common-yellowthroat
 date: '2026-02-13'
 category: Segments
+order: '5'
 megaphone_id: LOE2965524926
 image_url: https://loe.org/content/2026-02-13/BIRDNOTE_bird.jpg
 image_caption: 'A male common yellowthroat perches atop a treebranch and sings. (Photo: George Gentry, U.S. Fish and Wildlife Service, Wikimedia Commons, public domain)'

@@ -3,6 +3,7 @@ title: 'Ecological Justice: "We Need Each Other"'
 slug: ecological-justice-we-need-each-other
 date: '2025-06-20'
 category: Segments
+order: '3'
 megaphone_id: LOE2466152783
 image_url: https://loe.org/content/2025-06-20/C1_churches.jpg
 image_caption: 'Churches with solar panels could be resiliency hubs in times of natural disaster, suggests Rev. Mariama White-Hammond. (Photo: Mbrickn, Wikimedia Commons, CC BY 4.0)'

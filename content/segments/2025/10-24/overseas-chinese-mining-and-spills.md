@@ -3,6 +3,7 @@ title: Overseas Chinese Mining and Spills
 slug: overseas-chinese-mining-and-spills
 date: '2025-10-24'
 category: Segments
+order: '3'
 megaphone_id: LOE4400725524
 image_url: https://loe.org/content/2025-10-24/BELT_zambia.jpg
 image_caption: A landscape in Zambia 12 weeks after a Chinese copper mine spilled toxic waste laced with heavy metals, including lead, arsenic and uranium. (Photo Katie Surma, Inside Climate News)

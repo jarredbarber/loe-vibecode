@@ -3,6 +3,7 @@ title: Underpaid Incarcerated Firefighters Get a Big Raise
 slug: underpaid-incarcerated-firefighters-get-a-big-raise
 date: '2025-11-28'
 category: Segments
+order: '2'
 megaphone_id: LOE2171469823
 image_url: https://loe.org/content/2025-11-28/FIREFIGHTER_greenfire.jpeg
 image_caption: 'Our guest, Eddie Herrera Jr. at the Green Fire in San Luis Obispo County in 2024. Herrera worked his way up from being an incarcerated firefighter to being a fire apparatus engineer for the state of California. (Photo: Courtesy of Eddie Herrera Jr.)'

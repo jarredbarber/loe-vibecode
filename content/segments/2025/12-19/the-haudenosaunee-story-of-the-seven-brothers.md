@@ -3,6 +3,7 @@ title: The Haudenosaunee Story of The Seven Brothers
 slug: the-haudenosaunee-story-of-the-seven-brothers
 date: '2025-12-19'
 category: Segments
+order: '1'
 megaphone_id: LOE1331987808
 image_url: https://loe.org/content/2025-12-19/SEVEN_pleiades.jpg
 image_caption: 'The Haudenosaunee story known as the Seven Star Brothers legend explains the origin of the Pleiades constellation (pictured above). The Pleiades is an open cluster of approximately 3,000 stars in the constellation of Taurus and becomes a prominent part of the winter night sky around the Winter Solstice. (Photo: NASA, ESA, AURA/Caltech, Palomar Observatory, Wikimedia Commons, Public Domain)'

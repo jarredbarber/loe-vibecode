@@ -3,6 +3,7 @@ title: Animal Self-Medication
 slug: animal-self-medication
 date: '2025-08-08'
 category: Segments
+order: '4'
 megaphone_id: LOE6128341708
 image_url: https://loe.org/content/2024-05-17/ORANGUTAN_sumatran.jpeg
 image_caption: 'Sumatran orangutans are an endangered species native to Indonesia. (Photo: cuatrok77, Flickr, CC BY-NC-SA 2.0)'

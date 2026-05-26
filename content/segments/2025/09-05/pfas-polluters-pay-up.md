@@ -3,6 +3,7 @@ title: PFAS Polluters Pay Up
 slug: pfas-polluters-pay-up
 date: '2025-09-05'
 category: Segments
+order: '1'
 megaphone_id: LOE6454509903
 image_url: https://loe.org/content/2025-09-05/PFAS_repauno.jpg
 image_caption: 'The Repauno Port & Rail Terminal was once a DuPont chemical manufacturing facility. The land is being cleaned up for PFAS contamination attributed to DuPont and its spinoff, Chemours. The site is currently being operated as a port facility by FTAI Instructure Inc., which acquired the property in 2016. DuPont and its subsidiaries have agreed to spend $1.2 billion for the cleanup of various sites across the state. (Photo: Office of the NJ Attorney General)'

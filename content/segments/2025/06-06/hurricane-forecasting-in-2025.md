@@ -3,6 +3,7 @@ title: Hurricane Forecasting in 2025
 slug: hurricane-forecasting-in-2025
 date: '2025-06-06'
 category: Segments
+order: '1'
 megaphone_id: LOE3642987004
 image_url: https://loe.org/content/2025-06-06/HURRICANES_2025season.jpg
 image_caption: 'The 2025 Atlantic hurricane season is predicted to have slightly above average activity. The aftermath of 2024 Hurricane Helene in North Carolina is pictured above. (Photo: NCDOTcommunications, Wikimedia Commons, CC BY 2.0)'

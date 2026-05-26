@@ -3,6 +3,7 @@ title: Can Eating Organic Reduce Your Cancer Risk?
 slug: can-eating-organic-reduce-your-cancer-risk
 date: '2025-01-24'
 category: Segments
+order: '3'
 megaphone_id: LOE7938483278
 image_url: https://loe.org/content/2025-01-24/ORGANIC_produceaisle.jpg
 image_caption: 'Scientists globally are studying the impact eating organic may have on cancer risk, and have found eating organic may help decrease an individual’s risk for several cancers. But the few published epidemiology studies so far do not have enough data to draw more than limited and sometimes conflicting conclusions. (Photo: Steve Loya, Flickr, CC BY-NC-ND 2.0)'

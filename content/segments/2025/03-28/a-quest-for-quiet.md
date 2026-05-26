@@ -3,6 +3,7 @@ title: A Quest for Quiet
 slug: a-quest-for-quiet
 date: '2025-03-28'
 category: Segments
+order: '3'
 megaphone_id: LOE7956406837
 image_url: https://loe.org/content/2025-03-28/QUIET_soundartist.jpg
 image_caption: 'Nick McMahan, sound recording artist. (Photo: Brandon Swanson, OPB)'

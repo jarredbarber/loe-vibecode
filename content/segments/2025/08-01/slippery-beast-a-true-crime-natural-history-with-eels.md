@@ -3,6 +3,7 @@ title: 'Slippery Beast: A True Crime Natural History, with Eels'
 slug: slippery-beast-a-true-crime-natural-history-with-eels
 date: '2025-08-01'
 category: Segments
+order: '1'
 megaphone_id: LOE8484802274
 image_url: https://loe.org/content/2024-11-08/EEL_cover.jpg
 image_caption: 'Slippery Beast: A True Crime Natural History, with Eels  tells the story of how a booming poaching industry is impacting the American Eel. (Photo: Courtesy of Abrams Books)'

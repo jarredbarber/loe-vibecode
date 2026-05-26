@@ -3,6 +3,7 @@ title: EPA Employees Speak Out
 slug: epa-employees-speak-out
 date: '2025-07-04'
 category: Segments
+order: '5'
 megaphone_id: LOE4963215205
 image_url: https://loe.org/content/2025-07-04/EPA_rally.jpg
 image_caption: 'Federal workers and labor allies rallied at Federal Plaza in Chicago on February 18, 2025 to protest the termination of Chicago-based EPA workers and other federal employees. (Photo: Paul Gyotte, Flickr, CC BY 2.0)'

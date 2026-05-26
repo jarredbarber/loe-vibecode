@@ -3,6 +3,7 @@ title: A Vision of a Wind-Powered Venezuela
 slug: a-vision-of-a-wind-powered-venezuela
 date: '2026-03-20'
 category: Segments
+order: '5'
 megaphone_id: LOE5772527802
 image_url: https://loe.org/content/2026-03-20/VENEZUELA_wind.jpg
 image_caption: 'While Venezuela has recently made headlines for its oil reserves, the coastal nation is also uniquely positioned to harness significant renewable energy capacity – ten times the country’s electricity needs – through offshore, shallow-water wind turbines. Above, a wind farm on the Paraguaná Peninsula in Venezuela. (Photo: Carlos Santos Colorado, Wikimedia Commons, CC BY-SA 3.0)'

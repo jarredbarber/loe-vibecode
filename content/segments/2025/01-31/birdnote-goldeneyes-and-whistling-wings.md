@@ -3,6 +3,7 @@ title: 'Birdnote®: Goldeneyes and Whistling Wings'
 slug: birdnote-goldeneyes-and-whistling-wings
 date: '2025-01-31'
 category: Segments
+order: '4'
 megaphone_id: LOE1146128881
 image_url: https://loe.org/content/2025-01-31/BIRDNOTE_goldeneye.jpg
 image_caption: 'A common goldeneye soars close to the waves. (Photo: © Andrew Reding CC, Courtesy of BirdNote®)'

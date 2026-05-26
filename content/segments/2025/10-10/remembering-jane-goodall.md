@@ -3,6 +3,7 @@ title: Remembering Jane Goodall
 slug: remembering-jane-goodall
 date: '2025-10-10'
 category: Segments
+order: '5'
 megaphone_id: LOE7501012241
 image_url: https://loe.org/content/2025-10-10/ROOTSANDSHOOTS_cash.jpg
 image_caption: 'Cash Daniels is a 16 year old from Chatanooga, Tennessee who started participating in Roots & Shoots last year. (Photo: Eric Guzzetta / JGI)'

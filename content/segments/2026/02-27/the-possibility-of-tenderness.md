@@ -3,6 +3,7 @@ title: The Possibility of Tenderness
 slug: the-possibility-of-tenderness
 date: '2026-02-27'
 category: Segments
+order: '2'
 megaphone_id: LOE9490003862
 image_url: https://loe.org/content/2026-02-27/PoT_cover_resized.jpg
 image_caption: 'The Possibility of Tenderness: A Jamaican Memoir of Plants and Dreams, written by Jason Allen-Paisant digs beneath the surface of land kinship and accessibility through his time spent in Jamaica. (Photo: Courtesy of Milkweed Editions and Penguin Books)'

@@ -3,6 +3,7 @@ title: From Plastic Trash to Art
 slug: from-plastic-trash-to-art
 date: '2025-06-27'
 category: Segments
+order: '2'
 megaphone_id: LOE9666348137
 image_url: https://loe.org/content/2025-06-27/ART_nowstreaming.jpg
 image_caption: 'Erik Jon Olson makes decorative quilts out of single use plastic. Now Streaming, 2025, quilted plastic waste, 45"x85". (Photo: Courtesy of Erik Jon Olson)'

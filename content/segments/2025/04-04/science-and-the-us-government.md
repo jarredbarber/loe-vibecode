@@ -3,6 +3,7 @@ title: Science and the US Government
 slug: science-and-the-us-government
 date: '2025-04-04'
 category: Segments
+order: '4'
 megaphone_id: LOE2954997128
 image_url: https://loe.org/content/2025-04-04/ORESKES_scirally.jpg
 image_caption: 'The Trump administration has so far cut tens of thousands of jobs from over two dozen federal agencies, including many dedicated to science. The “Stand Up for Science” rallies have protested these cuts. Shown here is the D.C. rally held on March 7, 2025. (Photo: Geoff Livingston, Flickr, CC BY 2.0)'

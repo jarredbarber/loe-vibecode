@@ -3,6 +3,7 @@ title: Chicago River Restored to Health
 slug: chicago-river-restored-to-health
 date: '2025-10-17'
 category: Segments
+order: '5'
 megaphone_id: LOE9800779768
 image_url: https://loe.org/content/2025-10-17/CHICAGO_athletes.jpg
 image_caption: '265 athletes swam in the main stem of the Chicago River during the public swim event in 2025. (Photo: Linda Barrett)'

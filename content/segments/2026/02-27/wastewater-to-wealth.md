@@ -3,6 +3,7 @@ title: Wastewater to Wealth
 slug: wastewater-to-wealth
 date: '2026-02-27'
 category: Segments
+order: '5'
 megaphone_id: LOE9188623546
 image_url: https://loe.org/content/2026-02-27/TARPEH_fellowandprofessor.jpg
 image_caption: 'William Tarpeh is a 2025 MacArthur Fellow and a Stanford University Assistant Profesor. He’s a chemical engineer whose work centers on pulling useful chemicals from various kinds of wastewater. (Photo: Christopher Michel, Courtesy of Will Tarpeh)'

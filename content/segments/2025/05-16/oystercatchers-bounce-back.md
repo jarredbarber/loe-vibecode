@@ -3,6 +3,7 @@ title: Oystercatchers Bounce Back
 slug: oystercatchers-bounce-back
 date: '2025-05-16'
 category: Segments
+order: '5'
 megaphone_id: LOE4928337289
 image_url: https://loe.org/content/2025-05-16/OYSTERCATCHER_sand.jpg
 image_caption: 'An American Oystercatcher in the sand of San Carlos Bay, Florida. (Photo: Peter Wallack, Wikimedia Commons, CC BY-SA 3.0)'

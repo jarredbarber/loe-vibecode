@@ -3,6 +3,7 @@ title: The Real Cost of Beef
 slug: the-real-cost-of-beef
 date: '2025-10-24'
 category: Segments
+order: '1'
 megaphone_id: LOE4094377240
 image_url: https://loe.org/content/2025-10-24/JBS_deforestation.jpg
 image_caption: 'Deforestation in the Brazilian Amazon state of Matto Grosso. Deforestation in the Amazon area is driven mainly by industry and agriculture. Mato Grosso means "Thick Woods", and widespread forest clearing in the state has had a dramatic impact on the land. Forest clearing has been centralized mostly along new roadways cut through the jungle. (Photo: Riccardo Pravettonim, GRID-Arendal Resources Library, www.grida.no/resources/3127)'

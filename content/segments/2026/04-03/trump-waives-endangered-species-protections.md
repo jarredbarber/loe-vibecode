@@ -3,6 +3,7 @@ title: Trump Waives Endangered Species Protections
 slug: trump-waives-endangered-species-protections
 date: '2026-04-03'
 category: Segments
+order: '1'
 megaphone_id: LOE7605379997
 image_url: https://loe.org/content/2026-04-03/GODSQUAD_snaildarter.jpg
 image_caption: 'The Endangered Species Committee, aka the “God Squad” was created in the 1970s after a Supreme Court decision regarding protecting the snail darter shown above. The Court ruled that only Congress could decide when exemptions to the Endangered Species Act should be made. (Photo: Jerry A. Payne, USDA Agricultural Research Service, Wikimedia Commons, CC BY 3.0 US)'

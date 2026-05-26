@@ -3,6 +3,7 @@ title: Stinky Seaweed Menace
 slug: stinky-seaweed-menace
 date: '2026-03-06'
 category: Segments
+order: '5'
 megaphone_id: LOE5302976273
 image_url: https://loe.org/content/2026-03-06/SARGASSUM_bloomin2026.jpg
 image_caption: 'A sargassum bloom in Costa Rica in February 2026. 2025 saw a record bloom of sargassum in the Atlantic Ocean. (Photo: Carolina Calvo Brenes, Departamento de Comunicación Institucional del Ministerio de Ambiente y Energía, Gobierno de Costa Rica, Wikimedia Commons, Public Domain)'

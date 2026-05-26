@@ -3,6 +3,7 @@ title: The EPA Wants to Ignore GHG Emissions
 slug: the-epa-wants-to-ignore-ghg-emissions
 date: '2025-09-26'
 category: Segments
+order: '2'
 megaphone_id: LOE1244676662
 image_url: https://loe.org/content/2025-09-26/GHGRP_unchecked.jpg
 image_caption: 'Unchecked greenhouse gas emissions warm the planet. (Photo: ejstanz, Wikimedia Common, CC BY-SA 2.0)'

@@ -3,6 +3,7 @@ title: No Help From America
 slug: no-help-from-america
 date: '2025-02-14'
 category: Segments
+order: '1'
 megaphone_id: LOE6936621304
 image_url: https://loe.org/content/2025-02-14/USAID_volunteers.jpg
 image_caption: 'Climate and environmental activist Nisreen Elsaim (far left) volunteers in Doha, Qatar, with the Female Guardians of the Revolution (right), a Sudanese NGO that serves the therapeutic and psychological needs of female refugees. Elsaim is concerned that the Trump administration’s shutdown of USAID could not only have devastating immediate consequences but could scar the fabric of American foreign policy for decades to come. (Photo: Nisreen Elsaim)'

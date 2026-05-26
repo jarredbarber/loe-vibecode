@@ -3,6 +3,7 @@ title: EPA Under Attack
 slug: epa-under-attack
 date: '2025-03-14'
 category: Segments
+order: '1'
 megaphone_id: LOE4792377945
 image_url: https://loe.org/content/2025-03-14/WHITMAN_headshot.jpg
 image_caption: 'Christine Todd Whitman is the former Governor of New Jersey and former Administrator of the Environmental Protection Agency. (Photo: Emily Fletke)'

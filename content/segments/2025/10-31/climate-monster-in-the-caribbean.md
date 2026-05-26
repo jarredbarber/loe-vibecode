@@ -3,6 +3,7 @@ title: Climate Monster in the Caribbean
 slug: climate-monster-in-the-caribbean
 date: '2025-10-31'
 category: Segments
+order: '1'
 megaphone_id: LOE8865803894
 image_url: https://loe.org/content/2025-10-31/MELISSA_satellite.jpg
 image_caption: 'Satellite images track the moment Hurricane Melissa made landfall in the southwestern region of Jamaica. One of the most affected communities is Black River, where almost every home suffered damage and approximately 90% lost their roofs. Prime Minister Andrew Holness referred to this area as ''ground zero.'' As of October 31st, an official death toll has not yet been announced. (Photo: CSU/CIRA & NOAA)'

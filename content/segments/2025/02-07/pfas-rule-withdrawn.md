@@ -3,6 +3,7 @@ title: PFAS Rule Withdrawn
 slug: pfas-rule-withdrawn
 date: '2025-02-07'
 category: Segments
+order: '2'
 megaphone_id: LOE1449610387
 image_url: https://loe.org/content/2025-02-07/PFAS_reversed.jpg
 image_caption: 'The Trump administration, on its first day in office, reversed a proposed EPA rule aimed at limiting the amount of PFAS chemicals that manufacturers could discharge into waterways. (Photo: Patrick Hendry, Unsplash)'

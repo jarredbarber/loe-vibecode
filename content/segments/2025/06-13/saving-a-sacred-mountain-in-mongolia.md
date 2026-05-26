@@ -3,6 +3,7 @@ title: Saving a Sacred Mountain in Mongolia
 slug: saving-a-sacred-mountain-in-mongolia
 date: '2025-06-13'
 category: Segments
+order: '3'
 megaphone_id: LOE7917086427
 image_url: https://loe.org/content/2025-06-13/GOLDMAN_luvsandash.jpg
 image_caption: 'Luvsandash surveyed miles upon miles of desert, using his engineering skills to figure out the exact coordinates that needed protection. (Photo: Goldman Environmental Prize)'

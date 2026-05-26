@@ -3,6 +3,7 @@ title: Gwich'in People Resist Arctic Drilling
 slug: gwichin-people-resist-arctic-drilling
 date: '2025-10-31'
 category: Segments
+order: '2'
 megaphone_id: LOE4750201782
 image_url: https://loe.org/content/2025-10-31/ANWR_rainbow.jpg
 image_caption: 'A rainbow follows a storm over Vashraii K''oo (Arctic Village) bordering the Arctic National Wildlife Refuge. (Photo: Emily Sullivan, Gwich''in Steering Committee)'

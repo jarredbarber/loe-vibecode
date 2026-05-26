@@ -3,6 +3,7 @@ title: Boundary Waters Mining Threat
 slug: boundary-waters-mining-threat
 date: '2026-04-24'
 category: Segments
+order: '1'
 megaphone_id: LOE5847594697
 image_url: https://loe.org/content/2026-04-24/SENATE_poselake.jpg
 image_caption: 'Sunset over Pose Lake, a small lake accessible only by foot, in Boundary Waters Canoe Area Wilderness, Minnesota. (Photo: R27182818, Wikimedia Commons, CC BY-SA 3.0)'

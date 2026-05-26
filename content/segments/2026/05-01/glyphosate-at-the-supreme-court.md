@@ -3,6 +3,7 @@ title: Glyphosate at the Supreme Court
 slug: glyphosate-at-the-supreme-court
 date: '2026-05-01'
 category: Segments
+order: '1'
 megaphone_id: LOE7930467766
 image_url: https://loe.org/content/2026-05-01/MONSANTO_sign.jpg
 image_caption: 'A toddler carries a sign that reads “Round up the Guilty” during the protests outside the U.S. Supreme Court on Apr 27, 2026 for the Monsanto Company v. Durnell hearings. (Photo: Carey Gillam)'

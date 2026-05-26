@@ -3,6 +3,7 @@ title: Faith in a Better Climate Future
 slug: faith-in-a-better-climate-future
 date: '2025-05-09'
 category: Segments
+order: '3'
 megaphone_id: LOE9914348172
 image_url: https://loe.org/content/2025-05-09/HANDBOOK_cover.jpg
 image_caption: '“Hope for Children Through Climate Justice” is a handbook written by the World Council of Churches. (Image: World Council of Churches)'

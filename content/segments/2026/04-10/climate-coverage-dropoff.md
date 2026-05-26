@@ -3,6 +3,7 @@ title: Climate Coverage Dropoff
 slug: climate-coverage-dropoff
 date: '2026-04-10'
 category: Segments
+order: '3'
 megaphone_id: LOE2413218622
 image_url: https://loe.org/content/2026-04-10/COVERAGE_nyt.jpg
 image_caption: 'According to research from the University of Colorado Boulder’s Media and Climate Change Observatory, climate coverage has seen a 38% dropoff since its peak in 2021. Major news outlets like The New York Times (shown above), CBS News, and The Washington Post have decreased their coverage of climate change or gutted their climate reporters. (Photo: Kurt Kaiser, Wikimedia Commons, CC0)'

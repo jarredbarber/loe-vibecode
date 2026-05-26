@@ -3,6 +3,7 @@ title: Ice Skating on the Rideau Canal
 slug: ice-skating-on-the-rideau-canal
 date: '2026-02-20'
 category: Segments
+order: '3'
 megaphone_id: LOE1930977023
 image_url: https://loe.org/content/2013-03-29/bigstock-Rideau-Canal-Under-A-Bridge-1320574.jpg
 image_caption: 'Winterlude Festival on the canal in Ottawa (photo: bigstockphoto.com)'

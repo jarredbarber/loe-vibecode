@@ -3,6 +3,7 @@ title: Global Health Under Trump
 slug: global-health-under-trump
 date: '2026-01-30'
 category: Segments
+order: '4'
 megaphone_id: LOE1838709489
 image_url: https://loe.org/content/2026-01-30/SEED_teacher.JPG
 image_caption: 'Seed Global Health educator Chisomo Kumwenda (right) demonstrating neonatal resuscitation to midwifery students in the skills lab at School of Midwifery Bo, Sierra Leone. (Photo: Courtesy of Seed Global Health)'

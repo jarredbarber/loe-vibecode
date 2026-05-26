@@ -3,6 +3,7 @@ title: Blocking New UK Oil and Gas
 slug: blocking-new-uk-oil-and-gas
 date: '2026-05-15'
 category: Segments
+order: '1'
 megaphone_id: LOE4301405023
 image_url: https://loe.org/content/2026-05-15/Finchinthewild_resized.jpg
 image_caption: 'Sarah Finch and the Weald Action Group have fought successfully against oil and gas drilling in the Horse Hill area of the Weald and secured a ruling that will force planners to consider the downstream environmental impact throughout the United Kingdom. (Photo: Goldman Environmental Prize)'

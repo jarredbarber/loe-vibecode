@@ -3,6 +3,7 @@ title: 'Wild Girls: How the Outdoors Shaped the Women Who Challenged a Nation'
 slug: wild-girls-how-the-outdoors-shaped-the-women-who-challenged-a-nation
 date: '2025-03-14'
 category: Segments
+order: '3'
 megaphone_id: LOE1841741376
 image_url: https://loe.org/content/2024-03-01/WILD_cover.jpg
 image_caption: 'Wild Girls: How the Outdoors Shaped the Women Who Challenged A Nation (Photo: Courtesy of Tiya Miles)'

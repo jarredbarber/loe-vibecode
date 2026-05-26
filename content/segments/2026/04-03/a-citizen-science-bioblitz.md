@@ -3,6 +3,7 @@ title: A Citizen Science Bioblitz
 slug: a-citizen-science-bioblitz
 date: '2026-04-03'
 category: Segments
+order: '4'
 megaphone_id: LOE5967321149
 image_url: https://loe.org/content/2019-04-19/CNC_coyote.jpg
 image_caption: 'The first observation made on the trip to Thompson Island was made by Marc Albert of the National Park Service. The exciting find was coyote scat, but that didn’t stop the girls from getting up close to photograph it for iNaturalist. (Photo: Courtesy of Colleen Hitchcock)'

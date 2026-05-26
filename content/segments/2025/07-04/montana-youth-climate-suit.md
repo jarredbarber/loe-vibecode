@@ -3,6 +3,7 @@ title: Montana Youth Climate Suit
 slug: montana-youth-climate-suit
 date: '2025-07-04'
 category: Segments
+order: '6'
 megaphone_id: LOE8164257582
 image_url: https://loe.org/content/2023-07-07/HELD-youth plaintiffs cheered by supporters.jpeg
 image_caption: 'Youth plaintiffs Badge Busse, Mica Kantor, and Eva L. are cheered on by supporters as they arrive for their second day of trial. (Photo: Robin Loznak/Courtesy of Our Children’s Trust)'

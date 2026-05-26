@@ -3,6 +3,7 @@ title: Dancing Down the Slopes
 slug: dancing-down-the-slopes
 date: '2026-02-27'
 category: Segments
+order: '6'
 megaphone_id: LOE9557944467
 image_url: https://loe.org/content/2026-02-27/AF_balletski.jpg
 image_caption: 'Ed Cook, at a month shy from 67, has been practicing ski ballet in the slopes south of Pittsburgh since 1976. (Photo: Andy Kubis, The Allegheny Front)'

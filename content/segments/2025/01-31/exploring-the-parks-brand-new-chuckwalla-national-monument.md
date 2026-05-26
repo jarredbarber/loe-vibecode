@@ -3,6 +3,7 @@ title: 'Exploring the Parks: Brand-New Chuckwalla National Monument'
 slug: exploring-the-parks-brand-new-chuckwalla-national-monument
 date: '2025-01-31'
 category: Segments
+order: '3'
 megaphone_id: LOE5825432534
 image_url: https://loe.org/content/2025-01-31/CHUCKWALLA_lizard.jpeg
 image_caption: 'The Chuckwalla National monument is named after the Chuckwalla lizard pictured above. (Photo: Brent, Flickr, CC BY 2.0)'

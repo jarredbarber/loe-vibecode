@@ -3,6 +3,7 @@ title: Bill McKibben on Abundant Solar and the Waning Power of Fossil Fuels
 slug: bill-mckibben-on-abundant-solar-and-the-waning-power-of-fossil-fuels
 date: '2025-12-12'
 category: Segments
+order: '1'
 megaphone_id: LOE1416548469
 image_url: https://loe.org/content/2025-12-12/MCKIBBEN_alternative.jpg
 image_caption: 'Energy from the sun and wind should no longer be called “alternative energy”, according to McKibben. (Photo: Kenueone, Wikimedia Commons, CC0 1.0)'

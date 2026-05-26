@@ -3,6 +3,7 @@ title: EVs in the Trump Era
 slug: evs-in-the-trump-era
 date: '2025-01-24'
 category: Segments
+order: '2'
 megaphone_id: LOE2573957548
 image_url: https://loe.org/content/2025-01-24/EVs_tesla.jpg
 image_caption: 'Tesla has dominated the electric vehicle industry for over a decade, and the revocation of Biden’s EV subsidies will make competing more difficult for other auto-manufacturers selling in the United States. (Photo: Phillip Pessar, Wikimedia Commons, CC BY 2.0)'

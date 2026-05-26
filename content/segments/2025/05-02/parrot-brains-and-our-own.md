@@ -3,6 +3,7 @@ title: Parrot Brains and Our Own
 slug: parrot-brains-and-our-own
 date: '2025-05-02'
 category: Segments
+order: '4'
 megaphone_id: LOE7831877364
 image_url: https://loe.org/content/2025-05-02/SPEECH_finch.jpg
 image_caption: 'Dr. Long began his research with zebra finches since the males learn their father’s song perfectly in order to court females. (Photo: Ayacop, Accelerated Growth following Poor Early Nutrition Impairs Later Learning, Wikimedia Commons, CC BY 2.5)'

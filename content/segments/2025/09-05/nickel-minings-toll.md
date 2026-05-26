@@ -3,6 +3,7 @@ title: Nickel Mining's Toll
 slug: nickel-minings-toll
 date: '2025-09-05'
 category: Segments
+order: '2'
 megaphone_id: LOE6348148965
 image_url: https://loe.org/content/2025-09-05/NICKEL_mining.jpg
 image_caption: 'Nickel mining is an environmentally destructive process that can create conditions in which Chromium-6 is formed. (Photo: The Gecko Project)'

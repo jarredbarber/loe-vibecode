@@ -3,6 +3,7 @@ title: Coalition Defends Solar for All
 slug: coalition-defends-solar-for-all
 date: '2025-10-17'
 category: Segments
+order: '1'
 megaphone_id: LOE6465576006
 image_url: https://loe.org/content/2025-10-17/SOLAR_programcreated.jpg
 image_caption: 'The $7 billion Solar for All Program, implemented by the Biden administration, was created to increase access to solar energy for low-income households and communities across the United States. (Photo: Montgomery County Planning Commission, Flickr, CC BY-NC-SA 2.0)'

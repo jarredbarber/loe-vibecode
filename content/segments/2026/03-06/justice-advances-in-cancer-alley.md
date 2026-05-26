@@ -3,6 +3,7 @@ title: Justice Advances in Cancer Alley
 slug: justice-advances-in-cancer-alley
 date: '2026-03-06'
 category: Segments
+order: '1'
 megaphone_id: LOE1075113118
 image_url: https://loe.org/content/2026-03-06/CANCERALLEY_monique.jpg
 image_caption: 'Veteran environmental justice attorney and advocate Monique Harden speaks about environmental justice and the law at the Center for Environmental Justice Media (CEJM) conference in September 2025. Harden discusses the history of the 13th and 14th Amendments as it relates to the Cancer Alley land use lawsuit brought by residents of St. James Parish. (Photo: CEJM)'

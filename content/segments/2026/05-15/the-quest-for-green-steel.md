@@ -3,6 +3,7 @@ title: The Quest for Green Steel
 slug: the-quest-for-green-steel
 date: '2026-05-15'
 category: Segments
+order: '4'
 megaphone_id: LOE3346240644
 image_url: https://loe.org/content/2026-05-15/AF-Gary Steel Works.jpg
 image_caption: 'Shown above is US Steel''s Gary Works, the largest steel mill in the United States, located in Gary, Indiana. (Photo: Reid Frazier / The Allegheny Front)'

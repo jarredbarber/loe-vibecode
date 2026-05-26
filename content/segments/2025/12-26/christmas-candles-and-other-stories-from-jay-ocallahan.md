@@ -3,6 +3,7 @@ title: Christmas Candles and Other Stories from Jay O'Callahan
 slug: christmas-candles-and-other-stories-from-jay-ocallahan
 date: '2025-12-26'
 category: Segments
+order: '1'
 megaphone_id: LOE9473104647
 image_url: https://loe.org/content/2014-12-26/OCALLAHAN--candles.png
 image_caption: 'On Christmas, the windows in Jay O’Callahan’s childhood home were each dressed with a white candle—a sign of hope and peace for the season and the New Year. (Photo: Anne; Flickr CC BY-NC-SA 2.0)'

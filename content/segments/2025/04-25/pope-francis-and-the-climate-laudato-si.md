@@ -3,6 +3,7 @@ title: 'Pope Francis and the Climate: Laudato Si'''
 slug: pope-francis-and-the-climate-laudato-si
 date: '2025-04-25'
 category: Segments
+order: '1'
 megaphone_id: LOE2495974988
 image_url: https://loe.org/content/2015-06-19/POPE--Pope_Francis_Korea_Haemi_Castle.png
 image_caption: 'Pope Francis was a chemical technician in Argentina before joining the seminary. (Photo: Korean Culture and Information Service, CC BY-SA 2.0)'

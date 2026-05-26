@@ -3,6 +3,7 @@ title: $250 Billion Yearly Economic Costs from Plastics
 slug: 250-billion-yearly-economic-costs-from-plastics
 date: '2025-03-14'
 category: Segments
+order: '5'
 megaphone_id: LOE9653190351
 image_url: https://loe.org/content/2024-02-16/PLASTICS_chemicalsused.jpg
 image_caption: 'Many chemicals used in plastics disrupt normal hormone function and can hurt human health, costing the US upwards of $250 billion a year in healthcare costs. (Photo: Laura James, Pexels)'

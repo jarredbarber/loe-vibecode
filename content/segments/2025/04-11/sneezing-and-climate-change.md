@@ -3,6 +3,7 @@ title: Sneezing and Climate Change
 slug: sneezing-and-climate-change
 date: '2025-04-11'
 category: Segments
+order: '4'
 megaphone_id: LOE2946095071
 image_url: https://loe.org/content/2025-04-11/POLLEN_bee.jpg
 image_caption: In Brisbane’s Botanic Gardens, a tiny native bee works its way through a flower, harvesting pollen. (Photo:Weldon Thompson, Wikimedia Commons, Public Domain)

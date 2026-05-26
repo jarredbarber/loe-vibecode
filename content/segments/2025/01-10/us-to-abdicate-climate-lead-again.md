@@ -3,6 +3,7 @@ title: U.S. To Abdicate Climate Lead Again
 slug: us-to-abdicate-climate-lead-again
 date: '2025-01-10'
 category: Segments
+order: '2'
 megaphone_id: LOE2324788826
 image_url: https://loe.org/content/2025-01-10/PARIS_trump.jpg
 image_caption: 'In 2017, then-President Donald Trump announced his decision to withdraw the United States from the Paris Agreement. (Photo: Joyce N. Boghosian, Wikimedia Commons, Public Domain)'

@@ -3,6 +3,7 @@ title: Protecting Farmworkers from Wildfire Smoke
 slug: protecting-farmworkers-from-wildfire-smoke
 date: '2025-06-06'
 category: Segments
+order: '3'
 megaphone_id: LOE7960502847
 image_url: https://loe.org/content/2025-06-06/FARMWORKERS_adriana.jpg
 image_caption: 'Farmworkers in California are exposed to dangerous levels of particulate matter in the air, and a 2024 study shows that even levels of pollution deemed ‘safe’ by CAL-OSHA can be hazardous to human health. The farmworker shown here is Adriana, whose name has been changed to protect her identity. (Photo: Courtesy of Rambo Talabong)'

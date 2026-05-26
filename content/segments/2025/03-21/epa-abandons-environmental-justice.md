@@ -3,6 +3,7 @@ title: EPA Abandons Environmental Justice
 slug: epa-abandons-environmental-justice
 date: '2025-03-21'
 category: Segments
+order: '2'
 megaphone_id: LOE6591925472
 image_url: https://loe.org/content/2025-03-21/CASH_bidenadmin.jpg
 image_caption: 'The Biden administration issued a final rule requiring water utilities to replace all lead pipes by 2035. The Trump administration is considering rolling back that rule along with other Biden era environmental projects. (Photo: US EPA Gov, Wikimedia Commons, Public Domain)'

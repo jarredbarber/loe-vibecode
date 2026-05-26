@@ -3,6 +3,7 @@ title: 'Encountering Dragonfly: Notes on the Practice of Re-Enchantment'
 slug: encountering-dragonfly-notes-on-the-practice-of-re-enchantment
 date: '2025-10-03'
 category: Segments
+order: '4'
 megaphone_id: LOE6622492028
 image_url: https://loe.org/content/2025-10-03/DRAGONFLY_cover.jpg
 image_caption: 'Encountering Dragonfly: Notes on the Practice of Re-enchantment by Brooke Williams. (Cover: Design by Claudine Mansour, Courtesy of Brooke Williams)'

@@ -3,6 +3,7 @@ title: A Woolly Rhino DNA Discovery
 slug: a-woolly-rhino-dna-discovery
 date: '2026-03-27'
 category: Segments
+order: '4'
 megaphone_id: LOE6418450829
 image_url: https://loe.org/content/2026-03-27/RHINO_sergeyandother.JPG
 image_caption: 'The woolly rhino DNA was discovered in the stomach of a mummified wolf puppy found in this piece of permafrost in the Russian village of Tumat. Pictured above is a coauthor of the paper, Sergey Fedorov (right) and a local colleague. (Photo: Sergey Fedorov, courtesy of J. Camilo Chacón-Duque)'

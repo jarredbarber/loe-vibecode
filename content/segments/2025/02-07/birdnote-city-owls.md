@@ -3,6 +3,7 @@ title: 'BirdNote®: City Owls'
 slug: birdnote-city-owls
 date: '2025-02-07'
 category: Segments
+order: '4'
 megaphone_id: LOE8859054893
 image_url: https://loe.org/content/2025-02-07/BIRDNOTE_owl.jpg
 image_caption: 'A great horned owl perches on a pipe. (Photo: © Bill Weaver, Courtesy of BirdNote®)'

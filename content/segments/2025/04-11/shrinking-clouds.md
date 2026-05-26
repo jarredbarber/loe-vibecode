@@ -3,6 +3,7 @@ title: Shrinking Clouds
 slug: shrinking-clouds
 date: '2025-04-11'
 category: Segments
+order: '6'
 megaphone_id: LOE9281974928
 image_url: https://loe.org/content/2025-04-11/CLOUDS_shrinking.jpg
 image_caption: 'Cloud cover has been shrinking over the last 20 years, according to an analysis of NASA satellite data. (Photo: NASA Johnson, Flickr, CC BY-NC-ND 2.0)'

@@ -3,6 +3,7 @@ title: AI Power Demand and the Climate
 slug: ai-power-demand-and-the-climate
 date: '2025-12-05'
 category: Segments
+order: '1'
 megaphone_id: LOE6480055899
 image_url: https://loe.org/content/2025-12-05/DATA_centers.jpg
 image_caption: 'Data centers for artificial intelligence programs are becoming a major player in the tech industry as more and more electric power and storage is required for data use. (Photo: BalticServers, Wikimedia Commons, CC BY SA 3.0)'

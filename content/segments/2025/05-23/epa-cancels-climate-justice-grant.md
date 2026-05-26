@@ -3,6 +3,7 @@ title: EPA Cancels Climate Justice Grant
 slug: epa-cancels-climate-justice-grant
 date: '2025-05-23'
 category: Segments
+order: '4'
 megaphone_id: LOE8779019608
 image_url: https://loe.org/content/2025-05-23/AF_landforce.jpg
 image_caption: 'Landforce crews pulled weeds and dug holes for new trees in April 2025 in front of the Braddock Civic Center near Pittsburgh. (Photo: Julie Grant, The Allegheny Front)'

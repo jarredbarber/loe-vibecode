@@ -3,6 +3,7 @@ title: Saving Corals Amid Record Bleaching
 slug: saving-corals-amid-record-bleaching
 date: '2025-06-06'
 category: Segments
+order: '2'
 megaphone_id: LOE7815207097
 image_url: https://loe.org/content/2025-06-06/CORALS_palau.jpg
 image_caption: 'Dr. Steve Palumbi samples corals in the country of Palau. His work focuses on testing and growing the number of heat-resistant corals. (Photo: Dan Griffin)'

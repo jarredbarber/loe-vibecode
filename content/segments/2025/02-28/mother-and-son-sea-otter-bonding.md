@@ -3,6 +3,7 @@ title: 'Mother and Son: Sea Otter Bonding'
 slug: mother-and-son-sea-otter-bonding
 date: '2025-02-28'
 category: Segments
+order: '3'
 megaphone_id: LOE8292818290
 image_url: https://loe.org/content/2021-07-09/OTTER_ottershugging.jpg
 image_caption: 'Sea otters give birth in the water and can spend their whole lives without ever leaving the water. To care for her young, a mother sea otter places her newborn on her belly, grooming it from head to tail. (Photo: (c) Mark Seth Lender)'

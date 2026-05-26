@@ -3,6 +3,7 @@ title: Life As An Incarcerated Firefighter
 slug: life-as-an-incarcerated-firefighter-0131
 date: '2025-01-31'
 category: Segments
+order: '2'
 megaphone_id: LOE1886242991
 image_url: https://loe.org/content/2025-01-31/FIREFIGHTING_healthcare.jpeg
 image_caption: 'Eddie says that incarcerated fire fighters face greater risk from the health effects of smoke inhalation if they don’t get access to the high-quality healthcare free firefighters receive. (Photo: Courtesy of Eddie Herrera Jr.)'

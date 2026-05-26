@@ -3,6 +3,7 @@ title: Trump Stalls Offshore Wind
 slug: trump-stalls-offshore-wind
 date: '2025-09-12'
 category: Segments
+order: '1'
 megaphone_id: LOE6466062046
 image_url: https://loe.org/content/2025-09-12/OFFSHORE_windmill.jpg
 image_caption: 'The Trump Administration issued a stop-work order for an offshore wind farm in development off the coast of New England, Revolution Wind. The final product, like this one in Europe, would have provided clean energy for thousands of homes. (Photo: Andy Dingley, Wikimedia Commons, CC BY-SA 3.0)'

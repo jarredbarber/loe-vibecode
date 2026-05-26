@@ -3,6 +3,7 @@ title: Youth Climate Case
 slug: youth-climate-case
 date: '2025-10-03'
 category: Segments
+order: '1'
 megaphone_id: LOE3116108086
 image_url: https://loe.org/content/2025-10-03/LIGHTHISER_eva.jpg
 image_caption: 'Eva Lighthiser is the lead plaintiff in Lighthiser v. Trump. She was previously involved in a different youth climate case, Held v. Montana. (Photo: Our Children’s Trust, Eillin Delapaz)'

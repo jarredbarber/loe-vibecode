@@ -3,6 +3,7 @@ title: Trump Ignores Social Cost of Carbon
 slug: trump-ignores-social-cost-of-carbon
 date: '2025-05-23'
 category: Segments
+order: '3'
 megaphone_id: LOE5664651689
 image_url: https://loe.org/content/2017-01-20/PIZER-Smoke-stack.jpg
 image_caption: 'The social cost of carbon (SCC) refers to the net damages from global climate change that result from an increase in CO2 emissions of one metric ton. (Photo: Ryan T, Flickr CC BY-NC-ND 2.0)'

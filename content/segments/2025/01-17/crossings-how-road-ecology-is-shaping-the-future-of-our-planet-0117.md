@@ -3,6 +3,7 @@ title: 'Crossings: How Road Ecology is Shaping the Future of Our Planet'
 slug: crossings-how-road-ecology-is-shaping-the-future-of-our-planet-0117
 date: '2025-01-17'
 category: Segments
+order: '5'
 megaphone_id: LOE7178526432
 image_url: https://loe.org/content/2025-01-17/CROSSINGS_cover.jpg
 image_caption: 'Crossings explores the way that our roads impact wildlife and what we can do about it. (Photo: Courtesy of Ben Goldfarb)'

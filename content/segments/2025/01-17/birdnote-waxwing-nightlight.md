@@ -3,6 +3,7 @@ title: 'BirdNote®: Waxwing Nightlight'
 slug: birdnote-waxwing-nightlight
 date: '2025-01-17'
 category: Segments
+order: '4'
 megaphone_id: LOE9503262975
 image_url: https://loe.org/content/2025-01-17/BIRDNOTE_brightcoloration.jpg
 image_caption: 'The bright coloration of bohemian waxwings led people to believe that the birds could glow in the dark. (Photo: © Sindri Skúlason, courtesy of BirdNote®)'

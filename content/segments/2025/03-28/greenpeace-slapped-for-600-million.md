@@ -3,6 +3,7 @@ title: Greenpeace SLAPPed for $600 Million?
 slug: greenpeace-slapped-for-600-million
 date: '2025-03-28'
 category: Segments
+order: '2'
 megaphone_id: LOE1936581987
 image_url: https://loe.org/content/2025-03-28/SLAPP_dapl.jpg
 image_caption: 'Shown above is the Dakota Access Pipeline, as seen from New Salem, North Dakota. The Standing Rock Sioux Tribe opposed the pipeline’s construction, saying that it threatens sacred sites and the tribe’s water supply. (Photo: Tony Webster from Minneapolis, Minnesota, Wikimedia Commons, CC BY-SA 2.0)'

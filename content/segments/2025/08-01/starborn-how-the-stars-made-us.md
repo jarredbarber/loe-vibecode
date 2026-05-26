@@ -3,6 +3,7 @@ title: 'Starborn: How the Stars Made Us'
 slug: starborn-how-the-stars-made-us
 date: '2025-08-01'
 category: Segments
+order: '3'
 megaphone_id: LOE2612510410
 image_url: https://loe.org/content/2024-07-05/STARBORN_nightsky.jpg
 image_caption: 'Roberto Trotta often says, “The night sky is humankind''s only truly global common, shared by all of us across civilizations and millennia”. (Photo: Daniel Delli, Wikimedia Commons CC BY 2.0)'

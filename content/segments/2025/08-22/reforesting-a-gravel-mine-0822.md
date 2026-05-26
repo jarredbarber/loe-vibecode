@@ -3,6 +3,7 @@ title: Reforesting a Gravel Mine
 slug: reforesting-a-gravel-mine-0822
 date: '2025-08-22'
 category: Segments
+order: '2'
 megaphone_id: LOE1562831215
 image_url: https://loe.org/content/2025-05-30/AF_gravelmine.jpg
 image_caption: 'Lake Pleasant Conservation Area was once a gravel mine, but is now being replanted with hardwood trees. (Photo: Kyra McCague, Courtesy of the Allegheny Front)'

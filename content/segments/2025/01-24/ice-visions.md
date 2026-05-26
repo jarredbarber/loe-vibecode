@@ -3,6 +3,7 @@ title: Ice Visions
 slug: ice-visions
 date: '2025-01-24'
 category: Segments
+order: '5'
 megaphone_id: LOE8579178179
 image_url: https://loe.org/content/2021-01-15/VISIONS_classic.JPG
 image_caption: 'A “classic” version of Hoffner’s Ice Visions, photographs of ice-fishing holes as they re-freeze. (Photo: Courtesy of Erik Hoffner)'

@@ -3,6 +3,7 @@ title: Iran War and the Price of Oil
 slug: iran-war-and-the-price-of-oil
 date: '2026-03-20'
 category: Segments
+order: '2'
 megaphone_id: LOE5344109478
 image_url: https://loe.org/content/2026-03-20/IRAN_hormuz.jpg
 image_caption: 'About 20% of the world’s oil is shipped through the Strait of Hormuz, a narrow waterway located in the Persian Gulf that has been closed as a consequence of the US and Israel''s war with Iran. (Photo: MODIS Land Rapid Response Team, NASA GSFC, Wikimedia Commons, Public Domain)'

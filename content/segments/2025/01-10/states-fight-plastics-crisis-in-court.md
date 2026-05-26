@@ -3,6 +3,7 @@ title: States Fight Plastics Crisis in Court
 slug: states-fight-plastics-crisis-in-court
 date: '2025-01-10'
 category: Segments
+order: '3'
 megaphone_id: LOE4831216676
 image_url: https://loe.org/content/2025-01-10/PLASTICS_waste.jpg
 image_caption: 'Some states are suing brands by claiming their products create a public nuisance. (Photo: Deishini Mariam, Wikimedia Commons, CC0)'

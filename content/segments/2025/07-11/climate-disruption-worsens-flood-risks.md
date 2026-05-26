@@ -3,6 +3,7 @@ title: Climate Disruption Worsens Flood Risks
 slug: climate-disruption-worsens-flood-risks
 date: '2025-07-11'
 category: Segments
+order: '2'
 megaphone_id: LOE1374146252
 image_url: https://loe.org/content/2025-07-11/FLOODING_july4th.jpg
 image_caption: 'On the 4th of July, 2025, flash flooding hit Kerr County, Texas. A local river quickly rose over 20 feet in under an hour. (Photo: Courtesy of Louis Amestoy, The Kerr County Lead)'

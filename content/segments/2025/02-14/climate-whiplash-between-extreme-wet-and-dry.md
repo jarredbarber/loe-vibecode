@@ -3,6 +3,7 @@ title: '"Climate Whiplash" Between Extreme Wet and Dry'
 slug: climate-whiplash-between-extreme-wet-and-dry
 date: '2025-02-14'
 category: Segments
+order: '2'
 megaphone_id: LOE6748284659
 image_url: https://loe.org/content/2025-02-14/WHIPLASH_wildfires.jpg
 image_caption: 'The January 2025 LA wildfires were in part exacerbated by a climate whiplash event, from extreme wet to extreme dry conditions. (Photo: timatymusic, Wikimedia Commons, CC BY 2.0)'

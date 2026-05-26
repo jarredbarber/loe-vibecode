@@ -3,6 +3,7 @@ title: EPA Ignores Climate Dangers
 slug: epa-ignores-climate-dangers
 date: '2025-06-27'
 category: Segments
+order: '1'
 megaphone_id: LOE5892875398
 image_url: https://loe.org/content/2025-06-27/POWERPLANT_fossilfuelfired.jpg
 image_caption: 'Fossil fuel-fired power plants are one of the biggest emitters of greenhouse gasses in the United States. Above, a coal-fired plant in central Wyoming. (Photo: Greg Goebel, Wikimedia Commons, CC BY-SA 2.0)'

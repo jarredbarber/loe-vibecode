@@ -3,6 +3,7 @@ title: Hurricane Melissa Recovery Effort
 slug: hurricane-melissa-recovery-effort
 date: '2025-11-07'
 category: Segments
+order: '3'
 megaphone_id: LOE8789013464
 image_url: https://loe.org/content/2025-11-07/HURRICANE_flooding.jpg
 image_caption: 'Heavy flooding in Mayarí, Holguín after Hurricane Melissa hit Cuba as a major Category 3 storm on October 29th. (Photo: Courtesy of José Luis Tan)'

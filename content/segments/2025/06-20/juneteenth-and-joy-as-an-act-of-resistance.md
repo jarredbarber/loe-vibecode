@@ -3,6 +3,7 @@ title: Juneteenth and "Joy as an Act of Resistance"
 slug: juneteenth-and-joy-as-an-act-of-resistance
 date: '2025-06-20'
 category: Segments
+order: '1'
 megaphone_id: LOE9233549548
 image_url: https://loe.org/content/2025-06-20/A1_MLK.jpg
 image_caption: 'Faith leaders have often led like Black communities through sociocultural movements, such as Rev. Martin Luther King Jr. and the Civil Rights Movement. (Photo: U.S. National Archives and Records Administration, Wikimedia Commons, CC0)'

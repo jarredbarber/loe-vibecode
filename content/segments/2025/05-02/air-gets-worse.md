@@ -3,6 +3,7 @@ title: Air Gets Worse
 slug: air-gets-worse
 date: '2025-05-02'
 category: Segments
+order: '1'
 megaphone_id: LOE7409758714
 image_url: https://loe.org/content/2025-05-02/CASH_fire.jpg
 image_caption: 'The 2025 California Palisades Fire, pictured above. Fires significantly contribute to both air pollution and climate change by releasing pollutants and greenhouse gases into the atmosphere. (Photo: Cal Fire, Wikimedia Commons, Public Domain)'

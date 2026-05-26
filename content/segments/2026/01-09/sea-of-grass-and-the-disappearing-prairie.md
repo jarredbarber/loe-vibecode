@@ -3,6 +3,7 @@ title: Sea of Grass and the Disappearing Prairie
 slug: sea-of-grass-and-the-disappearing-prairie
 date: '2026-01-09'
 category: Segments
+order: '3'
 megaphone_id: LOE1637239076
 image_url: https://loe.org/content/2026-01-06/sog_american_bison.jpg
 image_caption: 'The American bison is a well-loved symbol of the prairie, and for good reason. Bison provide important ecosystem services, such as creating wallows for smaller animals and increasing grassland seed diversity. (Photo: Dietmar Rabich, Wikimedia Commons, CC BY-SA 4.0).'

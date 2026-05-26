@@ -3,6 +3,7 @@ title: Salmon Run Fattens Bears
 slug: salmon-run-fattens-bears
 date: '2025-10-03'
 category: Segments
+order: '2'
 megaphone_id: LOE3079187303
 image_url: https://loe.org/content/2025-10-03/FATBEARWEEK_winner.jpg
 image_caption: 'Every year, the brown bears in Katmai National Park and Preserve are viewable on live webcams via explore.org. In early fall, dedicated fans vote for their favorites to win the annual Fat Bear Week bracket competition. (Graphic: Courtesy of explore.org)'

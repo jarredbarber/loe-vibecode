@@ -3,6 +3,7 @@ title: Tornadoes in a Hotter World
 slug: tornadoes-in-a-hotter-world
 date: '2025-04-04'
 category: Segments
+order: '1'
 megaphone_id: LOE4973618896
 image_url: https://loe.org/content/2025-04-04/TORNADOS_harlan.jpg
 image_caption: 'A tornado looms near Harlan, Iowa. (Photo: Adam Orgler, World Meteorological Organization, Flickr, CC BY-NC-ND 2.0)'

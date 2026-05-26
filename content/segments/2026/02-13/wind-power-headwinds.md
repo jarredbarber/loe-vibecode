@@ -3,6 +3,7 @@ title: Wind Power Headwinds
 slug: wind-power-headwinds
 date: '2026-02-13'
 category: Segments
+order: '2'
 megaphone_id: LOE2898896604
 image_url: https://loe.org/content/2026-02-13/WIND_shenandoahhills.jpg
 image_caption: 'Wind turbines at the Shenandoah Hills wind farm. The project faced a lot of local opposition before going online. (Photo: Anika Jane Beamer, Inside Climate News)'

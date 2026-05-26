@@ -3,6 +3,7 @@ title: America's Rural Sanitation Crisis
 slug: americas-rural-sanitation-crisis
 date: '2025-07-11'
 category: Segments
+order: '3'
 megaphone_id: LOE4315143570
 image_url: https://loe.org/content/2025-07-11/CCF_holyground.jpg
 image_caption: 'Catherine Coleman Flowers’ recent book is Holy Ground: On Activism, Environmental Justice, and Finding Hope. (Photo: Spiegel & Grau)'

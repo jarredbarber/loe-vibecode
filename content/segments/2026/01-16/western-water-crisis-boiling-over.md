@@ -3,6 +3,7 @@ title: Western Water Crisis Boiling Over
 slug: western-water-crisis-boiling-over
 date: '2026-01-16'
 category: Segments
+order: '2'
 megaphone_id: LOE8798251738
 image_url: https://loe.org/content/2026-01-16/COLORADO_riversnakes.jpg
 image_caption: 'The Colorado River snakes through desert canyons in the American Southwest, supplying drinking water and irrigation for the region’s cities. (Photo: Alexander Heilner, The Water Desk with support from LightHawk)'

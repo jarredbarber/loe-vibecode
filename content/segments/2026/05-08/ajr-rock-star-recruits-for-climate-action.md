@@ -3,6 +3,7 @@ title: AJR Rock Star Recruits for Climate Action
 slug: ajr-rock-star-recruits-for-climate-action
 date: '2026-05-08'
 category: Segments
+order: '3'
 megaphone_id: LOE1299734635
 image_url: https://loe.org/content/2026-05-08/AJR_band.jpg
 image_caption: 'Adam Met (right) is the “A” in indie-rock band AJR, where he plays bass alongside his brothers Ryan (left) and Jack (center). (Photo: Elsi Delgado, Wikimedia Commons, Public Domain)'

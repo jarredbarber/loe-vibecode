@@ -3,6 +3,7 @@ title: Media and the Meat Habit
 slug: media-and-the-meat-habit
 date: '2025-10-24'
 category: Segments
+order: '2'
 megaphone_id: LOE3930856699
 image_url: https://loe.org/content/2025-10-24/MEAT_cows.jpg
 image_caption: 'Methane, a powerful greenhouse gas, enters the atmosphere through the digestive processes of livestock such as cows, contributing significantly to global warming. (Photo: Trougnouf, Wikimedia Commons, BY CC 4.0)'

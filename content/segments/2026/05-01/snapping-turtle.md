@@ -3,6 +3,7 @@ title: '"Snapping Turtle"'
 slug: snapping-turtle
 date: '2026-05-01'
 category: Segments
+order: '3'
 megaphone_id: LOE4996838408
 image_url: https://loe.org/content/2026-05-01/LENDER_turtle.jpg
 image_caption: 'A snapping turtle’s age can be estimated by the rough size and condition of its shell. (Photo: Mark Seth Lender)'

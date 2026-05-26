@@ -3,6 +3,7 @@ title: Gaps in Greenland Ice Sheet
 slug: gaps-in-greenland-ice-sheet
 date: '2025-03-07'
 category: Segments
+order: '4'
 megaphone_id: LOE5632932701
 image_url: https://loe.org/content/2025-03-07/GLACIER_radarreflectors.jpeg
 image_caption: 'A glaciologist installs radar reflectors in Greenland. Radar reflectors are often used to study the internal structures of ice sheets. (Photo: Silvan Leinss, WikimediaCommons, CC BY-SA 4.0)'

@@ -3,6 +3,7 @@ title: Bird Flu Warning
 slug: bird-flu-warning
 date: '2025-01-31'
 category: Segments
+order: '1'
 megaphone_id: LOE7906761443
 image_url: https://loe.org/content/2025-01-31/H5N1_chickens.jpeg
 image_caption: 'Avian flu is rampaging through poultry farms, driving up egg prices. (Photo: Alexxx Malev, Wikimedia Commons, CC BY-SA 3.0)'

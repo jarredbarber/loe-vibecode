@@ -3,6 +3,7 @@ title: Pope Calls for Harmony With Nature To Save Humanity
 slug: pope-calls-for-harmony-with-nature-to-save-humanity
 date: '2025-04-25'
 category: Segments
+order: '6'
 image_url: https://loe.org/content/2015-06-19/POPE--Pope_Francis_Korea_Haemi_Castle.png
 image_caption: 'Pope Francis was a chemical technician in Argentina before joining the seminary. (Photo: Korean Culture and Information Service, CC BY-SA 2.0)'
 summary: 'Pope Francis''s highly-anticipated Encyclical, “Laudato Si,” subtitled “On Care for Our Common Home,”included a call for action on global warming, but the 184-page document offers much more than policy recommendations. It''s a poetic, emotional call for a fundamental shift in our economic system, and a rethinking of our relationship with God''s creation: the natural world. Assistant Professor of Theology, Science and Ethics at Fordham University, Christiana Peppard, discusses with host Steve Curwood the Pope''s message to people to be moral stewards of the planet and rectify ecological and social injustices plaguing the world today.'

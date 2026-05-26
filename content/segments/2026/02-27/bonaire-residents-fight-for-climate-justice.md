@@ -3,6 +3,7 @@ title: Bonaire Residents Fight for Climate Justice
 slug: bonaire-residents-fight-for-climate-justice
 date: '2026-02-27'
 category: Segments
+order: '1'
 megaphone_id: LOE5617758276
 image_url: https://loe.org/content/2026-02-27/BONAIRE_plaintiffsoutside.jpg
 image_caption: 'The attorneys and plaintiffs outside court July 2025. Bottom row, from left to right: Plaintiffs Daniela Siemal, Danique Martis, Jackie Bernabela, Director of Greenpeace Netherlands Marieke Vellekoop, and plaintiffs Helen Angela, and Kjelld Kroon. Middle row, from left to right: lawyer Michael Bacon, plaintiffs Angelo Vrolijk and Onnie Emerenciana, Judmar Emerenciana. Top row: Lawyer Emiel Jurjens from Prakken d''Oliveira. (Photo: Marten van Dijl, Courtesy of Greenpeace)'

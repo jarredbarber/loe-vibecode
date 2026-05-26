@@ -3,6 +3,7 @@ title: Trump Denies, China Leads on Climate
 slug: trump-denies-china-leads-on-climate
 date: '2025-09-26'
 category: Segments
+order: '1'
 megaphone_id: LOE3910278740
 image_url: https://loe.org/content/2025-09-26/TRUMP_unga.jpg
 image_caption: 'During his address to the United Nations General Assembly, President Trump railed against climate action and renewable energy. (Photo: Screenshot from White House video)'

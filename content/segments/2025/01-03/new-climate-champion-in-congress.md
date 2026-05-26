@@ -3,6 +3,7 @@ title: New Climate Champion in Congress
 slug: new-climate-champion-in-congress
 date: '2025-01-03'
 category: Segments
+order: '1'
 megaphone_id: LOE3660562910
 image_url: https://loe.org/content/2025-01-03/YASSAMIN_elected.jpeg
 image_caption: 'Yassamin Ansari has been elected to Congress as a Democrat to represent Arizonia’s 3rd Congressional District. (Photo: Courtesy of Yassamin for Congress)'

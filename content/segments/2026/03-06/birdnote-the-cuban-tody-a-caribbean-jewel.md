@@ -3,6 +3,7 @@ title: 'BirdNote®: The Cuban Tody, A Caribbean Jewel'
 slug: birdnote-the-cuban-tody-a-caribbean-jewel
 date: '2026-03-06'
 category: Segments
+order: '6'
 megaphone_id: LOE8014004030
 image_url: https://loe.org/content/2026-03-06/CUBANTODY_bird.jpg
 image_caption: 'A colorful Cuban tody perches on a stick. (Photo: Charles J. Sharp, Wikimedia Commons, CC BY-SA 4.0)'

@@ -3,6 +3,7 @@ title: 'Just Earth: How a Fairer World Will Save the Planet'
 slug: just-earth-how-a-fairer-world-will-save-the-planet
 date: '2025-06-27'
 category: Segments
+order: '3'
 megaphone_id: LOE1062931736
 image_url: https://loe.org/content/2025-06-27/JUNIPER_cover.jpg
 image_caption: 'Tony Juniper’s newest book,  Just Earth: How a Fairer World Will Save the Planet. (Photo: Courtesy of Bloomsbury)'

@@ -3,6 +3,7 @@ title: Listening on Earth
 slug: listening-on-earth-0822
 date: '2025-08-22'
 category: Segments
+order: '4'
 megaphone_id: LOE8731651194
 image_url: https://loe.org/content/2025-06-06/LISTENING_sophia.jpg
 image_caption: 'Living on Earth Producer Sophia Pandelidis walks through the streets of the Greek island, Paros. (Photo: Stephanie Morris)'

@@ -3,6 +3,7 @@ title: Searching for Old Growth Forest
 slug: searching-for-old-growth-forest
 date: '2025-02-07'
 category: Segments
+order: '5'
 megaphone_id: LOE9889397005
 image_url: https://loe.org/content/2025-02-07/OLDGROWTH_lidar.jpg
 image_caption: 'LiDAR is like a “CAT scan” of the forest, our guest Dr. John Hagan says. The blue-magenta signature indicates late-successional/ old growth (LSOG) forest. Above, a LiDAR image of Big Reed Forest Reserve in northern Maine. (Photo: John Hagan)'

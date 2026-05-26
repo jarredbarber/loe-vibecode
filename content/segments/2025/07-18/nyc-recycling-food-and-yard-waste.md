@@ -3,6 +3,7 @@ title: NYC Recycling Food and Yard Waste
 slug: nyc-recycling-food-and-yard-waste
 date: '2025-07-18'
 category: Segments
+order: '2'
 megaphone_id: LOE4611791787
 image_url: https://loe.org/content/2025-07-18/COMPOST_foodwaste.jpg
 image_caption: 'New York City generates roughly 24 million pounds of trash daily. Approximately one-third of that is food and other organic waste. (Photo: Niwrat, Wikimedia Commons, CC BY-SA 4.0)'

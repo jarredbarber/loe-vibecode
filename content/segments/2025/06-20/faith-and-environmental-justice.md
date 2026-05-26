@@ -3,6 +3,7 @@ title: Faith and Environmental Justice
 slug: faith-and-environmental-justice
 date: '2025-06-20'
 category: Segments
+order: '2'
 megaphone_id: LOE7259424480
 image_url: https://loe.org/content/2025-06-20/B1_Biden.jpg
 image_caption: 'President Joe Biden signed the Juneteenth National Independence Day Act in 2021, making Juneteenth a national holiday. (Photo: The White House, Wikimedia Commons, Public Domain)'

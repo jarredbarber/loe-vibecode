@@ -3,6 +3,7 @@ title: Uprooted By Climate
 slug: uprooted-by-climate
 date: '2025-08-01'
 category: Segments
+order: '2'
 megaphone_id: LOE9784359226
 image_url: https://loe.org/content/2024-09-13/ABRAHM-protest_sign.jpg
 image_caption: 'In September 2019 over 100,000 people participated in a climate strike in Melbourne, Australia. (Photo: Takver from Australia, Wikimedia Commons, CC BY-SA 2.0)'

@@ -3,6 +3,7 @@ title: '"The Unexpected"- Mallards Diving'
 slug: the-unexpected-mallards-diving
 date: '2025-12-12'
 category: Segments
+order: '2'
 megaphone_id: LOE3424644860
 image_url: https://loe.org/content/2025-12-12/MSL_dabbling.JPG
 image_caption: 'Mallards are dabbling ducks, meaning they feed mainly at the surface rather than by diving. (Photo: Mark Seth Lender)'

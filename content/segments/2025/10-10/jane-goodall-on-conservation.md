@@ -3,6 +3,7 @@ title: Jane Goodall On Conservation
 slug: jane-goodall-on-conservation
 date: '2025-10-10'
 category: Segments
+order: '4'
 megaphone_id: LOE2033100838
 image_url: https://loe.org/content/2025-10-10/GOODALL_91.jpg
 image_caption: 'Dr. Jane Goodall passed away at the age of 91 in October 2025, after a lifetime of advocating for conservation. (Photo: © Vincent Calmel, Courtesy of the Jane Goodall Institute)'

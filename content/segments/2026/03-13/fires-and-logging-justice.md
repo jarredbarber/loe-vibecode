@@ -3,6 +3,7 @@ title: Fires and Logging Justice
 slug: fires-and-logging-justice
 date: '2026-03-13'
 category: Segments
+order: '1'
 megaphone_id: LOE2859141311
 image_url: https://loe.org/content/2026-03-13/LOGGING_clearcut.jpg
 image_caption: 'Extensive logging in the Fremont-Winema National Forest in southern Oregon prompted conservationists to sue the U.S. Forest Service for the unlawful application of Categorical Exclusion 6 in 2022. Shown above is a clearcut section of Willamette National Forest, also in Oregon. (Photo: Calibas, Wikimedia Commons, CC BY-SA 3.0)'

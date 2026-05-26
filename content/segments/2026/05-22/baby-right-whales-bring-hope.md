@@ -3,6 +3,7 @@ title: Baby Right Whales Bring Hope
 slug: baby-right-whales-bring-hope
 date: '2026-05-22'
 category: Segments
+order: '2'
 megaphone_id: LOE2293748784
 image_url: https://loe.org/content/2026-05-22/WHALES_bermuda.JPG
 image_caption: 'Shown above are a North Atlantic right whale mother, Bermuda (#3780), and her calf. (Photo: New England Aquarium, taken under NOAA Permit #25739-01)'

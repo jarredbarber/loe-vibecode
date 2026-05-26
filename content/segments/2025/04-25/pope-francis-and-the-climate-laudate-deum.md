@@ -3,6 +3,7 @@ title: 'Pope Francis and the Climate: Laudate Deum'
 slug: pope-francis-and-the-climate-laudate-deum
 date: '2025-04-25'
 category: Segments
+order: '2'
 megaphone_id: LOE2278602136
 image_url: https://loe.org/content/2023-10-13/POPE_Pope.jpg
 image_caption: 'Pope Francis wrote his first papal document on the environment, Laudato Si’, in 2015. (Photo: Catholic Church England and Wales, Flickr, CC BY-NC-ND 2.0)'

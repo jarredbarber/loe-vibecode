@@ -3,6 +3,7 @@ title: Trump Attacks State Climate Laws
 slug: trump-attacks-state-climate-laws
 date: '2025-04-11'
 category: Segments
+order: '1'
 megaphone_id: LOE3457219386
 image_url: https://loe.org/content/2025-04-11/TRUMP_Trump.jpg
 image_caption: 'President Donald Trump is applauded by a group of coal miners at the April 8th event where he signed the executive order designed to block state action on climate change. (Photo: The White House, Flickr, U.S. Government work)'

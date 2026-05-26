@@ -93,7 +93,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
     const segmentPaths: string[] = [];
     const segmentEntries: { title: string; filename: string }[] = [];
 
-    for (const { doc, url } of segments) {
+    for (const [idx, { doc, url }] of segments.entries()) {
         const n = (slugCounts.get(doc.slug) ?? 0) + 1;
         slugCounts.set(doc.slug, n);
         const slug = n === 1 ? doc.slug : `${doc.slug}-${n}`;
@@ -102,13 +102,13 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
 
         const fm = frontmatter({
             title: doc.title,
-            // Explicit slug ensures Pelican's URL output matches the dedup'd
-            // filename, even when two segments on different shows share a
-            // title that would otherwise slugify to the same value (e.g.
-            // 'Fall Gardening Tips' running in multiple years).
             slug,
             date: show.date,
             category: 'Segments',
+            // Broadcast order. show_segments plugin reads this so segment
+            // cards on the show page render in the same order they aired,
+            // not the filename's alphabetical order.
+            order: String(idx + 1),
             megaphone_id: doc.megaphoneId,
             image_url: doc.imageUrl,
             image_caption: doc.imageCaption,

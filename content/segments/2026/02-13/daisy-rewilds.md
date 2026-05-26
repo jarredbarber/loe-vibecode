@@ -3,6 +3,7 @@ title: Daisy Rewilds
 slug: daisy-rewilds
 date: '2026-02-13'
 category: Segments
+order: '4'
 megaphone_id: LOE4047491111
 image_url: https://loe.org/content/2026-02-13/DAISY_cover.jpg
 image_caption: 'Daisy Rewilds, published in 2025 by Penguin Random House, follows a young girl’s journey reverting her own front yard to its natural state. (Photo: Taken by Andrew Skerrit, Book Cover via Penguin Random House)'

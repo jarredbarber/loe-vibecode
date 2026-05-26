@@ -3,6 +3,7 @@ title: PFAS Still at Pittsburgh Airport
 slug: pfas-still-at-pittsburgh-airport
 date: '2026-03-13'
 category: Segments
+order: '2'
 megaphone_id: LOE2114664083
 image_url: https://loe.org/content/2026-03-13/AF_testing.jpg
 image_caption: 'Three Rivers Waterkeeper’s Koa Reitz tests water from Montour Run for PFAS contamination. Montour Run is a tributary of Fishing Creek, located near the Pittsburgh International Airport. (Photo: Reid Frazier, Courtesy of The Allegheny Front)'

@@ -3,6 +3,7 @@ title: Madam Secretary Haaland
 slug: madam-secretary-haaland
 date: '2025-03-28'
 category: Segments
+order: '9'
 image_url: https://loe.org/content/2021-03-19/HAALAND_haaland.jpg
 image_caption: 'Deb Haaland was confirmed as Secretary of the Interior on March 15, 2021, making her the first Native American to serve as a cabinet secretary. Ms. Haaland previously served as a Democratic representative for New Mexico’s 1st congressional district from 2019 to 2021. (Photo: United States Department of the Interior)'
 summary: On March 15th the U.S. Senate voted 51-40 to confirm Deb Haaland as Secretary of the Interior. A member of the Laguna Pueblo tribe, Secretary Haaland is the first Native American to serve as head of a cabinet agency. Her historic appointment places her in command of a department that manages US public lands and oversees the Bureaus of Indian Affairs and India Education. Host Bobby Bascomb discusses Ms. Haaland’s appointment and her priorities for the future of the department.

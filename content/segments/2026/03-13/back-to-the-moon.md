@@ -3,6 +3,7 @@ title: Back to the Moon!
 slug: back-to-the-moon
 date: '2026-03-13'
 category: Segments
+order: '4'
 megaphone_id: LOE5057023539
 image_url: https://loe.org/content/2026-03-13/ARTEMIS_rocket.jpg
 image_caption: 'The Artemis space program seeks to return humans to the moon by 2028. The Artemis II mission, currently set to launch in April 2026, will fly a crew of four astronauts around the moon for 10 days. (Photo: Olga Ernst, Wikimedia Commons, CC BY-SA 4.0)'

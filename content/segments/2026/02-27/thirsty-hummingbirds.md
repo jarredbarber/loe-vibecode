@@ -3,6 +3,7 @@ title: Thirsty Hummingbirds
 slug: thirsty-hummingbirds
 date: '2026-02-27'
 category: Segments
+order: '3'
 megaphone_id: LOE2715422381
 image_url: https://loe.org/content/2026-02-27/BIRDNOTE_hummingbird.jpg
 image_caption: 'Rufous Hummingbirds, when they travel north after a hot winter in Mexico or Central America, will be looking for ways to satiate their thirst, making it a good time to invest in a bird feeder. (Photo: VJAnderson, Wikimedia Commons, CC BY-SA 4.0)'

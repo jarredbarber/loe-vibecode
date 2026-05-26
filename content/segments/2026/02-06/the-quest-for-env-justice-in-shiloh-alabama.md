@@ -3,6 +3,7 @@ title: The Quest for Env. Justice in Shiloh Alabama
 slug: the-quest-for-env-justice-in-shiloh-alabama
 date: '2026-02-06'
 category: Segments
+order: '3'
 megaphone_id: LOE4916211337
 image_url: https://loe.org/content/2026-02-06/SHILOH_flooding.jpg
 image_caption: 'Heavy rainfall in Shiloh, Alabama, is usually followed by flooding as runoff rushes down from the widened and elevated Highway 84. Residents say flooding has eroded their yards, cracked their foundations and caused septic tanks to overflow into their yards. (Photo: Bullard Center for Environmental and Climate Justice)'

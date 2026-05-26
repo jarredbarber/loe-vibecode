@@ -3,6 +3,7 @@ title: 'BirdNote®: Meet the Tiniest Owl in the World'
 slug: birdnote-meet-the-tiniest-owl-in-the-world
 date: '2026-03-27'
 category: Segments
+order: '2'
 megaphone_id: LOE2908485789
 image_url: https://loe.org/content/2026-03-27/ELF_smallowl.jpg
 image_caption: 'Elf owls are the smallest known species of owl. (Photo: Bettina Arrigoni, Flickr, CC BY 2.0)'

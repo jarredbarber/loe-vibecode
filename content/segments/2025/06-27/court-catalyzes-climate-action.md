@@ -3,6 +3,7 @@ title: Court Catalyzes Climate Action
 slug: court-catalyzes-climate-action
 date: '2025-06-27'
 category: Segments
+order: '4'
 summary: The nation's highest court handed environmentalists a historic victory, telling the EPA it can regulate greenhouse gas pollution. What will that mean for efforts to curb global warming? Living on Earth's Jeff Young reports the Supreme Court's decision is already making waves in industry and on Capitol Hill.
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=07-P13-00014&segmentID=2 -->

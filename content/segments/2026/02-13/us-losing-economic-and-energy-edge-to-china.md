@@ -3,6 +3,7 @@ title: US Losing Economic and Energy Edge to China
 slug: us-losing-economic-and-energy-edge-to-china
 date: '2026-02-13'
 category: Segments
+order: '1'
 megaphone_id: LOE5251928774
 image_url: https://loe.org/content/2026-02-13/CHINA_windpowerplants.jpg
 image_caption: 'Wind power plants in Xinjiang, China. China is a global leader in renewable energy. (Photo: Chris Lim, Wikimedia Commons, CC BY-SA 2.0)'

@@ -3,6 +3,7 @@ title: Hot Prospects for Geothermal Energy
 slug: hot-prospects-for-geothermal-energy
 date: '2026-01-30'
 category: Segments
+order: '1'
 megaphone_id: LOE2146096390
 image_url: https://loe.org/content/2026-01-30/GEOTHERMAL_epicsystemsbuilding.jpg
 image_caption: "Pictured above is the Epic Systems Cassiopeia 'culinary venue', which is part of a massive 1,670-acre campus with geothermal HVAC systems. (Photo:\_ Mandy Aalderink, Wikimedia Commons,\_ CC BY-SA 4.0)"

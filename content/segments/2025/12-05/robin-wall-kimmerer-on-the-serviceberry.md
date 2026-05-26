@@ -3,6 +3,7 @@ title: Robin Wall Kimmerer on The Serviceberry
 slug: robin-wall-kimmerer-on-the-serviceberry
 date: '2025-12-05'
 category: Segments
+order: '3'
 megaphone_id: LOE5756807961
 image_url: https://loe.org/content/2024-11-22/SERVICEBERRY_cover.jpg
 image_caption: 'The cover of  The Serviceberry  by Robin Wall Kimmerer beautifully encapsulates the book''s themes of nature’s abundance and reciprocity. (Photo: Courtesy of Robin Wall Kimmerer)'

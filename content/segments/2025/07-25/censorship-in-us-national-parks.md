@@ -3,6 +3,7 @@ title: Censorship in US National Parks
 slug: censorship-in-us-national-parks
 date: '2025-07-25'
 category: Segments
+order: '3'
 megaphone_id: LOE1529577750
 image_url: https://loe.org/content/2025-07-25/NPSHISTORY_manzanar.jpg
 image_caption: 'Manzanar Internment Relocation Center, created by Executive Order No. 9066, issued February 19. 1942. It was the first of ten camps where more than 110,000 people of Japanese ancestry were incarcerated during WWII. (Photo: William Gill, Wikimedia Commons, CC BY SA 4.0)'

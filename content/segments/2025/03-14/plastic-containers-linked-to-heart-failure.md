@@ -3,6 +3,7 @@ title: Plastic Containers Linked to Heart Failure
 slug: plastic-containers-linked-to-heart-failure
 date: '2025-03-14'
 category: Segments
+order: '2'
 megaphone_id: LOE9780468400
 image_url: https://loe.org/content/2025-03-14/PLASTIC_exposuretohotfood.jpg
 image_caption: 'Exposure to hot food placed in disposable plastic takeout containers is associated with an increased risk of congestive heart failure, according to a new study in Ecotoxicology and Environmental Safety. (Photo: Jacoby Clarke, Pexels, Pexels license)'

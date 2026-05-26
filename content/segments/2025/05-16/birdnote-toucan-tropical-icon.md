@@ -3,6 +3,7 @@ title: 'Birdnote®: Toucan - Tropical Icon'
 slug: birdnote-toucan-tropical-icon
 date: '2025-05-16'
 category: Segments
+order: '2'
 megaphone_id: LOE6724138013
 image_url: https://loe.org/content/2025-05-16/BIRDNOTE_toucan.jpg
 image_caption: 'There are over forty species of toucan. Shown here is a Cuvier’s toucan. (Photo: Pablo BM, Wikimedia Commons, CC BY 2.0)'

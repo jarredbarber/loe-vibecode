@@ -3,6 +3,7 @@ title: Pioneering Women in Science
 slug: pioneering-women-in-science
 date: '2026-03-13'
 category: Segments
+order: '5'
 megaphone_id: LOE1547856121
 image_url: https://loe.org/content/2017-01-06/WOMEN-Rosalind-Franklin---p79.jpg
 image_caption: 'Rosalind Franklin’s work on x-ray diffraction helped lead to the discovery of the double-helix structure of DNA. (Photo: Reprinted with permission, Women in Science Copyright © 2016 by Rachel Ignotofsky. Published by Ten Speed Press, an imprint of Penguin Random House LLC.)'

@@ -3,6 +3,7 @@ title: Reef Symphony
 slug: reef-symphony
 date: '2025-08-29'
 category: Segments
+order: '2'
 megaphone_id: LOE8528876206
 image_url: https://loe.org/content/2023-01-06/OYSTERS_oysters.jpg
 image_caption: 'It appears that oyster larvae are attracted to the sounds of a healthy reef. (Photo: Petras Gagilas, Flickr, CC BY-SA 2.0)'

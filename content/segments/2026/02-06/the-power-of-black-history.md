@@ -3,6 +3,7 @@ title: The Power of Black History
 slug: the-power-of-black-history
 date: '2026-02-06'
 category: Segments
+order: '2'
 megaphone_id: LOE7598300998
 image_url: https://loe.org/content/2023-02-24/BLACKHISTORY_museum.jpeg
 image_caption: 'The Slavery Museum at the Whitney Plantation, the only former plantation site in Louisiana with an exclusive focus on slavery. (Photo: Cheburashka007, Wikimedia Commons, CC BY-SA 4.0)'

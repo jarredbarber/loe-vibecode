@@ -3,6 +3,7 @@ title: Deb Haaland on Our Public Lands
 slug: deb-haaland-on-our-public-lands
 date: '2025-03-28'
 category: Segments
+order: '4'
 megaphone_id: LOE5765333611
 image_url: https://loe.org/content/2025-03-28/HAALAND_title.jpg
 image_caption: 'Deb Haaland served as Secretary of the Interior under President Biden from 2021-2025. She was the first Native American to serve as a cabinet secretary. She is pictured here at Monument Valley in Arizona. (Photo: Deb Haaland for New Mexico Campaign)'

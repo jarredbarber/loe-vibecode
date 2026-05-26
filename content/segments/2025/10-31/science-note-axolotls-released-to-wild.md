@@ -3,6 +3,7 @@ title: 'Science Note: Axolotls Released to Wild'
 slug: science-note-axolotls-released-to-wild
 date: '2025-10-31'
 category: Segments
+order: '4'
 megaphone_id: LOE7028001241
 image_url: https://loe.org/content/2025-10-31/AXOLOTL_salamander.jpg
 image_caption: 'The axolotl (ambystoma maxicanum) is an aquatic salamander with external gills and a finned tail. (Photo: Mike Licht, NotionsCapital.com, CC BY 2.0)'

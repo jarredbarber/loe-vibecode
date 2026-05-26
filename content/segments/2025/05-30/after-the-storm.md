@@ -3,6 +3,7 @@ title: After the Storm
 slug: after-the-storm
 date: '2025-05-30'
 category: Segments
+order: '3'
 megaphone_id: LOE1710854159
 image_url: https://loe.org/content/2025-05-30/MSL_redsky.jpg
 image_caption: 'Red sky at morning, sailors take warning. (Photo: © Mark Seth Lender)'

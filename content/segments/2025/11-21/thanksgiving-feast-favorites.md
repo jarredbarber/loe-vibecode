@@ -3,6 +3,7 @@ title: Thanksgiving Feast Favorites
 slug: thanksgiving-feast-favorites
 date: '2025-11-21'
 category: Segments
+order: '3'
 megaphone_id: LOE2060168850
 image_url: https://loe.org/content/2023-11-17/FOOD_table.jpg
 image_caption: 'The Living on Earth cast and crew shares their family recipes for Thanksgiving dinner. (Photo: Karolina Grabowska, Pexels, CC)'

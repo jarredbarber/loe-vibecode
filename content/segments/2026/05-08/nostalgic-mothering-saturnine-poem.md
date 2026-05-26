@@ -3,6 +3,7 @@ title: 'Nostalgic Mothering: "Saturnine" Poem'
 slug: nostalgic-mothering-saturnine-poem
 date: '2026-05-08'
 category: Segments
+order: '4'
 megaphone_id: LOE2086786203
 image_url: https://loe.org/content/2026-05-08/SATURNINE_saturn.jpg
 image_caption: 'In the poem “Saturnine,” Aimee Nezhukumatathil recalls when her then-seven-year-old son announced that one day, he would live on Saturn. (Photo: Zelch Csaba, Pexels, Public Domain)'

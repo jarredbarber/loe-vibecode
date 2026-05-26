@@ -3,6 +3,7 @@ title: Rights of Nature for Stingless Bees
 slug: rights-of-nature-for-stingless-bees
 date: '2025-11-14'
 category: Segments
+order: '4'
 megaphone_id: LOE6280658126
 image_url: https://loe.org/content/2025-11-14/BEES-stingless bees - nest.jpg
 image_caption: 'Tetragonisca angustula, also known to locals as “angelitas”, or “little angels”. Here, a worker bee perches at the entrance of a wild nest. (Photo: Kathryn Naherny)'

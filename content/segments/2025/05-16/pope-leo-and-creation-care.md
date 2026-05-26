@@ -3,6 +3,7 @@ title: Pope Leo and Creation Care
 slug: pope-leo-and-creation-care
 date: '2025-05-16'
 category: Segments
+order: '1'
 megaphone_id: LOE3547700957
 image_url: https://loe.org/content/2025-05-16/POPE_balcony.jpg
 image_caption: 'Pope Leo XIV (center), the first US born pontiff, addresses the crowd from the balcony of St. Peter''s Basilica. Behind him are a member of the Catholic clergy (left) and Archbishop Diego Giovanni Ravelli (right). (Photo: Catholic Church of England, Flickr, CC BY NC ND 2.0)'

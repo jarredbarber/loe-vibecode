@@ -3,6 +3,7 @@ title: NOAA Climate Science Cuts
 slug: noaa-climate-science-cuts
 date: '2025-05-02'
 category: Segments
+order: '2'
 megaphone_id: LOE9923897880
 image_url: https://loe.org/content/2025-05-02/NOAA_fundingcuts.jpg
 image_caption: 'Experts worry that funding cuts to NOAA will undermine our ability to predict hurricanes, leading to more lives lost. (Photo: Dannel Malloy, Wikimedia Commons, CC BY 2.0)'

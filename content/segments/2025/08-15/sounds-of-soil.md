@@ -3,6 +3,7 @@ title: Sounds of Soil
 slug: sounds-of-soil
 date: '2025-08-15'
 category: Segments
+order: '1'
 megaphone_id: LOE3031227180
 image_url: https://loe.org/content/2024-05-24/SOUNDS_sampling.jpeg
 image_caption: 'Listening to sounds in the soil is a minimally invasive way to measure biodiversity underground. (Photo: Courtesy of Baker Consultants Ltd.)'

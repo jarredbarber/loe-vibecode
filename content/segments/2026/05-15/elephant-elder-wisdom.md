@@ -3,6 +3,7 @@ title: Elephant Elder Wisdom
 slug: elephant-elder-wisdom
 date: '2026-05-15'
 category: Segments
+order: '5'
 megaphone_id: LOE5995802166
 image_url: https://loe.org/content/2026-05-15/Elephant_and_calf_resized.jpg
 image_caption: 'Strategies for calf survival is one of the skills researchers think elephants may be passing down through generations. (Photo: Kalyan Varma, Wikimedia Commons, CC BY-SA 4.0)'

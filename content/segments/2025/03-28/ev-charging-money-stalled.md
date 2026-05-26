@@ -3,6 +3,7 @@ title: EV Charging Money Stalled
 slug: ev-charging-money-stalled
 date: '2025-03-28'
 category: Segments
+order: '1'
 megaphone_id: LOE6572677403
 image_url: https://loe.org/content/2025-03-28/EV_tesla.jpg
 image_caption: 'Tesla’s Supercharger network is already one of the most robust in the country, giving the company a significant head start—so while the pause in federal EV charging funds stalls other networks, Tesla is unlikely to be heavily impacted. (Photo: Ewan Streit on Unsplash)'

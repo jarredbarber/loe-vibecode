@@ -3,6 +3,7 @@ title: Big Cash for Clean Energy
 slug: big-cash-for-clean-energy
 date: '2025-03-21'
 category: Segments
+order: '5'
 megaphone_id: LOE4092659733
 image_url: https://loe.org/content/2024-04-12/EPA_awardgrants.jpg
 image_caption: 'The Environmental Protection Agency has awarded grants -- ranging in the hundreds of millions to billions of dollars -- to eight nonprofits that will loan the money to clean energy projects. (Photo: US EPA, Flickr, Fair Use)'

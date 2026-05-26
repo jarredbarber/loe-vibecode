@@ -3,6 +3,7 @@ title: Former Park Leader Speaks Out
 slug: former-park-leader-speaks-out
 date: '2025-07-25'
 category: Segments
+order: '2'
 megaphone_id: LOE1661087856
 image_url: https://loe.org/content/2025-07-25/CRATER_header.jpg
 image_caption: 'Crater Lake is one of the clearest lakes in the world due to its makeup of pure rainfall and snowmelt. Its bright blue color is visible from space, making the park an iconic U.S. landmark and a must-see for summer travelers, our guest, Kevin Heatley, says. (Photo: Gallagher, Wikimedia Commons, CC BY-SA 2.0)'

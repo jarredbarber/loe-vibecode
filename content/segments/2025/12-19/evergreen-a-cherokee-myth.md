@@ -3,6 +3,7 @@ title: Evergreen, A Cherokee Myth
 slug: evergreen-a-cherokee-myth
 date: '2025-12-19'
 category: Segments
+order: '2'
 megaphone_id: LOE3850224282
 image_url: https://loe.org/content/2025-12-19/EVERGREEN_tree.jpg
 image_caption: 'Storyteller Diane Edgecomb shares the Cherokee myth of the Evergreen. (Photo: Irina Iriser, Pexels, CC0)'

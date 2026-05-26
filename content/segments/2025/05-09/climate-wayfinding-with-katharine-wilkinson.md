@@ -3,6 +3,7 @@ title: Climate Wayfinding with Katharine Wilkinson
 slug: climate-wayfinding-with-katharine-wilkinson
 date: '2025-05-09'
 category: Segments
+order: '2'
 megaphone_id: LOE7704877977
 image_url: https://loe.org/content/2025-05-09/WAYFINDING_fullgroup.jpg
 image_caption: 'A climate wayfinding group gathers outside for a photo. As Wilkinson says, “It is no small thing to be human on Earth right now.” Climate Wayfinding seeks to provide a place to process that complexity, together. (Photo: Courtesy of Dr. Katharine Wilkinson)'

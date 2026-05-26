@@ -3,6 +3,7 @@ title: Heat Waves Linked to Company Emissions
 slug: heat-waves-linked-to-company-emissions
 date: '2025-09-19'
 category: Segments
+order: '1'
 megaphone_id: LOE8661348069
 image_url: https://loe.org/content/2025-09-19/HEATWAVES_extremeheat.jpg
 image_caption: 'The National Oceanic and Atmospheric Administration found that over 255 million Americans were subjected to dangerous, life-threatening conditions due to extreme heat this past July. Shown here is an extreme heat warning in Death Valley, California. (Photo: Maclean, Wikimedia Commons, CC BY-SA 2.0)'

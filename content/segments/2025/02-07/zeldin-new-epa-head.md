@@ -3,6 +3,7 @@ title: Zeldin New EPA Head
 slug: zeldin-new-epa-head
 date: '2025-02-07'
 category: Segments
+order: '1'
 megaphone_id: LOE8378003699
 image_url: https://loe.org/content/2025-02-07/ZELDIN_ovaloffice.jpg
 image_caption: 'After former US Rep Lee Zeldin’s (R-NY) appointment as Administrator of the EPA over a thousand EPA employees received notice they were eligible for termination. Zeldin is also expected to disband the EPA’s Office of Environmental Justice. (Photo: Shealeah Craighead, Wikimedia Commons, public domain)'

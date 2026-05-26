@@ -3,6 +3,7 @@ title: Cuts to Clean Energy Tax Credits
 slug: cuts-to-clean-energy-tax-credits
 date: '2025-05-30'
 category: Segments
+order: '2'
 megaphone_id: LOE8534423965
 image_url: https://loe.org/content/2025-05-30/TAXCREDIT_house.jpg
 image_caption: 'The House narrowly approved the “One Big, Beautiful Bill” with a 215–214 vote, allowing it to move forward. (Photo: Frank Schulenburg, Wikimedia Commons, CC BY-SA 4.0)'

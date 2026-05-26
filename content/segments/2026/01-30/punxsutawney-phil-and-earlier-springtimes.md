@@ -3,6 +3,7 @@ title: Punxsutawney Phil and Earlier Springtimes
 slug: punxsutawney-phil-and-earlier-springtimes
 date: '2026-01-30'
 category: Segments
+order: '2'
 megaphone_id: LOE8552368216
 image_url: https://loe.org/content/2026-01-30/GROUNDHOG_phil.jpg
 image_caption: 'Punxsutawney Phil is perhaps the world’s most famous weather-groundhog. February 2, 2026, marks the 140th celebration of Phil''s emergence and prediction based on the presence or absence of his shadow. (Photo: Chris Flook, Wikimedia Commons, CC BY-SA 4.0)'

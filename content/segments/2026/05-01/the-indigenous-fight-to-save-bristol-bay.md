@@ -3,6 +3,7 @@ title: The Indigenous Fight to Save Bristol Bay
 slug: the-indigenous-fight-to-save-bristol-bay
 date: '2026-05-01'
 category: Segments
+order: '4'
 megaphone_id: LOE7873752564
 image_url: https://loe.org/content/2026-05-01/HURLEY_profilephoto.jpg
 image_caption: 'Alannah Acaq Hurley is a Yup''ik leader, executive director of the United Tribes of Bristol Bay, and winner of the 2026 Goldman Environmental Prize for North America. (Photo: Goldman Environmental Prize)'

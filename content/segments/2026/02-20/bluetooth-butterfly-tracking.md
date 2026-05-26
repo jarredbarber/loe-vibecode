@@ -3,6 +3,7 @@ title: Bluetooth Butterfly Tracking
 slug: bluetooth-butterfly-tracking
 date: '2026-02-20'
 category: Segments
+order: '5'
 megaphone_id: LOE2159504545
 image_url: https://loe.org/content/2026-02-20/MONARCH_tags.JPG
 image_caption: 'Tags from Cellular Tracking Technologies of Cape May, New Jersey, allow scientists and butterfly enthusiasts to follow the journey of monarch butterflies as they fly south for the winter. (Photo: Sheldon Blackshire)'

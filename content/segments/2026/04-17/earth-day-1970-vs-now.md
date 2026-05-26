@@ -3,6 +3,7 @@ title: Earth Day - 1970 vs Now
 slug: earth-day-1970-vs-now
 date: '2026-04-17'
 category: Segments
+order: '1'
 megaphone_id: LOE3102358658
 image_url: https://loe.org/content/2026-04-17/EARTHDAY_rally.jpg
 image_caption: 'The first Earth Day, held on April 22, 1970, was estimated to have drawn crowds of 20 million people, nearly an eighth of the country’s population at the time. Above, protestors at the Washington, D.C. rally. (Photo: U.S. National Park Service, Wikimedia Commons, Public Domain)'

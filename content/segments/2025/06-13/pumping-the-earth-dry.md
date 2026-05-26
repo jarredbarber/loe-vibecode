@@ -3,6 +3,7 @@ title: Pumping the Earth Dry
 slug: pumping-the-earth-dry
 date: '2025-06-13'
 category: Segments
+order: '4'
 megaphone_id: LOE4639709161
 image_url: https://loe.org/content/2025-06-13/COLORADO_groundwater.jpg
 image_caption: 'When people think of the plight of the Colorado River, they may think of the water on the surface, but Dr. Jay Famiglietti’s recent study showed that the river’s groundwater is also depleting quickly. (Photo: Doc Searls from Santa Barbara, USA, Wikimedia Commons, CC BY-SA 2.0)'

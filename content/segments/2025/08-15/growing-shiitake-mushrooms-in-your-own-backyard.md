@@ -3,6 +3,7 @@ title: Growing Shiitake Mushrooms in Your Own Backyard
 slug: growing-shiitake-mushrooms-in-your-own-backyard
 date: '2025-08-15'
 category: Segments
+order: '6'
 megaphone_id: LOE5652583838
 image_url: https://loe.org/content/2023-09-29/MUSHROOM_log.jpeg
 image_caption: 'The fully inoculated log, covered in protective wax. (Photo: Aynsley O’Neill)'

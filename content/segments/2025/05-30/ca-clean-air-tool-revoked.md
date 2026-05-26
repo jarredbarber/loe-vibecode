@@ -3,6 +3,7 @@ title: CA Clean Air Tool Revoked
 slug: ca-clean-air-tool-revoked
 date: '2025-05-30'
 category: Segments
+order: '1'
 megaphone_id: LOE2750020812
 image_url: https://loe.org/content/2025-05-30/AIR_calistandards.jpg
 image_caption: 'Los Angeles is regularly out of compliance with federal air quality standards. (Photo: Diliff, Wikimedia Commons, CC BY-SA 3.0)'

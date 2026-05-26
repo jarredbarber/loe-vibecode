@@ -3,6 +3,7 @@ title: An Indigenous Bison Harvest
 slug: an-indigenous-bison-harvest
 date: '2026-01-09'
 category: Segments
+order: '4'
 megaphone_id: LOE4837251631
 image_url: https://loe.org/content/2026-01-06/3_bison_buffalo_snow.jpeg
 image_caption: 'Buffalo herds were managed like Zoo animals in Denver for decades. It’s only been a few years since the city agreed to transfer any excess bison to local tribes so they can exercise their traditions. (Photo: Hart Van Denburg, Colorado Public Radio)'

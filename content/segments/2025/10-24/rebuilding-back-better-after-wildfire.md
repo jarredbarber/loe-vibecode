@@ -3,6 +3,7 @@ title: Rebuilding Back Better After Wildfire
 slug: rebuilding-back-better-after-wildfire
 date: '2025-10-24'
 category: Segments
+order: '4'
 megaphone_id: LOE6460383702
 image_url: https://loe.org/content/2025-10-24/HOUSE_model.jpg
 image_caption: 'Small model of the proposed design for David’s new home created by JacobsChang Architecture. (Photo: David Brancaccio)'

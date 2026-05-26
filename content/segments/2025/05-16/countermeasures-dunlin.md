@@ -3,6 +3,7 @@ title: '"Countermeasures"- Dunlin'
 slug: countermeasures-dunlin
 date: '2025-05-16'
 category: Segments
+order: '4'
 megaphone_id: LOE7425599578
 image_url: https://loe.org/content/2025-05-16/LENDER_dunlin.jpg
 image_caption: 'Dunlin asleep in the saltpans. (Photo: © Mark Seth Lender)'

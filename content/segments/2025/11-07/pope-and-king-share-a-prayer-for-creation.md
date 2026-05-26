@@ -3,6 +3,7 @@ title: Pope and King Share a Prayer for Creation
 slug: pope-and-king-share-a-prayer-for-creation
 date: '2025-11-07'
 category: Segments
+order: '2'
 megaphone_id: LOE5124200262
 image_url: https://loe.org/content/2025-11-07/POPEKING_withtony.jpg
 image_caption: 'Tony Juniper spoke with King Charles III in July 2023 at a new nature reserve in a group of 25 reserves called “The King’s Series.” (Photo: Courtesy of Tony Juniper)'

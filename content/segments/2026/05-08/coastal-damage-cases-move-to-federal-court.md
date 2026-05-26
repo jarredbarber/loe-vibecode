@@ -3,6 +3,7 @@ title: Coastal Damage Cases Move to Federal Court
 slug: coastal-damage-cases-move-to-federal-court
 date: '2026-05-08'
 category: Segments
+order: '2'
 megaphone_id: LOE7581124464
 image_url: https://loe.org/content/2026-05-08/SCOTUS_barge.jpg
 image_caption: 'Plaquemines Parish has sued Chevron and other oil companies alleging that oil and gas drilling operations have caused the loss of millions of acres of coastal wetlands leading to saltwater intrusion from the Gulf of Mexico. Shown above is a water barge, placed with the aim of mitigating saltwater intrusion in the Lower Mississippi River, which is a source of municipal water in South East Louisiana. (Photo: US Army Corps of Engineers, Wikimedia Commons, Public Domain)'

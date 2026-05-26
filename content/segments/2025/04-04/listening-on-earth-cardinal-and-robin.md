@@ -3,6 +3,7 @@ title: 'Listening on Earth: Cardinal and Robin'
 slug: listening-on-earth-cardinal-and-robin
 date: '2025-04-04'
 category: Segments
+order: '5'
 megaphone_id: LOE3991226530
 image_url: https://loe.org/content/2025-04-04/LISTENING_cardinal.jpg
 image_caption: 'Male cardinals like this one can really belt out a tune any time of year, but spring is peak showtime. (Photo: Carolyn Lehrke, Flickr, CC BY-NC-ND 2.0)'

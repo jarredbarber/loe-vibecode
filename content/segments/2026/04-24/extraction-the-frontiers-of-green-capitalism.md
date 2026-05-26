@@ -3,6 +3,7 @@ title: 'Extraction: The Frontiers of Green Capitalism'
 slug: extraction-the-frontiers-of-green-capitalism
 date: '2026-04-24'
 category: Segments
+order: '2'
 megaphone_id: LOE3079052166
 image_url: https://loe.org/content/2026-04-24/EXTRACTION_cover.jpg
 image_caption: 'Thea Riofrancos’ latest book,  Extraction: The Frontiers of Green Capitalism. (Photo: Courtesy of Thea Riofrancos)'

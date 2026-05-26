@@ -3,6 +3,7 @@ title: '''EXPLORE'' Act and Outdoor Accessibility'
 slug: explore-act-and-outdoor-accessibility
 date: '2025-02-14'
 category: Segments
+order: '5'
 megaphone_id: LOE7987256802
 image_url: https://loe.org/content/2025-02-14/EXPLORE_disabledhikers.jpg
 image_caption: 'Disabled Hikers is a cross-disability-led nonprofit building disability community and justice in the outdoors. Shown here is a group hike led by Disabled Hikers. (Photo: Courtesy of Disabled Hikers)'

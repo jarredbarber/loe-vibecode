@@ -3,6 +3,7 @@ title: EPA Shutting Down Independent Research
 slug: epa-shutting-down-independent-research
 date: '2025-07-25'
 category: Segments
+order: '1'
 megaphone_id: LOE9569940192
 image_url: https://loe.org/content/2025-07-25/ORD_watertesting.jpg
 image_caption: 'A scientist in the Office of Research and Development collects samples for water testing. The ORD represents 50 years of independent scientific research at the EPA. (Photo: U.S. EPA, U.S. Archives, public domain)'

@@ -3,6 +3,7 @@ title: UN Climate Talks Kick Off in Brazil
 slug: un-climate-talks-kick-off-in-brazil
 date: '2025-11-07'
 category: Segments
+order: '1'
 megaphone_id: LOE7842142735
 image_url: https://loe.org/content/2025-11-07/COP30_logo.jpg
 image_caption: 'This year’s Conference of the Parties is being held in Belém, Brazil, from November 10th through 25th. An estimated 50,000 to 60,000 attendees are expected to arrive from around the world. (Photo: United Nations Framework Convention on Climate Change, Wikimedia Commons, Public Domain)'

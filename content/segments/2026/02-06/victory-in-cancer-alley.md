@@ -3,6 +3,7 @@ title: Victory in Cancer Alley
 slug: victory-in-cancer-alley
 date: '2026-02-06'
 category: Segments
+order: '4'
 megaphone_id: LOE9854549552
 image_url: https://loe.org/content/2022-09-23/FORMOSA_lavigne.jpg
 image_caption: 'RISE St. James founder and director Sharon Lavigne stands in front of oil storage tanks in St. James Parish, Louisiana. (Photo: Courtesy of the Goldman Environmental Prize)'

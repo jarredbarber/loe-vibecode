@@ -3,6 +3,7 @@ title: Willing to End Fossil Fuels
 slug: willing-to-end-fossil-fuels
 date: '2026-05-08'
 category: Segments
+order: '1'
 megaphone_id: LOE4495531543
 image_url: https://loe.org/content/2026-05-08/COALITION_protest.jpg
 image_caption: 'Pictured above is a collection of civil society groups, Indigenous representatives, and activists protesting at COP30 in Belém, Brazil (November 2025). The demonstration demanded stronger action against climate change, the protection of the Amazon, and a faster phase-out of fossil fuels. (Photo: Xuthoria, Wikimedia Commons, CC BY 2.0)'

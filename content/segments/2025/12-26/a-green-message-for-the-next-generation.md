@@ -3,6 +3,7 @@ title: A Green Message for the Next Generation
 slug: a-green-message-for-the-next-generation
 date: '2025-12-26'
 category: Segments
+order: '2'
 megaphone_id: LOE1366153169
 image_url: https://loe.org/content/2014-12-26/TEM--TemBlessedMic.png
 image_caption: 'Green Energy Artist Tem Blessed rapping at the annual Connecting for Change conference in New Bedford, MA. (Photo: Connecting for Change, the Marion Institute)'

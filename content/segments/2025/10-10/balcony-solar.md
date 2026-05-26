@@ -3,6 +3,7 @@ title: Balcony Solar
 slug: balcony-solar
 date: '2025-10-10'
 category: Segments
+order: '2'
 megaphone_id: LOE4532373450
 image_url: https://loe.org/content/2025-10-10/BALCONY_accessible.jpg
 image_caption: 'Balcony solar is designed to be more accessible than rooftop solar. (Photo: Triplec85, Wikimedia Commons, CC BY-SA 4.0)'

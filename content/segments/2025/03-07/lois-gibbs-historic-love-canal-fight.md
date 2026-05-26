@@ -3,6 +3,7 @@ title: Lois Gibbs' Historic Love Canal Fight
 slug: lois-gibbs-historic-love-canal-fight
 date: '2025-03-07'
 category: Segments
+order: '2'
 megaphone_id: LOE9520581183
 image_url: https://loe.org/content/2013-12-13/23-fgf_pressstill3.jpg
 image_caption: 'Children and babies were the most at risk for health effects from chemical exposure. (Photo: Fierce Green Fire)'

@@ -3,6 +3,7 @@ title: NY Climate Superfund
 slug: ny-climate-superfund-0509
 date: '2025-05-09'
 category: Segments
+order: '5'
 megaphone_id: LOE9735236448
 image_url: https://loe.org/content/2025-03-07/NYSUPERFUND_flatbushflooding.jpg
 image_caption: 'Flash flooding in Flatbush, Brooklyn in September 2023. (Photo: Wil540 art, Wikimedia Commons, CC BY-SA 4.0)'

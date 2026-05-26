@@ -3,6 +3,7 @@ title: Wildfires Bring 'Climate Trauma'
 slug: wildfires-bring-climate-trauma
 date: '2025-01-10'
 category: Segments
+order: '1'
 megaphone_id: LOE9264780433
 image_url: https://loe.org/content/2025-01-10/FIRES_campfire.jpg
 image_caption: 'The 2018 Camp Fire was California''s deadliest and most destructive wildfire to date, burning over 153,000 acres and destroying nearly 19,000 structures, including the town of Paradise. Located in Northern California’s Butte County, it is approximately 500 miles north of the recent wildfires affecting Southern California and the Los Angeles region. (Photo: Pierre Marcuse, Flickr, CC BY 2.0)'

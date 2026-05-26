@@ -3,6 +3,7 @@ title: Climate Resilience Grants Resume
 slug: climate-resilience-grants-resume
 date: '2026-03-27'
 category: Segments
+order: '1'
 megaphone_id: LOE9747289304
 image_url: https://loe.org/content/2026-03-27/FEMA_texasfloods.jpg
 image_caption: 'Devastation from the July 4, 2025 floods in Central Texas. FEMA’S decision to cut the Building Resilient Infrastructure and Communities Program (BRIC) stopped nearly 700 disaster preparedness projects across the United States. (Photo: World Central Kitchen, Wikimedia Commons, CC BY 4.0)'

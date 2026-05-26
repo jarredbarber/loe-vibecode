@@ -3,6 +3,7 @@ title: The Law and Environmental Justice
 slug: the-law-and-environmental-justice
 date: '2026-02-06'
 category: Segments
+order: '1'
 megaphone_id: LOE9057046818
 image_url: https://loe.org/content/2026-02-06/EJ_BobBullardSpeaks.jpg
 image_caption: 'Dr. Robert Bullard, a pioneer in the movement for environmental justice, speaks at the Center for Climate and Environmental Justice Media (CEJM) Conference at UMass Boston in September 2025. Dr. Bullard is founder of the Bullard Center for Environmental and Climate Justice at Texas Southern University in Houston, and author of Dumping In Dixie, (1982) the first of more than sixteen books he has published about environmental racism. His most recent is The Wrong Complexion for Protection (2018). (Photo: CEJM)'

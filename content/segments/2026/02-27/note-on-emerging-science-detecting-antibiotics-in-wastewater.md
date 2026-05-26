@@ -3,6 +3,7 @@ title: 'Note on Emerging Science: Detecting Antibiotics in Wastewater'
 slug: note-on-emerging-science-detecting-antibiotics-in-wastewater
 date: '2026-02-27'
 category: Segments
+order: '4'
 megaphone_id: LOE6996248370
 image_url: https://loe.org/content/2026-02-27/SCINOTE_wastewaterplant.jpg
 image_caption: 'Conventional wastewater treatment plants often fail to remove antibiotic residues, causing them to end up in water sources. (Photo: Czeva, Wikimedia Commons, CC BY-SA 4.0)'

@@ -3,6 +3,7 @@ title: Remembering Mike McElroy
 slug: remembering-mike-mcelroy
 date: '2026-02-13'
 category: Segments
+order: '3'
 megaphone_id: LOE2072716350
 image_url: https://loe.org/content/2026-02-13/OBIT_mcelroy.JPG
 image_caption: 'Michael McElroy was an atmospheric scientist and professor at Harvard University. He was also a board member of the World Media Foundation, which produces Living on Earth. (Photo: Kris Snibbe, Harvard University)'

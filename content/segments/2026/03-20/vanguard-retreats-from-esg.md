@@ -3,6 +3,7 @@ title: Vanguard Retreats from ESG
 slug: vanguard-retreats-from-esg
 date: '2026-03-20'
 category: Segments
+order: '1'
 megaphone_id: LOE5790438035
 image_url: https://loe.org/content/2026-03-20/VANGUARD_coal.jpg
 image_caption: 'A mining technician oversees a coal export terminal. Republican attorneys general accused Vanguard, BlackRock and State Street of working together to negatively impact the coal industry and raise energy prices. Vanguard has settled the lawsuit but has denied any wrongdoing. BlackRock and State Street are still contesting the allegations. (Photo: Peabody Energy, Wikimedia Commons, CC BY 3.0)'

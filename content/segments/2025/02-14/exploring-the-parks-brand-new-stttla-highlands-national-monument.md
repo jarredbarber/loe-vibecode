@@ -3,6 +3,7 @@ title: 'Exploring the Parks: Brand-New Sáttítla Highlands National Monument'
 slug: exploring-the-parks-brand-new-stttla-highlands-national-monument
 date: '2025-02-14'
 category: Segments
+order: '3'
 megaphone_id: LOE5305739236
 image_url: https://loe.org/content/2025-02-14/SATTITLA_obsidian.jpg
 image_caption: 'Sattitla means “obsidian place” in Achumawi, a language spoken by the Pit River people. (Photo: courtesy of Protect Sattitla Campaign)'

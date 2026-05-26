@@ -3,6 +3,7 @@ title: Montana Climate Win
 slug: montana-climate-win-0704
 date: '2025-07-04'
 category: Segments
+order: '7'
 megaphone_id: LOE9633951285
 image_url: https://loe.org/content/2023-07-07/HELD-youth plaintiffs cheered by supporters.jpeg
 image_caption: 'Youth plaintiffs Badge Busse, Mica Kantor, and Eva L. are cheered on by supporters as they arrive for their second day of trial in June 2023. The district court ruling from Judge Kathy Seeley in August 2023 was upheld by Montana’s State Supreme Court in December 2024. (Photo: Robin Loznak/Courtesy of Our Children’s Trust)'

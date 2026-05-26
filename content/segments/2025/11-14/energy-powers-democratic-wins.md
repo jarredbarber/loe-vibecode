@@ -3,6 +3,7 @@ title: Energy Powers Democratic Wins
 slug: energy-powers-democratic-wins
 date: '2025-11-14'
 category: Segments
+order: '1'
 megaphone_id: LOE9763310253
 image_url: https://loe.org/content/2025-11-14/LAVELLE-Zohran_Mamdani.jpg
 image_caption: 'New York City’s Mayor-elect Zohran Mamdani (D) frames the climate and affordability crises as intimately connected. (Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0)'

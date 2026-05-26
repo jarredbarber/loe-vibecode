@@ -3,6 +3,7 @@ title: The Little Gods of the Forest
 slug: the-little-gods-of-the-forest
 date: '2025-02-07'
 category: Segments
+order: '6'
 megaphone_id: LOE1422635412
 image_url: https://loe.org/content/2023-04-21/JACKSON-moss_major_jackson.jpg
 image_caption: 'Major Jackson’s poem the Body’s Uncontested Need to Devour, An Explanation is inspired by the moss he sees during his long walks across the Vermont forest. (Photo: Joshua Mayer, Flickr CC BY SA 2.0)'

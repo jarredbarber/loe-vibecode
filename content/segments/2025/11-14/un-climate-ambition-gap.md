@@ -3,6 +3,7 @@ title: UN Climate Ambition Gap
 slug: un-climate-ambition-gap
 date: '2025-11-14'
 category: Segments
+order: '2'
 megaphone_id: LOE9634327586
 image_url: https://loe.org/content/2025-11-14/MEYER-COP30-cover photo.JPG
 image_caption: 'This year’s COP is being held in Brazil, a country whose famous rainforests are plagued by deforestation. (Photo: Courtesy of Miriam Jackson)'

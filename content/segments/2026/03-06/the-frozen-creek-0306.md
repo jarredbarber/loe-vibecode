@@ -3,6 +3,7 @@ title: '"The Frozen Creek"'
 slug: the-frozen-creek-0306
 date: '2026-03-06'
 category: Segments
+order: '4'
 megaphone_id: LOE4731648635
 image_url: https://loe.org/content/2026-03-06/CREEK_springcreek.jpg
 image_caption: 'Don Lyman returned to Little Creek in May of 2013 to capture what the landscape looks like in Spring. (Photo: Don Lyman)'

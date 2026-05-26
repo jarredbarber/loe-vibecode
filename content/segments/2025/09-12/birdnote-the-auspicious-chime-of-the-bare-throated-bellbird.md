@@ -3,6 +3,7 @@ title: 'BirdNote®: The Auspicious Chime of the Bare-throated Bellbird'
 slug: birdnote-the-auspicious-chime-of-the-bare-throated-bellbird
 date: '2025-09-12'
 category: Segments
+order: '4'
 megaphone_id: LOE7276073969
 image_url: https://loe.org/content/2025-09-12/BIRDNOTE_bellbird.jpg
 image_caption: 'The bell-throated bellbird pictured above is native to Brazil, Paraguay and Argentina. (Photo: INaturalist, Wikimedia Commons, CC BY 4.0)'

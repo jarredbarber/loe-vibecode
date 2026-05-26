@@ -3,6 +3,7 @@ title: Congress Busts Carbon Budget
 slug: congress-busts-carbon-budget
 date: '2025-07-11'
 category: Segments
+order: '1'
 megaphone_id: LOE5760038719
 image_url: https://loe.org/content/2025-07-11/BILL_trumpsigning.jpg
 image_caption: 'President Trump signed the budget bill into law on July 4, 2025. (Photo: The White House, Wikimedia Commons, Public Domain)'

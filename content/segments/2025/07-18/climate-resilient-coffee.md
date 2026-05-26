@@ -3,6 +3,7 @@ title: Climate-Resilient Coffee
 slug: climate-resilient-coffee
 date: '2025-07-18'
 category: Segments
+order: '3'
 megaphone_id: LOE9508070189
 image_url: https://loe.org/content/2025-07-18/COFFEE_plant.jpg
 image_caption: 'Komal Sable says the excelsa coffee plant is more climate resilient than the arabica and robusta species. (Photo: South India Coffee Company)'

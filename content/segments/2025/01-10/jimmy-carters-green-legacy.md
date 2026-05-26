@@ -3,6 +3,7 @@ title: Jimmy Carter's Green Legacy
 slug: jimmy-carters-green-legacy
 date: '2025-01-10'
 category: Segments
+order: '4'
 megaphone_id: LOE5295224774
 image_url: https://loe.org/content/2025-01-10/CARTER_spethcarter.jpg
 image_caption: 'Gus Speth (left) served as a member and then Chairman of the Council on Environmental Quality during President Jimmy Carter’s (right) term from 1977-1981. (Photo: The White House, courtesy of Gus Speth)'

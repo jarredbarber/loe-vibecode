@@ -3,6 +3,7 @@ title: Colonizing the Moon
 slug: colonizing-the-moon
 date: '2026-04-03'
 category: Segments
+order: '2'
 megaphone_id: LOE1170252824
 image_url: https://loe.org/content/2026-04-03/NASA_launch.jpg
 image_caption: 'NASA’s Artemis II mission launched at 6:35 p.m. EDT on April 1, 2026 from the Kennedy Space Center. (Photo: Joel Kowsky, NASA, Public Domain)'

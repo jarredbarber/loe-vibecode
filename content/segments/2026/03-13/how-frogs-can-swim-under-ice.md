@@ -3,6 +3,7 @@ title: How Frogs Can Swim Under Ice
 slug: how-frogs-can-swim-under-ice
 date: '2026-03-13'
 category: Segments
+order: '3'
 megaphone_id: LOE6349469236
 image_url: https://loe.org/content/2026-03-13/FROG_onice.jpg
 image_caption: 'During the winter, aquatic frogs can survive under the ice by engaging in cutaneous respiration, or “breathing” through the skin. (Photo: Wayne MacPhail, Flickr, CC BY-NC-SA 2.0)'

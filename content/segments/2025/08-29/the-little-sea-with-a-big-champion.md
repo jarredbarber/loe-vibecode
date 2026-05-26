@@ -3,6 +3,7 @@ title: The "Little Sea" with a Big Champion
 slug: the-little-sea-with-a-big-champion
 date: '2025-08-29'
 category: Segments
+order: '4'
 megaphone_id: LOE2191730013
 image_url: https://loe.org/content/2024-05-24/SPAIN_teresa.jpg
 image_caption: 'Teresa Vicente is a professor of philosophy of law at the University of Murcia. (Photo: Goldman Environmental Prize)'

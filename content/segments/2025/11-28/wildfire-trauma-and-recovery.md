@@ -3,6 +3,7 @@ title: Wildfire Trauma and Recovery
 slug: wildfire-trauma-and-recovery
 date: '2025-11-28'
 category: Segments
+order: '3'
 megaphone_id: LOE4784004163
 image_url: https://loe.org/content/2025-11-28/PEOPLE_sunset.jpg
 image_caption: 'A sunset tinted red by wildfire smoke, as seen near the Doering family cabin. (Photo: Jenni Doering)'

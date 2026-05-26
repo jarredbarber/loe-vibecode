@@ -3,6 +3,7 @@ title: 'Under Alien Skies: A Sightseer''s Guide to the Universe'
 slug: under-alien-skies-a-sightseers-guide-to-the-universe
 date: '2025-08-08'
 category: Segments
+order: '2'
 megaphone_id: LOE7526284108
 image_url: https://loe.org/content/2024-11-29/UAS_cover.jpg
 image_caption: 'Philip Plait’s 2023 book, Under Alien Skies: A Sightseer’s Guide to the Universe, explains what it would be like to explore outer space. (Photo: W. W. Norton)'

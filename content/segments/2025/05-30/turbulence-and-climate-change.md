@@ -3,6 +3,7 @@ title: Turbulence and Climate Change
 slug: turbulence-and-climate-change
 date: '2025-05-30'
 category: Segments
+order: '4'
 megaphone_id: LOE7586082947
 image_url: https://loe.org/content/2025-05-30/PLANE_turbulence.jpg
 image_caption: 'Climate change intensifies storms, which can then have a knock on effect for storm-induced turbulence while flying. But researchers have also found a link between climate disruption and clear air turbulence. (Photo: Tom Blackwell, Flickr, CC BY-NC 2.0)'

@@ -3,6 +3,7 @@ title: GOP and Clean Energy Tax Credits
 slug: gop-and-clean-energy-tax-credits
 date: '2025-03-21'
 category: Segments
+order: '1'
 megaphone_id: LOE2588170724
 image_url: https://loe.org/content/2025-03-21/REPS_cleanenergy.jpg
 image_caption: 'Twenty-one House Republicans signed a letter to Jason Smith, Chairman of the Ways and Means Committee, voicing their support for clean energy tax credits established under the Inflation Reduction Act. (Photo: Energy.gov, Wikimedia Commons, Public Domain)'

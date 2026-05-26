@@ -3,6 +3,7 @@ title: Seagrass "Gardening"
 slug: seagrass-gardening
 date: '2025-05-23'
 category: Segments
+order: '6'
 megaphone_id: LOE5018589403
 image_url: https://loe.org/content/2025-05-23/SEAGRASS_seagrass.jpg
 image_caption: 'Seagrass is a hidden gem responsible for large quantities of carbon absorption and fish production. (Photo: Frédéric Ducarme, Wikipedia Commons, CC BY-SA 4.0)'

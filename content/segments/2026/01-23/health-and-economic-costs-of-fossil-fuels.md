@@ -3,6 +3,7 @@ title: Health and Economic Costs of Fossil Fuels
 slug: health-and-economic-costs-of-fossil-fuels
 date: '2026-01-23'
 category: Segments
+order: '2'
 megaphone_id: LOE3582222884
 image_url: https://loe.org/content/2026-01-23/KERRY_fpevent.jpg
 image_caption: 'Dr. Vanessa Kerry (second from left) speaks at the Foreign Policy event at the World Health Assembly in Geneva in May 2025. Under her leadership, Seed Global Health has helped educate more than 45,000 doctors, nurses, and midwives in seven countries, helping to improve health care for more than 76 million people. (Photo: Courtesy of Seed Global Health)'

@@ -3,6 +3,7 @@ title: Highway Reborn as Public Park
 slug: highway-reborn-as-public-park
 date: '2025-09-26'
 category: Segments
+order: '4'
 megaphone_id: LOE5061556159
 image_url: https://loe.org/content/2025-09-26/PARK_usedtobe.jpg
 image_caption: 'Sunset Dunes Park in San Francisco used to be a four-lane highway. (Photo: Jack Persons, Friends of Sunset Dunes)'

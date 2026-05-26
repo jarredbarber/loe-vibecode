@@ -3,6 +3,7 @@ title: 'Listening on Earth: California Coast and Crows'
 slug: listening-on-earth-california-coast-and-crows
 date: '2025-05-30'
 category: Segments
+order: '6'
 megaphone_id: LOE3777062110
 image_url: https://loe.org/content/2025-05-30/LISTENING_pointlobos.jpg
 image_caption: 'Waves crash on the seashore at Point Lobos. (Photo: Fred Hsu, Wikimedia Commons, CC BY-SA 3.0)'

@@ -3,6 +3,7 @@ title: A City on Mars and the Perils of Settling Space (Cont'd)
 slug: a-city-on-mars-and-the-perils-of-settling-space-contd
 date: '2026-01-02'
 category: Segments
+order: '3'
 megaphone_id: LOE5237606633
 image_url: https://loe.org/content/2026-01-02/ACOM2_explorationcould.jpg
 image_caption: 'Space exploration could set the stage for territorial conflicts. (Image: Drawn by Zach Weinersmith)'

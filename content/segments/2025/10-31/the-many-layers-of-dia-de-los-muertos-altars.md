@@ -3,6 +3,7 @@ title: The Many Layers of Dia de los Muertos Altars
 slug: the-many-layers-of-dia-de-los-muertos-altars
 date: '2025-10-31'
 category: Segments
+order: '5'
 megaphone_id: LOE8928780650
 image_url: https://loe.org/content/2025-10-31/DDLM_altar.jpg
 image_caption: 'A three-level traditional Dia de los Muertos altar from the alcaldia Milpa Alta in Mexico City. (Photo: Eneas de Troya, Wikimedia Commons, CC BY 2.0)'

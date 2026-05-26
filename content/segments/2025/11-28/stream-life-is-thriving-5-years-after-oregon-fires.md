@@ -3,6 +3,7 @@ title: Stream Life is Thriving 5 Years After Oregon Fires
 slug: stream-life-is-thriving-5-years-after-oregon-fires
 date: '2025-11-28'
 category: Segments
+order: '4'
 megaphone_id: LOE6865319227
 image_url: https://loe.org/content/2025-11-28/RIVER_electrofishers.jpg
 image_caption: 'In July 2025, a field crew brings electrofishers to Oregon’s Cook Creek. The crew is counting fish and other aquatic life for later scientific analysis of how the stream’s ecosystem has recovered in the years since Oregon’s Labor Day wildfires of 2020. (Photo: Evan Rodriguez, OPB)'

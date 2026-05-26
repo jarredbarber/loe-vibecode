@@ -3,6 +3,7 @@ title: 'Note on Emerging Science: Whales Mistake Plastic for Food'
 slug: note-on-emerging-science-whales-mistake-plastic-for-food
 date: '2025-09-26'
 category: Segments
+order: '3'
 megaphone_id: LOE5479033689
 image_url: https://loe.org/content/2025-09-26/SCINOTE_whales.jpg
 image_caption: 'Picture above is a mother sperm whale and her calf off the coast of Mauritius. Deep diving whales use echo location to hunt prey. (Photo: Gabriel Barathieu, CC BY-SA 2.0)'

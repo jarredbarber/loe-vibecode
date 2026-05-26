@@ -3,6 +3,7 @@ title: Clearing Air in Cancer Alley
 slug: clearing-air-in-cancer-alley
 date: '2025-07-18'
 category: Segments
+order: '4'
 megaphone_id: LOE6525413465
 image_url: https://loe.org/content/2025-03-21/DENKA_plant.JPG
 image_caption: 'Until its announcement on May 13, 2025, the Denka Performance Elastomer plant in LaPlace, Louisiana manufactured neoprene, a synthetic rubber that is found in products such as wetsuits and laptop sleeves. The manufacturing process emitted chloroprene, a cancer-causing chemical, among other pollutants. (Photo: Andrew J. Skerritt)'

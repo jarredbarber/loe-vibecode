@@ -3,6 +3,7 @@ title: Earth Prayer
 slug: earth-prayer
 date: '2025-12-05'
 category: Segments
+order: '4'
 megaphone_id: LOE1215738373
 image_url: https://loe.org/content/2023-04-21/JOE-hands in earth.jpg
 image_caption: 'Joe Bruchac’s poem is dedicated to Mother Earth. (Photo: Jonathan Kemper, Unsplash)'

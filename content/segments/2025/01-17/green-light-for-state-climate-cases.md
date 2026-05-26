@@ -3,6 +3,7 @@ title: Green Light for State Climate Cases
 slug: green-light-for-state-climate-cases
 date: '2025-01-17'
 category: Segments
+order: '1'
 megaphone_id: LOE6986080181
 image_url: https://loe.org/content/2024-07-12/HAWAII_facingtheeffects.JPG
 image_caption: 'If Hawai’i and other states win their cases against the fossil fuel companies, the lawsuits could open up funding opportunities for communities that need to prepare for an increase in extreme weather events, such as forest fires. Pictured: the deadly August 2023 wildfire in Maui, as seen from the International Space Station. (Photo: NASA Johnson, Flickr, CC BY-NC-ND 2.0)'

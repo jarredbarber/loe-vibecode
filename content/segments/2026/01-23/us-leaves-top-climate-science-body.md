@@ -3,6 +3,7 @@ title: US Leaves Top Climate Science Body
 slug: us-leaves-top-climate-science-body
 date: '2026-01-23'
 category: Segments
+order: '1'
 megaphone_id: LOE9371454171
 image_url: https://loe.org/content/2026-01-23/IPCC_logo.jpg
 image_caption: 'On January 7th, 2026 President Trump formally withdrew the United States from the Intergovernmental Panel on Climate Change (IPCC, logo shown above). (Photo: Intergovernmental Panel on Climate Change, Wikimedia Commons, CC0)'

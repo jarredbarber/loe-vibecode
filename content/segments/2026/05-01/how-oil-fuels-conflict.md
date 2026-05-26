@@ -3,6 +3,7 @@ title: How Oil Fuels Conflict
 slug: how-oil-fuels-conflict
 date: '2026-05-01'
 category: Segments
+order: '2'
 megaphone_id: LOE4969926629
 image_url: https://loe.org/content/2026-05-01/IRAN_strait.jpg
 image_caption: 'The Strait of Hormuz, effectively closed due to the US-Israel war on Iran, is a key trade route of global oil, natural gas, and critical mineral supplies. (Photo: eutrophication&hypoxia, Flickr, CC BY 2.0)'

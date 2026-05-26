@@ -3,6 +3,7 @@ title: 'Birdnote®: Poisonous Birds'
 slug: birdnote-poisonous-birds
 date: '2025-09-05'
 category: Segments
+order: '4'
 megaphone_id: LOE6585938153
 image_url: https://loe.org/content/2025-09-05/BIRDNOTE_pitohui.jpg
 image_caption: 'A hooded pitohui perches on a human hand. (Photo: Benjamin Freeman, Wikimedia Commons, CC BY 4.0)'

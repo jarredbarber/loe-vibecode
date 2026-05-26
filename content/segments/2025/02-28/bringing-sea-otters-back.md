@@ -3,6 +3,7 @@ title: Bringing Sea Otters Back
 slug: bringing-sea-otters-back
 date: '2025-02-28'
 category: Segments
+order: '2'
 megaphone_id: LOE9823414201
 image_url: https://loe.org/content/2025-02-28/OTTER_grant.jpg
 image_caption: 'In January 2025, a $1.56 million grant was given to the Confederated Tribe of Siletz Indians. This may help bring sea otters back to the coasts of Oregon and Northern California. (Photo: Karney Lee, U.S. Fish and Wildlife Service, Wikimedia Commons, public domain)'

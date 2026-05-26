@@ -3,6 +3,7 @@ title: Fighting Climate Change with Geothermal Networks
 slug: fighting-climate-change-with-geothermal-networks
 date: '2025-04-18'
 category: Segments
+order: '3'
 megaphone_id: LOE8640014189
 image_url: https://loe.org/content/2025-04-18/GEOTHERMAL_pipes.jpg
 image_caption: 'Geothermal energy harnesses the natural heat from underground. (Photo: Provided by Eversource)'

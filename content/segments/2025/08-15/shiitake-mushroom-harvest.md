@@ -3,6 +3,7 @@ title: Shiitake Mushroom Harvest
 slug: shiitake-mushroom-harvest
 date: '2025-08-15'
 category: Segments
+order: '4'
 megaphone_id: LOE7927454254
 image_url: https://loe.org/content/2024-11-22/MUSHROOM_inoculated.jpg
 image_caption: 'The inoculated log behind Jenni’s compost bin. (Photo: Jenni Doering)'

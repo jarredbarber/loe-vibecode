@@ -3,6 +3,7 @@ title: Trump, Glyphosate and Cancer
 slug: trump-glyphosate-and-cancer
 date: '2026-03-06'
 category: Segments
+order: '2'
 megaphone_id: LOE8587420476
 image_url: https://loe.org/content/2026-03-06/MONSANTO_building.jpg
 image_caption: 'Monsanto, which was acquired by German-based biotechnology company Bayer in 2018, is facing a multitude of litigation related to its glyphosate-based pesticide RoundUp. (Photo: Karen Eliot, Wikimedia Commons, CC BY-SA 2.0)'

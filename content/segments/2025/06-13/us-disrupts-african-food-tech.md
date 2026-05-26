@@ -3,6 +3,7 @@ title: US Disrupts African Food Tech
 slug: us-disrupts-african-food-tech
 date: '2025-06-13'
 category: Segments
+order: '1'
 megaphone_id: LOE8242000808
 image_url: https://loe.org/content/2025-06-13/USAID_farmers.jpg
 image_caption: 'The Soybean Innovation Lab partners with researchers, farmers, and stakeholders across the private and public sectors to advance the production of soybeans in sub-Saharan Africa. Above, intergenerational farmers stand in a soybean field in Rotanda, Mozambique. (Photo: Soybean Innovation Lab).'

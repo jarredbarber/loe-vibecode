@@ -3,6 +3,7 @@ title: Innovation to Fund Tropical Forest Protection
 slug: innovation-to-fund-tropical-forest-protection
 date: '2026-01-09'
 category: Segments
+order: '2'
 megaphone_id: LOE6876269247
 image_url: https://loe.org/content/2021-11-12/HOLMES-jeremy-bezanger-unsplash.jpg
 image_caption: 'A tropical rainforest in the Danum Valley Conservation Area, Malaysia on the island of Borneo. (Photo: Jeremy Bezanger on Unsplash)'

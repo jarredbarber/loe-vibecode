@@ -3,6 +3,7 @@ title: The Light Eaters
 slug: the-light-eaters
 date: '2025-08-15'
 category: Segments
+order: '5'
 megaphone_id: LOE8577845411
 image_url: https://loe.org/content/2024-07-26/LIGHTEATERS_cover.jpg
 image_caption: 'Zoë Schlanger’s book  The Light Eaters: How The Unseen World of Plant Intelligence Offers a New Understanding of Life on Earth  delves into topics like plant sensation, communication, sociality, and intelligence. (Photo: Courtesy of HarperCollins)'

@@ -3,6 +3,7 @@ title: Floating Border Wall
 slug: floating-border-wall
 date: '2026-04-10'
 category: Segments
+order: '1'
 megaphone_id: LOE1887072497
 image_url: https://loe.org/content/2026-04-10/BORDER_buoys.jpg
 image_caption: 'Water buoys were installed on the Rio Grande where it runs through Brownsville. (Photo: Michael Gonzalez, Inside Climate News)'

@@ -3,6 +3,7 @@ title: A Call to Cool the Earth
 slug: a-call-to-cool-the-earth
 date: '2025-01-03'
 category: Segments
+order: '5'
 megaphone_id: LOE6284787986
 image_url: https://loe.org/content/2023-07-21/WOODWELL_Arctic.jpg
 image_caption: 'The Arctic plays a critical role in the Earth’s climate system by reflecting heat back into the atmosphere and sequestering carbon in its frozen tundra. (Photo: Duncan Cumming, Flickr, CC BY-NC 2.0)'

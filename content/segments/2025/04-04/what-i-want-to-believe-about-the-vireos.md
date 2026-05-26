@@ -3,6 +3,7 @@ title: '"What I Want to Believe About the Vireos"'
 slug: what-i-want-to-believe-about-the-vireos
 date: '2025-04-04'
 category: Segments
+order: '3'
 megaphone_id: LOE7840240040
 image_url: https://loe.org/content/2023-05-05/POEM_vireo.jpg
 image_caption: 'A vireo perches atop a twig. (Photo: yuki_alm_misa, Flickr, CC BY-NC-ND 2.0)'

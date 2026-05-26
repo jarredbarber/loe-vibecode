@@ -3,6 +3,7 @@ title: Zombie Fires in Canada
 slug: zombie-fires-in-canada
 date: '2025-07-25'
 category: Segments
+order: '4'
 megaphone_id: LOE5585012708
 image_url: https://loe.org/content/2025-07-25/ZOMBIE_peatfire.jpg
 image_caption: 'The first one right? So: Despite what the name suggests, zombie fires are not a supernatural phenomenon. Zombie fires burn for months at a time, all the way through the winter. When spring arrives, they become more apparent, seemingly coming back from the dead. (Photo: Western Arctic National Parklands, Flickr, CC BY 2.0)'

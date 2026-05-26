@@ -3,6 +3,7 @@ title: The Outlaw Ocean
 slug: the-outlaw-ocean
 date: '2025-08-29'
 category: Segments
+order: '3'
 megaphone_id: LOE6816125442
 image_url: https://loe.org/content/2019-12-06/OUTLAWOCEAN_thunder.jpg
 image_caption: 'The first story in The Outlaw Ocean focuses on the chase by the Sea Shepherd Conservation Society of the Thunder, an alleged outlaw fishing vessel. (Photo: Courtesy of The Outlaw Ocean)'

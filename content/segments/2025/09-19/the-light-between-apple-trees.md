@@ -3,6 +3,7 @@ title: The Light Between Apple Trees
 slug: the-light-between-apple-trees
 date: '2025-09-19'
 category: Segments
+order: '4'
 megaphone_id: LOE6091949843
 image_url: https://loe.org/content/2025-09-19/APPLE_cover.jpg
 image_caption: 'The Light Between Apple Trees: Rediscovering the Wild Through a Beloved American Fruit, by Priyanka Kumar. (Photo: Courtesy of Island Press, Jacket design by Jordan Wannemacher)'

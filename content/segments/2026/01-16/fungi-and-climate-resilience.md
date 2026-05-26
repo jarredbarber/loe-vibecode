@@ -3,6 +3,7 @@ title: Fungi and Climate Resilience
 slug: fungi-and-climate-resilience
 date: '2026-01-16'
 category: Segments
+order: '4'
 megaphone_id: LOE5019486409
 image_url: https://loe.org/content/2026-01-16/KIERS_macarthurfellow.jpg
 image_caption: 'Toby Kiers is a 2025 MacArthur Fellow and a cofounder of SPUN, the Society for the Protection of Underground Networks. (Photo: Seth Carnill)'

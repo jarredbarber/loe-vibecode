@@ -3,6 +3,7 @@ title: Major National Climate Victory in S. Korea
 slug: major-national-climate-victory-in-s-korea
 date: '2026-05-08'
 category: Segments
+order: '5'
 megaphone_id: LOE4799830944
 image_url: https://loe.org/content/2026-05-08/BORIM_taean.jpg
 image_caption: 'Borim Kim is the founder of Youth 4 Climate Action and winner of the 2026 Goldman Environmental Prize for Asia. Here she stands in front of the Taean Coal Power Plant, one of the largest coal power plants in the world. (Photo: Goldman Environmental Prize)'

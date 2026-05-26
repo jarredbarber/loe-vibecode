@@ -3,6 +3,7 @@ title: Feds Drop Major Polluter Case
 slug: feds-drop-major-polluter-case
 date: '2025-03-21'
 category: Segments
+order: '3'
 megaphone_id: LOE4289369814
 image_url: https://loe.org/content/2025-03-21/DENKA_plant.JPG
 image_caption: 'The LaPlace, Louisiana chemical plant was built by Dupont in 1968 and sold to Denka about a decade ago. The Trump Justice Department has dismissed a Biden-era lawsuit alleging that the Denka operation posed unacceptable cancer risks and seeking emissions reductions of the cancer-causing chemical chloroprene. The site produces neoprene, a synthetic rubber that is found in products such as wetsuits and laptop sleeves. The company said it has spent $35 million on upgrades and that emissions are at a historic low. (Photo: Andrew J. Skerritt)'

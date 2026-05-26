@@ -3,6 +3,7 @@ title: Indigenous Wisdom in Science
 slug: indigenous-wisdom-in-science
 date: '2026-05-22'
 category: Segments
+order: '4'
 megaphone_id: LOE4573605712
 image_url: https://loe.org/content/2026-05-22/RAINFOREST_cover.jpg
 image_caption: 'Dr. Rosa Espinoza’s book,  The Spirit of the Rainforest: How Indigenous Wisdom and Scientific Curiosity Reconnects Us to the Natural World, chronicles her experiences in the Peruvian Amazon, studying the natural world alongside her indigenous colleagues. (Cover: Alfredo Zagaceta, Courtesy of Octopus Publishing Group)'

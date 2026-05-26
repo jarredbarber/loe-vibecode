@@ -3,6 +3,7 @@ title: Trump Canceling Climate Regs
 slug: trump-canceling-climate-regs
 date: '2026-02-20'
 category: Segments
+order: '1'
 megaphone_id: LOE7682768376
 image_url: https://loe.org/content/2026-02-20/ENDANGERMENT_movedtorepeal.jpg
 image_caption: 'The E.P.A. has moved to repeal its 2009 “endangerment finding,” which says that greenhouse gases endanger human health. (Photo: Adina Voicu, Wikimedia Commons, CC0)'

@@ -3,6 +3,7 @@ title: The Bog in Winter
 slug: the-bog-in-winter
 date: '2025-02-21'
 category: Segments
+order: '3'
 megaphone_id: LOE1560582442
 image_url: https://loe.org/content/2025-02-21/LYMAN_pineholebog.jpg
 image_caption: 'The Pine Hole Bog in winter (Photo: Don Lyman)'

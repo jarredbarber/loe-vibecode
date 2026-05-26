@@ -3,6 +3,7 @@ title: Complex Air Pollution and Public Health
 slug: complex-air-pollution-and-public-health-0808
 date: '2025-08-08'
 category: Segments
+order: '1'
 megaphone_id: LOE7779063767
 image_url: https://loe.org/content/2025-04-11/POLLUTION_chesterpa.jpg
 image_caption: 'A Chester, Pennsylvania neighborhood sits adjacent to the ReWorld Delaware Valley facility, formerly known as the Covanta facility, during the time of the study. The Delaware Valley Resource Recovery facility (DVRRF) is a permitted waste-to-energy facility. The study showed that fence line communities are at a higher risk from air pollution than previously understood. (Photo: Peter DeCarlo)'

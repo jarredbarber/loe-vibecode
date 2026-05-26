@@ -3,6 +3,7 @@ title: China Making Green Aluminum
 slug: china-making-green-aluminum
 date: '2026-05-15'
 category: Segments
+order: '3'
 megaphone_id: LOE3011026034
 image_url: https://loe.org/content/2026-05-15/greenalu_CHINALCO.jpg
 image_caption: 'Pictured above is a CHINALCO Mining Co. Ltd. plant in Shangjie District, Zhengzhou. According to a report by Fitch Ratings, Aluminum Corporation of China (Chinalco) is a major Chinese state-owned enterprise, serving as the world''s largest producer of alumina and the third-largest provider of primary aluminum. As a country, China is responsible for about 60% of the world’s aluminum output. (Photo: Windmemories, Wikimedia Commons, CC BY-SA 4.0)'

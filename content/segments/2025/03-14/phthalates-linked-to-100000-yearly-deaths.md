@@ -3,6 +3,7 @@ title: Phthalates Linked to 100,000 Yearly Deaths
 slug: phthalates-linked-to-100000-yearly-deaths
 date: '2025-03-14'
 category: Segments
+order: '4'
 image_url: https://loe.org/content/2021-10-15/PHTHALATES_corn.jpg
 image_caption: Often, produce is wrapped in plastic which contains harmful chemicals. Phthalates used in many products to make plastics more flexible then are carried along by the food and we can easily ingest them. (Photo by Simmremmai, Wikimedia Commons, CC BY-SA 3.0)
 summary: Phthalates are a group of chemicals commonly found in plastics, to the extent that they’re often referred to as “everywhere chemicals” with a wide variety of health effects. Detailed statistical analysis conducted for a new study in the US finds that people aged 55-64 with documented phthalate exposure a decade earlier died at a rate of over 100,000 people a year, most commonly from cardiovascular disease. Persons in other age groups aren’t exempt from risk; indeed phthalates are considered by some to pose the greatest risk to children in the womb and during early years of development, though so far other studies have been more limited in scope. Living on Earth’s Bobby Bascomb talks to Dr. Leonardo Trasande of NYU, the lead researcher on the newly published study, about how to avoid unnecessary exposure to these chemicals that can sometimes seem unavoidable.

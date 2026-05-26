@@ -3,6 +3,7 @@ title: Air Pollution Pioneers
 slug: air-pollution-pioneers
 date: '2025-11-21'
 category: Segments
+order: '2'
 megaphone_id: LOE9044685910
 image_url: https://loe.org/content/2025-11-21/PARTICLES_steelmill.jpg
 image_caption: 'The Geneva Steel Mill in Utah Valley in 1989. The temporary closure of the mill on August 1, 1986 produced a natural experiment that allowed Dr. Arden Pope to show how air pollution doubled and at times tripled hospital admissions of children after the plant reopened on September 1, 1987. (Photo: Arden Pope)'

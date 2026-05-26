@@ -3,6 +3,7 @@ title: 'BirdNote®: Melanin Makes Feathers Stronger'
 slug: birdnote-melanin-makes-feathers-stronger
 date: '2025-10-17'
 category: Segments
+order: '2'
 megaphone_id: LOE8499732452
 image_url: https://loe.org/content/2025-10-17/BIRDNOTE_gulls.jpg
 image_caption: 'Herring gulls have black tipped wings rich in melanin. (Photo: Marie-Lan Taÿ Pamart, Wikimedia Commons, CC BY 4.0)'

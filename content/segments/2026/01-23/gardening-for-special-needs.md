@@ -3,6 +3,7 @@ title: Gardening for Special Needs
 slug: gardening-for-special-needs
 date: '2026-01-23'
 category: Segments
+order: '4'
 megaphone_id: LOE7061099857
 image_url: https://loe.org/content/2026-01-23/MAYS_childrengardening.JPG
 image_caption: 'Gardening can help children regulate emotional health as well as learn mindfulness and resilience. (Photo: Elicarrera, Wikimedia Commons, CC BY SA 4.0)'

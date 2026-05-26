@@ -3,6 +3,7 @@ title: 'The Rule of Five: Making Climate History at the Supreme Court'
 slug: the-rule-of-five-making-climate-history-at-the-supreme-court
 date: '2025-06-27'
 category: Segments
+order: '5'
 image_url: https://loe.org/content/2020-05-08/FIVE-book_cover.jpg
 image_caption: '“The Rule of Five: Making Climate History at the Supreme Court” gives a behind-the-scenes look at the innerworkings of the highest court in the land. (Image: Courtesy of Harvard University Press)'
 summary: 'Against long odds, in 2007 the United States Supreme Court decided the case Massachusetts v. EPA in favor of the states and environmental groups that had sought regulation of climate disrupting emissions. The case had enormous implications for environmental law, and it laid the legal groundwork for the Obama administration’s climate change policies as well as the global Paris Climate Accord. Harvard Law Professor Richard Lazarus, the author of the new book “The Rule of Five: Making Climate History at the Supreme Court,” discusses with Host Steve Curwood the gripping behind-the-scenes story of how Massachusetts v. EPA made it all the way to the Supreme Court.'

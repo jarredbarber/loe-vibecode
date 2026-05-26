@@ -3,6 +3,7 @@ title: Artemis II Science and Awe
 slug: artemis-ii-science-and-awe
 date: '2026-04-17'
 category: Segments
+order: '2'
 megaphone_id: LOE8049413096
 image_url: https://loe.org/content/2026-04-17/ARTEMISII_crescentearth.jpg
 image_caption: 'Artemis II astronauts captured an image of Earth as seen in a crescent phase. The dark section of the Earth would be experiencing nighttime, while the light section would be experiencing daytime. (Photo: NASA)'

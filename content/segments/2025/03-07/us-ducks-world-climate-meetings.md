@@ -3,6 +3,7 @@ title: US Ducks World Climate Meetings
 slug: us-ducks-world-climate-meetings
 date: '2025-03-07'
 category: Segments
+order: '3'
 megaphone_id: LOE7303307342
 image_url: https://loe.org/content/2025-03-07/STOCKTON_trump.jpg
 image_caption: 'Ben Stockton says that from the outside, it isn’t clear whether or not many officials in the State Department’s climate change office are employed anymore. The United States is still a party to the UNFCCC, yet it has not sent any representatives since the start of President Trump’s second term. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'

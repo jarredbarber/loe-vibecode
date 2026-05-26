@@ -3,6 +3,7 @@ title: Youth Claim Climate Damage by Trump
 slug: youth-claim-climate-damage-by-trump
 date: '2025-07-04'
 category: Segments
+order: '2'
 megaphone_id: LOE8891470344
 image_url: https://loe.org/content/2025-07-04/LVT_courthouse.jpeg
 image_caption: 'The Mike Mansfield Federal Building and United States Courthouse in Butte, Montana, the district where Lighthiser v. Trump was filed. (Photo: Warren LeMay, Flickr, CC BY-SA 2.0)'

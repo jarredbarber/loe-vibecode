@@ -3,6 +3,7 @@ title: The Health Toll of L.A. Oil Wells
 slug: the-health-toll-of-la-oil-wells
 date: '2025-04-18'
 category: Segments
+order: '2'
 megaphone_id: LOE2680498661
 image_url: https://loe.org/content/2022-07-29/GOLDMAN_oilwells.jpg
 image_caption: 'Oil wells in Los Angeles, California (Photo: Tamara Leigh Photography for the Goldman Environmental Prize)'

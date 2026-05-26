@@ -3,6 +3,7 @@ title: Ceyx and Alcyone, The Coming of the Days of Peace
 slug: ceyx-and-alcyone-the-coming-of-the-days-of-peace
 date: '2025-12-19'
 category: Segments
+order: '3'
 megaphone_id: LOE8879421887
 image_url: https://loe.org/content/2025-12-19/EDGECOMB_cover.jpg
 image_caption: 'The story “Ceyx and Alcyone,” performed by storyteller Diane Edgecomb and accompanied by Margot Chamberlain and Tom Megan, is part of the CD, “The Winter Solstice in Story and Song.” (Photo: Courtesy of Diane Edgecomb)'

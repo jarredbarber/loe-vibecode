@@ -3,6 +3,7 @@ title: Tylenol Upcycled From Plastic
 slug: tylenol-upcycled-from-plastic
 date: '2025-09-05'
 category: Segments
+order: '3'
 megaphone_id: LOE3510070976
 image_url: https://loe.org/content/2025-09-05/BACTERIA_ecoli.jpg
 image_caption: 'The strain of E. coli bacteria used in Dr. Wallace’s study is different from the strain that causes human disease. In fact, by genetically engineering it, Dr. Wallace’s team was able to use it to turn plastic waste into acetaminophen. (Photo: The University of Edinburgh)'

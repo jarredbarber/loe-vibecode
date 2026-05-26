@@ -3,6 +3,7 @@ title: Serial Killers and Lead Exposure
 slug: serial-killers-and-lead-exposure
 date: '2025-10-31'
 category: Segments
+order: '3'
 megaphone_id: LOE5440212954
 image_url: https://loe.org/content/2025-10-31/MURDERLAND_cover.jpg
 image_caption: 'Caroline Fraser’s newest book, Murderland: Crime and Bloodlust in the Time of Serial Killers. (Photo: Courtesy of Caroline Fraser)'

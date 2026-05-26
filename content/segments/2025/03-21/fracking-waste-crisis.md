@@ -3,6 +3,7 @@ title: Fracking Waste Crisis
 slug: fracking-waste-crisis
 date: '2025-03-21'
 category: Segments
+order: '4'
 megaphone_id: LOE5337172681
 image_url: https://loe.org/content/2025-03-21/BENSE_sign.jpg
 image_caption: 'Due to the high levels of pollution, there’s a sign warning Yukon residents to be careful around Sewickley Creek. (Photo: Scott Goldsmith, Inside Climate News)'

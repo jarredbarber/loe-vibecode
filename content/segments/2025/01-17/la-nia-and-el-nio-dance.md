@@ -3,6 +3,7 @@ title: La Niña and El Niño Dance
 slug: la-nia-and-el-nio-dance
 date: '2025-01-17'
 category: Segments
+order: '3'
 megaphone_id: LOE7750828633
 image_url: https://loe.org/content/2025-01-17/LANINA_weatherpattern.JPG
 image_caption: 'A La Niña weather pattern starts with colder-than-average temperatures in the Pacific Ocean, and results in climate shifts across the North American continent and other parts of the world. (Photo: NOAA.gov, public domain)'

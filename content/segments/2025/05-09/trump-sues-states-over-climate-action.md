@@ -3,6 +3,7 @@ title: Trump Sues States Over Climate Action
 slug: trump-sues-states-over-climate-action
 date: '2025-05-09'
 category: Segments
+order: '1'
 megaphone_id: LOE4860607155
 image_url: https://loe.org/content/2024-07-26/TRUMP_formerpresident.jpg
 image_caption: 'On his 2024 campaign trail, President Trump pledged to push back against state climate efforts. However, legal experts noted that his decision to preemptively strike against lawsuits that had yet to be filed was an unusual move. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'

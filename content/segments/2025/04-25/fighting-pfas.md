@@ -3,6 +3,7 @@ title: Fighting PFAS
 slug: fighting-pfas
 date: '2025-04-25'
 category: Segments
+order: '4'
 megaphone_id: LOE6047806200
 image_url: https://loe.org/content/2025-04-25/ALLEN_prizewinner.jpg
 image_caption: 'Laurene Allen is the 2025 Goldman Environmental Prize winner for North America. She lives in Merrimack, New Hampshire. (Photo: Goldman Environmental Prize)'

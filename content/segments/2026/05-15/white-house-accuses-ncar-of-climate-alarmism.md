@@ -3,6 +3,7 @@ title: White House Accuses NCAR of "Climate Alarmism"
 slug: white-house-accuses-ncar-of-climate-alarmism
 date: '2026-05-15'
 category: Segments
+order: '2'
 megaphone_id: LOE3676500678
 image_url: https://loe.org/content/2026-05-15/ncarlawsuit1.jpeg
 image_caption: 'Protestors gathered in Boulder late last year to show support for NCAR in the midst of calls for its dismantling. (Photo: Kevin Beaty, Denverite)'

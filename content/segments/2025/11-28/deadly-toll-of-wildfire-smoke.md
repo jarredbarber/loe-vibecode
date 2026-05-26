@@ -3,6 +3,7 @@ title: Deadly Toll of Wildfire Smoke
 slug: deadly-toll-of-wildfire-smoke
 date: '2025-11-28'
 category: Segments
+order: '1'
 megaphone_id: LOE7314861093
 image_url: https://loe.org/content/2025-11-28/SMOKE_silverking.jpg
 image_caption: 'The Silver King wildfire in Utah burns near Beaver Canyon, Utah in July 2024. A new study in Nature finds that there have been about 40,000 excess deaths from wildfire smoke every year in the US over the last decade. (Photo: Derrellwilliams, Wikimedia Commons, CC0)'

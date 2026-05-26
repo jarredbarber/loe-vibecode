@@ -3,6 +3,7 @@ title: 'Choosing Nonviolence: MLK and Nature'
 slug: choosing-nonviolence-mlk-and-nature
 date: '2026-01-16'
 category: Segments
+order: '3'
 megaphone_id: LOE1821745402
 image_url: https://loe.org/content/2026-01-16/MSL_grizzly.JPG
 image_caption: 'Valerie Elaine Pettis, artist and wife of Mark Seth Lender, draws the grizzly spotted in Yellowstone National Park. (Photo: © Valerie Elaine Pettis)'

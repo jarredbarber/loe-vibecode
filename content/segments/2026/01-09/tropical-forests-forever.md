@@ -3,6 +3,7 @@ title: Tropical Forests, Forever?
 slug: tropical-forests-forever
 date: '2026-01-09'
 category: Segments
+order: '6'
 megaphone_id: LOE9566612759
 image_url: https://loe.org/content/2025-11-21/COP30_tropicallowland.jpg
 image_caption: 'Tropical lowland forest in Mount Tupalao in the Philippines. About forty percent of the tropical forest in Southeast Asia has been lost due to deforestation and degradation. (Photo: Firth m, Wikimedia Commons, CC BY-SA 4.0)'

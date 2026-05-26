@@ -3,6 +3,7 @@ title: Fireflies at Risk
 slug: fireflies-at-risk
 date: '2025-08-08'
 category: Segments
+order: '3'
 megaphone_id: LOE4319986545
 image_url: https://loe.org/content/2025-08-08/FIREFLIES_field.jpg
 image_caption: 'This timelapse, taken over the course of 30 minutes, shows fireflies in a Wisconsin field. (Photo: Robert Ritchie, Unsplash)'

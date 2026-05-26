@@ -3,6 +3,7 @@ title: Climate Injustice Floods Nigeria
 slug: climate-injustice-floods-nigeria
 date: '2025-06-13'
 category: Segments
+order: '2'
 megaphone_id: LOE9030769429
 image_url: https://loe.org/content/2025-06-13/NIGERIA_floodaftermath.jpg
 image_caption: 'The aftermath of the flooding in Western Nigeria. (Photo: Uwaisu Idris)'

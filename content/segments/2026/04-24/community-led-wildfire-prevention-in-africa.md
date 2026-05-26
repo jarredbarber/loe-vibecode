@@ -3,6 +3,7 @@ title: Community-Led Wildfire Prevention in Africa
 slug: community-led-wildfire-prevention-in-africa
 date: '2026-04-24'
 category: Segments
+order: '3'
 megaphone_id: LOE2148939008
 image_url: https://loe.org/content/2026-04-24/IRORO_headshot.jpg
 image_caption: 'Iroro Tanshi is a Nigerian conservation ecologist and winner of the 2026 Goldman Environmental Prize for Africa. (Photo: Etinosa Yvonne for Goldman Environmental Prize)'

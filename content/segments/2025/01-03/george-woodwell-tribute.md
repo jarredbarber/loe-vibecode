@@ -3,6 +3,7 @@ title: George Woodwell Tribute
 slug: george-woodwell-tribute
 date: '2025-01-03'
 category: Segments
+order: '4'
 megaphone_id: LOE4063171984
 image_url: https://loe.org/content/2025-01-03/WOODWELL_drwoodwellportrait.jpg
 image_caption: 'Dr. George Woodwell fought to integrate scientific knowledge into public policy for over sixty years and served as a climate advisor in the Carter White House. He also played an influential role in drafting the UN Convention Framework on Climate Change Kyoto Protocol, and helped found the Environmental Defense Fund, and the Natural Resources Defense Fund. George Woodwell also founded the Woods Hole Research Center, renamed upon his retirement as the Woodwell Climate Research Center. He passed away in June 2024 at the age of 95. (Photo: Daniel Webb)'

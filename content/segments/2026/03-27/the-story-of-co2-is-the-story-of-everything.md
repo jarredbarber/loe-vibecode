@@ -3,6 +3,7 @@ title: The Story of CO2 is the Story of Everything
 slug: the-story-of-co2-is-the-story-of-everything
 date: '2026-03-27'
 category: Segments
+order: '3'
 megaphone_id: LOE3968421385
 image_url: https://loe.org/content/2026-03-27/CO2_cover.jpg
 image_caption: 'Published in August of 2025,  The Story of CO2 Is the Story of Everything  explains how crucial carbon dioxide is for life on Earth. (Photo: Courtesy of Ecco Press)'

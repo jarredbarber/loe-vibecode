@@ -3,6 +3,7 @@ title: Running Free from Pricey Gas--EVs
 slug: running-free-from-pricey-gas-evs
 date: '2026-03-20'
 category: Segments
+order: '3'
 megaphone_id: LOE8795912828
 image_url: https://loe.org/content/2026-03-20/EVs_gaspump.jpg
 image_caption: 'Rising costs at the pump resulting from the war with Iran could push consumers towards electric vehicles. (Photo: Harrison Keely, Wikimedia Commons, CC BY 4.0)'

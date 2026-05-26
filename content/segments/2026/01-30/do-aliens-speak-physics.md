@@ -3,6 +3,7 @@ title: Do Aliens Speak Physics?
 slug: do-aliens-speak-physics
 date: '2026-01-30'
 category: Segments
+order: '3'
 megaphone_id: LOE1249705343
 image_url: https://loe.org/content/2026-01-30/DASP_cover.jpg
 image_caption: 'Written by Daniel Whiteson and Andy Warner,  “Do Aliens Speak Physics?”  questions the universality of physics and science, blending humor and philosophy. (Image: Andy Warner)'

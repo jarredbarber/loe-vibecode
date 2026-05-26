@@ -3,6 +3,7 @@ title: Trump Blocks Climate and Eco Action
 slug: trump-blocks-climate-and-eco-action
 date: '2025-01-24'
 category: Segments
+order: '1'
 megaphone_id: LOE5631786263
 image_url: https://loe.org/content/2025-01-24/INAUGURATION_slewoforders.jpg
 image_caption: 'On his first day in office President Donald Trump made a series of pronouncements and signed more than two dozen executive orders. (Photo: The Trump White House, Wikimedia Commons, Public Domain)'

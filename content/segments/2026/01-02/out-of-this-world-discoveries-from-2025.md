@@ -3,6 +3,7 @@ title: Out-of-this-World Discoveries from 2025
 slug: out-of-this-world-discoveries-from-2025
 date: '2026-01-02'
 category: Segments
+order: '1'
 megaphone_id: LOE6504334414
 image_url: https://loe.org/content/2026-01-02/A1_mars.jpg
 image_caption: 'Mars is a desert planet, but its rock formations suggest the planet may have had liquid water in the past. As one of our closest planetary neighbors, Mars is a hotbed of scientific discovery beyond Earth. (Photo: NASA, Wikimedia Commons, public domain)'

@@ -3,6 +3,7 @@ title: Environment and Rule of Law Under Trump
 slug: environment-and-rule-of-law-under-trump
 date: '2026-01-09'
 category: Segments
+order: '1'
 megaphone_id: LOE7525279574
 image_url: https://loe.org/content/2026-01-06/W.A._Parish_Generating_Plant_a1.jpg
 image_caption: During his second term President Trump rescinded past environmental justice orders, stopped Inflation Reduction Act grants and eliminated EPA's environmental justice arm, leading to lawsuits from environmental groups and states. Pictured above is the W.A. Parish coal and gas generating plant in Texas. Frontline communities face disproportionate exposure to toxic smoke and other air pollutants due to systemic environmental injustices. (RM VM, Wikimedia Commons, CC BY SA 4.0)

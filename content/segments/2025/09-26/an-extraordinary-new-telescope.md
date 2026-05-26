@@ -3,6 +3,7 @@ title: An Extraordinary New Telescope
 slug: an-extraordinary-new-telescope
 date: '2025-09-26'
 category: Segments
+order: '5'
 megaphone_id: LOE9316425430
 image_url: https://loe.org/content/2025-09-26/VERA_observatory.jpg
 image_caption: 'The Vera C. Rubin Observatory sits on the mountain ridge Cerro Pachón in Chile. (Photo: RubinObs/NOIRLab/SLAC/NSF/DOE/AURA)'

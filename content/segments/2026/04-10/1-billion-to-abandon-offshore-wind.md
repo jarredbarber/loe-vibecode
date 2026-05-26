@@ -3,6 +3,7 @@ title: $1 Billion to Abandon Offshore Wind
 slug: 1-billion-to-abandon-offshore-wind
 date: '2026-04-10'
 category: Segments
+order: '2'
 megaphone_id: LOE4194023190
 image_url: https://loe.org/content/2026-04-10/OFFSHORE_windproject.jpg
 image_caption: 'The Coastal Virginia Offshore Wind Project, built by Dominion Energy, began producing energy recently. When completed (expected to be in 2026), Coastal Virginia Offshore Wind is expected to provide electricity to 660,000 customers at peak demand. (Photo: Courtesy of Dominion Energy)'

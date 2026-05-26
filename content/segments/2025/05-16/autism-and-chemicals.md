@@ -3,6 +3,7 @@ title: Autism and Chemicals
 slug: autism-and-chemicals
 date: '2025-05-16'
 category: Segments
+order: '3'
 megaphone_id: LOE4963580676
 image_url: https://loe.org/content/2025-05-16/AUTISM_templegrandin.jpg
 image_caption: 'Autism spectrum disorder covers a range of presentations, characteristics, and support needs. Dr. Temple Grandin is a gifted animal communicator and a well-known autism rights advocate. (Photo: Steve Jurvetson, Flickr, CC BY 2.0)'

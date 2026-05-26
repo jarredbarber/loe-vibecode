@@ -3,6 +3,7 @@ title: Earth Day Celebration
 slug: earth-day-celebration
 date: '2025-04-18'
 category: Segments
+order: '1'
 megaphone_id: LOE1715981222
 image_url: https://loe.org/content/2025-04-18/EARTHDAY_songcover.jpg
 image_caption: 'Antonique Smith collaborated with songwriter Toby Gad on the remake of Love Song To the Earth, which was released in early 2025. She has been performing the song as part of the Climate Revival Tour. (Photo: Climate Revival)'

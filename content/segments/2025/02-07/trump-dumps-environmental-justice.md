@@ -3,6 +3,7 @@ title: Trump Dumps Environmental Justice
 slug: trump-dumps-environmental-justice
 date: '2025-02-07'
 category: Segments
+order: '3'
 megaphone_id: LOE1347021722
 image_url: https://loe.org/content/2025-02-07/EJ_trump.jpg
 image_caption: 'During his first week back in office President Trump signed several executive orders to roll back environmental justice policies. (Photo: Michael Vadon, Wikimedia Commons, CC BY-SA 4.0)'

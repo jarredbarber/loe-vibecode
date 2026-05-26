@@ -3,6 +3,7 @@ title: Spring "Bursts" Forth
 slug: spring-bursts-forth
 date: '2026-05-22'
 category: Segments
+order: '3'
 megaphone_id: LOE6677141098
 image_url: https://loe.org/content/2026-05-22/BIRDNOTE_willowflycatchers.jpg
 image_caption: 'Willow Flycatchers are among the latecomers of migratory songbirds in North America, arriving as late as June. (Photo: VJAnderson, Wikimedia Commons, CC BY-SA 4.0)'

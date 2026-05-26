@@ -3,6 +3,7 @@ title: Trump Ices Climate Diplomacy
 slug: trump-ices-climate-diplomacy
 date: '2026-01-16'
 category: Segments
+order: '1'
 megaphone_id: LOE9416409835
 image_url: https://loe.org/content/2026-01-16/WITHDRAWAL_whitehouse.jpg
 image_caption: 'President Trump recently announced the United States’ withdrawal from over 60 international treaties and organizations. (Photo: Matt H. Wade, Wikimedia Commons, CC BY-SA 3.0)'

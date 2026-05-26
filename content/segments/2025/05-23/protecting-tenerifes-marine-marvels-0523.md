@@ -3,6 +3,7 @@ title: Protecting Tenerife's Marine Marvels
 slug: protecting-tenerifes-marine-marvels-0523
 date: '2025-05-23'
 category: Segments
+order: '5'
 megaphone_id: LOE9539200974
 image_url: https://loe.org/content/2025-05-23/GOLDMAN_portconstruction.jpg
 image_caption: 'Port construction can have major environmental impacts on the ocean such as damaging the seabed and creating coastal runoff. (Photo: Megha Engineering and Infrastructures Ltd, Wikimedia Commons, Public Domain)'

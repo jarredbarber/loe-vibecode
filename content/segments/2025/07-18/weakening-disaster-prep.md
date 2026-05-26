@@ -3,6 +3,7 @@ title: Weakening Disaster Prep
 slug: weakening-disaster-prep
 date: '2025-07-18'
 category: Segments
+order: '1'
 megaphone_id: LOE1167004955
 image_url: https://loe.org/content/2025-07-18/WEATHER_texas.jpg
 image_caption: 'Devastation from the July 4, 2025 floods in Central Texas. (Photo: World Central Kitchen, Wikimedia Commons, CC BY 4.0)'

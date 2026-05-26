@@ -3,6 +3,7 @@ title: The Health Risks of Noise
 slug: the-health-risks-of-noise
 date: '2025-09-12'
 category: Segments
+order: '5'
 megaphone_id: LOE9874750105
 image_url: https://loe.org/content/2025-09-12/CLAMOR_cover.jpg
 image_caption: 'Chris Berdik’s latest book,  Clamor: How Noise Took Over the World and How We Can Take It Back.  (Photo: Courtesy of Chris Berdik).'

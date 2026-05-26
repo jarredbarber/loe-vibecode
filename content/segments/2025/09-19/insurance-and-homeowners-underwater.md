@@ -3,6 +3,7 @@ title: Insurance and Homeowners Underwater
 slug: insurance-and-homeowners-underwater
 date: '2025-09-19'
 category: Segments
+order: '2'
 megaphone_id: LOE5097838143
 image_url: https://loe.org/content/2024-10-25/FLORIDA_hurricanes.jpg
 image_caption: 'Florida is battling an increasing number of extreme storms because of climate disruption. The above photo shows damage in Keaton Beach, Florida following Hurricanes Helene and Milton. (Photo: Staff Sgt. Jacob Hancock, U.S. Air National Guard Flickr, CC BY 2.0)'

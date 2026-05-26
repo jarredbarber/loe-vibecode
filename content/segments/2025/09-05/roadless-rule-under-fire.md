@@ -3,6 +3,7 @@ title: Roadless Rule Under Fire
 slug: roadless-rule-under-fire
 date: '2025-09-05'
 category: Segments
+order: '5'
 megaphone_id: LOE7916456750
 image_url: https://loe.org/content/2025-09-05/ROADLESS_tobaccoroot.jpg
 image_caption: 'A roadless area in the Tobacco Root Mountain Range, in Deerlodge National Forest, in Montana. While national forests are definitionally opened up to logging, roadless rule areas often overlap with crucial old growth habitat. (Photo: Preston Keres, USDA, Courtesy of the Center for Biological Diversity)'

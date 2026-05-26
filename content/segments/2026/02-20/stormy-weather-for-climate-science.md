@@ -3,6 +3,7 @@ title: Stormy Weather for Climate Science
 slug: stormy-weather-for-climate-science
 date: '2026-02-20'
 category: Segments
+order: '2'
 megaphone_id: LOE4740884605
 image_url: https://loe.org/content/2026-02-20/NCAR_boulder.jpg
 image_caption: 'The National Center for Atmospheric Research in Boulder, Colorado. (Photo: Thomson M, Wikimedia Commons, CC BY 3.0)'

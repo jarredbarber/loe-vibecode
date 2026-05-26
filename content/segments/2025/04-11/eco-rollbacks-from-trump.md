@@ -3,6 +3,7 @@ title: Eco-Rollbacks From Trump
 slug: eco-rollbacks-from-trump
 date: '2025-04-11'
 category: Segments
+order: '2'
 megaphone_id: LOE1926216430
 image_url: https://loe.org/content/2025-04-11/CASH_zeldin.jpg
 image_caption: 'Cash disagrees with the new EPA administrator, Lee Zeldin, who claims that the Greenhouse Gas Reduction Fund program is wasteful. (Photo:: Gage Skidmore, Wikimedia Commons, CC BY-SA 2.0)'

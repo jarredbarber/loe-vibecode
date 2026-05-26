@@ -3,6 +3,7 @@ title: 'BirdNote®: Black Swifts Reach for the Moon'
 slug: birdnote-black-swifts-reach-for-the-moon
 date: '2025-10-03'
 category: Segments
+order: '3'
 megaphone_id: LOE2152247811
 image_url: https://loe.org/content/2025-10-03/BIRDNOTE_moon.jpg
 image_caption: '“Harvest moon” is a colloquial name for the full moons that appear in early autumn in the northern hemisphere. Many animals find their lives affected by the lunar cycles. (Photo: Jeff Hollett, Wikimedia Commons, Public Domain)'

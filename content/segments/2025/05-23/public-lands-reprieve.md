@@ -3,6 +3,7 @@ title: Public Lands Reprieve
 slug: public-lands-reprieve
 date: '2025-05-23'
 category: Segments
+order: '1'
 megaphone_id: LOE4044825288
 image_url: https://loe.org/content/2025-05-23/PUBLICLANDS_goldbutte.jpg
 image_caption: 'One of the proposed areas for development in Nevada was a swath of public land near the Gold Butte National Monument. (Photo: Bob Wick, BML, Flickr, CC BY 2.0)'

@@ -3,6 +3,7 @@ title: Massachusetts Ends Gas Subsidy
 slug: massachusetts-ends-gas-subsidy
 date: '2025-09-19'
 category: Segments
+order: '3'
 megaphone_id: LOE6564281027
 image_url: https://loe.org/content/2023-12-15/DYKSTRA_mass.jpg
 image_caption: 'Massachusetts has set a net zero carbon goal by 2050. To make strides in that direction, the Department of Public Utilities is removing a gas subsidy, with the intention of discouraging growth in gas networks, as well as removing monthly surcharges on the bills of current customers. (Photo: Jonathan Cutrer, Flickr, CC BY 2.0)'

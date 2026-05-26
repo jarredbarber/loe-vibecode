@@ -3,6 +3,7 @@ title: MAHA and MAGA Divide Over Pesticides
 slug: maha-and-maga-divide-over-pesticides
 date: '2025-12-05'
 category: Segments
+order: '2'
 megaphone_id: LOE9624900369
 image_url: https://loe.org/content/2025-12-05/MAHA_comission.jpg
 image_caption: 'From left to right: U.S. Secretary of Agriculture Brooke Collins, President Donald Trump, U.S. Secretary of Health and Human Services Robert F. Kennedy and physician Deborah Birx. On May 22, 2025, the President announced his MAHA (Make America Healthy Again) Commission in the East Room of the White House. (Photo: Joyce N. Boghosian, Official White House Photo, Public Domain)'

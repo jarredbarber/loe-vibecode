@@ -3,6 +3,7 @@ title: '''Clearing the Air'' and Climate Solutions Hope'
 slug: clearing-the-air-and-climate-solutions-hope
 date: '2026-04-17'
 category: Segments
+order: '3'
 megaphone_id: LOE8127091432
 image_url: https://loe.org/content/2026-04-17/RITCHIE_cover.jpg
 image_caption: 'Clearing the Air: A Hopeful Guide to Solving Climate Change in 50 Questions and Answers  by Dr. Hannah Ritchie. (Photo: Courtesy of Hannah Ritchie)'

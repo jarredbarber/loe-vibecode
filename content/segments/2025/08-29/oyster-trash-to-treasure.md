@@ -3,6 +3,7 @@ title: Oyster Trash to Treasure
 slug: oyster-trash-to-treasure
 date: '2025-08-29'
 category: Segments
+order: '1'
 megaphone_id: LOE1813195162
 image_url: https://loe.org/content/2024-09-20/OYSTERS_shellmountain.jpg
 image_caption: 'Living on Earth’s Sophia Pandelidis standing on the “shell mountain” at Nantucket’s Recycling Facility. (Photo: Living on Earth)'

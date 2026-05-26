@@ -3,6 +3,7 @@ title: On the Greenland Ice
 slug: on-the-greenland-ice
 date: '2025-03-07'
 category: Segments
+order: '5'
 megaphone_id: LOE2204521744
 image_url: https://loe.org/content/2025-03-07/MSL_sizeandscale.JPG
 image_caption: 'A member of the crew is dwarfed by the sheer size and scale of the landscape around him. (Photo: © Mark Seth Lender)'

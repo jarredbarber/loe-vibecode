@@ -3,6 +3,7 @@ title: Cancer and CAFOS
 slug: cancer-and-cafos
 date: '2026-05-22'
 category: Segments
+order: '1'
 megaphone_id: LOE7081512813
 image_url: https://loe.org/content/2026-05-22/CAFOS_turkey.jpg
 image_caption: 'Large Concentrated Animal Feeding Operations, or CAFOs, can contain thousands of animals in tight quarters to maximize production. The EPA rates as large CAFOs with 55,000 or more turkeys. (Photo: Mercy for Animals, Wikimedia Commons, CC BY 2.0)'

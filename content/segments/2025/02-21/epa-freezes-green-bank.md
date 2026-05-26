@@ -3,6 +3,7 @@ title: EPA Freezes "Green Bank"
 slug: epa-freezes-green-bank
 date: '2025-02-21'
 category: Segments
+order: '1'
 megaphone_id: LOE5718315186
 image_url: https://loe.org/content/2025-02-21/EPA_zeldin.jpg
 image_caption: 'EPA Administrator Lee Zeldin is looking to revoke $20 billion of funding that was granted via the Greenhouse Gas Reduction Fund, a portion of the Inflation Reduction Act approved by Congress in 2022. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'

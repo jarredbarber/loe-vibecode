@@ -3,6 +3,7 @@ title: Earth's Cryosphere On Thin Ice
 slug: earths-cryosphere-on-thin-ice
 date: '2025-11-14'
 category: Segments
+order: '3'
 megaphone_id: LOE9962961202
 image_url: https://loe.org/content/2025-11-14/cryosphere_yala.jpg
 image_caption: 'Two memorial plaques at the bottom of the Yala Glacier in the Langtang Valley of Nepal. The glacier has lost 66% of its mass and retreated nearly 800 meters since the 1970s. (Photo: The International Centre for Integrated Mountain Development (ICIMOD))'

@@ -3,6 +3,7 @@ title: Brazil On Fire
 slug: brazil-on-fire
 date: '2025-11-14'
 category: Segments
+order: '5'
 megaphone_id: LOE4566672385
 image_url: https://loe.org/content/2024-09-13/BRAZIL-fire.jpg
 image_caption: 'A wildfire burns in 2020 in the Brazilian state of Amazonas. (Photo: Bruno Kelly, Amazônia Real, Wikimedia Commons, CC BY 2.0)'

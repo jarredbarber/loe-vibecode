@@ -3,6 +3,7 @@ title: Artemis II Launch Party
 slug: artemis-ii-launch-party
 date: '2026-04-03'
 category: Segments
+order: '3'
 megaphone_id: LOE4676589555
 image_url: https://loe.org/content/2026-04-03/WATCH_launchscreen.jpeg
 image_caption: 'The Artemis II launch as seen on screen at the watch party. (Photo: Jennifer Stevens-Curwood)'

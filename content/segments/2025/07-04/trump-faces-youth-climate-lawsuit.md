@@ -3,6 +3,7 @@ title: Trump Faces Youth Climate Lawsuit
 slug: trump-faces-youth-climate-lawsuit
 date: '2025-07-04'
 category: Segments
+order: '1'
 megaphone_id: LOE2492590310
 image_url: https://loe.org/content/2025-07-04/EVA_coplaintiffs.jpeg
 image_caption: 'Eva Lighthiser (right) alongside another co-plaintiff in the case, Olivia Vesovich (left). (Photo: Courtesy of Our Children''s Trust)'

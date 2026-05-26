@@ -3,6 +3,7 @@ title: David Brancaccio on Fire Recovery
 slug: david-brancaccio-on-fire-recovery-0228
 date: '2025-02-28'
 category: Segments
+order: '4'
 megaphone_id: LOE9826723627
 image_url: https://loe.org/content/2025-02-28/BRANCACCIO_homepostfire.jpg
 image_caption: 'David Brancaccio, “Marketplace Morning Report” Host and Senior Editor, lost his Altadena home in the January 2025 Eaton fires, just two months after purchasing it. (Photo: David Brancaccio)'

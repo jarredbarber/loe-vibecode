@@ -3,6 +3,7 @@ title: The "Dirty Dozen" and "Clean Fifteen"
 slug: the-dirty-dozen-and-clean-fifteen-0815
 date: '2025-08-15'
 category: Segments
+order: '3'
 megaphone_id: LOE8834882295
 image_url: https://loe.org/content/2025-01-24/DIRTYDOZEN_strawberries.jpg
 image_caption: 'Strawberries are ranked number one on the Dirty Dozen list, indicating that they are on average the most contaminated from pesticides when bought conventionally. (Photo: Suzanne Schroeter, Flickr, CC BY-SA 2.0)'

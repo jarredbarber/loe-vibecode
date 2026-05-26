@@ -3,6 +3,7 @@ title: Tariffs and Green Energy Cuts
 slug: tariffs-and-green-energy-cuts
 date: '2025-05-02'
 category: Segments
+order: '3'
 megaphone_id: LOE6669200692
 image_url: https://loe.org/content/2025-05-02/TRUMP_fossilfuels.jpg
 image_caption: 'The Trump Administration favors the fossil fuel industry over the clean energy industry in its tariff policies. (Photo: Arbyreed, Flickr, CC BY-NC-SA 2.0)'

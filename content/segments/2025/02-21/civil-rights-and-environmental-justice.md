@@ -3,6 +3,7 @@ title: Civil Rights and Environmental Justice
 slug: civil-rights-and-environmental-justice
 date: '2025-02-21'
 category: Segments
+order: '4'
 megaphone_id: LOE7647572513
 image_url: https://loe.org/content/2025-02-21/CHAVIS_pardon.jpg
 image_caption: 'Rev. Ben Chavis celebrates the pardon of the Wilmington 10. Rev. Chavis first came to national prominence as a member of the Wilmington 10, a group of civil rights activists who were unjustly convicted of committing arson. Chavis was sentenced to serve 34 years in state prison. The group’s convictions were overturned on the grounds of prosecutorial misconduct, and they were freed in 1980. (Photo: United Church of Christ, Flickr, CC BY-SA 2.0)'

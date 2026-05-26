@@ -3,6 +3,7 @@ title: Redwood Rebirth After Fire
 slug: redwood-rebirth-after-fire
 date: '2025-01-17'
 category: Segments
+order: '2'
 megaphone_id: LOE7661481196
 image_url: https://loe.org/content/2024-01-26/REDWOOD_sprouts.jpg
 image_caption: 'Sprouts at the base of a redwood tree in February 2021, 5 months after the 2020 CZU lightning complex fire. (Photo: Melissa Enright, co-author of the study “Old Reserves and Ancient Buds Fuel Regrowth of Coastal Redwood After Catastrophic Fire”)'

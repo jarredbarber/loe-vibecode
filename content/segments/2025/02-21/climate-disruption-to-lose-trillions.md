@@ -3,6 +3,7 @@ title: Climate Disruption to Lose Trillions
 slug: climate-disruption-to-lose-trillions
 date: '2025-02-21'
 category: Segments
+order: '2'
 megaphone_id: LOE2601125829
 image_url: https://loe.org/content/2025-02-21/GDP_modeling.jpg
 image_caption: 'Modeling has shown that large areas of the world are at risk of becoming uninhabitable by 2100 due to extreme heat and weather conditions, including major cities like Dubai that contribute a great amount to the global economy. (Photo: Anna Fuster, Flickr, CC BY-NC-ND 2.0)'

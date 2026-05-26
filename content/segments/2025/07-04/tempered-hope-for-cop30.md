@@ -3,6 +3,7 @@ title: Tempered Hope for COP30
 slug: tempered-hope-for-cop30
 date: '2025-07-04'
 category: Segments
+order: '3'
 megaphone_id: LOE2996022562
 image_url: https://loe.org/content/2025-07-04/BONN_negotiatorsmet.jpg
 image_caption: 'Climate negotiators met for two weeks of technical talks in the German city of Bonn, seeking to move forward on critical issues before COP30 in Brazil. (Photo: Lara Murillo, UN Climate Change, Flickr, CC BY NC SA 4.0)'

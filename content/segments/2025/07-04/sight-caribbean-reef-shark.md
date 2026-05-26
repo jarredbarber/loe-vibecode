@@ -3,6 +3,7 @@ title: '"Sight": Caribbean Reef Shark'
 slug: sight-caribbean-reef-shark
 date: '2025-07-04'
 category: Segments
+order: '4'
 megaphone_id: LOE7273015444
 image_url: https://loe.org/content/2025-07-04/MSL_eyescamera.JPG
 image_caption: 'A shark eyes the camera. (Photo: © Mark Seth Lender)'

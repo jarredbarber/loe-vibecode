@@ -3,6 +3,7 @@ title: '"Depaving" the Way to Greener Neighborhoods'
 slug: depaving-the-way-to-greener-neighborhoods-0509
 date: '2025-05-09'
 category: Segments
+order: '4'
 megaphone_id: LOE5157495777
 image_url: https://loe.org/content/2025-05-09/DEPAVING_party.jpg
 image_caption: 'Green and Open Somerville’s “Depave the Way” initiative aims to help neighborhoods adapt to climate change and increase green space. From left: Leigh Meunier (black vest), Eduardo Rodriguez (orange), Jack Briskie (light gray) and Depave the Way participants. (Photo: Green and Open Somerville)'

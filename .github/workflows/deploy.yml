@@ -40,7 +40,7 @@ jobs:
         run: npm --prefix eleventy run build || (cd eleventy && npx @11ty/eleventy)
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: '_site_11ty'
 

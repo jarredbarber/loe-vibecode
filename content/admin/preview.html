@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoE — Live Preview</title>
+    <link rel="stylesheet" href="/theme/css/style.css">
+    <style>
+        body { margin: 0; }
+        .preview-toolbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            gap: 8px;
+            padding: 8px 12px;
+            background: #2E5A4C;
+            color: #fff;
+            font: 13px/1.4 ui-monospace, monospace;
+        }
+        .preview-toolbar button, .preview-toolbar select {
+            font: inherit;
+            padding: 4px 10px;
+            background: #1e3c32;
+            color: #fff;
+            border: 1px solid #88BDBD;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .preview-toolbar button:hover { background: #266553; }
+        .preview-toolbar input[type="text"] {
+            flex: 1;
+            padding: 4px 8px;
+            background: #1e3c32;
+            color: #fff;
+            border: 1px solid #88BDBD;
+            border-radius: 3px;
+            font: inherit;
+        }
+        .preview-status { padding: 4px 8px; opacity: 0.85; }
+        .preview-paste {
+            display: none;
+            padding: 12px;
+            background: #f4faf8;
+            border-bottom: 1px solid #b4d4d4;
+        }
+        .preview-paste.active { display: block; }
+        .preview-paste textarea {
+            width: 100%;
+            min-height: 200px;
+            font: 12px ui-monospace, monospace;
+            padding: 8px;
+            border: 1px solid #b4d4d4;
+            border-radius: 3px;
+        }
+        .preview-paste-fields {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .preview-paste-fields label {
+            font-size: 12px;
+            font-family: ui-monospace, monospace;
+        }
+        .preview-paste-fields input {
+            width: 100%;
+            padding: 4px;
+            font: 12px monospace;
+            border: 1px solid #b4d4d4;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="preview-toolbar">
+        <select id="mode">
+            <option value="paste">Paste markdown</option>
+            <option value="draft">Read CMS draft</option>
+            <option value="github">Fetch from GitHub</option>
+        </select>
+        <input type="text" id="path" placeholder="content/segments/2026/05-22/spring-bursts-forth.md" />
+        <button id="refresh">Refresh</button>
+        <button id="auto-toggle">Auto: off</button>
+        <span class="preview-status" id="status"></span>
+    </div>
+    <div class="preview-paste" id="paste-pane">
+        <div class="preview-paste-fields">
+            <label>title <input id="fm-title" placeholder="Spring Bursts Forth"></label>
+            <label>date <input id="fm-date" placeholder="2026-05-22"></label>
+            <label>image_url <input id="fm-image_url"></label>
+            <label>image_caption <input id="fm-image_caption"></label>
+            <label>summary <input id="fm-summary"></label>
+            <label>megaphone_id <input id="fm-megaphone_id"></label>
+        </div>
+        <textarea id="body" placeholder="Markdown body (paste from the CMS editor)…"></textarea>
+    </div>
+    <div class="body">
+        <div class="body_resize">
+            <div class="single-column" id="preview-content">
+                <p>Choose an input mode above to start previewing.</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import markdownIt from 'https://esm.sh/markdown-it@14';
+        const md = markdownIt({ html: true, linkify: true });
+
+        // === Shortcode + speaker-highlight (JS port of eleventy/plugins/) ===
+        const SPEAKER_RE = /^\s*([A-Z](?:[A-Z'’\d\s.]|[a-z]{1,2}(?=[A-Z]))+):/;
+
+        function escHtml(s) {
+            return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        }
+        function escAttr(s) { return escHtml(s).replace(/"/g, '&quot;'); }
+
+        function expandShortcodes(html) {
+            // {% audio src="…", label="…", duration="…" %}
+            html = html.replace(/\{%\s*audio\s+([^%]*?)\s*%\}/g, (_, args) => {
+                const get = (key) => {
+                    const m = args.match(new RegExp(`${key}\\s*=\\s*"([^"]*)"`));
+                    return m ? m[1] : '';
+                };
+                const src = get('src');
+                if (!src) return '';
+                const label = get('label');
+                const duration = get('duration');
+                const meta = (label || duration)
+                    ? `<div class="music-cue-meta">${label ? `<div class="music-cue-label">${escHtml(label)}</div>` : ''}${duration ? `<div class="music-cue-duration">${escHtml(duration)}</div>` : ''}</div>`
+                    : '';
+                const player = `<div class="mcp"><button class="mcp-play" type="button" aria-label="Play">▶</button><div class="mcp-progress"><div class="mcp-fill"></div></div><span class="mcp-time">0:00</span><audio class="mcp-audio" controls preload="none" src="${escAttr(src)}"></audio></div>`;
+                return `<div class="music-cue"><div class="music-cue-item">${meta}${player}</div></div>`;
+            });
+            // {% cue text="…" %}
+            html = html.replace(/\{%\s*cue\s+text\s*=\s*"([^"]*)"\s*%\}/g, (_, text) => {
+                const m = text.match(SPEAKER_RE);
+                const body = m
+                    ? `<p><span class="speaker">${escHtml(m[1])}:</span>${escHtml(text.slice(m[0].length))}</p>`
+                    : `<p>${escHtml(text)}</p>`;
+                return `<div class="music-cue"><div class="music-cue-item">${body}</div></div>`;
+            });
+            return html;
+        }
+
+        function applySpeakerHighlight(html) {
+            const tmp = document.createElement('div');
+            tmp.innerHTML = html;
+            const speakerParas = [...tmp.querySelectorAll('p')].filter(p => SPEAKER_RE.test(p.textContent));
+            const parents = new Set(speakerParas.map(p => p.parentNode));
+            for (const parent of parents) {
+                if (!parent) continue;
+                const sibs = [...parent.children];
+                let currentBlock = null, inSpeaker = false;
+                for (const el of sibs) {
+                    if (el.tagName === 'P' && SPEAKER_RE.test(el.textContent)) {
+                        const m = el.textContent.match(SPEAKER_RE);
+                        if (m) {
+                            const rest = el.innerHTML.replace(new RegExp(`^\\s*${m[1]}:`), '');
+                            el.innerHTML = `<span class="speaker">${escHtml(m[1])}:</span>${rest}`;
+                        }
+                        inSpeaker = true;
+                        currentBlock = document.createElement('div');
+                        currentBlock.className = 'transcript-block';
+                        el.before(currentBlock);
+                        currentBlock.appendChild(el);
+                    } else if (inSpeaker) {
+                        if (['H1','H2','H3','SECTION'].includes(el.tagName)) {
+                            inSpeaker = false; currentBlock = null;
+                        } else if (el.tagName === 'IMG' || el.tagName === 'FIGURE' || el.querySelector('img,iframe')) {
+                            currentBlock = null;
+                            // figure-from-alt conversion
+                            if (el.tagName === 'P' && !el.textContent.trim()) {
+                                const img = el.querySelector('img');
+                                const alt = (img?.getAttribute('alt') || '').trim();
+                                if (img && alt) {
+                                    const fig = document.createElement('figure');
+                                    fig.appendChild(img.cloneNode());
+                                    const cap = document.createElement('figcaption');
+                                    cap.textContent = alt;
+                                    fig.appendChild(cap);
+                                    el.replaceWith(fig);
+                                }
+                            }
+                        } else if (currentBlock) {
+                            currentBlock.appendChild(el);
+                        }
+                    }
+                }
+            }
+            return tmp.innerHTML;
+        }
+
+        function render({ title, date, image_url, image_caption, summary, megaphone_id, body }) {
+            // Pelican-style header block.
+            let headerHtml = '';
+            if (title) headerHtml += `<h2>${escHtml(title)}</h2>`;
+            if (date) headerHtml += `<p><strong>Air Date: ${escHtml(date)}</strong></p>`;
+            if (summary) headerHtml += `<p>${escHtml(summary)}</p>`;
+            if (image_url) {
+                headerHtml += `<figure class="header-image-container"><img class="header-image" src="${escAttr(image_url)}" alt="${escAttr(title || '')}" />${image_caption ? `<figcaption>${escHtml(image_caption)}</figcaption>` : ''}</figure>`;
+            }
+            if (megaphone_id) {
+                headerHtml += `<br/><span><iframe frameborder="0" height="200" scrolling="no" src="https://player.megaphone.fm/${escAttr(megaphone_id)}?light=true" width="100%"></iframe></span>`;
+            }
+
+            let bodyHtml = md.render(body || '');
+            bodyHtml = expandShortcodes(bodyHtml);
+            bodyHtml = applySpeakerHighlight(bodyHtml);
+            return headerHtml + bodyHtml;
+        }
+
+        // === Input modes ===
+        const $ = (id) => document.getElementById(id);
+        const pasteFields = ['title','date','image_url','image_caption','summary','megaphone_id'];
+
+        function readPaste() {
+            const fm = {};
+            for (const f of pasteFields) fm[f] = $('fm-' + f).value;
+            fm.body = $('body').value;
+            return fm;
+        }
+
+        function parseFrontmatter(text) {
+            const m = text.match(/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/);
+            if (!m) return { body: text };
+            const fm = {};
+            for (const line of m[1].split('\n')) {
+                const kv = line.match(/^(\w+):\s*(.*?)\s*$/);
+                if (!kv) continue;
+                let v = kv[2];
+                if ((v.startsWith("'") && v.endsWith("'")) || (v.startsWith('"') && v.endsWith('"'))) {
+                    v = v.slice(1, -1);
+                }
+                fm[kv[1]] = v;
+            }
+            fm.body = m[2];
+            return fm;
+        }
+
+        async function fetchFromGitHub(path) {
+            const url = `https://raw.githubusercontent.com/jarredbarber/loe-vibecode/main/${path}`;
+            const res = await fetch(url);
+            if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+            return await res.text();
+        }
+
+        async function readDraftFromIndexedDB() {
+            // Sveltia stores drafts in IndexedDBs named "sveltia-cms-…",
+            // store "draft-backups", composite key [collectionName, slug].
+            // The DB name varies by backend repo info; enumerate all DBs.
+            if (!indexedDB.databases) throw new Error('indexedDB.databases() not supported in this browser');
+            const dbs = await indexedDB.databases();
+            const candidates = dbs.filter(d => /sveltia/i.test(d.name || ''));
+            if (!candidates.length) throw new Error('No Sveltia IndexedDB found — open and save a draft first.');
+            for (const meta of candidates) {
+                const db = await new Promise((res, rej) => {
+                    const r = indexedDB.open(meta.name);
+                    r.onsuccess = () => res(r.result);
+                    r.onerror = () => rej(r.error);
+                });
+                if (![...db.objectStoreNames].includes('draft-backups')) { db.close(); continue; }
+                const tx = db.transaction('draft-backups', 'readonly');
+                const all = await new Promise((res, rej) => {
+                    const r = tx.objectStore('draft-backups').getAll();
+                    r.onsuccess = () => res(r.result);
+                    r.onerror = () => rej(r.error);
+                });
+                db.close();
+                if (all.length) return all[all.length - 1];
+            }
+            throw new Error('No draft backups found in Sveltia IndexedDB.');
+        }
+
+        let autoTimer = null;
+        async function refresh() {
+            const mode = $('mode').value;
+            const status = $('status');
+            try {
+                let fm;
+                if (mode === 'paste') {
+                    fm = readPaste();
+                    status.textContent = 'Showing paste input';
+                } else if (mode === 'github') {
+                    const p = $('path').value.trim() || 'content/segments/2026/05-22/spring-bursts-forth.md';
+                    status.textContent = `Fetching ${p}…`;
+                    const text = await fetchFromGitHub(p);
+                    fm = parseFrontmatter(text);
+                    status.textContent = `From GitHub: ${p}`;
+                } else if (mode === 'draft') {
+                    status.textContent = 'Reading Sveltia draft…';
+                    const draft = await readDraftFromIndexedDB();
+                    // draft shape varies; try to pull body + common fields.
+                    const locale = Object.values(draft.currentValues || draft.locales || {})[0] || draft;
+                    fm = { ...locale };
+                    fm.body = locale.body || '';
+                    status.textContent = `Draft: ${draft.collectionName}/${draft.slug}`;
+                }
+                $('preview-content').innerHTML = render(fm || {});
+            } catch (e) {
+                status.textContent = '✗ ' + e.message;
+            }
+        }
+
+        $('refresh').addEventListener('click', refresh);
+        $('mode').addEventListener('change', () => {
+            $('paste-pane').classList.toggle('active', $('mode').value === 'paste');
+            refresh();
+        });
+        for (const f of [...pasteFields, 'body']) {
+            $(f === 'body' ? f : 'fm-' + f).addEventListener('input', () => {
+                if ($('mode').value === 'paste') refresh();
+            });
+        }
+        $('auto-toggle').addEventListener('click', () => {
+            if (autoTimer) {
+                clearInterval(autoTimer); autoTimer = null;
+                $('auto-toggle').textContent = 'Auto: off';
+            } else {
+                autoTimer = setInterval(refresh, 3000);
+                $('auto-toggle').textContent = 'Auto: 3s';
+            }
+        });
+
+        // Init
+        $('paste-pane').classList.add('active');
+    </script>
+</body>
+</html>

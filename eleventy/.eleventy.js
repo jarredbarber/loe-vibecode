@@ -22,6 +22,7 @@ module.exports = function (eleventyConfig) {
     // admin/index.html + README copy through; config.njk is templated
     // (produces _site_11ty/admin/config.yml via its frontmatter permalink).
     eleventyConfig.addPassthroughCopy({ '../content/admin/index.html': 'admin/index.html' });
+    eleventyConfig.addPassthroughCopy({ '../content/admin/preview.html': 'admin/preview.html' });
     eleventyConfig.addPassthroughCopy({ '../content/admin/README.md': 'admin/README.md' });
 
     // Skip content sections while we port templates incrementally.
@@ -30,6 +31,7 @@ module.exports = function (eleventyConfig) {
     // with paths relative to the configured input dir.
     // Ignore admin/* templates EXCEPT config.njk which we want rendered.
     eleventyConfig.ignores.add('../content/admin/index.html');
+    eleventyConfig.ignores.add('../content/admin/preview.html');
     eleventyConfig.ignores.add('../content/admin/README.md');
     eleventyConfig.ignores.add('../content/series/**');
     eleventyConfig.ignores.add('../content/extra/**');

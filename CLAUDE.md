@@ -4,55 +4,85 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Static website for **Living on Earth** (https://vibingon.earth, source for loe.org content), built with **Pelican** and deployed to GitHub Pages via `.github/workflows/deploy.yml` on push to `main`.
+Static website for **Living on Earth** (https://vibingon.earth, source for loe.org content), built with **Eleventy (11ty)** and deployed to GitHub Pages via `.github/workflows/deploy.yml` on push to `main`.
+
+The project was originally Pelican; the migration to Eleventy is tracked in issue #2.
 
 ## Commands
 
 ```bash
-# Local build (outputs to _site/)
-pelican content -s site_config.py
+# Install deps (root + eleventy subdir)
+npm ci && npm --prefix eleventy ci
 
-# Production-style build (matches CI)
-SITEURL=/ pelican content -s site_config.py
+# One-shot build → _site_11ty/
+npm --prefix eleventy run build
 
-# Skip the (large) archive content for faster iteration
-FAST_BUILD=true pelican content -s site_config.py
+# Dev server with live reload
+npm --prefix eleventy run dev
 
-# Dev loop: rebuild on change + serve at :8000 (requires venv + fswatch)
-./scripts/dev_watcher.sh
+# Incremental rebuild (only changed inputs)
+npm --prefix eleventy run incremental
 
-# Install deps
-pip install -r requirements.txt
+# Run golden tests
+npm test
 ```
 
-There is no test suite or linter configured.
+Cold build of the full 35-year archive (~12K pages): ~80 seconds.
 
 ## Architecture
 
-### Pelican config (`site_config.py`)
-- Content lives in `content/` (shows, segments, newsletters, series, pages, images, extra).
-- Theme: `themes/loe_original` (the only theme).
-- Custom URL scheme: articles render as `{date:%Y_%m_%d}_{slug}.html` — preserves the legacy loe.org URL structure. Don't change without migration.
-- `DIRECT_TEMPLATES` includes a custom `newsletter` template alongside `index`/`archives`.
-- `EXTRA_PATH_METADATA` maps `extra/favicon.ico` and `extra/podcast.rss` to the site root.
-- `SITEURL` is env-driven (empty for local, `/` in CI).
+### Eleventy config (`eleventy/.eleventy.js`)
 
-### Plugins (`plugins/`)
-Both are local Pelican plugins loaded via `PLUGIN_PATHS`:
+- Input: `../content/` (shared content tree).
+- Output: `../_site_11ty/`.
+- Templates: Nunjucks (Jinja2-like syntax).
+- Custom URL scheme: articles render as `YYYY_MM_DD_<slug>.html` via the computed `permalink` — preserves the legacy loe.org URL structure inherited from Pelican.
+- Layout selection happens via `eleventyComputed.layout` derived from the existing Pelican frontmatter fields (`template:`, `category:`) so no per-file changes were needed during the migration.
 
-- **`show_segments`** — runs on the article generator. For articles with `template: show`, parses `<h3><a>...</a></h3>` segment links in the body and attaches the resolved target articles to the show so the show template can render rich segment cards (title, image, summary) instead of bare links. Segment links use Pelican's `{filename}segment-slug.md` syntax.
-- **`speaker_highlight`** — content-stage transformer. Detects transcript paragraphs starting with `ALL CAPS NAME:` and rewrites them into styled speaker blocks. Operates on `content._content` via BeautifulSoup.
+### Plugins (`eleventy/plugins/`)
+
+- `shortcodes.js` — registers `{% audio %}` and `{% cue %}` shortcodes for inline audio players and stage-direction blocks.
+- `filters.js` — Nunjucks filters: `strftime`, `ordinal`, `dayOrdinal`, `stripQuotes`, `currentTime`, `toContentRel`, `pathToCmsSlug`.
+- `collections.js` — `shows`, `segments`, `newsletters` collections + `segmentsForShow` filter that indexes segments by date for O(1) lookup.
+- `speaker-highlight.js` — Eleventy transform (cheerio-based) that wraps speaker labels in `<span class="speaker">`, groups them into `<div class="transcript-block">`, and converts `<p><img alt=...></p>` into `<figure><figcaption>`.
+
+### Templates (`eleventy/_includes/`)
+
+- `layouts/base.njk` — site shell, nav, editor badges.
+- `layouts/{article,show,page,newsletter_article}.njk` — per-content-type layouts.
+- `modules/_article_header.njk` — shared header block (title, date, image, megaphone iframe).
+- `modules/show-segment.njk` — segment card on show pages.
+- `modules/stations_map.njk` — interactive US stations map.
+
+Direct templates (`content/{index,archives,newsletter}.njk`) live in `content/` as `.njk` files so Eleventy renders them as standalone pages.
+
+### Ingest pipeline (`ingest/`)
+
+TypeScript pipeline that scrapes loe.org and emits markdown into `content/`. See `INGEST.md`.
 
 ### Content model
-- `content/shows/<year>/<MM-DD>/show.md` — episode cover page; `template: show`, `category: Shows`, lists segments as `### [Title]({filename}segment.md)`.
-- Sibling files in the same `MM-DD/` folder are segments (`category: Segments`). The `show_segments` plugin couples them at build time, so the **filename-based linking convention is load-bearing** — renaming a segment file silently breaks the show page.
-- `megaphone_id` frontmatter drives podcast embed rendering in templates.
 
-### Scrapers (`scripts/`)
-Python scrapers (`scrape_archives.py`, `scrape_newsletters.py`, `scrape_series.py`, `rescrape_2025.py`, shared `scraping_utils.py`) pull legacy content from loe.org and emit it into `content/` in the expected Pelican structure. These are one-shot migration tools, not part of the build.
+- `content/shows/<year>/<MM-DD>/show.md` — episode cover page; `template: show`, `category: Shows`.
+- `content/segments/<year>/<MM-DD>/<slug>.md` — individual segments, paired with their show by date. The `show_segments` filter resolves the pairing at render time.
+- `content/newsletters/<YYYY-MM-DD>-<slug>.md` — weekly newsletter.
+- `content/pages/<slug>.md` — standalone pages (about, stations, etc.).
+- `megaphone_id` frontmatter drives podcast embed rendering.
+
+### Tests (`tests/`)
+
+`tests/test_render.mjs` — node:test + cheerio golden tests. Each test asserts a specific invariant we've broken before. Fixture content lives in `tests/fixtures/content/`. Run with `npm test`.
+
+### CMS (`content/admin/`)
+
+Sveltia CMS at `/admin/`. See `content/admin/README.md`.
+
+### Preview service (`preview/`)
+
+Fly.io-deployed Python preview render service at https://loe-vibecode.fly.dev. Currently unused (issue #4 backlog). Reserved for a future companion-tab preview.
 
 ## Conventions
 
-- When editing show/segment markdown, preserve the frontmatter fields documented in `README.md` (`title`, `date`, `category`, `template`, `megaphone_id`, `image_url`, `summary`) — templates and plugins read them by name.
+- When editing show/segment markdown, preserve frontmatter fields (`title`, `date`, `category`, `template`, `megaphone_id`, `image_url`, `image_caption`, `summary`, `order`) — templates and plugins read them by name.
 - Open work lives in GitHub Issues: <https://github.com/jarredbarber/loe-vibecode/issues>. Reference issue numbers in commit messages (`Closes #2`) and use `gh issue create` for new items.
-- `_site/` and `output/` are build artifacts — don't edit by hand.
+- `_site_11ty/` is the build artifact — don't edit by hand.
+- The legacy Pelican stack (`site_config.py`, `plugins/`, `themes/loe_original/templates/`, `requirements.txt`, `scripts/scrape_*.py`) has been removed. Git tag `pre-eleventy-migration` marks the last commit before the migration if rollback is needed.

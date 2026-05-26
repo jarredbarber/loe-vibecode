@@ -41,4 +41,4 @@ Hosted at UMass Boston by the [Center for Climate and Environmental Justice Medi
 
 ---
 
-For support options or to contact us, please visit our [About Us]({filename}about.md) page.
+For support options or to contact us, please visit our [About Us](/about.html) page.

@@ -27,7 +27,11 @@ npm --prefix eleventy run incremental
 npm test
 ```
 
-Cold build of the active content set (2025+2026, ~500 pages): ~5 seconds. The historical archive (1991-2024) lives in `archive/` and is not built — Sveltia chokes when CMS-visible folders exceed ~1k entries, and editors won't normally need to revise content older than the current rolling window. If we want to surface historical content on the live site, see the "serve archive without paying build cost" discussion in chat history (option A — snapshot + concat at deploy).
+Cold build of active content (2025+2026, ~500 pages): ~5s. Full build including the 1991-2024 archive (~12k pages): ~84s.
+
+Historical content lives at `content/archive/{shows,segments}/<year>/…`. Eleventy reads all of `content/` recursively so the archive builds and produces live URLs. Sveltia's `folder: content/shows` is an exact-path match — it does **not** recurse into `content/archive/shows/`, so the CMS stays scoped to current content.
+
+When active collections eventually overflow Sveltia's ~1k file ceiling, the fix is `git mv content/shows/<old-year> content/archive/shows/<old-year>` (and same for segments). See `content/admin/README.md` "Runbook: CMS getting slow" for details and the reason we don't dynamically scope `folder:` to the current year.
 
 ## Architecture
 

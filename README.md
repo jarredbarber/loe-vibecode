@@ -109,9 +109,9 @@ content/
 │   ├── index.html
 │   ├── preview.html
 │   └── config.njk                      # built into /admin/config.yml
+├── archive/                            # pre-2025 historical content (built, not CMS-visible)
 └── *.njk                               # direct templates (index, archives, newsletter)
 
-archive/                                # pre-2025 historical content (not built)
 eleventy/                               # build config + templates + plugins
 ingest/                                 # TypeScript scraper that pulls from loe.org
 ```

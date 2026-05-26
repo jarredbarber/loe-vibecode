@@ -90,4 +90,4 @@ cd ingest && npm run ingest -- emit --year 1995 --force
 
 ## Status
 
-Migration is complete for 2025-2026 content (in `content/`). Older years live in `archive/` (in-repo but not deployed). Newsletters are ingested into `content/newsletters/`. Pages/series were one-off content per the original site and are hand-maintained.
+Migration is complete for 2025-2026 content (in `content/{shows,segments}/`). Older years live in `content/archive/` — built and deployed, but not CMS-visible. Newsletters are ingested into `content/newsletters/`. Pages/series were one-off content per the original site and are hand-maintained.

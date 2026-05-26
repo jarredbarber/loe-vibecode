@@ -4,7 +4,7 @@
 
 - [ ] **Full-entry CMS preview** — Sveltia's `CMS.registerPreviewTemplate` is documented but not yet implemented (planned for 1.0). Until it lands, the in-pane preview falls back to Sveltia's built-in markdown renderer + our inline `{% audio %}` / `{% cue %}` toPreview handlers. The Fly.io render service at `https://loe-vibecode.fly.dev` is deployed and ready, returning pixel-identical HTML to the public site. Two ways to consume it once Sveltia supports it (or as a stop-gap): (a) wait for Sveltia 1.0 and wire `registerPreviewTemplate`, (b) build a companion `/admin/preview/` tab that reads Sveltia's draft from localStorage (`sveltia-cms.draft.<id>`) and POSTs to the Fly service for real-time render in a second window.
 - [ ] **Pages audit** — content/pages and content/series may want hand cleanup after the YAML conversion.
-- [ ] **OAuth proxy** — currently using GitHub PAT auth. Worth switching to a Cloudflare Worker OAuth proxy if more editors join (eliminates per-editor token management).
+- [ ] **OAuth proxy** — deferred. Not needed while nobody is actively editing through the CMS. Revisit when more than 1-2 editors are using `/admin/` and PAT management becomes friction.
 - [ ] **`view_filters` for segments** — toggle row above the segments list (2026 / 2025 / All).
 
 ## Done

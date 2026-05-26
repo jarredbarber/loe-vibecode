@@ -91,6 +91,9 @@ collections:
     create: true
     identifier_field: title
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
     extension: md
 
     fields:

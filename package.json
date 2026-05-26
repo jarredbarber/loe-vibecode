@@ -3,7 +3,8 @@
     "private": true,
     "scripts": {
         "test": "node --test tests/test_render.mjs",
-        "build": "cd eleventy && npx @11ty/eleventy"
+        "build": "cd eleventy && npx @11ty/eleventy",
+        "check-show": "node scripts/check-show.mjs"
     },
     "devDependencies": {
         "@11ty/eleventy": "^3.1.5",

@@ -107,10 +107,27 @@ def root():
     return {"service": "loe-cms-preview", "status": "ok"}
 
 
+# Absolute URL to the live site's stylesheet. Prepended to every preview
+# response so the CMS iframe loads it directly, bypassing Sveltia's
+# preview-style registration (which has been unreliable here).
+SITE_CSS_LINK = (
+    '<link rel="stylesheet" '
+    'href="https://vibingon.earth/theme/css/style.css">'
+)
+
+
 @app.post("/preview")
 def preview(req: PreviewRequest):
     try:
-        html = _render(req.body, req.frontmatter)
+        body_html = _render(req.body, req.frontmatter)
     except Exception as e:
         return {"error": str(e), "type": type(e).__name__}, 500
+    # Wrap in the same layout containers the public site uses so styles
+    # that depend on .body, .body_resize, .single-column, etc. apply.
+    html = (
+        SITE_CSS_LINK
+        + '<div class="body"><div class="body_resize"><div class="single-column">'
+        + body_html
+        + '</div></div></div>'
+    )
     return {"html": html}

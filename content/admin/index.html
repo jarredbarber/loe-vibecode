@@ -78,8 +78,10 @@
                         return () => { cancelled = true; };
                     }, [key]);
 
+                    // The Fly service wraps response HTML in the site's
+                    // layout divs + injects the stylesheet, so we don't
+                    // need any extra wrapper here.
                     return h('div', {
-                        className: 'single-column',
                         dangerouslySetInnerHTML: { __html: html },
                     });
                 }

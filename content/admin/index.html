@@ -18,6 +18,20 @@
             if (!CMS || typeof CMS.registerEditorComponent !== 'function') return;
             clearInterval(wait);
 
+            // Shared style block matching themes/loe_original/static/css/style.css
+            // (.music-cue-item rules) so the editor preview looks like the
+            // live render.
+            const cardOpen =
+                '<div style="' +
+                'display:flex;flex-direction:column;gap:8px;' +
+                'padding:10px 14px;' +
+                'background:rgba(220,237,234,0.4);' +
+                'border-radius:4px;' +
+                'width:80%;margin:0 auto;box-sizing:border-box;' +
+                'font-style:italic;font-family:Arial,Helvetica,sans-serif;font-size:16px;' +
+                '">';
+            const cardClose = '</div>';
+
             CMS.registerEditorComponent({
                 id: 'audio',
                 label: 'Audio player',
@@ -37,7 +51,18 @@
                     return s + ' %}';
                 },
                 toPreview(data) {
-                    return `<div style="border:1px solid #b4d4d4;border-radius:4px;padding:8px;background:#dceeea;"><strong>▶ ${data.label || 'Audio'}</strong> <small style="opacity:.7">${data.duration || ''}</small><br><small style="opacity:.5">${data.src}</small></div>`;
+                    const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+                    const meta = (data.label || data.duration)
+                        ? `<div>${data.label ? `<div style="font-weight:500;font-size:0.95em;line-height:1.3;">${esc(data.label)}</div>` : ''}${data.duration ? `<div style="font-style:normal;font-size:0.8em;opacity:0.65;margin-top:2px;">${esc(data.duration)}</div>` : ''}</div>`
+                        : '';
+                    // Native <audio controls> for the preview — the site's custom
+                    // .mcp player needs page JS, but native controls give the
+                    // editor a working play button that matches the site's
+                    // teal-tinted card.
+                    const player = data.src
+                        ? `<audio controls preload="none" src="${esc(data.src)}" style="width:100%;height:32px;"></audio>`
+                        : '<em style="color:#a00;">Missing URL</em>';
+                    return cardOpen + meta + player + cardClose;
                 },
             });
 
@@ -55,7 +80,17 @@
                     return `{% cue text="${data.text}" %}`;
                 },
                 toPreview(data) {
-                    return `<div style="font-style:italic;color:#666;padding:6px;background:#f4faf8;border-radius:4px;">[${data.text}]</div>`;
+                    const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
+                    const speakerMatch = String(data.text || '').match(/^\s*([A-Z](?:[A-Z'’\d\s.]|[a-z]{1,2}(?=[A-Z]))+):/);
+                    let body;
+                    if (speakerMatch) {
+                        const label = speakerMatch[1];
+                        const rest = data.text.slice(speakerMatch[0].length);
+                        body = `<p style="margin:0;font-style:italic;"><span style="font-weight:600;font-style:italic;">${esc(label)}:</span>${esc(rest)}</p>`;
+                    } else {
+                        body = `<p style="margin:0;font-style:italic;">${esc(data.text || '')}</p>`;
+                    }
+                    return cardOpen + body + cardClose;
                 },
             });
         }, 100);

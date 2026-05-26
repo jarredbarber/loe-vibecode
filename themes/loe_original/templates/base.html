@@ -13,9 +13,51 @@
 </head>
 
 <body>
-    {% if STAGING %}
-    <a href="{{ SITEURL }}/admin/" class="staging-badge" title="Staging build — opens the CMS editor">STAGING · /admin/</a>
+    {#
+        Editor-mode badges. Hidden by default; the inline script below adds
+        body.editor-mode when Sveltia auth is detected in localStorage, which
+        unhides them via CSS (.editor-badges rule in style.css).
+
+        Source path for the GitHub edit link comes from whichever of article
+        or page is defined for this template; if neither, the GitHub badge
+        falls back to the repo root.
+    #}
+    {% set _src = none %}
+    {% set _collection = none %}
+    {% if article is defined and article.relative_source_path %}
+        {% set _src = article.relative_source_path %}
+    {% elif page is defined and page.relative_source_path %}
+        {% set _src = page.relative_source_path %}
     {% endif %}
+    {% if _src %}
+        {% set _first = _src.split('/', 1)[0] %}
+        {% if _first in ('shows', 'segments', 'newsletters', 'pages') %}
+            {% set _collection = _first %}
+        {% endif %}
+    {% endif %}
+    <div class="editor-badges" hidden>
+        <a class="editor-badge editor-badge-cms"
+           href="{{ SITEURL }}/admin/{% if _collection %}#/collections/{{ _collection }}{% endif %}"
+           target="_blank" rel="noopener"
+           title="Open this entry in the CMS">✎ Edit in CMS</a>
+        <a class="editor-badge editor-badge-gh"
+           href="https://github.com/{{ GITHUB_REPO }}/edit/{{ GITHUB_BRANCH }}/{% if _src %}content/{{ _src }}{% endif %}"
+           target="_blank" rel="noopener"
+           title="Open this entry's markdown file on GitHub">&lt;/&gt; Edit on GitHub</a>
+    </div>
+    <script>
+        // Reveal the editor badges if the visitor is signed into Sveltia CMS.
+        // Sveltia stores its auth state under "sveltia-cms.user" with a
+        // .token field. Any non-null token = logged in = editor mode.
+        try {
+            const u = localStorage.getItem('sveltia-cms.user');
+            if (u && JSON.parse(u).token) {
+                document.body.classList.add('editor-mode');
+                const badges = document.querySelector('.editor-badges');
+                if (badges) badges.removeAttribute('hidden');
+            }
+        } catch (_) { /* ignore */ }
+    </script>
     <div class="main">
         <div class="header_resize">
             <div class="header">

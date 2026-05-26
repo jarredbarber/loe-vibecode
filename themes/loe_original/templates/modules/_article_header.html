@@ -12,14 +12,6 @@
 <p class="clr"></p>
 <p><strong>Air Date: {{ article.date|strftime('%B %d, %Y') }}</strong></p>
 
-{% if STAGING and article.relative_source_path %}
-<p class="staging-edit">
-    <a class="staging-edit-link"
-       href="https://github.com/{{ GITHUB_REPO }}/edit/{{ GITHUB_BRANCH }}/content/{{ article.relative_source_path }}"
-       target="_blank" rel="noopener">✏ Edit this page on GitHub</a>
-</p>
-{% endif %}
-
 {% if show_summary_above_image and article.summary %}
 <p>{{ article.summary }}</p>
 {% endif %}

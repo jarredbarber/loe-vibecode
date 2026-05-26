@@ -2436,41 +2436,49 @@ iframe {
 }
 
 
-/* Staging-mode editor links (hidden in production by template gate). */
-.staging-edit, .staging-add {
-    margin: 8px 0;
-}
-.staging-edit-link, .staging-add-link {
-    display: inline-block;
-    padding: 4px 10px;
-    background-color: #fff8d6;
-    border: 1px solid #d4ba4a;
-    border-radius: 4px;
-    font-size: 0.85em;
-    color: #6b5c1e;
-    text-decoration: none;
-}
-.staging-edit-link:hover, .staging-add-link:hover {
-    background-color: #ffefa3;
-}
-
-/* Staging-mode badge (top-left), only rendered when STAGING is true. */
-.staging-badge {
+/* Editor-mode badges (top-right fixed pills). Always in the HTML; the
+   [hidden] attribute keeps them invisible by default. The auth-detect
+   script in base.html removes [hidden] when the visitor is signed
+   into Sveltia CMS. */
+.editor-badges {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 9999;
-    padding: 4px 10px;
+    display: flex;
+    gap: 2px;
+    padding: 0;
+    background: transparent;
+}
+.editor-badges[hidden] {
+    display: none;
+}
+.editor-badge {
+    display: inline-block;
+    padding: 4px 12px;
     background-color: #d4ba4a;
     color: #2b2417;
     font: bold 11px/1 ui-monospace, "SFMono-Regular", Menlo, monospace;
     text-decoration: none;
     letter-spacing: 0.5px;
-    border-bottom-right-radius: 4px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     transition: background-color 0.15s ease;
 }
-.staging-badge:hover {
+.editor-badge:first-child {
+    border-bottom-left-radius: 4px;
+}
+.editor-badge:last-child {
+    border-bottom-right-radius: 4px;
+}
+.editor-badge:hover {
     background-color: #efd25a;
     color: #2b2417;
+}
+.editor-badge-gh {
+    background-color: #24292f;
+    color: #f6f8fa;
+}
+.editor-badge-gh:hover {
+    background-color: #2c343c;
+    color: #ffffff;
 }

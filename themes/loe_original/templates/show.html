@@ -16,32 +16,6 @@
                 {{ article.content }}
             </div>
 
-            {% if STAGING and article.relative_source_path %}
-            {# Segments live in content/segments/YYYY/MM-DD/, paired by date with show under content/shows/. #}
-            {% set show_subdir = article.relative_source_path.rsplit('/', 1)[0] %}
-            {% set segment_dir = 'content/segments/' ~ show_subdir.split('/', 1)[1] if '/' in show_subdir else 'content/segments' %}
-            {% set iso_date = article.date|strftime('%Y-%m-%d') %}
-            {% set template_md %}---
-title: New Segment Title
-date: {{ iso_date }}
-category: Segments
-megaphone_id:
-image_url:
-image_caption:
-summary:
----
-
-## Transcript
-
-CURWOOD:
-{% endset %}
-            <p class="staging-add">
-                <a class="staging-add-link"
-                   href="https://github.com/{{ GITHUB_REPO }}/new/{{ GITHUB_BRANCH }}/{{ segment_dir }}?filename=new-segment.md&value={{ template_md|urlencode }}"
-                   target="_blank" rel="noopener">+ Add a new segment</a>
-            </p>
-            {% endif %}
-
             <p><a href="{{ SITEURL }}/index.html" class="silver">&larr; Back to Home</a></p>
         </div>
         <div class="clr"></div>

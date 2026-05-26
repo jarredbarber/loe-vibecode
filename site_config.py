@@ -14,10 +14,10 @@ SITENAME = 'Living on Earth'
 # Default to empty string for local development
 SITEURL = os.environ.get('SITEURL', '')
 
-# Staging mode: set STAGING=true to surface in-page "Edit on GitHub" and
-# "Add segment" buttons that deep-link to GitHub's web editor. Production
-# deploys leave this unset.
-STAGING = os.environ.get('STAGING', '').lower() in ('1', 'true', 'yes')
+# Editor mode is detected client-side from the Sveltia CMS auth token
+# in localStorage — no STAGING build flag. Edit-in-CMS / Edit-on-GitHub
+# badges are always in the HTML, hidden by CSS, revealed by inline JS
+# when the visitor has a Sveltia auth token.
 GITHUB_REPO = os.environ.get('GITHUB_REPO', 'jarredbarber/loe-vibecode')
 GITHUB_BRANCH = os.environ.get('GITHUB_BRANCH', 'main')
 
@@ -68,10 +68,10 @@ THEME = 'themes/loe_original'
 
 # Static paths
 STATIC_PATHS = ['static', 'images', 'extra']
-# Admin UI is shipped only on staging builds. Production omits it so /admin/
-# 404s on the public site. To preview admin locally: STAGING=true pelican ...
-if STAGING:
-    STATIC_PATHS.append('admin')
+# Admin UI ships on every build. Only authenticated GitHub users can
+# actually commit through it (Sveltia auth gates the editor itself), so
+# leaving /admin/ public is safe.
+STATIC_PATHS.append('admin')
 
 # Don't parse anything inside content/admin/ as an article or page —
 # the directory is purely static (SPA shell + config + README).

@@ -38,11 +38,6 @@ jobs:
       - name: Build site
         env:
           SITEURL: /
-          # GH Pages currently doubles as the staging site. STAGING=true
-          # surfaces the /admin/ UI and "Edit on GitHub" buttons. When a
-          # separate production deploy (e.g. live branch) is set up later,
-          # that workflow should NOT set STAGING.
-          STAGING: 'true'
         run: |
           pelican content -s site_config.py
       

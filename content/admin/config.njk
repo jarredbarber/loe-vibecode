@@ -42,7 +42,9 @@ collections:
     identifier_field: title
     path: '{{year}}/{{month}}-{{day}}/show'
     summary: '{{date}} - {{title}}'
-    sortable_fields: [date, title]
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
     filter: { field: date, pattern: '{% endraw %}{{ PATTERN }}{% raw %}' }
     extension: md
 
@@ -65,7 +67,9 @@ collections:
     identifier_field: title
     path: '{{year}}/{{month}}-{{day}}/{{slug}}'
     summary: '{{date}} - {{title}}'
-    sortable_fields: [date, title]
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
     filter: { field: date, pattern: '{% endraw %}{{ PATTERN }}{% raw %}' }
     extension: md
 

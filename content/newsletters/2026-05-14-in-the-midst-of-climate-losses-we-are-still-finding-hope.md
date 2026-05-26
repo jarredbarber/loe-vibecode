@@ -1,12 +1,11 @@
 ---
 title: In the midst of climate losses, we are still finding hope
-date: '''2026-05-14'''
+date: '2026-05-14'
 category: Newsletter
 slug: in-the-midst-of-climate-losses-we-are-still-finding-hope
 summary: Newsletter from 2026-05-14
 template: newsletter_article
 ---
-
 ## In the Midst of Climate Losses, We Are Still Finding Hope
 
 The past couple of weeks were challenging ones in the Living on Earth newsroom. Every time we thought we were done putting a show together, some startling breaking news would land on our desks. It’s been a reminder of how difficult it can be to cover climate change.

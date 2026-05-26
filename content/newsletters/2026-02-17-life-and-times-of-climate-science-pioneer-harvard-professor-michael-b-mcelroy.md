@@ -1,12 +1,11 @@
 ---
 title: Life and Times of Climate Science Pioneer, Harvard Professor Michael B. McElroy
-date: '''2026-02-17'''
+date: '2026-02-17'
 category: Newsletter
 slug: life-and-times-of-climate-science-pioneer-harvard-professor-michael-b-mcelroy
 summary: Newsletter from 2026-02-17
 template: newsletter_article
 ---
-
 ## Life and Times of Climate Science Pioneer, Harvard Professor Michael B. McElroy
 
 Behind the stories and voices you hear on Living on Earth is a dedicated corps of volunteers who help make it all happen, and sadly, cancer has taken one of our most generous and brilliant supporters, [Harvard atmospheric science Professor Michael B. McElroy](https://loe.org/shows/segments.html?programID=26-P13-00007\&segmentID=3).

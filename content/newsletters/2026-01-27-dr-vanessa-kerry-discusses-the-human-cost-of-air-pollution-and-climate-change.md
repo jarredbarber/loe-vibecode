@@ -1,12 +1,11 @@
 ---
 title: Dr. Vanessa Kerry Discusses the Human Cost of Air Pollution and Climate Change
-date: '''2026-01-27'''
+date: '2026-01-27'
 category: Newsletter
 slug: dr-vanessa-kerry-discusses-the-human-cost-of-air-pollution-and-climate-change
 summary: Newsletter from 2026-01-27
 template: newsletter_article
 ---
-
 ## Dr. Vanessa Kerry Discusses the Human Cost of Air Pollution and Climate Change
 
 The conversation about climate change and air pollution often is focused on the big picture: global impact. The cost to countries and communities.

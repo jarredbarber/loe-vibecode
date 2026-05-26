@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+---
+<div class="body">
+    <div class="body_resize">
+        <div class="single-column newsletter-article">
+            <h2>{{ title }}</h2>
+            <p><strong>{{ date | strftime('%B %d, %Y') }}</strong></p>
+            {{ content | safe }}
+        </div>
+        <p><a href="{{ site.url }}/newsletter.html" class="silver">&larr; Back to Newsletters</a></p>
+    </div>
+    <div class="clr"></div>
+</div>

@@ -1,12 +1,11 @@
 ---
 title: This week at LoE
-date: '''2026-04-28'''
+date: '2026-04-28'
 category: Newsletter
 slug: this-week-at-loe
 summary: Newsletter from 2026-04-28
 template: newsletter_article
 ---
-
 ![](https://mcusercontent.com/9f9ebdcfa232a532a7e70746b/images/bcb480d9-02ac-6793-0722-d9734e2fd2c2.png)
 
 # This Week on *Living on Earth*

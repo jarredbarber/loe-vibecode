@@ -1,12 +1,11 @@
 ---
-title: '''Winter Solstice Stories: Remembering Our Connection to Earth'''
-date: '''2025-12-19'''
+title: 'Winter Solstice Stories: Remembering Our Connection to Earth'
+date: '2025-12-19'
 category: Newsletter
 slug: winter-solstice-stories-remembering-our-connection-to-earth
 summary: Newsletter from 2025-12-19
 template: newsletter_article
 ---
-
 ## Winter Solstice Stories: Remembering Our Connection to Planet Earth
 
 It’s that time of year again here at Living on Earth.

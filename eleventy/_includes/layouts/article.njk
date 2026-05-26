@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+---
+{% set entry = { title: title, date: date, summary: summary,
+    banner_url: banner_url, image_url: image_url, image_caption: image_caption,
+    megaphone_id: megaphone_id, audio_url: audio_url } %}
+{% set title_html %}<h2>{{ title }}</h2>{% endset %}
+{% set summaryAboveImage = false %}
+<div class="body">
+    <div class="body_resize">
+        <div class="single-column">
+            {% include "modules/_article_header.njk" %}
+            {{ content | safe }}
+        </div>
+        <p><a href="{{ site.url }}/index.html" class="silver">&larr; Back to Home</a></p>
+    </div>
+    <div class="clr"></div>
+</div>

@@ -1,12 +1,11 @@
 ---
 title: Earthbending Our Energy Future
-date: '''2026-02-02'''
+date: '2026-02-02'
 category: Newsletter
 slug: earthbending-our-energy-future
 summary: Newsletter from 2026-02-02
 template: newsletter_article
 ---
-
 ## Earthbending Our Energy Future
 
 Water. Earth. Fire. Air. 

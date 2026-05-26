@@ -1,12 +1,11 @@
 ---
 title: Greetings from Our New Intern, Hedy Yang
-date: '''2026-02-25'''
+date: '2026-02-25'
 category: Newsletter
 slug: greetings-from-our-new-intern-hedy-yang
 summary: Newsletter from 2026-02-25
 template: newsletter_article
 ---
-
 ## Meet our New Intern: Hedy Yang
 
 Hello LOE listeners!

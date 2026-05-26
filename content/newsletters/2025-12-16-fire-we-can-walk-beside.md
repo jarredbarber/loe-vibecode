@@ -1,12 +1,11 @@
 ---
 title: Fire We Can Walk Beside
-date: '''2025-12-16'''
+date: '2025-12-16'
 category: Newsletter
 slug: fire-we-can-walk-beside
 summary: Newsletter from 2025-12-16
 template: newsletter_article
 ---
-
 ![](https://mcusercontent.com/9f9ebdcfa232a532a7e70746b/images/5f449368-285d-e79e-ecdf-93910f0f060c.jpg)
 
 ## A Fire We Can Walk Beside 

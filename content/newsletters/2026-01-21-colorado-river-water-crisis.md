@@ -1,12 +1,11 @@
 ---
 title: Colorado River Water Crisis
-date: '''2026-01-21'''
+date: '2026-01-21'
 category: Newsletter
 slug: colorado-river-water-crisis
 summary: Newsletter from 2026-01-21
 template: newsletter_article
 ---
-
 ## Colorado River Water Crisis
 
 When I think back to family dinners growing up in Baja California, I recall the health of the Colorado River coming up repeatedly.

@@ -1,25 +1,85 @@
+{# Eleventy port of themes/loe_original/templates/base.html. #}
+{% set thisWeek = collections.shows[0] %}
+{% set _src = page.inputPath | toContentRel %}
+{% set _cms = _src | pathToCmsSlug %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title or "Living on Earth" }}</title>
-    <link rel="stylesheet" href="/theme/css/style.css">
+    <title>{% block title %}{{ title or site.name }}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ site.url }}/theme/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
 </head>
 <body>
+    <div class="editor-badges" hidden>
+        <a class="editor-badge editor-badge-cms"
+           href="{{ site.url }}/admin/{% if _cms.collection and _cms.slug %}#/collections/{{ _cms.collection }}/entries/{{ _cms.slug }}{% elif _cms.collection %}#/collections/{{ _cms.collection }}{% endif %}"
+           target="_blank" rel="noopener"
+           title="Open this entry in the CMS">✎ Edit in CMS</a>
+        <a class="editor-badge editor-badge-gh"
+           href="https://github.com/{{ site.githubRepo }}/edit/{{ site.githubBranch }}/{% if _src %}content/{{ _src }}{% endif %}"
+           target="_blank" rel="noopener"
+           title="Open this entry's markdown file on GitHub">&lt;/&gt; Edit on GitHub</a>
+    </div>
+    <script>
+        try {
+            const u = localStorage.getItem('sveltia-cms.user');
+            if (u && JSON.parse(u).token) {
+                document.body.classList.add('editor-mode');
+                const badges = document.querySelector('.editor-badges');
+                if (badges) badges.removeAttribute('hidden');
+            }
+        } catch (_) { /* ignore */ }
+    </script>
     <div class="main">
         <div class="header_resize">
             <div class="header">
-                <div class="logo"><a href="/index.html"><img src="/theme/img/logo.png" alt="Living on Earth" /></a></div>
+                <div class="logo"><a href="{{ site.url }}/index.html"><img src="{{ site.url }}/theme/img/logo.png"
+                            alt="Living On Earth" /></a></div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="{{ site.url }}/index.html"{% if page.url == '/index.html' or page.url == '/' %} class="active"{% endif %}>Home</a></li>
+                        {% if thisWeek %}
+                        <li><a href="{{ site.url }}{{ thisWeek.url }}"{% if page.url == thisWeek.url %} class="active"{% endif %}>This Week</a></li>
+                        {% endif %}
+                        <li><a href="{{ site.url }}/archives.html"{% if page.url == '/archives.html' %} class="active"{% endif %}>Archive</a></li>
+                        <li><a href="{{ site.url }}/features.html"{% if page.url == '/features.html' %} class="active"{% endif %}>Special Features</a></li>
+                        <li><a href="{{ site.url }}/newsletter.html"{% if page.url == '/newsletter.html' %} class="active"{% endif %}>Newsletter</a></li>
+                        <li><a href="{{ site.url }}/stations.html"{% if page.url == '/stations.html' %} class="active"{% endif %}>Stations</a></li>
+                        <li><a href="{{ site.url }}/events.html"{% if page.url == '/events.html' %} class="active"{% endif %}>Events</a></li>
+                        <li><a href="{{ site.url }}/about.html"{% if page.url == '/about.html' %} class="active"{% endif %}>About Us</a></li>
+                    </ul>
+                </div>
+                <div class="clr"></div>
             </div>
         </div>
+
         <div class="content">
             <div class="content_resize">
                 <div class="mainbar">
                     {{ content | safe }}
                 </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer_resize">
+                <a href="https://prx.org" target="_blank" class="footer-logo-prx">
+                    <img src="{{ site.url }}/theme/img/PRX-Logo-Horizontal-Dark.svg" alt="Distributed by PRX"
+                        class="prx-logo-img" />
+                </a>
+                <div style="text-align: center;">
+                    <small style="color: #888;">Last updated: {{ '' | currentTime('%B %d, %Y') }}</small>
+                </div>
             </div>
         </div>
     </div>
+    <script src="{{ site.url }}/theme/js/music-cue-player.js"></script>
 </body>
 </html>

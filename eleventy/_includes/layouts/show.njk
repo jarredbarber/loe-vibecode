@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+{% set entry = { title: title, date: date, summary: summary,
+    banner_url: banner_url, image_url: image_url, image_caption: image_caption,
+    megaphone_id: megaphone_id, audio_url: audio_url } %}
+{% set title_html %}<h2>Living on Earth: {{ date | strftime('%B') }} {{ date | dayOrdinal }}, {{ date | strftime('%Y') }}</h2>{% endset %}
+{% set summaryAboveImage = true %}
+{% set segments = (page | segmentsForShow(collections.segments)) %}
+<div class="body">
+    <div class="body_resize">
+        <div class="single-column">
+            {% include "modules/_article_header.njk" %}
+
+            <div class="show-content">
+                {{ content | safe }}
+                {% for segment in segments %}
+                    {% include "modules/show-segment.njk" %}
+                {% endfor %}
+            </div>
+
+            <p><a href="{{ site.url }}/index.html" class="silver">&larr; Back to Home</a></p>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>

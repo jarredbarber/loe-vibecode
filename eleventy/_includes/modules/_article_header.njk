@@ -1,0 +1,44 @@
+{# Shared header block for the article and show layouts.
+
+   Caller provides:
+     entry              — frontmatter object (the page's `data` in Eleventy)
+     title_html         — pre-rendered <h2>...</h2> for the title
+     summaryAboveImage  — boolean: true for shows, false for segments.
+#}
+{{ title_html | safe }}
+<p class="clr"></p>
+<p><strong>Air Date: {{ entry.date | strftime('%B %d, %Y') }}</strong></p>
+
+{% if summaryAboveImage and entry.summary %}
+<p>{{ entry.summary }}</p>
+{% endif %}
+
+{% if entry.banner_url or entry.image_url %}
+<figure class="header-image-container">
+    <img class="header-image" src="{{ entry.banner_url or entry.image_url }}" alt="{{ entry.title }}" />
+    {% if entry.image_caption %}
+    <figcaption>{{ entry.image_caption }}</figcaption>
+    {% endif %}
+</figure>
+{% endif %}
+
+{% if not summaryAboveImage and entry.summary %}
+<p>{{ entry.summary }}</p>
+{% endif %}
+
+{% if entry.megaphone_id %}
+<br />
+<span>
+    <iframe frameborder="0" height="200" scrolling="no"
+        src="https://player.megaphone.fm/{{ entry.megaphone_id }}?light=true" width="100%"></iframe>
+</span>
+{% elif entry.audio_url %}
+<div class="audio">
+    <audio controls style="width: 100%;">
+        <source src="{{ entry.audio_url }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+{% endif %}
+
+<div class="clr"></div>

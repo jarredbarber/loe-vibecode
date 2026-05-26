@@ -21,19 +21,76 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ '../content/extra': '.' });
     eleventyConfig.addPassthroughCopy({ '../content/admin': 'admin' });
 
+    // Skip content sections while we port templates incrementally.
+    // .eleventyignore globs are relative to the ignore file's dir; ours
+    // lives in eleventy/ which doesn't see ../content/. Use the JS API
+    // with paths relative to the configured input dir.
+    eleventyConfig.ignores.add('../content/admin/**');
+    eleventyConfig.ignores.add('../content/shows/**');
+    eleventyConfig.ignores.add('../content/segments/**');
+    eleventyConfig.ignores.add('../content/series/**');
+    eleventyConfig.ignores.add('../content/extra/**');
+    eleventyConfig.ignores.add('../content/images/**');
+    eleventyConfig.ignores.add('../content/static/**');
+
     // Watch theme files so dev server reloads on CSS/JS changes.
     eleventyConfig.addWatchTarget('../themes/loe_original/');
 
-    // Filters and shortcodes will get registered here as we port plugins.
+    // Plugin ports.
     require('./plugins/shortcodes.js')(eleventyConfig);
+    require('./plugins/filters.js')(eleventyConfig);
+    require('./plugins/collections.js')(eleventyConfig);
+
+    // Compute layout + permalink per item from existing Pelican frontmatter
+    // (template:, category:, slug:) so we don't have to touch every markdown
+    // file in the repo.
+    eleventyConfig.addGlobalData('eleventyComputed', {
+        layout: (data) => {
+            if (data.layout) return data.layout;
+            if (data.template === 'show') return 'layouts/show.njk';
+            if (data.template === 'newsletter_article') return 'layouts/newsletter_article.njk';
+            if (data.category === 'Segments') return 'layouts/article.njk';
+            if (data.category === 'Newsletter') return 'layouts/newsletter_article.njk';
+            // Pelican pages live in content/pages/.
+            if (data.page && data.page.inputPath && data.page.inputPath.includes('/pages/')) {
+                return 'layouts/page.njk';
+            }
+            return 'layouts/article.njk';
+        },
+        permalink: (data) => {
+            if (data.permalink) return data.permalink;
+            // Pages → /<slug>.html (Pelican PAGE_URL).
+            if (data.page && data.page.inputPath && data.page.inputPath.includes('/pages/')) {
+                const slug = data.slug || (data.page.filePathStem.split('/').pop());
+                return `/${slug}.html`;
+            }
+            // Shows + segments + newsletters → /YYYY_MM_DD_<slug>.html.
+            if (data.date) {
+                const d = new Date(data.date);
+                if (!isNaN(d)) {
+                    const yyyy = d.getUTCFullYear();
+                    const mm = String(d.getUTCMonth() + 1).padStart(2, '0');
+                    const dd = String(d.getUTCDate()).padStart(2, '0');
+                    const slug =
+                        data.slug ||
+                        (data.page.filePathStem.split('/').pop()) ||
+                        (data.title || 'untitled').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+                    return `/${yyyy}_${mm}_${dd}_${slug}.html`;
+                }
+            }
+            return false; // let Eleventy skip
+        },
+    });
 
     return {
+        // dir.includes / dir.data must be relative to dir.input, not
+        // absolute paths. Since our input is ../content/ (from eleventy/'s
+        // cwd) the templates land in ../eleventy/_includes.
         dir: {
-            input: path.resolve(__dirname, '..', 'content'),
-            output: path.resolve(__dirname, '..', '_site_11ty'),
-            includes: path.resolve(__dirname, '_includes'),
-            data: path.resolve(__dirname, '_data'),
-            layouts: path.resolve(__dirname, '_includes/layouts'),
+            input: '../content',
+            output: '../_site_11ty',
+            includes: '../eleventy/_includes',
+            data: '../eleventy/_data',
         },
         templateFormats: ['md', 'njk', 'html'],
         markdownTemplateEngine: 'njk',

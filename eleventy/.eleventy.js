@@ -52,6 +52,9 @@ module.exports = function (eleventyConfig) {
     // file in the repo.
     eleventyConfig.addGlobalData('eleventyComputed', {
         layout: (data) => {
+            // Explicit layout: false in frontmatter disables wrapping
+            // entirely (used by config.yml and similar raw outputs).
+            if (data.layout === false) return false;
             if (data.layout) return data.layout;
             if (data.template === 'show') return 'layouts/show.njk';
             if (data.template === 'newsletter_article') return 'layouts/newsletter_article.njk';

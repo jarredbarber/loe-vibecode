@@ -1,91 +1,93 @@
-# Ingest Pipeline
+# Ingest pipeline
 
-Replacement for the Python scrapers in `scripts/`. Pulls show + segment content from loe.org and emits Pelican-ready markdown into `content/shows/`.
-
-## Why a rewrite
-
-The Python scrapers grew organically against a moving HTML target: ~1,600 lines, no tests, regex-on-markdown post-processors patching symptoms of brittle parsing, and a silent 2025-10-31 cutoff that routed older shows to a non-existent `_wip/` directory. Only 7 weeks of content ever made it into `content/shows/`. See the original review in chat history (Dec 2026) for the full breakdown.
-
-## Goals
-
-1. Migrate **2026 content** (immediate need) and then backfill historical years.
-2. Iterate on parsing **offline**, against cached HTML, with golden-file tests.
-3. Idempotent re-runs that don't silently clobber hand-edits.
+TypeScript pipeline at `ingest/` that scrapes loe.org and emits markdown into `content/`. One-shot migration tool; not part of the live build.
 
 ## Stack
 
-TypeScript on Node, using **unified/remark/rehype** for HTML→Markdown. Same pipeline Glint uses, so the parser is composable plugins instead of regex passes. Mdast trees flow end-to-end; markdown is only stringified at emit.
+Node + TypeScript, using the **unified/remark/rehype** ecosystem for HTML→Markdown. Mdast trees flow end-to-end; markdown is stringified only at emit. js-yaml dumps frontmatter so quoting / escaping / dates round-trip correctly.
 
 ## Layout
 
 ```
 ingest/
-  package.json
-  tsconfig.json
-  src/
-    fetch.ts          # URL → cached HTML
-    discover.ts       # year TOC → ShowRef[] (url + date)
-    parse-show.ts     # HTML → ShowMeta + SegmentRef[]
-    parse-segment.ts  # HTML → SegmentDoc (mdast + frontmatter fields)
-    transform/        # rehype/remark plugins, one quirk each
-      speakers.ts
-      image-caption.ts
-      strip-footer.ts
-      megaphone.ts
-    emit.ts           # SegmentDoc → frontmatter + markdown on disk
-    cli.ts            # commander subcommands
-  cache/              # gitignored; content-addressed raw HTML
-  fixtures/           # golden tests: input.html + expected/*.md
-  test/
+├── src/
+│   ├── fetch.ts             # URL → cached HTML
+│   ├── discover.ts          # year TOC → ShowRef[] with date + segment URLs
+│   ├── parse-show.ts        # HTML → ShowDoc
+│   ├── parse-segment.ts     # HTML → SegmentDoc (frontmatter + body)
+│   ├── parse-newsletter.ts  # HTML → NewsletterDoc
+│   ├── discover-newsletters.ts
+│   ├── emit.ts              # SegmentDoc / ShowDoc → markdown files
+│   ├── emit-newsletter.ts
+│   └── cli.ts               # commander subcommands
+├── cache/                   # gitignored content-addressed raw HTML
+├── fixtures/                # golden tests
+└── test/
 ```
 
 ## Pipeline stages
 
-Each stage is a pure function, separately runnable from the CLI. Stages communicate via disk, so any one can be re-run in isolation.
+Each stage is a pure function, runnable independently. Stages communicate via disk so any one can be re-run in isolation.
 
 ```
-discover(year)   →  ShowRef[]              // from TOC, URL + date only
-fetch(url)       →  string (cached)        // sha1(url) → cache/<hash>.html
-parse(html)      →  ShowDoc | SegmentDoc   // mdast tree, structured metadata
-emit(doc)        →  content/shows/YYYY/MM-DD/*.md
+discover(year)  →  ShowRef[]              # from TOC: URL + date + segment URLs
+fetch(url)      →  string (cached)        # sha1(url) → cache/<hash>.html
+parse(html)     →  ShowDoc | SegmentDoc   # mdast + structured frontmatter
+emit(doc)       →  content/{shows|segments}/YYYY/MM-DD/*.md
 ```
 
-### Properties
+Properties:
 
-- **Cache is the contract.** `fetch` writes `cache/<sha1>.html` plus an index. After one backfill, iterating on `parse` never hits the network.
-- **Mdast end-to-end.** No regex-on-markdown patches. Speaker handling, caption merging, footer stripping are all tree transforms.
-- **Idempotent emit.** Refuses to overwrite a file whose mtime is newer than its cache entry. `--force` to override.
-- **No `_wip` cutoff.** Everything emits to `content/shows/`. Use Pelican config or frontmatter `status: draft` if staging is needed later.
+- **Cache is the contract.** After one backfill, iterating on `parse` never hits the network.
+- **Mdast end-to-end.** Plugin transforms operate on trees, not regex-on-markdown.
+- **Idempotent emit.** Refuses to overwrite a file whose mtime is newer than its cache entry; `--force` overrides.
 
 ## CLI
 
 ```bash
-ingest discover --year 2026         # → prints/writes ShowRef[]
-ingest fetch --year 2026            # populates cache/
-ingest parse <url>                  # one show, useful for debugging
-ingest emit --year 2026             # writes markdown from cache
-ingest all --year 2026              # discover → fetch → emit
-ingest fixture-add <url>            # snapshot current output as golden test
+cd ingest
+
+ingest discover --year 2026               # list shows from TOC
+ingest fetch --year 2026                  # populate cache
+ingest emit --year 2026                   # write markdown from cache
+
+ingest discover-newsletters
+ingest fetch-newsletters
+ingest emit-newsletters
 ```
 
-## Testing
+`ingest emit` does cross-show slug-collision dedup at write time, appending an MMDD suffix when two segments on different dates would share a slug.
 
-Golden-file. Each fixture is:
+## Frontmatter shape (segments)
 
+```yaml
+title: Spring "Bursts" Forth
+slug: spring-bursts-forth          # globally unique, suffixed if collision
+date: '2026-05-22'
+category: Segments
+order: '3'                          # broadcast order within the show
+megaphone_id: LOE6677141098
+image_url: https://loe.org/content/2026-05-22/BIRDNOTE_willowflycatchers.jpg
+image_caption: …
+summary: …
 ```
-fixtures/<slug>/
-  input.html
-  expected/show.md
-  expected/<segment-slug>.md
+
+The `<!-- source: <url> -->` HTML comment on the line after frontmatter pins each markdown file to its scraped source so the migration-review agent (and future re-ingest) can find the cached HTML.
+
+## Shortcode emission
+
+Bracketed audio cues from the source (`[Northern Cardinal song, http://macaulaylibrary.org/audio/176244, 0.06-.10]`) become `{% audio %}` shortcodes during emit. Macaulay URLs resolve to Cornell's CDN MP3. Non-audio bracketed text becomes `{% cue text="..." %}`.
+
+## Re-emitting from cache
+
+Cache is durable. To re-render any year through the current parser:
+
+```bash
+cd ingest && npm run ingest -- emit --year 1995 --force
 ```
 
-Test runner pipes `input.html` through `parse` + `emit` into a temp dir and diffs against `expected/`. Adding a fixture = `ingest fixture-add <url>`.
+`ingest/cache/` contains the raw HTML for every show + segment 1991-2025 (~470 MB on disk). Years 1991-1992 had no segment links extracted on first pass — segment-list parsing for those years would need a per-year quirk.
 
-## Migration plan
+## Status
 
-1. **Scaffold** `ingest/` with `fetch` + content-addressed cache + `discover`. Backfill cache for 2026 in one polite pass.
-2. **Implement parse + emit** against 3–5 fixtures from 2026.
-3. `ingest all --year 2026` → review diff → ship.
-4. Expand fixtures with quirky older shows; backfill prior years.
-5. Port newsletters + series (currently `scripts/scrape_newsletters.py`, `scrape_series.py`) reusing the same primitives.
-6. Delete `scripts/*.py` once parity is reached.
+Migration is complete for 2025-2026 content (in `content/`). Older years live in `archive/` (in-repo but not deployed). Newsletters are ingested into `content/newsletters/`. Pages/series were one-off content per the original site and are hand-maintained.

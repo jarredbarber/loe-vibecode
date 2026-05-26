@@ -27,7 +27,7 @@ npm --prefix eleventy run incremental
 npm test
 ```
 
-Cold build of the full 35-year archive (~12K pages): ~80 seconds.
+Cold build of the active content set (2025+2026, ~500 pages): ~5 seconds. The historical archive (1991-2024) lives in `archive/` and is not built — Sveltia chokes when CMS-visible folders exceed ~1k entries, and editors won't normally need to revise content older than the current rolling window. If we want to surface historical content on the live site, see the "serve archive without paying build cost" discussion in chat history (option A — snapshot + concat at deploy).
 
 ## Architecture
 
@@ -63,9 +63,10 @@ TypeScript pipeline that scrapes loe.org and emits markdown into `content/`. See
 ### Content model
 
 - `content/shows/<year>/<MM-DD>/show.md` — episode cover page; `template: show`, `category: Shows`.
-- `content/segments/<year>/<MM-DD>/<slug>.md` — individual segments, paired with their show by date. The `show_segments` filter resolves the pairing at render time.
+- `content/segments/<year>/<MM-DD>/<slug>.md` — individual segments, paired with their show by date via the `segmentsForShow` filter at render time.
 - `content/newsletters/<YYYY-MM-DD>-<slug>.md` — weekly newsletter.
 - `content/pages/<slug>.md` — standalone pages (about, stations, etc.).
+- `archive/{shows,segments}/<year>/…` — historical content (1991-2024), in-repo but not in the build path.
 - `megaphone_id` frontmatter drives podcast embed rendering.
 
 ### Tests (`tests/`)
@@ -74,11 +75,9 @@ TypeScript pipeline that scrapes loe.org and emits markdown into `content/`. See
 
 ### CMS (`content/admin/`)
 
-Sveltia CMS at `/admin/`. See `content/admin/README.md`.
+Sveltia CMS at `/admin/` with PAT-based GitHub auth. See `content/admin/README.md`. Recent shows + segments only — older content stays accessible via direct GitHub edit. The companion live preview at `/admin/preview.html` renders body markdown + shortcodes client-side via markdown-it.
 
-### Preview service
-
-A Python preview service deployed at `loe-vibecode.fly.dev` existed for a while as a candidate for full-entry CMS preview; deleted from the repo when Sveltia's `registerPreviewTemplate` API didn't materialize. Issue #4 captures the design for a future JS companion-tab approach if/when it's needed. The Fly app can be destroyed (`fly apps destroy loe-vibecode`).
+(A short-lived Python preview service at `loe-vibecode.fly.dev` is still deployed but unused — `fly apps destroy loe-vibecode` to clean up.)
 
 ## Conventions
 

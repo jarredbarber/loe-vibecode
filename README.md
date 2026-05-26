@@ -2,84 +2,76 @@
   <a href="https://vibingon.earth"><img src="https://raw.githubusercontent.com/jarredbarber/loe-vibecode/main/themes/loe_original/static/img/logo.png" alt="Living on Earth" width="400"></a>
 </div>
 
-This is the website for [Living on Earth](http://loe.org), a weekly environmental news radio program. The site is built with Pelican (a static site generator) and automatically publishes to GitHub Pages.
+This is the website for [Living on Earth](https://loe.org), a weekly environmental news radio program. It's a static site, built with [Eleventy (11ty)](https://www.11ty.dev/) and deployed to GitHub Pages on every push to `main`.
+
+Live site: **<https://vibingon.earth>**.
 
 ## 🌍 About Living on Earth
 
-Living on Earth is a weekly, hour-long, award-winning environmental news program distributed by the Public Radio Exchange. Hosted by Steve Curwood, the program features interviews and commentary on environmental issues. The show has been broadcasting since 1991 and airs on over 300 public radio stations nationwide.
+Living on Earth is a weekly, hour-long, award-winning environmental news program distributed by PRX. Hosted by Steve Curwood, the program features interviews and commentary on environmental issues. The show has been broadcasting since 1991 and airs on over 300 public radio stations nationwide.
 
-# 🚀 Quick Start for Content Editors
+# ✍️ Editing the site
 
-### Viewing the Live Site
+There's a CMS at **<https://vibingon.earth/admin/>**. That's the easiest way in. Direct GitHub editing also works for anything the CMS doesn't surface (older archive content, theme files).
 
-The site is published at: **<https://vibingon.earth>**
+## Option A — The CMS (recommended)
 
-This guide is for the Living on Earth team. It explains how to add the weekly show and its segments to the website using GitHub.
+1. Visit <https://vibingon.earth/admin/>
+2. Click **Sign in with Token** (not "Sign in with GitHub" — that path needs an OAuth proxy we haven't deployed)
+3. The dialog has a "Generate a Personal Access Token" link — click it. GitHub opens a pre-filled token-creation page with the right (`repo`) scope. Generate, copy the token.
+4. Paste the token back into the CMS dialog.
+5. You're in. The CMS remembers you in this browser; future visits skip steps 2-4.
 
-## 1. Quick Start & Staging
+What you can do:
+- **Shows** — create or edit a weekly show. Only recent shows (current month ± 2) are listed; editing older content goes through GitHub directly.
+- **Segments** — same scope, each pairs to a show by date.
+- **Newsletters** — weekly newsletter posts.
+- **Pages** — static pages (about, stations, events…).
 
-**Everything you save here goes to the "Staging" site first.**
+Useful while editing:
+- The **Live Preview** tab at <https://vibingon.earth/admin/preview.html> renders body markdown + shortcodes the same way the live site will. Paste the body in, fill the frontmatter form, see it render in real time. Or fetch the saved version of an entry directly from GitHub.
+- Every entry has two icon-pill links in the top-left of the rendered page when you're signed in: **Edit in CMS** (deep-links the entry in /admin/) and **Edit on GitHub** (raw markdown via GitHub's web editor).
 
-1. **Go to GitHub**: Navigate to the `content/shows/[year]` folder (e.g., `content/shows/2025`).
-2. **Create a Folder**: Click **Add file > Create new file**. Name it `MM-DD/show.md` (example: `12-19/show.md`).
-3. **Copy Template**: Paste the "Show Template" below into the file.
-4. **Save (Commit)**: When you click **Commit changes**, the Staging site automatically rebuilds.
-5. **Preview**: Check your work on the Staging URL (ask your web lead for the link) before it goes Live.
+## Option B — Direct GitHub editing
 
----
+Useful for one-off edits, theme tweaks, anything the CMS doesn't surface, or older archive content.
 
-## 2. The Show File (`show.md`)
+1. Browse to the file on GitHub (e.g. `content/shows/2026/05-22/show.md`).
+2. Click the pencil icon ✏️ to open the inline editor.
+3. Edit. Scroll down. **Commit changes** with a message.
 
-This is the cover page for the episode.
+The deploy runs automatically on every push to `main`. Your edit is live in ~2 minutes.
 
-### Template
+## File anatomy
+
+### Show file: `content/shows/<year>/<MM-DD>/show.md`
 
 ```yaml
 ---
-title: Living on Earth: December 19, 2025
-date: 2025-12-19
+title: 'Living on Earth: December 19, 2025'
+date: '2025-12-19'
 category: Shows
 template: show
 megaphone_id: LOE1234567890
-image_url: https://loe.org/images/content/2025-12-19/cover.jpg
+image_url: https://loe.org/content/2025-12-19/cover.jpg
 summary: The full description of the show goes here.
 ---
-
-## Segments
-
-### [First Segment Title]({filename}segment-slug.md)
-
-### [Second Segment Title]({filename}another-segment.md)
 ```
 
-### Key Fields (Frontmatter)
+That's it — segments are auto-discovered from the matching folder under `content/segments/`. No manual segment list needed.
 
-| Field | Description | Example |
-| :--- | :--- | :--- |
-| **title** | The main headline. | `Living on Earth: December 19, 2025` |
-| **date** | Publish date (Year-Month-Day). | `2025-12-19` |
-| **megaphone_id** | The ID from the Megaphone platform. | `LOE1234567890` |
-| **summary** | Short paragraph for the homepage. | `A look at the UN Climate Summit...` |
-
-> **Important**: You must manually list the segments at the bottom using the exact format shown above.
-
----
-
-## 3. The Segment Files
-
-Each story gets its own file in the same folder. Name them descriptively, using dashes (e.g., `climate-summit.md`).
-
-### Template
+### Segment file: `content/segments/<year>/<MM-DD>/<slug>.md`
 
 ```yaml
 ---
 title: Climate Summit Reaches Agreement
-date: 2025-12-19
+date: '2025-12-19'
 category: Segments
 megaphone_id: LOE0987654321
-image_url: https://loe.org/images/content/2025-12-19/summit.jpg
+image_url: https://loe.org/content/2025-12-19/summit.jpg
 image_caption: Description of the image. (Photo: UN Photo)
 summary: A short summary of this specific segment.
+order: 1
 ---
 
 ## Transcript
@@ -88,74 +80,62 @@ HOST: Welcome back to Living on Earth.
 
 GUEST: It's great to be here.
 
-<!-- Example of how to add an image in the body text -->
-![A wind turbine in a field](https://loe.org/images/content/2025-12-19/wind-turbine.jpg)
+{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/176244/audio", label="Northern Cardinal song", duration="0.06-0.10" %}
 
-<!-- Example of a link -->
-For more information, visit the [UN Climate Change website](https://unfccc.int).
+{% cue text="CROWD CHEERS" %}
 ```
 
----
+The two shortcodes:
+- **`{% audio src="…", label="…", duration="…" %}`** — inline audio player. `src` can be any MP3 URL or a Macaulay Library CDN URL.
+- **`{% cue text="…" %}`** — stage direction / sound cue in a styled italic box. If the text starts with `SPEAKER NAME:`, the label is highlighted.
 
-## 4. Markdown cheat sheet
+`order:` is optional — it sorts segments on the show page. Without it, alphabetical filename order is used.
+
+### Image conventions
+
+- Header image: set `image_url` in frontmatter; optional `image_caption` for the caption shown under it.
+- Inline images: standard markdown `![Caption](https://example.org/img.jpg)`. If the alt text is non-empty, the image renders as a `<figure>` with a `<figcaption>`.
+
+## Behind the scenes
+
+```
+content/
+├── shows/<year>/<MM-DD>/show.md        # weekly cover page
+├── segments/<year>/<MM-DD>/<slug>.md   # individual stories, paired to show by date
+├── newsletters/<YYYY-MM-DD>-<slug>.md  # weekly newsletter
+├── pages/<slug>.md                     # standalone pages
+├── images/                             # any committed images
+├── admin/                              # the CMS
+│   ├── index.html
+│   ├── preview.html
+│   └── config.njk                      # built into /admin/config.yml
+└── *.njk                               # direct templates (index, archives, newsletter)
+
+archive/                                # pre-2025 historical content (not built)
+eleventy/                               # build config + templates + plugins
+ingest/                                 # TypeScript scraper that pulls from loe.org
+```
+
+## Markdown cheatsheet
 
 * **Bold**: `**text**` → **text**
 * **Italics**: `*text*` → *text*
 * **Links**: `[Link Text](https://google.com)`
-* **Images**: `![Alt Text](ImageURL)`
-* **Headers**: `# Title` (Big), `## Section` (Medium), `### Sub-section` (Small)
+* **Images**: `![Alt Text](ImageURL)` — non-empty alt text → captioned figure
+* **Headers**: `## Section`, `### Sub-section`
+* **HTML works**: embed `<iframe>`s, YouTube embeds, anything HTML directly in the body
 
-> **Advanced (HTML)**: You can also use standard HTML codes in these files. This is useful for **embedding videos** (like YouTube) or creating special layouts. Just paste the "Embed Code" (usually an `<iframe>` tag) directly into the text where you want it to appear.
+## Getting help
 
----
+- **CMS won't load**: check <https://www.githubstatus.com/> — Actions/Pages outages do happen.
+- **CMS says "Failed to fetch" after login**: token probably doesn't have `repo` scope. Generate a Classic PAT with full `repo` access.
+- **Build failing**: <https://github.com/jarredbarber/loe-vibecode/actions> shows the workflow runs.
+- **Anything else**: <https://github.com/jarredbarber/loe-vibecode/issues>
 
-## 5. Saving (Committing)
+## For developers
 
-When you are done editing:
+See **CLAUDE.md** for the architecture overview. **INGEST.md** documents the loe.org scraper.
 
-1. Scroll to the bottom of the page.
-2. Write a message like "Add show for Dec 19".
-3. Click the green **Commit changes** button.
+## License
 
----
-
-## 6. How This Website Works (Behind the Scenes)
-
-You might wonder where the "Save" button is or why there isn't a normal CMS like WordPress.
-
-This is a **Static Site**.
-
-1. **Files vs. Database**: Instead of storing stories in a hidden database, every show and segment is a simple text file (`.md`) that you can see and touch.
-2. **The "Build" Process**: When you "Commit" (save) a file on GitHub, a robot wakes up. It reads all these text files and uses them to build the actual HTML webpages you see in your browser.
-3. **Speed & Security**: Because the final website is just simple pages (not a complex program running every time someone clicks a link), it is incredibly fast, very secure, and almost impossible to crash.
-
-## 📖 Additional Resources
-
-### Markdown Guide
-
-* [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-* Use `#` for headers, `**bold**`, `*italic*`
-* Links: `[text](url)`
-* Images: `![alt text](url)`
-
-### Pelican Documentation
-
-* [Pelican Docs](https://docs.getpelican.com/)
-* [Writing Content](https://docs.getpelican.com/en/stable/content.html)
-* [Theming](https://docs.getpelican.com/en/stable/themes.html)
-
-### GitHub Pages
-
-* [GitHub Pages Docs](https://docs.github.com/en/pages)
-* [Custom Domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
-
-## 🤝 Getting Help
-
-* Check the "Actions" tab for build errors
-* Review this README for common tasks
-* Look at existing content files as examples
-* Test changes locally before committing
-
-## 📄 License
-
-This project is for migrating Living on Earth content. Refer to Living on Earth's licensing for content usage.
+Site code: ISC-style permissive. Content licensing per Living on Earth.

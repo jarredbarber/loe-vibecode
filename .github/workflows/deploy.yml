@@ -3,16 +3,14 @@ name: Deploy to staging site
 on:
   push:
     branches:
-      - main  # Change to 'master' if that's your default branch
-  workflow_dispatch:  # Allows manual triggering
+      - main
+  workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment; rapid saves from the CMS only
-# deploy the latest commit (older in-flight builds get cancelled).
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -20,31 +18,31 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip'
-      
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
 
-      - name: Build site
-        env:
-          SITEURL: /
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: |
+            package-lock.json
+            eleventy/package-lock.json
+
+      - name: Install root + eleventy deps
         run: |
-          pelican content -s site_config.py
-      
+          npm ci --no-audit --no-fund
+          npm --prefix eleventy ci --no-audit --no-fund
+
+      - name: Build site (Eleventy)
+        run: npm --prefix eleventy run build || (cd eleventy && npx @11ty/eleventy)
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: '_site_11ty'
 
   deploy:
     environment:
@@ -52,7 +50,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
-    
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

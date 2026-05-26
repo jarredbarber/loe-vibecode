@@ -1,0 +1,12 @@
+{
+    "name": "loe-vibecode",
+    "private": true,
+    "scripts": {
+        "test": "node --test tests/test_render.mjs",
+        "build": "cd eleventy && npx @11ty/eleventy"
+    },
+    "devDependencies": {
+        "@11ty/eleventy": "^3.1.5",
+        "cheerio": "^1.0.0"
+    }
+}

@@ -28,23 +28,36 @@ module.exports = function (eleventyConfig) {
             .sort((a, b) => Number(b.data.date) - Number(a.data.date));
     });
 
-    // Segments belonging to a specific show, used by show.njk.
-    // Looks up by date string match — show.md has date: 2026-05-22, segments
-    // have date: 2026-05-22, all live in their respective YYYY/MM-DD folders.
-    eleventyConfig.addFilter('segmentsForShow', function (show, segments) {
-        if (!show || !segments) return [];
-        const showDate = show.data ? show.data.date : show.date;
-        const showDateStr = new Date(showDate).toISOString().slice(0, 10);
-        return segments
-            .filter((s) => {
-                const segDate = s.data ? s.data.date : s.date;
-                return new Date(segDate).toISOString().slice(0, 10) === showDateStr;
-            })
-            .sort((a, b) => {
+    // Index segments by date string ("YYYY-MM-DD") so the filter below is O(1)
+    // per show instead of scanning the full segments collection each call.
+    // Built lazily on first use and cached on the segments array.
+    function indexSegments(segments) {
+        if (segments.__byDate) return segments.__byDate;
+        const byDate = new Map();
+        for (const s of segments) {
+            const d = s.data ? s.data.date : s.date;
+            const key = new Date(d).toISOString().slice(0, 10);
+            if (!byDate.has(key)) byDate.set(key, []);
+            byDate.get(key).push(s);
+        }
+        for (const arr of byDate.values()) {
+            arr.sort((a, b) => {
                 const ao = parseFloat(a.data.order) || Infinity;
                 const bo = parseFloat(b.data.order) || Infinity;
                 if (ao !== bo) return ao - bo;
                 return (a.inputPath || '').localeCompare(b.inputPath || '');
             });
+        }
+        // Cache on the array; safe because Eleventy reuses the same collection
+        // object across template renders within one build.
+        Object.defineProperty(segments, '__byDate', { value: byDate, enumerable: false });
+        return byDate;
+    }
+
+    eleventyConfig.addFilter('segmentsForShow', function (show, segments) {
+        if (!show || !segments) return [];
+        const showDate = show.data ? show.data.date : show.date;
+        const key = new Date(showDate).toISOString().slice(0, 10);
+        return indexSegments(segments).get(key) || [];
     });
 };

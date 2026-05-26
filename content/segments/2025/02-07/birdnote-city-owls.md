@@ -19,17 +19,17 @@ BirdNote®
 City Owls  
 Written by Bob Sundstrom
 
-{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/175898/audio" label="Barred Owl duet" duration="0.36-.41" %}
+{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/175898/audio", label="Barred Owl duet", duration="0.36-.41" %}
 
 You don't need to travel to Hogwarts School of Witchcraft and Wizardry – or even to a remote forest – to see owls. Some owls – including big birds like Barred Owls and Great Horned Owls – live in the city. Owls are hunters, and there’s a lot to eat in the city — like rats or even squirrels!
 
 Great Horned Owls favor urban parks, cemeteries, and botanical gardens, places with big trees. They are huge owls with pointy ear-like tufts, and they roost during the day in trees and hunt at night over open areas nearby. Look for something shaped like an enormous house cat sitting upright on a branch. At night, listen for these mellow hoots:
 
-{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/50548/audio" label="Great Horned Owl pair" duration="0.16-.21" %}
+{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/50548/audio", label="Great Horned Owl pair", duration="0.16-.21" %}
 
 Barred Owls sound rowdy by comparison.
 
-{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/175898/audio" label="Barred Owl duet" duration="0.36-.41" %}
+{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/175898/audio", label="Barred Owl duet", duration="0.36-.41" %}
 
 The Barred Owl also likes parks, especially with open spaces below the trees, because it hunts mostly inside the woods. It’s big, too, with a smoothly rounded head, and it sometimes perches down low where it’s easy to spot.
 
@@ -39,7 +39,7 @@ I'm Michael Stein.
 
 ![Two young great horned owl siblings. (Photo: © Andy Reago and Chrissy McClarren, Courtesy of BirdNote®)](https://loe.org/content/2025-02-07/BIRDNOTE_siblings.jpg)
 
-{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/175898/audio" label="Barred Owl duet" duration="0.36-.41" %}
+{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/175898/audio", label="Barred Owl duet", duration="0.36-.41" %}
 
 BirdNote is supported by American Bird Conservancy, dedicated to conserving wild birds and their habitats throughout the Americas. Learn more at abcbirds dot org.  
 \###  

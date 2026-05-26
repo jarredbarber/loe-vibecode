@@ -26,8 +26,6 @@ module.exports = function (eleventyConfig) {
     // lives in eleventy/ which doesn't see ../content/. Use the JS API
     // with paths relative to the configured input dir.
     eleventyConfig.ignores.add('../content/admin/**');
-    eleventyConfig.ignores.add('../content/shows/**');
-    eleventyConfig.ignores.add('../content/segments/**');
     eleventyConfig.ignores.add('../content/series/**');
     eleventyConfig.ignores.add('../content/extra/**');
     eleventyConfig.ignores.add('../content/images/**');
@@ -40,6 +38,7 @@ module.exports = function (eleventyConfig) {
     require('./plugins/shortcodes.js')(eleventyConfig);
     require('./plugins/filters.js')(eleventyConfig);
     require('./plugins/collections.js')(eleventyConfig);
+    require('./plugins/speaker-highlight.js')(eleventyConfig);
 
     // Compute layout + permalink per item from existing Pelican frontmatter
     // (template:, category:, slug:) so we don't have to touch every markdown
@@ -71,10 +70,21 @@ module.exports = function (eleventyConfig) {
                     const yyyy = d.getUTCFullYear();
                     const mm = String(d.getUTCMonth() + 1).padStart(2, '0');
                     const dd = String(d.getUTCDate()).padStart(2, '0');
-                    const slug =
-                        data.slug ||
-                        (data.page.filePathStem.split('/').pop()) ||
-                        (data.title || 'untitled').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+                    // For shows (no slug: field), Pelican derives slug from
+                    // the title via slugify. Match that here so URLs stay
+                    // backwards-compatible.
+                    let slug = data.slug;
+                    if (!slug && data.template === 'show') {
+                        slug = (data.title || '')
+                            .toLowerCase()
+                            .replace(/[^a-z0-9\s-]/g, '')
+                            .replace(/\s+/g, '-')
+                            .replace(/-+/g, '-')
+                            .replace(/^-|-$/g, '');
+                    }
+                    if (!slug) {
+                        slug = data.page.filePathStem.split('/').pop();
+                    }
                     return `/${yyyy}_${mm}_${dd}_${slug}.html`;
                 }
             }

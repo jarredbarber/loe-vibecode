@@ -21,19 +21,19 @@ Written by Bob Sundstrom
 
 McCANN: We often hear it said that spring “bursts” forth. As if winter’s leafless trees suddenly shimmer with green. Flowers pop. Birds start singing with all their hearts.
 
-{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/176244/audio" label="Northern Cardinal song" duration="0.06-.10" %}
+{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/176244/audio", label="Northern Cardinal song", duration="0.06-.10" %}
 
 But this seasonal change isn't instantaneous. It's a series of waves, slowly breaking waves that sweep up from the south to the north right over the continent.
 
-{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/168300/audio" label="American Robin" %}
+{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/168300/audio", label="American Robin" %}
 
 Early spring migrants like robins and bluebirds return north in March, some even in February. Across the whole of April week after week, new songbird migrants work north from the tropics adding bit by bit to spring’s ever-growing soundtrack.
 
-{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/106598/audio" label="Intermixed songs of Black-headed Grosbeak" duration="0.07-.10" %}
+{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/106598/audio", label="Intermixed songs of Black-headed Grosbeak", duration="0.07-.10" %}
 
-{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/144011/audio" label="House Wren" duration="0.10-.12" %}
+{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/144011/audio", label="House Wren", duration="0.10-.12" %}
 
-{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/191234/audio" label="Chipping Sparrow" duration="0.11-.13" %}
+{% audio src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/191234/audio", label="Chipping Sparrow", duration="0.11-.13" %}
 
 By May, birds continue flooding into northerly states and Canada. And even as late as June, birds like Willow Flycatchers \[song of Willow Flycatcher, http://macaulaylibrary.org/audio/106793] and Mourning Warblers are just completing the trek to northern breeding sites from South America. \[Mourning Warbler, http://macaulaylibrary.org/audio/191054, 0.15-.17]
 

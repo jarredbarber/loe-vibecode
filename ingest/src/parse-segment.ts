@@ -167,7 +167,10 @@ function rewriteAudioCuesToShortcodes(md: string): string {
                 const parts = [`src="${src}"`];
                 if (label) parts.push(`label="${quoteAttr(label)}"`);
                 if (duration) parts.push(`duration="${quoteAttr(duration)}"`);
-                audioParts.push(`{% audio ${parts.join(' ')} %}`);
+                // Comma-separated kwargs so the shortcode parses cleanly in
+                // both Pelican's home-grown regex parser and Eleventy/Nunjucks
+                // (which strictly requires commas between named arguments).
+                audioParts.push(`{% audio ${parts.join(', ')} %}`);
             }
             if (allAudio && audioParts.length) return audioParts.join('\n\n');
 

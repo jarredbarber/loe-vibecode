@@ -5,10 +5,10 @@ layout: layouts/base.njk
     <div class="body_resize">
         <div class="article-content">
             <h1>{{ title }}</h1>
-            {{ content | safe }}
             {% if slug == 'stations' %}
                 {% include "modules/stations_map.njk" %}
             {% endif %}
+            {{ content | safe }}
         </div>
         <p><a href="{{ site.url }}/index.html" class="silver">&larr; Back to Home</a></p>
     </div>

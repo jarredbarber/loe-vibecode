@@ -76,9 +76,9 @@ TypeScript pipeline that scrapes loe.org and emits markdown into `content/`. See
 
 Sveltia CMS at `/admin/`. See `content/admin/README.md`.
 
-### Preview service (`preview/`)
+### Preview service
 
-Fly.io-deployed Python preview render service at https://loe-vibecode.fly.dev. Currently unused (issue #4 backlog). Reserved for a future companion-tab preview.
+A Python preview service deployed at `loe-vibecode.fly.dev` existed for a while as a candidate for full-entry CMS preview; deleted from the repo when Sveltia's `registerPreviewTemplate` API didn't materialize. Issue #4 captures the design for a future JS companion-tab approach if/when it's needed. The Fly app can be destroyed (`fly apps destroy loe-vibecode`).
 
 ## Conventions
 

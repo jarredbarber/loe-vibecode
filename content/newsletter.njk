@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+permalink: /newsletter.html
+eleventyExcludeFromCollections: true
+title: Newsletters
+---
+<div class="body">
+    <div class="body_resize">
+        <div class="single-column">
+            <h1>Newsletter</h1>
+            <p>Weekly updates from the Living on Earth team.</p>
+            <ul class="newsletter-list">
+                {% for n in collections.newsletters %}
+                <li>
+                    <span class="newsletter-date">{{ n.data.date | strftime('%B %d, %Y') }}</span>:
+                    <a href="{{ site.url }}{{ n.url }}">{{ n.data.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>

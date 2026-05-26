@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+permalink: /index.html
+eleventyExcludeFromCollections: true
+---
+{% set latest = collections.shows[0] %}
+{% set recent = collections.shows.slice(1, 6) %}
+<div class="body">
+    <div class="body_resize">
+        {% if latest %}
+        <div class="featured-show">
+            <h1>This Week on <i>Living on Earth</i></h1>
+            <h2><a href="{{ site.url }}{{ latest.url }}">
+                {{ latest.data.date | strftime('%B') }} {{ latest.data.date | dayOrdinal }}, {{ latest.data.date | strftime('%Y') }}
+            </a></h2>
+            <div class="featured-content">
+                {% if latest.data.banner_url or latest.data.image_url %}
+                <img src="{{ latest.data.banner_url or latest.data.image_url }}" alt="{{ latest.data.title }}" class="featured-image" />
+                {% endif %}
+                {% if latest.data.summary %}
+                <p class="featured-summary">{{ latest.data.summary }}{% if latest.data.length %} <span class="show-length">({{ latest.data.length }})</span>{% endif %}</p>
+                {% endif %}
+                {% set thisWeekSegments = (latest | segmentsForShow(collections.segments)) %}
+                {% if thisWeekSegments.length %}
+                <div class="featured-segments">
+                    <strong>This Week:</strong>
+                    {% for segment in thisWeekSegments %}
+                    <a href="{{ site.url }}{{ segment.url }}">{{ segment.data.title }}</a>{% if not loop.last %} | {% endif %}
+                    {% endfor %}
+                </div>
+                {% endif %}
+                <div style="clear: both;"></div>
+            </div>
+            <p><a href="{{ site.url }}{{ latest.url }}" class="read-more-btn">View Full Show →</a></p>
+        </div>
+
+        <h2 class="recent-shows-header">Recent Shows</h2>
+        {% for show in recent %}
+        <div class="blog">
+            <h3><a href="{{ site.url }}{{ show.url }}">
+                {{ show.data.date | strftime('%B') }} {{ show.data.date | dayOrdinal }}, {{ show.data.date | strftime('%Y') }}
+            </a></h3>
+            <div class="clr"></div>
+            {% if show.data.thumb_url or show.data.image_url or show.data.banner_url %}
+            <img src="{{ show.data.thumb_url or show.data.image_url or show.data.banner_url }}" alt="{{ show.data.title }}" class="floated" width="150" />
+            {% endif %}
+            <p>{{ show.data.summary }}{% if show.data.length %} <span class="show-length">({{ show.data.length }})</span>{% endif %}</p>
+            <p><a href="{{ site.url }}{{ show.url }}">Read more →</a></p>
+        </div>
+        <div class="clr"></div>
+        {% endfor %}
+        {% endif %}
+        <div class="clr"></div>
+    </div>
+</div>

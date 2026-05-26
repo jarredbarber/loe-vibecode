@@ -1,0 +1,68 @@
+---
+layout: layouts/base.njk
+permalink: /archives.html
+eleventyExcludeFromCollections: true
+title: Show Archives
+---
+{# Group shows by year. Eleventy doesn't have a Jinja groupby filter
+   built-in for arbitrary expressions, so build the buckets in inline JS. #}
+{% set buckets = {} %}
+{% for show in collections.shows %}
+    {% set y = (show.data.date | strftime('%Y')) %}
+    {% if not buckets[y] %}{% set _ = buckets.__setitem__(y, []) if buckets.__setitem__ else buckets %}{% endif %}
+{% endfor %}
+<div class="body">
+    <div class="body_resize">
+        <div class="left">
+            <h1>Show Archives</h1>
+            <p>Living on Earth offers archives of all programs since August 21, 1992. Use this area to browse the archives by date or search for a particular story or topic.</p>
+
+            {% set years = [] %}
+            {% for show in collections.shows %}
+                {% set y = show.data.date | strftime('%Y') %}
+                {% if y not in years %}{% set _ = years.push(y) %}{% endif %}
+            {% endfor %}
+
+            {% for y in years %}
+            <div class="archive-year-group">
+                <h2 class="archive-year-header" id="year-{{ y }}">{{ y }}</h2>
+                <ul class="archive-list">
+                    {% for show in collections.shows %}
+                        {% if (show.data.date | strftime('%Y')) == y %}
+                        <li>
+                            <span class="archive-date">
+                                <a href="{{ site.url }}{{ show.url }}">{{ show.data.date | strftime('%B %d') }}</a>:
+                            </span>
+                            <span class="archive-segments">
+                                {% set segs = (show | segmentsForShow(collections.segments)) %}
+                                {% if segs.length %}
+                                    {% for seg in segs %}
+                                    <a href="{{ site.url }}{{ seg.url }}">{{ seg.data.title | stripQuotes }}</a>{% if not loop.last %} | {% endif %}
+                                    {% endfor %}
+                                {% else %}
+                                    <a href="{{ site.url }}{{ show.url }}">{{ show.data.title | stripQuotes }}</a>
+                                {% endif %}
+                            </span>
+                        </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="sidebar">
+            <div class="gadget">
+                <h2>Browse by Year</h2>
+                <div class="clr"></div>
+                <ul class="sb_menu">
+                    {% for y in years %}
+                    <li><a href="#year-{{ y }}">{{ y }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="clr"></div>
+    </div>
+</div>

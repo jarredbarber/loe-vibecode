@@ -21,7 +21,7 @@ One option is to use Bookshop, which Living on Earth is partnering with. If you 
 
 ## Cast and Crew
 
-<img src="{static}/images/staff/steve-curwood.gif" alt="Steve Curwood" style="float:left; margin-right:20px; margin-bottom:10px;">
+<img src="/images/staff/steve-curwood.gif" alt="Steve Curwood" style="float:left; margin-right:20px; margin-bottom:10px;">
 
 **Steve Curwood**
 *Host / Executive Producer*
@@ -34,7 +34,7 @@ Steve has been a journalist for more than 30 years with experience at NPR, CBS N
 
 ---
 
-<img src="{static}/images/staff/jenni-doering.png" width=180 alt="Jenni Doering" style="float:right; margin-left:20px; margin-bottom:10px;">
+<img src="/images/staff/jenni-doering.png" width=180 alt="Jenni Doering" style="float:right; margin-left:20px; margin-bottom:10px;">
 
 **Jenni Doering**
 *Managing Producer / resident hottie*
@@ -105,12 +105,12 @@ Sophia Pandelidis joined Living on Earth in 2022 as an Editorial Intern with a d
 Support for Living on Earth is provided by:
 
 <div class="sponsor-cloud">
-  <a href="http://www.breckenridge.com/" target="_blank"><img src="{static}/images/sponsors/breckinridge.png" alt="Breckinridge Capital Advisors" class="sponsor-logo"></a>
-  <a href="http://www.barrfoundation.org/" target="_blank"><img src="{static}/images/sponsors/barr.svg" alt="Barr Foundation" class="sponsor-logo"></a>
-  <a href="http://www.granthamfoundation.org/" target="_blank"><img src="{static}/images/sponsors/grantham.svg" alt="Grantham Foundation" class="sponsor-logo"></a>
-  <a href="http://www.nsf.gov" target="_blank"><img src="{static}/images/sponsors/nsf.svg" alt="National Science Foundation" class="sponsor-logo"></a>
-  <a href="http://www.paxworld.com/" target="_blank"><img src="{static}/images/sponsors/impax.png" alt="Impax Asset Management" class="sponsor-logo"></a>
-  <a href="http://www.stonyfield.com/" target="_blank"><img src="{static}/images/sponsors/stonyfield.png" alt="Stonyfield Farm" class="sponsor-logo"></a>
+  <a href="http://www.breckenridge.com/" target="_blank"><img src="/images/sponsors/breckinridge.png" alt="Breckinridge Capital Advisors" class="sponsor-logo"></a>
+  <a href="http://www.barrfoundation.org/" target="_blank"><img src="/images/sponsors/barr.svg" alt="Barr Foundation" class="sponsor-logo"></a>
+  <a href="http://www.granthamfoundation.org/" target="_blank"><img src="/images/sponsors/grantham.svg" alt="Grantham Foundation" class="sponsor-logo"></a>
+  <a href="http://www.nsf.gov" target="_blank"><img src="/images/sponsors/nsf.svg" alt="National Science Foundation" class="sponsor-logo"></a>
+  <a href="http://www.paxworld.com/" target="_blank"><img src="/images/sponsors/impax.png" alt="Impax Asset Management" class="sponsor-logo"></a>
+  <a href="http://www.stonyfield.com/" target="_blank"><img src="/images/sponsors/stonyfield.png" alt="Stonyfield Farm" class="sponsor-logo"></a>
 </div>
 
 ### Major Contributors

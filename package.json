@@ -15,8 +15,10 @@
     "dependencies": {
         "@ai-sdk/google": "^3.0.79",
         "ai": "^6.0.191",
+        "all-the-cities": "^3.1.0",
         "gray-matter": "^4.0.3",
         "js-yaml": "^4.1.1",
+        "us-zips": "^2022.9.1",
         "zod": "^4.4.3"
     }
 }

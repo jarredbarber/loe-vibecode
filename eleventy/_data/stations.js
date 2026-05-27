@@ -21,7 +21,10 @@ const STATE_CODES = {
     'Wisconsin': 'WI', 'Wyoming': 'WY'
 };
 
-// Adjacency list (2-letter codes). Used when home state has <3 stations.
+// Adjacency list kept for reference but no longer used since the zip-lookup
+// switched from state-then-adjacent-state to nationwide Haversine on per-city
+// coordinates. Leave for potential future use.
+// eslint-disable-next-line no-unused-vars
 const ADJACENT = {
     AL: ['FL', 'GA', 'TN', 'MS'],
     AK: ['WA'],
@@ -76,6 +79,35 @@ const ADJACENT = {
     WY: ['MT', 'SD', 'NE', 'CO', 'UT', 'ID'],
 };
 
+// Build-time geocoder: city + state code → [lat, lng]. all-the-cities ships
+// world cities w/ population; filter by adminCode === state code and pick
+// the most-populous match. Returns null for unknowns (a handful of small
+// towns + ones with parentheticals in the source).
+const allCities = require('all-the-cities');
+const cityIndex = new Map();
+for (const c of allCities) {
+    if (c.country !== 'US' || !c.adminCode) continue;
+    const key = `${c.name.toLowerCase()}|${c.adminCode}`;
+    const prev = cityIndex.get(key);
+    if (!prev || (c.population || 0) > (prev.population || 0)) cityIndex.set(key, c);
+}
+function geocodeCity(city, stateCode) {
+    // The source has entries like "Cape and Islands (Woods Hole)",
+    // "Charlottesville/Lexington", etc. Try a few normalizations.
+    const variants = [];
+    const stripped = city.replace(/\s*\([^)]*\)\s*/g, '').trim();
+    variants.push(stripped);
+    const slashFirst = stripped.split('/')[0].trim();
+    if (slashFirst !== stripped) variants.push(slashFirst);
+    const paren = (city.match(/\(([^)]+)\)/) || [])[1];
+    if (paren) variants.push(paren.trim());
+    for (const v of variants) {
+        const hit = cityIndex.get(`${v.toLowerCase()}|${stateCode}`);
+        if (hit) return hit.loc.coordinates; // [lng, lat]
+    }
+    return null;
+}
+
 function parseStations() {
     const filePath = path.join(__dirname, '..', '..', 'content', 'pages', 'stations.md');
     const md = fs.readFileSync(filePath, 'utf-8');
@@ -116,6 +148,7 @@ function parseStations() {
         const callsign = nameParts[0];
         const frequency = nameParts.slice(1).join(' ');
 
+        const coords = geocodeCity(city, currentStateCode);
         stations.push({
             state: currentState,
             stateCode: currentStateCode,
@@ -124,6 +157,9 @@ function parseStations() {
             frequency,
             schedule,
             url,
+            // [lat, lng] for downstream Haversine math (all-the-cities
+            // emits [lng, lat] per GeoJSON Point — flip it).
+            coords: coords ? [coords[1], coords[0]] : null,
         });
     }
 

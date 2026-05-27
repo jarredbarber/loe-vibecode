@@ -7,6 +7,31 @@
     <link rel="icon" href="/theme/img/logo.png">
 </head>
 <body>
+    <!-- Floating link to /admin/preview.html. Sveltia's own preview pane
+         renders body markdown without our shortcodes / speaker-highlight
+         transforms, so for full-fidelity preview the editor opens the
+         companion tab. Fixed-position so it overlays the CMS UI cleanly. -->
+    <style>
+        .loe-preview-link {
+            position: fixed;
+            top: 12px;
+            right: 16px;
+            z-index: 10000;
+            padding: 6px 12px;
+            background: #88BDBD;
+            color: #fff;
+            font: 13px/1 'Space Mono', system-ui, sans-serif;
+            text-decoration: none;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        .loe-preview-link:hover { background: #6ea8a8; }
+    </style>
+    <a class="loe-preview-link" href="/admin/preview.html" target="_blank" rel="noopener"
+       title="Open the full-fidelity preview tab in a new window">
+        Live preview ↗
+    </a>
+
     <!-- Sveltia CMS: Decap-compatible config, faster UI. -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
 

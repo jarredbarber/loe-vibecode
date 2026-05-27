@@ -48,7 +48,9 @@ function hastToMarkdown(node: Element | Root): string {
         .use(remarkStringify, { bullet: '-', emphasis: '*', strong: '*', fences: true });
     const mdast = proc.runSync(node as never);
     const raw = proc.stringify(mdast as never).toString();
-    return rewriteAudioCuesToShortcodes(splitInlineBracketCues(fixHardBreaks(unescapeSafe(raw))));
+    return rewriteInlineAudioCues(
+        rewriteAudioCuesToShortcodes(splitInlineBracketCues(fixHardBreaks(unescapeSafe(raw)))),
+    );
 }
 
 /**
@@ -182,6 +184,31 @@ function rewriteAudioCuesToShortcodes(md: string): string {
 
 function quoteAttr(s: string): string {
     return s.replace(/"/g, '&quot;');
+}
+
+/**
+ * After standalone cues become shortcodes, what's left mid-paragraph are
+ * inline references like `\[song of Willow Flycatcher, http://macaulay.../106793]`
+ * — these were escaped by remark-stringify and render as literal text. Convert
+ * to a plain markdown link `[label](resolved-url)` so the reader can click to
+ * hear the audio. The duration suffix (if any) is dropped — it's not useful in
+ * link form.
+ *
+ * Conservative: only matches cues that contain a Macaulay URL, leaving other
+ * bracketed text alone (could be a citation, a list, etc.).
+ */
+function rewriteInlineAudioCues(md: string): string {
+    return md.replace(/\\?\[([^\]\n]*?macaulaylibrary\.org[^\]\n]*?)\]/gi, (whole, inner) => {
+        const urlMatch = inner.match(URL_RE);
+        if (!urlMatch) return whole;
+        const resolved = resolveAudioUrl(urlMatch[0]);
+        if (!resolved) return whole;
+        const idx = inner.indexOf(urlMatch[0]);
+        const label = inner.slice(0, idx).replace(/[,;\s]+$/, '').trim();
+        // Treat empty / numeric-only labels as "audio" — better than `[](url)`.
+        const linkText = label && !/^[\d.\-\s]+$/.test(label) ? label : 'audio';
+        return `[${linkText}](${resolved})`;
+    });
 }
 
 /**

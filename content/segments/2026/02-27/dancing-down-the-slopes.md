@@ -1,7 +1,7 @@
 ---
 title: Dancing Down the Slopes
 slug: dancing-down-the-slopes
-date: '2026-02-27'
+date: 2026-02-27
 category: Segments
 order: '6'
 megaphone_id: LOE9557944467

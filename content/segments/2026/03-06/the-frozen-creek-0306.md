@@ -1,7 +1,7 @@
 ---
 title: '"The Frozen Creek"'
 slug: the-frozen-creek-0306
-date: '2026-03-06'
+date: 2026-03-06
 category: Segments
 order: '4'
 megaphone_id: LOE4731648635

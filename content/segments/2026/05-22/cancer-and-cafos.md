@@ -1,19 +1,18 @@
 ---
 title: Cancer and CAFOS
+slug: cancer-and-cafos
 date: 2026-05-22
 category: Segments
+order: '1'
 megaphone_id: LOE7081512813
 image_url: https://loe.org/content/2026-05-22/CAFOS_turkey.jpg
 image_caption: 'Large Concentrated Animal Feeding Operations, or CAFOs, can contain thousands of animals in tight quarters to maximize production. The EPA rates as large CAFOs with 55,000 or more turkeys. (Photo: Mercy for Animals, Wikimedia Commons, CC BY 2.0)'
 summary: Living near many large Concentrated Animal Feeding Operations or CAFOs appears to raise cancer risk, according to a study from Yale researchers. CAFOs pack thousands of pigs, cows, and chickens together to produce meat, dairy, and eggs. All those crowded animals can produce a lot of waste that pollutes air and water, which may explain an association between CAFOs and cancer, though the study does not prove causation. Brian Bienkowski, managing editor of The New Lede, joins Host Steve Curwood to talk about the research and how concerns transcend politics.
-order: 1
-slug: cancer-and-cafos
 tags:
   - cafos-livestock
   - public-health
   - cancer-environment
 ---
-
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00021&segmentID=1 -->
 
 ## Transcript
@@ -86,7 +85,7 @@ BIENKOWSKI: This is a tricky one. There's a lot of people, there's a lot of dema
 
 CURWOOD: Brian, at the end of the day, how loud are your alarm bells going off here? I mean, how concerning is all of this to you as a journalist, looking at this to serve the public?
 
-BIENKOWSKI: Having been a journalist for 16 years, my alarm bells are very dulled at this point. However, I will say, when you see one of these CAFOs, it's jarring. It's jarring. The idea of the family farm, the idea of the red barn, cows grazing, pigs grazing, rolling around in the mud, the kids playing with them, that idea is, I mean, it exists in the country in certain places, but that is not where your meat is coming from when you go to the grocery store. And this massive amounts of pollution, if you look at, again, not to go back to Iowa, but that is the epicenter of this, and if you look at a state that has had very little guardrails with how they regulate, and just consider zoning when it comes to agriculture, and have just allowed their state to be completely full of agriculture. They're full of pollution now. Their big cities, as we mentioned, cannot keep up with the amount of nitrates that are coming into their water system. So, that is a public health crisis. And just last week, more than 80 groups sent a letter to HHS and the US EPA saying that there is a nitrate drinking water public health crisis in this country and told them they need to take immediate action. So, it's not just me saying this. There are a lot of people right now who say that this is a crisis going on across the country. 
+BIENKOWSKI: Having been a journalist for 16 years, my alarm bells are very dulled at this point. However, I will say, when you see one of these CAFOs, it's jarring. It's jarring. The idea of the family farm, the idea of the red barn, cows grazing, pigs grazing, rolling around in the mud, the kids playing with them, that idea is, I mean, it exists in the country in certain places, but that is not where your meat is coming from when you go to the grocery store. And this massive amounts of pollution, if you look at, again, not to go back to Iowa, but that is the epicenter of this, and if you look at a state that has had very little guardrails with how they regulate, and just consider zoning when it comes to agriculture, and have just allowed their state to be completely full of agriculture. They're full of pollution now. Their big cities, as we mentioned, cannot keep up with the amount of nitrates that are coming into their water system. So, that is a public health crisis. And just last week, more than 80 groups sent a letter to HHS and the US EPA saying that there is a nitrate drinking water public health crisis in this country and told them they need to take immediate action. So, it's not just me saying this. There are a lot of people right now who say that this is a crisis going on across the country.
 
 CURWOOD: Brian Bienkowski is the managing editor of The New Lede. Thanks so much for taking the time with us today, Brian.
 

@@ -1,7 +1,7 @@
 ---
 title: Wastewater to Wealth
 slug: wastewater-to-wealth
-date: '2026-02-27'
+date: 2026-02-27
 category: Segments
 order: '5'
 megaphone_id: LOE9188623546

@@ -11,27 +11,6 @@ layout: layouts/base.njk
         <div class="single-column">
             {% include "modules/_article_header.njk" %}
             {{ content | safe }}
-            {% if tags and tags.length %}
-            <style>
-                .segment-tags { margin: 1.5em 0 0.5em; display: flex; flex-wrap: wrap; gap: 0.4em; }
-                .segment-tags .tag-pill {
-                    display: inline-block;
-                    padding: 0.15em 0.6em;
-                    background: #eef1ed;
-                    color: #2a4a2a;
-                    border-radius: 999px;
-                    font-size: 0.85em;
-                    text-decoration: none;
-                    border: 1px solid #d5dcd2;
-                }
-                .segment-tags .tag-pill:hover { background: #dde6d8; }
-            </style>
-            <div class="segment-tags">
-                {% for t in tags %}
-                <a href="{{ site.url }}/tags/{{ t }}.html" class="tag-pill">{{ t }}</a>
-                {% endfor %}
-            </div>
-            {% endif %}
         </div>
         <p><a href="{{ site.url }}/index.html" class="silver">&larr; Back to Home</a></p>
     </div>

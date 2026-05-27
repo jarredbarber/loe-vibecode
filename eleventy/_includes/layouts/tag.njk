@@ -61,15 +61,17 @@ layout: layouts/base.njk
                     border-right: 1px solid #d5d8d2;
                 }
                 .tag-sparkline-bars {
-                    width: 100%;
-                    height: 100%;
+                    /* Explicit height so the inline SVG resolves
+                       height:100% reliably. Without this the SVG was
+                       falling back to its intrinsic 150px ratio. */
+                    height: 84px;
                     min-width: 0;
                     border-bottom: 1px solid #c5c8c2;
                 }
                 .tag-sparkline-bars svg {
                     display: block;
                     width: 100%;
-                    height: 100%;
+                    height: 84px;
                 }
                 .tag-sparkline-bar {
                     fill: #8bb04d;

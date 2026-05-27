@@ -248,23 +248,22 @@
         async function readDraftFromIndexedDB() {
             // Sveltia stores drafts in IndexedDB; the GitHub backend names
             // the DB literally "github:<owner>/<repo>" (see Sveltia source
-            // src/lib/services/backends/git/github/index.js). Don't filter
-            // by name — just enumerate every DB and look for any with a
-            // "draft-backups" object store, which is Sveltia-specific.
-            if (!indexedDB.databases) throw new Error('indexedDB.databases() not supported in this browser');
-            const dbs = await indexedDB.databases();
-            if (!dbs.length) throw new Error('No IndexedDB databases at this origin — open the CMS and save a draft first.');
-            for (const meta of dbs) {
-                if (!meta.name) continue;
+            // src/lib/services/backends/git/github/index.js).
+            //
+            // Strategy: try the known DB name directly first (works in every
+            // browser, including older Safari that lacks indexedDB.databases()).
+            // Fall back to enumeration for forks/edge cases.
+
+            async function readDraftsFromDB(name) {
                 let db;
                 try {
                     db = await new Promise((res, rej) => {
-                        const r = indexedDB.open(meta.name);
+                        const r = indexedDB.open(name);
                         r.onsuccess = () => res(r.result);
                         r.onerror = () => rej(r.error);
                     });
-                } catch { continue; }
-                if (![...db.objectStoreNames].includes('draft-backups')) { db.close(); continue; }
+                } catch { return null; }
+                if (![...db.objectStoreNames].includes('draft-backups')) { db.close(); return null; }
                 const tx = db.transaction('draft-backups', 'readonly');
                 const all = await new Promise((res, rej) => {
                     const r = tx.objectStore('draft-backups').getAll();
@@ -272,7 +271,23 @@
                     r.onerror = () => rej(r.error);
                 });
                 db.close();
-                if (all.length) return all[all.length - 1];
+                return all;
+            }
+
+            // 1) Direct open of the known Sveltia GitHub backend DB.
+            const known = await readDraftsFromDB('github:jarredbarber/loe-vibecode');
+            if (known && known.length) return known[known.length - 1];
+
+            // 2) Fall back to enumeration (won't run on older Safari).
+            if (!indexedDB.databases) {
+                throw new Error('No saved drafts found — Sveltia only persists to IndexedDB on explicit save (not as-you-type).');
+            }
+            const dbs = await indexedDB.databases();
+            if (!dbs.length) throw new Error('No IndexedDB databases at this origin — open the CMS and save a draft first.');
+            for (const meta of dbs) {
+                if (!meta.name) continue;
+                const all = await readDraftsFromDB(meta.name);
+                if (all && all.length) return all[all.length - 1];
             }
             throw new Error('No saved drafts found — Sveltia only persists to IndexedDB on explicit save (not as-you-type).');
         }

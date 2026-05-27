@@ -121,26 +121,53 @@ function sample(arr, n, seed) {
     return out;
 }
 
-// 10-day rolling window — the build runs on push, not nightly, so a
-// Tuesday deploy can be shown all week. Pulling from a window of the past
-// 10 days keeps the section reasonable when shown days after a build.
-const WINDOW_DAYS = 10;
+// Anchor the 7-day window to the latest show's air date, not to today.
+// Builds run on push (not nightly), and the homepage's hero block already
+// frames content around "This week on LOE". Aligning the history picks
+// to the same week makes the two sections read as a pair — and means a
+// stale build still shows correct picks for the week being broadcast.
+const WINDOW_DAYS = 7;
+const SHOWS_ROOT = path.resolve(__dirname, '..', '..', 'content', 'shows');
+
+function latestShowDate() {
+    let years = [];
+    try {
+        years = fs.readdirSync(SHOWS_ROOT, { withFileTypes: true })
+            .filter((e) => e.isDirectory() && /^\d{4}$/.test(e.name))
+            .map((e) => e.name)
+            .sort();
+    } catch { return null; }
+    for (const year of years.reverse()) {
+        let mmdds = [];
+        try {
+            mmdds = fs.readdirSync(path.join(SHOWS_ROOT, year))
+                .filter((m) => /^\d{2}-\d{2}$/.test(m))
+                .sort();
+        } catch { continue; }
+        if (!mmdds.length) continue;
+        const [mm, dd] = mmdds[mmdds.length - 1].split('-');
+        return new Date(Date.UTC(parseInt(year, 10), parseInt(mm, 10) - 1, parseInt(dd, 10)));
+    }
+    return null;
+}
 
 module.exports = function () {
     const index = buildIndex();
-    const now = new Date();
-    // Today + the past WINDOW_DAYS-1 calendar days as mm-dd strings.
+    // Anchor on the latest show's air date; fall back to today if no shows
+    // are found (fresh repo, etc.).
+    const anchor = latestShowDate() || new Date();
+    // Anchor day + past WINDOW_DAYS-1 days as mm-dd strings.
     const windowDays = [];
     for (let i = 0; i < WINDOW_DAYS; i++) {
-        const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - i));
+        const d = new Date(Date.UTC(anchor.getUTCFullYear(), anchor.getUTCMonth(), anchor.getUTCDate() - i));
         windowDays.push(
             String(d.getUTCMonth() + 1).padStart(2, '0') + '-' +
             String(d.getUTCDate()).padStart(2, '0')
         );
     }
     const bucket = windowDays.flatMap((mmdd) => index[mmdd] || []);
-    // Seed with the window endpoints so picks stay stable across rebuilds
-    // within the same week but rotate as the window slides.
+    // Seed with the window endpoints so picks are stable across rebuilds in
+    // the same week but rotate when a new show shifts the anchor.
     const seed = hashStr(windowDays[0] + '|' + windowDays[WINDOW_DAYS - 1]);
     const picks = sample(bucket, 3, seed)
         .sort((a, b) => (a.date < b.date ? 1 : -1)); // newest-first within picks

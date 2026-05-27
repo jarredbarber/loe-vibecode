@@ -1,15 +1,14 @@
 /**
- * Eleventy config — parallel build alongside Pelican during the migration.
+ * Eleventy config.
  *
- *   input:  ../content/   (shared with Pelican)
- *   output: ../_site_11ty/ (NOT _site/ so we can A/B compare against Pelican)
+ *   input:  ../content/
+ *   output: ../_site_11ty/
  *
- * Plugins live in ./plugins/ as JS equivalents of the Pelican ones in
- * ../plugins/. Theme templates live in _includes/.
+ * Theme templates: _includes/. Plugins: ./plugins/.
  *
  * Run from eleventy/:
- *   npx @11ty/eleventy --serve   # dev with live reload
- *   npx @11ty/eleventy             # one-shot build
+ *   npx @11ty/eleventy --serve     # dev with live reload
+ *   npx @11ty/eleventy              # one-shot build
  *   npx @11ty/eleventy --incremental # builds only changed inputs
  */
 
@@ -35,7 +34,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.ignores.add('../content/admin/README.md');
     eleventyConfig.ignores.add('../content/extra/**');
     eleventyConfig.ignores.add('../content/images/**');
-    eleventyConfig.ignores.add('../content/static/**');
 
     // Watch theme files so dev server reloads on CSS/JS changes.
     eleventyConfig.addWatchTarget('../themes/loe_original/');

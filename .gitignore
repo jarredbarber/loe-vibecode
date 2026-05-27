@@ -1,5 +1,4 @@
 _site
-pelican-cache
 __pycache__
 .venv
 venv

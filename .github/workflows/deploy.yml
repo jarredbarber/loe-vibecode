@@ -1,4 +1,4 @@
-name: Deploy to staging site
+name: Deploy site
 
 on:
   push:
@@ -37,7 +37,7 @@ jobs:
           npm --prefix eleventy ci --no-audit --no-fund
 
       - name: Build site (Eleventy)
-        run: npm --prefix eleventy run build || (cd eleventy && npx @11ty/eleventy)
+        run: npm --prefix eleventy run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4

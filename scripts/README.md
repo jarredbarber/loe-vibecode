@@ -12,12 +12,17 @@ npm run check-show -- --date 2026-05-22  # specific date
 npm run check-show -- --quiet            # suppress per-URL log
 ```
 
-Exit 0 if no failures, 1 otherwise. 403/429 responses (bot-blocked but typically live) are warnings rather than failures. See [#32](https://github.com/jarredbarber/loe-vibecode/issues/32) for the planned LLM-based copyedit companion.
+Exit 0 if no failures, 1 otherwise. 403/429 responses (bot-blocked but typically live) are warnings rather than failures.
 
-## `convert-frontmatter-to-yaml.py`
+## `copyedit-check.mjs`
 
-One-shot conversion that rewrote legacy `key: value` Meta-style frontmatter into real YAML across every `content/**/*.md` file. Run once during the YAML migration; keep around in case the pipeline ever needs it again.
+LLM advisory pass over the same show + segments — typos, broken speaker labels, frontmatter mismatches, intra-show contradictions. Citations include line numbers so editors can click "Edit on GitHub" and land directly on the right line.
 
-## `dev_watcher.sh`
+```bash
+npm run copyedit-check                       # latest show
+npm run copyedit-check -- --date 2026-05-22  # specific date
+```
 
-Local dev loop: rebuild Pelican and serve on `:8000` when content changes. Requires `fswatch` (Homebrew on macOS, `apt install fswatch` on Linux).
+Always exits 0 — output is advisory, never blocking. Requires `GEMINI_API_KEY`. Override the model via `LLM_MODEL=…` and thinking level via `LLM_THINKING_LEVEL=low|medium|high` (defaults: `gemini-3-flash-preview`, `high`). ~5¢ per run at default settings.
+
+Both scripts also run in CI from `.github/workflows/check-show.yml` — `check-show.mjs` on every push to content; both on manual workflow_dispatch.

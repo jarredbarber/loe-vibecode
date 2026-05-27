@@ -93,7 +93,11 @@ const handleAuth = async (request, env) => {
 
         const params = new URLSearchParams({
             client_id: GITHUB_CLIENT_ID,
-            scope: 'repo,user',
+            // loe-vibecode is public, so public_repo is sufficient. Tokens
+            // still cover all of the editor's public repos (an OAuth-App
+            // limitation; true per-repo scoping requires GitHub Apps,
+            // which Sveltia doesn't natively support).
+            scope: 'public_repo,user',
             state: csrfToken,
         });
 

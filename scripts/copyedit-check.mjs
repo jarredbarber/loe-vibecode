@@ -24,7 +24,7 @@ const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const dateArg = args.includes('--date') ? args[args.indexOf('--date') + 1] : null;
 const quiet = args.includes('--quiet');
-const modelName = process.env.LLM_MODEL || 'gemini-2.5-flash';
+const modelName = process.env.LLM_MODEL || 'gemini-3.1-flash-lite';
 
 if (!process.env.GEMINI_API_KEY && !process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
     console.error('GEMINI_API_KEY (or GOOGLE_GENERATIVE_AI_API_KEY) not set.');

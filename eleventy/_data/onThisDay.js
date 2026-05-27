@@ -121,17 +121,28 @@ function sample(arr, n, seed) {
     return out;
 }
 
+// 10-day rolling window — the build runs on push, not nightly, so a
+// Tuesday deploy can be shown all week. Pulling from a window of the past
+// 10 days keeps the section reasonable when shown days after a build.
+const WINDOW_DAYS = 10;
+
 module.exports = function () {
     const index = buildIndex();
     const now = new Date();
-    const mm = String(now.getUTCMonth() + 1).padStart(2, '0');
-    const dd = String(now.getUTCDate()).padStart(2, '0');
-    const today = `${mm}-${dd}`;
-    const bucket = index[today] || [];
-    // Seed with the calendar date so picks change daily but stay deterministic
-    // within a single day (multiple rebuilds → identical homepage).
-    const seed = hashStr(`${now.getUTCFullYear()}-${today}`);
+    // Today + the past WINDOW_DAYS-1 calendar days as mm-dd strings.
+    const windowDays = [];
+    for (let i = 0; i < WINDOW_DAYS; i++) {
+        const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - i));
+        windowDays.push(
+            String(d.getUTCMonth() + 1).padStart(2, '0') + '-' +
+            String(d.getUTCDate()).padStart(2, '0')
+        );
+    }
+    const bucket = windowDays.flatMap((mmdd) => index[mmdd] || []);
+    // Seed with the window endpoints so picks stay stable across rebuilds
+    // within the same week but rotate as the window slides.
+    const seed = hashStr(windowDays[0] + '|' + windowDays[WINDOW_DAYS - 1]);
     const picks = sample(bucket, 3, seed)
         .sort((a, b) => (a.date < b.date ? 1 : -1)); // newest-first within picks
-    return { today, picks };
+    return { window: windowDays, picks };
 };

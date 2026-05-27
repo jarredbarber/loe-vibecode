@@ -294,6 +294,32 @@ const isCollaborator = async (repo, token, hostname) => {
     }
 };
 
+/**
+ * Proxy the Megaphone RSS feed so we can drop the 33k-line static
+ * mirror at content/extra/podcast.rss. Cloudflare's edge caches the
+ * response for an hour, so upstream sees at most ~1 request/hour/PoP.
+ */
+const handlePodcastRss = async () => {
+    let upstream;
+    try {
+        upstream = await fetch('https://feeds.megaphone.fm/livingonearth');
+    } catch {
+        return new Response('Failed to fetch upstream RSS feed.', { status: 502 });
+    }
+
+    if (!upstream.ok) {
+        return new Response(`Upstream RSS feed returned ${upstream.status}.`, { status: 502 });
+    }
+
+    return new Response(upstream.body, {
+        status: 200,
+        headers: {
+            'Content-Type': 'application/rss+xml',
+            'Cache-Control': 'public, max-age=3600, s-maxage=3600',
+        },
+    });
+};
+
 export default {
     async fetch(request, env) {
         const { method, url } = request;
@@ -305,6 +331,10 @@ export default {
 
         if (method === 'GET' && ['/callback', '/oauth/redirect'].includes(pathname)) {
             return handleCallback(request, env);
+        }
+
+        if (method === 'GET' && pathname === '/podcast.rss') {
+            return handlePodcastRss();
         }
 
         return new Response('', { status: 404 });

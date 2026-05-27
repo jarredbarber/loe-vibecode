@@ -93,12 +93,29 @@ function buildIndex() {
     return index;
 }
 
-function sample(arr, n) {
+// Deterministic 32-bit hash → use as a PRNG seed so each day's pick is
+// stable across rebuilds (was non-deterministic with Math.random — dirty
+// diffs on every prod build).
+function hashStr(s) {
+    let h = 2166136261;
+    for (let i = 0; i < s.length; i++) {
+        h ^= s.charCodeAt(i);
+        h = Math.imul(h, 16777619);
+    }
+    return h >>> 0;
+}
+
+function sample(arr, n, seed) {
     if (arr.length <= n) return arr.slice();
     const copy = arr.slice();
     const out = [];
+    let s = seed >>> 0;
     for (let i = 0; i < n; i++) {
-        const idx = Math.floor(Math.random() * copy.length);
+        // xorshift32 — cheap, deterministic, plenty good for picking 3 of N.
+        s ^= s << 13; s >>>= 0;
+        s ^= s >>> 17;
+        s ^= s << 5; s >>>= 0;
+        const idx = s % copy.length;
         out.push(copy.splice(idx, 1)[0]);
     }
     return out;
@@ -111,7 +128,10 @@ module.exports = function () {
     const dd = String(now.getUTCDate()).padStart(2, '0');
     const today = `${mm}-${dd}`;
     const bucket = index[today] || [];
-    const picks = sample(bucket, 3)
+    // Seed with the calendar date so picks change daily but stay deterministic
+    // within a single day (multiple rebuilds → identical homepage).
+    const seed = hashStr(`${now.getUTCFullYear()}-${today}`);
+    const picks = sample(bucket, 3, seed)
         .sort((a, b) => (a.date < b.date ? 1 : -1)); // newest-first within picks
     return { today, picks };
 };

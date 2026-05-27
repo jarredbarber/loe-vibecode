@@ -22,9 +22,12 @@ function strftime(value, fmt) {
     const d = asDate(value);
     if (!d || isNaN(d)) return '';
     // Subset of strftime used in the Pelican templates.
+    // %-d / %-m: numeric, no zero padding (GNU extension).
     return fmt
         .replace('%B', MONTHS[d.getUTCMonth()])
         .replace('%Y', String(d.getUTCFullYear()))
+        .replace('%-m', String(d.getUTCMonth() + 1))
+        .replace('%-d', String(d.getUTCDate()))
         .replace('%m', String(d.getUTCMonth() + 1).padStart(2, '0'))
         .replace('%d', String(d.getUTCDate()).padStart(2, '0'));
 }

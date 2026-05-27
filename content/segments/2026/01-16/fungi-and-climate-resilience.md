@@ -8,6 +8,8 @@ megaphone_id: LOE5019486409
 image_url: https://loe.org/content/2026-01-16/KIERS_macarthurfellow.jpg
 image_caption: 'Toby Kiers is a 2025 MacArthur Fellow and a cofounder of SPUN, the Society for the Protection of Underground Networks. (Photo: Seth Carnill)'
 summary: Mycorrhizal fungi form intricate and vital partnerships with plants through enormous underground networks that could help ecosystems and agriculture withstand climate impacts. But these fungi are threatened by habitat loss, nitrogen pollution and more. 2025 MacArthur Fellow Toby Kiers is leading fungi research and conservation efforts. She shares with Host Jenni Doering the wonders of fungi and why they’re worth protecting.
+tags:
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00003&segmentID=4 -->
 

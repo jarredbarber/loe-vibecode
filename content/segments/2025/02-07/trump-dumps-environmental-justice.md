@@ -1,13 +1,15 @@
 ---
 title: Trump Dumps Environmental Justice
 slug: trump-dumps-environmental-justice
-date: '2025-02-07'
+date: 2025-02-07
 category: Segments
 order: '3'
 megaphone_id: LOE1347021722
 image_url: https://loe.org/content/2025-02-07/EJ_trump.jpg
 image_caption: 'During his first week back in office President Trump signed several executive orders to roll back environmental justice policies. (Photo: Michael Vadon, Wikimedia Commons, CC BY-SA 4.0)'
 summary: Black, Brown and low-income communities pushing back against industrial pollution have always had an uphill battle. But now those environmental justice fights may get even harder, as the Trump administration shutters federal environmental justice programs. Patrice Simms is Vice President of Litigation for Healthy Communities at Earthjustice and joins Host Jenni Doering to discuss the federal government’s role in protecting people from environmental discrimination.
+tags:
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00006&segmentID=3 -->
 

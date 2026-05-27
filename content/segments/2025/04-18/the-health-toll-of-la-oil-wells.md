@@ -1,13 +1,19 @@
 ---
 title: The Health Toll of L.A. Oil Wells
 slug: the-health-toll-of-la-oil-wells
-date: '2025-04-18'
+date: 2025-04-18
 category: Segments
 order: '2'
 megaphone_id: LOE2680498661
 image_url: https://loe.org/content/2022-07-29/GOLDMAN_oilwells.jpg
 image_caption: 'Oil wells in Los Angeles, California (Photo: Tamara Leigh Photography for the Goldman Environmental Prize)'
 summary: "There are about 700 active oil and gas wells in the city of Los Angeles, mostly located in minority communities like the one where young activist Nalleli Cobo grew up, just 30 feet from a well. She and her neighbors have suffered for years from headaches, asthma, and cancer --\_illnesses linked\_to the proximity of oil well sites. For her work fighting the oil companies operating those wells Nalleli was awarded the 2022 Goldman Environmental prize. She spoke with Living on Earth's Paloma Beltran."
+tags:
+  - fossil-fuels
+  - oil-gas
+  - environmental-justice
+  - toxic-exposure
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00016&segmentID=2 -->
 

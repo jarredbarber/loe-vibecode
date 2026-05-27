@@ -1,13 +1,16 @@
 ---
 title: The Light Between Apple Trees
 slug: the-light-between-apple-trees
-date: '2025-09-19'
+date: 2025-09-19
 category: Segments
 order: '4'
 megaphone_id: LOE6091949843
 image_url: https://loe.org/content/2025-09-19/APPLE_cover.jpg
 image_caption: 'The Light Between Apple Trees: Rediscovering the Wild Through a Beloved American Fruit, by Priyanka Kumar. (Photo: Courtesy of Island Press, Jacket design by Jordan Wannemacher)'
 summary: 'As the air turns crisp in the northern U.S., many of us are heading out for the autumn tradition of apple picking. Priyanka Kumar, author of The Light Between Apple Trees: Rediscovering the Wild Through a Beloved American Fruit, joins Host Jenni Doering to share the fascinating and complex science and history behind the iconic apple and why apple trees have so captivated her since childhood.'
+tags:
+  - farming
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00038&segmentID=4 -->
 

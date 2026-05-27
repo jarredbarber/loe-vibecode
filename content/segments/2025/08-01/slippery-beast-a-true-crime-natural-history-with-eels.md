@@ -1,13 +1,19 @@
 ---
 title: 'Slippery Beast: A True Crime Natural History, with Eels'
 slug: slippery-beast-a-true-crime-natural-history-with-eels
-date: '2025-08-01'
+date: 2025-08-01
 category: Segments
 order: '1'
 megaphone_id: LOE8484802274
 image_url: https://loe.org/content/2024-11-08/EEL_cover.jpg
 image_caption: 'Slippery Beast: A True Crime Natural History, with Eels  tells the story of how a booming poaching industry is impacting the American Eel. (Photo: Courtesy of Abrams Books)'
 summary: 'Eels play an important ecological role in many rivers and streams, but they’re so eel-usive that even eel scientists have been challenged to observe them mating in the wild. Ellen Ruppel Shell is author of the 2024 book Slippery Beast: A True Crime Natural History, with Eels, and she sheds light on the eel’s murky ecology and path through the seafood industry.'
+tags:
+  - fish
+  - rivers-watersheds
+  - book-review
+  - supply-chain
+  - endangered-species
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00031&segmentID=1 -->
 

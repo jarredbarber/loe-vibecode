@@ -1,13 +1,17 @@
 ---
 title: Sounds of Soil
 slug: sounds-of-soil
-date: '2025-08-15'
+date: 2025-08-15
 category: Segments
 order: '1'
 megaphone_id: LOE3031227180
 image_url: https://loe.org/content/2024-05-24/SOUNDS_sampling.jpeg
 image_caption: 'Listening to sounds in the soil is a minimally invasive way to measure biodiversity underground. (Photo: Courtesy of Baker Consultants Ltd.)'
 summary: Sounds like the overlapping songs of birds can speak volumes about the biodiversity in an ecosystem, and now scientists are looking to use the tiny sounds made by earthworms, ants, and voles to study the health of soils. Ecologist Carlos Abrahams joins Host Aynsley O’Neill to explain why more varied sounds appear to indicate healthier soils, and the potential applications of listening for these sounds in the earth.
+tags:
+  - ecology-research
+  - soil-health
+  - sustainable-agriculture
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00033&segmentID=1 -->
 

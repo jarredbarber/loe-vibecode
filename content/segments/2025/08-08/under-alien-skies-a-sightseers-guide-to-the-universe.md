@@ -1,13 +1,15 @@
 ---
 title: 'Under Alien Skies: A Sightseer''s Guide to the Universe'
 slug: under-alien-skies-a-sightseers-guide-to-the-universe
-date: '2025-08-08'
+date: 2025-08-08
 category: Segments
 order: '2'
 megaphone_id: LOE7526284108
 image_url: https://loe.org/content/2024-11-29/UAS_cover.jpg
 image_caption: 'Philip Plait’s 2023 book, Under Alien Skies: A Sightseer’s Guide to the Universe, explains what it would be like to explore outer space. (Photo: W. W. Norton)'
 summary: 'Astronomer Philip Plait wondered what it would be like to walk on Mars, fall into a black hole, or fly through a nebula, so he wrote a book, Under Alien Skies: A Sightseer’s Guide to the Universe. He joins Host Aynsley O’Neill to reveal the strange colors of a sunset on Mars, what it’s like on a planet orbiting binary stars, the unique challenges of landing on an asteroid, and more.'
+tags:
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00032&segmentID=2 -->
 

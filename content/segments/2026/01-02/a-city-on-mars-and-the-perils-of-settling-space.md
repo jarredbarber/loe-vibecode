@@ -8,6 +8,11 @@ megaphone_id: LOE3369183713
 image_url: https://loe.org/content/2026-01-02/ACOM1_cover.jpg
 image_caption: 'Authors Kelly and Zach Weinersmith combined their science and science-fiction interests and created a book on space exploration, with the intention of taking a complicated set of topics and making it fun and engaging. (Photo: Courtesy of Penguin Press)'
 summary: 'As a new space race heats up, private companies and sovereign nations alike have their sights on setting up permanent human settlements in space – but huge technological, medical and legal challenges remain. Biologist Kelly Weinersmith and cartoonist Zach Weinersmith are a married couple who teamed up to write the 2023 book A City on Mars: Can We Settle Space, Should We Settle Space, and Have We Really Thought This Through? They join Host Jenni Doering to chat about the comically hostile environments beyond our home planet.'
+tags:
+  - climate-science
+  - earth-observation
+  - profiles-interviews
+  - book-review
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00001&segmentID=2 -->
 

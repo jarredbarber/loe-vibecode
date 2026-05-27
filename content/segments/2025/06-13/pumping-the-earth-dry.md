@@ -1,13 +1,16 @@
 ---
 title: Pumping the Earth Dry
 slug: pumping-the-earth-dry
-date: '2025-06-13'
+date: 2025-06-13
 category: Segments
 order: '4'
 megaphone_id: LOE4639709161
 image_url: https://loe.org/content/2025-06-13/COLORADO_groundwater.jpg
 image_caption: 'When people think of the plight of the Colorado River, they may think of the water on the surface, but Dr. Jay Famiglietti’s recent study showed that the river’s groundwater is also depleting quickly. (Photo: Doc Searls from Santa Barbara, USA, Wikimedia Commons, CC BY-SA 2.0)'
 summary: A recent study finds the Colorado River Basin has lost a tremendous amount of water in the last two decades, in part from thirsty farms pumping water from deep aquifers much faster than it can be replenished. Lead author Jay Famiglietti, a Global Futures Professor at Arizona State University, spoke with Living on Earth’s Paloma Beltran about the “Wild West” of unregulated groundwater, potential solutions and why the rapid depletion of ancient groundwater threatens the water supply for future generations.
+tags:
+  - climate-change
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00024&segmentID=4 -->
 

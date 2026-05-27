@@ -8,6 +8,12 @@ megaphone_id: LOE8127091432
 image_url: https://loe.org/content/2026-04-17/RITCHIE_cover.jpg
 image_caption: 'Clearing the Air: A Hopeful Guide to Solving Climate Change in 50 Questions and Answers  by Dr. Hannah Ritchie. (Photo: Courtesy of Hannah Ritchie)'
 summary: 'Climate solutions like renewable energy tech that requires intensive mining can run into skepticism from people across the political spectrum. But according to data scientist Hannah Ritchie, many of the concerns are based on partial and misinformation, and the outlook for addressing the climate emergency isn’t as grim as some people may think. Ritchie is the author of Clearing the Air: A Hopeful Guide to Solving Climate Change in 50 Questions and Answers and spoke with Host Steve Curwood.'
+tags:
+  - climate-change
+  - fossil-fuels
+  - solar
+  - wind
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00016&segmentID=3 -->
 

@@ -1,13 +1,17 @@
 ---
 title: An Extraordinary New Telescope
 slug: an-extraordinary-new-telescope
-date: '2025-09-26'
+date: 2025-09-26
 category: Segments
 order: '5'
 megaphone_id: LOE9316425430
 image_url: https://loe.org/content/2025-09-26/VERA_observatory.jpg
 image_caption: 'The Vera C. Rubin Observatory sits on the mountain ridge Cerro Pachón in Chile. (Photo: RubinObs/NOIRLab/SLAC/NSF/DOE/AURA)'
 summary: The new Vera C. Rubin observatory telescope in Chile features the largest camera ever built, at about the size of a small car, and will soon begin photographing the entire southern sky repeatedly for a full decade. Clare Higgs, an astronomer on the Rubin Education and Public Outreach team, joins Host Aynsley O’Neill to share how this new telescope can help advance our understanding of dark matter, reveal hard-to find interstellar objects, and much more.
+tags:
+  - earth-observation
+  - climate-science
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00039&segmentID=5 -->
 

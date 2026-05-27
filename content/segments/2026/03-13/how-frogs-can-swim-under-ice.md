@@ -8,6 +8,10 @@ megaphone_id: LOE6349469236
 image_url: https://loe.org/content/2026-03-13/FROG_onice.jpg
 image_caption: 'During the winter, aquatic frogs can survive under the ice by engaging in cutaneous respiration, or “breathing” through the skin. (Photo: Wayne MacPhail, Flickr, CC BY-NC-SA 2.0)'
 summary: The recent story from Living on Earth’s Don Lyman about a childhood memory of being amazed to see a bull frog swimming along under the ice in his favorite stream sparked the curiosity of some of our listeners. Host Aynsley O’Neill called Don back up to learn how frogs survive under the ice of a frozen stream or pond -- using tricks like breathing through their skin and even in some cases freezing solid before thawing out in the spring.
+tags:
+  - amphibians
+  - ecology-research
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00011&segmentID=3 -->
 

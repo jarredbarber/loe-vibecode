@@ -1,13 +1,15 @@
 ---
 title: 'Crossings: How Road Ecology is Shaping the Future of Our Planet'
 slug: crossings-how-road-ecology-is-shaping-the-future-of-our-planet-0117
-date: '2025-01-17'
+date: 2025-01-17
 category: Segments
 order: '5'
 megaphone_id: LOE7178526432
 image_url: https://loe.org/content/2025-01-17/CROSSINGS_cover.jpg
 image_caption: 'Crossings explores the way that our roads impact wildlife and what we can do about it. (Photo: Courtesy of Ben Goldfarb)'
 summary: 'The many millions of miles of roads that crisscross our planet block everything from bears to beetles from safely moving through habitats. But new wildlife crossings like overpasses and underpasses are helping reconnect animals with the landscape. Journalist Ben Goldfarb joins Host Jenni Doering to discuss his book Crossings: How Road Ecology is Shaping the Future of Our Planet.'
+tags:
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00003&segmentID=5 -->
 

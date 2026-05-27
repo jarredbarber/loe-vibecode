@@ -1,12 +1,15 @@
 ---
 title: The Pope and the Sin of Environmental Degradation
 slug: the-pope-and-the-sin-of-environmental-degradation
-date: '2025-04-25'
+date: 2025-04-25
 category: Segments
 order: '5'
 image_url: https://loe.org/content/2014-07-18/POPE--vatican-city.png
 image_caption: 'The Vatican is a national state, officially known as “The Holy See.” It has representation in the United Nations. (Photo: Doug88888; Creative Commons Flickr)'
 summary: Pope Francis has called environmental exploitation the sin of our time. He is working on an encyclical about humanity’s relationship with nature. Christiana Peppard, Assistant Professor of Theology, Science and Ethics at Fordham University and author of the book Just Water, discusses the Pope’s call to “care for God’s creation” with host Steve Curwood.
+tags:
+  - climate-change
+  - environmental-policy
 ---
 <!-- source: http://loe.org/shows/segments.html?programID=14-P13-00029&segmentID=1 -->
 

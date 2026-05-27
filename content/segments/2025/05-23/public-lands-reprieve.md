@@ -1,13 +1,18 @@
 ---
 title: Public Lands Reprieve
 slug: public-lands-reprieve
-date: '2025-05-23'
+date: 2025-05-23
 category: Segments
 order: '1'
 megaphone_id: LOE4044825288
 image_url: https://loe.org/content/2025-05-23/PUBLICLANDS_goldbutte.jpg
 image_caption: 'One of the proposed areas for development in Nevada was a swath of public land near the Gold Butte National Monument. (Photo: Bob Wick, BML, Flickr, CC BY 2.0)'
 summary: Last-minute changes in the House budget reconciliation bill included scrapping one of the more controversial amendments that would have sold off public lands in the southwest to private developers. But the overall bill isn’t a complete win for the environment, with even deeper cuts to clean energy tax credits added at the last minute. Wyatt Myskow is the Mountain West Correspondent for Inside Climate News and joins Host Aynsley O’Neill to explain.
+tags:
+  - environmental-policy
+  - fossil-fuels
+  - solar
+  - nuclear
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00021&segmentID=1 -->
 

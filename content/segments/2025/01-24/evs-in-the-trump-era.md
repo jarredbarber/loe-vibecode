@@ -1,13 +1,16 @@
 ---
 title: EVs in the Trump Era
 slug: evs-in-the-trump-era
-date: '2025-01-24'
+date: 2025-01-24
 category: Segments
 order: '2'
 megaphone_id: LOE2573957548
 image_url: https://loe.org/content/2025-01-24/EVs_tesla.jpg
 image_caption: 'Tesla has dominated the electric vehicle industry for over a decade, and the revocation of Biden’s EV subsidies will make competing more difficult for other auto-manufacturers selling in the United States. (Photo: Phillip Pessar, Wikimedia Commons, CC BY 2.0)'
 summary: One of President Trump’s Day One executive orders commands a reversal of the Biden Administration’s goal for half of vehicles sold in America by 2030 to be electric. Getting rid of the $7,500 EV tax credit and federal funding for charging stations may take acts of Congress, but auto journalist Jim Motavalli tells Living on Earth’s Aynsley O’Neill that already this effort to shift EVs into reverse is making for uncertainty in the US auto industry.
+tags:
+  - climate-change
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00004&segmentID=2 -->
 

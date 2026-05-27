@@ -1,13 +1,15 @@
 ---
 title: Protecting Tenerife's Marine Marvels
 slug: protecting-tenerifes-marine-marvels-0829
-date: '2025-08-29'
+date: 2025-08-29
 category: Segments
 order: '5'
 megaphone_id: LOE8715217529
 image_url: https://loe.org/content/2025-05-23/GOLDMAN_portconstruction.jpg
 image_caption: 'Port construction can have major environmental impacts on the ocean such as damaging the seabed and creating coastal runoff. (Photo: Megha Engineering and Infrastructures Ltd, Wikimedia Commons, Public Domain)'
 summary: One of the recipients of this year’s Goldman Environmental Prize is helping to protect an especially biodiverse part of the oceans around the Canary Islands. Carlos Mallo Molina was previously a civil engineer who also loved scuba diving. When he found out about plans to build a massive port on the island of Tenerife that could have devastated the local marine life, he decided to leave construction and dedicate his career to protecting the oceans. He joined Living on Earth Executive Producer Steve Curwood.
+tags:
+  - oceans
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00035&segmentID=5 -->
 

@@ -9,12 +9,18 @@
 <p class="clr"></p>
 <p><strong>Air Date: {{ entry.date | strftime('%B %d, %Y') }}</strong></p>
 
-{# Discovery pills: speakers featured on this segment (≥3 archive appearances)
-   and topical tags. Both link out to aggregate pages. Rendered up top so
-   readers know what they're looking at before the transcript. #}
+{# Discovery pills: speakers featured on this segment (≥3 archive appearances,
+   so they have a /people/ page) and topical tags. Both link out to
+   aggregate pages. Rendered up top so readers know what they're looking
+   at before the transcript.
+
+   The show layout pre-computes show-level aggregates (union across all
+   its segments) and passes them in via _aggSpeakers / _aggTags — those
+   take precedence when set. #}
 {% set _src = page.inputPath | toContentRel %}
-{% set _featured = _src | speakersForSegment %}
-{% set _hasPills = (tags and tags.length) or (_featured and _featured.length) %}
+{% set _featured = _aggSpeakers or (_src | speakersForSegment) %}
+{% set _tagList = _aggTags or tags %}
+{% set _hasPills = (_tagList and _tagList.length) or (_featured and _featured.length) %}
 {% if _hasPills %}
 <style>
     .segment-pills { margin: 0.75em 0 1em; display: flex; flex-wrap: wrap; gap: 0.4em; align-items: center; }
@@ -32,9 +38,9 @@
     <a href="/people/{{ s.slug }}.html" class="pill-speaker">{{ s.name }}</a>
     {% endfor %}
     {% endif %}
-    {% if (_featured and _featured.length) and (tags and tags.length) %}<span class="pill-sep"></span>{% endif %}
-    {% if tags and tags.length %}
-    {% for t in tags %}
+    {% if (_featured and _featured.length) and (_tagList and _tagList.length) %}<span class="pill-sep"></span>{% endif %}
+    {% if _tagList and _tagList.length %}
+    {% for t in _tagList %}
     <a href="/tags/{{ t }}.html" class="pill-tag">{{ t }}</a>
     {% endfor %}
     {% endif %}

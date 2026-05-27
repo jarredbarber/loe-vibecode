@@ -31,7 +31,7 @@ What you can do:
 - **Pages** — static pages (about, stations, events…).
 
 Useful while editing:
-- **Live preview**: there's a teal **Live preview ↗** pill in the top-right corner of `/admin/`. Click it while editing an entry — a new tab opens showing the entry's draft rendered exactly the way the live site renders it (shortcodes, speaker highlighting, all of it). Auto-refreshes every 3s as you save in the CMS.
+- **Preview**: save in the CMS, then refresh <https://loe-staging.pages.dev> ~2 min later — that's the authoritative preview, exactly what will ship to production once you merge `main → live`.
 - Every entry on the live site has two icon-pill links in the top-left when you're signed in: **Edit in CMS** (deep-links the entry in `/admin/`) and **Edit on GitHub** (raw markdown via GitHub's web editor).
 - **Pre-publish review** runs automatically on every content push and checks every image / audio / link URL — the badge at the top of this README reflects the latest content's status. The badge also doubles as a manual entry point: click it → **Run workflow** → optionally enter a date → an LLM copyedit pass runs alongside (advisory: typos, broken speaker labels, frontmatter mismatches, intra-show contradictions, with per-line citations). Both passes write to the run's Job Summary panel.
 
@@ -112,7 +112,6 @@ content/
 ├── images/                             # any committed images
 ├── admin/                              # the CMS
 │   ├── index.html
-│   ├── preview.html
 │   └── config.njk                      # built into /admin/config.yml
 ├── archive/                            # pre-2025 historical content (built, not CMS-visible)
 └── *.njk                               # direct templates (index, archives, newsletter)

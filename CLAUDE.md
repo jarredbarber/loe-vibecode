@@ -79,7 +79,7 @@ TypeScript pipeline that scrapes loe.org and emits markdown into `content/`. See
 
 ### CMS (`content/admin/`)
 
-Sveltia CMS at `/admin/` with PAT-based GitHub auth. See `content/admin/README.md`. Recent shows + segments only — older content stays accessible via direct GitHub edit. The companion live preview at `/admin/preview.html` renders body markdown + shortcodes client-side via markdown-it.
+Sveltia CMS at `/admin/` with OAuth (Cloudflare Worker proxy) or PAT fallback. See `content/admin/README.md`. Recent shows + segments only — older content stays accessible via direct GitHub edit. Preview = save in CMS → staging deploys to loe-staging.pages.dev in ~2 min.
 
 (A short-lived Python preview service at `loe-vibecode.fly.dev` is still deployed but unused — `fly apps destroy loe-vibecode` to clean up.)
 

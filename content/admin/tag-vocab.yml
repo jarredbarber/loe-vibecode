@@ -1,0 +1,141 @@
+# Tag vocabulary for the Living on Earth auto-tagger.
+#
+# This is the controlled vocabulary used by `scripts/tag-segments.mjs` to tag
+# segments via Gemini. Editors can freely edit this file:
+#
+#   - Add a tag by appending to a domain group (or create a new group).
+#   - Rename a tag by changing the string — note that any segments already
+#     tagged with the old name will keep the old tag in their frontmatter
+#     until they're re-tagged (run `npm run tag-segments` again, or edit
+#     them in the CMS).
+#   - Remove a tag by deleting the line. Existing tagged content is not
+#     auto-cleaned; the tag will simply stop appearing in the /tags/ index
+#     once no segment uses it.
+#
+# Conventions:
+#   - Tags are lowercase, hyphen-separated, no spaces.
+#   - Domain group names (the top-level YAML keys) are human-facing — they
+#     show up on the /tags.html index page as section headers, so keep them
+#     readable.
+#   - Tags are flat: a segment's frontmatter just lists the tag strings,
+#     never the group. Groups exist for editorial organization only.
+#
+# After editing this file, run `npm --prefix eleventy run build` to refresh
+# tag pages. To re-tag segments against the new vocabulary, run
+# `npm run tag-segments -- --limit 50` (or omit --limit for full backfill).
+
+climate-and-atmosphere:
+    - climate-change
+    - sea-level-rise
+    - extreme-weather
+    - drought
+    - wildfire
+    - heatwave
+    - atmospheric-science
+    - carbon-cycle
+
+energy:
+    - fossil-fuels
+    - oil-gas
+    - coal
+    - solar
+    - wind
+    - nuclear
+    - hydropower
+    - grid-energy-storage
+
+biodiversity-and-wildlife:
+    - species-loss
+    - endangered-species
+    - birds
+    - mammals
+    - amphibians
+    - insects
+    - fish
+    - marine-life
+    - invasive-species
+    - wildlife-corridors
+
+ecosystems:
+    - forests
+    - deforestation
+    - oceans
+    - coral-reefs
+    - wetlands
+    - grasslands
+    - arctic-polar
+    - amazon
+
+pollution:
+    - air-pollution
+    - water-pollution
+    - plastics
+    - chemical-contamination
+    - noise-pollution
+    - light-pollution
+    - pfas-forever-chemicals
+
+agriculture-and-food:
+    - farming
+    - cafos-livestock
+    - pesticides
+    - gmos
+    - food-systems
+    - soil-health
+    - sustainable-agriculture
+
+health:
+    - public-health
+    - environmental-justice
+    - toxic-exposure
+    - cancer-environment
+    - pregnancy-children
+    - mental-health
+
+water:
+    - drinking-water
+    - rivers-watersheds
+    - groundwater
+    - water-rights
+
+policy-and-governance:
+    - environmental-policy
+    - regulation-deregulation
+    - climate-negotiations
+    - congressional-action
+    - executive-action
+    - litigation
+    - international-treaties
+    - indigenous-rights
+
+economy-and-business:
+    - green-economy
+    - corporate-accountability
+    - environmental-investment
+    - supply-chain
+    - jobs-just-transition
+
+communities-and-people:
+    - indigenous-communities
+    - rural-communities
+    - urban-environment
+    - youth-education
+    - environmental-history
+    - profiles-interviews
+    - activism
+
+science-and-technology:
+    - climate-science
+    - ecology-research
+    - earth-observation
+    - biotechnology
+    - environmental-tech
+    - citizen-science
+
+format:
+    - book-review
+    - poetry-essays
+    - music-soundscapes
+    - birdnote-segment
+    - field-reporting
+    - listener-questions

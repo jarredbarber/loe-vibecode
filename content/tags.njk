@@ -1,0 +1,11 @@
+---
+pagination:
+    data: collections.tags
+    size: 1
+    alias: tag
+permalink: "/tags/{{ tag.slug }}.html"
+layout: layouts/tag.njk
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: "{{ tag.name }} — Living on Earth"
+---

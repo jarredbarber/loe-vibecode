@@ -5,7 +5,8 @@
         "test": "node --test tests/test_render.mjs",
         "build": "cd eleventy && npx @11ty/eleventy",
         "check-show": "node scripts/check-show.mjs",
-        "copyedit-check": "node scripts/copyedit-check.mjs"
+        "copyedit-check": "node scripts/copyedit-check.mjs",
+        "tag-segments": "node scripts/tag-segments.mjs"
     },
     "devDependencies": {
         "@11ty/eleventy": "^3.1.5",
@@ -14,6 +15,8 @@
     "dependencies": {
         "@ai-sdk/google": "^3.0.79",
         "ai": "^6.0.191",
+        "gray-matter": "^4.0.3",
+        "js-yaml": "^4.1.1",
         "zod": "^4.4.3"
     }
 }

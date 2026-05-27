@@ -93,6 +93,66 @@ function listeningTime(body) {
     return `${minutes} min listen`;
 }
 
+// Lazy per-segment speakers map. Built once on first call, then O(1) lookups
+// per page. Tried this as a global _data file first — Eleventy ended up
+// deep-cloning the 10K-entry map across every page render and OOMed. A
+// closure-cached filter sidesteps that entirely.
+let _speakersCache = null;
+function speakersForSegment(inputPath) {
+    if (!inputPath) return [];
+    if (!_speakersCache) {
+        const fs = require('node:fs');
+        const path = require('node:path');
+        const { normalizeSpeaker } = require('../_data/speakerAliases.js');
+        const SPEAKER_LINE_RE = /^([A-Z](?:[A-Z'’\d\s.]|[a-z]{1,2}(?=[A-Z]))+):/;
+        const repoRoot = path.resolve(__dirname, '..', '..');
+        const roots = [
+            path.resolve(repoRoot, 'content', 'segments'),
+            path.resolve(repoRoot, 'content', 'archive', 'segments'),
+        ];
+        const walk = function* (dir) {
+            let entries = [];
+            try { entries = fs.readdirSync(dir, { withFileTypes: true }); }
+            catch { return; }
+            for (const e of entries) {
+                const p = path.join(dir, e.name);
+                if (e.isDirectory()) yield* walk(p);
+                else if (e.isFile() && e.name.endsWith('.md')) yield p;
+            }
+        };
+        const map = {};
+        for (const root of roots) {
+            for (const file of walk(root)) {
+                let raw = '';
+                try { raw = fs.readFileSync(file, 'utf8'); } catch { continue; }
+                // Strip frontmatter, then walk lines for speaker labels.
+                let body = raw;
+                if (body.startsWith('---')) {
+                    const end = body.indexOf('\n---', 3);
+                    if (end !== -1) {
+                        const lineEnd = body.indexOf('\n', end + 4);
+                        body = lineEnd === -1 ? '' : body.slice(lineEnd + 1);
+                    }
+                }
+                const seen = new Map();
+                for (const line of body.split('\n')) {
+                    const m = line.match(SPEAKER_LINE_RE);
+                    if (!m) continue;
+                    const norm = normalizeSpeaker(m[1]);
+                    if (!norm) continue;
+                    if (!seen.has(norm.slug)) seen.set(norm.slug, norm.name);
+                }
+                if (seen.size) {
+                    const rel = path.relative(repoRoot, file).replace(/^content\//, '');
+                    map[rel] = [...seen.entries()].map(([slug, name]) => ({ slug, name }));
+                }
+            }
+        }
+        _speakersCache = map;
+    }
+    return _speakersCache[inputPath] || [];
+}
+
 module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('ordinal', ordinal);
     eleventyConfig.addFilter('strftime', strftime);
@@ -102,6 +162,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('pathToCmsSlug', pathToCmsSlug);
     eleventyConfig.addFilter('readingTime', readingTime);
     eleventyConfig.addFilter('listeningTime', listeningTime);
+    eleventyConfig.addFilter('speakersForSegment', speakersForSegment);
 
     // Day-of-month with ordinal — e.g. {{ article.date | dayOrdinal }} → "22nd".
     eleventyConfig.addFilter('dayOrdinal', (value) => {

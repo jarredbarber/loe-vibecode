@@ -23,7 +23,7 @@ One option is to use Bookshop, which Living on Earth is partnering with. If you 
 
 <img src="/images/staff/steve-curwood.gif" alt="Steve Curwood" style="float:left; margin-right:20px; margin-bottom:10px;">
 
-**Steve Curwood**
+**[Steve Curwood](/people/curwood.html)**
 *Host / Executive Producer*
 
 617-287-4121 | [steve@loe.org](mailto:steve@loe.org) | [Twitter @scurwood](https://twitter.com/SCurwood)
@@ -36,7 +36,7 @@ Steve has been a journalist for more than 30 years with experience at NPR, CBS N
 
 <img src="/images/staff/jenni-doering.png" width=180 alt="Jenni Doering" style="float:right; margin-left:20px; margin-bottom:10px;">
 
-**Jenni Doering**
+**[Jenni Doering](/people/doering.html)**
 *Managing Producer / resident hottie*
 
 617-287-4121 | [jdoering@loe.org](mailto:jdoering@loe.org) | [Twitter @jennidoering](https://twitter.com/jennidoering)
@@ -71,7 +71,7 @@ Jacob Rego has been with Living On Earth since 2012. He is a graduate from Berkl
 
 <img src="https://media.licdn.com/dms/image/v2/C4E03AQH87PDBFCtIhA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1535224502967?e=2147483647&v=beta&t=4Ziv74BIh3PsNySwtYgWRNR3HBEliO5VEkGN_MxZXuM" width=180 alt="Aynsley O'Neill" style="float:left; margin-right:20px; margin-bottom:10px;">
 
-**Aynsley O'Neill**
+**[Aynsley O'Neill](/people/oneill.html)**
 *Producer*
 
 617-287-4121 | [aoneill@loe.org](mailto:aoneill@loe.org) | [Twitter @aynsleyoneill](https://twitter.com/aynsleyoneill)

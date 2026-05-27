@@ -86,12 +86,13 @@ layout: layouts/base.njk
                     padding-left: 34px; /* yaxis column + column-gap */
                     margin: 4px 0 0;
                 }
-                /* Caption uses the site-wide figcaption style (italic, muted)
-                   so it reads as a chart caption rather than a technical
-                   note. Override only the margin so it sits nicely beneath
-                   the x-axis labels. */
-                .tag-sparkline > figcaption {
-                    margin-top: 0.5em;
+                .tag-sparkline-caption {
+                    font-size: 0.85em;
+                    color: var(--muted-fg, #777);
+                    font-style: italic;
+                    margin: 0.6em auto 0;
+                    text-align: center;
+                    line-height: 1.3;
                 }
                 .tag-period-heading {
                     font-size: 1.05em;
@@ -101,7 +102,7 @@ layout: layouts/base.njk
                     padding-bottom: 0.15em;
                 }
             </style>
-            <figure class="tag-sparkline">
+            <div class="tag-sparkline">
                 <div class="tag-sparkline-row">
                     <div class="tag-sparkline-yaxis" aria-hidden="true">
                         <span>{{ _peak }}</span>
@@ -139,8 +140,8 @@ layout: layouts/base.njk
                     {% if _firstLabel != _lastLabel %}<span>{{ _lastLabel }}</span>{% endif %}
                 </div>
                 {% endif %}
-                <figcaption>Peak: {{ _peak }} segment{% if _peak != 1 %}s{% endif %} in a {% if _useMonth %}month{% else %}year{% endif %}. Click a bar to jump to that period.</figcaption>
-            </figure>
+                <p class="tag-sparkline-caption">Peak: {{ _peak }} segment{% if _peak != 1 %}s{% endif %} in a {% if _useMonth %}month{% else %}year{% endif %}. Click a bar to jump to that period.</p>
+            </div>
             {% endif %}
 
             {# Segments list, grouped by year — month-granularity in the chart

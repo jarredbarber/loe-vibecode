@@ -7,6 +7,13 @@ layout: layouts/base.njk
 {% set title_html %}<h2>Living on Earth: {{ date | strftime('%B') }} {{ date | dayOrdinal }}, {{ date | strftime('%Y') }}</h2>{% endset %}
 {% set summaryAboveImage = true %}
 {% set segments = (page | segmentsForShow(collections.segments)) %}
+{# Aggregate speakers + tags across the show's segments so the show header
+   gets the union — read by _article_header.njk via the _aggSpeakers /
+   _aggTags variables (the include falls back to per-segment lookups for
+   non-show pages). #}
+{% set _pills = segments | aggregatedPillsForShow %}
+{% set _aggSpeakers = _pills.speakers %}
+{% set _aggTags = _pills.tags %}
 <div class="body">
     <div class="body_resize">
         <div class="single-column">
@@ -14,6 +21,9 @@ layout: layouts/base.njk
 
             <div class="show-content">
                 {{ content | safe }}
+                {% if segments.length %}
+                <hr class="show-segments-divider">
+                {% endif %}
                 {% for segment in segments %}
                     {% include "modules/show-segment.njk" %}
                 {% endfor %}

@@ -31,6 +31,7 @@ What you can do:
 Useful while editing:
 - The **Live Preview** tab at <https://vibingon.earth/admin/preview.html> renders body markdown + shortcodes the same way the live site will. Paste the body in, fill the frontmatter form, see it render in real time. Or fetch the saved version of an entry directly from GitHub.
 - Every entry has two icon-pill links in the top-left of the rendered page when you're signed in: **Edit in CMS** (deep-links the entry in /admin/) and **Edit on GitHub** (raw markdown via GitHub's web editor).
+- Pre-publish link check: [![Check show](https://github.com/jarredbarber/loe-vibecode/actions/workflows/check-show.yml/badge.svg)](https://github.com/jarredbarber/loe-vibecode/actions/workflows/check-show.yml) — click the badge → **Run workflow** → optionally enter a show date (blank = latest). Validates frontmatter and HEAD-checks every image / audio / link URL. Warnings appear pinned at the top of the run page.
 
 ## Option B — Direct GitHub editing
 

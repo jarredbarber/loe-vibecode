@@ -3,6 +3,54 @@
  * and powers the show_segments plugin (segments auto-discovered by date).
  */
 
+const fs = require('node:fs');
+const { normalizeSpeaker } = require('../_data/speakerAliases.js');
+
+// Detect speaker labels in raw markdown bodies. Mirrors the regex in
+// speaker-highlight.js but anchors per-line (markdown source) instead of
+// inside HTML <p> tags.
+const SPEAKER_LINE_RE = /^([A-Z](?:[A-Z'’\d\s.]|[a-z]{1,2}(?=[A-Z]))+):/;
+const MIN_APPEARANCES = 3;
+
+function extractSpeakers(rawBody) {
+    if (!rawBody || typeof rawBody !== 'string') return [];
+    const seen = new Set();
+    for (const line of rawBody.split('\n')) {
+        const m = line.match(SPEAKER_LINE_RE);
+        if (!m) continue;
+        const norm = normalizeSpeaker(m[1]);
+        if (!norm) continue;
+        seen.add(JSON.stringify([norm.slug, norm.name]));
+    }
+    return Array.from(seen).map((s) => JSON.parse(s)).map(([slug, name]) => ({ slug, name }));
+}
+
+// Read the raw markdown source for a segment, stripped of frontmatter.
+// We cache by inputPath since file reads happen once at collection-build time.
+const bodyCache = new Map();
+function rawBody(item) {
+    const p = item.inputPath;
+    if (!p) return '';
+    if (bodyCache.has(p)) return bodyCache.get(p);
+    let text = '';
+    try {
+        text = fs.readFileSync(p, 'utf8');
+    } catch (e) {
+        bodyCache.set(p, '');
+        return '';
+    }
+    // Strip YAML frontmatter (--- … ---) at the top of the file.
+    if (text.startsWith('---')) {
+        const end = text.indexOf('\n---', 3);
+        if (end !== -1) {
+            const lineEnd = text.indexOf('\n', end + 4);
+            text = lineEnd === -1 ? '' : text.slice(lineEnd + 1);
+        }
+    }
+    bodyCache.set(p, text);
+    return text;
+}
+
 module.exports = function (eleventyConfig) {
     // Shows, sorted newest first.
     eleventyConfig.addCollection('shows', (api) => {
@@ -53,6 +101,45 @@ module.exports = function (eleventyConfig) {
         Object.defineProperty(segments, '__byDate', { value: byDate, enumerable: false });
         return byDate;
     }
+
+    // Speakers — derived from transcript labels in segment bodies. One entry
+    // per canonical speaker who appears in at least MIN_APPEARANCES segments.
+    eleventyConfig.addCollection('speakers', (api) => {
+        const segments = api
+            .getAll()
+            .filter((item) => item.data.category === 'Segments');
+
+        const bySlug = new Map(); // slug → { slug, name, segments: [] }
+
+        for (const seg of segments) {
+            const speakers = extractSpeakers(rawBody(seg));
+            for (const { slug, name } of speakers) {
+                let bucket = bySlug.get(slug);
+                if (!bucket) {
+                    bucket = { slug, name, segments: [] };
+                    bySlug.set(slug, bucket);
+                }
+                bucket.segments.push(seg);
+                // Prefer a non-fallback display name if one shows up later.
+                if (name && name.length > bucket.name.length && !/[a-z]/.test(bucket.name)) {
+                    bucket.name = name;
+                }
+            }
+        }
+
+        const out = [];
+        for (const entry of bySlug.values()) {
+            if (entry.segments.length < MIN_APPEARANCES) continue;
+            entry.segments.sort((a, b) => Date.parse(b.data.date) - Date.parse(a.data.date));
+            const dates = entry.segments.map((s) => new Date(s.data.date));
+            entry.earliestYear = Math.min(...dates.map((d) => d.getUTCFullYear()));
+            entry.latestYear = Math.max(...dates.map((d) => d.getUTCFullYear()));
+            entry.count = entry.segments.length;
+            out.push(entry);
+        }
+        out.sort((a, b) => b.count - a.count || a.slug.localeCompare(b.slug));
+        return out;
+    });
 
     eleventyConfig.addFilter('segmentsForShow', function (show, segments) {
         if (!show || !segments) return [];

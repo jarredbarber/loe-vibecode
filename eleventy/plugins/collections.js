@@ -172,16 +172,28 @@ module.exports = function (eleventyConfig) {
             // peak / first / last so the template doesn't need to do a
             // reduce-style loop (Nunjucks `{% set %}` inside `{% for %}`
             // doesn't propagate out of the loop scope).
+            // Per-year + per-month counts for the sparkline. Pre-compute
+            // peak / first / last so the template doesn't need reduce-style
+            // loops (Nunjucks {% set %} inside {% for %} doesn't propagate).
+            // Month bucketing is a fallback for sparse archives — used when
+            // the year span is too narrow to be visually informative.
             const yearCounts = new Map();
+            const monthCounts = new Map();
             for (const s of entry.segments) {
-                // s.data.date can be a Date (Eleventy frontmatter cast) or a
-                // raw string. String(Date) starts with the day-of-week, not
-                // the year — use getUTCFullYear() or ISO-slice instead.
                 const d = s.data.date;
-                let y = NaN;
-                if (d instanceof Date) y = d.getUTCFullYear();
-                else if (typeof d === 'string') y = parseInt(d.slice(0, 4), 10);
-                if (Number.isFinite(y)) yearCounts.set(y, (yearCounts.get(y) || 0) + 1);
+                let year = NaN;
+                let month = null; // "YYYY-MM"
+                if (d instanceof Date) {
+                    year = d.getUTCFullYear();
+                    month = `${year}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
+                } else if (typeof d === 'string') {
+                    year = parseInt(d.slice(0, 4), 10);
+                    if (d.length >= 7) month = d.slice(0, 7);
+                }
+                if (Number.isFinite(year)) {
+                    yearCounts.set(year, (yearCounts.get(year) || 0) + 1);
+                }
+                if (month) monthCounts.set(month, (monthCounts.get(month) || 0) + 1);
             }
             const yc = [...yearCounts.entries()]
                 .sort((a, b) => a[0] - b[0])
@@ -190,6 +202,24 @@ module.exports = function (eleventyConfig) {
             entry.yearCountsPeak = yc.reduce((m, x) => Math.max(m, x.count), 0);
             entry.yearCountsFirst = yc.length ? yc[0].year : null;
             entry.yearCountsLast = yc.length ? yc[yc.length - 1].year : null;
+
+            const mc = [...monthCounts.entries()]
+                .sort((a, b) => (a[0] < b[0] ? -1 : 1))
+                .map(([month, count]) => ({ month, count }));
+            entry.monthCounts = mc;
+            entry.monthCountsPeak = mc.reduce((m, x) => Math.max(m, x.count), 0);
+            // Span in months between first and last (for x-axis offsets).
+            const monthDelta = (a, b) => {
+                const [ay, am] = a.split('-').map(Number);
+                const [by, bm] = b.split('-').map(Number);
+                return (by - ay) * 12 + (bm - am);
+            };
+            entry.monthCountsFirst = mc.length ? mc[0].month : null;
+            entry.monthCountsLast = mc.length ? mc[mc.length - 1].month : null;
+            entry.monthCountsSpan = (mc.length >= 2) ? monthDelta(mc[0].month, mc[mc.length - 1].month) : 0;
+            entry.monthCountsWithOffset = mc.length
+                ? mc.map((x) => ({ ...x, offset: monthDelta(mc[0].month, x.month) }))
+                : [];
             out.push(entry);
         }
         out.sort((a, b) => b.count - a.count || a.slug.localeCompare(b.slug));

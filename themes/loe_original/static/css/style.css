@@ -1777,8 +1777,18 @@ audio {
     display: none;
 }
 
+/* Header image: cap height so tall/square images don't dominate the
+   viewport, but let wide images use full container width naturally.
+   The container fills the column and shows its background on either
+   side of capped images — i.e. square images get pillarboxed at wide
+   viewports, but never blown up to giant squares. */
 .header-image {
-    width: 100%;
+    display: block;
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
     border-radius: 4px;
 }
 
@@ -2339,8 +2349,10 @@ figcaption {
 
 .header-image-container {
     margin: 0 auto 20px;
-    max-width: 100%;
+    width: 100%;
     text-align: center;
+    background-color: var(--bg-header, #e8f4f4);
+    border-radius: 4px;
 }
 
 .header-image-container img {

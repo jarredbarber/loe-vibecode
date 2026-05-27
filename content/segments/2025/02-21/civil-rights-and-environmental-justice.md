@@ -1,13 +1,15 @@
 ---
 title: Civil Rights and Environmental Justice
 slug: civil-rights-and-environmental-justice
-date: '2025-02-21'
+date: 2025-02-21
 category: Segments
 order: '4'
 megaphone_id: LOE7647572513
 image_url: https://loe.org/content/2025-02-21/CHAVIS_pardon.jpg
 image_caption: 'Rev. Ben Chavis celebrates the pardon of the Wilmington 10. Rev. Chavis first came to national prominence as a member of the Wilmington 10, a group of civil rights activists who were unjustly convicted of committing arson. Chavis was sentenced to serve 34 years in state prison. The group’s convictions were overturned on the grounds of prosecutorial misconduct, and they were freed in 1980. (Photo: United Church of Christ, Flickr, CC BY-SA 2.0)'
 summary: For Black History Month, civil rights and EJ leader Rev. Benjamin Chavis joins Host Steve Curwood to connect the dots between the civil rights and environmental justice movements. He reflects on the first EJ battle, how he coined the term “environmental racism,” and the path forward for the EJ movement during a Trump administration that refuses to acknowledge environmental injustice.
+tags:
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00008&segmentID=4 -->
 

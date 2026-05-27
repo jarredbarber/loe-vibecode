@@ -1,13 +1,16 @@
 ---
 title: 'Exploring the Parks: Brand-New Chuckwalla National Monument'
 slug: exploring-the-parks-brand-new-chuckwalla-national-monument
-date: '2025-01-31'
+date: 2025-01-31
 category: Segments
 order: '3'
 megaphone_id: LOE5825432534
 image_url: https://loe.org/content/2025-01-31/CHUCKWALLA_lizard.jpeg
 image_caption: 'The Chuckwalla National monument is named after the Chuckwalla lizard pictured above. (Photo: Brent, Flickr, CC BY 2.0)'
 summary: In his last days in office President Biden designated a new national monument in the southern California desert called Chuckwalla. Producer Paloma Beltran joins Hosts Aynsley O’Neill and Jenni Doering to share perspectives from locals on this unique landscape, including a Native tale of how Coyote gave the “painted canyon” in Chuckwalla its name.
+tags:
+  - indigenous-rights
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00005&segmentID=3 -->
 

@@ -1,13 +1,15 @@
 ---
 title: Faith and Environmental Justice
 slug: faith-and-environmental-justice
-date: '2025-06-20'
+date: 2025-06-20
 category: Segments
 order: '2'
 megaphone_id: LOE7259424480
 image_url: https://loe.org/content/2025-06-20/B1_Biden.jpg
 image_caption: 'President Joe Biden signed the Juneteenth National Independence Day Act in 2021, making Juneteenth a national holiday. (Photo: The White House, Wikimedia Commons, Public Domain)'
 summary: Rev. Mariama White-Hammond and Host Steve Curwood continue their conversation with a look back to how she first became engaged with environmental justice. Rev. White-Hammond also shares her reflections on the importance of engaging hearts as well as minds on the climate crisis, and how she helps bring eco-theology into faith communities.
+tags:
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00025&segmentID=2 -->
 

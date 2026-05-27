@@ -1,13 +1,17 @@
 ---
 title: Jane Goodall On Conservation
 slug: jane-goodall-on-conservation
-date: '2025-10-10'
+date: 2025-10-10
 category: Segments
 order: '4'
 megaphone_id: LOE2033100838
 image_url: https://loe.org/content/2025-10-10/GOODALL_91.jpg
 image_caption: 'Dr. Jane Goodall passed away at the age of 91 in October 2025, after a lifetime of advocating for conservation. (Photo: © Vincent Calmel, Courtesy of the Jane Goodall Institute)'
 summary: The late conservationist Jane Goodall made it her mission to protect habitat worldwide by empowering local communities to develop sustainably. We reprise her 2023 conversation with Host Steve Curwood about this holistic approach to conservation and how it all started when she was just ten years old and dreamed of studying wild animals in Africa.
+tags:
+  - environmental-justice
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00041&segmentID=4 -->
 

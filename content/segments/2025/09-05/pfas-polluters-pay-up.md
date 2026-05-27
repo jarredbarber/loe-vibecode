@@ -1,13 +1,17 @@
 ---
 title: PFAS Polluters Pay Up
 slug: pfas-polluters-pay-up
-date: '2025-09-05'
+date: 2025-09-05
 category: Segments
 order: '1'
 megaphone_id: LOE6454509903
 image_url: https://loe.org/content/2025-09-05/PFAS_repauno.jpg
 image_caption: 'The Repauno Port & Rail Terminal was once a DuPont chemical manufacturing facility. The land is being cleaned up for PFAS contamination attributed to DuPont and its spinoff, Chemours. The site is currently being operated as a port facility by FTAI Instructure Inc., which acquired the property in 2016. DuPont and its subsidiaries have agreed to spend $1.2 billion for the cleanup of various sites across the state. (Photo: Office of the NJ Attorney General)'
 summary: New Jersey officials are calling its $2 billion settlement with major manufacturers of PFAS “forever chemicals” the largest environmental settlement ever won by a state. Shawn LaTourette, New Jersey’s Department of Environmental Protection Commissioner, discusses with Host Paloma Beltran the legacy of industrial contamination in the state and how the settlement is expected to pay for cleanup as well as restoration of degraded ecosystems.
+tags:
+  - pfas-forever-chemicals
+  - water-pollution
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00036&segmentID=1 -->
 

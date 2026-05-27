@@ -1,13 +1,17 @@
 ---
 title: David Brancaccio on Fire Recovery
 slug: david-brancaccio-on-fire-recovery-0228
-date: '2025-02-28'
+date: 2025-02-28
 category: Segments
 order: '4'
 megaphone_id: LOE9826723627
 image_url: https://loe.org/content/2025-02-28/BRANCACCIO_homepostfire.jpg
 image_caption: 'David Brancaccio, “Marketplace Morning Report” Host and Senior Editor, lost his Altadena home in the January 2025 Eaton fires, just two months after purchasing it. (Photo: David Brancaccio)'
 summary: The thousands of homes that burned in Los Angeles this January included the home of Marketplace Morning Report Host David Brancaccio. David joined Living on Earth Host Steve Curwood to share what he’s learning about the challenges of rebuilding with a limited supply and huge demand for contractors.
+tags:
+  - climate-change
+  - extreme-weather
+  - wildfire
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00009&segmentID=4 -->
 

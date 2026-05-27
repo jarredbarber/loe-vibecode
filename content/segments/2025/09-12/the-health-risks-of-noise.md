@@ -1,13 +1,14 @@
 ---
 title: The Health Risks of Noise
 slug: the-health-risks-of-noise
-date: '2025-09-12'
+date: 2025-09-12
 category: Segments
 order: '5'
 megaphone_id: LOE9874750105
 image_url: https://loe.org/content/2025-09-12/CLAMOR_cover.jpg
 image_caption: 'Chris Berdik’s latest book,  Clamor: How Noise Took Over the World and How We Can Take It Back.  (Photo: Courtesy of Chris Berdik).'
 summary: 'Human-made noise is bad for our health, disrupts our natural world, and hinders our ability to connect with one another. Author and journalist Chris Berdik joins Host Steve Curwood to discuss his book Clamor: How Noise Took Over the World and How We Can Take It Back, which explores the hidden costs of unwanted sound and advocates for turning down the volume on human-made noise.'
+tags: []
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00037&segmentID=5 -->
 

@@ -1,13 +1,16 @@
 ---
 title: From Plastic Trash to Art
 slug: from-plastic-trash-to-art
-date: '2025-06-27'
+date: 2025-06-27
 category: Segments
 order: '2'
 megaphone_id: LOE9666348137
 image_url: https://loe.org/content/2025-06-27/ART_nowstreaming.jpg
 image_caption: 'Erik Jon Olson makes decorative quilts out of single use plastic. Now Streaming, 2025, quilted plastic waste, 45"x85". (Photo: Courtesy of Erik Jon Olson)'
 summary: The ugly truth of plastic is that the world produces over 400 million metric tons each year and recycles less than ten percent of it. But artist Erik Jon Olson is transforming unsightly plastic waste into beautiful, quilted works of art which are popping up in galleries and exhibitions across the United States. He joins Host Jenni Doering to share the meaning and method behind his whimsical and striking artwork.
+tags:
+  - plastics
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00026&segmentID=2 -->
 

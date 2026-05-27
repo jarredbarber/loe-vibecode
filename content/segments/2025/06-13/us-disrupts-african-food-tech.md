@@ -1,13 +1,15 @@
 ---
 title: US Disrupts African Food Tech
 slug: us-disrupts-african-food-tech
-date: '2025-06-13'
+date: 2025-06-13
 category: Segments
 order: '1'
 megaphone_id: LOE8242000808
 image_url: https://loe.org/content/2025-06-13/USAID_farmers.jpg
 image_caption: 'The Soybean Innovation Lab partners with researchers, farmers, and stakeholders across the private and public sectors to advance the production of soybeans in sub-Saharan Africa. Above, intergenerational farmers stand in a soybean field in Rotanda, Mozambique. (Photo: Soybean Innovation Lab).'
 summary: One of the development initiatives affected by the Trump Administration’s shutdown of USAID is the Soybean Innovation Lab, which works to improve soybean yields and production in Africa to help boost food supplies and farm income. Kerry Clark runs a mechanization development and fabrication training team at the Soybean Innovation Lab and joins Host Jenni Doering to discuss the work of the lab and why helping improve farmers’ yields is so fulfilling.
+tags:
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00024&segmentID=1 -->
 

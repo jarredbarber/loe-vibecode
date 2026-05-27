@@ -1,13 +1,16 @@
 ---
 title: Balcony Solar
 slug: balcony-solar
-date: '2025-10-10'
+date: 2025-10-10
 category: Segments
 order: '2'
 megaphone_id: LOE4532373450
 image_url: https://loe.org/content/2025-10-10/BALCONY_accessible.jpg
 image_caption: 'Balcony solar is designed to be more accessible than rooftop solar. (Photo: Triplec85, Wikimedia Commons, CC BY-SA 4.0)'
 summary: Compared to traditional rooftop solar, “balcony solar” offers renters, apartment dwellers and folks on a tighter budget a much less expensive solar energy starter kit. Balcony solar is already common in Europe and Asia, and now it’s getting a boost from state legislation in the US. Steve Hegedus, professor of electrical and computer engineering at the University of Delaware, joins Host Paloma Beltran to explain the appeal and how it works.
+tags:
+  - solar
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00041&segmentID=2 -->
 

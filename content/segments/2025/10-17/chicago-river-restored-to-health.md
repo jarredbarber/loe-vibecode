@@ -1,13 +1,18 @@
 ---
 title: Chicago River Restored to Health
 slug: chicago-river-restored-to-health
-date: '2025-10-17'
+date: 2025-10-17
 category: Segments
 order: '5'
 megaphone_id: LOE9800779768
 image_url: https://loe.org/content/2025-10-17/CHICAGO_athletes.jpg
 image_caption: '265 athletes swam in the main stem of the Chicago River during the public swim event in 2025. (Photo: Linda Barrett)'
 summary: On September 21st, hundreds of people leapt into the Chicago River for the first public swimming event since 1927. Friends of the Chicago River Executive Director Margaret Frisbie joined Living on Earth’s Aynsley O’Neill to discuss how major projects including green infrastructure have helped clean up the river for both people and wildlife to enjoy.
+tags:
+  - rivers-watersheds
+  - wildlife-corridors
+  - water-pollution
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00042&segmentID=5 -->
 

@@ -8,6 +8,12 @@ megaphone_id: LOE9296516678
 image_url: https://loe.org/content/2026-04-10/NIGHTOWL_authorandpoet.jpg
 image_caption: 'Author and poet Aimee Nezhukumatathil says she does her best creative work at night. (Photo: Sindre Fs, Pexels, public domain)'
 summary: The poems in Aimee Nezhukumatathil’s new book Night Owl offer a window into the magic of nature at night and a light in the darkness. She joins Host Jenni Doering to share selected poems from the collection and talk about how poetry can help us grapple with ecological loss and celebrate natural wonders alike.
+tags:
+  - poetry-essays
+  - light-pollution
+  - marine-life
+  - species-loss
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00015&segmentID=4 -->
 

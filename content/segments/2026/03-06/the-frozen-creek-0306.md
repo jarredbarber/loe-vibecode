@@ -8,6 +8,12 @@ megaphone_id: LOE4731648635
 image_url: https://loe.org/content/2026-03-06/CREEK_springcreek.jpg
 image_caption: 'Don Lyman returned to Little Creek in May of 2013 to capture what the landscape looks like in Spring. (Photo: Don Lyman)'
 summary: Living on Earth’s Don Lyman has been finding reptiles and amphibians since boyhood. This long winter took him back to a childhood memory of finding a bull frog swimming under the ice in what he calls “The Frozen Creek.”
+tags:
+  - amphibians
+  - drought
+  - ecology-research
+  - profiles-interviews
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00010&segmentID=4 -->
 

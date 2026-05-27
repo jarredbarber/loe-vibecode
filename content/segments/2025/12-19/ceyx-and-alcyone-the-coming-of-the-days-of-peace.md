@@ -1,13 +1,15 @@
 ---
 title: Ceyx and Alcyone, The Coming of the Days of Peace
 slug: ceyx-and-alcyone-the-coming-of-the-days-of-peace
-date: '2025-12-19'
+date: 2025-12-19
 category: Segments
 order: '3'
 megaphone_id: LOE8879421887
 image_url: https://loe.org/content/2025-12-19/EDGECOMB_cover.jpg
 image_caption: 'The story “Ceyx and Alcyone,” performed by storyteller Diane Edgecomb and accompanied by Margot Chamberlain and Tom Megan, is part of the CD, “The Winter Solstice in Story and Song.” (Photo: Courtesy of Diane Edgecomb)'
 summary: Storyteller Diane Edgecomb performs the Greek myth “Ceyx and Alcyone” about the origin of Halcyon birds, also known as kingfishers. The ancients noticed these birds would appear during the “Halcyon Days” when the seas became calm, around the time of the winter Solstice. She also discusses with Host Steve Curwood how stories can help illuminate why we take part in old traditions at this time of year such as putting up lights, decorating evergreens, and hanging mistletoe.
+tags:
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00051&segmentID=3 -->
 

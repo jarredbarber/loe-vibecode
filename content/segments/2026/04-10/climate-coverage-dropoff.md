@@ -8,6 +8,11 @@ megaphone_id: LOE2413218622
 image_url: https://loe.org/content/2026-04-10/COVERAGE_nyt.jpg
 image_caption: 'According to research from the University of Colorado Boulder’s Media and Climate Change Observatory, climate coverage has seen a 38% dropoff since its peak in 2021. Major news outlets like The New York Times (shown above), CBS News, and The Washington Post have decreased their coverage of climate change or gutted their climate reporters. (Photo: Kurt Kaiser, Wikimedia Commons, CC0)'
 summary: News media outlets are retreating from covering climate change, according to the Media and Climate Change Observatory at the University of Colorado Boulder, which has been tracking this trend for decades. They report that since a peak in 2021, climate news stories across the globe have dropped nearly 40 percent. Professor Max Boykoff is director of the Media and Climate Change Observatory and spoke with Living on Earth Host and Executive Producer, Steve Curwood.
+tags:
+  - climate-change
+  - fossil-fuels
+  - public-health
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00015&segmentID=3 -->
 

@@ -1,13 +1,20 @@
 ---
 title: Oyster Trash to Treasure
 slug: oyster-trash-to-treasure
-date: '2025-08-29'
+date: 2025-08-29
 category: Segments
 order: '1'
 megaphone_id: LOE1813195162
 image_url: https://loe.org/content/2024-09-20/OYSTERS_shellmountain.jpg
 image_caption: 'Living on Earth’s Sophia Pandelidis standing on the “shell mountain” at Nantucket’s Recycling Facility. (Photo: Living on Earth)'
 summary: Oysters on the half shell are big business on Nantucket Island, and a local program recycles oyster shells from restaurant waste into habitat for young oysters. Host Aynsley O’Neill reports on how these recycled oyster shell reefs are helping to protect the coastline from worsening storms and rising seas.
+tags:
+  - species-loss
+  - marine-life
+  - forests
+  - water-pollution
+  - invasive-species
+  - fish
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00035&segmentID=1 -->
 

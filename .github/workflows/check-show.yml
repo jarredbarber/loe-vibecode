@@ -1,4 +1,4 @@
-name: Check show
+name: Show review
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
         type: string
 
 jobs:
-  check:
+  review:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,10 +18,25 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Run check-show
+      - name: Install deps
+        run: npm ci
+
+      - name: Link / image / audio check
         run: |
           if [ -n "${{ inputs.date }}" ]; then
             npm run check-show -- --date "${{ inputs.date }}"
           else
             npm run check-show
+          fi
+
+      - name: Copyedit pass (LLM, advisory)
+        # Don't block the run if the LLM step fails — it's advisory.
+        if: always()
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.date }}" ]; then
+            npm run copyedit-check -- --date "${{ inputs.date }}"
+          else
+            npm run copyedit-check
           fi

@@ -26,13 +26,13 @@ layout: layouts/base.njk
             {% set _peak = tag.monthCountsPeak if _useMonth else tag.yearCountsPeak %}
             {% set _spanUnits = tag.monthCountsSpan if _useMonth else _spanYears %}
 
-            {% set _barW = 14 if _useMonth else 10 %}
-            {% set _gap = 2 %}
-            {% set _chartH = 44 %}
-            {% set _padL = 26 %}
-            {% set _padR = 8 %}
-            {% set _padT = 4 %}
-            {% set _padB = 14 %}
+            {% set _barW = 22 if _useMonth else 12 %}
+            {% set _gap = 4 if _useMonth else 2 %}
+            {% set _chartH = 50 %}
+            {% set _padL = 32 %}
+            {% set _padR = 12 %}
+            {% set _padT = 6 %}
+            {% set _padB = 18 %}
             {% set _plotW = (_spanUnits + 1) * (_barW + _gap) - _gap %}
             {% set _vbW = _plotW + _padL + _padR %}
             {% set _vbH = _chartH + _padT + _padB %}
@@ -40,14 +40,19 @@ layout: layouts/base.njk
             <style>
                 .tag-sparkline {
                     margin: 0.5em 0 1.25em;
-                    overflow-x: auto;
+                    max-width: 540px;
                 }
-                /* No max-width/height-auto here — that stretches the SVG up
-                   to the container width and the text inside scales with it
-                   (huge fonts). Explicit width/height on the SVG itself
-                   keeps natural pixel dimensions; overflow-x lets narrow
-                   viewports scroll horizontally if needed. */
-                .tag-sparkline svg { display: block; }
+                /* viewBox sets the coordinate system + aspect ratio; CSS
+                   sizes the SVG to its container up to a sensible max.
+                   Bumped bar/font sizes so the natural viewBox width is
+                   roughly 480-540 — close enough to the display size that
+                   axis text inside the SVG renders at a readable scale
+                   without exploding when the container is wide. */
+                .tag-sparkline svg {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                }
                 .tag-sparkline-bar {
                     fill: #8bb04d;
                     transition: fill 0.15s;
@@ -55,7 +60,7 @@ layout: layouts/base.njk
                 }
                 .tag-sparkline-bar:hover { fill: #6a8a3f; }
                 .tag-sparkline-axis {
-                    font-size: 9px;
+                    font-size: 11px;
                     fill: #777;
                     font-family: 'Space Mono', monospace;
                 }
@@ -76,9 +81,10 @@ layout: layouts/base.njk
                 }
             </style>
             <div class="tag-sparkline">
-                <svg width="{{ _vbW }}" height="{{ _vbH }}" viewBox="0 0 {{ _vbW }} {{ _vbH }}"
+                <svg viewBox="0 0 {{ _vbW }} {{ _vbH }}"
                     xmlns="http://www.w3.org/2000/svg" role="img"
-                    aria-label="Segments tagged {{ tag.name }} over time">
+                    aria-label="Segments tagged {{ tag.name }} over time"
+                    preserveAspectRatio="xMidYMid meet">
                     {# Y axis: just a left line + peak label at top, 0 implicit at baseline. #}
                     <line class="tag-sparkline-y" x1="{{ _padL }}" y1="{{ _padT }}" x2="{{ _padL }}" y2="{{ _padT + _chartH }}" />
                     <line class="tag-sparkline-baseline" x1="{{ _padL }}" y1="{{ _padT + _chartH }}" x2="{{ _vbW - _padR }}" y2="{{ _padT + _chartH }}" />

@@ -43,7 +43,9 @@ Useful for one-off edits, theme tweaks, anything the CMS doesn't surface, or old
 2. Click the pencil icon ✏️ to open the inline editor.
 3. Edit. Scroll down. **Commit changes** with a message.
 
-The deploy runs automatically on every push to `main`. Your edit is live in ~2 minutes.
+## Staging → production
+
+CMS saves and any push to `main` go to **<https://loe-staging.pages.dev>** (~2 minutes). Eyeball the change there. To publish to the live site, open a pull request from `main` → `live` and merge it. The merge triggers the deploy to <https://vibingon.earth>.
 
 ## File anatomy
 

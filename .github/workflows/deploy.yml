@@ -1,9 +1,15 @@
 name: Deploy site
 
+# Two-tier deploy:
+#   - push to `main` → Cloudflare Pages (staging, https://loe-staging.pages.dev)
+#   - push to `live` → GitHub Pages (production, https://vibingon.earth)
+# Editor flow: CMS saves to `main` → preview on staging → PR `main → live` → live.
+
 on:
   push:
     branches:
       - main
+      - live
   workflow_dispatch:
 
 permissions:
@@ -12,18 +18,27 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  # Concurrency scope is per-branch so the prod and staging deploys don't fight.
+  group: "deploy-${{ github.ref }}"
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      target: ${{ steps.pick.outputs.target }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Node
-        uses: actions/setup-node@v4
+      - id: pick
+        run: |
+          if [ "${{ github.ref }}" = "refs/heads/live" ]; then
+            echo "target=prod" >> $GITHUB_OUTPUT
+          else
+            echo "target=staging" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: 'npm'
@@ -39,12 +54,21 @@ jobs:
       - name: Build site (Eleventy)
         run: npm --prefix eleventy run build
 
-      - name: Upload artifact
+      - name: Upload artifact (prod)
+        if: steps.pick.outputs.target == 'prod'
         uses: actions/upload-pages-artifact@v4
         with:
           path: '_site_11ty'
 
-  deploy:
+      - name: Upload artifact (staging)
+        if: steps.pick.outputs.target == 'staging'
+        uses: actions/upload-artifact@v4
+        with:
+          name: _site_11ty
+          path: '_site_11ty'
+
+  deploy-prod:
+    if: needs.build.outputs.target == 'prod'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -54,3 +78,18 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  deploy-staging:
+    if: needs.build.outputs.target == 'staging'
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: _site_11ty
+          path: _site_11ty
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: pages deploy _site_11ty --project-name=loe-staging --branch=main

@@ -6,7 +6,8 @@ The site runs on a handful of third-party services. Most are currently tied to t
 
 | Service | What it does | Where it lives | Cost |
 |---|---|---|---|
-| **GitHub** | Source of truth (this repo) + Actions (CI) + Pages (hosting of <https://vibingon.earth>) | Repo: `jarredbarber/loe-vibecode` | Free |
+| **GitHub** | Source of truth (this repo) + Actions (CI) + Pages (production hosting at <https://vibingon.earth>) | Repo: `jarredbarber/loe-vibecode`. Pages deploys from the `live` branch. | Free |
+| **Cloudflare Pages** | Staging hosting at <https://loe-staging.pages.dev>. Builds on every push to `main`. | Personal CF account, project `loe-staging`. | Free |
 | **Cloudflare Workers** | OAuth proxy for the CMS at `loe-auth.<account>.workers.dev`. Source: `auth/` in this repo. | Personal CF account (account ID `85c72026550c41387ad9a84663882bcd`, subdomain `hector-ea`) | Free tier covers expected usage (hundreds of auth requests/month) |
 | **GitHub OAuth App** | "Sign in with GitHub" button in the CMS | Personal OAuth app under <https://github.com/settings/developers>. Client ID `Ov23lisr51ryjbB0GmxZ` | Free |
 | **Google Gemini API** | LLM copyedit pass on the show-review workflow | Personal Google account; key in repo's `GEMINI_API_KEY` Actions secret | Paid tier (~5¢ per copyedit run; <$5/year at current run frequency) |
@@ -19,7 +20,7 @@ Notes:
 
 | Secret | Where it lives | Used by |
 |---|---|---|
-| `CLOUDFLARE_API_TOKEN` | `.env` (gitignored), local dev only | `wrangler deploy` from `auth/` |
+| `CLOUDFLARE_API_TOKEN` | `.env` (gitignored) for local dev + GitHub Actions secret on this repo | `wrangler deploy` from `auth/`; `wrangler pages deploy` from the deploy workflow |
 | `GITHUB_CLIENT_ID` | CF Worker secret on `loe-auth` | OAuth dance |
 | `GITHUB_CLIENT_SECRET` | CF Worker secret on `loe-auth` | OAuth dance |
 | `GEMINI_API_KEY` | GitHub Actions secret on this repo + `.env` for local copyedit runs | `scripts/copyedit-check.mjs` |

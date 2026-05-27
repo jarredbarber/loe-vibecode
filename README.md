@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://vibingon.earth"><img src="https://raw.githubusercontent.com/jarredbarber/loe-vibecode/main/themes/loe_original/static/img/logo.png" alt="Living on Earth" width="400"></a>
 
-  [![Show review](https://github.com/jarredbarber/loe-vibecode/actions/workflows/check-show.yml/badge.svg)](https://github.com/jarredbarber/loe-vibecode/actions/workflows/check-show.yml)
+  [![Latest show web check](https://github.com/jarredbarber/loe-vibecode/actions/workflows/check-show.yml/badge.svg)](https://github.com/jarredbarber/loe-vibecode/actions/workflows/check-show.yml)
 </div>
 
 This is the website for [Living on Earth](https://loe.org), a weekly environmental news radio program. It's a static site, built with [Eleventy (11ty)](https://www.11ty.dev/) and deployed to GitHub Pages on every push to `main`.
@@ -31,9 +31,9 @@ What you can do:
 - **Pages** — static pages (about, stations, events…).
 
 Useful while editing:
-- The **Live Preview** tab at <https://vibingon.earth/admin/preview.html> renders body markdown + shortcodes the same way the live site will. Paste the body in, fill the frontmatter form, see it render in real time. Or fetch the saved version of an entry directly from GitHub.
-- Every entry has two icon-pill links in the top-left of the rendered page when you're signed in: **Edit in CMS** (deep-links the entry in /admin/) and **Edit on GitHub** (raw markdown via GitHub's web editor).
-- Pre-publish review: click the **Show review** badge at the top of this README → **Run workflow** → optionally enter a show date (blank = latest). Two passes run in sequence: (1) deterministic — frontmatter shape, every image / audio / link URL HEAD-checked; (2) LLM copyedit pass — typos, broken speaker labels, frontmatter mismatches, intra-show contradictions, with per-line citations. Both write their results to the run's Job Summary panel. The deterministic pass blocks the run on failure; the copyedit pass is purely advisory.
+- **Live preview**: there's a teal **Live preview ↗** pill in the top-right corner of `/admin/`. Click it while editing an entry — a new tab opens showing the entry's draft rendered exactly the way the live site renders it (shortcodes, speaker highlighting, all of it). Auto-refreshes every 3s as you save in the CMS.
+- Every entry on the live site has two icon-pill links in the top-left when you're signed in: **Edit in CMS** (deep-links the entry in `/admin/`) and **Edit on GitHub** (raw markdown via GitHub's web editor).
+- **Pre-publish review** runs automatically on every content push and checks every image / audio / link URL — the badge at the top of this README reflects the latest content's status. The badge also doubles as a manual entry point: click it → **Run workflow** → optionally enter a date → an LLM copyedit pass runs alongside (advisory: typos, broken speaker labels, frontmatter mismatches, intra-show contradictions, with per-line citations). Both passes write to the run's Job Summary panel.
 
 ## Option B — Direct GitHub editing
 
@@ -137,7 +137,7 @@ ingest/                                 # TypeScript scraper that pulls from loe
 
 ## For developers
 
-See **CLAUDE.md** for the architecture overview. **INGEST.md** documents the loe.org scraper.
+See **CLAUDE.md** for the architecture overview, **INGEST.md** for the loe.org scraper, and **INFRA.md** for the services + secrets + migration walkthrough.
 
 ## License
 

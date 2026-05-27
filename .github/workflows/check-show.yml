@@ -1,12 +1,21 @@
-name: Show review
+name: Latest show web check
 
 on:
+  # Manual trigger lets editors run on demand for any date.
   workflow_dispatch:
     inputs:
       date:
         description: 'Show date (YYYY-MM-DD). Leave empty to check the latest show.'
         required: false
         type: string
+  # Auto-run on content changes so the badge always reflects the latest
+  # content state, not whatever stale run was last done manually.
+  push:
+    branches: [main]
+    paths:
+      - 'content/shows/**'
+      - 'content/segments/**'
+      - 'content/newsletters/**'
 
 jobs:
   review:
@@ -29,9 +38,11 @@ jobs:
             npm run check-show
           fi
 
+      # LLM pass is manual-only — too expensive to fire on every content
+      # push (~5¢ per run, frequent during editing). The deterministic
+      # check above is what gates the badge color.
       - name: Copyedit pass (LLM, advisory)
-        # Don't block the run if the LLM step fails — it's advisory.
-        if: always()
+        if: github.event_name == 'workflow_dispatch'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |

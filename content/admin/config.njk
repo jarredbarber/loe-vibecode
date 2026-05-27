@@ -14,6 +14,8 @@ layout: false
 {%- set PATTERN = recentWindow.pattern -%}
 {%- set WINDOW = recentWindow.months | join(", ") -%}
 {%- set GENERATED = recentWindow.generatedAt -%}
+{%- set REPO = site.githubRepo -%}
+{%- set BRANCH = site.githubBranch -%}
 # Sveltia CMS config for Living on Earth.
 # Rendered at build time from content/admin/config.njk so the date filters
 # get a fresh rolling window on every deploy.
@@ -22,8 +24,8 @@ layout: false
 {% raw %}
 backend:
   name: github
-  repo: jarredbarber/loe-vibecode
-  branch: main
+  repo: {% endraw %}{{ REPO }}{% raw %}
+  branch: {% endraw %}{{ BRANCH }}{% raw %}
   # OAuth proxy (Cloudflare Worker — auth/ in the repo). With this set,
   # "Sign in with GitHub" works without a PAT; PAT login still works as
   # a fallback for editors who prefer it.

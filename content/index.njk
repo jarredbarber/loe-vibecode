@@ -5,10 +5,16 @@ eleventyExcludeFromCollections: true
 ---
 <style>
 .on-this-day {
-    margin: 1.5em 0;
-    padding: 1em 1.25em;
+    /* Match .featured-show shell so the two callouts feel like a set. */
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1.5em auto;
+    padding: 1.25em 1.5em;
     border-left: 4px solid #6a8a3f;
-    background: #f4f1e8;
+    border-radius: 8px;
+    background: rgba(244, 241, 232, 0.7);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 .on-this-day h2 {
     margin: 0 0 .5em;

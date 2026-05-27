@@ -8,6 +8,10 @@ image_caption: 'Large Concentrated Animal Feeding Operations, or CAFOs, can cont
 summary: Living near many large Concentrated Animal Feeding Operations or CAFOs appears to raise cancer risk, according to a study from Yale researchers. CAFOs pack thousands of pigs, cows, and chickens together to produce meat, dairy, and eggs. All those crowded animals can produce a lot of waste that pollutes air and water, which may explain an association between CAFOs and cancer, though the study does not prove causation. Brian Bienkowski, managing editor of The New Lede, joins Host Steve Curwood to talk about the research and how concerns transcend politics.
 order: 1
 slug: cancer-and-cafos
+tags:
+  - cafos-livestock
+  - public-health
+  - cancer-environment
 ---
 
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00021&segmentID=1 -->

@@ -95,10 +95,32 @@ function needsTagging(fm) {
 
 // Parse + filter
 const candidates = [];
+// gray-matter delegates to js-yaml; default behavior auto-parses ISO dates
+// into Date objects AND wraps long strings at column 80 on stringify, which
+// would churn every segment's frontmatter. Pin both ends to preserve format:
+// strings stay strings on parse, lines stay long on stringify, only quote
+// values when YAML strictly requires it.
+const noLineWrap = (obj) => yaml.dump(obj, {
+    lineWidth: -1,
+    quotingType: "'",
+    forceQuotes: false,
+    noCompatMode: true,
+    schema: yaml.JSON_SCHEMA, // dates stay as strings
+});
+const matterOpts = {
+    language: 'yaml',
+    engines: {
+        yaml: {
+            parse: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }),
+            stringify: noLineWrap,
+        },
+    },
+};
+
 for (const file of allSegments) {
     let parsed;
     try {
-        parsed = matter.read(file);
+        parsed = matter.read(file, matterOpts);
     } catch (e) {
         console.warn(`skip (parse error): ${file}`);
         continue;
@@ -135,6 +157,8 @@ if (!opts.dryRun) {
         console.error('Missing GEMINI_API_KEY (or GOOGLE_GENERATIVE_AI_API_KEY) in env.');
         process.exit(1);
     }
+    // Vercel AI SDK reads GOOGLE_GENERATIVE_AI_API_KEY; bridge from GEMINI_API_KEY.
+    process.env.GOOGLE_GENERATIVE_AI_API_KEY ??= process.env.GEMINI_API_KEY;
     ({ generateObject } = await import('ai'));
     ({ google } = await import('@ai-sdk/google'));
     ({ z } = await import('zod'));
@@ -166,9 +190,14 @@ function buildPrompt(seg) {
     ].join('\n');
 }
 
+// Gemini's structured-output backend rejects schemas where a single enum
+// has too many values (we hit "too much branching" with 90 tags). Use a
+// plain string array and validate post-hoc against the vocab.
 async function classify(seg) {
     const schema = z.object({
-        tags: z.array(z.enum(vocab)).min(3).max(7),
+        tags: z.array(z.string()).min(3).max(7).describe(
+            'Lowercase-hyphenated tags drawn ONLY from the controlled vocabulary listed in the prompt.'
+        ),
     });
     const res = await generateObject({
         model: google(MODEL_ID),
@@ -205,7 +234,7 @@ for (const seg of targets) {
             continue;
         }
         seg.parsed.data.tags = clean;
-        const next = matter.stringify(seg.parsed.content, seg.parsed.data);
+        const next = matter.stringify(seg.parsed.content, seg.parsed.data, matterOpts);
         fs.writeFileSync(seg.file, next);
         tagged++;
         totalIn += usage.inputTokens || usage.promptTokens || 0;

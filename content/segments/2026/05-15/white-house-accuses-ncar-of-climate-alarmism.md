@@ -1,13 +1,18 @@
 ---
 title: White House Accuses NCAR of "Climate Alarmism"
 slug: white-house-accuses-ncar-of-climate-alarmism
-date: '2026-05-15'
+date: 2026-05-15
 category: Segments
 order: '2'
 megaphone_id: LOE3676500678
 image_url: https://loe.org/content/2026-05-15/ncarlawsuit1.jpeg
 image_caption: 'Protestors gathered in Boulder late last year to show support for NCAR in the midst of calls for its dismantling. (Photo: Kevin Beaty, Denverite)'
 summary: The federally funded National Center for Atmospheric Research, or NCAR, in Boulder, Colorado has been a leading agency for decades assessing the risks and possible responses to the changing climate. But in November, the Trump administration declared it was dismantling NCAR, citing its contribution to what the administration calls “climate alarmism.” University of Colorado - Boulder Professor Waleed Abdalati talks with Host Steve Curwood about the role of NCAR and why its parent organization has filed a lawsuit alleging a “campaign of retaliation against the State of Colorado.”
+tags:
+  - climate-change
+  - atmospheric-science
+  - regulation-deregulation
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00020&segmentID=2 -->
 

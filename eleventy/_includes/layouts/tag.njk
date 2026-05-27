@@ -10,55 +10,122 @@ layout: layouts/base.njk
                 tagged with <em>{{ tag.name }}</em> on <em>Living on Earth</em>.
             </p>
 
-            {# Frequency-over-time sparkline. Skip for tags with <5 segments
-               (chart looks degenerate). Bars span 1991→latest-year-with-data;
-               heights are normalized to the tag's own peak so single-segment
-               years remain visible relative to the heavy years. #}
+            {# Frequency-over-time sparkline.
+               - Year buckets by default; falls back to monthly buckets when
+                 the year span is too narrow to be visually informative
+                 (helpful right now — archive isn't tagged yet).
+               - X-axis starts at the earliest tagged period, not 1991.
+               - Bars are anchor links to the corresponding period section
+                 below; clicking jumps + highlights.
+               - Y-axis labels the peak; small + unobtrusive overall. #}
             {% if tag.count >= 5 and tag.yearCountsPeak %}
-            {% set _firstYear = 1991 %}
-            {% set _lastYear = tag.yearCountsLast %}
-            {% set _peak = tag.yearCountsPeak %}
-            {% set _years = _lastYear - _firstYear + 1 %}
-            {% set _barW = 14 %}
+            {% set _spanYears = tag.yearCountsLast - tag.yearCountsFirst %}
+            {% set _useMonth = _spanYears < 3 %}
+
+            {% set _series = tag.monthCountsWithOffset if _useMonth else tag.yearCounts %}
+            {% set _peak = tag.monthCountsPeak if _useMonth else tag.yearCountsPeak %}
+            {% set _spanUnits = tag.monthCountsSpan if _useMonth else _spanYears %}
+
+            {% set _barW = 10 %}
             {% set _gap = 2 %}
-            {% set _chartW = (_years * (_barW + _gap)) - _gap %}
-            {% set _chartH = 80 %}
+            {% set _chartH = 44 %}
+            {% set _padL = 32 %}
+            {% set _padR = 16 %}
+            {% set _padT = 4 %}
+            {% set _padB = 16 %}
+            {% set _plotW = (_spanUnits + 1) * (_barW + _gap) - _gap %}
+            {% set _vbW = _plotW + _padL + _padR %}
+            {% set _vbH = _chartH + _padT + _padB %}
+
             <style>
                 .tag-sparkline {
-                    margin: 0.5em 0 1.5em;
-                    padding: 0.75em 0;
-                    border-top: 1px solid #e5e8e3;
-                    border-bottom: 1px solid #e5e8e3;
+                    margin: 0.5em 0 1.25em;
                 }
                 .tag-sparkline svg { display: block; max-width: 100%; height: auto; }
-                .tag-sparkline-bar { fill: #6a8a3f; }
-                .tag-sparkline-bar:hover { fill: #4d6b2a; }
-                .tag-sparkline-axis { font-size: 9px; fill: #888; font-family: 'Space Mono', monospace; }
-                .tag-sparkline-caption { font-size: 0.8em; color: #666; margin-top: 0.3em; text-align: center; }
+                .tag-sparkline-bar {
+                    fill: #8bb04d;
+                    transition: fill 0.15s;
+                    cursor: pointer;
+                }
+                .tag-sparkline-bar:hover { fill: #6a8a3f; }
+                .tag-sparkline-axis {
+                    font-size: 9px;
+                    fill: #777;
+                    font-family: 'Space Mono', monospace;
+                }
+                .tag-sparkline-y { stroke: #d5d8d2; stroke-width: 1; }
+                .tag-sparkline-baseline { stroke: #c5c8c2; stroke-width: 1; }
+                .tag-sparkline-caption {
+                    font-size: 0.78em;
+                    color: #888;
+                    margin: 0;
+                    text-align: right;
+                    font-family: 'Space Mono', monospace;
+                }
+                .tag-period-anchor { position: relative; top: -80px; visibility: hidden; }
+                .tag-period-heading {
+                    font-size: 1.05em;
+                    color: #555;
+                    margin: 1em 0 0.25em;
+                    border-bottom: 1px solid #e5e8e3;
+                    padding-bottom: 0.15em;
+                }
             </style>
             <div class="tag-sparkline">
-                <svg viewBox="0 0 {{ _chartW + 4 }} {{ _chartH + 18 }}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Segments tagged {{ tag.name }} by year, {{ _firstYear }} to {{ _lastYear }}">
-                    {% for yc in tag.yearCounts %}
-                    {% set _x = ((yc.year - _firstYear) * (_barW + _gap)) + 2 %}
-                    {% set _h = (yc.count / _peak) * _chartH %}
-                    {% set _y = _chartH - _h %}
-                    <rect class="tag-sparkline-bar" x="{{ _x }}" y="{{ _y }}" width="{{ _barW }}" height="{{ _h }}"><title>{{ yc.year }}: {{ yc.count }} segment{% if yc.count != 1 %}s{% endif %}</title></rect>
+                <svg viewBox="0 0 {{ _vbW }} {{ _vbH }}" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Segments tagged {{ tag.name }} over time">
+                    {# Y axis: just a left line + peak label at top, 0 implicit at baseline. #}
+                    <line class="tag-sparkline-y" x1="{{ _padL }}" y1="{{ _padT }}" x2="{{ _padL }}" y2="{{ _padT + _chartH }}" />
+                    <line class="tag-sparkline-baseline" x1="{{ _padL }}" y1="{{ _padT + _chartH }}" x2="{{ _vbW - _padR }}" y2="{{ _padT + _chartH }}" />
+                    <text class="tag-sparkline-axis" x="{{ _padL - 4 }}" y="{{ _padT + 4 }}" text-anchor="end">{{ _peak }}</text>
+                    <text class="tag-sparkline-axis" x="{{ _padL - 4 }}" y="{{ _padT + _chartH }}" text-anchor="end">0</text>
+
+                    {# Bars. #}
+                    {% for d in _series %}
+                    {% set _offset = d.offset if _useMonth else (d.year - tag.yearCountsFirst) %}
+                    {% set _x = _padL + (_offset * (_barW + _gap)) %}
+                    {% set _h = (d.count / _peak) * _chartH %}
+                    {% set _y = _padT + _chartH - _h %}
+                    {% set _anchor = ('period-' + d.month) if _useMonth else ('period-' + (d.year | string)) %}
+                    {% set _label = d.month if _useMonth else (d.year | string) %}
+                    <a href="#{{ _anchor }}">
+                        <rect class="tag-sparkline-bar" x="{{ _x }}" y="{{ _y }}" width="{{ _barW }}" height="{{ _h }}">
+                            <title>{{ _label }}: {{ d.count }} segment{% if d.count != 1 %}s{% endif %}</title>
+                        </rect>
+                    </a>
                     {% endfor %}
-                    {# Axis labels every 5 years. #}
-                    {% set _y0 = _chartH + 12 %}
-                    {% for offset in [0, 5, 10, 15, 20, 25, 30, 35] %}
-                    {% set _year = _firstYear + offset %}
-                    {% if _year <= _lastYear %}
-                    {% set _xt = (offset * (_barW + _gap)) + 2 + (_barW / 2) %}
-                    <text class="tag-sparkline-axis" x="{{ _xt }}" y="{{ _y0 }}" text-anchor="middle">{{ _year }}</text>
+
+                    {# X-axis labels: first and last period only (avoids clutter). #}
+                    {% if _series.length %}
+                    {% set _firstX = _padL + (_barW / 2) %}
+                    {% set _lastOffset = (_series[_series.length - 1].offset if _useMonth else (_series[_series.length - 1].year - tag.yearCountsFirst)) %}
+                    {% set _lastX = _padL + (_lastOffset * (_barW + _gap)) + (_barW / 2) %}
+                    {% set _firstLabel = _series[0].month if _useMonth else (_series[0].year | string) %}
+                    {% set _lastLabel = _series[_series.length - 1].month if _useMonth else (_series[_series.length - 1].year | string) %}
+                    <text class="tag-sparkline-axis" x="{{ _firstX }}" y="{{ _vbH - 4 }}" text-anchor="start">{{ _firstLabel }}</text>
+                    {% if _firstLabel != _lastLabel %}
+                    <text class="tag-sparkline-axis" x="{{ _lastX }}" y="{{ _vbH - 4 }}" text-anchor="end">{{ _lastLabel }}</text>
                     {% endif %}
-                    {% endfor %}
+                    {% endif %}
                 </svg>
-                <p class="tag-sparkline-caption">peak: {{ _peak }} segment{% if _peak != 1 %}s{% endif %} in a year · hover for counts</p>
+                <p class="tag-sparkline-caption">peak: {{ _peak }} segment{% if _peak != 1 %}s{% endif %} in a {% if _useMonth %}month{% else %}year{% endif %} · click a bar to jump</p>
             </div>
             {% endif %}
+
+            {# Segments list, grouped by year (or year-month when the chart is
+               using month buckets) so the chart's bar links land on a real
+               anchor. Within a group, segments stay newest-first. #}
+            {% set _grpFmt = '%Y-%m' if _useMonth else '%Y' %}
+            {% set _prevGroup = '' %}
             <ul class="archive-list">
                 {% for seg in tag.segments %}
+                {% set _group = seg.data.date | strftime(_grpFmt) %}
+                {% if _group != _prevGroup %}
+                {% if _prevGroup != '' %}</ul>{% endif %}
+                <h3 class="tag-period-heading" id="period-{{ _group }}">{{ _group }}</h3>
+                <ul class="archive-list">
+                {% set _prevGroup = _group %}
+                {% endif %}
                 <li>
                     <span class="archive-date">
                         <a href="{{ site.url }}{{ seg.url }}">{{ seg.data.date | strftime('%B %d, %Y') }}</a>:

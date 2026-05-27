@@ -12,7 +12,7 @@ Sveltia CMS, served from `https://vibingon.earth/admin/`. Editor-facing instruct
 
 OAuth via a Cloudflare Worker (`auth/` in the repo root, deployed as `loe-auth.hector-ea.workers.dev`). Editors click **Sign in with GitHub** in `/admin/` and the standard GitHub consent flow takes over. PAT login still works as a fallback.
 
-`backend.base_url` in `config.njk` points Sveltia at the worker. The worker holds `GITHUB_CLIENT_ID` + `GITHUB_CLIENT_SECRET` as secrets (set via `wrangler secret put`); `ALLOWED_DOMAINS` (set in `auth/wrangler.toml`) restricts callers to `vibingon.earth` and localhost.
+`backend.base_url` in `config.njk` points Sveltia at the worker. The worker holds `GITHUB_CLIENT_ID` + `GITHUB_CLIENT_SECRET` as secrets (set via `wrangler secret put`); `ALLOWED_DOMAINS` and `ALLOWED_REPO` (set in `auth/wrangler.toml`) restrict callers to `vibingon.earth` / localhost and gate token issuance on collaborator membership of `jarredbarber/loe-vibecode`. A non-collaborator who completes the OAuth dance sees a clean "you're not a collaborator" message instead of being dropped into the editor UI.
 
 ### Re-deploying the worker
 

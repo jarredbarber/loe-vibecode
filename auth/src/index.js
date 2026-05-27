@@ -249,7 +249,49 @@ const handleCallback = async (request, env) => {
         });
     }
 
+    // Gate token issuance on collaborator membership of the configured
+    // repo. Pure UX — GitHub enforces write access at the API level
+    // regardless — but stops curious visitors from landing inside /admin/
+    // and only discovering they can't save when they hit Publish.
+    if (provider === 'github' && token && env.ALLOWED_REPO) {
+        const allowed = await isCollaborator(env.ALLOWED_REPO, token, GITHUB_HOSTNAME);
+        if (!allowed) {
+            return outputHTML({
+                provider,
+                error: `Your GitHub account isn't a collaborator on ${env.ALLOWED_REPO}. Ask an admin to add you.`,
+                errorCode: 'NOT_COLLABORATOR',
+            });
+        }
+    }
+
     return outputHTML({ provider, token, error });
+};
+
+/**
+ * Check whether the OAuth-authenticated user is a collaborator on the
+ * given repo. Returns false on any failure rather than throwing — we'd
+ * rather fail closed than 500 in the middle of the OAuth dance.
+ */
+const isCollaborator = async (repo, token, hostname) => {
+    const apiBase = hostname === 'github.com' ? 'https://api.github.com' : `https://${hostname}/api/v3`;
+    const headers = {
+        Authorization: `Bearer ${token}`,
+        Accept: 'application/vnd.github+json',
+        'User-Agent': 'loe-auth-worker',
+    };
+    try {
+        const userRes = await fetch(`${apiBase}/user`, { headers });
+        if (!userRes.ok) return false;
+        const { login } = await userRes.json();
+        if (!login) return false;
+        const collabRes = await fetch(
+            `${apiBase}/repos/${repo}/collaborators/${encodeURIComponent(login)}`,
+            { headers },
+        );
+        return collabRes.status === 204;
+    } catch {
+        return false;
+    }
 };
 
 export default {

@@ -23,10 +23,10 @@ One option is to use Bookshop, which Living on Earth is partnering with. If you 
 
 <img src="/images/staff/steve-curwood.gif" alt="Steve Curwood" style="float:left; margin-right:20px; margin-bottom:10px;">
 
-**[Steve Curwood](/people/curwood.html)**
+**Steve Curwood**
 *Host / Executive Producer*
 
-617-287-4121 | [steve@loe.org](mailto:steve@loe.org) | [Twitter @scurwood](https://twitter.com/SCurwood)
+617-287-4121 | [steve@loe.org](mailto:steve@loe.org) | [Twitter @scurwood](https://twitter.com/SCurwood) | [Appearances on LOE](/people/curwood.html)
 
 Steve Curwood is Executive Producer and Host of *Living on Earth*. Steve created the first pilot of *Living on Earth* in the Spring of 1990, and the show has run continuously since April, 1991. Today, *Living on Earth* with Steve Curwood is aired on more than 250 public radio stations in the USA. Steve's relationship with public radio goes back to 1979 when he began as a reporter and host of *Weekend All Things Considered*. He also hosted NPR's *World of Opera*.
 
@@ -36,10 +36,10 @@ Steve has been a journalist for more than 30 years with experience at NPR, CBS N
 
 <img src="/images/staff/jenni-doering.png" width=180 alt="Jenni Doering" style="float:right; margin-left:20px; margin-bottom:10px;">
 
-**[Jenni Doering](/people/doering.html)**
+**Jenni Doering**
 *Managing Producer / resident hottie*
 
-617-287-4121 | [jdoering@loe.org](mailto:jdoering@loe.org) | [Twitter @jennidoering](https://twitter.com/jennidoering)
+617-287-4121 | [jdoering@loe.org](mailto:jdoering@loe.org) | [Twitter @jennidoering](https://twitter.com/jennidoering) | [Appearances on LOE](/people/doering.html)
 
 A member of the Living on Earth team since 2014, Jenni Doering enjoys producing stories on climate science, chemical exposure, and outdoor inclusivity. One of her favorite parts of the job is getting to meet and interview some of her nature writing heroes! She majored in Environmental Humanities at Whitman College in Walla Walla, WA and will always have a soft spot for the PNW. She now lives in Somerville, Massachusetts with [two very fluffy kitties](https://www.instagram.com/torikatsu.the.cat/) and enjoys biking, hiking, and gardening.
 
@@ -71,10 +71,10 @@ Jacob Rego has been with Living On Earth since 2012. He is a graduate from Berkl
 
 <img src="https://media.licdn.com/dms/image/v2/C4E03AQH87PDBFCtIhA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1535224502967?e=2147483647&v=beta&t=4Ziv74BIh3PsNySwtYgWRNR3HBEliO5VEkGN_MxZXuM" width=180 alt="Aynsley O'Neill" style="float:left; margin-right:20px; margin-bottom:10px;">
 
-**[Aynsley O'Neill](/people/oneill.html)**
+**Aynsley O'Neill**
 *Producer*
 
-617-287-4121 | [aoneill@loe.org](mailto:aoneill@loe.org) | [Twitter @aynsleyoneill](https://twitter.com/aynsleyoneill)
+617-287-4121 | [aoneill@loe.org](mailto:aoneill@loe.org) | [Twitter @aynsleyoneill](https://twitter.com/aynsleyoneill) | [Appearances on LOE](/people/oneill.html)
 
 Aynsley joins Living on Earth from the Class of 2018 at Brandeis University, where she graduated with a double major in Biology and Environmental Studies, as well as a minor in Hispanic Studies. She has a special place in her heart for communicating science of any kind, and especially loves reporting on new and exciting scientific discoveries. Aynsley spends much of her free time learning everything she can, whether it be American Sign Language, advanced knitting techniques, or obscure comic book lore.
 

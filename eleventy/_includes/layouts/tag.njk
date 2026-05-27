@@ -9,6 +9,55 @@ layout: layouts/base.njk
                 {{ tag.count }} segment{% if tag.count != 1 %}s{% endif %}
                 tagged with <em>{{ tag.name }}</em> on <em>Living on Earth</em>.
             </p>
+
+            {# Frequency-over-time sparkline. Skip for tags with <5 segments
+               (chart looks degenerate). Bars span 1991→latest-year-with-data;
+               heights are normalized to the tag's own peak so single-segment
+               years remain visible relative to the heavy years. #}
+            {% if tag.yearCounts.length >= 1 and tag.count >= 5 %}
+            {% set _firstYear = 1991 %}
+            {% set _lastYear = tag.yearCounts[tag.yearCounts.length - 1].year %}
+            {% set _peak = 0 %}
+            {% for yc in tag.yearCounts %}{% if yc.count > _peak %}{% set _peak = yc.count %}{% endif %}{% endfor %}
+            {% set _years = _lastYear - _firstYear + 1 %}
+            {% set _barW = 14 %}
+            {% set _gap = 2 %}
+            {% set _chartW = (_years * (_barW + _gap)) - _gap %}
+            {% set _chartH = 80 %}
+            <style>
+                .tag-sparkline {
+                    margin: 0.5em 0 1.5em;
+                    padding: 0.75em 0;
+                    border-top: 1px solid #e5e8e3;
+                    border-bottom: 1px solid #e5e8e3;
+                }
+                .tag-sparkline svg { display: block; max-width: 100%; height: auto; }
+                .tag-sparkline-bar { fill: #6a8a3f; }
+                .tag-sparkline-bar:hover { fill: #4d6b2a; }
+                .tag-sparkline-axis { font-size: 9px; fill: #888; font-family: 'Space Mono', monospace; }
+                .tag-sparkline-caption { font-size: 0.8em; color: #666; margin-top: 0.3em; text-align: center; }
+            </style>
+            <div class="tag-sparkline">
+                <svg viewBox="0 0 {{ _chartW + 4 }} {{ _chartH + 18 }}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Segments tagged {{ tag.name }} by year, {{ _firstYear }} to {{ _lastYear }}">
+                    {% for yc in tag.yearCounts %}
+                    {% set _x = ((yc.year - _firstYear) * (_barW + _gap)) + 2 %}
+                    {% set _h = (yc.count / _peak) * _chartH %}
+                    {% set _y = _chartH - _h %}
+                    <rect class="tag-sparkline-bar" x="{{ _x }}" y="{{ _y }}" width="{{ _barW }}" height="{{ _h }}"><title>{{ yc.year }}: {{ yc.count }} segment{% if yc.count != 1 %}s{% endif %}</title></rect>
+                    {% endfor %}
+                    {# Axis labels every 5 years. #}
+                    {% set _y0 = _chartH + 12 %}
+                    {% for offset in [0, 5, 10, 15, 20, 25, 30, 35] %}
+                    {% set _year = _firstYear + offset %}
+                    {% if _year <= _lastYear %}
+                    {% set _xt = (offset * (_barW + _gap)) + 2 + (_barW / 2) %}
+                    <text class="tag-sparkline-axis" x="{{ _xt }}" y="{{ _y0 }}" text-anchor="middle">{{ _year }}</text>
+                    {% endif %}
+                    {% endfor %}
+                </svg>
+                <p class="tag-sparkline-caption">peak: {{ _peak }} segment{% if _peak != 1 %}s{% endif %} in a year · hover for counts</p>
+            </div>
+            {% endif %}
             <ul class="archive-list">
                 {% for seg in tag.segments %}
                 <li>

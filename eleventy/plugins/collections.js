@@ -174,7 +174,13 @@ module.exports = function (eleventyConfig) {
             // doesn't propagate out of the loop scope).
             const yearCounts = new Map();
             for (const s of entry.segments) {
-                const y = parseInt(String(s.data.date).slice(0, 4), 10);
+                // s.data.date can be a Date (Eleventy frontmatter cast) or a
+                // raw string. String(Date) starts with the day-of-week, not
+                // the year — use getUTCFullYear() or ISO-slice instead.
+                const d = s.data.date;
+                let y = NaN;
+                if (d instanceof Date) y = d.getUTCFullYear();
+                else if (typeof d === 'string') y = parseInt(d.slice(0, 4), 10);
                 if (Number.isFinite(y)) yearCounts.set(y, (yearCounts.get(y) || 0) + 1);
             }
             const yc = [...yearCounts.entries()]

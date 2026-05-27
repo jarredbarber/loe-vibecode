@@ -3,6 +3,38 @@ layout: layouts/base.njk
 permalink: /index.html
 eleventyExcludeFromCollections: true
 ---
+<style>
+.on-this-day {
+    margin: 1.5em 0;
+    padding: 1em 1.25em;
+    border-left: 4px solid #6a8a3f;
+    background: #f4f1e8;
+}
+.on-this-day h2 {
+    margin: 0 0 .5em;
+    font-size: 1.15em;
+}
+.on-this-day ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.on-this-day li {
+    padding: .4em 0;
+    border-top: 1px solid #e0dcd0;
+}
+.on-this-day li:first-child { border-top: 0; }
+.on-this-day li p {
+    margin: .25em 0 0;
+    font-size: .92em;
+    color: #444;
+}
+.on-this-day-date {
+    color: #777;
+    font-size: .85em;
+    margin-left: .5em;
+}
+</style>
 {% set latest = collections.shows[0] %}
 {% set recent = collections.shows.slice(1, 6) %}
 <div class="body">
@@ -33,6 +65,21 @@ eleventyExcludeFromCollections: true
             </div>
             <p><a href="{{ site.url }}{{ latest.url }}" class="read-more-btn">View Full Show →</a></p>
         </div>
+
+        {% if onThisDay.picks.length %}
+        <section class="on-this-day">
+            <h2>On this day in <em>Living on Earth</em> history</h2>
+            <ul>
+            {% for p in onThisDay.picks %}
+                <li>
+                    <a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a>
+                    <span class="on-this-day-date">{{ p.date | strftime('%B %-d, %Y') }}</span>
+                    {% if p.summary %}<p>{{ p.summary }}</p>{% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
 
         <h2 class="recent-shows-header">Recent Shows</h2>
         {% for show in recent %}

@@ -16,6 +16,7 @@ layout: false
 {%- set GENERATED = recentWindow.generatedAt -%}
 {%- set REPO = site.githubRepo -%}
 {%- set BRANCH = site.githubBranch -%}
+{%- set VOCAB = tagVocab.all -%}
 # Sveltia CMS config for Living on Earth.
 # Rendered at build time from content/admin/config.njk so the date filters
 # get a fresh rolling window on every deploy.
@@ -89,6 +90,7 @@ collections:
       - { label: 'Image caption', name: 'image_caption', widget: 'string', required: false }
       - { label: 'Summary', name: 'summary', widget: 'text', required: false }
       - { label: 'Order', name: 'order', widget: 'number', required: false, hint: 'Optional. Lower numbers come first on the show page. Defaults to filename order.' }
+      - { label: 'Tags', name: 'tags', widget: 'select', multiple: true, required: false, options: {% endraw %}{{ VOCAB | dump | safe }}{% raw %}, hint: 'Pick from the controlled vocabulary at /tags.html. Empty is OK if nothing fits.' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: newsletters

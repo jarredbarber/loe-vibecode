@@ -13,3 +13,4 @@ _site_11ty
 node_modules/
 auth/.wrangler
 .claude/worktrees/
+content/extra/search/*

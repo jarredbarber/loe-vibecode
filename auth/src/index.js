@@ -320,10 +320,141 @@ const handlePodcastRss = async () => {
     });
 };
 
+/**
+ * Semantic-search query encoder.
+ *
+ * The build-time script (`npm run build-embeddings`) ships int8-quantized
+ * 768-d vectors per show/segment/newsletter. This endpoint turns the
+ * user's *query* into a vector with the same model so the browser can do
+ * cosine similarity locally.
+ *
+ * Requires GEMINI_API_KEY as a Worker secret:
+ *   echo $GEMINI_API_KEY | wrangler secret put GEMINI_API_KEY
+ *
+ * Origin-gated to the LOE properties — this is not a generic embedding
+ * proxy. Edge-cached for an hour per query so repeats are free.
+ */
+const SEARCH_ORIGINS = new Set([
+    'https://vibingon.earth',
+    'https://www.vibingon.earth',
+    'https://loe-staging.pages.dev',
+    'http://localhost:8080',
+    'http://localhost:8081',
+    'http://localhost:8888',
+    'http://127.0.0.1:8080',
+]);
+
+const corsHeaders = (origin) => ({
+    'Access-Control-Allow-Origin': SEARCH_ORIGINS.has(origin) ? origin : 'https://vibingon.earth',
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    Vary: 'Origin',
+});
+
+const handleEmbed = async (request, env) => {
+    const reqUrl = new URL(request.url);
+    const origin = request.headers.get('Origin') || '';
+    const referer = request.headers.get('Referer') || '';
+    const refererOk =
+        referer && [...SEARCH_ORIGINS].some((o) => referer.startsWith(o + '/'));
+
+    if (origin && !SEARCH_ORIGINS.has(origin)) {
+        return new Response(JSON.stringify({ error: 'origin not allowed' }), {
+            status: 403,
+            headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) },
+        });
+    }
+    if (!origin && !refererOk) {
+        return new Response(JSON.stringify({ error: 'origin required' }), {
+            status: 403,
+            headers: { 'Content-Type': 'application/json' },
+        });
+    }
+
+    const q = (reqUrl.searchParams.get('q') || '').trim();
+    if (!q) {
+        return new Response(JSON.stringify({ error: 'q required' }), {
+            status: 400,
+            headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) },
+        });
+    }
+    if (q.length > 500) {
+        return new Response(JSON.stringify({ error: 'q too long (max 500 chars)' }), {
+            status: 400,
+            headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) },
+        });
+    }
+
+    if (!env.GEMINI_API_KEY) {
+        return new Response(
+            JSON.stringify({
+                error:
+                    'Semantic search is not configured yet. The maintainer needs to set GEMINI_API_KEY on the Worker (`wrangler secret put GEMINI_API_KEY`).',
+            }),
+            {
+                status: 503,
+                headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) },
+            },
+        );
+    }
+
+    const model = 'gemini-embedding-001';
+    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:embedContent?key=${env.GEMINI_API_KEY}`;
+    let upstream;
+    try {
+        upstream = await fetch(apiUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                model: `models/${model}`,
+                content: { parts: [{ text: q }] },
+                taskType: 'RETRIEVAL_QUERY',
+                outputDimensionality: 768,
+            }),
+        });
+    } catch (_e) {
+        return new Response(JSON.stringify({ error: 'upstream fetch failed' }), {
+            status: 502,
+            headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) },
+        });
+    }
+    if (!upstream.ok) {
+        const txt = await upstream.text();
+        return new Response(
+            JSON.stringify({ error: `embedding API ${upstream.status}`, detail: txt.slice(0, 500) }),
+            { status: 502, headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) } },
+        );
+    }
+    const json = await upstream.json();
+    const vector = json.embedding?.values || json.embeddings?.[0]?.values;
+    if (!Array.isArray(vector)) {
+        return new Response(JSON.stringify({ error: 'malformed upstream response' }), {
+            status: 502,
+            headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) },
+        });
+    }
+
+    return new Response(JSON.stringify({ vector, dim: vector.length, model }), {
+        status: 200,
+        headers: {
+            'Content-Type': 'application/json',
+            'Cache-Control': 'public, max-age=3600, s-maxage=3600',
+            ...corsHeaders(origin),
+        },
+    });
+};
+
 export default {
     async fetch(request, env) {
         const { method, url } = request;
         const { pathname } = new URL(url);
+
+        if (method === 'OPTIONS' && pathname === '/embed') {
+            return new Response(null, {
+                status: 204,
+                headers: corsHeaders(request.headers.get('Origin') || ''),
+            });
+        }
 
         if (method === 'GET' && ['/auth', '/oauth/authorize'].includes(pathname)) {
             return handleAuth(request, env);
@@ -335,6 +466,10 @@ export default {
 
         if (method === 'GET' && pathname === '/podcast.rss') {
             return handlePodcastRss();
+        }
+
+        if (method === 'GET' && pathname === '/embed') {
+            return handleEmbed(request, env);
         }
 
         return new Response('', { status: 404 });

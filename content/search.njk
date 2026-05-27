@@ -1,0 +1,192 @@
+---
+layout: layouts/page.njk
+permalink: /search.html
+eleventyExcludeFromCollections: true
+title: Search
+slug: search
+---
+<div class="body">
+    <div class="body_resize">
+        <div class="left">
+            <h1>Search</h1>
+            <p>Semantic search across every Living on Earth show, segment, and newsletter back to 1991. Type a topic, question, or theme — results are ranked by meaning, not just keywords.</p>
+
+            <noscript>
+                <p><strong>Search requires JavaScript.</strong></p>
+            </noscript>
+
+            <form id="loe-search-form" autocomplete="off" style="margin: 1.5em 0;">
+                <input
+                    id="loe-search-q"
+                    type="search"
+                    name="q"
+                    placeholder="e.g. lithium mining and Indigenous rights"
+                    aria-label="Search the LOE archive"
+                    style="width:100%;padding:.7em 1em;font-size:1.1em;border:1px solid #999;border-radius:4px;box-sizing:border-box;"
+                    maxlength="500"
+                    required
+                />
+                <div id="loe-search-status" style="color:#666;font-size:.9em;margin-top:.5em;min-height:1.2em;"></div>
+            </form>
+
+            <div id="loe-search-results" class="article-content"></div>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+
+<script type="module">
+    const WORKER = 'https://loe-auth.hector-ea.workers.dev/embed';
+    const MANIFEST_URL = '/extra/search/manifest.json';
+    const SHARD_URL = (file) => `/extra/search/${file}`;
+    const TOP_N = 20;
+
+    const form = document.getElementById('loe-search-form');
+    const input = document.getElementById('loe-search-q');
+    const statusEl = document.getElementById('loe-search-status');
+    const resultsEl = document.getElementById('loe-search-results');
+
+    const state = {
+        manifest: null,
+        shards: new Map(), // year -> { items, vectors (Int8Array) }
+        loading: null,
+    };
+
+    const setStatus = (msg) => { statusEl.textContent = msg || ''; };
+
+    async function loadManifest() {
+        if (state.manifest) return state.manifest;
+        const res = await fetch(MANIFEST_URL, { cache: 'force-cache' });
+        if (!res.ok) {
+            throw new Error('Search index not built yet. Check back soon.');
+        }
+        state.manifest = await res.json();
+        return state.manifest;
+    }
+
+    async function loadShard(year) {
+        if (state.shards.has(year)) return state.shards.get(year);
+        const entry = state.manifest.shards.find((s) => s.year === year);
+        if (!entry) return null;
+        const res = await fetch(SHARD_URL(entry.file), { cache: 'force-cache' });
+        if (!res.ok) throw new Error(`Failed to load shard ${year}`);
+        const buf = new Uint8Array(await res.arrayBuffer());
+        const headerLen = new DataView(buf.buffer, buf.byteOffset, 4).getUint32(0, true);
+        const header = JSON.parse(new TextDecoder().decode(buf.subarray(4, 4 + headerLen)));
+        const vecStart = 4 + headerLen;
+        const vectors = new Int8Array(buf.buffer, buf.byteOffset + vecStart, header.count * header.dim);
+        const shard = { items: header.items, vectors, dim: header.dim, count: header.count };
+        state.shards.set(year, shard);
+        return shard;
+    }
+
+    async function encodeQuery(q) {
+        const url = `${WORKER}?q=${encodeURIComponent(q)}`;
+        const res = await fetch(url);
+        if (!res.ok) {
+            let detail = '';
+            try { detail = (await res.json()).error || ''; } catch (_) {}
+            throw new Error(detail || `Query encoder returned ${res.status}`);
+        }
+        const { vector } = await res.json();
+        // L2-normalize so dot product == cosine.
+        let s = 0;
+        for (let i = 0; i < vector.length; i++) s += vector[i] * vector[i];
+        const n = Math.sqrt(s) || 1;
+        const out = new Float32Array(vector.length);
+        for (let i = 0; i < vector.length; i++) out[i] = vector[i] / n;
+        return out;
+    }
+
+    function scoreShard(qVec, shard) {
+        // Vectors are int8, L2-normalized at quantization time.
+        // cosine ≈ (q · v_int8) / 127, since |q|=1 and |v|≈1.
+        const { vectors, items, dim, count } = shard;
+        const results = new Array(count);
+        for (let i = 0; i < count; i++) {
+            let dot = 0;
+            const base = i * dim;
+            for (let j = 0; j < dim; j++) dot += qVec[j] * vectors[base + j];
+            results[i] = { score: dot / 127, item: items[i] };
+        }
+        return results;
+    }
+
+    function renderResults(results) {
+        if (!results.length) {
+            resultsEl.innerHTML = '<p>No results.</p>';
+            return;
+        }
+        const html = results.map((r) => {
+            const d = new Date(r.item.date);
+            const dateStr = isNaN(d) ? r.item.date : d.toUTCString().slice(5, 16);
+            const summary = (r.item.summary || '').slice(0, 280);
+            return `<article style="margin: 1.2em 0; padding-bottom:1em; border-bottom: 1px solid #eee;">
+                <h3 style="margin:0 0 .2em;"><a href="${r.item.id}">${escapeHtml(r.item.title || '(untitled)')}</a></h3>
+                <div style="color:#777; font-size:.85em; margin-bottom:.4em;">${dateStr} · score ${r.score.toFixed(3)}</div>
+                <div>${escapeHtml(summary)}${summary.length === 280 ? '…' : ''}</div>
+            </article>`;
+        }).join('');
+        resultsEl.innerHTML = html;
+    }
+
+    function escapeHtml(s) {
+        return String(s).replace(/[&<>"']/g, (c) => (
+            { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+        ));
+    }
+
+    async function search(q) {
+        resultsEl.innerHTML = '';
+        try {
+            setStatus('Loading index…');
+            const manifest = await loadManifest();
+
+            setStatus('Encoding query…');
+            const qVec = await encodeQuery(q);
+
+            // Load shards newest-first. For v1 we load them all because the
+            // total is ~9MB and the browser will cache after the first run;
+            // if this gets bigger we can lazy-load per scroll.
+            const years = manifest.shards.map((s) => s.year).sort((a, b) => b - a);
+            const totalDocs = manifest.total;
+            setStatus(`Searching ${totalDocs.toLocaleString()} entries…`);
+            const all = [];
+            for (const year of years) {
+                const shard = await loadShard(year);
+                if (!shard) continue;
+                const scored = scoreShard(qVec, shard);
+                for (const r of scored) all.push(r);
+            }
+            all.sort((a, b) => b.score - a.score);
+            renderResults(all.slice(0, TOP_N));
+            setStatus(`${all.length.toLocaleString()} entries searched. Top ${Math.min(TOP_N, all.length)} shown.`);
+        } catch (err) {
+            setStatus('');
+            resultsEl.innerHTML = `<p style="color:#a33;">Search failed: ${escapeHtml(err.message)}</p>`;
+        }
+    }
+
+    // Submit handler — explicit submit wins over debounce so Enter is snappy.
+    form.addEventListener('submit', (ev) => {
+        ev.preventDefault();
+        const q = input.value.trim();
+        if (q) search(q);
+    });
+
+    // Debounced live search.
+    let timer = null;
+    input.addEventListener('input', () => {
+        clearTimeout(timer);
+        const q = input.value.trim();
+        if (!q) { setStatus(''); resultsEl.innerHTML = ''; return; }
+        timer = setTimeout(() => search(q), 400);
+    });
+
+    // Prefetch manifest on first focus so the first search feels instant.
+    input.addEventListener('focus', () => { loadManifest().catch(() => {}); }, { once: true });
+
+    // Allow ?q= deep-link.
+    const initialQ = new URLSearchParams(location.search).get('q');
+    if (initialQ) { input.value = initialQ; search(initialQ); }
+</script>

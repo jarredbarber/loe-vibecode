@@ -4,11 +4,19 @@ layout: layouts/base.njk
 <div class="body">
     <div class="body_resize">
         <div class="article-content">
-            <h1>#{{ tag.name }}</h1>
-            <p class="speaker-blurb">
-                {{ tag.count }} segment{% if tag.count != 1 %}s{% endif %}
-                tagged with <em>{{ tag.name }}</em> on <em>Living on Earth</em>.
-            </p>
+            <h1 class="tag-header">
+                Tag: <span class="tag-name">#{{ tag.name }}</span>
+                <small class="tag-count-inline">— {{ tag.count }} segment{% if tag.count != 1 %}s{% endif %} on <em>Living on Earth</em></small>
+            </h1>
+            <style>
+                .tag-header .tag-count-inline {
+                    font-size: 0.5em;
+                    color: #888;
+                    font-weight: normal;
+                    margin-left: 0.4em;
+                    white-space: nowrap;
+                }
+            </style>
 
             {# Frequency-over-time sparkline.
                - Year buckets by default; falls back to monthly buckets when
@@ -142,7 +150,7 @@ layout: layouts/base.njk
                     {% if _firstLabel != _lastLabel %}<span>{{ _lastLabel }}</span>{% endif %}
                 </div>
                 {% endif %}
-                <p class="tag-sparkline-caption">Peak: {{ _peak }} segment{% if _peak != 1 %}s{% endif %} in a {% if _useMonth %}month{% else %}year{% endif %}. Click a bar to jump to that period.</p>
+                <p class="tag-sparkline-caption">Click a bar to jump to that period.</p>
             </div>
             {% endif %}
 

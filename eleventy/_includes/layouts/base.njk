@@ -21,9 +21,9 @@
            target="_blank" rel="noopener"
            title="Open this entry in the CMS">✎ Edit in CMS</a>
         <a class="editor-badge editor-badge-gh"
-           href="https://github.com/{{ site.githubRepo }}/edit/{{ site.githubBranch }}/{% if _src %}content/{{ _src }}{% endif %}"
+           href="{% if _src %}https://github.com/{{ site.githubRepo }}/edit/{{ site.githubBranch }}/content/{{ _src }}{% else %}https://github.com/{{ site.githubRepo }}{% endif %}"
            target="_blank" rel="noopener"
-           title="Open this entry's markdown file on GitHub">&lt;/&gt; Edit on GitHub</a>
+           title="{% if _src %}Open this entry's markdown file on GitHub{% else %}Open the repo on GitHub{% endif %}">&lt;/&gt; {% if _src %}Edit on GitHub{% else %}Repo on GitHub{% endif %}</a>
     </div>
     <script>
         try {

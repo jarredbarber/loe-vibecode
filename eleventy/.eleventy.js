@@ -20,9 +20,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ '../content/extra': '.' });
     // admin/index.html + README copy through; config.njk is templated
     // (produces _site_11ty/admin/config.yml via its frontmatter permalink).
-    eleventyConfig.addPassthroughCopy({ '../content/admin/index.html': 'admin/index.html' });
-    eleventyConfig.addPassthroughCopy({ '../content/admin/preview.html': 'admin/preview.html' });
-    eleventyConfig.addPassthroughCopy({ '../content/admin/README.md': 'admin/README.md' });
+    // Skipped on prod builds: vibingon.earth/admin/ must 404 — edits go via PR.
+    const isProd = process.env.DEPLOY_TARGET === 'prod';
+    if (!isProd) {
+        eleventyConfig.addPassthroughCopy({ '../content/admin/index.html': 'admin/index.html' });
+        eleventyConfig.addPassthroughCopy({ '../content/admin/preview.html': 'admin/preview.html' });
+        eleventyConfig.addPassthroughCopy({ '../content/admin/README.md': 'admin/README.md' });
+    }
 
     // Skip content sections while we port templates incrementally.
     // .eleventyignore globs are relative to the ignore file's dir; ours
@@ -32,6 +36,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.ignores.add('../content/admin/index.html');
     eleventyConfig.ignores.add('../content/admin/preview.html');
     eleventyConfig.ignores.add('../content/admin/README.md');
+    if (isProd) {
+        // Suppress the templated admin/config.yml output on prod builds.
+        eleventyConfig.ignores.add('../content/admin/config.njk');
+    }
     eleventyConfig.ignores.add('../content/extra/**');
     eleventyConfig.ignores.add('../content/images/**');
 

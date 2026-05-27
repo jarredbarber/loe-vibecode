@@ -15,6 +15,7 @@
         rel="stylesheet">
 </head>
 <body>
+    {% if site.target != 'prod' %}
     <div class="editor-badges" hidden>
         <a class="editor-badge editor-badge-cms"
            href="{{ site.url }}/admin/{% if _cms.collection and _cms.slug %}#/collections/{{ _cms.collection }}/entries/{{ _cms.slug }}{% elif _cms.collection %}#/collections/{{ _cms.collection }}{% endif %}"
@@ -35,6 +36,7 @@
             }
         } catch (_) { /* ignore */ }
     </script>
+    {% endif %}
     <div class="main">
         <div class="header_resize">
             <div class="header">

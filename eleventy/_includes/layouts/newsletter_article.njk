@@ -5,10 +5,18 @@ layout: layouts/base.njk
     <div class="body_resize">
         <div class="single-column newsletter-article">
             <h2>{{ title }}</h2>
-            <p><strong>{{ date | strftime('%B %d, %Y') }}</strong></p>
-            {{ content | safe }}
+            <p class="clr"></p>
+            <p><strong>Date: {{ date | strftime('%B %d, %Y') }}</strong></p>
+
+            <div class="article-content">
+                <div style="text-align: center; margin-bottom: 20px;">
+                    <img src="{{ site.url }}/theme/img/logo.png" alt="Living on Earth Logo" width="300" />
+                </div>
+                {{ content | safe }}
+            </div>
+
+            <p><a href="{{ site.url }}/newsletter.html" class="silver">&larr; Back to Newsletters</a></p>
         </div>
-        <p><a href="{{ site.url }}/newsletter.html" class="silver">&larr; Back to Newsletters</a></p>
+        <div class="clr"></div>
     </div>
-    <div class="clr"></div>
 </div>

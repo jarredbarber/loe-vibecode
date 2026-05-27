@@ -322,17 +322,18 @@
             }
         });
 
-        // Init — if opened with ?path=content/..., default to GitHub mode
-        // pointed at that file. Falls back to paste mode.
+        // Init — default to reading the active Sveltia draft from IndexedDB,
+        // with auto-refresh on so the preview updates as the editor saves.
+        // ?path= (passed from /admin/index.html) populates the GitHub-mode
+        // input as a fallback in case the editor hasn't saved yet.
         const initialPath = new URLSearchParams(location.search).get('path');
-        if (initialPath) {
-            $('mode').value = 'github';
-            $('path').value = initialPath;
-            $('paste-pane').classList.remove('active');
-            refresh();
-        } else {
-            $('paste-pane').classList.add('active');
-        }
+        if (initialPath) $('path').value = initialPath;
+        $('mode').value = 'draft';
+        $('paste-pane').classList.remove('active');
+        // Kick off auto-refresh (same as clicking the "Auto: off" button).
+        autoTimer = setInterval(refresh, 3000);
+        $('auto-toggle').textContent = 'Auto: 3s';
+        refresh();
     </script>
 </body>
 </html>

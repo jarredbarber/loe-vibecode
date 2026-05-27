@@ -34,4 +34,12 @@
         --music-cue-bg-hover: rgba(127, 197, 179, 0.16);
         --segment-divider: #2e3838;
     }
+
+    /* Strip the dotted GIF textures that look terrible on dark backgrounds */
+    .header_resize,
+    .header_blog,
+    .header_blog2 {
+        background-image: none !important;
+        background-color: var(--bg-header) !important;
+    }
 }

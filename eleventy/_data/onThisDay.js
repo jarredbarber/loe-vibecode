@@ -169,7 +169,7 @@ module.exports = function () {
     // Seed with the window endpoints so picks are stable across rebuilds in
     // the same week but rotate when a new show shifts the anchor.
     const seed = hashStr(windowDays[0] + '|' + windowDays[WINDOW_DAYS - 1]);
-    const picks = sample(bucket, 3, seed)
+    const picks = sample(bucket, 4, seed)
         .sort((a, b) => (a.date < b.date ? 1 : -1)); // newest-first within picks
     return { window: windowDays, picks };
 };

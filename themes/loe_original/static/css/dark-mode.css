@@ -42,4 +42,30 @@
         background-image: none !important;
         background-color: var(--bg-header) !important;
     }
+
+    /* Featured-show / on-this-day card: replace the light teal gradient with
+       a dark card background and a muted teal border that fits the dark palette */
+    .featured-show {
+        background: var(--card-bg) !important;
+        border-left-color: #4a8a7a !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+    }
+
+    /* Ensure heading and body text are legible inside the card */
+    .featured-show h1,
+    .featured-show h2,
+    .featured-show h3 {
+        color: var(--primary-green) !important;
+    }
+
+    .featured-show p,
+    .featured-show li {
+        color: var(--text-dark) !important;
+    }
+
+    /* Archive segment dates in the history widget */
+    .featured-show .archive-date,
+    .featured-show .on-this-day-date {
+        color: var(--text-light) !important;
+    }
 }

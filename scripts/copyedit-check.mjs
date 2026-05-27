@@ -24,10 +24,9 @@ const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const dateArg = args.includes('--date') ? args[args.indexOf('--date') + 1] : null;
 const quiet = args.includes('--quiet');
-const modelName = process.env.LLM_MODEL || 'gemini-3.1-flash-lite';
-// Gemini 3.x uses thinkingLevel ('low' | 'medium' | 'high'); flash-lite
-// defaults to 'minimal' which is too light for this task. Bump to medium.
-const thinkingLevel = process.env.LLM_THINKING_LEVEL || 'medium';
+const modelName = process.env.LLM_MODEL || 'gemini-3-flash-preview';
+// Gemini 3.x uses thinkingLevel ('low' | 'medium' | 'high').
+const thinkingLevel = process.env.LLM_THINKING_LEVEL || 'high';
 
 if (!process.env.GEMINI_API_KEY && !process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
     console.error('GEMINI_API_KEY (or GOOGLE_GENERATIVE_AI_API_KEY) not set.');

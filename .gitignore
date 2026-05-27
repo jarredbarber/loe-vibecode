@@ -12,3 +12,4 @@ _site_11ty
 .dev.vars
 node_modules/
 auth/.wrangler
+.claude/worktrees/

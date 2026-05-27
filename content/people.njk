@@ -6,5 +6,6 @@ pagination:
 permalink: "/people/{{ speaker.slug }}.html"
 layout: layouts/speaker.njk
 eleventyExcludeFromCollections: true
-title: "{{ speaker.name }}"
+eleventyComputed:
+    title: "{{ speaker.name }} — Living on Earth"
 ---

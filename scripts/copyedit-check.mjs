@@ -71,15 +71,24 @@ const dayOfWeek = new Date(`${date}T00:00:00Z`).toLocaleDateString('en-US', {
     timeZone: 'UTC',
 });
 
-let bundle = `# Living on Earth show: ${date} (${dayOfWeek})\n\n`;
-bundle += `## ${relpath(showPath)}\n\n${readFileSync(showPath, 'utf8')}\n\n`;
+// Prefix each line with its line number from the source file so the
+// model can cite locations as "L<n>". Resets per file so the numbers
+// match what the editor sees when they open the markdown.
+const withLineNumbers = (raw) => {
+    const lines = raw.split('\n');
+    const w = String(lines.length).length;
+    return lines.map((line, i) => `L${String(i + 1).padStart(w)} | ${line}`).join('\n');
+};
+
+let bundle = `# Living on Earth show: ${date} (${dayOfWeek})\n\nEach file below is line-numbered. Cite locations in your findings as "<filename> L<n>".\n\n`;
+bundle += `## ${relpath(showPath)}\n\n${withLineNumbers(readFileSync(showPath, 'utf8'))}\n\n`;
 
 const segments = existsSync(segmentsDir)
     ? readdirSync(segmentsDir).filter((f) => f.endsWith('.md')).sort()
     : [];
 for (const f of segments) {
     const p = join(segmentsDir, f);
-    bundle += `## ${relpath(p)}\n\n${readFileSync(p, 'utf8')}\n\n`;
+    bundle += `## ${relpath(p)}\n\n${withLineNumbers(readFileSync(p, 'utf8'))}\n\n`;
 }
 
 console.log(`Reviewing ${date} (${dayOfWeek}) — show + ${segments.length} segment(s), ${(bundle.length / 1000).toFixed(1)}k chars`);
@@ -122,6 +131,8 @@ What to look for:
 - Frontmatter problems: date in frontmatter ≠ ${date}, mangled summary, title/slug mismatch.
 - Date sanity in the body: the show airs ${date} (${dayOfWeek}). Flag relative-date references ("this Tuesday", "next week") that contradict that.
 - Cross-segment factual contradictions in the same show (segment A says 23 calves; segment B says 18).
+
+**How to write the \`where\` field:** Always include the filename and a line number from the line-numbered bundle. Format: \`<filename> L<n>\` or \`<filename> L<n>-L<m>\` for ranges. e.g. \`baby-right-whales-bring-hope.md L42\`. The line numbers are visible in the bundle as the \`L<n> | \` prefix on each line. The editor uses these to jump to the right place in GitHub's web editor.
 
 **How to write the \`message\` field so editors can actually act on it:**
 - For typos: quote the offending fragment verbatim in backticks. e.g. \`Doubled word: "but \`the the\` they're thinking"\`.
@@ -166,6 +177,20 @@ try {
 
 const findings = result.object.findings || [];
 
+// ---- usage / cost ----
+const usage = result.usage || {};
+const input = usage.inputTokens ?? usage.promptTokens ?? 0;
+const output = usage.outputTokens ?? usage.completionTokens ?? 0;
+const reasoning =
+    usage.reasoningTokens ??
+    result.providerMetadata?.google?.thoughtsTokenCount ??
+    result.providerMetadata?.google?.thinkingTokenCount ??
+    0;
+const total = usage.totalTokens ?? input + output + reasoning;
+console.log(
+    `Usage: ${input} input + ${output} output${reasoning ? ` + ${reasoning} thinking` : ''} = ${total} tokens\n`,
+);
+
 // ---- thinking trace (helpful for debugging the prompt) ----
 const thoughts =
     result.reasoning ||
@@ -194,7 +219,9 @@ if (process.env.GITHUB_STEP_SUMMARY) {
     const lines = [
         `# Copyedit check: ${date}`,
         '',
-        `${segments.length} segments reviewed via ${modelName}. **${findings.length} finding(s)** — all advisory; verify in context before applying.`,
+        `${segments.length} segments reviewed via ${modelName} (thinking: ${thinkingLevel}). **${findings.length} finding(s)** — all advisory; verify in context before applying.`,
+        '',
+        `Token usage: ${input} input + ${output} output${reasoning ? ` + ${reasoning} thinking` : ''} = ${total}.`,
         '',
     ];
     if (findings.length) {

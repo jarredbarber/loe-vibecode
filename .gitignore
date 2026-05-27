@@ -9,3 +9,7 @@ content/_wip
 tests/fixtures/_build/
 eleventy/node_modules
 _site_11ty
+.env
+.dev.vars
+auth/node_modules
+auth/.wrangler

@@ -24,6 +24,11 @@ backend:
   name: github
   repo: jarredbarber/loe-vibecode
   branch: main
+  # OAuth proxy (Cloudflare Worker — auth/ in the repo). With this set,
+  # "Sign in with GitHub" works without a PAT; PAT login still works as
+  # a fallback for editors who prefer it.
+  base_url: https://loe-auth.hector-ea.workers.dev
+  auth_endpoint: auth
 
 site_url: https://vibingon.earth
 display_url: https://vibingon.earth

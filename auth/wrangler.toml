@@ -1,0 +1,8 @@
+name = "loe-auth"
+main = "src/index.js"
+compatibility_date = "2026-05-01"
+
+# Restrict OAuth dance to our domains; prevents the worker being used as
+# a generic CMS-auth proxy by other sites.
+[vars]
+ALLOWED_DOMAINS = "vibingon.earth,localhost:*,127.0.0.1:*"

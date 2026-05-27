@@ -10,9 +10,26 @@ Sveltia CMS, served from `https://vibingon.earth/admin/`. Editor-facing instruct
 
 ## Authentication
 
-PAT only. Editors paste a GitHub Personal Access Token with `repo` scope. Token stays in browser localStorage.
+OAuth via a Cloudflare Worker (`auth/` in the repo root, deployed as `loe-auth.hector-ea.workers.dev`). Editors click **Sign in with GitHub** in `/admin/` and the standard GitHub consent flow takes over. PAT login still works as a fallback.
 
-The "Sign in with GitHub" button on Sveltia's login screen points at Netlify's auth proxy and **does not work** — we're on GitHub Pages, not Netlify. Editors need to use **Sign in with Token**. Issue [#6](https://github.com/jarredbarber/loe-vibecode/issues/6) tracks deploying an OAuth proxy to fix this if we ever onboard more editors.
+`backend.base_url` in `config.njk` points Sveltia at the worker. The worker holds `GITHUB_CLIENT_ID` + `GITHUB_CLIENT_SECRET` as secrets (set via `wrangler secret put`); `ALLOWED_DOMAINS` (set in `auth/wrangler.toml`) restricts callers to `vibingon.earth` and localhost.
+
+### Re-deploying the worker
+
+```bash
+cd auth
+CLOUDFLARE_API_TOKEN=$(grep CLOUDFLARE_API_TOKEN ../.env | cut -d= -f2) wrangler deploy
+```
+
+### Rotating the OAuth secret
+
+1. <https://github.com/settings/applications> → the "Living on Earth CMS" app → **Generate a new client secret**.
+2. `cd auth && wrangler secret put GITHUB_CLIENT_SECRET` (paste the new secret).
+3. Old secret is invalidated immediately; in-flight logins fail and retry succeeds.
+
+### Source
+
+`auth/src/index.js` is a verbatim copy of [sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth) (MIT). Vendored rather than packaged so we don't depend on their CI for a deploy.
 
 ## Collections
 

@@ -19,10 +19,10 @@ There's a CMS at **<https://vibingon.earth/admin/>**. That's the easiest way in.
 ## Option A — The CMS (recommended)
 
 1. Visit <https://vibingon.earth/admin/>
-2. Click **Sign in with Token** (not "Sign in with GitHub" — that path needs an OAuth proxy we haven't deployed)
-3. The dialog has a "Generate a Personal Access Token" link — click it. GitHub opens a pre-filled token-creation page with the right (`repo`) scope. Generate, copy the token.
-4. Paste the token back into the CMS dialog.
-5. You're in. The CMS remembers you in this browser; future visits skip steps 2-4.
+2. Click **Sign in with GitHub**. A GitHub consent screen opens; click **Authorize Living on Earth CMS** the first time. Future visits skip the consent step.
+3. You're in. The CMS remembers you in this browser.
+
+If the GitHub flow ever breaks, **Sign in with Token** (a Personal Access Token with `repo` scope) still works as a fallback — the dialog has a "Generate a Personal Access Token" link that opens GitHub's token-creation page pre-filled with the right scope.
 
 What you can do:
 - **Shows** — create or edit a weekly show. Only recent shows (current month ± 2) are listed; editing older content goes through GitHub directly.

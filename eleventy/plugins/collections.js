@@ -141,6 +141,39 @@ module.exports = function (eleventyConfig) {
         return out;
     });
 
+    // Tags — derived from each segment's `tags:` frontmatter. One entry per
+    // tag that appears on at least one segment. Tags that exist in the
+    // vocabulary file but aren't used anywhere are NOT in this collection
+    // (the /tags.html index reads the vocab directly to show all of them).
+    eleventyConfig.addCollection('tags', (api) => {
+        const segments = api
+            .getAll()
+            .filter((item) => item.data.category === 'Segments');
+        const bySlug = new Map();
+        for (const seg of segments) {
+            const tags = seg.data.tags;
+            if (!Array.isArray(tags)) continue;
+            for (const t of tags) {
+                if (typeof t !== 'string' || !t.trim()) continue;
+                const slug = t.trim();
+                let bucket = bySlug.get(slug);
+                if (!bucket) {
+                    bucket = { slug, name: slug, segments: [] };
+                    bySlug.set(slug, bucket);
+                }
+                bucket.segments.push(seg);
+            }
+        }
+        const out = [];
+        for (const entry of bySlug.values()) {
+            entry.segments.sort((a, b) => Date.parse(b.data.date) - Date.parse(a.data.date));
+            entry.count = entry.segments.length;
+            out.push(entry);
+        }
+        out.sort((a, b) => b.count - a.count || a.slug.localeCompare(b.slug));
+        return out;
+    });
+
     eleventyConfig.addFilter('segmentsForShow', function (show, segments) {
         if (!show || !segments) return [];
         const showDate = show.data ? show.data.date : show.date;

@@ -1,0 +1,54 @@
+---
+layout: layouts/base.njk
+permalink: /tags.html
+title: "Tags — Living on Earth"
+eleventyExcludeFromCollections: true
+---
+<div class="body">
+    <div class="body_resize">
+        <div class="article-content">
+            <h1>Tags</h1>
+            <p class="speaker-blurb">
+                Browse <em>Living on Earth</em> segments by topic. Tags are
+                auto-generated from segment transcripts against an
+                editor-curated vocabulary.
+            </p>
+            <style>
+                .tag-group { margin: 1.5em 0; }
+                .tag-group h2 { font-size: 1.1em; margin: 0 0 0.4em 0; text-transform: capitalize; }
+                .tag-cloud { display: flex; flex-wrap: wrap; gap: 0.4em; }
+                .tag-pill {
+                    display: inline-block;
+                    padding: 0.15em 0.6em;
+                    background: #eef1ed;
+                    color: #2a4a2a;
+                    border-radius: 999px;
+                    font-size: 0.85em;
+                    text-decoration: none;
+                    border: 1px solid #d5dcd2;
+                }
+                .tag-pill:hover { background: #dde6d8; }
+                .tag-pill.empty { color: #888; background: #f6f6f6; border-style: dashed; }
+                .tag-pill .count { opacity: 0.6; margin-left: 0.3em; font-size: 0.85em; }
+            </style>
+            {% for domain, tags in tagVocab.grouped %}
+            <div class="tag-group">
+                <h2>{{ domain | replace('-', ' ') }}</h2>
+                <div class="tag-cloud">
+                    {% for t in tags %}
+                        {% set hit = null %}
+                        {% for entry in collections.tags %}{% if entry.slug == t %}{% set hit = entry %}{% endif %}{% endfor %}
+                        {% if hit %}
+                            <a class="tag-pill" href="{{ site.url }}/tags/{{ t }}.html">{{ t }}<span class="count">{{ hit.count }}</span></a>
+                        {% else %}
+                            <span class="tag-pill empty" title="No segments tagged yet">{{ t }}</span>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+            <p><a href="{{ site.url }}/index.html" class="silver">&larr; Back to Home</a></p>
+        </div>
+    </div>
+    <div class="clr"></div>
+</div>

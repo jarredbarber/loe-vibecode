@@ -72,7 +72,54 @@
     #stations-list-display ul {
         padding-left: 20px;
     }
+
+    #zip-finder {
+        margin: 20px 0;
+        padding: 16px 20px;
+        background: #f3f7f7;
+        border: 1px solid #d6e2e2;
+        border-radius: 8px;
+    }
+
+    #zip-finder label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    #zip-finder input {
+        font-size: 1.1em;
+        padding: 6px 10px;
+        width: 8em;
+        border: 1px solid #b0c0c0;
+        border-radius: 4px;
+    }
+
+    #zip-finder-results {
+        margin-top: 12px;
+    }
+
+    #zip-finder-results h4 {
+        margin: 8px 0 4px 0;
+    }
+
+    #zip-finder-results ul {
+        margin: 4px 0;
+        padding-left: 20px;
+    }
+
+    #zip-finder-results .zip-note {
+        color: #555;
+        font-size: 0.9em;
+        font-style: italic;
+    }
 </style>
+
+<div id="zip-finder">
+    <label for="zip-input">Find your nearest station</label>
+    <input id="zip-input" type="text" inputmode="numeric" maxlength="5" placeholder="Zip code" autocomplete="postal-code">
+    <div id="zip-finder-results" aria-live="polite"></div>
+</div>
 
 <div id="stations-map-container">
     <div id="map-wrapper">
@@ -85,6 +132,82 @@
     </div>
 </div>
 
+<script id="loe-stations-data" type="application/json">{{ { stations: stations.stations, adjacent: stations.adjacent, zip3: zipPrefixes } | dump | safe }}</script>
+<script>
+    (function () {
+        const dataEl = document.getElementById('loe-stations-data');
+        if (!dataEl) return;
+        let data;
+        try { data = JSON.parse(dataEl.textContent); } catch (e) { return; }
+        const stations = data.stations || [];
+        const adjacent = data.adjacent || {};
+        const zip3 = data.zip3 || {};
+
+        const input = document.getElementById('zip-input');
+        const results = document.getElementById('zip-finder-results');
+        if (!input || !results) return;
+
+        function stationsForState(code) {
+            return stations.filter(s => s.stateCode === code);
+        }
+
+        function renderStations(list) {
+            if (!list.length) return '<p>No stations listed.</p>';
+            return '<ul>' + list.map(s => {
+                const freq = s.frequency ? ' ' + s.frequency : '';
+                const sched = s.schedule ? ' &mdash; ' + s.schedule : '';
+                return `<li><a href="${s.url}">${s.city}: ${s.callsign}${freq}</a>${sched}</li>`;
+            }).join('') + '</ul>';
+        }
+
+        function lookup(zip) {
+            const prefix = zip.slice(0, 3);
+            const state = zip3[prefix];
+            if (!state) {
+                results.innerHTML = '<p class="zip-note">No match for that zip code. Try the map below.</p>';
+                return;
+            }
+            const inState = stationsForState(state);
+            let html = '';
+            if (inState.length >= 3) {
+                html = `<h4>Stations in ${inState[0].state}</h4>` + renderStations(inState.slice(0, 3));
+                if (inState.length > 3) {
+                    html += `<p class="zip-note">${inState.length - 3} more in ${inState[0].state} — see the full list below.</p>`;
+                }
+            } else {
+                const picks = inState.slice();
+                const seen = new Set(picks.map(s => s.callsign));
+                const adj = adjacent[state] || [];
+                for (const a of adj) {
+                    if (picks.length >= 3) break;
+                    for (const s of stationsForState(a)) {
+                        if (picks.length >= 3) break;
+                        if (!seen.has(s.callsign)) { picks.push(s); seen.add(s.callsign); }
+                    }
+                }
+                if (!picks.length) {
+                    html = `<p>No nearby stations found for that zip code.</p>`;
+                } else {
+                    html = `<h4>Nearest stations</h4>` + renderStations(picks);
+                    if (inState.length < picks.length || inState.length === 0) {
+                        html += `<p class="zip-note">Including stations from adjacent states because ${state} has fewer than 3 listed.</p>`;
+                    }
+                }
+            }
+            results.innerHTML = html;
+        }
+
+        input.addEventListener('input', function () {
+            const v = input.value.replace(/\D/g, '').slice(0, 5);
+            if (v !== input.value) input.value = v;
+            if (v.length === 5) {
+                lookup(v);
+            } else if (v.length === 0) {
+                results.innerHTML = '';
+            }
+        });
+    })();
+</script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const stationMap = {};

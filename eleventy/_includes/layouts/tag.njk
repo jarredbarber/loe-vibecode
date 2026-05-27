@@ -21,37 +21,47 @@ layout: layouts/base.njk
             {% if tag.count >= 5 and tag.yearCountsPeak %}
             {% set _spanYears = tag.yearCountsLast - tag.yearCountsFirst %}
             {% set _useMonth = _spanYears < 3 %}
-
             {% set _series = tag.monthCountsWithOffset if _useMonth else tag.yearCounts %}
             {% set _peak = tag.monthCountsPeak if _useMonth else tag.yearCountsPeak %}
             {% set _spanUnits = tag.monthCountsSpan if _useMonth else _spanYears %}
-
-            {% set _barW = 22 if _useMonth else 12 %}
-            {% set _gap = 4 if _useMonth else 2 %}
-            {% set _chartH = 50 %}
-            {% set _padL = 32 %}
-            {% set _padR = 12 %}
-            {% set _padT = 6 %}
-            {% set _padB = 18 %}
-            {% set _plotW = (_spanUnits + 1) * (_barW + _gap) - _gap %}
-            {% set _vbW = _plotW + _padL + _padR %}
-            {% set _vbH = _chartH + _padT + _padB %}
+            {% set _periods = _spanUnits + 1 %}
 
             <style>
                 .tag-sparkline {
                     margin: 0.5em 0 1.25em;
-                    max-width: 540px;
+                    width: 100%;
                 }
-                /* viewBox sets the coordinate system + aspect ratio; CSS
-                   sizes the SVG to its container up to a sensible max.
-                   Bumped bar/font sizes so the natural viewBox width is
-                   roughly 480-540 — close enough to the display size that
-                   axis text inside the SVG renders at a readable scale
-                   without exploding when the container is wide. */
-                .tag-sparkline svg {
+                /* Hybrid layout: HTML for axis labels (so fonts are normal
+                   CSS and stay readable at any width), SVG only for the bars
+                   themselves with preserveAspectRatio="none" so they stretch
+                   horizontally to fill any container width without coupling
+                   bar geometry to font geometry. */
+                .tag-sparkline-row {
+                    display: flex;
+                    align-items: stretch;
+                    height: 56px;
+                    gap: 6px;
+                }
+                .tag-sparkline-yaxis {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    font-size: 11px;
+                    color: #777;
+                    font-family: 'Space Mono', monospace;
+                    padding-right: 4px;
+                    border-right: 1px solid #d5d8d2;
+                }
+                .tag-sparkline-bars {
+                    flex: 1;
+                    min-width: 0;
+                    border-bottom: 1px solid #c5c8c2;
+                }
+                .tag-sparkline-bars svg {
                     display: block;
                     width: 100%;
-                    height: auto;
+                    height: 100%;
                 }
                 .tag-sparkline-bar {
                     fill: #8bb04d;
@@ -59,17 +69,19 @@ layout: layouts/base.njk
                     cursor: pointer;
                 }
                 .tag-sparkline-bar:hover { fill: #6a8a3f; }
-                .tag-sparkline-axis {
+                .tag-sparkline-xaxis {
+                    display: flex;
+                    justify-content: space-between;
                     font-size: 11px;
-                    fill: #777;
+                    color: #777;
                     font-family: 'Space Mono', monospace;
+                    padding-left: 32px; /* roughly matches yaxis width + gap */
+                    margin: 4px 0 0;
                 }
-                .tag-sparkline-y { stroke: #d5d8d2; stroke-width: 1; }
-                .tag-sparkline-baseline { stroke: #c5c8c2; stroke-width: 1; }
                 .tag-sparkline-caption {
                     font-size: 0.78em;
                     color: #888;
-                    margin: 0.25em 0 0;
+                    margin: 0.5em 0 0;
                     font-family: 'Space Mono', monospace;
                 }
                 .tag-period-heading {
@@ -81,48 +93,43 @@ layout: layouts/base.njk
                 }
             </style>
             <div class="tag-sparkline">
-                <svg viewBox="0 0 {{ _vbW }} {{ _vbH }}"
-                    xmlns="http://www.w3.org/2000/svg" role="img"
-                    aria-label="Segments tagged {{ tag.name }} over time"
-                    preserveAspectRatio="xMidYMid meet">
-                    {# Y axis: just a left line + peak label at top, 0 implicit at baseline. #}
-                    <line class="tag-sparkline-y" x1="{{ _padL }}" y1="{{ _padT }}" x2="{{ _padL }}" y2="{{ _padT + _chartH }}" />
-                    <line class="tag-sparkline-baseline" x1="{{ _padL }}" y1="{{ _padT + _chartH }}" x2="{{ _vbW - _padR }}" y2="{{ _padT + _chartH }}" />
-                    <text class="tag-sparkline-axis" x="{{ _padL - 4 }}" y="{{ _padT + 4 }}" text-anchor="end">{{ _peak }}</text>
-                    <text class="tag-sparkline-axis" x="{{ _padL - 4 }}" y="{{ _padT + _chartH }}" text-anchor="end">0</text>
-
-                    {# Bars. #}
-                    {% for d in _series %}
-                    {% set _offset = d.offset if _useMonth else (d.year - tag.yearCountsFirst) %}
-                    {% set _x = _padL + (_offset * (_barW + _gap)) %}
-                    {% set _h = (d.count / _peak) * _chartH %}
-                    {% set _y = _padT + _chartH - _h %}
-                    {# Anchors are always year-based so the chart's month
-                       bars all jump to the correct year section in the list
-                       (list is year-grouped regardless of chart mode). #}
-                    {% set _yearStr = (d.month | string).slice(0, 4) if _useMonth else (d.year | string) %}
-                    {% set _anchor = 'period-' + _yearStr %}
-                    {% set _label = d.month if _useMonth else (d.year | string) %}
-                    <a href="#{{ _anchor }}">
-                        <rect class="tag-sparkline-bar" x="{{ _x }}" y="{{ _y }}" width="{{ _barW }}" height="{{ _h }}">
-                            <title>{{ _label }}: {{ d.count }} segment{% if d.count != 1 %}s{% endif %}</title>
-                        </rect>
-                    </a>
-                    {% endfor %}
-
-                    {# X-axis labels: first and last period only (avoids clutter). #}
-                    {% if _series.length %}
-                    {% set _firstX = _padL + (_barW / 2) %}
-                    {% set _lastOffset = (_series[_series.length - 1].offset if _useMonth else (_series[_series.length - 1].year - tag.yearCountsFirst)) %}
-                    {% set _lastX = _padL + (_lastOffset * (_barW + _gap)) + (_barW / 2) %}
-                    {% set _firstLabel = _series[0].month if _useMonth else (_series[0].year | string) %}
-                    {% set _lastLabel = _series[_series.length - 1].month if _useMonth else (_series[_series.length - 1].year | string) %}
-                    <text class="tag-sparkline-axis" x="{{ _firstX }}" y="{{ _vbH - 4 }}" text-anchor="start">{{ _firstLabel }}</text>
-                    {% if _firstLabel != _lastLabel %}
-                    <text class="tag-sparkline-axis" x="{{ _lastX }}" y="{{ _vbH - 4 }}" text-anchor="end">{{ _lastLabel }}</text>
-                    {% endif %}
-                    {% endif %}
-                </svg>
+                <div class="tag-sparkline-row">
+                    <div class="tag-sparkline-yaxis" aria-hidden="true">
+                        <span>{{ _peak }}</span>
+                        <span>0</span>
+                    </div>
+                    <div class="tag-sparkline-bars">
+                        {# viewBox uses simple 0-100 coords; preserveAspectRatio
+                           none lets bars stretch horizontally to whatever width
+                           the container is. Heights in viewBox are 0-100; each
+                           bar's height = (count/peak)*100. #}
+                        <svg viewBox="0 0 {{ _periods }} 100" preserveAspectRatio="none"
+                            xmlns="http://www.w3.org/2000/svg" role="img"
+                            aria-label="Segments tagged {{ tag.name }} over time">
+                            {% for d in _series %}
+                            {% set _offset = d.offset if _useMonth else (d.year - tag.yearCountsFirst) %}
+                            {% set _h = (d.count / _peak) * 100 %}
+                            {% set _y = 100 - _h %}
+                            {% set _yearStr = (d.month | string).slice(0, 4) if _useMonth else (d.year | string) %}
+                            {% set _anchor = 'period-' + _yearStr %}
+                            {% set _label = d.month if _useMonth else (d.year | string) %}
+                            <a href="#{{ _anchor }}">
+                                <rect class="tag-sparkline-bar" x="{{ _offset + 0.1 }}" y="{{ _y }}" width="0.8" height="{{ _h }}">
+                                    <title>{{ _label }}: {{ d.count }} segment{% if d.count != 1 %}s{% endif %}</title>
+                                </rect>
+                            </a>
+                            {% endfor %}
+                        </svg>
+                    </div>
+                </div>
+                {% if _series.length %}
+                {% set _firstLabel = _series[0].month if _useMonth else (_series[0].year | string) %}
+                {% set _lastLabel = _series[_series.length - 1].month if _useMonth else (_series[_series.length - 1].year | string) %}
+                <div class="tag-sparkline-xaxis" aria-hidden="true">
+                    <span>{{ _firstLabel }}</span>
+                    {% if _firstLabel != _lastLabel %}<span>{{ _lastLabel }}</span>{% endif %}
+                </div>
+                {% endif %}
                 <p class="tag-sparkline-caption">peak: {{ _peak }} segment{% if _peak != 1 %}s{% endif %} in a {% if _useMonth %}month{% else %}year{% endif %} · click a bar to jump</p>
             </div>
             {% endif %}

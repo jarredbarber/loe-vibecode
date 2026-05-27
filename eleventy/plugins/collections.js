@@ -168,6 +168,15 @@ module.exports = function (eleventyConfig) {
         for (const entry of bySlug.values()) {
             entry.segments.sort((a, b) => Date.parse(b.data.date) - Date.parse(a.data.date));
             entry.count = entry.segments.length;
+            // Per-year counts for the sparkline on the tag page.
+            const yearCounts = new Map();
+            for (const s of entry.segments) {
+                const y = parseInt(String(s.data.date).slice(0, 4), 10);
+                if (Number.isFinite(y)) yearCounts.set(y, (yearCounts.get(y) || 0) + 1);
+            }
+            entry.yearCounts = [...yearCounts.entries()]
+                .sort((a, b) => a[0] - b[0])
+                .map(([year, count]) => ({ year, count }));
             out.push(entry);
         }
         out.sort((a, b) => b.count - a.count || a.slug.localeCompare(b.slug));

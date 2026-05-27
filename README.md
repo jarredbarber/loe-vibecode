@@ -8,6 +8,27 @@ This is the website for [Living on Earth](https://loe.org), a weekly environment
 
 Live site: **<https://vibingon.earth>**.
 
+## ✨ Features
+
+Things this site does that the original loe.org doesn't:
+
+**For readers**
+
+- **Topic tags** — every segment classified into one of ~90 environmental topics. Click a tag pill at the top of any segment to see every other LOE story on that topic; the full vocabulary lives at [`/tags.html`](https://vibingon.earth/tags.html).
+- **Speaker pages** at `/people/<slug>.html` for every recurring host and guest. All of Steve Curwood's, Bill McKibben's, etc. segments in one place, newest-first.
+- **Discovery pills** at the top of every show + segment: clickable speakers featured in the piece, plus topical tags.
+- **"This week in LOE history"** on the homepage — surfaces archive segments from the same calendar week in past years, anchored to the latest show's air date.
+- **Zip-code station locator** on `/stations.html` — type a zip, get the three nearest LOE-affiliate stations by real distance (Haversine, not state-only).
+- **Reading + listening time** estimates on segment cards.
+- **Inline audio cues are clickable** in transcripts — bird calls, music cues, etc. linked through to the Cornell Macaulay Library CDN.
+- **Dark mode** plumbing in place (CSS pass tracked in #109 before flipping on).
+
+**For editors**
+
+- **CMS at `/admin/`** (staging only — production has no editor surface; live is publish-via-PR). Sveltia with one-click GitHub OAuth, gated to repo collaborators.
+- **Pre-publish review workflow** (the badge above) — click "Run workflow" to validate every link / image / audio URL and get an LLM copyedit pass over the show + segments.
+- **Staging at <https://loe-staging.pages.dev>** — every push to `main` deploys here in ~2 minutes for preview before merging to `live`.
+
 ## 🌍 About Living on Earth
 
 Living on Earth is a weekly, hour-long, award-winning environmental news program distributed by PRX. Hosted by Steve Curwood, the program features interviews and commentary on environmental issues. The show has been broadcasting since 1991 and airs on over 300 public radio stations nationwide.

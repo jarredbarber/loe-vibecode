@@ -14,11 +14,10 @@ layout: layouts/base.njk
                (chart looks degenerate). Bars span 1991→latest-year-with-data;
                heights are normalized to the tag's own peak so single-segment
                years remain visible relative to the heavy years. #}
-            {% if tag.yearCounts.length >= 1 and tag.count >= 5 %}
+            {% if tag.count >= 5 and tag.yearCountsPeak %}
             {% set _firstYear = 1991 %}
-            {% set _lastYear = tag.yearCounts[tag.yearCounts.length - 1].year %}
-            {% set _peak = 0 %}
-            {% for yc in tag.yearCounts %}{% if yc.count > _peak %}{% set _peak = yc.count %}{% endif %}{% endfor %}
+            {% set _lastYear = tag.yearCountsLast %}
+            {% set _peak = tag.yearCountsPeak %}
             {% set _years = _lastYear - _firstYear + 1 %}
             {% set _barW = 14 %}
             {% set _gap = 2 %}

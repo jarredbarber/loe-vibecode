@@ -27,10 +27,27 @@
         }
         .loe-preview-link:hover { background: #6ea8a8; }
     </style>
-    <a class="loe-preview-link" href="/admin/preview.html" target="_blank" rel="noopener"
+    <a class="loe-preview-link" id="loe-preview-link" href="/admin/preview.html" target="_blank" rel="noopener"
        title="Open the full-fidelity preview tab in a new window">
         Live preview ↗
     </a>
+    <script>
+        // Derive the preview path from Sveltia's URL hash so the link
+        // opens preview.html pointed at the currently-open entry.
+        // Sveltia route: #/collections/<name>/entries/<slug-with-slashes>
+        // Maps to: ?path=content/<name>/<slug>.md
+        (function () {
+            const link = document.getElementById('loe-preview-link');
+            const update = () => {
+                const m = location.hash.match(/^#\/collections\/([^/]+)\/entries\/(.+)$/);
+                link.href = m
+                    ? `/admin/preview.html?path=${encodeURIComponent('content/' + m[1] + '/' + m[2] + '.md')}`
+                    : '/admin/preview.html';
+            };
+            update();
+            window.addEventListener('hashchange', update);
+        })();
+    </script>
 
     <!-- Sveltia CMS: Decap-compatible config, faster UI. -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>

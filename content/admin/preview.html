@@ -322,8 +322,17 @@
             }
         });
 
-        // Init
-        $('paste-pane').classList.add('active');
+        // Init — if opened with ?path=content/..., default to GitHub mode
+        // pointed at that file. Falls back to paste mode.
+        const initialPath = new URLSearchParams(location.search).get('path');
+        if (initialPath) {
+            $('mode').value = 'github';
+            $('path').value = initialPath;
+            $('paste-pane').classList.remove('active');
+            refresh();
+        } else {
+            $('paste-pane').classList.add('active');
+        }
     </script>
 </body>
 </html>

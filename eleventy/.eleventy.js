@@ -46,6 +46,15 @@ module.exports = function (eleventyConfig) {
     require('./plugins/collections.js')(eleventyConfig);
     require('./plugins/speaker-highlight.js')(eleventyConfig);
 
+    // markdown-it-attrs: enable Pelican-style `{: #id .class }` attribute
+    // lists on headings, links, etc. Without it the literal `{: ... }`
+    // leaks into the rendered HTML. Using `{:` as the left delimiter both
+    // matches the Pelican source we're inheriting and dodges Nunjucks,
+    // which would otherwise treat `{#` as a comment opener.
+    eleventyConfig.amendLibrary('md', (md) =>
+        md.use(require('markdown-it-attrs'), { leftDelimiter: '{:', rightDelimiter: '}' }),
+    );
+
     // Compute layout + permalink per item from existing Pelican frontmatter
     // (template:, category:, slug:) so we don't have to touch every markdown
     // file in the repo.

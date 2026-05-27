@@ -12,5 +12,8 @@
     "@11ty/eleventy": "^3.1.5",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "cheerio": "^1.2.0"
+  },
+  "dependencies": {
+    "markdown-it-attrs": "^5.0.0"
   }
 }

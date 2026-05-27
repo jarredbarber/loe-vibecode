@@ -196,25 +196,35 @@ for (const f of [...fails, ...warns]) {
 // GitHub Actions Job Summary — pinned at the top of the run page.
 if (process.env.GITHUB_STEP_SUMMARY) {
     const lines = [`# Show check: ${date}`, ''];
-    lines.push(`${docs.length - 1} segments, ${uniqueRefs.length} URLs checked. **${fails.length} failure(s), ${warns.length} warning(s).**`, '');
+    lines.push(
+        `${docs.length - 1} segments, ${uniqueRefs.length} URLs checked. **${fails.length} failure(s), ${warns.length} warning(s).**`,
+        '',
+    );
 
-    if (warns.length) {
-        lines.push('## Warnings — please double-check in a browser', '');
-        lines.push('403/429 usually means the host is blocking automated requests but the link still works for humans. Click each to verify.', '');
-        lines.push('| Where | URL | Status |', '|---|---|---|');
-        for (const w of warns) {
-            const url = w.msg.match(/https?:\/\/\S+$/)?.[0] ?? '';
-            const status = w.msg.match(/URL (\S+)/)?.[1] ?? '';
-            lines.push(`| \`${w.where}\` | [${url}](${url}) | ${status} |`);
+    // Non-URL findings (frontmatter shape, date mismatches, etc.).
+    const structural = [...fails, ...warns].filter((f) => !f.msg.startsWith('URL '));
+    if (structural.length) {
+        lines.push('## Structural findings', '');
+        lines.push('| | Where | Detail |', '|---|---|---|');
+        for (const f of structural) {
+            const dot = f.level === 'fail' ? '🔴' : '🟡';
+            lines.push(`| ${dot} | \`${f.where}\` | ${f.msg.replace(/\|/g, '\\|')} |`);
         }
         lines.push('');
     }
-    if (fails.length) {
-        lines.push('## Failures', '');
-        lines.push('| Where | Detail |', '|---|---|');
-        for (const f of fails) lines.push(`| \`${f.where}\` | ${f.msg.replace(/\|/g, '\\|')} |`);
+
+    // Every URL with a colored status dot. Sorted so failures/warnings
+    // float to the top.
+    lines.push('## URL checks', '');
+    lines.push('🟢 reachable · 🟡 reachable but bot-blocked (verify in a browser) · 🔴 broken', '');
+    lines.push('| | Code | Where | URL |', '|---|---|---|---|');
+    const dot = { ok: '🟢', warn: '🟡', fail: '🔴' };
+    const order = { fail: 0, warn: 1, ok: 2 };
+    const sorted = [...results].sort((a, b) => order[a.level] - order[b.level]);
+    for (const r of sorted) {
+        const url = r.url.replace(/\|/g, '%7C');
+        lines.push(`| ${dot[r.level]} | ${r.status || '---'} | \`${r.where}\` | [${url}](${url}) |`);
     }
-    if (!fails.length && !warns.length) lines.push('All checks passed.');
 
     appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join('\n') + '\n');
 }

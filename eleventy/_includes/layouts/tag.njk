@@ -43,7 +43,7 @@ layout: layouts/base.njk
                     box-sizing: border-box;
                     width: 100%;
                     max-width: 800px;
-                    margin: 0.5em auto 1.5em;
+                    margin: 1.5em auto 1.5em;
                     padding: 0 8px;
                 }
                 /* Grid (not flex) because flex with an intrinsic-sized SVG
@@ -150,7 +150,7 @@ layout: layouts/base.njk
                     {% if _firstLabel != _lastLabel %}<span>{{ _lastLabel }}</span>{% endif %}
                 </div>
                 {% endif %}
-                <p class="tag-sparkline-caption">Click a bar to jump to that period.</p>
+                <p class="tag-sparkline-caption"><em>Tag occurrences over time</em></p>
             </div>
             {% endif %}
 

@@ -56,6 +56,40 @@ function pathToCmsSlug(relSourcePath) {
     return { collection: m[1], slug: m[2] };
 }
 
+/** Strip HTML tags and shortcode-ish noise, then count word-like tokens. */
+function countWords(value) {
+    if (!value) return 0;
+    const text = String(value)
+        // Drop fenced/inline code blocks — they're not "reading".
+        .replace(/```[\s\S]*?```/g, ' ')
+        .replace(/`[^`]*`/g, ' ')
+        // Drop HTML tags.
+        .replace(/<[^>]+>/g, ' ')
+        // Drop Nunjucks-style shortcodes like {% audio ... %} or {{ ... }}.
+        .replace(/\{[%{][\s\S]*?[%}]\}/g, ' ')
+        // Drop markdown link/image syntax — keep the visible text.
+        .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
+        .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1');
+    const m = text.match(/[A-Za-z0-9À-ɏ'’-]+/g);
+    return m ? m.length : 0;
+}
+
+/** "7 min read" — assumes ~200wpm. Returns null if body is empty. */
+function readingTime(body) {
+    const words = countWords(body);
+    if (!words) return null;
+    const minutes = Math.max(1, Math.ceil(words / 200));
+    return `${minutes} min read`;
+}
+
+/** "9 min listen" — radio cadence ~150wpm. Returns null if body is empty. */
+function listeningTime(body) {
+    const words = countWords(body);
+    if (!words) return null;
+    const minutes = Math.max(1, Math.ceil(words / 150));
+    return `${minutes} min listen`;
+}
+
 module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('ordinal', ordinal);
     eleventyConfig.addFilter('strftime', strftime);
@@ -63,6 +97,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('currentTime', currentTime);
     eleventyConfig.addFilter('toContentRel', toContentRel);
     eleventyConfig.addFilter('pathToCmsSlug', pathToCmsSlug);
+    eleventyConfig.addFilter('readingTime', readingTime);
+    eleventyConfig.addFilter('listeningTime', listeningTime);
 
     // Day-of-month with ordinal — e.g. {{ article.date | dayOrdinal }} → "22nd".
     eleventyConfig.addFilter('dayOrdinal', (value) => {

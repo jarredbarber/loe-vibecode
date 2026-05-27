@@ -25,6 +25,9 @@ const args = process.argv.slice(2);
 const dateArg = args.includes('--date') ? args[args.indexOf('--date') + 1] : null;
 const quiet = args.includes('--quiet');
 const modelName = process.env.LLM_MODEL || 'gemini-3.1-flash-lite';
+// Gemini 3.x uses thinkingLevel ('low' | 'medium' | 'high'); flash-lite
+// defaults to 'minimal' which is too light for this task. Bump to medium.
+const thinkingLevel = process.env.LLM_THINKING_LEVEL || 'medium';
 
 if (!process.env.GEMINI_API_KEY && !process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
     console.error('GEMINI_API_KEY (or GOOGLE_GENERATIVE_AI_API_KEY) not set.');
@@ -120,6 +123,12 @@ What to look for:
 - Date sanity in the body: the show airs ${date} (${dayOfWeek}). Flag relative-date references ("this Tuesday", "next week") that contradict that.
 - Cross-segment factual contradictions in the same show (segment A says 23 calves; segment B says 18).
 
+**How to write the \`message\` field so editors can actually act on it:**
+- For typos: quote the offending fragment verbatim in backticks. e.g. \`Doubled word: "but \`the the\` they're thinking"\`.
+- For consistency findings between visually-similar Unicode characters (curly vs straight quotes/apostrophes, en/em dashes, etc.): say which codepoints are mixed. e.g. \`Speaker label uses both U+0027 (straight apostrophe) in "O'NEILL" and U+2019 (curly apostrophe) in "O’NEILL"\`. Don't just say "O'NEILL vs O'NEILL" — that's invisible.
+- For contradictions: quote the contradicting passages from each segment.
+- The \`suggestion\` field, when set, should be the literal corrected text the editor can paste over the original.
+
 Do NOT do:
 - Stylistic preferences (capitalization conventions, comma style, contractions).
 - Real-world fact-checking. **Your training data is older than this show's air date** — don't flag political appointments, current officials, statistics, or recent events as wrong. If you find yourself writing "as of [year]", stop and omit the finding.
@@ -141,6 +150,14 @@ try {
         // quality on these models — the alignment is tuned for that
         // sampling level. Schema enforcement, not temperature, is what
         // gives us consistent JSON output.
+        providerOptions: {
+            google: {
+                thinkingConfig: {
+                    thinkingLevel,
+                    includeThoughts: true,
+                },
+            },
+        },
     });
 } catch (err) {
     console.error('LLM call failed:', err.message || err);
@@ -148,6 +165,18 @@ try {
 }
 
 const findings = result.object.findings || [];
+
+// ---- thinking trace (helpful for debugging the prompt) ----
+const thoughts =
+    result.reasoning ||
+    result.providerMetadata?.google?.thoughts ||
+    result.providerMetadata?.google?.thinking;
+if (thoughts) {
+    const text = typeof thoughts === 'string' ? thoughts : JSON.stringify(thoughts, null, 2);
+    console.log('--- model reasoning ---');
+    console.log(text);
+    console.log('--- end reasoning ---\n');
+}
 
 // ---- output ----
 console.log(`${findings.length} finding(s):\n`);

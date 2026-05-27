@@ -1,13 +1,19 @@
 ---
 title: Baby Right Whales Bring Hope
 slug: baby-right-whales-bring-hope
-date: '2026-05-22'
+date: 2026-05-22
 category: Segments
 order: '2'
 megaphone_id: LOE2293748784
 image_url: https://loe.org/content/2026-05-22/WHALES_bermuda.JPG
 image_caption: 'Shown above are a North Atlantic right whale mother, Bermuda (#3780), and her calf. (Photo: New England Aquarium, taken under NOAA Permit #25739-01)'
 summary: North Atlantic Right Whales were once so thoroughly hunted they nearly went extinct. When hunting these mammals was outlawed, they slowly started to bounce back, but today these Right whales are dealing with newer deadly threats, such as fishing gear entanglement and warming in the Gulf of Maine. So, it’s a relief to advocates to have a successful calving season like this year with 23 new calves, the most since 2009. Amy Warren, the Scientific Program Officer at the New England Aquarium, spoke with Host Aynsley O’Neill.
+tags:
+  - species-loss
+  - marine-life
+  - mammals
+  - climate-change
+  - oceans
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00021&segmentID=2 -->
 

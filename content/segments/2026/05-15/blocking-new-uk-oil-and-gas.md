@@ -1,13 +1,20 @@
 ---
 title: Blocking New UK Oil and Gas
 slug: blocking-new-uk-oil-and-gas
-date: '2026-05-15'
+date: 2026-05-15
 category: Segments
 order: '1'
 megaphone_id: LOE4301405023
 image_url: https://loe.org/content/2026-05-15/Finchinthewild_resized.jpg
 image_caption: 'Sarah Finch and the Weald Action Group have fought successfully against oil and gas drilling in the Horse Hill area of the Weald and secured a ruling that will force planners to consider the downstream environmental impact throughout the United Kingdom. (Photo: Goldman Environmental Prize)'
 summary: Great Britain is Europe’s third largest oil and gas producer, even with a commitment to a net-zero economy by 2050. A small group of climate activists is helping the UK meet that target by winning a Supreme Court decision that’s blocking any new UK oil and gas projects that don’t assess climate impacts. Sarah Finch of Surrey, near London led the fight against proposed oil and gas drilling in the region known as the Weald, and she’s been recognized with the 2026 Goldman Environmental Prize for Europe. She joins Host Steve Curwood.
+tags:
+  - climate-change
+  - fossil-fuels
+  - oil-gas
+  - environmental-policy
+  - litigation
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00020&segmentID=1 -->
 

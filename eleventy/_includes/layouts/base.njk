@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{{ title or site.name }}{% endblock %}</title>
     <link rel="stylesheet" href="{{ site.url }}/theme/css/style.css">
+    {% if site.darkMode %}<link rel="stylesheet" href="{{ site.url }}/theme/css/dark-mode.css">{% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"

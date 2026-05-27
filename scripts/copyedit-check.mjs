@@ -136,7 +136,11 @@ try {
         schema: FindingsSchema,
         system: systemPrompt,
         prompt: bundle,
-        temperature: 0.2,
+        // Gemini 2.5/3 are calibrated at the default temperature (1.0).
+        // Lower values nominally reduce randomness but actually degrade
+        // quality on these models — the alignment is tuned for that
+        // sampling level. Schema enforcement, not temperature, is what
+        // gives us consistent JSON output.
     });
 } catch (err) {
     console.error('LLM call failed:', err.message || err);

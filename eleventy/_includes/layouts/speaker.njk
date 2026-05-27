@@ -12,7 +12,7 @@ layout: layouts/base.njk
                 from {{ speaker.earliestYear }} to {{ speaker.latestYear }}{% endif %}.
             </p>
             <ul class="archive-list">
-                {% for seg in speaker.segments %}
+                {% for seg in speaker.segments.slice(0, 50) %}
                 <li>
                     <span class="archive-date">
                         <a href="{{ site.url }}{{ seg.url }}">{{ seg.data.date | strftime('%B %d, %Y') }}</a>:
@@ -26,6 +26,9 @@ layout: layouts/base.njk
                 </li>
                 {% endfor %}
             </ul>
+            {% if speaker.segments.length > 50 %}
+                <p class="speaker-cap-note"><em>Showing the 50 most recent appearances out of {{ speaker.segments.length }}.</em></p>
+            {% endif %}
             <p><a href="{{ site.url }}/index.html" class="silver">&larr; Back to Home</a></p>
         </div>
     </div>

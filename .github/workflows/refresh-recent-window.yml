@@ -2,8 +2,13 @@ name: Refresh recent-window pattern
 
 # eleventy/_data/recentWindow.js computes the CMS date-range regex at build
 # time. If a calendar month passes with no commits to main, the regex drifts
-# and editors can't see new shows. This workflow pushes an empty commit each
-# week to trigger the deploy workflow and regenerate the pattern.
+# and editors can't see new shows. This workflow dispatches the Deploy
+# workflow each week to regenerate the pattern.
+#
+# Why dispatch instead of an empty commit: commits authored by GITHUB_TOKEN
+# don't trigger downstream workflows (GitHub safeguard against infinite
+# loops), so push-based triggering never fired the deploy. workflow_dispatch
+# via gh CLI works with GITHUB_TOKEN.
 
 on:
   schedule:
@@ -14,17 +19,9 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      actions: write
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
-      - name: Configure git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      - name: Push empty commit
-        run: |
-          git commit --allow-empty -m "chore: refresh recent-window pattern (weekly cron)"
-          git push
+      - name: Dispatch deploy workflow
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main --repo ${{ github.repository }}

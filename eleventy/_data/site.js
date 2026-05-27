@@ -14,5 +14,5 @@ module.exports = {
     target: process.env.DEPLOY_TARGET || 'staging',
     // Dark mode (prefers-color-scheme) — disabled while the CSS has known
     // bugs (issue filed). Set SITE_DARK_MODE=1 to enable when fixed.
-    darkMode: process.env.SITE_DARK_MODE === '1',
+    darkMode: true, // staging assessment — revert before merging to live
 };

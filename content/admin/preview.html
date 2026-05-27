@@ -246,19 +246,24 @@
         }
 
         async function readDraftFromIndexedDB() {
-            // Sveltia stores drafts in IndexedDBs named "sveltia-cms-…",
-            // store "draft-backups", composite key [collectionName, slug].
-            // The DB name varies by backend repo info; enumerate all DBs.
+            // Sveltia stores drafts in IndexedDB; the GitHub backend names
+            // the DB literally "github:<owner>/<repo>" (see Sveltia source
+            // src/lib/services/backends/git/github/index.js). Don't filter
+            // by name — just enumerate every DB and look for any with a
+            // "draft-backups" object store, which is Sveltia-specific.
             if (!indexedDB.databases) throw new Error('indexedDB.databases() not supported in this browser');
             const dbs = await indexedDB.databases();
-            const candidates = dbs.filter(d => /sveltia/i.test(d.name || ''));
-            if (!candidates.length) throw new Error('No Sveltia IndexedDB found — open and save a draft first.');
-            for (const meta of candidates) {
-                const db = await new Promise((res, rej) => {
-                    const r = indexedDB.open(meta.name);
-                    r.onsuccess = () => res(r.result);
-                    r.onerror = () => rej(r.error);
-                });
+            if (!dbs.length) throw new Error('No IndexedDB databases at this origin — open the CMS and save a draft first.');
+            for (const meta of dbs) {
+                if (!meta.name) continue;
+                let db;
+                try {
+                    db = await new Promise((res, rej) => {
+                        const r = indexedDB.open(meta.name);
+                        r.onsuccess = () => res(r.result);
+                        r.onerror = () => rej(r.error);
+                    });
+                } catch { continue; }
                 if (![...db.objectStoreNames].includes('draft-backups')) { db.close(); continue; }
                 const tx = db.transaction('draft-backups', 'readonly');
                 const all = await new Promise((res, rej) => {
@@ -269,7 +274,7 @@
                 db.close();
                 if (all.length) return all[all.length - 1];
             }
-            throw new Error('No draft backups found in Sveltia IndexedDB.');
+            throw new Error('No saved drafts found — Sveltia only persists to IndexedDB on explicit save (not as-you-type).');
         }
 
         let autoTimer = null;

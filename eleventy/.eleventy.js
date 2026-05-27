@@ -24,7 +24,6 @@ module.exports = function (eleventyConfig) {
     const isProd = process.env.DEPLOY_TARGET === 'prod';
     if (!isProd) {
         eleventyConfig.addPassthroughCopy({ '../content/admin/index.html': 'admin/index.html' });
-        eleventyConfig.addPassthroughCopy({ '../content/admin/preview.html': 'admin/preview.html' });
         eleventyConfig.addPassthroughCopy({ '../content/admin/README.md': 'admin/README.md' });
     }
 
@@ -34,7 +33,6 @@ module.exports = function (eleventyConfig) {
     // with paths relative to the configured input dir.
     // Ignore admin/* templates EXCEPT config.njk which we want rendered.
     eleventyConfig.ignores.add('../content/admin/index.html');
-    eleventyConfig.ignores.add('../content/admin/preview.html');
     eleventyConfig.ignores.add('../content/admin/README.md');
     if (isProd) {
         // Suppress the templated admin/config.yml output on prod builds.

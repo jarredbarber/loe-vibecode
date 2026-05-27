@@ -6,7 +6,7 @@ Sveltia CMS, served from `https://vibingon.earth/admin/`. Editor-facing instruct
 
 - `index.html` — Sveltia SPA shell + custom editor components for `{% audio %}` and `{% cue %}` shortcodes.
 - `config.njk` — built at Eleventy time into `/admin/config.yml`. Uses `{% raw %}` to pass Sveltia's own `{{ }}` template syntax through untouched, with two breakouts for the dynamic date filter regex.
-- `preview.html` — companion live-preview page; renders body + frontmatter through markdown-it + a JS port of the shortcode / speaker-highlight logic so editors can see the live look without round-tripping a deploy.
+- ~~`preview.html`~~ — removed (#103). The CMS → main → staging deploy is the authoritative preview now (loe-staging.pages.dev).
 
 ## Authentication
 

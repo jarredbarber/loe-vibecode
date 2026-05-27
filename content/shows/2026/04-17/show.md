@@ -1,6 +1,6 @@
 ---
 title: 'Living on Earth: April 17, 2026'
-date: '2026-04-17'
+date: 2026-04-17
 category: Shows
 template: show
 megaphone_id: LOE8310092181

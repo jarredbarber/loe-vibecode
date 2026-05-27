@@ -1,7 +1,7 @@
 ---
 title: A City on Mars and the Perils of Settling Space
 slug: a-city-on-mars-and-the-perils-of-settling-space
-date: '2026-01-02'
+date: 2026-01-02
 category: Segments
 order: '2'
 megaphone_id: LOE3369183713

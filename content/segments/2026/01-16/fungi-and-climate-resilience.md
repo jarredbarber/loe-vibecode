@@ -1,7 +1,7 @@
 ---
 title: Fungi and Climate Resilience
 slug: fungi-and-climate-resilience
-date: '2026-01-16'
+date: 2026-01-16
 category: Segments
 order: '4'
 megaphone_id: LOE5019486409

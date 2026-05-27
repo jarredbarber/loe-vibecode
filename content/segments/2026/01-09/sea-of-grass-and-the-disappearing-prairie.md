@@ -1,7 +1,7 @@
 ---
 title: Sea of Grass and the Disappearing Prairie
 slug: sea-of-grass-and-the-disappearing-prairie
-date: '2026-01-09'
+date: 2026-01-09
 category: Segments
 order: '3'
 megaphone_id: LOE1637239076

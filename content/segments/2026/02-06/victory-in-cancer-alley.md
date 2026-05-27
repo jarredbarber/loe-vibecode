@@ -1,7 +1,7 @@
 ---
 title: Victory in Cancer Alley
 slug: victory-in-cancer-alley
-date: '2026-02-06'
+date: 2026-02-06
 category: Segments
 order: '4'
 megaphone_id: LOE9854549552

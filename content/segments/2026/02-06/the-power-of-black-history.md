@@ -1,7 +1,7 @@
 ---
 title: The Power of Black History
 slug: the-power-of-black-history
-date: '2026-02-06'
+date: 2026-02-06
 category: Segments
 order: '2'
 megaphone_id: LOE7598300998

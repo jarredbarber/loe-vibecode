@@ -1,7 +1,7 @@
 ---
 title: How Frogs Can Swim Under Ice
 slug: how-frogs-can-swim-under-ice
-date: '2026-03-13'
+date: 2026-03-13
 category: Segments
 order: '3'
 megaphone_id: LOE6349469236

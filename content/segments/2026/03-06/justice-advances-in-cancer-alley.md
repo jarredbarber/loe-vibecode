@@ -1,7 +1,7 @@
 ---
 title: Justice Advances in Cancer Alley
 slug: justice-advances-in-cancer-alley
-date: '2026-03-06'
+date: 2026-03-06
 category: Segments
 order: '1'
 megaphone_id: LOE1075113118

@@ -35,7 +35,7 @@ Living on Earth is a weekly, hour-long, award-winning environmental news program
 
 # ✍️ Editing the site
 
-There's a CMS at **<https://vibingon.earth/admin/>**. That's the easiest way in. Direct GitHub editing also works for anything the CMS doesn't surface (older archive content, theme files).
+There's a CMS at **<https://loe-staging.pages.dev/admin/>**. That's the easiest way in. Direct GitHub editing also works for anything the CMS doesn't surface (older archive content, theme files).
 
 ## Option A — The CMS (recommended)
 

@@ -148,27 +148,54 @@ Do NOT do:
 Be terse. One sentence per finding plus a concrete suggestion when obvious.`;
 
 // ---- call ----
-let result;
-try {
-    result = await generateObject({
-        model: google(modelName),
-        schema: FindingsSchema,
-        system: systemPrompt,
-        prompt: bundle,
-        // Gemini 2.5/3 are calibrated at the default temperature (1.0).
-        // Lower values nominally reduce randomness but actually degrade
-        // quality on these models — the alignment is tuned for that
-        // sampling level. Schema enforcement, not temperature, is what
-        // gives us consistent JSON output.
-        providerOptions: {
-            google: {
-                thinkingConfig: {
-                    thinkingLevel,
-                    includeThoughts: true,
+// 90s timeout via AbortController; retry once on timeout / 5xx / rate-limit.
+const TIMEOUT_MS = 90_000;
+const isTransient = (err) => {
+    if (err?.name === 'AbortError') return true;
+    const msg = String(err?.message || err);
+    if (/rate.?limit|\b503\b/i.test(msg)) return true;
+    const status = err?.status ?? err?.statusCode ?? err?.response?.status;
+    if (typeof status === 'number' && status >= 500 && status < 600) return true;
+    return false;
+};
+const callOnce = async () => {
+    const ac = new AbortController();
+    const t = setTimeout(() => ac.abort(), TIMEOUT_MS);
+    try {
+        return await generateObject({
+            model: google(modelName),
+            schema: FindingsSchema,
+            system: systemPrompt,
+            prompt: bundle,
+            abortSignal: ac.signal,
+            // Gemini 2.5/3 are calibrated at the default temperature (1.0).
+            // Lower values nominally reduce randomness but actually degrade
+            // quality on these models — the alignment is tuned for that
+            // sampling level. Schema enforcement, not temperature, is what
+            // gives us consistent JSON output.
+            providerOptions: {
+                google: {
+                    thinkingConfig: {
+                        thinkingLevel,
+                        includeThoughts: true,
+                    },
                 },
             },
-        },
-    });
+        });
+    } finally {
+        clearTimeout(t);
+    }
+};
+let result;
+try {
+    try {
+        result = await callOnce();
+    } catch (err) {
+        if (!isTransient(err)) throw err;
+        console.error(`LLM call failed (${err.name || 'error'}: ${err.message || err}); retrying once in 1s...`);
+        await new Promise((r) => setTimeout(r, 1000));
+        result = await callOnce();
+    }
 } catch (err) {
     console.error('LLM call failed:', err.message || err);
     process.exit(0); // advisory — never block

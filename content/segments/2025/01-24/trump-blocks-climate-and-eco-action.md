@@ -1,13 +1,19 @@
 ---
 title: Trump Blocks Climate and Eco Action
 slug: trump-blocks-climate-and-eco-action
-date: '2025-01-24'
+date: 2025-01-24
 category: Segments
 order: '1'
 megaphone_id: LOE5631786263
 image_url: https://loe.org/content/2025-01-24/INAUGURATION_slewoforders.jpg
 image_caption: 'On his first day in office President Donald Trump made a series of pronouncements and signed more than two dozen executive orders. (Photo: The Trump White House, Wikimedia Commons, Public Domain)'
 summary: Back in power, President Trump immediately took aim at climate and environmental protection with a flurry of executive orders such as blocking the Paris Climate Accord and boosting fossil fuel sales. Environmental law expert Pat Parenteau joins Hosts Steve Curwood and Jenni Doering to explain why the President may have over-reached but could still do lasting damage to the climate and environment.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - regulation-deregulation
+  - endangered-species
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00004&segmentID=1 -->
 

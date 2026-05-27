@@ -1,13 +1,17 @@
 ---
 title: NYC Recycling Food and Yard Waste
 slug: nyc-recycling-food-and-yard-waste
-date: '2025-07-18'
+date: 2025-07-18
 category: Segments
 order: '2'
 megaphone_id: LOE4611791787
 image_url: https://loe.org/content/2025-07-18/COMPOST_foodwaste.jpg
 image_caption: 'New York City generates roughly 24 million pounds of trash daily. Approximately one-third of that is food and other organic waste. (Photo: Niwrat, Wikimedia Commons, CC BY-SA 4.0)'
 summary: A few months into New York City’s mandatory curbside composting policy, there are still some kinks to work out, and enforcement and fines have been temporarily paused. Eric Goldstein, the New York City Environment Director at the Natural Resources Defense Council, catches up Host Aynsley O’Neill on how the program is going and why composting food and yard waste can save money, benefit landfills, reduce NYC’s carbon footprint, and help gardeners.
+tags:
+  - climate-change
+  - food-systems
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00029&segmentID=2 -->
 

@@ -1,13 +1,18 @@
 ---
 title: Green Light for State Climate Cases
 slug: green-light-for-state-climate-cases
-date: '2025-01-17'
+date: 2025-01-17
 category: Segments
 order: '1'
 megaphone_id: LOE6986080181
 image_url: https://loe.org/content/2024-07-12/HAWAII_facingtheeffects.JPG
 image_caption: 'If Hawai’i and other states win their cases against the fossil fuel companies, the lawsuits could open up funding opportunities for communities that need to prepare for an increase in extreme weather events, such as forest fires. Pictured: the deadly August 2023 wildfire in Maui, as seen from the International Space Station. (Photo: NASA Johnson, Flickr, CC BY-NC-ND 2.0)'
 summary: Facing huge costs for climate adaptation and disaster recovery, some states and localities are suing fossil fuel companies for damages. The U.S. Supreme Court recently declined an attempt to block these lawsuits, and Vermont Law and Graduate School Emeritus Professor Pat Parenteau joins Host Aynsley O’Neill to explain the significance of some of them proceeding to trial.
+tags:
+  - climate-change
+  - fossil-fuels
+  - litigation
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00003&segmentID=1 -->
 

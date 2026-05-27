@@ -1,13 +1,18 @@
 ---
 title: On the Greenland Ice
 slug: on-the-greenland-ice
-date: '2025-03-07'
+date: 2025-03-07
 category: Segments
 order: '5'
 megaphone_id: LOE2204521744
 image_url: https://loe.org/content/2025-03-07/MSL_sizeandscale.JPG
 image_caption: 'A member of the crew is dwarfed by the sheer size and scale of the landscape around him. (Photo: © Mark Seth Lender)'
 summary: With its staggering volume of ice, the Greenland ice sheet is surely a sight to behold, and Living on Earth’s Explorer in Residence Mark Seth Lender brought back this memory from a visit to that otherworldly place.
+tags:
+  - climate-change
+  - arctic-polar
+  - oceans
+  - water-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00010&segmentID=5 -->
 

@@ -1,13 +1,17 @@
 ---
 title: Colonizing the Moon
 slug: colonizing-the-moon
-date: '2026-04-03'
+date: 2026-04-03
 category: Segments
 order: '2'
 megaphone_id: LOE1170252824
 image_url: https://loe.org/content/2026-04-03/NASA_launch.jpg
 image_caption: 'NASA’s Artemis II mission launched at 6:35 p.m. EDT on April 1, 2026 from the Kennedy Space Center. (Photo: Joel Kowsky, NASA, Public Domain)'
 summary: The astronauts of the Artemis II mission are prospecting for a planned base on the moon, the first lunar expedition since 1972. The crew includes the first woman, the first person of color, and first Canadian to travel to the Moon. John Daniel "Danny" Olivas, an engineer and retired NASA astronaut, speaks with Host Aynsley O’Neill about the mission objectives and challenges, why it faced delays and what sets the Artemis program apart from the Apollo visits to the moon of more than 50 years ago.
+tags:
+  - climate-science
+  - earth-observation
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00014&segmentID=2 -->
 

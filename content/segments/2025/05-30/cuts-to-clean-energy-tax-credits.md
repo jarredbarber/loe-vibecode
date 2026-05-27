@@ -1,13 +1,17 @@
 ---
 title: Cuts to Clean Energy Tax Credits
 slug: cuts-to-clean-energy-tax-credits
-date: '2025-05-30'
+date: 2025-05-30
 category: Segments
 order: '2'
 megaphone_id: LOE8534423965
 image_url: https://loe.org/content/2025-05-30/TAXCREDIT_house.jpg
 image_caption: 'The House narrowly approved the “One Big, Beautiful Bill” with a 215–214 vote, allowing it to move forward. (Photo: Frank Schulenburg, Wikimedia Commons, CC BY-SA 4.0)'
 summary: The "One Big Beautiful Bill Act" that passed through the House of Representatives on party lines guts multiple provisions from the Inflation Reduction Act, terminating or reducing tax credits for electric vehicles, clean hydrogen and advanced manufacturing. Dan Gearino, a clean energy reporter with Inside Climate News, talks with Host Paloma Beltran about why over a dozen House Republicans who had voiced support for clean energy tax credits ultimately voted to cut them, and what could happen as the legislation moves to the Senate.
+tags:
+  - climate-change
+  - fossil-fuels
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00022&segmentID=2 -->
 

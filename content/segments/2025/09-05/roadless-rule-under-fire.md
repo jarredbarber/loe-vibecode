@@ -1,13 +1,21 @@
 ---
 title: Roadless Rule Under Fire
 slug: roadless-rule-under-fire
-date: '2025-09-05'
+date: 2025-09-05
 category: Segments
 order: '5'
 megaphone_id: LOE7916456750
 image_url: https://loe.org/content/2025-09-05/ROADLESS_tobaccoroot.jpg
 image_caption: 'A roadless area in the Tobacco Root Mountain Range, in Deerlodge National Forest, in Montana. While national forests are definitionally opened up to logging, roadless rule areas often overlap with crucial old growth habitat. (Photo: Preston Keres, USDA, Courtesy of the Center for Biological Diversity)'
 summary: With an unusually short period for public comments the Trump administration is moving to repeal the “Roadless Rule,” which currently protects over 45 million pristine acres of national forests from access roads for logging. Randi Spivak, the public lands policy director for the Center for Biological Diversity, joins Host Jenni Doering to explain the potential consequences for critical habitat, watersheds, carbon storage and recreation if the Roadless Rule is repealed.
+tags:
+  - climate-change
+  - forests
+  - species-loss
+  - water-pollution
+  - drinking-water
+  - environmental-policy
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00036&segmentID=5 -->
 

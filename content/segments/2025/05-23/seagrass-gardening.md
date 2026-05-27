@@ -1,13 +1,20 @@
 ---
 title: Seagrass "Gardening"
 slug: seagrass-gardening
-date: '2025-05-23'
+date: 2025-05-23
 category: Segments
 order: '6'
 megaphone_id: LOE5018589403
 image_url: https://loe.org/content/2025-05-23/SEAGRASS_seagrass.jpg
 image_caption: 'Seagrass is a hidden gem responsible for large quantities of carbon absorption and fish production. (Photo: Frédéric Ducarme, Wikipedia Commons, CC BY-SA 4.0)'
 summary: Seagrass is a foundation of marine ecosystems and stores as much as 35 times more carbon than a tropical rainforest, but warming ocean temperatures and other threats are wiping seagrass out. There is hope, though, as a project to “garden” or cultivate more resilient varieties is making waves along the U.S. East Coast. Hosts Aynsley O’Neill and Jenni Doering chat about the benefits and promising results of this seagrass “gardening.”
+tags:
+  - climate-change
+  - carbon-cycle
+  - oceans
+  - marine-life
+  - ecology-research
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00021&segmentID=6 -->
 

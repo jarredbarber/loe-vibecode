@@ -1,13 +1,19 @@
 ---
 title: Ice Visions
 slug: ice-visions
-date: '2025-01-24'
+date: 2025-01-24
 category: Segments
 order: '5'
 megaphone_id: LOE8579178179
 image_url: https://loe.org/content/2021-01-15/VISIONS_classic.JPG
 image_caption: 'A “classic” version of Hoffner’s Ice Visions, photographs of ice-fishing holes as they re-freeze. (Photo: Courtesy of Erik Hoffner)'
 summary: As winter settles in over the northern hemisphere people find creative ways to get outside and enjoy nature. For environmental journalist and photographer Erik Hoffner, winter is a time for ice skating, a passion which gave rise to some unusual art, now 20 years in the making.
+tags:
+  - climate-change
+  - extreme-weather
+  - arctic-polar
+  - citizen-science
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00004&segmentID=5 -->
 

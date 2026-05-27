@@ -1,13 +1,18 @@
 ---
 title: Fires and Logging Justice
 slug: fires-and-logging-justice
-date: '2026-03-13'
+date: 2026-03-13
 category: Segments
 order: '1'
 megaphone_id: LOE2859141311
 image_url: https://loe.org/content/2026-03-13/LOGGING_clearcut.jpg
 image_caption: 'Extensive logging in the Fremont-Winema National Forest in southern Oregon prompted conservationists to sue the U.S. Forest Service for the unlawful application of Categorical Exclusion 6 in 2022. Shown above is a clearcut section of Willamette National Forest, also in Oregon. (Photo: Calibas, Wikimedia Commons, CC BY-SA 3.0)'
 summary: A decades-old US Forest Service rule that’s been used to supposedly reduce wildfire risk through large-scale logging while bypassing environmental review has been deemed unlawful by a federal court in Oregon. Timothy Ingalsbee, co-founder and Executive Director of Firefighters United for Safety, Ethics and Ecology, talks with Host Steve Curwood about why clearcutting can instead increase wildfire risk, and shares his view that USFS needs to rethink its entire approach to managing forests and wildfire risk.
+tags:
+  - wildfire
+  - forests
+  - environmental-policy
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00011&segmentID=1 -->
 

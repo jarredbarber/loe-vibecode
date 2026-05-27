@@ -1,13 +1,17 @@
 ---
 title: Big Cash for Clean Energy
 slug: big-cash-for-clean-energy
-date: '2025-03-21'
+date: 2025-03-21
 category: Segments
 order: '5'
 megaphone_id: LOE4092659733
 image_url: https://loe.org/content/2024-04-12/EPA_awardgrants.jpg
 image_caption: 'The Environmental Protection Agency has awarded grants -- ranging in the hundreds of millions to billions of dollars -- to eight nonprofits that will loan the money to clean energy projects. (Photo: US EPA, Flickr, Fair Use)'
 summary: The Biden Administration EPA recently awarded $20 billion to organizations who will turn around and offer low-interest loans to help communities participate in the clean energy transition. EPA Administrator of New England David Cash and Host Steve Curwood cover how the program is catalyzing far more private capital and will help fund projects like insulating homes and replacing gas heating and cooking with heat pumps and induction stoves.
+tags:
+  - climate-change
+  - environmental-justice
+  - green-economy
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=24-P13-00015&segmentID=2 -->
 

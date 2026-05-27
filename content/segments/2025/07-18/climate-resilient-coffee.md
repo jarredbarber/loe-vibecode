@@ -1,13 +1,18 @@
 ---
 title: Climate-Resilient Coffee
 slug: climate-resilient-coffee
-date: '2025-07-18'
+date: 2025-07-18
 category: Segments
 order: '3'
 megaphone_id: LOE9508070189
 image_url: https://loe.org/content/2025-07-18/COFFEE_plant.jpg
 image_caption: 'Komal Sable says the excelsa coffee plant is more climate resilient than the arabica and robusta species. (Photo: South India Coffee Company)'
 summary: Research has long shown that the top two coffee species, Arabica and Robusta, are vulnerable to climate impacts like increased drought and heat. And by 2050 as much as half of coffee producing land could no longer be suitable for these top species. But Living on Earth’s Sophia Pandelidis reports that excitement is brewing over a climate resilient bean called excelsa.
+tags:
+  - climate-change
+  - farming
+  - species-loss
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00029&segmentID=3 -->
 

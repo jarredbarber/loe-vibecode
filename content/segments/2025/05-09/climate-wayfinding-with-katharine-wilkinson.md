@@ -1,13 +1,17 @@
 ---
 title: Climate Wayfinding with Katharine Wilkinson
 slug: climate-wayfinding-with-katharine-wilkinson
-date: '2025-05-09'
+date: 2025-05-09
 category: Segments
 order: '2'
 megaphone_id: LOE7704877977
 image_url: https://loe.org/content/2025-05-09/WAYFINDING_fullgroup.jpg
 image_caption: 'A climate wayfinding group gathers outside for a photo. As Wilkinson says, “It is no small thing to be human on Earth right now.” Climate Wayfinding seeks to provide a place to process that complexity, together. (Photo: Courtesy of Dr. Katharine Wilkinson)'
 summary: A project called Climate Wayfinding aims to tend to the deepest needs of climate activists by providing a space for reflection, connection, and clarity amid the chaos. Climate Wayfinding has its roots in the All We Can Save project, co-founded by Dr. Katharine Wilkinson, who joins Host Jenni Doering to share her own story of moving from feeling lost to gaining clarity about her role in the climate movement.
+tags:
+  - climate-change
+  - profiles-interviews
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00019&segmentID=2 -->
 

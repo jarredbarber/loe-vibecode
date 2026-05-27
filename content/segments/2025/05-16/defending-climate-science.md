@@ -1,13 +1,17 @@
 ---
 title: Defending Climate Science
 slug: defending-climate-science
-date: '2025-05-16'
+date: 2025-05-16
 category: Segments
 order: '6'
 megaphone_id: LOE6446896919
 image_url: https://loe.org/content/2025-05-16/AGU_hq.jpg
 image_caption: 'The American Geophysical Union and the American Meteorological Society are joining forces to keep momentum for climate research in the US despite disruptions to Federal funding and projects. Pictured above is the entrance to the American Geophisical Union’s headquarters in Washington, DC. (Photo: sikeri, Wikimedia Commons, CC BY 2.0)'
 summary: When the Trump administration dismissed the roughly 400 scientists working on the National Climate Assessment, professional scientist organizations stepped up to coordinate their own collection of the latest climate research. Brandon Jones is President of the American Geophysical Union and joins Host Steve Curwood to talk about the importance of peer-reviewed climate science and clear communication with the public as climate impacts intensify.
+tags:
+  - climate-change
+  - climate-science
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00020&segmentID=6 -->
 

@@ -1,13 +1,20 @@
 ---
 title: Hurricane Melissa Recovery Effort
 slug: hurricane-melissa-recovery-effort
-date: '2025-11-07'
+date: 2025-11-07
 category: Segments
 order: '3'
 megaphone_id: LOE8789013464
 image_url: https://loe.org/content/2025-11-07/HURRICANE_flooding.jpg
 image_caption: 'Heavy flooding in Mayarí, Holguín after Hurricane Melissa hit Cuba as a major Category 3 storm on October 29th. (Photo: Courtesy of José Luis Tan)'
 summary: As one of the strongest hurricanes ever documented in the Atlantic, Hurricane Melissa brought catastrophic damage to Jamaica and Cuba, and an extensive relief and recovery effort is now underway. Marianna Kuttothara is Head of Health, Disaster, Climate and Crisis for the Americas at the International Federation of Red Cross and Red Crescent Societies and joins Host Jenni Doering to talk about the aid efforts, long road to recovery, and importance of building back better.
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - water-pollution
+  - environmental-justice
+  - rivers-watersheds
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00045&segmentID=3 -->
 

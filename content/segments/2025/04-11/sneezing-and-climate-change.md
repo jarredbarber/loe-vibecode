@@ -1,13 +1,17 @@
 ---
 title: Sneezing and Climate Change
 slug: sneezing-and-climate-change
-date: '2025-04-11'
+date: 2025-04-11
 category: Segments
 order: '4'
 megaphone_id: LOE2946095071
 image_url: https://loe.org/content/2025-04-11/POLLEN_bee.jpg
 image_caption: In Brisbane’s Botanic Gardens, a tiny native bee works its way through a flower, harvesting pollen. (Photo:Weldon Thompson, Wikimedia Commons, Public Domain)
 summary: Warmer temperatures are causing plants to bloom earlier and longer, leading to longer and more intense pollen sneezing seasons for people susceptible to allergies. Dr. Neelu Tummala is an ear, nose, and throat physician at NYU Langone Health who has written on the impact of climate change on our allergies. She joined Host Aynsley O’Neill to talk about the connection between climate change and allergies.
+tags:
+  - climate-change
+  - public-health
+  - atmospheric-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00015&segmentID=4 -->
 

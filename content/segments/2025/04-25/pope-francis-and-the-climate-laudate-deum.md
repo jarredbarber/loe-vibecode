@@ -1,13 +1,18 @@
 ---
 title: 'Pope Francis and the Climate: Laudate Deum'
 slug: pope-francis-and-the-climate-laudate-deum
-date: '2025-04-25'
+date: 2025-04-25
 category: Segments
 order: '2'
 megaphone_id: LOE2278602136
 image_url: https://loe.org/content/2023-10-13/POPE_Pope.jpg
 image_caption: 'Pope Francis wrote his first papal document on the environment, Laudato Si’, in 2015. (Photo: Catholic Church England and Wales, Flickr, CC BY-NC-ND 2.0)'
 summary: In 2023 Pope Francis published an even bolder update to Laudato Si’, his climate change encyclical. Christiana Zenner of Fordham University joined Host Paloma Beltran to discuss how “Laudate Deum” takes on climate denial and urges the world to act swiftly to avert climate disaster.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00017&segmentID=2 -->
 

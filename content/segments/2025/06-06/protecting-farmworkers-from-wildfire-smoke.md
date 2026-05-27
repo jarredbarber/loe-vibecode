@@ -1,13 +1,20 @@
 ---
 title: Protecting Farmworkers from Wildfire Smoke
 slug: protecting-farmworkers-from-wildfire-smoke
-date: '2025-06-06'
+date: 2025-06-06
 category: Segments
 order: '3'
 megaphone_id: LOE7960502847
 image_url: https://loe.org/content/2025-06-06/FARMWORKERS_adriana.jpg
 image_caption: 'Farmworkers in California are exposed to dangerous levels of particulate matter in the air, and a 2024 study shows that even levels of pollution deemed ‘safe’ by CAL-OSHA can be hazardous to human health. The farmworker shown here is Adriana, whose name has been changed to protect her identity. (Photo: Courtesy of Rambo Talabong)'
 summary: Poor air quality from wildfire smoke and other pollutants can harm cardiovascular health and also make farmworkers more prone to work injuries, according to researchers. But in California, requirements for employers to hand out face masks do not kick in until the air quality has already deteriorated past the point where farmworkers are experiencing impacts. Reporter Rambo Talabong of Inside Climate News spoke with Living on Earth’s Paloma Beltran about proposals to better protect farmworkers from air pollution.
+tags:
+  - climate-change
+  - extreme-weather
+  - air-pollution
+  - public-health
+  - environmental-justice
+  - farming
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00023&segmentID=3 -->
 

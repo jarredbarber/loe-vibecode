@@ -1,13 +1,19 @@
 ---
 title: The Light Eaters
 slug: the-light-eaters
-date: '2025-08-15'
+date: 2025-08-15
 category: Segments
 order: '5'
 megaphone_id: LOE8577845411
 image_url: https://loe.org/content/2024-07-26/LIGHTEATERS_cover.jpg
 image_caption: 'Zoë Schlanger’s book  The Light Eaters: How The Unseen World of Plant Intelligence Offers a New Understanding of Life on Earth  delves into topics like plant sensation, communication, sociality, and intelligence. (Photo: Courtesy of HarperCollins)'
 summary: A scientist who rappels down cliffs to hand-pollinate endangered plants. A vine that mimics the leaves of nearby species. Rice that crowds out strangers but leaves room for the roots of relatives. All of these are subjects of the book The Light Eaters by Zoë Schlanger, who tackles big questions of plant intelligence, consciousness, and communication. She joins Host Steve Curwood to talk about what we might discover when we look closely at the green life around us.
+tags:
+  - climate-change
+  - species-loss
+  - forests
+  - ecology-research
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00033&segmentID=5 -->
 

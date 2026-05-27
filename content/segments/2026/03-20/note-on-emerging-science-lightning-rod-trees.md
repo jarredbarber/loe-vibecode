@@ -1,13 +1,17 @@
 ---
 title: 'Note on Emerging Science: Lightning-Rod Trees'
 slug: note-on-emerging-science-lightning-rod-trees
-date: '2026-03-20'
+date: 2026-03-20
 category: Segments
 order: '4'
 megaphone_id: LOE1354220865
 image_url: https://loe.org/content/2026-03-20/SCINOTE_forest.jpg
 image_caption: 'New research indicates that a species of tree called Dipteryx oleifera, also known as almendro trees, shown above, are resistant to lightning strikes and even use them to their advantage. (Photo: keesgroenendijk, Wikimedia Commons, CC BY 4.0)'
 summary: An especially tall species of rainforest tree known as the almendro appears to benefit from lightning strikes, according to a 2025 study in the Panama rainforest. Living on Earth’s Don Lyman reports in this note on emerging science that the almendros seem unharmed after lightning strikes, compared to a high mortality rate among other trees and the lightning clears out parasitic vines and competing trees to free up light and nutrients.
+tags:
+  - ecology-research
+  - forests
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00012&segmentID=4 -->
 

@@ -1,13 +1,20 @@
 ---
 title: Overseas Chinese Mining and Spills
 slug: overseas-chinese-mining-and-spills
-date: '2025-10-24'
+date: 2025-10-24
 category: Segments
 order: '3'
 megaphone_id: LOE4400725524
 image_url: https://loe.org/content/2025-10-24/BELT_zambia.jpg
 image_caption: A landscape in Zambia 12 weeks after a Chinese copper mine spilled toxic waste laced with heavy metals, including lead, arsenic and uranium. (Photo Katie Surma, Inside Climate News)
 summary: As part of the Belt and Road Initiative, China has invested over $1 trillion in overseas infrastructure for projects that include mining in developing countries for minerals to fuel the clean energy transition. In the “copper belt” of Zambia, a Chinese-owned tailings dam collapsed, sending toxic sludge into homes and crops. Inside Climate News reporter Katie Surma speaks with Host Jenni Doering about the aftermath and “green colonialism” that appears to no longer be only at the hands of the Global North.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - water-pollution
+  - environmental-justice
+  - indigenous-rights
+  - corporate-accountability
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00043&segmentID=3 -->
 

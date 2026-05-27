@@ -1,13 +1,18 @@
 ---
 title: 'Note on Emerging Science: Whales Mistake Plastic for Food'
 slug: note-on-emerging-science-whales-mistake-plastic-for-food
-date: '2025-09-26'
+date: 2025-09-26
 category: Segments
 order: '3'
 megaphone_id: LOE5479033689
 image_url: https://loe.org/content/2025-09-26/SCINOTE_whales.jpg
 image_caption: 'Picture above is a mother sperm whale and her calf off the coast of Mauritius. Deep diving whales use echo location to hunt prey. (Photo: Gabriel Barathieu, CC BY-SA 2.0)'
 summary: Deep-diving whales use echolocation to hunt in the pitch black of the deep ocean. Research shows that plastic debris in the ocean “looks” very similar to common whale prey, like squid, when hit with these sound waves. Living on Earth’s Don Lyman reports that whales may be mistaking this plastic debris for their food.
+tags:
+  - marine-life
+  - plastics
+  - species-loss
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00039&segmentID=3 -->
 

@@ -1,13 +1,18 @@
 ---
 title: Wildfires Bring 'Climate Trauma'
 slug: wildfires-bring-climate-trauma
-date: '2025-01-10'
+date: 2025-01-10
 category: Segments
 order: '1'
 megaphone_id: LOE9264780433
 image_url: https://loe.org/content/2025-01-10/FIRES_campfire.jpg
 image_caption: 'The 2018 Camp Fire was California''s deadliest and most destructive wildfire to date, burning over 153,000 acres and destroying nearly 19,000 structures, including the town of Paradise. Located in Northern California’s Butte County, it is approximately 500 miles north of the recent wildfires affecting Southern California and the Los Angeles region. (Photo: Pierre Marcuse, Flickr, CC BY 2.0)'
 summary: Wildfires like those hitting southern California take an enormous social and psychological toll on victims and observers alike. Jyoti Mishra is a professor of psychiatry at the University of California, San Diego and joins Host Jenni Doering to discuss how people and communities can heal from the ‘climate trauma’ brought by wildfires and other disasters linked to the climate crisis.
+tags:
+  - climate-change
+  - extreme-weather
+  - wildfire
+  - mental-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00002&segmentID=1 -->
 

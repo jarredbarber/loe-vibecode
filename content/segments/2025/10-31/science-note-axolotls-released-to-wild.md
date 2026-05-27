@@ -1,13 +1,17 @@
 ---
 title: 'Science Note: Axolotls Released to Wild'
 slug: science-note-axolotls-released-to-wild
-date: '2025-10-31'
+date: 2025-10-31
 category: Segments
 order: '4'
 megaphone_id: LOE7028001241
 image_url: https://loe.org/content/2025-10-31/AXOLOTL_salamander.jpg
 image_caption: 'The axolotl (ambystoma maxicanum) is an aquatic salamander with external gills and a finned tail. (Photo: Mike Licht, NotionsCapital.com, CC BY 2.0)'
 summary: Axolotls, aquatic salamanders with feathery gills that look like they’re always smiling, are endemic to a single lake in Mexico and critically endangered in the wild. Living on Earth’s Don Lyman reports on a successful release of captive-bred axolotls into wetlands that provides hope for boosting this unique creature’s wild population.
+tags:
+  - species-loss
+  - endangered-species
+  - amphibians
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00044&segmentID=4 -->
 

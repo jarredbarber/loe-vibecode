@@ -1,13 +1,20 @@
 ---
 title: Heat Waves Linked to Company Emissions
 slug: heat-waves-linked-to-company-emissions
-date: '2025-09-19'
+date: 2025-09-19
 category: Segments
 order: '1'
 megaphone_id: LOE8661348069
 image_url: https://loe.org/content/2025-09-19/HEATWAVES_extremeheat.jpg
 image_caption: 'The National Oceanic and Atmospheric Administration found that over 255 million Americans were subjected to dangerous, life-threatening conditions due to extreme heat this past July. Shown here is an extreme heat warning in Death Valley, California. (Photo: Maclean, Wikimedia Commons, CC BY-SA 2.0)'
 summary: New research finds that since 2010 killer heat waves have become 200 times more likely, thanks to greenhouse gas emissions, and the scientists say about half of the increase in heatwaves can be attributed to big coal, big oil, big gas and cement. Dartmouth College associate professor Justin Mankin joins Host Steve Curwood to discuss the severe economic and health consequences of extreme heat and efforts to make major carbon emitters pay for these skyrocketing costs.
+tags:
+  - climate-change
+  - extreme-weather
+  - fossil-fuels
+  - heatwave
+  - public-health
+  - corporate-accountability
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00038&segmentID=1 -->
 

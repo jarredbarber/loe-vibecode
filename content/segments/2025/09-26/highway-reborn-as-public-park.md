@@ -1,13 +1,19 @@
 ---
 title: Highway Reborn as Public Park
 slug: highway-reborn-as-public-park
-date: '2025-09-26'
+date: 2025-09-26
 category: Segments
 order: '4'
 megaphone_id: LOE5061556159
 image_url: https://loe.org/content/2025-09-26/PARK_usedtobe.jpg
 image_caption: 'Sunset Dunes Park in San Francisco used to be a four-lane highway. (Photo: Jack Persons, Friends of Sunset Dunes)'
 summary: The four-lane Great Highway used to run along the Pacific Ocean on the west side of San Francisco, where it was at risk of flooding from sea level rise. Now it’s been transformed into a park where visitors can bike, walk, skate, and play next to the water. Zach Lipton, a volunteer with the nonprofit Friends of Sunset Dunes, speaks with Host Jenni Doering about this highway’s transformation.
+tags:
+  - sea-level-rise
+  - climate-change
+  - urban-environment
+  - environmental-justice
+  - species-loss
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00039&segmentID=4 -->
 

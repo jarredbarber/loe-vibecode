@@ -1,13 +1,17 @@
 ---
 title: EPA Abandons Environmental Justice
 slug: epa-abandons-environmental-justice
-date: '2025-03-21'
+date: 2025-03-21
 category: Segments
 order: '2'
 megaphone_id: LOE6591925472
 image_url: https://loe.org/content/2025-03-21/CASH_bidenadmin.jpg
 image_caption: 'The Biden administration issued a final rule requiring water utilities to replace all lead pipes by 2035. The Trump administration is considering rolling back that rule along with other Biden era environmental projects. (Photo: US EPA Gov, Wikimedia Commons, Public Domain)'
 summary: President Trump’s EPA is halting funding for EJ programs and shuttering its Office of Environmental Justice. David Cash led EPA Region 1 covering New England during the Biden administration and joins Host Jenni Doering to describe how EJ initiatives were starting to help overburdened communities clean up their air, replace lead pipes and enjoy better health as a result.
+tags:
+  - environmental-justice
+  - public-health
+  - water-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00012&segmentID=2 -->
 

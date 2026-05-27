@@ -1,12 +1,18 @@
 ---
 title: 'Deb Haaland: ‘Fierce for our Planet’'
 slug: deb-haaland-fierce-for-our-planet
-date: '2025-03-28'
+date: 2025-03-28
 category: Segments
 order: '8'
 image_url: https://loe.org/content/2021-01-15/HAALAND-on_a_wind_turbine.jpg
 image_caption: 'Deb Haaland on top of a wind turbine at El Cabo Wind Farm in New Mexico, August 2019. (Photo: Office of Congresswoman Deb Haaland, Wikimedia Commons CC BY-SA 4.0)'
 summary: Congresswoman Deb Haaland of New Mexico is President-elect Biden’s nominee for Secretary of the Interior. She’ll be the first Native American to lead the Department if confirmed, and would bring a strong conservation, climate action, and tribal rights perspective to the department. Living on Earth’s Jenni Doering reports on Deb Haaland’s experience and what’s shaped her into who she is today.
+tags:
+  - indigenous-rights
+  - environmental-policy
+  - climate-change
+  - fossil-fuels
+  - profiles-interviews
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=21-P13-00003&segmentID=2 -->
 

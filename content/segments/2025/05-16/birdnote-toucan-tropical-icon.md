@@ -1,13 +1,19 @@
 ---
 title: 'Birdnote®: Toucan - Tropical Icon'
 slug: birdnote-toucan-tropical-icon
-date: '2025-05-16'
+date: 2025-05-16
 category: Segments
 order: '2'
 megaphone_id: LOE6724138013
 image_url: https://loe.org/content/2025-05-16/BIRDNOTE_toucan.jpg
 image_caption: 'There are over forty species of toucan. Shown here is a Cuvier’s toucan. (Photo: Pablo BM, Wikimedia Commons, CC BY 2.0)'
 summary: In the Peruvian Amazon not far from where Pope Leo XIV lived for many years, you can find a most distinctive bird with a comically huge bill. BirdNote’s Mary McCann reports on the toucan, a tropical icon.
+tags:
+  - birds
+  - amazon
+  - species-loss
+  - climate-change
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00020&segmentID=2 -->
 

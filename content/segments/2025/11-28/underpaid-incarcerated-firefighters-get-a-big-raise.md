@@ -1,13 +1,17 @@
 ---
 title: Underpaid Incarcerated Firefighters Get a Big Raise
 slug: underpaid-incarcerated-firefighters-get-a-big-raise
-date: '2025-11-28'
+date: 2025-11-28
 category: Segments
 order: '2'
 megaphone_id: LOE2171469823
 image_url: https://loe.org/content/2025-11-28/FIREFIGHTER_greenfire.jpeg
 image_caption: 'Our guest, Eddie Herrera Jr. at the Green Fire in San Luis Obispo County in 2024. Herrera worked his way up from being an incarcerated firefighter to being a fire apparatus engineer for the state of California. (Photo: Courtesy of Eddie Herrera Jr.)'
 summary: Around a third of the firefighters who battle wildfires in California are incarcerated, and until recently they were paid just $5 to $10 a day. Under a state law enacted in October 2025, incarcerated firefighters are now paid at least $7.25 per hour while actively fighting fires. Formerly incarcerated firefighter and current fire apparatus engineer for the state of California, Eddie Herrera, Jr., returns to Living on Earth to speak with Host Aynsley O’Neill about how this pay raise can help transform lives.
+tags:
+  - climate-change
+  - wildfire
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00048&segmentID=2 -->
 

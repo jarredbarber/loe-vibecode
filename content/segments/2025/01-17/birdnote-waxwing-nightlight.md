@@ -1,13 +1,19 @@
 ---
 title: 'BirdNote®: Waxwing Nightlight'
 slug: birdnote-waxwing-nightlight
-date: '2025-01-17'
+date: 2025-01-17
 category: Segments
 order: '4'
 megaphone_id: LOE9503262975
 image_url: https://loe.org/content/2025-01-17/BIRDNOTE_brightcoloration.jpg
 image_caption: 'The bright coloration of bohemian waxwings led people to believe that the birds could glow in the dark. (Photo: © Sindri Skúlason, courtesy of BirdNote®)'
 summary: Waxwings were once believed to glow in the dark, and Pliny the Elder reported that their feathers were said to “shine like flames” in the dark forests of central Europe. That is, until one sixteenth-century Italian birder decided to take a closer look, says BirdNote®’s Mary McCann.
+tags:
+  - birds
+  - mammals
+  - insects
+  - field-reporting
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00003&segmentID=4 -->
 

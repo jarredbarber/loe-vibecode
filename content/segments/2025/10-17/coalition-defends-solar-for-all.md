@@ -1,13 +1,19 @@
 ---
 title: Coalition Defends Solar for All
 slug: coalition-defends-solar-for-all
-date: '2025-10-17'
+date: 2025-10-17
 category: Segments
 order: '1'
 megaphone_id: LOE6465576006
 image_url: https://loe.org/content/2025-10-17/SOLAR_programcreated.jpg
 image_caption: 'The $7 billion Solar for All Program, implemented by the Biden administration, was created to increase access to solar energy for low-income households and communities across the United States. (Photo: Montgomery County Planning Commission, Flickr, CC BY-NC-SA 2.0)'
 summary: Facing lost jobs and higher energy prices after the Trump EPA canceled $7 billion in low-income solar grants, a coalition of labor, green and anti-poverty groups is teaming up to fight in court for clean energy jobs and save “Solar for All.” Patrick Crowley, President of the Rhode Island AFL-CIO, and Kate Sinding Daly, Senior Vice President for Law and Policy at the Conservation Law Foundation, join Host Steve Curwood to explain the impact of the canceled grants and the legal basis for their lawsuit.
+tags:
+  - solar
+  - fossil-fuels
+  - jobs-just-transition
+  - environmental-justice
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00042&segmentID=1 -->
 

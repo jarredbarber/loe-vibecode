@@ -1,13 +1,18 @@
 ---
 title: GOP and Clean Energy Tax Credits
 slug: gop-and-clean-energy-tax-credits
-date: '2025-03-21'
+date: 2025-03-21
 category: Segments
 order: '1'
 megaphone_id: LOE2588170724
 image_url: https://loe.org/content/2025-03-21/REPS_cleanenergy.jpg
 image_caption: 'Twenty-one House Republicans signed a letter to Jason Smith, Chairman of the Ways and Means Committee, voicing their support for clean energy tax credits established under the Inflation Reduction Act. (Photo: Energy.gov, Wikimedia Commons, Public Domain)'
 summary: As President Trump and the Republican-led Congress aim to shrink the federal government and renew major tax cuts, hundreds of billions of dollars in clean energy tax credits could be on the chopping board. Twenty-one House Republicans whose districts are benefiting from the tax credits are petitioning GOP leadership to keep them intact. Inside Climate News Reporter Dylan Baddour joins Host Paloma Beltran to discuss.
+tags:
+  - climate-change
+  - green-economy
+  - solar
+  - wind
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00012&segmentID=1 -->
 

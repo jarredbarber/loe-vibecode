@@ -1,13 +1,19 @@
 ---
 title: US Leaves Top Climate Science Body
 slug: us-leaves-top-climate-science-body
-date: '2026-01-23'
+date: 2026-01-23
 category: Segments
 order: '1'
 megaphone_id: LOE9371454171
 image_url: https://loe.org/content/2026-01-23/IPCC_logo.jpg
 image_caption: 'On January 7th, 2026 President Trump formally withdrew the United States from the Intergovernmental Panel on Climate Change (IPCC, logo shown above). (Photo: Intergovernmental Panel on Climate Change, Wikimedia Commons, CC0)'
 summary: The Trump Administration is withdrawing the US from the scientific Intergovernmental Panel on Climate Change or IPCC, which reports agreement about the basic scientific facts of global warming and the impact of core technologies to address it. Physicist and climate scientist Bill Hare, a lead author of the IPCC fourth assessment report in 2007, tells Host Steve Curwood about how the fossil fuel industry has long pushed for such an action.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - climate-science
+  - international-treaties
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00004&segmentID=1 -->
 

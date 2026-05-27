@@ -1,13 +1,17 @@
 ---
 title: Juneteenth and "Joy as an Act of Resistance"
 slug: juneteenth-and-joy-as-an-act-of-resistance
-date: '2025-06-20'
+date: 2025-06-20
 category: Segments
 order: '1'
 megaphone_id: LOE9233549548
 image_url: https://loe.org/content/2025-06-20/A1_MLK.jpg
 image_caption: 'Faith leaders have often led like Black communities through sociocultural movements, such as Rev. Martin Luther King Jr. and the Civil Rights Movement. (Photo: U.S. National Archives and Records Administration, Wikimedia Commons, CC0)'
 summary: Just as the enslavement of people was driven by commercial interests, today the enslavement of nature for profit violates a morality that sees value in all living things, according to the Rev. Mariama White-Hammond, pastor of New Roots AME Church in Dorchester, Massachusetts. She joins Host Steve Curwood to reflect on how overcoming slavery, which is celebrated on Juneteenth, can inspire us to find ways to depend on each other so we can thrive in a world of ecological justice.
+tags:
+  - environmental-justice
+  - profiles-interviews
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00025&segmentID=1 -->
 

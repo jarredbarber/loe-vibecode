@@ -1,13 +1,19 @@
 ---
 title: China's Climate Pledge
 slug: chinas-climate-pledge
-date: '2025-10-10'
+date: 2025-10-10
 category: Segments
 order: '1'
 megaphone_id: LOE5907225165
 image_url: https://loe.org/content/2025-10-10/CHINA_wind.jpg
 image_caption: 'China leads the world in wind energy, with this source accounting for 7.5% of its total energy production. At the 2025 UN Climate Summit, President Xi declared that China aims to boost its installed wind and solar capacity to 3.6 billion kilowatts, a more than six-fold increase over 2020 levels. (Photo: Wikimedia Commons, CC BY-SA 4.0)'
 summary: China has for the first time committed to an absolute target to reduce greenhouse gas emissions, by 7 to 10 percent by 2035, though it is likely to achieve greater reductions. Climate activist Jennifer Morgan previously led Greenpeace International and worked with the German government as a Special Climate Envoy. She joins Host Steve Curwood to discuss China’s growing dominance in the global clean energy transition while the current US administration doubles down on fossil fuels.
+tags:
+  - climate-change
+  - climate-science
+  - environmental-policy
+  - green-economy
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00041&segmentID=1 -->
 

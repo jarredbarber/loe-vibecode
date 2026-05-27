@@ -1,13 +1,17 @@
 ---
 title: A Quest for Quiet
 slug: a-quest-for-quiet
-date: '2025-03-28'
+date: 2025-03-28
 category: Segments
 order: '3'
 megaphone_id: LOE7956406837
 image_url: https://loe.org/content/2025-03-28/QUIET_soundartist.jpg
 image_caption: 'Nick McMahan, sound recording artist. (Photo: Brandon Swanson, OPB)'
 summary: The world can be an awfully noisy place. Ed Jahn of Oregon Public Broadcasting took a journey in search of silence and found what could be the quietest place in Oregon.
+tags:
+  - noise-pollution
+  - profiles-interviews
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00013&segmentID=3 -->
 

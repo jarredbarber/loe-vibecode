@@ -1,13 +1,20 @@
 ---
 title: 'Pope Francis and the Climate: Laudato Si'''
 slug: pope-francis-and-the-climate-laudato-si
-date: '2025-04-25'
+date: 2025-04-25
 category: Segments
 order: '1'
 megaphone_id: LOE2495974988
 image_url: https://loe.org/content/2015-06-19/POPE--Pope_Francis_Korea_Haemi_Castle.png
 image_caption: 'Pope Francis was a chemical technician in Argentina before joining the seminary. (Photo: Korean Culture and Information Service, CC BY-SA 2.0)'
 summary: 'As the world remembers the legacy of Pope Francis we return to his groundbreaking 2015 encyclical, “Laudato Si’: On Care for Our Common Home.” It''s a poetic, emotional call for a fundamental shift in our economic system, and a rethinking of our relationship with God''s creation: the natural world. Assistant Professor of Theology, Science and Ethics at Fordham University, Christiana Zenner, discussed with Host Steve Curwood the Pope''s powerful message.'
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-justice
+  - ecology-research
+  - green-economy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00017&segmentID=1 -->
 

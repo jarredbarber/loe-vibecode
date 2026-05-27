@@ -1,13 +1,18 @@
 ---
 title: Evergreen, A Cherokee Myth
 slug: evergreen-a-cherokee-myth
-date: '2025-12-19'
+date: 2025-12-19
 category: Segments
 order: '2'
 megaphone_id: LOE3850224282
 image_url: https://loe.org/content/2025-12-19/EVERGREEN_tree.jpg
 image_caption: 'Storyteller Diane Edgecomb shares the Cherokee myth of the Evergreen. (Photo: Irina Iriser, Pexels, CC0)'
 summary: A Cherokee myth, told here by storyteller Diane Edgecomb, explains why pines, spruces and firs stay green year-round. She joins Host Steve Curwood to talk about the value of bringing old stories alive for people -- what she calls “living myth” – and how stories have accumulated around this time of year, the winter Solstice, when in the Northern Hemisphere the Sun stands still on the horizon for three short days and three long nights.
+tags:
+  - forests
+  - indigenous-communities
+  - environmental-history
+  - poetry-essays
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00051&segmentID=2 -->
 

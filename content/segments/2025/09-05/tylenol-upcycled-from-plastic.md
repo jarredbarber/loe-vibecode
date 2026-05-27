@@ -1,13 +1,18 @@
 ---
 title: Tylenol Upcycled From Plastic
 slug: tylenol-upcycled-from-plastic
-date: '2025-09-05'
+date: 2025-09-05
 category: Segments
 order: '3'
 megaphone_id: LOE3510070976
 image_url: https://loe.org/content/2025-09-05/BACTERIA_ecoli.jpg
 image_caption: 'The strain of E. coli bacteria used in Dr. Wallace’s study is different from the strain that causes human disease. In fact, by genetically engineering it, Dr. Wallace’s team was able to use it to turn plastic waste into acetaminophen. (Photo: The University of Edinburgh)'
 summary: Scientists in the UK were able to use genetically modified bacteria to turn plastic bottles into the common pain reliever acetaminophen, also known as paracetamol and Tylenol. Lead researcher Stephen Wallace, a Professor of Chemical Biotechnology at the University of Edinburgh, speaks with Host Jenni Doering about the potential applications of this biotech breakthrough.
+tags:
+  - plastics
+  - biotechnology
+  - chemical-contamination
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00036&segmentID=3 -->
 

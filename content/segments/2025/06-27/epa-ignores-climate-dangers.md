@@ -1,13 +1,20 @@
 ---
 title: EPA Ignores Climate Dangers
 slug: epa-ignores-climate-dangers
-date: '2025-06-27'
+date: 2025-06-27
 category: Segments
 order: '1'
 megaphone_id: LOE5892875398
 image_url: https://loe.org/content/2025-06-27/POWERPLANT_fossilfuelfired.jpg
 image_caption: 'Fossil fuel-fired power plants are one of the biggest emitters of greenhouse gasses in the United States. Above, a coal-fired plant in central Wyoming. (Photo: Greg Goebel, Wikimedia Commons, CC BY-SA 2.0)'
 summary: 'This June the US Environmental Protection Agency proposed eliminating regulations that limit climate changing gases from power plants, about a quarter of US emissions. Harvard Law Professor Richard Lazarus, an environmental and constitutional law scholar and author of The Rule of Five: Making Climate History at the Supreme Court, speaks with Host Steve Curwood about the perils of the broader Trump administration effort to weaken federal environmental protections.'
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - regulation-deregulation
+  - profiles-interviews
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00026&segmentID=1 -->
 

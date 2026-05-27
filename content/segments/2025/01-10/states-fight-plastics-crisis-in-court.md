@@ -1,13 +1,17 @@
 ---
 title: States Fight Plastics Crisis in Court
 slug: states-fight-plastics-crisis-in-court
-date: '2025-01-10'
+date: 2025-01-10
 category: Segments
 order: '3'
 megaphone_id: LOE4831216676
 image_url: https://loe.org/content/2025-01-10/PLASTICS_waste.jpg
 image_caption: 'Some states are suing brands by claiming their products create a public nuisance. (Photo: Deishini Mariam, Wikimedia Commons, CC0)'
 summary: With a global plastics treaty delayed and federal action to stem the plastics crisis unlikely in the near future, states and cities are turning to the courts for remedies. Bethany Davis Noll teaches at NYU law school and joined Living on Earth’s Paloma Beltran to explain the potential impact of these lawsuits against fossil fuel companies and beverage makers.
+tags:
+  - plastics
+  - litigation
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00002&segmentID=3 -->
 

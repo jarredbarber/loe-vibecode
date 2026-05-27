@@ -1,13 +1,17 @@
 ---
 title: Science and the US Government
 slug: science-and-the-us-government
-date: '2025-04-04'
+date: 2025-04-04
 category: Segments
 order: '4'
 megaphone_id: LOE2954997128
 image_url: https://loe.org/content/2025-04-04/ORESKES_scirally.jpg
 image_caption: 'The Trump administration has so far cut tens of thousands of jobs from over two dozen federal agencies, including many dedicated to science. The “Stand Up for Science” rallies have protested these cuts. Shown here is the D.C. rally held on March 7, 2025. (Photo: Geoff Livingston, Flickr, CC BY 2.0)'
 summary: The Trump administration is slashing personnel and research grants at two dozen federal agencies, including those conducting critical science. Science has long played a key role in the federal government, and Naomi Oreskes, a Professor of the History of Science at Harvard, joins Host Steve Curwood to put the recent changes into historical context.
+tags:
+  - climate-science
+  - environmental-justice
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00014&segmentID=4 -->
 

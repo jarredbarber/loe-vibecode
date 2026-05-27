@@ -1,13 +1,20 @@
 ---
 title: 'Note on Emerging Science: Orcas Wear Salmon as Hats'
 slug: note-on-emerging-science-orcas-wear-salmon-as-hats
-date: '2025-04-04'
+date: 2025-04-04
 category: Segments
 order: '2'
 megaphone_id: LOE5083960884
 image_url: https://loe.org/content/2025-04-04/ORCAS_salmon.jpg
 image_caption: 'Orcas have been observed wearing dead salmon on their heads, and researchers posit that behavior may be linked to an abundant salmon season. Pictured above an orca playing in South Puget Sound, Washington. (Photo: Courtesy of Ocean Wise, MML-18)'
 summary: Orcas in the Pacific Northwest have again been observed carrying dead salmon on their heads. Living on Earth’s Kayla Bradley explains what scientists think this unique behavior may indicate about orcas’ diet, health, and culture.
+tags:
+  - marine-life
+  - species-loss
+  - fish
+  - oceans
+  - ecology-research
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00014&segmentID=2 -->
 

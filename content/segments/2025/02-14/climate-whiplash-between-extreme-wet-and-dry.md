@@ -1,13 +1,19 @@
 ---
 title: '"Climate Whiplash" Between Extreme Wet and Dry'
 slug: climate-whiplash-between-extreme-wet-and-dry
-date: '2025-02-14'
+date: 2025-02-14
 category: Segments
 order: '2'
 megaphone_id: LOE6748284659
 image_url: https://loe.org/content/2025-02-14/WHIPLASH_wildfires.jpg
 image_caption: 'The January 2025 LA wildfires were in part exacerbated by a climate whiplash event, from extreme wet to extreme dry conditions. (Photo: timatymusic, Wikimedia Commons, CC BY 2.0)'
 summary: Global warming is increasing the frequency and severity of “climate whiplash” events, which are rapid transitions between very wet and very dry conditions. One such event set the stage for the devastating L.A. wildfires in January 2025. Dr. Daniel Swain is a climate scientist with the University of California Agriculture and Natural Resources and joins Host Paloma Beltran to explain how climate whiplash works and what societies need to do to prepare.
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - wildfire
+  - atmospheric-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00007&segmentID=2 -->
 

@@ -1,13 +1,17 @@
 ---
 title: Thanksgiving Feast Favorites
 slug: thanksgiving-feast-favorites
-date: '2025-11-21'
+date: 2025-11-21
 category: Segments
 order: '3'
 megaphone_id: LOE2060168850
 image_url: https://loe.org/content/2023-11-17/FOOD_table.jpg
 image_caption: 'The Living on Earth cast and crew shares their family recipes for Thanksgiving dinner. (Photo: Karolina Grabowska, Pexels, CC)'
 summary: To kick off this Living on Earth Thanksgiving special, members of our crew share a few laughs and our favorite Thanksgiving recipes, from pumpkin soup to chouriço stuffing to desserts made with leftover pie crust.
+tags:
+  - food-systems
+  - farming
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00047&segmentID=3 -->
 

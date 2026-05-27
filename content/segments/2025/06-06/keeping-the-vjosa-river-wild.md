@@ -1,13 +1,17 @@
 ---
 title: Keeping the Vjosa River Wild
 slug: keeping-the-vjosa-river-wild
-date: '2025-06-06'
+date: 2025-06-06
 category: Segments
 order: '4'
 megaphone_id: LOE1314351923
 image_url: https://loe.org/content/2025-06-06/GOLDMAN_besjanaandolsi.jpg
 image_caption: '2025 Goldman Prize winners Besjana Guri and Olsi Nika. In 2014, they publicly launched the “Save the Blue Heart of Europe” campaign to protect the Vjosa River from a hydropower dam development boom. Their activism resulted in its historic designation as the Vjosa Wild River National Park by the Albanian government in March 2023. This safeguards the Vjosa, which flows freely 167 miles from the Pindus mountains to the Adriatic Sea, and also its free-flowing tributaries. (Photo: Goldman Environmental Prize)'
 summary: The small Balkan nation of Albania already produces 99% of its electricity from hydropower and has plans to become a major exporter of hydro, threatening some of the last free-flowing rivers in Europe including the Vjosa. The 2025 Goldman Environmental Prize winners for Europe were able to stop a dam on the Vjosa River and convince the government to designate Vjosa Wild River National Park. Co-recipient Besjana Guri joins Host Jenni Doering to share how they achieved this victory.
+tags:
+  - hydropower
+  - rivers-watersheds
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00023&segmentID=4 -->
 

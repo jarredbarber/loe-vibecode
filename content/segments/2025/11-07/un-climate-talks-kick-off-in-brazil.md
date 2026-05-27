@@ -1,13 +1,19 @@
 ---
 title: UN Climate Talks Kick Off in Brazil
 slug: un-climate-talks-kick-off-in-brazil
-date: '2025-11-07'
+date: 2025-11-07
 category: Segments
 order: '1'
 megaphone_id: LOE7842142735
 image_url: https://loe.org/content/2025-11-07/COP30_logo.jpg
 image_caption: 'This year’s Conference of the Parties is being held in Belém, Brazil, from November 10th through 25th. An estimated 50,000 to 60,000 attendees are expected to arrive from around the world. (Photo: United Nations Framework Convention on Climate Change, Wikimedia Commons, Public Domain)'
 summary: The biggest climate negotiations of the year, COP30, are kicking off in Belem in the Brazilian Amazon. Longtime COP observer Jennifer Morgan is a former executive director of Greenpeace and former state secretary and special climate envoy for Germany who is now a senior fellow at Tufts University. She joins Host Steve Curwood to preview COP30 and discuss the focus on closing the gap between current greenhouse gas reduction policies and what’s needed to limit warming to a safer level.
+tags:
+  - climate-negotiations
+  - amazon
+  - climate-change
+  - fossil-fuels
+  - international-treaties
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00045&segmentID=1 -->
 

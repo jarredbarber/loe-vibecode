@@ -1,12 +1,19 @@
 ---
 title: Woodwell - A World to Live In
 slug: woodwell-a-world-to-live-in
-date: '2025-01-03'
+date: 2025-01-03
 category: Segments
 order: '6'
 image_url: https://loe.org/content/2016-07-29/WOODWELL-Woodwell_portrait.jpg
 image_caption: 'George M. Woodwell is the founder and president emeritus of the Woods Hole Research Center. (Photo: Steve Curwood)'
 summary: Ecologist George Woodwell has decades of research and environmental action under his belt, from documenting the dangers of DDT and climate change to founding the Woods Hole Research Center helping start other key organizations including the Environmental Defense Fund, the Natural Resources Defense Council and the World Resources Institute. His new book, “A World To Live In,” offers a reflection on the dangers of exceeding the planet’s biophysical limits. Speaking with Living on Earth Host Steve Curwood he shared some lessons he has learned about nature and environmental policy.
+tags:
+  - climate-change
+  - environmental-policy
+  - pesticides
+  - fossil-fuels
+  - corporate-accountability
+  - profiles-interviews
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=16-P13-00031&segmentID=5 -->
 

@@ -1,13 +1,19 @@
 ---
 title: Air Pollution Pioneers
 slug: air-pollution-pioneers
-date: '2025-11-21'
+date: 2025-11-21
 category: Segments
 order: '2'
 megaphone_id: LOE9044685910
 image_url: https://loe.org/content/2025-11-21/PARTICLES_steelmill.jpg
 image_caption: 'The Geneva Steel Mill in Utah Valley in 1989. The temporary closure of the mill on August 1, 1986 produced a natural experiment that allowed Dr. Arden Pope to show how air pollution doubled and at times tripled hospital admissions of children after the plant reopened on September 1, 1987. (Photo: Arden Pope)'
 summary: 'We now know about the severe health impacts of tiny airborne particles or PM2.5, thanks in large part to the groundbreaking “Six Cities” study that started in the 1970s. The leaders of that team were Doug Dockery, who became chair of Environmental Health at the Harvard T. H. Chan School of Public Health and Arden Pope, now a distinguished professor of agricultural economics at Brigham Young University. They are co-authors of the 2025 book, Particles of Truth: A Story of Discovery, Controversy, and the Fight for Healthy Air, and they share with Host Steve Curwood the story of how they undertook their vital research and the industry pushback they received.'
+tags:
+  - air-pollution
+  - public-health
+  - toxic-exposure
+  - climate-science
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00047&segmentID=2 -->
 

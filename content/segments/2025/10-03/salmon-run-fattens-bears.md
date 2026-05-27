@@ -1,13 +1,17 @@
 ---
 title: Salmon Run Fattens Bears
 slug: salmon-run-fattens-bears
-date: '2025-10-03'
+date: 2025-10-03
 category: Segments
 order: '2'
 megaphone_id: LOE3079187303
 image_url: https://loe.org/content/2025-10-03/FATBEARWEEK_winner.jpg
 image_caption: 'Every year, the brown bears in Katmai National Park and Preserve are viewable on live webcams via explore.org. In early fall, dedicated fans vote for their favorites to win the annual Fat Bear Week bracket competition. (Graphic: Courtesy of explore.org)'
 summary: The champion of Fat Bear Week 2025 is officially number 32 - “Chunk”, a big male who overcame a broken jaw to take the prize. Mike Fitz, the resident naturalist at explore.org, launched Fat Bear Week as a ranger at Katmai National Park in Alaska. He joins Host Aynsley O’Neill to explain how this year’s strong salmon run in the Brooks River helped the local grizzlies bulk up.
+tags:
+  - mammals
+  - fish
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00040&segmentID=2 -->
 

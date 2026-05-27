@@ -1,13 +1,18 @@
 ---
 title: Greenpeace SLAPPed for $600 Million?
 slug: greenpeace-slapped-for-600-million
-date: '2025-03-28'
+date: 2025-03-28
 category: Segments
 order: '2'
 megaphone_id: LOE1936581987
 image_url: https://loe.org/content/2025-03-28/SLAPP_dapl.jpg
 image_caption: 'Shown above is the Dakota Access Pipeline, as seen from New Salem, North Dakota. The Standing Rock Sioux Tribe opposed the pipeline’s construction, saying that it threatens sacred sites and the tribe’s water supply. (Photo: Tony Webster from Minneapolis, Minnesota, Wikimedia Commons, CC BY-SA 2.0)'
 summary: A North Dakota jury found in favor of pipeline company Energy Transfer and ordered Greenpeace to pay more than $600 million in damages over its role in helping protest the Dakota Access Pipeline. Environmental law expert Pat Parenteau joins Host Steve Curwood to explain why he sees the case as a classic SLAPP or Strategic Litigation Against Public Participation suit and a threat to free speech.
+tags:
+  - fossil-fuels
+  - activism
+  - litigation
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00013&segmentID=2 -->
 

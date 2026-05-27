@@ -1,13 +1,17 @@
 ---
 title: An Ancient Climate Solution
 slug: an-ancient-climate-solution-0131
-date: '2025-01-31'
+date: 2025-01-31
 category: Segments
 order: '5'
 megaphone_id: LOE4232891410
 image_url: https://loe.org/content/2025-01-31/ATHENS_aqueduct.jpg
 image_caption: 'Hadrian’s aqueduct, built in the second century AD by Roman emperor Hadrian, still carries water under the city of Athens. (Photo: Carole Raddato from FRANKFURT, Germany, , Wikimedia Commons, CC BY-SA 2.0)'
 summary: As the planet warms, water supplies are dwindling in Athens, Greece. To meet demand the city is looking to antiquity for solutions. One that’s attracting attention is an ancient aqueduct that runs beneath Athens. Niki Kitsantonis is a freelance journalist for the New York Times and a long-time resident of Athens, and she joins Host Jenni Doering to describe the project to fix it up and raise awareness about water scarcity.
+tags:
+  - climate-change
+  - drought
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00005&segmentID=5 -->
 

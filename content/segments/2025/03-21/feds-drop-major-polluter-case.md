@@ -1,13 +1,17 @@
 ---
 title: Feds Drop Major Polluter Case
 slug: feds-drop-major-polluter-case
-date: '2025-03-21'
+date: 2025-03-21
 category: Segments
 order: '3'
 megaphone_id: LOE4289369814
 image_url: https://loe.org/content/2025-03-21/DENKA_plant.JPG
 image_caption: 'The LaPlace, Louisiana chemical plant was built by Dupont in 1968 and sold to Denka about a decade ago. The Trump Justice Department has dismissed a Biden-era lawsuit alleging that the Denka operation posed unacceptable cancer risks and seeking emissions reductions of the cancer-causing chemical chloroprene. The site produces neoprene, a synthetic rubber that is found in products such as wetsuits and laptop sleeves. The company said it has spent $35 million on upgrades and that emissions are at a historic low. (Photo: Andrew J. Skerritt)'
 summary: Under President Biden the Department of Justice and EPA sued petrochemical manufacturer Denka, alleging that its Reserve, Louisiana plant posed unacceptable cancer risks. But the Trump administration abruptly dropped the case just weeks before the scheduled start of a trial. Living on Earth Producer Andrew Skerritt visited Reserve to speak to community activists who are being impacted by this decision, and he shares their testimony with Host Paloma Beltran.
+tags:
+  - chemical-contamination
+  - cancer-environment
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00012&segmentID=3 -->
 

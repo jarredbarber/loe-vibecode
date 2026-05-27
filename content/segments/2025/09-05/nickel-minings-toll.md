@@ -1,13 +1,17 @@
 ---
 title: Nickel Mining's Toll
 slug: nickel-minings-toll
-date: '2025-09-05'
+date: 2025-09-05
 category: Segments
 order: '2'
 megaphone_id: LOE6348148965
 image_url: https://loe.org/content/2025-09-05/NICKEL_mining.jpg
 image_caption: 'Nickel mining is an environmentally destructive process that can create conditions in which Chromium-6 is formed. (Photo: The Gecko Project)'
 summary: Nickel is a key mineral for the clean energy transition but can come at a cost to local communities because of how polluting nickel mining operations can be. In Indonesia leaked company documents reveal that Harita Nickel, one of the world’s largest nickel mining companies, knowingly polluted fresh water sources. Alon Aviram, a reporter with the nonprofit journalism newsroom called The Gecko Project, joins Host Paloma Beltran to discuss their investigation.
+tags:
+  - fossil-fuels
+  - water-pollution
+  - chemical-contamination
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00036&segmentID=2 -->
 

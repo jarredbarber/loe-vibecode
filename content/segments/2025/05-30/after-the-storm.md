@@ -1,13 +1,18 @@
 ---
 title: After the Storm
 slug: after-the-storm
-date: '2025-05-30'
+date: 2025-05-30
 category: Segments
 order: '3'
 megaphone_id: LOE1710854159
 image_url: https://loe.org/content/2025-05-30/MSL_redsky.jpg
 image_caption: 'Red sky at morning, sailors take warning. (Photo: © Mark Seth Lender)'
 summary: Living on Earth’s Explorer-in-Residence Mark Seth Lender is keenly aware of the risks of living right on the Connecticut coast as sea levels rise and hurricanes strengthen. But being that close to Nature, in all her ferociousness, sure does inspire.
+tags:
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00022&segmentID=3 -->
 

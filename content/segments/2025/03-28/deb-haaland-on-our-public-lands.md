@@ -1,13 +1,17 @@
 ---
 title: Deb Haaland on Our Public Lands
 slug: deb-haaland-on-our-public-lands
-date: '2025-03-28'
+date: 2025-03-28
 category: Segments
 order: '4'
 megaphone_id: LOE5765333611
 image_url: https://loe.org/content/2025-03-28/HAALAND_title.jpg
 image_caption: 'Deb Haaland served as Secretary of the Interior under President Biden from 2021-2025. She was the first Native American to serve as a cabinet secretary. She is pictured here at Monument Valley in Arizona. (Photo: Deb Haaland for New Mexico Campaign)'
 summary: Deb Haaland became the first Native American cabinet member when President Biden appointed her as Secretary of the Interior and helped consult with tribes to designate new national monuments. Now she’s running for Governor of New Mexico, and Deb Haaland joins Host Jenni Doering to discuss the current threats to public lands and her deep ancestral connections to the New Mexican landscape.
+tags:
+  - indigenous-rights
+  - profiles-interviews
+  - forests
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00013&segmentID=4 -->
 

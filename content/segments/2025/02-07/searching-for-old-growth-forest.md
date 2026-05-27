@@ -1,13 +1,20 @@
 ---
 title: Searching for Old Growth Forest
 slug: searching-for-old-growth-forest
-date: '2025-02-07'
+date: 2025-02-07
 category: Segments
 order: '5'
 megaphone_id: LOE9889397005
 image_url: https://loe.org/content/2025-02-07/OLDGROWTH_lidar.jpg
 image_caption: 'LiDAR is like a “CAT scan” of the forest, our guest Dr. John Hagan says. The blue-magenta signature indicates late-successional/ old growth (LSOG) forest. Above, a LiDAR image of Big Reed Forest Reserve in northern Maine. (Photo: John Hagan)'
 summary: Finding the last remaining old growth in the vast forests of Maine is like finding a needle in a haystack, but LiDAR technology is helping pinpoint these biodiversity hotspots so they can be protected. Ecologist John Hagan of Our Climate Common joins Host Jenni Doering to discuss how it works and why it’s bringing the timber industry and conservationists together.
+tags:
+  - forests
+  - species-loss
+  - carbon-cycle
+  - environmental-tech
+  - ecology-research
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00006&segmentID=5 -->
 

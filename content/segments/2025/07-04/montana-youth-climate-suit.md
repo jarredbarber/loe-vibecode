@@ -1,13 +1,20 @@
 ---
 title: Montana Youth Climate Suit
 slug: montana-youth-climate-suit
-date: '2025-07-04'
+date: 2025-07-04
 category: Segments
 order: '6'
 megaphone_id: LOE8164257582
 image_url: https://loe.org/content/2023-07-07/HELD-youth plaintiffs cheered by supporters.jpeg
 image_caption: 'Youth plaintiffs Badge Busse, Mica Kantor, and Eva L. are cheered on by supporters as they arrive for their second day of trial. (Photo: Robin Loznak/Courtesy of Our Children’s Trust)'
 summary: A case in Montana brought by sixteen youth plaintiffs has become the first constitutional climate suit in the U.S. to make it to trial. They allege that the state of Montana has violated their constitutional right to a “clean and healthful environment” by promoting fossil fuel extraction in the face of intensifying climate disruption. Inside Climate News reporter Richard Forbes was in the courtroom and fills in Host Jenni Doering on what happened and how the young plaintiffs’ powerful testimony contrasted with a bare-bones defense from the state.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-justice
+  - youth-education
+  - litigation
+  - extreme-weather
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=23-P13-00027&segmentID=1 -->
 

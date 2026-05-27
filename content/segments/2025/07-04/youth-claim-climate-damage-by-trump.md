@@ -1,13 +1,18 @@
 ---
 title: Youth Claim Climate Damage by Trump
 slug: youth-claim-climate-damage-by-trump
-date: '2025-07-04'
+date: 2025-07-04
 category: Segments
 order: '2'
 megaphone_id: LOE8891470344
 image_url: https://loe.org/content/2025-07-04/LVT_courthouse.jpeg
 image_caption: 'The Mike Mansfield Federal Building and United States Courthouse in Butte, Montana, the district where Lighthiser v. Trump was filed. (Photo: Warren LeMay, Flickr, CC BY-SA 2.0)'
 summary: The new youth climate lawsuit Lighthiser v. Trump is ambitious as it targets specific executive orders and agency actions of the Trump administration. Vermont Law and Graduate School emeritus professor Pat Parenteau offers his views of Lighthiser v. Trump to Host Jenni Doering and explains why he thinks it may have a better chance of making it to trial than the pioneering Juliana youth climate case filed in 2015 which was ultimately blocked by the US Supreme Court before any trial.
+tags:
+  - climate-change
+  - environmental-justice
+  - fossil-fuels
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00027&segmentID=2 -->
 

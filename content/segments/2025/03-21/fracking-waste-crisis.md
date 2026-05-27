@@ -1,13 +1,17 @@
 ---
 title: Fracking Waste Crisis
 slug: fracking-waste-crisis
-date: '2025-03-21'
+date: 2025-03-21
 category: Segments
 order: '4'
 megaphone_id: LOE5337172681
 image_url: https://loe.org/content/2025-03-21/BENSE_sign.jpg
 image_caption: 'Due to the high levels of pollution, there’s a sign warning Yukon residents to be careful around Sewickley Creek. (Photo: Scott Goldsmith, Inside Climate News)'
 summary: The expansion of fracking or hydraulic fracturing for natural gas is generating large amounts of waste contaminated with heavy metals and radiation. Some of it gets sent to landfills like one in the small town of Yukon, Pennsylvania. Kiley Bense of Inside Climate News explains to Host Jenni Doering how EPA has documented unacceptable levels of pollution draining from the landfill into a local creek.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - water-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00012&segmentID=4 -->
 

@@ -1,13 +1,17 @@
 ---
 title: Rebuilding Back Better After Wildfire
 slug: rebuilding-back-better-after-wildfire
-date: '2025-10-24'
+date: 2025-10-24
 category: Segments
 order: '4'
 megaphone_id: LOE6460383702
 image_url: https://loe.org/content/2025-10-24/HOUSE_model.jpg
 image_caption: 'Small model of the proposed design for David’s new home created by JacobsChang Architecture. (Photo: David Brancaccio)'
 summary: David Brancaccio, the host of Marketplace Morning Report, is no stranger to climate disruption. He lost his home in the devastating Los Angeles fires this past January only two months after moving in. Living on Earth Host Steve Curwood checked back in with David Brancaccio to hear about his hopes to rebuild with fire-resistant material.
+tags:
+  - climate-change
+  - wildfire
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00043&segmentID=4 -->
 

@@ -47,7 +47,7 @@ layout: layouts/base.njk
                     grid-template-columns: 28px 1fr;
                     align-items: stretch;
                     column-gap: 6px;
-                    height: 56px;
+                    height: 84px;
                 }
                 .tag-sparkline-yaxis {
                     display: flex;
@@ -86,12 +86,12 @@ layout: layouts/base.njk
                     padding-left: 34px; /* yaxis column + column-gap */
                     margin: 4px 0 0;
                 }
-                .tag-sparkline-caption {
-                    font-size: 0.78em;
-                    color: #888;
-                    margin: 0.5em 0 0;
-                    text-align: center;
-                    font-family: 'Space Mono', monospace;
+                /* Caption uses the site-wide figcaption style (italic, muted)
+                   so it reads as a chart caption rather than a technical
+                   note. Override only the margin so it sits nicely beneath
+                   the x-axis labels. */
+                .tag-sparkline > figcaption {
+                    margin-top: 0.5em;
                 }
                 .tag-period-heading {
                     font-size: 1.05em;
@@ -101,7 +101,7 @@ layout: layouts/base.njk
                     padding-bottom: 0.15em;
                 }
             </style>
-            <div class="tag-sparkline">
+            <figure class="tag-sparkline">
                 <div class="tag-sparkline-row">
                     <div class="tag-sparkline-yaxis" aria-hidden="true">
                         <span>{{ _peak }}</span>
@@ -139,8 +139,8 @@ layout: layouts/base.njk
                     {% if _firstLabel != _lastLabel %}<span>{{ _lastLabel }}</span>{% endif %}
                 </div>
                 {% endif %}
-                <p class="tag-sparkline-caption">peak: {{ _peak }} segment{% if _peak != 1 %}s{% endif %} in a {% if _useMonth %}month{% else %}year{% endif %} · click a bar to jump</p>
-            </div>
+                <figcaption>Peak: {{ _peak }} segment{% if _peak != 1 %}s{% endif %} in a {% if _useMonth %}month{% else %}year{% endif %}. Click a bar to jump to that period.</figcaption>
+            </figure>
             {% endif %}
 
             {# Segments list, grouped by year — month-granularity in the chart

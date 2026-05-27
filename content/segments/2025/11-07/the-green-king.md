@@ -1,13 +1,17 @@
 ---
 title: The Green King
 slug: the-green-king
-date: '2025-11-07'
+date: 2025-11-07
 category: Segments
 order: '5'
 megaphone_id: LOE6932014248
 image_url: https://loe.org/content/2022-09-16/JUNIPER-Prince_Charles_speaking_at_COP21.jpg
 image_caption: 'King Charles III, who was then Prince of Wales, addressed the opening of the COP21 UN climate conference in Paris in 2015. (Photo: UNclimatechange, Wikimedia Commons CC BY 2.0)'
 summary: King Charles III, the former Prince of Wales, has acceded to the throne and brings with him a lifelong passion for nature and environmental causes. His longtime advisor and co-author Tony Juniper joins Host Steve Curwood to discuss His Majesty’s contributions on environment and climate, how that might influence him in his new role as King, and the passing of the activist torch to his son William, the new Prince of Wales.
+tags:
+  - climate-change
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=22-P13-00037&segmentID=1 -->
 

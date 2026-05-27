@@ -1,13 +1,18 @@
 ---
 title: Hurricane Forecasting in 2025
 slug: hurricane-forecasting-in-2025
-date: '2025-06-06'
+date: 2025-06-06
 category: Segments
 order: '1'
 megaphone_id: LOE3642987004
 image_url: https://loe.org/content/2025-06-06/HURRICANES_2025season.jpg
 image_caption: 'The 2025 Atlantic hurricane season is predicted to have slightly above average activity. The aftermath of 2024 Hurricane Helene in North Carolina is pictured above. (Photo: NCDOTcommunications, Wikimedia Commons, CC BY 2.0)'
 summary: The 2025 hurricane season is underway, and experts say the U.S. is likely to see higher than average activity. The past couple of years, extremely warm water in the Gulf of Mexico helped storms rapidly intensify into major hurricanes. Ryan Truchelut of consulting firm WeatherTiger talks with Host Aynsley O’Neill about what’s in store this season and how cuts to federal weather monitoring and hurricane modeling could leave the U.S. underprepared for strengthening storms.
+tags:
+  - climate-change
+  - extreme-weather
+  - atmospheric-science
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00023&segmentID=1 -->
 

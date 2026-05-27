@@ -1,13 +1,19 @@
 ---
 title: CA Clean Air Tool Revoked
 slug: ca-clean-air-tool-revoked
-date: '2025-05-30'
+date: 2025-05-30
 category: Segments
 order: '1'
 megaphone_id: LOE2750020812
 image_url: https://loe.org/content/2025-05-30/AIR_calistandards.jpg
 image_caption: 'Los Angeles is regularly out of compliance with federal air quality standards. (Photo: Diliff, Wikimedia Commons, CC BY-SA 3.0)'
 summary: California’s car culture, trucking industry, and weather contribute to chronically bad air that it’s been gradually improving with its own laws and regulations and the blessing of the US Environmental Protection Agency. But now under President Trump, the EPA and Republican Congress are taking away California’s ability to clean up its air. Ann Carlson is a Professor of Environmental Law at UCLA and joins Host Jenni Doering to discuss the legal questions and public health impact.
+tags:
+  - air-pollution
+  - environmental-policy
+  - public-health
+  - regulation-deregulation
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00022&segmentID=1 -->
 

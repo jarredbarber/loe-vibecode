@@ -1,13 +1,18 @@
 ---
 title: Reef Symphony
 slug: reef-symphony
-date: '2025-08-29'
+date: 2025-08-29
 category: Segments
 order: '2'
 megaphone_id: LOE8528876206
 image_url: https://loe.org/content/2023-01-06/OYSTERS_oysters.jpg
 image_caption: 'It appears that oyster larvae are attracted to the sounds of a healthy reef. (Photo: Petras Gagilas, Flickr, CC BY-SA 2.0)'
 summary: For a taste of what an oyster reef sounds like, an excerpt of a piece by Living on Earth Producer Sophia Pandelidis about the “symphony” of a reef, with snapping shrimp, grunting fish and grazing urchins all part of this underwater orchestra.
+tags:
+  - marine-life
+  - oceans
+  - ecology-research
+  - music-soundscapes
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00035&segmentID=2 -->
 

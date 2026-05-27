@@ -1,13 +1,19 @@
 ---
 title: '"Evening" Poem by Dorianne Laux'
 slug: evening-poem-by-dorianne-laux
-date: '2025-04-25'
+date: 2025-04-25
 category: Segments
 order: '3'
 megaphone_id: LOE2678525756
 image_url: https://loe.org/content/2025-04-25/LAUX_dayislong.jpg
 image_caption: 'Dorianne Laux’s sixth poetry collection, Only As the Day is Long: New and Selected Poems was named a finalist for the 2020 Pulitzer Prize for Poetry. (Photo: W.W. Norton & Company)'
 summary: As Poetry Month ends, we turn to poet Dorianne Laux, whose latest collection is titled Life on Earth. Her poem “Evening” from a few years ago simultaneously expresses her grief at her recent loss of her mother and the waning of the whole biosphere in the face of climate disruption. Dorianne Laux joined Living on Earth’s Jenni Doering to read her poem and talk about finding solace in nature.
+tags:
+  - climate-change
+  - species-loss
+  - oceans
+  - poetry-essays
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00017&segmentID=3 -->
 

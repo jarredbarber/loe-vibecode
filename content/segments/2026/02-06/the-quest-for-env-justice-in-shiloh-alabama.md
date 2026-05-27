@@ -1,7 +1,7 @@
 ---
 title: The Quest for Env. Justice in Shiloh Alabama
 slug: the-quest-for-env-justice-in-shiloh-alabama
-date: '2026-02-06'
+date: 2026-02-06
 category: Segments
 order: '3'
 megaphone_id: LOE4916211337

@@ -1,13 +1,17 @@
 ---
 title: PFAS and Our Genes
 slug: pfas-and-our-genes
-date: '2025-10-17'
+date: 2025-10-17
 category: Segments
 order: '3'
 megaphone_id: LOE6074761473
 image_url: https://loe.org/content/2025-10-17/PFAS_waterrepellant.jpg
 image_caption: 'PFAS are commonly found in water repellant materials, firefighting foams and are also used in industrial food production. While PFAS are not intentionally added to food or water, they can accidentally leak into the environment, contaminating both. (Photo: MountainFae, Wikimedia Commons, CC BY-SA 4.0)'
 summary: A recent study found that exposure to certain PFAS chemicals, which are pervasive and persistent in the environment and human bodies, can lead to changes in gene expression that are linked to cancers, autoimmune and other immune disorders, and neurological disorders. Lead researcher Dr. Melissa Furlong from the University of Arizona speaks with Host Steve Curwood about the findings.
+tags:
+  - toxic-exposure
+  - chemical-contamination
+  - cancer-environment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00042&segmentID=3 -->
 

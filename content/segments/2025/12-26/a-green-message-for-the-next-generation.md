@@ -1,13 +1,20 @@
 ---
 title: A Green Message for the Next Generation
 slug: a-green-message-for-the-next-generation
-date: '2025-12-26'
+date: 2025-12-26
 category: Segments
 order: '2'
 megaphone_id: LOE1366153169
 image_url: https://loe.org/content/2014-12-26/TEM--TemBlessedMic.png
 image_caption: 'Green Energy Artist Tem Blessed rapping at the annual Connecting for Change conference in New Bedford, MA. (Photo: Connecting for Change, the Marion Institute)'
 summary: 'Tem Blessed, an environmentally and socially-conscious hiphop artist, sat down with host Steve Curwood to discuss how contemporary music can communicate the importance of the environment and sustainability to young audiences. He illustrates this with two of his own pieces: “I am the bee” and “Now is the time.”'
+tags:
+  - climate-change
+  - species-loss
+  - environmental-justice
+  - youth-education
+  - profiles-interviews
+  - citizen-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00052&segmentID=2 -->
 

@@ -3,6 +3,16 @@
 <div class="show-segment">
     <h3><a href="{{ segment.url }}">{{ segment.data.title }}</a></h3>
 
+    {% set _readTime = segment.templateContent | readingTime %}
+    {% set _listenTime = segment.templateContent | listeningTime %}
+    {% if _readTime or _listenTime %}
+    <p class="segment-time">
+        {% if _readTime %}{{ _readTime }}{% endif %}
+        {% if _readTime and _listenTime %}<span class="segment-time-sep">·</span>{% endif %}
+        {% if _listenTime %}{{ _listenTime }}{% endif %}
+    </p>
+    {% endif %}
+
     {% if segment.data.banner_url or segment.data.image_url %}
     <div class="segment-image">
         <img src="{{ segment.data.banner_url or segment.data.image_url }}" alt="{{ segment.data.title }}">

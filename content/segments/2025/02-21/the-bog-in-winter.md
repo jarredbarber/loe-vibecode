@@ -1,13 +1,18 @@
 ---
 title: The Bog in Winter
 slug: the-bog-in-winter
-date: '2025-02-21'
+date: 2025-02-21
 category: Segments
 order: '3'
 megaphone_id: LOE1560582442
 image_url: https://loe.org/content/2025-02-21/LYMAN_pineholebog.jpg
 image_caption: 'The Pine Hole Bog in winter (Photo: Don Lyman)'
 summary: Just under the ice at Pine Hole Bog north of Boston, diverse forms of life from dragonfly nymphs to turtles and frogs await the spring thaw. Living on Earth’s Don Lyman shares a reflection from a winter walk through this beloved place.
+tags:
+  - arctic-polar
+  - insects
+  - amphibians
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00008&segmentID=3 -->
 

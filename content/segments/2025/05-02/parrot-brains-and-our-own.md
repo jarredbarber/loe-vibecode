@@ -1,13 +1,17 @@
 ---
 title: Parrot Brains and Our Own
 slug: parrot-brains-and-our-own
-date: '2025-05-02'
+date: 2025-05-02
 category: Segments
 order: '4'
 megaphone_id: LOE7831877364
 image_url: https://loe.org/content/2025-05-02/SPEECH_finch.jpg
 image_caption: 'Dr. Long began his research with zebra finches since the males learn their father’s song perfectly in order to court females. (Photo: Ayacop, Accelerated Growth following Poor Early Nutrition Impairs Later Learning, Wikimedia Commons, CC BY 2.5)'
 summary: Parakeets have astounding vocal abilities and are able to mimic as many as 1700 human words. And their brains may provide insight into how we humans talk. In a recent study, researchers found human-like neural activity during vocalization. Dr. Michael Long led the study and joins Host Paloma Beltran to share how this research may help shed light on communication disorders in humans such as autism.
+tags:
+  - ecology-research
+  - biotechnology
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00018&segmentID=4 -->
 

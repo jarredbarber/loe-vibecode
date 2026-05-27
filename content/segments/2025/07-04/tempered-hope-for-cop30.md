@@ -1,13 +1,19 @@
 ---
 title: Tempered Hope for COP30
 slug: tempered-hope-for-cop30
-date: '2025-07-04'
+date: 2025-07-04
 category: Segments
 order: '3'
 megaphone_id: LOE2996022562
 image_url: https://loe.org/content/2025-07-04/BONN_negotiatorsmet.jpg
 image_caption: 'Climate negotiators met for two weeks of technical talks in the German city of Bonn, seeking to move forward on critical issues before COP30 in Brazil. (Photo: Lara Murillo, UN Climate Change, Flickr, CC BY NC SA 4.0)'
 summary: Ten years since nations adopted the historic Paris Agreement, greenhouse gas emissions continue to rise, and hopes are dimming that we can meet the Paris goal of limiting global heating to 1.5 degrees Celsius. As global leaders prepare to meet in Brazil for COP30, some say the entire UN climate agreement system is broken. Preliminary sessions recently took place in Bonn, Germany where longtime UN climate observer and Senior Associate at E3G Alden Meyer was in attendance, and he joins Host Aynsley O’Neill.
+tags:
+  - climate-change
+  - extreme-weather
+  - sea-level-rise
+  - climate-negotiations
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00027&segmentID=3 -->
 

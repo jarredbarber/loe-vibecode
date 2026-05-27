@@ -1,13 +1,17 @@
 ---
 title: '"The Silence"- Lava Tubes of Iceland'
 slug: the-silence-lava-tubes-of-iceland
-date: '2025-02-14'
+date: 2025-02-14
 category: Segments
 order: '4'
 megaphone_id: LOE5912329710
 image_url: https://loe.org/content/2025-02-14/MSL_lavatube.JPG
 image_caption: 'The colorful ceiling of the lava tube with its “basalt fractured into uneven hexagons” arching overhead. (Photo: © Mark Seth Lender)'
 summary: Escaping the noise of the world can be hard these days, but not impossible. Living on Earth’s Explorer in Residence Mark Seth Lender has stumbled upon silent sanctuaries in Iceland and beyond.
+tags:
+  - arctic-polar
+  - field-reporting
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00007&segmentID=4 -->
 

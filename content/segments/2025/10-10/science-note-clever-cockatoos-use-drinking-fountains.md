@@ -1,13 +1,19 @@
 ---
 title: 'Science Note: Clever Cockatoos use Drinking Fountains'
 slug: science-note-clever-cockatoos-use-drinking-fountains
-date: '2025-10-10'
+date: 2025-10-10
 category: Segments
 order: '3'
 megaphone_id: LOE2034023177
 image_url: https://loe.org/content/2025-10-10/SCINOTE_cockatoo.jpg
 image_caption: 'A sulphur-crested cockatoo walking on the grass in Risdon Brook Park, Tasmania, Australia. (Photo: JJ Harrison, Wikimedia Commons, CC BY-SA 3.0)'
 summary: After observing sulfur-crested cockatoos using a drinking fountain, Australian researchers reported that most of the local population of cockatoos attempted to use the fountains, and around half were successful. Living on Earth’s Don Lyman reports on the research findings and hypotheses for why these clever cockatoos have developed this habit.
+tags:
+  - mammals
+  - birds
+  - ecology-research
+  - citizen-science
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00041&segmentID=3 -->
 

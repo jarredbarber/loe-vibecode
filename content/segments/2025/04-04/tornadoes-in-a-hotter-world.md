@@ -1,13 +1,18 @@
 ---
 title: Tornadoes in a Hotter World
 slug: tornadoes-in-a-hotter-world
-date: '2025-04-04'
+date: 2025-04-04
 category: Segments
 order: '1'
 megaphone_id: LOE4973618896
 image_url: https://loe.org/content/2025-04-04/TORNADOS_harlan.jpg
 image_caption: 'A tornado looms near Harlan, Iowa. (Photo: Adam Orgler, World Meteorological Organization, Flickr, CC BY-NC-ND 2.0)'
 summary: Experts are still trying to piece together how tornado patterns have changed in the last century and are likely to keep changing as the world gets hotter. Meteorologist Ryan Truchelut of WeatherTiger joins Host Steve Curwood to explain the eastward shift of tornadoes in the US and how newly vulnerable populations can stay safe.
+tags:
+  - climate-change
+  - extreme-weather
+  - atmospheric-science
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00014&segmentID=1 -->
 

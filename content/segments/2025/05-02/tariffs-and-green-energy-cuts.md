@@ -1,13 +1,19 @@
 ---
 title: Tariffs and Green Energy Cuts
 slug: tariffs-and-green-energy-cuts
-date: '2025-05-02'
+date: 2025-05-02
 category: Segments
 order: '3'
 megaphone_id: LOE6669200692
 image_url: https://loe.org/content/2025-05-02/TRUMP_fossilfuels.jpg
 image_caption: 'The Trump Administration favors the fossil fuel industry over the clean energy industry in its tariff policies. (Photo: Arbyreed, Flickr, CC BY-NC-SA 2.0)'
 summary: The Trump Administration’s on-again, off-again tariffs and cuts to renewable energy programs are bringing instability and uncertainty to the future of US energy. Collin Rees of Oil Change International talks with Host Paloma Beltran about how the trade turmoil and policy whiplash are impacting and sidelining the U.S. renewable energy industry.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - solar
+  - wind
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00018&segmentID=3 -->
 

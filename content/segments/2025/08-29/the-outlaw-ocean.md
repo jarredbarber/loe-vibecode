@@ -1,13 +1,18 @@
 ---
 title: The Outlaw Ocean
 slug: the-outlaw-ocean
-date: '2025-08-29'
+date: 2025-08-29
 category: Segments
 order: '3'
 megaphone_id: LOE6816125442
 image_url: https://loe.org/content/2019-12-06/OUTLAWOCEAN_thunder.jpg
 image_caption: 'The first story in The Outlaw Ocean focuses on the chase by the Sea Shepherd Conservation Society of the Thunder, an alleged outlaw fishing vessel. (Photo: Courtesy of The Outlaw Ocean)'
 summary: 'About seventy percent of our planet is covered by the oceans, but the high seas are among the least-explored frontiers on Earth. And lawlessness is rampant in this vast wilderness, with crimes ranging from illegal fishing to slavery at sea. Pulitzer Prize-winning author Ian Urbina wrote The Outlaw Ocean: Journeys Across the Last Untamed Frontier to tell the harrowing stories of high crimes on the high seas, and he joined Host Steve Curwood at a recent live event in Boston.'
+tags:
+  - oceans
+  - fossil-fuels
+  - marine-life
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00035&segmentID=3 -->
 

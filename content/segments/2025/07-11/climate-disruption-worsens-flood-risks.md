@@ -1,13 +1,17 @@
 ---
 title: Climate Disruption Worsens Flood Risks
 slug: climate-disruption-worsens-flood-risks
-date: '2025-07-11'
+date: 2025-07-11
 category: Segments
 order: '2'
 megaphone_id: LOE1374146252
 image_url: https://loe.org/content/2025-07-11/FLOODING_july4th.jpg
 image_caption: 'On the 4th of July, 2025, flash flooding hit Kerr County, Texas. A local river quickly rose over 20 feet in under an hour. (Photo: Courtesy of Louis Amestoy, The Kerr County Lead)'
 summary: Catastrophic floods like the one that claimed at least 100 lives in Texas this July are becoming more likely because of climate disruption. Meteorologist Sean Sublette is the owner of Sublette Weather and Consulting. He joins Host Aynsley O’Neill to talk about the atmospheric and climate conditions that contribute to flood disasters, and the growing need to be weather aware
+tags:
+  - climate-change
+  - extreme-weather
+  - atmospheric-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00028&segmentID=2 -->
 

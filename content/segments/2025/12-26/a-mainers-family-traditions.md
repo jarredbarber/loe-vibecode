@@ -1,13 +1,18 @@
 ---
 title: A Mainer's Family Traditions
 slug: a-mainers-family-traditions
-date: '2025-12-26'
+date: 2025-12-26
 category: Segments
 order: '3'
 megaphone_id: LOE4733124643
 image_url: https://loe.org/content/2014-12-26/BREAU--fryburgfair2014.png
 image_caption: 'Singer/songwriter Denny Breau performing at the 2014 Fryeburg Fair in Fryeburg, Maine. (Photo: Denny Breau and family)'
 summary: Denny Breau, a singer/songwriter from Maine, joins host Steve Curwood during these cold winter months to discuss some of the moments that warm his heart. He shares stories about one of his favorite holiday meals, ice-fishing, his Acadian family origins, and traditions of song that span the generations.
+tags:
+  - profiles-interviews
+  - music-soundscapes
+  - farming
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00052&segmentID=3 -->
 

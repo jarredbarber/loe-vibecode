@@ -1,13 +1,18 @@
 ---
 title: 'Birdnote®: Goldeneyes and Whistling Wings'
 slug: birdnote-goldeneyes-and-whistling-wings
-date: '2025-01-31'
+date: 2025-01-31
 category: Segments
 order: '4'
 megaphone_id: LOE1146128881
 image_url: https://loe.org/content/2025-01-31/BIRDNOTE_goldeneye.jpg
 image_caption: 'A common goldeneye soars close to the waves. (Photo: © Andrew Reding CC, Courtesy of BirdNote®)'
 summary: On a still winter afternoon, you may hear Common Goldeneyes flying low across the water. As Ernest Hemingway wrote, their wings make the sound of ripping silk. BirdNote®’s Michael Stein reports.
+tags:
+  - birds
+  - wildlife-corridors
+  - forests
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00005&segmentID=4 -->
 

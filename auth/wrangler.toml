@@ -5,9 +5,12 @@ compatibility_date = "2026-05-01"
 # Restrict OAuth dance to our domains; prevents the worker being used as
 # a generic CMS-auth proxy by other sites.
 [vars]
-ALLOWED_DOMAINS = "vibingon.earth,localhost:*,127.0.0.1:*"
+ALLOWED_DOMAINS = "vibingon.earth,loe-staging.pages.dev,*.loe-staging.pages.dev,localhost:*,127.0.0.1:*"
 # When set, the worker only hands out tokens to users who are collaborators
 # on this repo. Gives a clean error message instead of letting non-editors
 # into the CMS UI (they'd hit a GitHub 403 on save anyway, but this is
 # kinder UX).
+# NOTE: separate runtime from Eleventy — if the repo is renamed/forked,
+# update both this AND eleventy/_data/site.js (the latter feeds config.njk
+# and base.njk via the {{ site.githubRepo }} var).
 ALLOWED_REPO = "jarredbarber/loe-vibecode"

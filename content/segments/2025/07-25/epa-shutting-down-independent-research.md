@@ -1,13 +1,20 @@
 ---
 title: EPA Shutting Down Independent Research
 slug: epa-shutting-down-independent-research
-date: '2025-07-25'
+date: 2025-07-25
 category: Segments
 order: '1'
 megaphone_id: LOE9569940192
 image_url: https://loe.org/content/2025-07-25/ORD_watertesting.jpg
 image_caption: 'A scientist in the Office of Research and Development collects samples for water testing. The ORD represents 50 years of independent scientific research at the EPA. (Photo: U.S. EPA, U.S. Archives, public domain)'
 summary: The US Environmental Protection Agency is shutting down its Office of Research and Development, which represents 50 years of independent scientific research. Kyla Bennett is director of science policy for Public Employees for Environmental Responsibility, and she joined host Aynsley O’Neill to discuss the impact on EPA employees and science.
+tags:
+  - environmental-policy
+  - regulation-deregulation
+  - toxic-exposure
+  - air-pollution
+  - drinking-water
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00030&segmentID=1 -->
 

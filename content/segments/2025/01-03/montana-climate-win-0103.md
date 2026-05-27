@@ -1,13 +1,18 @@
 ---
 title: Montana Climate Win
 slug: montana-climate-win-0103
-date: '2025-01-03'
+date: 2025-01-03
 category: Segments
 order: '2'
 megaphone_id: LOE9633951285
 image_url: https://loe.org/content/2023-07-07/HELD-youth plaintiffs cheered by supporters.jpeg
 image_caption: 'Youth plaintiffs Badge Busse, Mica Kantor, and Eva L. are cheered on by supporters as they arrive for their second day of trial in June 2023. The district court ruling from Judge Kathy Seeley in August 2023 was upheld by Montana’s State Supreme Court in December 2024. (Photo: Robin Loznak/Courtesy of Our Children’s Trust)'
 summary: In a landmark 6 to 1 decision, the Montana State Supreme Court upheld a ruling that found young people, and by extension all people in Montana, have a constitutional right to a livable climate that state officials can’t ignore. Vermont Law and Graduate School Emeritus Professor Pat Parenteau explains to Host Steve Curwood how the plaintiffs presented their case and how the ruling could guide litigation in other states.
+tags:
+  - climate-change
+  - litigation
+  - fossil-fuels
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00001&segmentID=2 -->
 

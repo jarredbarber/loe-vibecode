@@ -1,13 +1,18 @@
 ---
 title: Earth Day Celebration
 slug: earth-day-celebration
-date: '2025-04-18'
+date: 2025-04-18
 category: Segments
 order: '1'
 megaphone_id: LOE1715981222
 image_url: https://loe.org/content/2025-04-18/EARTHDAY_songcover.jpg
 image_caption: 'Antonique Smith collaborated with songwriter Toby Gad on the remake of Love Song To the Earth, which was released in early 2025. She has been performing the song as part of the Climate Revival Tour. (Photo: Climate Revival)'
 summary: Living on Earth is celebrating 55 years of Earth Day, kicking off with a conversation with Grammy nominated singer and Earth Day ambassador Antonique Smith. Her work uses the art of storytelling and music to promote environmental justice and climate action in communities of faith and color. Host Steve Curwood spoke to Antonique Smith about using culture and artistry to combat climate change.
+tags:
+  - environmental-justice
+  - climate-change
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00016&segmentID=1 -->
 

@@ -1,13 +1,18 @@
 ---
 title: EPA Under Attack
 slug: epa-under-attack
-date: '2025-03-14'
+date: 2025-03-14
 category: Segments
 order: '1'
 megaphone_id: LOE4792377945
 image_url: https://loe.org/content/2025-03-14/WHITMAN_headshot.jpg
 image_caption: 'Christine Todd Whitman is the former Governor of New Jersey and former Administrator of the Environmental Protection Agency. (Photo: Emily Fletke)'
 summary: The Trump administration has announced plans to roll back multiple environmental regulations, cut EPA spending and push back environmental justice programs. Christine Todd Whitman served as the Administrator of the Environmental Protection Agency under President George W. Bush and she’s the only woman who has served as the governor of New Jersey. She joined Living on Earth’s host Steve Curwood and Paloma Beltran to discuss recent federal actions end her centrist approach on environmental regulation.
+tags:
+  - environmental-policy
+  - regulation-deregulation
+  - climate-change
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00011&segmentID=1 -->
 

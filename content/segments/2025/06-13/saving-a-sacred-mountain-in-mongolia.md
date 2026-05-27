@@ -1,13 +1,21 @@
 ---
 title: Saving a Sacred Mountain in Mongolia
 slug: saving-a-sacred-mountain-in-mongolia
-date: '2025-06-13'
+date: 2025-06-13
 category: Segments
 order: '3'
 megaphone_id: LOE7917086427
 image_url: https://loe.org/content/2025-06-13/GOLDMAN_luvsandash.jpg
 image_caption: 'Luvsandash surveyed miles upon miles of desert, using his engineering skills to figure out the exact coordinates that needed protection. (Photo: Goldman Environmental Prize)'
 summary: Batmunkh Luvsandash, winner of the 2025 Goldman Environmental Prize for Asia, was raised as a Mongolian herder and later became an engineer who worked on mining projects in the mineral-rich country. But when he learned that the Mongolian government was planning to mine the sacred Hutag mountain, which is also home to the endangered Asiatic ass, he sprang into action. Batmunkh joined Living on Earth’s Paloma Beltran (speaking through a translator) to share why protecting the area is so important to him.
+tags:
+  - fossil-fuels
+  - species-loss
+  - endangered-species
+  - invasive-species
+  - forests
+  - indigenous-rights
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00024&segmentID=3 -->
 

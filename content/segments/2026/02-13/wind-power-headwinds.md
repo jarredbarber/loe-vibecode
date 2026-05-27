@@ -1,13 +1,17 @@
 ---
 title: Wind Power Headwinds
 slug: wind-power-headwinds
-date: '2026-02-13'
+date: 2026-02-13
 category: Segments
 order: '2'
 megaphone_id: LOE2898896604
 image_url: https://loe.org/content/2026-02-13/WIND_shenandoahhills.jpg
 image_caption: 'Wind turbines at the Shenandoah Hills wind farm. The project faced a lot of local opposition before going online. (Photo: Anika Jane Beamer, Inside Climate News)'
 summary: Onshore wind in the US is hitting a cliff, even in the most wind-powered state, Iowa, which generates about 2/3 of its electricity from wind. Dan Gearino, clean energy reporter for Inside Climate News talks with Host Jenni Doering about how a combination of local opposition, anti-wind rhetoric and tax credit phaseouts has led to a steep decline in new wind projects.
+tags:
+  - wind
+  - environmental-policy
+  - farming
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00007&segmentID=2 -->
 

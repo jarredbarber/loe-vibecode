@@ -1,13 +1,17 @@
 ---
 title: Climate Disruption to Lose Trillions
 slug: climate-disruption-to-lose-trillions
-date: '2025-02-21'
+date: 2025-02-21
 category: Segments
 order: '2'
 megaphone_id: LOE2601125829
 image_url: https://loe.org/content/2025-02-21/GDP_modeling.jpg
 image_caption: 'Modeling has shown that large areas of the world are at risk of becoming uninhabitable by 2100 due to extreme heat and weather conditions, including major cities like Dubai that contribute a great amount to the global economy. (Photo: Anna Fuster, Flickr, CC BY-NC-ND 2.0)'
 summary: As costly climate disasters multiply around the planet, some financial experts are raising alarms that proceeding with business as usual without sharply reducing emissions could cut global GDP in half as soon as 2070. Dr. Tim Lenton is a Professor at the University of Exeter and a co-author of the 2025 Planetary Solvency Report, and he joins Host Jenni Doering to talk about how human civilization can steer towards a more stable future.
+tags:
+  - climate-change
+  - extreme-weather
+  - sea-level-rise
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00008&segmentID=2 -->
 

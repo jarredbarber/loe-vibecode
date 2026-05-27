@@ -1,13 +1,19 @@
 ---
 title: The EPA Wants to Ignore GHG Emissions
 slug: the-epa-wants-to-ignore-ghg-emissions
-date: '2025-09-26'
+date: 2025-09-26
 category: Segments
 order: '2'
 megaphone_id: LOE1244676662
 image_url: https://loe.org/content/2025-09-26/GHGRP_unchecked.jpg
 image_caption: 'Unchecked greenhouse gas emissions warm the planet. (Photo: ejstanz, Wikimedia Common, CC BY-SA 2.0)'
 summary: The Environmental Protection Agency has proposed ending the Greenhouse Gas Reporting Program, which requires the biggest industrial facilities and power plants in the country to report their global warming emissions. David Cash, former EPA Administrator for Region One – New England, joins Host Aynsley O’Neill to discuss the potential consequences of this Trump Administration decision.
+tags:
+  - climate-change
+  - atmospheric-science
+  - fossil-fuels
+  - regulation-deregulation
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00039&segmentID=2 -->
 

@@ -1,13 +1,19 @@
 ---
 title: Censorship in US National Parks
 slug: censorship-in-us-national-parks
-date: '2025-07-25'
+date: 2025-07-25
 category: Segments
 order: '3'
 megaphone_id: LOE1529577750
 image_url: https://loe.org/content/2025-07-25/NPSHISTORY_manzanar.jpg
 image_caption: 'Manzanar Internment Relocation Center, created by Executive Order No. 9066, issued February 19. 1942. It was the first of ten camps where more than 110,000 people of Japanese ancestry were incarcerated during WWII. (Photo: William Gill, Wikimedia Commons, CC BY SA 4.0)'
 summary: President Trump has ordered the Department of the Interior to review historic monuments and memorials, and remove any content that might be perceived as negative or unpatriotic. Independent historian Donna Graves joined host Aynsley O’Neill to discuss some National Parks that show America’s complex history and how these federal actions can lead to censorship.
+tags:
+  - environmental-justice
+  - indigenous-rights
+  - profiles-interviews
+  - activism
+  - environmental-history
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00030&segmentID=3 -->
 

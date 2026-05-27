@@ -1,7 +1,7 @@
 ---
 title: '"Night Owl" -- Poems by Aimee Nezhukumatathil'
 slug: night-owl-poems-by-aimee-nezhukumatathil-0410
-date: '2026-04-10'
+date: 2026-04-10
 category: Segments
 order: '4'
 megaphone_id: LOE9296516678

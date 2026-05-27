@@ -1,13 +1,19 @@
 ---
 title: Saving Corals Amid Record Bleaching
 slug: saving-corals-amid-record-bleaching
-date: '2025-06-06'
+date: 2025-06-06
 category: Segments
 order: '2'
 megaphone_id: LOE7815207097
 image_url: https://loe.org/content/2025-06-06/CORALS_palau.jpg
 image_caption: 'Dr. Steve Palumbi samples corals in the country of Palau. His work focuses on testing and growing the number of heat-resistant corals. (Photo: Dan Griffin)'
 summary: Record-breaking heat in the oceans has led to the most widespread coral bleaching event ever documented, ongoing since January 2023. Bleaching weakens the corals and many end up dying, but others can recover and even thrive amid hotter oceans. Steve Palumbi, a Professor of Biology and Oceans at Stanford University, joins Host Aynsley O’Neill to share how researchers are finding ways to help corals survive and thrive as the oceans warm.
+tags:
+  - climate-change
+  - oceans
+  - species-loss
+  - extreme-weather
+  - marine-life
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00023&segmentID=2 -->
 

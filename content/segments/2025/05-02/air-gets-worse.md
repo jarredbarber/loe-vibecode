@@ -1,13 +1,19 @@
 ---
 title: Air Gets Worse
 slug: air-gets-worse
-date: '2025-05-02'
+date: 2025-05-02
 category: Segments
 order: '1'
 megaphone_id: LOE7409758714
 image_url: https://loe.org/content/2025-05-02/CASH_fire.jpg
 image_caption: 'The 2025 California Palisades Fire, pictured above. Fires significantly contribute to both air pollution and climate change by releasing pollutants and greenhouse gases into the atmosphere. (Photo: Cal Fire, Wikimedia Commons, Public Domain)'
 summary: The latest “State of the Air” report by the American Lung Association finds air quality has worsened so much that nearly half of people living in the U.S. now breathe unhealthy levels of air pollution. Soot and smog are on the rise in part because climate change heat is bringing more wildfires and low-level ozone-forming conditions. David Cash was the New England Administrator of the US Environmental Protection Agency under President Biden, and he joins Host Jenni Doering for an air quality update.
+tags:
+  - air-pollution
+  - climate-change
+  - public-health
+  - environmental-policy
+  - extreme-weather
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00018&segmentID=1 -->
 

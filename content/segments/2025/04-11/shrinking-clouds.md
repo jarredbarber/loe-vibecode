@@ -1,13 +1,19 @@
 ---
 title: Shrinking Clouds
 slug: shrinking-clouds
-date: '2025-04-11'
+date: 2025-04-11
 category: Segments
 order: '6'
 megaphone_id: LOE9281974928
 image_url: https://loe.org/content/2025-04-11/CLOUDS_shrinking.jpg
 image_caption: 'Cloud cover has been shrinking over the last 20 years, according to an analysis of NASA satellite data. (Photo: NASA Johnson, Flickr, CC BY-NC-ND 2.0)'
 summary: In terms of physics, global warming comes down to an energy imbalance as Earth is taking in more energy than it is releasing. A new study suggests that shrinking cloud cover is playing a big role in that imbalance. Jennifer Francis, an atmospheric scientist at the Woodwell Climate Research Center joined Host Aynsley O’Neill to discuss.
+tags:
+  - climate-change
+  - atmospheric-science
+  - extreme-weather
+  - drought
+  - wildfire
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00015&segmentID=6 -->
 

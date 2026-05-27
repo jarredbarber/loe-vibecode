@@ -1,13 +1,21 @@
 ---
 title: New Climate Champion in Congress
 slug: new-climate-champion-in-congress
-date: '2025-01-03'
+date: 2025-01-03
 category: Segments
 order: '1'
 megaphone_id: LOE3660562910
 image_url: https://loe.org/content/2025-01-03/YASSAMIN_elected.jpeg
 image_caption: 'Yassamin Ansari has been elected to Congress as a Democrat to represent Arizonia’s 3rd Congressional District. (Photo: Courtesy of Yassamin for Congress)'
 summary: Freshman U.S. Representative Yassamin Ansari, a Democrat representing Arizona’s 3rd district, puts climate at the top of her priority list. She joins Host Steve Curwood to reflect on her work with the UN on the Paris Climate Accord, discuss how extreme heat is affecting her constituents, and preview her climate aims in Congress.
+tags:
+  - climate-change
+  - extreme-weather
+  - heatwave
+  - environmental-policy
+  - congressional-action
+  - green-economy
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00001&segmentID=1 -->
 

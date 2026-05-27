@@ -21,15 +21,59 @@ export const CONTENT_DIR = SHOWS_DIR;
  * newlines to spaces in scalar values so we don't get unintentional block
  * scalars in summaries.
  */
-function frontmatter(fields: Record<string, string | null | undefined>): string {
-    const data: Record<string, string> = {};
+function frontmatter(
+    fields: Record<string, string | null | undefined>,
+    preserved: Record<string, unknown> = {},
+): string {
+    const data: Record<string, unknown> = {};
     for (const [k, v] of Object.entries(fields)) {
         if (v == null) continue;
         data[k] = String(v).replace(/[\r\n]+/g, ' ').trim();
     }
-    const body = yaml.dump(data, { lineWidth: -1, noRefs: true });
+    // Editorial additions (tags, etc.) come last so they appear after the
+    // ingest-derived fields in the output. yaml.dump preserves insertion order.
+    for (const [k, v] of Object.entries(preserved)) {
+        if (v == null) continue;
+        data[k] = v;
+    }
+    const body = yaml.dump(data, { lineWidth: -1, noRefs: true, schema: yaml.JSON_SCHEMA });
     return `---\n${body}---\n`;
 }
+
+/**
+ * Read the frontmatter of an existing emitted file and return the keys that
+ * are NOT in the ingest-derived set — i.e. fields editors added by hand
+ * (tags being the canonical example). Returned object is dropped back into
+ * the new frontmatter so re-emit doesn't clobber editorial work.
+ */
+async function readEditorialFields(
+    path: string,
+    knownKeys: Set<string>,
+): Promise<Record<string, unknown>> {
+    if (!(await exists(path))) return {};
+    let raw: string;
+    try { raw = await readFile(path, 'utf8'); } catch { return {}; }
+    const m = raw.match(/^---\n([\s\S]*?)\n---\n/);
+    if (!m) return {};
+    let parsed: unknown;
+    try { parsed = yaml.load(m[1], { schema: yaml.JSON_SCHEMA }); } catch { return {}; }
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+    const extra: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(parsed as Record<string, unknown>)) {
+        if (!knownKeys.has(k)) extra[k] = v;
+    }
+    return extra;
+}
+
+const SEGMENT_KNOWN_KEYS = new Set([
+    'title', 'slug', 'date', 'category', 'order',
+    'megaphone_id', 'image_url', 'image_caption', 'summary',
+]);
+
+const SHOW_KNOWN_KEYS = new Set([
+    'title', 'date', 'category', 'template',
+    'megaphone_id', 'image_url', 'summary',
+]);
 
 async function exists(path: string): Promise<boolean> {
     try {
@@ -100,6 +144,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
         const filename = `${slug}.md`;
         const path = join(segmentDir, filename);
 
+        const preserved = await readEditorialFields(path, SEGMENT_KNOWN_KEYS);
         const fm = frontmatter({
             title: doc.title,
             slug,
@@ -113,7 +158,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
             image_url: doc.imageUrl,
             image_caption: doc.imageCaption,
             summary: doc.summary,
-        });
+        }, preserved);
         const content = `${fm}<!-- source: ${url} -->\n\n${doc.body}`;
         actions[path] = await safeWrite(path, content, { sourceUrl: url, force: opts.force });
         segmentPaths.push(path);
@@ -124,6 +169,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
     const showPath = join(showDir, 'show.md');
     const showSummary = show.summary ?? segments[0]?.doc.summary ?? null;
     const showImage = show.imageUrl ?? segments[0]?.doc.imageUrl ?? null;
+    const preservedShow = await readEditorialFields(showPath, SHOW_KNOWN_KEYS);
     const showFm = frontmatter({
         title: show.title,
         date: show.date,
@@ -132,7 +178,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
         megaphone_id: show.megaphoneId,
         image_url: showImage,
         summary: showSummary,
-    });
+    }, preservedShow);
     // Segments are auto-discovered by the show_segments Pelican plugin from
     // sibling .md files; no need to enumerate them in the show body.
     // segmentEntries is kept above only so emit returns a useful segmentPaths

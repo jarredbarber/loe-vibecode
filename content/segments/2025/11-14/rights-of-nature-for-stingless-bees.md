@@ -1,13 +1,19 @@
 ---
 title: Rights of Nature for Stingless Bees
 slug: rights-of-nature-for-stingless-bees
-date: '2025-11-14'
+date: 2025-11-14
 category: Segments
 order: '4'
 megaphone_id: LOE6280658126
 image_url: https://loe.org/content/2025-11-14/BEES-stingless bees - nest.jpg
 image_caption: 'Tetragonisca angustula, also known to locals as “angelitas”, or “little angels”. Here, a worker bee perches at the entrance of a wild nest. (Photo: Kathryn Naherny)'
 summary: In the Peruvian Amazon, the Asháninka people have developed a symbiotic relationship with the local bees, which often lack stingers, and their honey. As habitat loss linked to climate change, forest fires, and deforestation threatens these pollinators and honey makers, a new and innovative law in Peru has granted these bees legal rights to help protect them and the indigenous people living with them. Reporter Teresa Tomassoni of our media partner Inside Climate News speaks with Host Aynsley O’Neill about the remarkable relationship between these bees and people.
+tags:
+  - climate-change
+  - deforestation
+  - species-loss
+  - indigenous-communities
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00046&segmentID=4 -->
 

@@ -1,13 +1,18 @@
 ---
 title: '"Under Milkweed"'
 slug: under-milkweed
-date: '2026-02-20'
+date: 2026-02-20
 category: Segments
 order: '4'
 megaphone_id: LOE9644167204
 image_url: https://loe.org/content/2026-02-20/MSL_feeding.JPG
 image_caption: 'A female monarch butterfly feeds from a milkweed plant. (Photo: © Mark Seth Lender)'
 summary: One of the most heavenly scents on Earth is that of milkweed in bloom, says Living on Earth’s Explorer-in-Residence Mark Seth Lender. But fewer and fewer monarch butterflies are showing up to feed and lay their eggs on this vital plant that gives them a powerful toxic defense against predators.
+tags:
+  - species-loss
+  - insects
+  - endangered-species
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00008&segmentID=4 -->
 

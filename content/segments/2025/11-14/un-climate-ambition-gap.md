@@ -1,13 +1,20 @@
 ---
 title: UN Climate Ambition Gap
 slug: un-climate-ambition-gap
-date: '2025-11-14'
+date: 2025-11-14
 category: Segments
 order: '2'
 megaphone_id: LOE9634327586
 image_url: https://loe.org/content/2025-11-14/MEYER-COP30-cover photo.JPG
 image_caption: 'This year’s COP is being held in Brazil, a country whose famous rainforests are plagued by deforestation. (Photo: Courtesy of Miriam Jackson)'
 summary: The 30th UN climate talks are underway in Belém, the “gateway to the Amazon” in Brazil, but national pledges are still way off track from what's needed to halt the quickening pace of global warming. Longtime climate talk observer and Senior Associate for E3G Alden Meyer is at COP30 and talks with Host Paloma Beltran about efforts to close that gap and the power of the talks to focus minds on the emerging reckoning.
+tags:
+  - climate-change
+  - climate-negotiations
+  - fossil-fuels
+  - indigenous-communities
+  - amazon
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00046&segmentID=2 -->
 

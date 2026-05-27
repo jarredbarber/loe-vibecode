@@ -7,7 +7,7 @@
  * ~16 shows / ~80 segments). Editors needing to edit older content use
  * the "Edit on GitHub" badge on the live page.
  *
- * Rebuilt on each Eleventy run; commit-or-nightly-cron keeps it fresh.
+ * Rebuilt on each Eleventy run. Refreshed weekly by .github/workflows/refresh-recent-window.yml.
  */
 module.exports = function () {
     const now = new Date();

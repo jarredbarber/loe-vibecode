@@ -57,7 +57,20 @@
     /* Primary green for links */
     --link-info-hover: #88BDBD;
     /* Misty Teal for link hover */
+
+    /* Surfaces tuned for cross-theme reuse. */
+    --card-bg: #ffffff;
+    --card-border: #e0efee;
+    --muted-fg: #666;
+    --transcript-hover: rgba(0, 0, 0, 0.04);
+    --music-cue-bg: rgba(220, 237, 234, 0.4);
+    --music-cue-bg-hover: rgba(220, 237, 234, 0.6);
+    --segment-divider: #ddd;
 }
+
+/* Dark mode — follows OS preference. Warm dark background with the
+   existing teal palette pushed brighter so contrast still reads on a
+   dim canvas. Don't simply invert; keep the editorial feel. */
 
 
 
@@ -1633,7 +1646,7 @@ audio {
 }
 
 .transcript-block:hover {
-    background-color: rgba(0, 0, 0, 0.04);
+    background-color: var(--transcript-hover);
 }
 
 /* Music cues. The outer .music-cue is now just a spacing wrapper; all the
@@ -1664,7 +1677,7 @@ audio {
     flex-direction: column;
     gap: 8px;
     padding: 10px 14px;
-    background-color: rgba(220, 237, 234, 0.4);
+    background-color: var(--music-cue-bg);
     border-radius: 4px;
     width: 80%;
     margin: 0 auto;
@@ -1673,7 +1686,7 @@ audio {
 }
 
 .music-cue-item:hover {
-    background-color: rgba(220, 237, 234, 0.6);
+    background-color: var(--music-cue-bg-hover);
 }
 
 .music-cue-meta {
@@ -1800,7 +1813,7 @@ figure {
 
 figcaption {
     font-size: 0.8em;
-    color: #666;
+    color: var(--muted-fg);
     font-style: italic;
     margin: 2px auto 0 auto;
     line-height: 1.3;
@@ -1809,11 +1822,17 @@ figcaption {
 }
 
 /* Show Page Specifics */
+.show-segments-divider {
+    border: 0;
+    height: 1px;
+    background: #d5dcd2;
+    margin: 2em 0 1.5em;
+}
 .show-content h3 {
     font-size: 1.5em;
     margin-top: 25px;
     margin-bottom: 5px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border-light);
     padding-bottom: 5px;
 }
 
@@ -1835,7 +1854,7 @@ figcaption {
 .show-segment {
     margin-bottom: 30px;
     padding-bottom: 20px;
-    border-bottom: 1px dashed #ddd;
+    border-bottom: 1px dashed var(--segment-divider);
     overflow: hidden;
     /* Clear floats */
 }
@@ -1892,8 +1911,23 @@ figcaption {
 }
 
 .segment-length {
-    color: #888;
+    color: var(--text-light);
     font-style: italic;
+}
+
+/* Reading/listening time pill on segment cards. */
+.segment-time {
+    display: inline-block;
+    font-size: 0.8em;
+    color: var(--muted-fg);
+    font-style: italic;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.02em;
+}
+
+.segment-time .segment-time-sep {
+    opacity: 0.6;
+    margin: 0 6px;
 }
 
 /* Archive page styles */
@@ -2075,7 +2109,7 @@ figcaption {
 }
 
 .show-length {
-    color: #666;
+    color: var(--muted-fg);
     font-size: 0.9em;
     font-style: italic;
 }

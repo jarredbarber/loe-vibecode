@@ -1,13 +1,18 @@
 ---
 title: Pope and King Share a Prayer for Creation
 slug: pope-and-king-share-a-prayer-for-creation
-date: '2025-11-07'
+date: 2025-11-07
 category: Segments
 order: '2'
 megaphone_id: LOE5124200262
 image_url: https://loe.org/content/2025-11-07/POPEKING_withtony.jpg
 image_caption: 'Tony Juniper spoke with King Charles III in July 2023 at a new nature reserve in a group of 25 reserves called “The King’s Series.” (Photo: Courtesy of Tony Juniper)'
 summary: King Charles III, who leads the Anglican Church, and Pope Leo XIV, who leads the Roman Catholic Church, recently joined in a historic prayer in the Sistine Chapel. This act of unity by these two faith leaders who are also sovereign heads of state was embedded in their shared concern for the environment, or creation. Tony Juniper coauthored King Charles's book on the environment, Harmony and chairs Natural England, a government conservation agency. He speaks with Host Steve Curwood about how these leading Christians may make a difference for the planet.
+tags:
+  - climate-change
+  - environmental-policy
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00045&segmentID=2 -->
 

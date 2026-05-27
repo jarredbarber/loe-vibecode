@@ -131,26 +131,50 @@ const uniqueRefs = [...seen.entries()].map(([url, where]) => ({ url, where }));
 console.log(`  ${uniqueRefs.length} unique URL(s) to check`);
 
 // ---- HEAD checks ----
-async function checkUrl(url) {
+const RETRY_BACKOFF_MS = 1000;
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// One-shot fetch with timeout. Returns { res } on HTTP response (any status),
+// or { error } on network failure / timeout.
+async function fetchOnce(url, options) {
     const controller = new AbortController();
     const t = setTimeout(() => controller.abort(), HEAD_TIMEOUT_MS);
     try {
-        let res = await fetch(url, { method: 'HEAD', signal: controller.signal, redirect: 'follow' });
-        // Some CDNs reject HEAD; retry with GET (range-limited)
-        if (res.status === 405 || res.status === 403) {
-            res = await fetch(url, {
-                method: 'GET',
-                signal: controller.signal,
-                redirect: 'follow',
-                headers: { Range: 'bytes=0-0' },
-            });
-        }
-        return { ok: res.ok || res.status === 206, status: res.status };
+        const res = await fetch(url, { ...options, signal: controller.signal, redirect: 'follow' });
+        return { res };
     } catch (err) {
-        return { ok: false, status: 0, error: err.name === 'AbortError' ? 'timeout' : err.message };
+        return { error: err.name === 'AbortError' ? 'timeout' : err.message };
     } finally {
         clearTimeout(t);
     }
+}
+
+// Retry once on transient failure: network error, timeout, or 5xx.
+// 4xx responses are treated as stable and not retried.
+async function fetchWithRetry(url, options) {
+    let attempt = await fetchOnce(url, options);
+    const transient = attempt.error || (attempt.res && attempt.res.status >= 500);
+    if (transient) {
+        await sleep(RETRY_BACKOFF_MS);
+        attempt = await fetchOnce(url, options);
+    }
+    return attempt;
+}
+
+async function checkUrl(url) {
+    let attempt = await fetchWithRetry(url, { method: 'HEAD' });
+    if (attempt.error) return { ok: false, status: 0, error: attempt.error };
+    let res = attempt.res;
+    // Some CDNs reject HEAD; retry with GET (range-limited)
+    if (res.status === 405 || res.status === 403) {
+        const getAttempt = await fetchWithRetry(url, {
+            method: 'GET',
+            headers: { Range: 'bytes=0-0' },
+        });
+        if (getAttempt.error) return { ok: false, status: 0, error: getAttempt.error };
+        res = getAttempt.res;
+    }
+    return { ok: res.ok || res.status === 206, status: res.status };
 }
 
 async function runWithConcurrency(items, limit, fn) {

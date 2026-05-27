@@ -1,13 +1,17 @@
 ---
 title: '"Good Fire": How Cultural Burning Heals Land and People'
 slug: good-fire-how-cultural-burning-heals-land-and-people
-date: '2025-11-28'
+date: 2025-11-28
 category: Segments
 order: '5'
 megaphone_id: LOE3747146325
 image_url: https://loe.org/content/2025-11-28/INDIGENOUS_handsonpractice.jpg
 image_caption: 'Cultural burning hands-on practice during a fire camp at First Nations’ Emergency Services Society of British Columbia (FNESS) in Cranbrook, BC. (Photo: Jordan Melograna, Indigenous Leadership Initiative)'
 summary: Around the world, Indigenous people have been using fire on the landscape for thousands of years. One such practice comes from the Métis tradition in Western Canada. Cree-Métis scientist Dr. Amy Cardinal Christianson is a senior fire advisor with the Indigenous Leadership Initiative and joins Host Aynsley O’Neill to share how this low-intensity “good fire” helps rekindle cultural traditions and cultivate healthier ecosystems.
+tags:
+  - forests
+  - indigenous-rights
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00048&segmentID=5 -->
 

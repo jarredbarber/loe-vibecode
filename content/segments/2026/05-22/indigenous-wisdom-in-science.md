@@ -1,7 +1,7 @@
 ---
 title: Indigenous Wisdom in Science
 slug: indigenous-wisdom-in-science
-date: '2026-05-22'
+date: 2026-05-22
 category: Segments
 order: '4'
 megaphone_id: LOE4573605712

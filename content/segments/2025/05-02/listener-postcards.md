@@ -1,13 +1,18 @@
 ---
 title: Listener Postcards
 slug: listener-postcards
-date: '2025-05-02'
+date: 2025-05-02
 category: Segments
 order: '5'
 megaphone_id: LOE4785203550
 image_url: https://loe.org/content/2025-05-02/LISTENING_disney.jpg
 image_caption: 'Disney World in Florida harbors some unexpected oases. (Photo: Tech. Sgt. Andrew Burdette, Wikimedia Commons, public domain)'
 summary: We asked you, our listeners, to submit snippets of the sounds around you. Here are a couple more of your submissions.
+tags:
+  - birds
+  - field-reporting
+  - listener-questions
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00018&segmentID=5 -->
 

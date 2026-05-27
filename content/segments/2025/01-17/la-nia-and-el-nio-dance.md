@@ -1,13 +1,19 @@
 ---
 title: La Niña and El Niño Dance
 slug: la-nia-and-el-nio-dance
-date: '2025-01-17'
+date: 2025-01-17
 category: Segments
 order: '3'
 megaphone_id: LOE7750828633
 image_url: https://loe.org/content/2025-01-17/LANINA_weatherpattern.JPG
 image_caption: 'A La Niña weather pattern starts with colder-than-average temperatures in the Pacific Ocean, and results in climate shifts across the North American continent and other parts of the world. (Photo: NOAA.gov, public domain)'
 summary: With the recent appearance of a flip from an El Niño back to a weak La Niña climate pattern, Hosts Aynsley O’Neill and Jenni Doering discuss what it could mean for U.S. and world weather patterns, as well as how the El Niño / La Niña oscillation is changing in the era of climate disruption.
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - atmospheric-science
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00003&segmentID=3 -->
 

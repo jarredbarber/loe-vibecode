@@ -1,13 +1,18 @@
 ---
 title: Turbulence and Climate Change
 slug: turbulence-and-climate-change
-date: '2025-05-30'
+date: 2025-05-30
 category: Segments
 order: '4'
 megaphone_id: LOE7586082947
 image_url: https://loe.org/content/2025-05-30/PLANE_turbulence.jpg
 image_caption: 'Climate change intensifies storms, which can then have a knock on effect for storm-induced turbulence while flying. But researchers have also found a link between climate disruption and clear air turbulence. (Photo: Tom Blackwell, Flickr, CC BY-NC 2.0)'
 summary: Emerging research predicts that with rising global temperatures, climate change may increase clear-air turbulence by as much as four times along some of the most heavily traveled routes. Clear air turbulence as the name suggests is the kind of turbulence you can’t see on most radar. It can toss around large airplanes, damage aircraft and injure passengers and crew. Reporter Bob Berwyn of Inside Climate News joins Host Jenni Doering to explain how these changes tie into the jet stream.
+tags:
+  - climate-change
+  - extreme-weather
+  - atmospheric-science
+  - air-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00022&segmentID=4 -->
 

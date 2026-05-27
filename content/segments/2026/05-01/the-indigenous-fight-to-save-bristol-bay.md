@@ -1,13 +1,17 @@
 ---
 title: The Indigenous Fight to Save Bristol Bay
 slug: the-indigenous-fight-to-save-bristol-bay
-date: '2026-05-01'
+date: 2026-05-01
 category: Segments
 order: '4'
 megaphone_id: LOE7873752564
 image_url: https://loe.org/content/2026-05-01/HURLEY_profilephoto.jpg
 image_caption: 'Alannah Acaq Hurley is a Yup''ik leader, executive director of the United Tribes of Bristol Bay, and winner of the 2026 Goldman Environmental Prize for North America. (Photo: Goldman Environmental Prize)'
 summary: In 2001, a Canadian mining company proposed a massive gold and copper mine at the headwaters of pristine Bristol Bay, Alaska. Local Native Alaskans became concerned about how the mine could harm their plentiful sockeye salmon run, a cultural and economic lifeblood. Alannah Acaq Hurley, Executive Director of the United Tribes of Bristol Bay, helped lead the fight against the mine and was awarded the 2026 Goldman Environmental Prize for North America. Alannah Hurley joins Host Steve Curwood.
+tags:
+  - indigenous-rights
+  - water-pollution
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00018&segmentID=4 -->
 

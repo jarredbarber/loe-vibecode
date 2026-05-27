@@ -1,13 +1,18 @@
 ---
 title: Complex Air Pollution and Public Health
 slug: complex-air-pollution-and-public-health-0411
-date: '2025-04-11'
+date: 2025-04-11
 category: Segments
 order: '3'
 megaphone_id: LOE7243121655
 image_url: https://loe.org/content/2025-04-11/POLLUTION_chesterpa.jpg
 image_caption: 'A Chester, Pennsylvania neighborhood sits adjacent to the ReWorld Delaware Valley facility, formerly known as the Covanta facility, during the time of the study. The Delaware Valley Resource Recovery facility (DVRRF) is a permitted waste-to-energy facility. The study showed that fence line communities are at a higher risk from air pollution than previously understood. (Photo: Peter DeCarlo)'
 summary: Thousands of people across the United States live near multiple industrial facilities and petrochemical plants that expose them to higher levels of air pollution, but chemical exposure risk is commonly regulated one chemical at a time. A recent study conducted by a group of Johns Hopkins researchers found that “fence line” residents are at higher risk for multiple health problems because of the toxic mix of air they breathe. Lead author Dr. Keeve Nachman joined Host Paloma Beltran to walk through the study.
+tags:
+  - air-pollution
+  - public-health
+  - toxic-exposure
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00015&segmentID=3 -->
 

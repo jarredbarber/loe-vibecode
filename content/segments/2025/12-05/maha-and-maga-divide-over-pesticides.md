@@ -1,13 +1,18 @@
 ---
 title: MAHA and MAGA Divide Over Pesticides
 slug: maha-and-maga-divide-over-pesticides
-date: '2025-12-05'
+date: 2025-12-05
 category: Segments
 order: '2'
 megaphone_id: LOE9624900369
 image_url: https://loe.org/content/2025-12-05/MAHA_comission.jpg
 image_caption: 'From left to right: U.S. Secretary of Agriculture Brooke Collins, President Donald Trump, U.S. Secretary of Health and Human Services Robert F. Kennedy and physician Deborah Birx. On May 22, 2025, the President announced his MAHA (Make America Healthy Again) Commission in the East Room of the White House. (Photo: Joyce N. Boghosian, Official White House Photo, Public Domain)'
 summary: 'The Make America Healthy Again or MAHA movement has pinpointed some health concerns backed up by credible research, including concerns about pesticides such as the probable carcinogen glyphosate, the key ingredient in Monsanto’s Roundup. But after agribusiness lobbying the Trump Administration erased pesticides from its MAHA Commission report. Investigative journalist Carey Gillam, author of The Monsanto Papers: Deadly Secrets, Corporate Corruption, and One Man’s Search for Justice, joins Host Steve Curwood to discuss.'
+tags:
+  - pesticides
+  - farming
+  - chemical-contamination
+  - cancer-environment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00049&segmentID=2 -->
 

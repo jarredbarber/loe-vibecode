@@ -1,13 +1,19 @@
 ---
 title: Trump Attacks State Climate Laws
 slug: trump-attacks-state-climate-laws
-date: '2025-04-11'
+date: 2025-04-11
 category: Segments
 order: '1'
 megaphone_id: LOE3457219386
 image_url: https://loe.org/content/2025-04-11/TRUMP_Trump.jpg
 image_caption: 'President Donald Trump is applauded by a group of coal miners at the April 8th event where he signed the executive order designed to block state action on climate change. (Photo: The White House, Flickr, U.S. Government work)'
 summary: President Trump has issued an executive order titled “Protecting American Energy from State Overreach”. The order directs the U.S. attorney general to identify and block state laws that deal with climate change, environmental justice, and carbon emissions, including the climate superfund laws passed in New York and Vermont that impose stiff fines on big fossil fuel companies. Hosts Aynsley O’Neill and Paloma Beltran report.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - regulation-deregulation
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00015&segmentID=1 -->
 

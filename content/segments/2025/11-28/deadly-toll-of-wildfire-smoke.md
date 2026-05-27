@@ -1,13 +1,19 @@
 ---
 title: Deadly Toll of Wildfire Smoke
 slug: deadly-toll-of-wildfire-smoke
-date: '2025-11-28'
+date: 2025-11-28
 category: Segments
 order: '1'
 megaphone_id: LOE7314861093
 image_url: https://loe.org/content/2025-11-28/SMOKE_silverking.jpg
 image_caption: 'The Silver King wildfire in Utah burns near Beaver Canyon, Utah in July 2024. A new study in Nature finds that there have been about 40,000 excess deaths from wildfire smoke every year in the US over the last decade. (Photo: Derrellwilliams, Wikimedia Commons, CC0)'
 summary: Wildfire smoke is fouling air quality across the US with increasing regularity, and it carries a heavy toll. A September 2025 study published in the journal Nature found that every year around 40,000 Americans are dying from wildfire smoke, with more on the way as the planet warms. Senior author Dr. Marshall Burke, a professor in the Doerr School of Sustainability at Stanford University, joins Host Jenni Doering to discuss how air filters, face masks and low-intensity prescribed burning can help protect the public from this growing threat.
+tags:
+  - climate-change
+  - air-pollution
+  - extreme-weather
+  - public-health
+  - wildfire
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00048&segmentID=1 -->
 

@@ -1,13 +1,18 @@
 ---
 title: Massachusetts Ends Gas Subsidy
 slug: massachusetts-ends-gas-subsidy
-date: '2025-09-19'
+date: 2025-09-19
 category: Segments
 order: '3'
 megaphone_id: LOE6564281027
 image_url: https://loe.org/content/2023-12-15/DYKSTRA_mass.jpg
 image_caption: 'Massachusetts has set a net zero carbon goal by 2050. To make strides in that direction, the Department of Public Utilities is removing a gas subsidy, with the intention of discouraging growth in gas networks, as well as removing monthly surcharges on the bills of current customers. (Photo: Jonathan Cutrer, Flickr, CC BY 2.0)'
 summary: Many gas bills include a surcharge to help pay for gas connections to new homes. As Massachusetts seeks to phase out fossil fuels the state is now requiring developers to pay for new homes to be connected to natural gas, rather than having rate payers subsidize new hookups that would increase global warming emissions. Inside Climate News reporter Phil McKenna spoke with Living on Earth’s Paloma Beltran about why utilities are on board and more.
+tags:
+  - fossil-fuels
+  - climate-change
+  - environmental-policy
+  - grid-energy-storage
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00038&segmentID=3 -->
 

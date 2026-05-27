@@ -1,13 +1,17 @@
 ---
 title: Pope Leo and Creation Care
 slug: pope-leo-and-creation-care
-date: '2025-05-16'
+date: 2025-05-16
 category: Segments
 order: '1'
 megaphone_id: LOE3547700957
 image_url: https://loe.org/content/2025-05-16/POPE_balcony.jpg
 image_caption: 'Pope Leo XIV (center), the first US born pontiff, addresses the crowd from the balcony of St. Peter''s Basilica. Behind him are a member of the Catholic clergy (left) and Archbishop Diego Giovanni Ravelli (right). (Photo: Catholic Church of England, Flickr, CC BY NC ND 2.0)'
 summary: The new Pope, Leo XIV, has worked with interfaith environmental networks and there’s hope around the world that he may follow in the footsteps of his predecessor Pope Francis and bring issues of the environment and climate change to the forefront of his agenda. Dr. Erin Lothes is a former professor of Catholic theology who now promotes global eco spirituality education and climate action with the Laudato Si’ Movement and she joins Host Aynsley O’Neill to shed light on Pope Leo XIV’s rhetoric on environment.
+tags:
+  - climate-change
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00020&segmentID=1 -->
 

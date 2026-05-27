@@ -9,12 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{{ title or site.name }}{% endblock %}</title>
     <link rel="stylesheet" href="{{ site.url }}/theme/css/style.css">
+    {% if site.darkMode %}<link rel="stylesheet" href="{{ site.url }}/theme/css/dark-mode.css">{% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
 </head>
 <body>
+    {% if site.target != 'prod' %}
     <div class="editor-badges" hidden>
         <a class="editor-badge editor-badge-cms"
            href="{{ site.url }}/admin/{% if _cms.collection and _cms.slug %}#/collections/{{ _cms.collection }}/entries/{{ _cms.slug }}{% elif _cms.collection %}#/collections/{{ _cms.collection }}{% endif %}"
@@ -35,6 +37,7 @@
             }
         } catch (_) { /* ignore */ }
     </script>
+    {% endif %}
     <div class="main">
         <div class="header_resize">
             <div class="header">
@@ -75,6 +78,13 @@
                         class="prx-logo-img" />
                 </a>
                 <div style="text-align: center;">
+                    <nav class="footer-nav">
+                        <a href="/">Home</a> ·
+                        <a href="/about.html#contact-us">Contact</a> ·
+                        <a href="/jobs.html">Careers</a> ·
+                        <a href="https://loe-auth.hector-ea.workers.dev/podcast.rss">RSS</a> ·
+                        <a href="/donate.html">Donate</a>
+                    </nav>
                     <small style="color: #888;">Last updated: {{ '' | currentTime('%B %d, %Y') }}</small>
                 </div>
             </div>

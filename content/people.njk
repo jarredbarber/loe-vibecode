@@ -1,0 +1,11 @@
+---
+pagination:
+    data: collections.speakers
+    size: 1
+    alias: speaker
+permalink: "/people/{{ speaker.slug }}.html"
+layout: layouts/speaker.njk
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: "{{ speaker.name }} — Living on Earth"
+---

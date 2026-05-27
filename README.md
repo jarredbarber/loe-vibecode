@@ -8,6 +8,27 @@ This is the website for [Living on Earth](https://loe.org), a weekly environment
 
 Live site: **<https://vibingon.earth>**.
 
+## ✨ Features
+
+Things this site does that the original loe.org doesn't:
+
+**For readers**
+
+- **Topic tags** — every segment classified into one of ~90 environmental topics. Click a tag pill at the top of any segment to see every other LOE story on that topic; the full vocabulary lives at [`/tags.html`](https://vibingon.earth/tags.html).
+- **Speaker pages** at `/people/<slug>.html` for every recurring host and guest. All of Steve Curwood's, Bill McKibben's, etc. segments in one place, newest-first.
+- **Discovery pills** at the top of every show + segment: clickable speakers featured in the piece, plus topical tags.
+- **"This week in LOE history"** on the homepage — surfaces archive segments from the same calendar week in past years, anchored to the latest show's air date.
+- **Zip-code station locator** on `/stations.html` — type a zip, get the three nearest LOE-affiliate stations by real distance (Haversine, not state-only).
+- **Reading + listening time** estimates on segment cards.
+- **Inline audio cues are clickable** in transcripts — bird calls, music cues, etc. linked through to the Cornell Macaulay Library CDN.
+- **Dark mode** plumbing in place (CSS pass tracked in #109 before flipping on).
+
+**For editors**
+
+- **CMS at `/admin/`** (staging only — production has no editor surface; live is publish-via-PR). Sveltia with one-click GitHub OAuth, gated to repo collaborators.
+- **Pre-publish review workflow** (the badge above) — click "Run workflow" to validate every link / image / audio URL and get an LLM copyedit pass over the show + segments.
+- **Staging at <https://loe-staging.pages.dev>** — every push to `main` deploys here in ~2 minutes for preview before merging to `live`.
+
 ## 🌍 About Living on Earth
 
 Living on Earth is a weekly, hour-long, award-winning environmental news program distributed by PRX. Hosted by Steve Curwood, the program features interviews and commentary on environmental issues. The show has been broadcasting since 1991 and airs on over 300 public radio stations nationwide.
@@ -31,7 +52,7 @@ What you can do:
 - **Pages** — static pages (about, stations, events…).
 
 Useful while editing:
-- **Live preview**: there's a teal **Live preview ↗** pill in the top-right corner of `/admin/`. Click it while editing an entry — a new tab opens showing the entry's draft rendered exactly the way the live site renders it (shortcodes, speaker highlighting, all of it). Auto-refreshes every 3s as you save in the CMS.
+- **Preview**: save in the CMS, then refresh <https://loe-staging.pages.dev> ~2 min later — that's the authoritative preview, exactly what will ship to production once you merge `main → live`.
 - Every entry on the live site has two icon-pill links in the top-left when you're signed in: **Edit in CMS** (deep-links the entry in `/admin/`) and **Edit on GitHub** (raw markdown via GitHub's web editor).
 - **Pre-publish review** runs automatically on every content push and checks every image / audio / link URL — the badge at the top of this README reflects the latest content's status. The badge also doubles as a manual entry point: click it → **Run workflow** → optionally enter a date → an LLM copyedit pass runs alongside (advisory: typos, broken speaker labels, frontmatter mismatches, intra-show contradictions, with per-line citations). Both passes write to the run's Job Summary panel.
 
@@ -112,7 +133,6 @@ content/
 ├── images/                             # any committed images
 ├── admin/                              # the CMS
 │   ├── index.html
-│   ├── preview.html
 │   └── config.njk                      # built into /admin/config.yml
 ├── archive/                            # pre-2025 historical content (built, not CMS-visible)
 └── *.njk                               # direct templates (index, archives, newsletter)

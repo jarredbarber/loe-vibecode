@@ -1,13 +1,18 @@
 ---
 title: Climate Injustice Floods Nigeria
 slug: climate-injustice-floods-nigeria
-date: '2025-06-13'
+date: 2025-06-13
 category: Segments
 order: '2'
 megaphone_id: LOE9030769429
 image_url: https://loe.org/content/2025-06-13/NIGERIA_floodaftermath.jpg
 image_caption: 'The aftermath of the flooding in Western Nigeria. (Photo: Uwaisu Idris)'
 summary: At the end of May a flood caused by torrential rain swept into Mokwa, a poor rural community in western Nigeria, leaving behind a horrific scene of death and destruction. Uwaisu Idris reported from the scene for Deutsche Welle and joins Host Jenni Doering to talk about how climate change is bringing more intense floods to Nigeria, and the responsibility of the rich nations of the world to assist poor countries that did not cause the climate crisis.
+tags:
+  - climate-change
+  - extreme-weather
+  - environmental-justice
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00024&segmentID=2 -->
 

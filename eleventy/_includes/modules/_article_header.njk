@@ -9,6 +9,44 @@
 <p class="clr"></p>
 <p><strong>Air Date: {{ entry.date | strftime('%B %d, %Y') }}</strong></p>
 
+{# Discovery pills: speakers featured on this segment (≥3 archive appearances,
+   so they have a /people/ page) and topical tags. Both link out to
+   aggregate pages. Rendered up top so readers know what they're looking
+   at before the transcript.
+
+   The show layout pre-computes show-level aggregates (union across all
+   its segments) and passes them in via _aggSpeakers / _aggTags — those
+   take precedence when set. #}
+{% set _src = page.inputPath | toContentRel %}
+{% set _featured = _aggSpeakers or (_src | speakersForSegment) %}
+{% set _tagList = _aggTags or tags %}
+{% set _hasPills = (_tagList and _tagList.length) or (_featured and _featured.length) %}
+{% if _hasPills %}
+<style>
+    .segment-pills { margin: 0.75em 0 1em; display: flex; flex-wrap: wrap; gap: 0.4em; align-items: center; }
+    .segment-pills .pill-label { font-size: 0.8em; color: #666; margin-right: 0.25em; text-transform: uppercase; letter-spacing: 0.04em; }
+    .segment-pills a { display: inline-block; padding: 0.15em 0.6em; border-radius: 999px; font-size: 0.85em; text-decoration: none; border: 1px solid #d5dcd2; }
+    .segment-pills .pill-speaker { background: #f4eee0; color: #5a4a1f; border-color: #e2d6b3; }
+    .segment-pills .pill-speaker:hover { background: #ece4cf; }
+    .segment-pills .pill-tag { background: #eef1ed; color: #2a4a2a; }
+    .segment-pills .pill-tag:hover { background: #dde6d8; }
+    .segment-pills .pill-sep { width: 1px; height: 1.1em; background: #d0d4ce; margin: 0 0.2em; }
+</style>
+<div class="segment-pills">
+    {% if _featured and _featured.length %}
+    {% for s in _featured %}
+    <a href="/people/{{ s.slug }}.html" class="pill-speaker">{{ s.name }}</a>
+    {% endfor %}
+    {% endif %}
+    {% if (_featured and _featured.length) and (_tagList and _tagList.length) %}<span class="pill-sep"></span>{% endif %}
+    {% if _tagList and _tagList.length %}
+    {% for t in _tagList %}
+    <a href="/tags/{{ t }}.html" class="pill-tag">{{ t }}</a>
+    {% endfor %}
+    {% endif %}
+</div>
+{% endif %}
+
 {% if summaryAboveImage and entry.summary %}
 <p>{{ entry.summary }}</p>
 {% endif %}

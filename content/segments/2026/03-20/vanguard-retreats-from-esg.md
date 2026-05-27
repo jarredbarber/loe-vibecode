@@ -1,13 +1,18 @@
 ---
 title: Vanguard Retreats from ESG
 slug: vanguard-retreats-from-esg
-date: '2026-03-20'
+date: 2026-03-20
 category: Segments
 order: '1'
 megaphone_id: LOE5790438035
 image_url: https://loe.org/content/2026-03-20/VANGUARD_coal.jpg
 image_caption: 'A mining technician oversees a coal export terminal. Republican attorneys general accused Vanguard, BlackRock and State Street of working together to negatively impact the coal industry and raise energy prices. Vanguard has settled the lawsuit but has denied any wrongdoing. BlackRock and State Street are still contesting the allegations. (Photo: Peabody Energy, Wikimedia Commons, CC BY 3.0)'
 summary: The investment giant Vanguard is retreating from its climate initiatives as part of a $30 million settlement deal for an anti-trust lawsuit brought by Republican state attorneys general. The lawsuit alleged that Vanguard and fellow asset managers BlackRock and State Street, which are still fighting the suit, conspired to kill the coal industry. Vanguard did not admit to wrongdoing but is now barred from participating in climate investment watchdog groups such as Ceres. General Counsel for Ceres, Michael Boudett joined Living on Earth Executive Producer Steve Curwood to explain.
+tags:
+  - green-economy
+  - environmental-policy
+  - corporate-accountability
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00012&segmentID=1 -->
 

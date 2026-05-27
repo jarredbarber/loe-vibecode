@@ -1,13 +1,18 @@
 ---
 title: Fighting PFAS
 slug: fighting-pfas
-date: '2025-04-25'
+date: 2025-04-25
 category: Segments
 order: '4'
 megaphone_id: LOE6047806200
 image_url: https://loe.org/content/2025-04-25/ALLEN_prizewinner.jpg
 image_caption: 'Laurene Allen is the 2025 Goldman Environmental Prize winner for North America. She lives in Merrimack, New Hampshire. (Photo: Goldman Environmental Prize)'
 summary: Laurene Allen moved to Merrimack, New Hampshire to raise a family in the 1980s. Little did she know that, in 2016, the state would reveal that her town’s water supply was contaminated with high levels of PFAS, or forever chemicals, leaked by a nearby plastics plant. Laurene organized a grassroots campaign to expose widespread health harms in her community linked to those chemicals, and the plant eventually shut down. She has been recognized with the 2025 Goldman Prize for North America. Laurene Allen joins Host Steve Curwood to share her story.
+tags:
+  - water-pollution
+  - pfas-forever-chemicals
+  - public-health
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00017&segmentID=4 -->
 

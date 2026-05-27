@@ -1,13 +1,18 @@
 ---
 title: Media and the Meat Habit
 slug: media-and-the-meat-habit
-date: '2025-10-24'
+date: 2025-10-24
 category: Segments
 order: '2'
 megaphone_id: LOE3930856699
 image_url: https://loe.org/content/2025-10-24/MEAT_cows.jpg
 image_caption: 'Methane, a powerful greenhouse gas, enters the atmosphere through the digestive processes of livestock such as cows, contributing significantly to global warming. (Photo: Trougnouf, Wikimedia Commons, BY CC 4.0)'
 summary: Meat is the biggest single source of carbon emissions from the food system, which is itself responsible for a third of global greenhouse gas emissions. Sociologist David McBey from the University of Aberdeen in Scotland joins Host Paloma Beltran to talk about the gap between reality and coverage of how meat contributes to global warming, as well as effective strategies for encouraging people to choose to eat less meat without trying to force them to do so.
+tags:
+  - climate-change
+  - fossil-fuels
+  - food-systems
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00043&segmentID=2 -->
 

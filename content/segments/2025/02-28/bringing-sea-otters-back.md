@@ -1,13 +1,19 @@
 ---
 title: Bringing Sea Otters Back
 slug: bringing-sea-otters-back
-date: '2025-02-28'
+date: 2025-02-28
 category: Segments
 order: '2'
 megaphone_id: LOE9823414201
 image_url: https://loe.org/content/2025-02-28/OTTER_grant.jpg
 image_caption: 'In January 2025, a $1.56 million grant was given to the Confederated Tribe of Siletz Indians. This may help bring sea otters back to the coasts of Oregon and Northern California. (Photo: Karney Lee, U.S. Fish and Wildlife Service, Wikimedia Commons, public domain)'
 summary: Sea otters were hunted out from Oregon and Northern California more than a century ago amid the fur trade, but the Confederated Tribes of the Siletz Indians and conservation partners are now working to bring them back. Robert Kentta, treasurer of the Siletz tribe, talks with Host Paloma Beltran about how reintroducing sea otters can help revive the kelp ecosystem and restore a vital cultural connection for Native people.
+tags:
+  - species-loss
+  - forests
+  - oceans
+  - indigenous-rights
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00009&segmentID=2 -->
 

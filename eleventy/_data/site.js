@@ -7,4 +7,5 @@ module.exports = {
     url: process.env.SITEURL || '',
     githubRepo: process.env.GITHUB_REPO || 'jarredbarber/loe-vibecode',
     githubBranch: process.env.GITHUB_BRANCH || 'main',
+    target: process.env.DEPLOY_TARGET || 'staging',
 };

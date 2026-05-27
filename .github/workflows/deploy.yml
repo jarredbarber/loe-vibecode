@@ -52,6 +52,8 @@ jobs:
           npm --prefix eleventy ci --no-audit --no-fund
 
       - name: Build site (Eleventy)
+        env:
+          DEPLOY_TARGET: ${{ steps.pick.outputs.target }}
         run: npm --prefix eleventy run build
 
       - name: Upload artifact (prod)

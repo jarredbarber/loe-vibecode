@@ -1,13 +1,17 @@
 ---
 title: Clearing Air in Cancer Alley
 slug: clearing-air-in-cancer-alley
-date: '2025-07-18'
+date: 2025-07-18
 category: Segments
 order: '4'
 megaphone_id: LOE6525413465
 image_url: https://loe.org/content/2025-03-21/DENKA_plant.JPG
 image_caption: 'Until its announcement on May 13, 2025, the Denka Performance Elastomer plant in LaPlace, Louisiana manufactured neoprene, a synthetic rubber that is found in products such as wetsuits and laptop sleeves. The manufacturing process emitted chloroprene, a cancer-causing chemical, among other pollutants. (Photo: Andrew J. Skerritt)'
 summary: Residents of Reserve, Louisiana in “Cancer Alley” recently received stunning news that Denka Performance Elastomer, which has for years emitted high levels of cancer-causing air pollutants, would indefinitely suspend its operations. Tish Taylor of Concerned Citizens of St. John speaks with Host Jenni Doering about illnesses her family has endured, her community’s cautious celebration of the decision and cleaner air and how her fight against environmental racism continues.
+tags:
+  - air-pollution
+  - cancer-environment
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00029&segmentID=4 -->
 

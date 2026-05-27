@@ -1,13 +1,17 @@
 ---
 title: Trump Tries to Limit Environmental Reviews
 slug: trump-tries-to-limit-environmental-reviews
-date: '2025-02-28'
+date: 2025-02-28
 category: Segments
 order: '1'
 megaphone_id: LOE7551097959
 image_url: https://loe.org/content/2025-02-28/NEPA_sign.jpg
 image_caption: 'Activists worry that President Trump’s executive order regarding the National Environmental Policy Act will undermine environmental protections, including infrastructure projects that could increase the risk of climate disruption, such as export terminals that promote increased use of planet-warming natural gas. These concerns go back to his first presidency, as shown by this photo taken of a 2020 protest. (Photo: Moms Clean Air Force, Flickr, CC BY-NC-SA 2.0)'
 summary: Major fossil fuel projects like LNG terminals could become harder to oppose on environmental grounds because of a Trump executive order that tries to weaken agency compliance with NEPA, the National Environmental Policy Act. Dan Farber is Faculty Director of the Center for Law, Energy and the Environment at UC Berkeley and joins Host Jenni Doering to explain the role of NEPA and how environmental concerns may take a backseat under the new project review process.
+tags:
+  - fossil-fuels
+  - environmental-policy
+  - regulation-deregulation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00009&segmentID=1 -->
 

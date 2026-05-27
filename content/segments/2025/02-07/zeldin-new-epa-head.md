@@ -1,13 +1,19 @@
 ---
 title: Zeldin New EPA Head
 slug: zeldin-new-epa-head
-date: '2025-02-07'
+date: 2025-02-07
 category: Segments
 order: '1'
 megaphone_id: LOE8378003699
 image_url: https://loe.org/content/2025-02-07/ZELDIN_ovaloffice.jpg
 image_caption: 'After former US Rep Lee Zeldin’s (R-NY) appointment as Administrator of the EPA over a thousand EPA employees received notice they were eligible for termination. Zeldin is also expected to disband the EPA’s Office of Environmental Justice. (Photo: Shealeah Craighead, Wikimedia Commons, public domain)'
 summary: The new EPA Administrator Lee Zeldin says there needs to be urgency in addressing climate change but also hints that the Trump EPA will not pursue greenhouse gas reductions. Marianne Lavelle is Washington bureau chief at Inside Climate News and joins Hosts Paloma Beltran and Jenni Doering to discuss how the Trump EPA seems to be looking to pull back on climate and other regulations.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - regulation-deregulation
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00006&segmentID=1 -->
 

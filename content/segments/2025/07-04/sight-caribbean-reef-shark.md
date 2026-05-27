@@ -1,13 +1,19 @@
 ---
 title: '"Sight": Caribbean Reef Shark'
 slug: sight-caribbean-reef-shark
-date: '2025-07-04'
+date: 2025-07-04
 category: Segments
 order: '4'
 megaphone_id: LOE7273015444
 image_url: https://loe.org/content/2025-07-04/MSL_eyescamera.JPG
 image_caption: 'A shark eyes the camera. (Photo: © Mark Seth Lender)'
 summary: Living on Earth’s Explorer in Residence Mark Seth Lender has photographed animals all over the world, including under the sea. He shared this observation from a dive in the Bahamas where he was photographing Caribbean reef sharks.
+tags:
+  - marine-life
+  - mammals
+  - field-reporting
+  - profiles-interviews
+  - oceans
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00027&segmentID=4 -->
 

@@ -1,13 +1,20 @@
 ---
 title: Huge Danger from Permafrost Loss
 slug: huge-danger-from-permafrost-loss
-date: '2025-09-12'
+date: 2025-09-12
 category: Segments
 order: '3'
 megaphone_id: LOE4822521173
 image_url: https://loe.org/content/2025-09-12/BOREAL_carbonstorage.jpg
 image_caption: 'The boreal forests of the far north store as much carbon as has been released by human civilization since industrialization. (Photo: USFWSAlaska, Wikimedia Commons, public domain)'
 summary: With the Arctic warming four times as fast as the rest of the globe, and fires now routinely burning large swaths of northern forests, carbon stored in permafrost is rapidly escaping into the atmosphere where it can warm the planet even faster. Edward Alexander, Senior Arctic Lead at the Woodwell Climate Research Center and a Co-Chair of the Gwich’in Council International, speaks with Host Jenni Doering about the enormous climate risks of permafrost loss and how Indigenous cultural practices can help protect this vital resource.
+tags:
+  - climate-change
+  - arctic-polar
+  - wildfire
+  - forests
+  - carbon-cycle
+  - indigenous-communities
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00037&segmentID=3 -->
 

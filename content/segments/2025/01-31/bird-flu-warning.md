@@ -1,13 +1,18 @@
 ---
 title: Bird Flu Warning
 slug: bird-flu-warning
-date: '2025-01-31'
+date: 2025-01-31
 category: Segments
 order: '1'
 megaphone_id: LOE7906761443
 image_url: https://loe.org/content/2025-01-31/H5N1_chickens.jpeg
 image_caption: 'Avian flu is rampaging through poultry farms, driving up egg prices. (Photo: Alexxx Malev, Wikimedia Commons, CC BY-SA 3.0)'
 summary: So far avian flu hasn’t been seen spreading from human to human, but recent mutations indicate some variants are becoming better adapted to infecting humans. Dr. Richard Webby of St. Jude Children’s Research Hospital also directs a World Health Organization center on the ecology of influenza. He joins Host Aynsley O’Neill to explain what we know about bird flu so far, and how we can prepare for the possibility of a pandemic.
+tags:
+  - climate-change
+  - public-health
+  - species-loss
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00005&segmentID=1 -->
 

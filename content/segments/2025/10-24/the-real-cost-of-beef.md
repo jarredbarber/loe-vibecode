@@ -1,13 +1,17 @@
 ---
 title: The Real Cost of Beef
 slug: the-real-cost-of-beef
-date: '2025-10-24'
+date: 2025-10-24
 category: Segments
 order: '1'
 megaphone_id: LOE4094377240
 image_url: https://loe.org/content/2025-10-24/JBS_deforestation.jpg
 image_caption: 'Deforestation in the Brazilian Amazon state of Matto Grosso. Deforestation in the Amazon area is driven mainly by industry and agriculture. Mato Grosso means "Thick Woods", and widespread forest clearing in the state has had a dramatic impact on the land. Forest clearing has been centralized mostly along new roadways cut through the jungle. (Photo: Riccardo Pravettonim, GRID-Arendal Resources Library, www.grida.no/resources/3127)'
 summary: A recent Human Rights Watch report found that illegal cattle ranching and clearing of the Amazon rainforest has led to the forced eviction of small farmers and indigenous people in the state of Pará, Brazil. The report also alleges that cattle raised on these illegal ranches may be sold to middlemen who are often direct suppliers for JBS, the world’s largest meat company. Luciana Tellez Chavez helped compile the report for Human Rights Watch and she joins Host Jenni Doering to discuss the stakes for the planet and people, as well as possible solutions.
+tags:
+  - forests
+  - amazon
+  - farming
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00043&segmentID=1 -->
 

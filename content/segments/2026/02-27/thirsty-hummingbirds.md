@@ -1,13 +1,19 @@
 ---
 title: Thirsty Hummingbirds
 slug: thirsty-hummingbirds
-date: '2026-02-27'
+date: 2026-02-27
 category: Segments
 order: '3'
 megaphone_id: LOE2715422381
 image_url: https://loe.org/content/2026-02-27/BIRDNOTE_hummingbird.jpg
 image_caption: 'Rufous Hummingbirds, when they travel north after a hot winter in Mexico or Central America, will be looking for ways to satiate their thirst, making it a good time to invest in a bird feeder. (Photo: VJAnderson, Wikimedia Commons, CC BY-SA 4.0)'
 summary: Hummingbirds are migrating north after a hot, dry winter in sunny Mexico, Central America or the Caribbean. And they’re ready for a drink. BirdNote®’s Mary McCann describes how you can help these thirsty birds by hanging a hummingbird feeder filled with the right kind of nectar.
+tags:
+  - birds
+  - drought
+  - species-loss
+  - wildlife-corridors
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00009&segmentID=3 -->
 

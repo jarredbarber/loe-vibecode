@@ -1,13 +1,19 @@
 ---
 title: Glyphosate at the Supreme Court
 slug: glyphosate-at-the-supreme-court
-date: '2026-05-01'
+date: 2026-05-01
 category: Segments
 order: '1'
 megaphone_id: LOE7930467766
 image_url: https://loe.org/content/2026-05-01/MONSANTO_sign.jpg
 image_caption: 'A toddler carries a sign that reads “Round up the Guilty” during the protests outside the U.S. Supreme Court on Apr 27, 2026 for the Monsanto Company v. Durnell hearings. (Photo: Carey Gillam)'
 summary: The US Supreme Court recently heard oral arguments for Monsanto v. Durnell, a case about whether states can require warning labels on pesticides if the EPA does not. This stems from thousands of lawsuits against Roundup maker Monsanto, alleging that farmers and landscapers who developed cancer weren’t warned of the risks. Though the World Health organization has classified glyphosate, the key ingredient in Roundup, as “probably carcinogenic”, the EPA has not found glyphosate can cause cancer. Pat Parenteau is an emeritus professor at Vermont Law and Graduate School, discusses with Host Steve Curwood.
+tags:
+  - pesticides
+  - cancer-environment
+  - farming
+  - regulation-deregulation
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00018&segmentID=1 -->
 

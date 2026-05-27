@@ -1,13 +1,20 @@
 ---
 title: Weakening Disaster Prep
 slug: weakening-disaster-prep
-date: '2025-07-18'
+date: 2025-07-18
 category: Segments
 order: '1'
 megaphone_id: LOE1167004955
 image_url: https://loe.org/content/2025-07-18/WEATHER_texas.jpg
 image_caption: 'Devastation from the July 4, 2025 floods in Central Texas. (Photo: World Central Kitchen, Wikimedia Commons, CC BY 4.0)'
 summary: Weather forecasting, climate research and climate resilience are being hit with major budget and staffing cuts by the Trump administration. Alice Hill is a senior fellow at the Council on Foreign Relations who served on the National Security Council under President Obama, and she joins Host Jenni Doering to discuss how recent federal cuts can impact emergency preparedness for floods such as the one that devastated the Texas hill country.
+tags:
+  - climate-change
+  - extreme-weather
+  - environmental-policy
+  - regulation-deregulation
+  - climate-science
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00029&segmentID=1 -->
 

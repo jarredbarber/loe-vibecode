@@ -1,13 +1,19 @@
 ---
 title: Youth Climate Case
 slug: youth-climate-case
-date: '2025-10-03'
+date: 2025-10-03
 category: Segments
 order: '1'
 megaphone_id: LOE3116108086
 image_url: https://loe.org/content/2025-10-03/LIGHTHISER_eva.jpg
 image_caption: 'Eva Lighthiser is the lead plaintiff in Lighthiser v. Trump. She was previously involved in a different youth climate case, Held v. Montana. (Photo: Our Children’s Trust, Eillin Delapaz)'
 summary: A preliminary hearing recently took place in federal court for the youth climate case Lighthiser v. Trump, in which plaintiffs are seeking immediate relief from three executive orders and subsequent actions of the Trump administration that boost fossil fuels. But the federal government maintains that the Lighthiser plaintiffs, like those in the prior case Juliana v. United States, lack standing. Environmental law veteran Pat Parenteau speaks with Host Aynsley O’Neill about the challenging legal basis for this lawsuit.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - litigation
+  - youth-education
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00040&segmentID=1 -->
 

@@ -1,13 +1,20 @@
 ---
 title: Energy Powers Democratic Wins
 slug: energy-powers-democratic-wins
-date: '2025-11-14'
+date: 2025-11-14
 category: Segments
 order: '1'
 megaphone_id: LOE9763310253
 image_url: https://loe.org/content/2025-11-14/LAVELLE-Zohran_Mamdani.jpg
 image_caption: 'New York City’s Mayor-elect Zohran Mamdani (D) frames the climate and affordability crises as intimately connected. (Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0)'
 summary: November’s elections brought victories across the country for state and local Democratic candidates who pledged to address rising energy costs. Marianne Lavelle, Washington bureau chief for our media partner, Inside Climate News, joins Hosts Aynsley O’Neill and Paloma Beltran to talk about the challenges of meeting those promises the new Governors-elect of Virginia and New Jersey, and the newly elected Mayor of New York, will likely face.
+tags:
+  - fossil-fuels
+  - solar
+  - wind
+  - grid-energy-storage
+  - environmental-policy
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00046&segmentID=1 -->
 

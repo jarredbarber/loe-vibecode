@@ -1,12 +1,17 @@
 ---
 title: National Monuments Restored
 slug: national-monuments-restored
-date: '2025-03-28'
+date: 2025-03-28
 category: Segments
 order: '6'
 image_url: https://loe.org/content/2021-10-08/BEARSEARS_grandgulch.jpg
 image_caption: 'Grand Gulch cliff art in Bears Ears. When the Bears Ears National Monument lost much of its protected status, Indigenous historical art like this was at risk of vandalism and degradation. (Photo: Courtesy of US Bureau of Land Management on Wikimedia Commons)'
 summary: President Biden has restored the Northeast Canyons and Sea Mounts, Grand Staircase-Escalante, and Bears Ears National Monuments, reversing orders of former President Trump. The lapse in protection for the Bears Ears area had especially led to an increase in vandalism and looting. Executive Director of the Bears Ears Inter-Tribal Coalition Patrick Gonzales-Rogers explains to Host Bobby Bascomb how lands are more than just historical sites for native peoples, and how they are key to their cultures, their spirituality, and their being.
+tags:
+  - indigenous-rights
+  - environmental-policy
+  - indigenous-communities
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=21-P13-00041&segmentID=2 -->
 

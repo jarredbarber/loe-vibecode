@@ -1,13 +1,18 @@
 ---
 title: Gaps in Greenland Ice Sheet
 slug: gaps-in-greenland-ice-sheet
-date: '2025-03-07'
+date: 2025-03-07
 category: Segments
 order: '4'
 megaphone_id: LOE5632932701
 image_url: https://loe.org/content/2025-03-07/GLACIER_radarreflectors.jpeg
 image_caption: 'A glaciologist installs radar reflectors in Greenland. Radar reflectors are often used to study the internal structures of ice sheets. (Photo: Silvan Leinss, WikimediaCommons, CC BY-SA 4.0)'
 summary: A new study shows that crevasses or cracks on the Greenland Ice Sheet are widening more rapidly than expected due to climate change, which may accelerate ice loss and global sea level rise. Lead author Dr. Thomas Chudley, glaciologist and associate professor at Durham University, talks with Host Aynsley O’Neill about the findings of this study and the implications for the future.
+tags:
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00010&segmentID=4 -->
 

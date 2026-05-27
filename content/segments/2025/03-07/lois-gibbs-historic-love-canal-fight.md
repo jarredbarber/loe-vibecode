@@ -1,13 +1,18 @@
 ---
 title: Lois Gibbs' Historic Love Canal Fight
 slug: lois-gibbs-historic-love-canal-fight
-date: '2025-03-07'
+date: 2025-03-07
 category: Segments
 order: '2'
 megaphone_id: LOE9520581183
 image_url: https://loe.org/content/2013-12-13/23-fgf_pressstill3.jpg
 image_caption: 'Children and babies were the most at risk for health effects from chemical exposure. (Photo: Fierce Green Fire)'
 summary: To kick off Women’s History Month, we look back at the remarkable story of Lois Gibbs and her fight against industrial waste at Love Canal in New York. Lois Gibbs, who learned her neighborhood had been built on top of a toxic waste dump, joined Host Steve Curwood to recall how she organized her community and led a precedent-setting effort to get all the families relocated.
+tags:
+  - chemical-contamination
+  - toxic-exposure
+  - activism
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00010&segmentID=2 -->
 

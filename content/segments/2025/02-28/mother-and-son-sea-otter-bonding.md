@@ -1,13 +1,20 @@
 ---
 title: 'Mother and Son: Sea Otter Bonding'
 slug: mother-and-son-sea-otter-bonding
-date: '2025-02-28'
+date: 2025-02-28
 category: Segments
 order: '3'
 megaphone_id: LOE8292818290
 image_url: https://loe.org/content/2021-07-09/OTTER_ottershugging.jpg
 image_caption: 'Sea otters give birth in the water and can spend their whole lives without ever leaving the water. To care for her young, a mother sea otter places her newborn on her belly, grooming it from head to tail. (Photo: (c) Mark Seth Lender)'
 summary: Mother sea otters spend a lot of time grooming their young pups. It’s a bonding experience as well as a matter of survival. Clean and well-groomed fur keeps these sea otters afloat on the coastal waters where they spend their entire lives. Living on Earth’s Explorer-in-Residence Mark Seth Lender narrates a precious scene of an attentive otter mom and her young pup.
+tags:
+  - marine-life
+  - mammals
+  - wildlife-corridors
+  - oceans
+  - profiles-interviews
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00009&segmentID=3 -->
 

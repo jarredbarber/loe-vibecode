@@ -1,13 +1,17 @@
 ---
 title: U.S. To Abdicate Climate Lead Again
 slug: us-to-abdicate-climate-lead-again
-date: '2025-01-10'
+date: 2025-01-10
 category: Segments
 order: '2'
 megaphone_id: LOE2324788826
 image_url: https://loe.org/content/2025-01-10/PARIS_trump.jpg
 image_caption: 'In 2017, then-President Donald Trump announced his decision to withdraw the United States from the Paris Agreement. (Photo: Joyce N. Boghosian, Wikimedia Commons, Public Domain)'
 summary: President-elect Trump’s stated plans to again remove the U.S. from the Paris Accord would be just the latest whiplash in a decades-long trend of U.S. inconsistency on the climate. E3G senior consultant Alden Meyer and Host Jenni Doering talk about what’s ahead for global and domestic climate policy over the next four years.
+tags:
+  - climate-change
+  - environmental-policy
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00002&segmentID=2 -->
 

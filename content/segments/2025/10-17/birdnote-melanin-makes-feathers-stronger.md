@@ -1,13 +1,19 @@
 ---
 title: 'BirdNote®: Melanin Makes Feathers Stronger'
 slug: birdnote-melanin-makes-feathers-stronger
-date: '2025-10-17'
+date: 2025-10-17
 category: Segments
 order: '2'
 megaphone_id: LOE8499732452
 image_url: https://loe.org/content/2025-10-17/BIRDNOTE_gulls.jpg
 image_caption: 'Herring gulls have black tipped wings rich in melanin. (Photo: Marie-Lan Taÿ Pamart, Wikimedia Commons, CC BY 4.0)'
 summary: Birds as different as gulls, pelicans, storks, and flamingos all have black-tipped wings. These flight feathers are rich in a pigment called melanin. BirdNote®’s Michael Stein reports that melanin doesn’t just provide color – it also helps make feathers stronger.
+tags:
+  - birds
+  - species-loss
+  - insects
+  - wildlife-corridors
+  - book-review
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00042&segmentID=2 -->
 

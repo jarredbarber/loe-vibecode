@@ -1,13 +1,21 @@
 ---
 title: Floating Border Wall
 slug: floating-border-wall
-date: '2026-04-10'
+date: 2026-04-10
 category: Segments
 order: '1'
 megaphone_id: LOE1887072497
 image_url: https://loe.org/content/2026-04-10/BORDER_buoys.jpg
 image_caption: 'Water buoys were installed on the Rio Grande where it runs through Brownsville. (Photo: Michael Gonzalez, Inside Climate News)'
 summary: About two thirds of the US-Mexico border is along the Rio Grande, and the Trump Administration is working to install hundreds of miles of buoy barriers in the river, to prevent illegal crossings. Now residents of border towns, researchers, and activists are raising the alarm over how those buoys and other barriers could impact wildlife, restrict access to the river and sever cultural ties. Martha Pskowski, a reporter based in Texas for our media partner Inside Climate News, joins Host Paloma Beltran to discuss.
+tags:
+  - climate-change
+  - extreme-weather
+  - species-loss
+  - wildlife-corridors
+  - water-pollution
+  - environmental-policy
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00015&segmentID=1 -->
 

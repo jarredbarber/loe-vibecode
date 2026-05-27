@@ -1,13 +1,18 @@
 ---
 title: Trump Sues States Over Climate Action
 slug: trump-sues-states-over-climate-action
-date: '2025-05-09'
+date: 2025-05-09
 category: Segments
 order: '1'
 megaphone_id: LOE4860607155
 image_url: https://loe.org/content/2024-07-26/TRUMP_formerpresident.jpg
 image_caption: 'On his 2024 campaign trail, President Trump pledged to push back against state climate efforts. However, legal experts noted that his decision to preemptively strike against lawsuits that had yet to be filed was an unusual move. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: At the direction of President Donald Trump the U.S. Department of Justice has sued four states -- Vermont, New York, Hawaii, and Michigan -- that are trying to recover some climate costs from major fossil fuel companies through climate superfund laws and litigation. Vermont Law and Graduate School Emeritus Professor Pat Parenteau joins Host Aynsley O’Neill to explain why he views the DOJ cases as frivolous extensions of the other actions the Trump administration has taken to aid the fossil fuel industry.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00019&segmentID=1 -->
 

@@ -1,13 +1,19 @@
 ---
 title: Eco-Rollbacks From Trump
 slug: eco-rollbacks-from-trump
-date: '2025-04-11'
+date: 2025-04-11
 category: Segments
 order: '2'
 megaphone_id: LOE1926216430
 image_url: https://loe.org/content/2025-04-11/CASH_zeldin.jpg
 image_caption: 'Cash disagrees with the new EPA administrator, Lee Zeldin, who claims that the Greenhouse Gas Reduction Fund program is wasteful. (Photo:: Gage Skidmore, Wikimedia Commons, CC BY-SA 2.0)'
 summary: The Trump administration has paused funding from the Greenhouse Gas Reduction Fund, impacting multiple projects that were already approved and in progress. The Environmental Protection Agency also set up a new email address for companies to fast track requests for exemptions of pollution rules under the Clean Air Act. Former New England EPA administrator David Cash joined Host Aynsley O’Neill to discuss.
+tags:
+  - fossil-fuels
+  - regulation-deregulation
+  - environmental-policy
+  - litigation
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00015&segmentID=2 -->
 

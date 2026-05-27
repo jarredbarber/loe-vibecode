@@ -1,13 +1,19 @@
 ---
 title: Climate Resilience Grants Resume
 slug: climate-resilience-grants-resume
-date: '2026-03-27'
+date: 2026-03-27
 category: Segments
 order: '1'
 megaphone_id: LOE9747289304
 image_url: https://loe.org/content/2026-03-27/FEMA_texasfloods.jpg
 image_caption: 'Devastation from the July 4, 2025 floods in Central Texas. FEMA’S decision to cut the Building Resilient Infrastructure and Communities Program (BRIC) stopped nearly 700 disaster preparedness projects across the United States. (Photo: World Central Kitchen, Wikimedia Commons, CC BY 4.0)'
 summary: A federal judge recently issued an enforcement order mandating the release of funds from FEMA's Building Resilient Infrastructure and Communities or BRIC program, which the Trump administration had stalled. Alice Hill, a senior fellow at the Council on Foreign Relations, and the former senior Resiliency Director on the National Security Council for President Obama, discusses with Host Steve Curwood why money spent to protect critical infrastructure from disasters like storms, floods and wildfires pays for itself many times over.
+tags:
+  - climate-change
+  - extreme-weather
+  - wildfire
+  - environmental-policy
+  - regulation-deregulation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00013&segmentID=1 -->
 

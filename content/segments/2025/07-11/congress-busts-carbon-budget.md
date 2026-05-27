@@ -1,13 +1,19 @@
 ---
 title: Congress Busts Carbon Budget
 slug: congress-busts-carbon-budget
-date: '2025-07-11'
+date: 2025-07-11
 category: Segments
 order: '1'
 megaphone_id: LOE5760038719
 image_url: https://loe.org/content/2025-07-11/BILL_trumpsigning.jpg
 image_caption: 'President Trump signed the budget bill into law on July 4, 2025. (Photo: The White House, Wikimedia Commons, Public Domain)'
 summary: As the climate crisis brings ever more devastating floods, storms, heat waves and fires, the Republican-led Congress has slashed around half a trillion dollars in clean energy tax credits that would have reduced climate pollution and helped America to better adapt to climate change. Executive Editor Vernon Loeb and Washington Bureau Chief Marianne Lavelle of our media partner Inside Climate News join Hosts Steve Curwood and Aynsley O’Neill to survey the likely consequences for the climate, environment, and our democracy.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-justice
+  - environmental-policy
+  - extreme-weather
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00028&segmentID=1 -->
 

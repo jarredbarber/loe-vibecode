@@ -1,13 +1,17 @@
 ---
 title: 'Just Earth: How a Fairer World Will Save the Planet'
 slug: just-earth-how-a-fairer-world-will-save-the-planet
-date: '2025-06-27'
+date: 2025-06-27
 category: Segments
 order: '3'
 megaphone_id: LOE1062931736
 image_url: https://loe.org/content/2025-06-27/JUNIPER_cover.jpg
 image_caption: 'Tony Juniper’s newest book,  Just Earth: How a Fairer World Will Save the Planet. (Photo: Courtesy of Bloomsbury)'
 summary: 'In his recent book Just Earth: How a Fairer World Will Save the Planet, Tony Juniper explores how tackling economic inequality within and between countries will go far to solve the climate and biodiversity crises. Tony Juniper is a former head of Friends of the Earth UK, has long advised King Charles III on the environment and climate and now chairs Natural England, a government conservation agency. He joins Host Steve Curwood to discuss the transformation that’s urgently needed to allow planet and people to thrive.'
+tags:
+  - climate-change
+  - environmental-justice
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00026&segmentID=3 -->
 

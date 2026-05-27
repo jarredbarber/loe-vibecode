@@ -1,13 +1,20 @@
 ---
 title: NY Climate Superfund
 slug: ny-climate-superfund-0509
-date: '2025-05-09'
+date: 2025-05-09
 category: Segments
 order: '5'
 megaphone_id: LOE9735236448
 image_url: https://loe.org/content/2025-03-07/NYSUPERFUND_flatbushflooding.jpg
 image_caption: 'Flash flooding in Flatbush, Brooklyn in September 2023. (Photo: Wil540 art, Wikimedia Commons, CC BY-SA 4.0)'
 summary: To help cover the rising costs of climate impacts like extreme floods and sea level rise, New York State has enacted a law that asks major fossil fuel companies to pay up, based on their historic sales of coal, gas and oil. Anne Louise Rabe is the former Environmental Policy Director at NY-PIRG, The New York Public Interest Research Group, and joins Host Aynsley O’Neill to explain how the revenues would fund climate adaptation and resilience.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - environmental-justice
+  - green-economy
+  - public-health
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=25-P13-00010&segmentID=1 -->
 

@@ -1,13 +1,19 @@
 ---
 title: Reforesting a Gravel Mine
 slug: reforesting-a-gravel-mine-0822
-date: '2025-08-22'
+date: 2025-08-22
 category: Segments
 order: '2'
 megaphone_id: LOE1562831215
 image_url: https://loe.org/content/2025-05-30/AF_gravelmine.jpg
 image_caption: 'Lake Pleasant Conservation Area was once a gravel mine, but is now being replanted with hardwood trees. (Photo: Kyra McCague, Courtesy of the Allegheny Front)'
 summary: At a former gravel mine in northwestern Pennsylvania, nonprofits are working to plant 70,000 trees as part of a larger project to reforest thousands of acres of degraded mine land in the region. The Allegheny Front’s Kara Holsopple reports on how they’re experimenting with fungi and biochar to help restore degraded soil and give the saplings a head start.
+tags:
+  - forests
+  - deforestation
+  - soil-health
+  - invasive-species
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00034&segmentID=2 -->
 

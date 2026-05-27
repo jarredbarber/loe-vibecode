@@ -1,13 +1,18 @@
 ---
 title: Trump Ignores Social Cost of Carbon
 slug: trump-ignores-social-cost-of-carbon
-date: '2025-05-23'
+date: 2025-05-23
 category: Segments
 order: '3'
 megaphone_id: LOE5664651689
 image_url: https://loe.org/content/2017-01-20/PIZER-Smoke-stack.jpg
 image_caption: 'The social cost of carbon (SCC) refers to the net damages from global climate change that result from an increase in CO2 emissions of one metric ton. (Photo: Ryan T, Flickr CC BY-NC-ND 2.0)'
 summary: A new White House memo instructs federal agencies to disregard the economic impacts of climate change in their regulations and permitting decisions. This metric is known as the “social cost of carbon” and it has been used for decades to guide policy so that it considers the economic realities of our changing climate. David Cash served under President Biden as the New England Administrator for the US Environmental Protection Agency and he joins Host Jenni Doering to discuss.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00021&segmentID=3 -->
 

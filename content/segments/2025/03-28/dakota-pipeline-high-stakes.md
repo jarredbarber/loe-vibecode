@@ -1,12 +1,18 @@
 ---
 title: Dakota Pipeline High Stakes
 slug: dakota-pipeline-high-stakes
-date: '2025-03-28'
+date: 2025-03-28
 category: Segments
 order: '5'
 image_url: https://loe.org/content/2016-11-18/DAPL-Horseback.jpg
 image_caption: 'Two Standing Rock demonstrators take to horseback, a homage to the ride to Cannonball River in April that sparked the movement. (Photo: Robert Wilson)'
 summary: The movement led by the Standing Rock Sioux to stop the final link of the Dakota Access Pipeline, construction of a tunnel under the Missouri River, is standing firm, but DAPL supporters are equally determined. Sandy Tolan has followed the evolving and increasingly contentious protests since April, and reports on what’s at stake.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - water-pollution
+  - indigenous-rights
+  - activism
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=16-P13-00047&segmentID=2 -->
 

@@ -1,13 +1,19 @@
 ---
 title: Faith in a Better Climate Future
 slug: faith-in-a-better-climate-future
-date: '2025-05-09'
+date: 2025-05-09
 category: Segments
 order: '3'
 megaphone_id: LOE9914348172
 image_url: https://loe.org/content/2025-05-09/HANDBOOK_cover.jpg
 image_caption: '“Hope for Children Through Climate Justice” is a handbook written by the World Council of Churches. (Image: World Council of Churches)'
 summary: The children of today and tomorrow are not to blame for the climate crisis and yet are likely to suffer it the most. In hopes of remedying this injustice the World Council of Churches has published “Hope for Children Through Climate Justice,” a handbook for communities of faith looking to hold financial actors accountable for their fossil fuel investments. Frederique Seidel is their senior program lead on children and climate and she spoke with Host Jenni Doering.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-justice
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00019&segmentID=3 -->
 

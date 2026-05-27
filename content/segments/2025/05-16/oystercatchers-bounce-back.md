@@ -1,13 +1,17 @@
 ---
 title: Oystercatchers Bounce Back
 slug: oystercatchers-bounce-back
-date: '2025-05-16'
+date: 2025-05-16
 category: Segments
 order: '5'
 megaphone_id: LOE4928337289
 image_url: https://loe.org/content/2025-05-16/OYSTERCATCHER_sand.jpg
 image_caption: 'An American Oystercatcher in the sand of San Carlos Bay, Florida. (Photo: Peter Wallack, Wikimedia Commons, CC BY-SA 3.0)'
 summary: The American oystercatcher is a conservation success story thanks in part to efforts to educate the public and protect their ground nests from unaware beachgoers. Host Aynsley O’Neill shares with Host Steve Curwood the story of how conservationists worked together to boost the numbers of this charismatic species.
+tags:
+  - species-loss
+  - birds
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00020&segmentID=5 -->
 

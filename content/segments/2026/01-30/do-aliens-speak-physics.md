@@ -1,13 +1,17 @@
 ---
 title: Do Aliens Speak Physics?
 slug: do-aliens-speak-physics
-date: '2026-01-30'
+date: 2026-01-30
 category: Segments
 order: '3'
 megaphone_id: LOE1249705343
 image_url: https://loe.org/content/2026-01-30/DASP_cover.jpg
 image_caption: 'Written by Daniel Whiteson and Andy Warner,  “Do Aliens Speak Physics?”  questions the universality of physics and science, blending humor and philosophy. (Image: Andy Warner)'
 summary: Classic science fiction tends to assume that if aliens visit Earth, they will have done so thanks to using math and science that’s like our own. But physicist Daniel Whiteson and cartoonist Andy Warner aren’t so sure. They speak with Host Steve Curwood about their book Do Aliens Speak Physics? And Other Questions About Science and the Nature of Reality.
+tags:
+  - profiles-interviews
+  - ecology-research
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00005&segmentID=3 -->
 

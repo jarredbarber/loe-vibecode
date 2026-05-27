@@ -1,13 +1,18 @@
 ---
 title: NOAA Climate Science Cuts
 slug: noaa-climate-science-cuts
-date: '2025-05-02'
+date: 2025-05-02
 category: Segments
 order: '2'
 megaphone_id: LOE9923897880
 image_url: https://loe.org/content/2025-05-02/NOAA_fundingcuts.jpg
 image_caption: 'Experts worry that funding cuts to NOAA will undermine our ability to predict hurricanes, leading to more lives lost. (Photo: Dannel Malloy, Wikimedia Commons, CC BY 2.0)'
 summary: A key climate modeling program within the National Oceanic and Atmospheric Administration or NOAA is slated for near-elimination, according to a draft White House memo. Abrahm Lustgarten investigated these planned cuts for ProPublica and discusses with Host Jenni Doering the potential impacts to weather forecasting, disaster preparedness, agriculture, military operations and more.
+tags:
+  - climate-science
+  - climate-change
+  - atmospheric-science
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00018&segmentID=2 -->
 

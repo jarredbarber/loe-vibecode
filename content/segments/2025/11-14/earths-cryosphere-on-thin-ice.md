@@ -1,13 +1,19 @@
 ---
 title: Earth's Cryosphere On Thin Ice
 slug: earths-cryosphere-on-thin-ice
-date: '2025-11-14'
+date: 2025-11-14
 category: Segments
 order: '3'
 megaphone_id: LOE9962961202
 image_url: https://loe.org/content/2025-11-14/cryosphere_yala.jpg
 image_caption: 'Two memorial plaques at the bottom of the Yala Glacier in the Langtang Valley of Nepal. The glacier has lost 66% of its mass and retreated nearly 800 meters since the 1970s. (Photo: The International Centre for Integrated Mountain Development (ICIMOD))'
 summary: Scientists attending the UN climate talks in Brazil are highlighting the alarming state of the cryosphere, or the frozen part of Earth covered in ice, snow, and permafrost. A recent report warns that the European Alps, Rockies of the Western U.S. and Canada, Iceland, and Scandinavia would lose nearly all ice at 2°Celsius of warming – a threshold we’re currently on track to exceed. Glaciologist and climate scientist Miriam Jackson is the Eurasia and Nordic director of the International Cryosphere Climate Initiative and joins Host Paloma Beltran to explain how the perilous state of glaciers endangers human civilization as the Earth warms.
+tags:
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - fossil-fuels
+  - water-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00046&segmentID=3 -->
 

@@ -1,13 +1,19 @@
 ---
 title: '"Depaving" the Way to Greener Neighborhoods'
 slug: depaving-the-way-to-greener-neighborhoods-0509
-date: '2025-05-09'
+date: 2025-05-09
 category: Segments
 order: '4'
 megaphone_id: LOE5157495777
 image_url: https://loe.org/content/2025-05-09/DEPAVING_party.jpg
 image_caption: 'Green and Open Somerville’s “Depave the Way” initiative aims to help neighborhoods adapt to climate change and increase green space. From left: Leigh Meunier (black vest), Eduardo Rodriguez (orange), Jack Briskie (light gray) and Depave the Way participants. (Photo: Green and Open Somerville)'
 summary: '"Depaving parties" of volunteers with sledgehammers are turning paved yards into pollinator havens and green space. That can help reduce climate impacts from extreme heat and flooding. Living on Earth’s Sophia Pandelidis reports from Somerville, Massachusetts.'
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - urban-environment
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00019&segmentID=4 -->
 

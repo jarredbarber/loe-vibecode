@@ -1,13 +1,20 @@
 ---
 title: Trump Denies, China Leads on Climate
 slug: trump-denies-china-leads-on-climate
-date: '2025-09-26'
+date: 2025-09-26
 category: Segments
 order: '1'
 megaphone_id: LOE3910278740
 image_url: https://loe.org/content/2025-09-26/TRUMP_unga.jpg
 image_caption: 'During his address to the United Nations General Assembly, President Trump railed against climate action and renewable energy. (Photo: Screenshot from White House video)'
 summary: Speaking at the United Nations General Assembly, President Trump railed against climate science and clean energy, drawing sharp rebukes from other nations, rival politicians and business leaders. Meanwhile, China for the first time ever announced a specific target for reducing its greenhouse gas emissions, by 7 to 10 percent by 2035. Hosts Aynsley O’Neill and Jenni Doering talk about the diverging rhetoric and action on climate.
+tags:
+  - climate-change
+  - extreme-weather
+  - fossil-fuels
+  - environmental-policy
+  - corporate-accountability
+  - international-treaties
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00039&segmentID=1 -->
 

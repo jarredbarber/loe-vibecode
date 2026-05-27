@@ -1,13 +1,17 @@
 ---
 title: '''EXPLORE'' Act and Outdoor Accessibility'
 slug: explore-act-and-outdoor-accessibility
-date: '2025-02-14'
+date: 2025-02-14
 category: Segments
 order: '5'
 megaphone_id: LOE7987256802
 image_url: https://loe.org/content/2025-02-14/EXPLORE_disabledhikers.jpg
 image_caption: 'Disabled Hikers is a cross-disability-led nonprofit building disability community and justice in the outdoors. Shown here is a group hike led by Disabled Hikers. (Photo: Courtesy of Disabled Hikers)'
 summary: A new bipartisan law aims to help people of all abilities explore the outdoors. Syren Nagakyrie founded the nonprofit Disabled Hikers and joins Host Jenni Doering to share insights about the challenges people with disabilities face visiting America’s public lands and how the new law could help.
+tags:
+  - environmental-justice
+  - profiles-interviews
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00007&segmentID=5 -->
 

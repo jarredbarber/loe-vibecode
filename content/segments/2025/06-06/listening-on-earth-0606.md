@@ -1,13 +1,17 @@
 ---
 title: Listening on Earth
 slug: listening-on-earth-0606
-date: '2025-06-06'
+date: 2025-06-06
 category: Segments
 order: '5'
 megaphone_id: LOE1650820383
 image_url: https://loe.org/content/2025-06-06/LISTENING_sophia.jpg
 image_caption: 'Living on Earth Producer Sophia Pandelidis walks through the streets of the Greek island, Paros. (Photo: Stephanie Morris)'
 summary: Living on Earth Producer Sophia Pandelidis is living and working remotely from Greece and sent in the sounds of church bells and festive bouzouki music in a café on the island of Paros, which is in the Aegean Sea between Santorini and Mykonos.
+tags:
+  - music-soundscapes
+  - field-reporting
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00023&segmentID=5 -->
 

@@ -1,13 +1,19 @@
 ---
 title: The "Little Sea" with a Big Champion
 slug: the-little-sea-with-a-big-champion
-date: '2025-08-29'
+date: 2025-08-29
 category: Segments
 order: '4'
 megaphone_id: LOE2191730013
 image_url: https://loe.org/content/2024-05-24/SPAIN_teresa.jpg
 image_caption: 'Teresa Vicente is a professor of philosophy of law at the University of Murcia. (Photo: Goldman Environmental Prize)'
 summary: The Mar Menor or “little sea” lagoon on the coast of Spain faces impacts from mining, agriculture, and a booming tourist industry. Teresa Vicente is a professor of philosophy of law at the University of Murcia who helped pass a 2022 law granting the lagoon legal personhood to give it greater protection. She received the 2024 Goldman Environmental Prize for Europe and joins Host Aynsley O’Neill to share how she led a grassroots movement to protect this beloved lagoon.
+tags:
+  - water-pollution
+  - farming
+  - environmental-justice
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00035&segmentID=4 -->
 

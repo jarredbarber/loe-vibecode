@@ -1,13 +1,18 @@
 ---
 title: PFAS Rule Withdrawn
 slug: pfas-rule-withdrawn
-date: '2025-02-07'
+date: 2025-02-07
 category: Segments
 order: '2'
 megaphone_id: LOE1449610387
 image_url: https://loe.org/content/2025-02-07/PFAS_reversed.jpg
 image_caption: 'The Trump administration, on its first day in office, reversed a proposed EPA rule aimed at limiting the amount of PFAS chemicals that manufacturers could discharge into waterways. (Photo: Patrick Hendry, Unsplash)'
 summary: One of the many Biden Administration rules the Trump EPA has nixed is one that would have limited the amount of toxic PFAS that petrochemical and other plants can release into waterways. Former Living on Earth intern Shannon Kelleher now reports for The New Lede, and she joins Host Paloma Beltran to explain this setback for regulating “forever chemicals” that cause cancer, immune deficiencies and other harms.
+tags:
+  - water-pollution
+  - pfas-forever-chemicals
+  - environmental-policy
+  - toxic-exposure
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00006&segmentID=2 -->
 

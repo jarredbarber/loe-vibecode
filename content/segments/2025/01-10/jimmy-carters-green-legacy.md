@@ -1,13 +1,19 @@
 ---
 title: Jimmy Carter's Green Legacy
 slug: jimmy-carters-green-legacy
-date: '2025-01-10'
+date: 2025-01-10
 category: Segments
 order: '4'
 megaphone_id: LOE5295224774
 image_url: https://loe.org/content/2025-01-10/CARTER_spethcarter.jpg
 image_caption: 'Gus Speth (left) served as a member and then Chairman of the Council on Environmental Quality during President Jimmy Carter’s (right) term from 1977-1981. (Photo: The White House, courtesy of Gus Speth)'
 summary: The Carter Presidency left a legacy of environmental action, ranging from major habitat protection to trying to address the then largely unrecognized threat of fossil fuels to climate stability. Gus Speth chaired the White House Council on Environmental Quality under Jimmy Carter and sat down with Host Steve Curwood to recall pivotal moments and ponder what might have been if the solar-panel-loving President had won a second term.
+tags:
+  - climate-change
+  - fossil-fuels
+  - solar
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00002&segmentID=4 -->
 

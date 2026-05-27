@@ -1,13 +1,19 @@
 ---
 title: Listening on Earth
 slug: listening-on-earth-0411
-date: '2025-04-11'
+date: 2025-04-11
 category: Segments
 order: '5'
 megaphone_id: LOE6028006800
 image_url: https://loe.org/content/2025-04-11/LISTENING_peeper.jpg
 image_caption: 'A spring peeper perched on a tree. (Photo: U.S. Geological Survey, Wikimedia Commons, Public Domain)'
 summary: At Living on Earth we encourage listeners to share glimpses of their world through audio recording. We feature a collage of different audio recordings from across the country.
+tags:
+  - birds
+  - rivers-watersheds
+  - citizen-science
+  - field-reporting
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00015&segmentID=5 -->
 

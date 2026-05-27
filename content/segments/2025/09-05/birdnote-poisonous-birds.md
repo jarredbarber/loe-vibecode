@@ -1,13 +1,17 @@
 ---
 title: 'Birdnote®: Poisonous Birds'
 slug: birdnote-poisonous-birds
-date: '2025-09-05'
+date: 2025-09-05
 category: Segments
 order: '4'
 megaphone_id: LOE6585938153
 image_url: https://loe.org/content/2025-09-05/BIRDNOTE_pitohui.jpg
 image_caption: 'A hooded pitohui perches on a human hand. (Photo: Benjamin Freeman, Wikimedia Commons, CC BY 4.0)'
 summary: Nature has been tinkering with biology and chemistry for as long as life has existed on this planet. And as BirdNote®’s Michael Stein reports, some species have evolved to make use of special chemical weapons – a.k.a., poison.
+tags:
+  - birds
+  - chemical-contamination
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00036&segmentID=4 -->
 

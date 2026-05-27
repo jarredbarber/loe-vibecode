@@ -1,13 +1,18 @@
 ---
 title: Last Call to Biden for Environmental Justice
 slug: last-call-to-biden-for-environmental-justice
-date: '2025-01-03'
+date: 2025-01-03
 category: Segments
 order: '3'
 megaphone_id: LOE7960320369
 image_url: https://loe.org/content/2025-01-03/SHILOH_visit.jpg
 image_caption: 'Former FHWA administrator Shailen Bhatt (left), Coffee County Commissioner Jimmy Jones (center left), Pastor Timothy Williams (center), Transportation Secretary Pete Buttigieg (center right), and Robert Bullard (right). This photo was taken when Secretary Buttigieg visited Shiloh, Alabama to survey flooding damage caused by the widening of Highway 84. (Photo: Andrew Skerritt)'
 summary: The African American residents of Shiloh, Alabama whose homes were flooded by a state highway expansion say they are still waiting for the full measure of environmental justice promised by the outgoing Biden Administration. EJ expert Dr. Robert Bullard of Texas Southern University joins Host Steve Curwood to tell the story.
+tags:
+  - environmental-justice
+  - activism
+  - rural-communities
+  - toxic-exposure
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00001&segmentID=3 -->
 

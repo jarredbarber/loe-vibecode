@@ -1,13 +1,18 @@
 ---
 title: Plastic Containers Linked to Heart Failure
 slug: plastic-containers-linked-to-heart-failure
-date: '2025-03-14'
+date: 2025-03-14
 category: Segments
 order: '2'
 megaphone_id: LOE9780468400
 image_url: https://loe.org/content/2025-03-14/PLASTIC_exposuretohotfood.jpg
 image_caption: 'Exposure to hot food placed in disposable plastic takeout containers is associated with an increased risk of congestive heart failure, according to a new study in Ecotoxicology and Environmental Safety. (Photo: Jacoby Clarke, Pexels, Pexels license)'
 summary: Plastics can contain thousands of chemicals like phthalates and PFAS which are harmful to human and animal health. A new study published in the journal Ecotoxicology and Environmental Safety, found that higher exposure to disposable takeout containers, was linked to a higher risk of congestive heart failure in both humans and animals. Dr. Leonardo Trasande the director of the NYU Center for the Investigation of Environmental Hazards joined host Living on Earth Steve Curwood to review the study.
+tags:
+  - plastics
+  - public-health
+  - toxic-exposure
+  - chemical-contamination
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00011&segmentID=2 -->
 

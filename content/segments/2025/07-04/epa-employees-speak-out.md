@@ -1,13 +1,19 @@
 ---
 title: EPA Employees Speak Out
 slug: epa-employees-speak-out
-date: '2025-07-04'
+date: 2025-07-04
 category: Segments
 order: '5'
 megaphone_id: LOE4963215205
 image_url: https://loe.org/content/2025-07-04/EPA_rally.jpg
 image_caption: 'Federal workers and labor allies rallied at Federal Plaza in Chicago on February 18, 2025 to protest the termination of Chicago-based EPA workers and other federal employees. (Photo: Paul Gyotte, Flickr, CC BY 2.0)'
 summary: In a rare act of public criticism, hundreds of EPA employees published a declaration of dissent from the agency’s policies under the Trump administration, calling out its alleged ignoring of scientific consensus to benefit polluters, undermining of public trust and more. David Cash led EPA’s Region One covering New England under the Biden Administration and shares his thoughts and opinions about the letter and the Trump EPA with Host Aynsley O’Neill.
+tags:
+  - environmental-policy
+  - public-health
+  - fossil-fuels
+  - climate-change
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00027&segmentID=5 -->
 

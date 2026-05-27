@@ -1,13 +1,17 @@
 ---
 title: Fighting Climate Change with Geothermal Networks
 slug: fighting-climate-change-with-geothermal-networks
-date: '2025-04-18'
+date: 2025-04-18
 category: Segments
 order: '3'
 megaphone_id: LOE8640014189
 image_url: https://loe.org/content/2025-04-18/GEOTHERMAL_pipes.jpg
 image_caption: 'Geothermal energy harnesses the natural heat from underground. (Photo: Provided by Eversource)'
 summary: Using the Earth’s heat as an anchor for heat pumps yields virtually carbon-free energy. In contrast with intense deep geothermal heat, surface geothermal projects tap into the relatively constant temperature of the close to-the-surface earth, which sits around 55 degrees. The process is more efficient than air-coupled heat pumps, providing new hope for combatting the climate crisis. Phil Mckenna is a reporter with Living on Earth’s media partner Inside Climate News, and he joined host Steve Curwood to discuss the prospect of geothermal networks.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00016&segmentID=3 -->
 

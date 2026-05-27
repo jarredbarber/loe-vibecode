@@ -1,13 +1,19 @@
 ---
 title: Gwich'in People Resist Arctic Drilling
 slug: gwichin-people-resist-arctic-drilling
-date: '2025-10-31'
+date: 2025-10-31
 category: Segments
 order: '2'
 megaphone_id: LOE4750201782
 image_url: https://loe.org/content/2025-10-31/ANWR_rainbow.jpg
 image_caption: 'A rainbow follows a storm over Vashraii K''oo (Arctic Village) bordering the Arctic National Wildlife Refuge. (Photo: Emily Sullivan, Gwich''in Steering Committee)'
 summary: The fossil fuel industry has sought drilling for oil in the Arctic National Wildlife Refuge for decades and a recent Trump administration order brings the renewed threat of oil extraction in ANWR. But Gwich’in Alaska Natives, which consider the land sacred and local Porcupine Caribou as relatives, are expressing alarm at how drilling in this fragile environment could upend their world. Kristen Moreland, Executive Director of the Gwich’in Steering Committee, joins Host Steve Curwood to discuss.
+tags:
+  - fossil-fuels
+  - species-loss
+  - wildlife-corridors
+  - indigenous-rights
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00044&segmentID=2 -->
 

@@ -1,13 +1,19 @@
 ---
 title: Bluetooth Butterfly Tracking
 slug: bluetooth-butterfly-tracking
-date: '2026-02-20'
+date: 2026-02-20
 category: Segments
 order: '5'
 megaphone_id: LOE2159504545
 image_url: https://loe.org/content/2026-02-20/MONARCH_tags.JPG
 image_caption: 'Tags from Cellular Tracking Technologies of Cape May, New Jersey, allow scientists and butterfly enthusiasts to follow the journey of monarch butterflies as they fly south for the winter. (Photo: Sheldon Blackshire)'
 summary: Monarch butterflies can travel thousands of miles each year between Mexico and North America in an epic relay race of multiple generations. And thanks to new technology, our phones and other Bluetooth devices can now tell us what paths these brave little insects take on this journey. Dan Fagin, who teaches environmental journalism at NYU and is writing a book about monarchs, talks with Host Steve Curwood about the tiny trackers and what it’s like to be among millions of monarchs where they overwinter in Mexico.
+tags:
+  - species-loss
+  - endangered-species
+  - insects
+  - climate-change
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00008&segmentID=5 -->
 

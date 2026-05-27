@@ -1,13 +1,20 @@
 ---
 title: Environment and Rule of Law Under Trump
 slug: environment-and-rule-of-law-under-trump
-date: '2026-01-09'
+date: 2026-01-09
 category: Segments
 order: '1'
 megaphone_id: LOE7525279574
 image_url: https://loe.org/content/2026-01-06/W.A._Parish_Generating_Plant_a1.jpg
 image_caption: During his second term President Trump rescinded past environmental justice orders, stopped Inflation Reduction Act grants and eliminated EPA's environmental justice arm, leading to lawsuits from environmental groups and states. Pictured above is the W.A. Parish coal and gas generating plant in Texas. Frontline communities face disproportionate exposure to toxic smoke and other air pollutants due to systemic environmental injustices. (RM VM, Wikimedia Commons, CC BY SA 4.0)
 summary: In its first year, the second Trump Administration slashed environmental regulations and programs, overstepping its executive authority in the eyes of some environmental advocates. Pat Parenteau, who served as EPA regional counsel under President Reagan, talks with Host Aynsley O’Neill about the inability or reluctance of the judicial and legislative branches to provide a check on what he sees is abusive executive power that is threatening the health of people and planet.
+tags:
+  - environmental-policy
+  - regulation-deregulation
+  - executive-action
+  - litigation
+  - climate-change
+  - endangered-species
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00002&segmentID=1 -->
 

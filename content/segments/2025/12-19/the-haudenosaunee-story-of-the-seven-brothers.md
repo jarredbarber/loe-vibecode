@@ -1,13 +1,17 @@
 ---
 title: The Haudenosaunee Story of The Seven Brothers
 slug: the-haudenosaunee-story-of-the-seven-brothers
-date: '2025-12-19'
+date: 2025-12-19
 category: Segments
 order: '1'
 megaphone_id: LOE1331987808
 image_url: https://loe.org/content/2025-12-19/SEVEN_pleiades.jpg
 image_caption: 'The Haudenosaunee story known as the Seven Star Brothers legend explains the origin of the Pleiades constellation (pictured above). The Pleiades is an open cluster of approximately 3,000 stars in the constellation of Taurus and becomes a prominent part of the winter night sky around the Winter Solstice. (Photo: NASA, ESA, AURA/Caltech, Palomar Observatory, Wikimedia Commons, Public Domain)'
 summary: In many cultures, stories passed down through the generations explain how the world got to be the way it is. The Haudenosaunee people of Northeastern North America have a story about how the star cluster known as the Pleiades came to be, told by Perry Ground, Turtle Clan member of the Onondaga Nation of the Haudenosaunee.
+tags:
+  - indigenous-rights
+  - profiles-interviews
+  - environmental-history
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00051&segmentID=1 -->
 

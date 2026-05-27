@@ -1,13 +1,17 @@
 ---
 title: EPA Freezes "Green Bank"
 slug: epa-freezes-green-bank
-date: '2025-02-21'
+date: 2025-02-21
 category: Segments
 order: '1'
 megaphone_id: LOE5718315186
 image_url: https://loe.org/content/2025-02-21/EPA_zeldin.jpg
 image_caption: 'EPA Administrator Lee Zeldin is looking to revoke $20 billion of funding that was granted via the Greenhouse Gas Reduction Fund, a portion of the Inflation Reduction Act approved by Congress in 2022. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: The Trump EPA is trying to cancel $20 billion dollars of funding in what’s known as the “Green Bank”, which provides loans for local clean energy, energy efficiency upgrades and more. Without providing evidence, EPA Administrator Lee Zeldin accused the program of being rife with fraud and waste. Jillian Blanchard, Vice President of Climate Change and Environmental Justice at Lawyers for Good Government, joins Hosts Steve Curwood and Jenni Doering to discuss the impacts to nonprofits and private contractors who are unable to access their funds.
+tags:
+  - environmental-policy
+  - litigation
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00008&segmentID=1 -->
 

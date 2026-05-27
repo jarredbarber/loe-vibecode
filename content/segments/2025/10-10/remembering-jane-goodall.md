@@ -1,13 +1,17 @@
 ---
 title: Remembering Jane Goodall
 slug: remembering-jane-goodall
-date: '2025-10-10'
+date: 2025-10-10
 category: Segments
 order: '5'
 megaphone_id: LOE7501012241
 image_url: https://loe.org/content/2025-10-10/ROOTSANDSHOOTS_cash.jpg
 image_caption: 'Cash Daniels is a 16 year old from Chatanooga, Tennessee who started participating in Roots & Shoots last year. (Photo: Eric Guzzetta / JGI)'
 summary: Members of the late conservationist Jane Goodall’s Roots & Shoots youth organization and the Living on Earth crew share memories of her and gratitude for her enduring gifts to the world.
+tags:
+  - profiles-interviews
+  - species-loss
+  - youth-education
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00041&segmentID=5 -->
 

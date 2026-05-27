@@ -1,13 +1,18 @@
 ---
 title: 'BirdNote®: Black Swifts Reach for the Moon'
 slug: birdnote-black-swifts-reach-for-the-moon
-date: '2025-10-03'
+date: 2025-10-03
 category: Segments
 order: '3'
 megaphone_id: LOE2152247811
 image_url: https://loe.org/content/2025-10-03/BIRDNOTE_moon.jpg
 image_caption: '“Harvest moon” is a colloquial name for the full moons that appear in early autumn in the northern hemisphere. Many animals find their lives affected by the lunar cycles. (Photo: Jeff Hollett, Wikimedia Commons, Public Domain)'
 summary: There are all sorts of ways that life on Earth takes advantage of the regular cycles of the moon, from horseshoe crabs and grunion fish that lay their eggs during the high tides of a full moon to corals that spawn en masse in the days afterwards. Michael Stein reports for BirdNote® on how black swifts are also synced to lunar cycles and fly higher during the full moon.
+tags:
+  - birds
+  - marine-life
+  - ecology-research
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00040&segmentID=3 -->
 

@@ -1,13 +1,18 @@
 ---
 title: Trump Faces Youth Climate Lawsuit
 slug: trump-faces-youth-climate-lawsuit
-date: '2025-07-04'
+date: 2025-07-04
 category: Segments
 order: '1'
 megaphone_id: LOE2492590310
 image_url: https://loe.org/content/2025-07-04/EVA_coplaintiffs.jpeg
 image_caption: 'Eva Lighthiser (right) alongside another co-plaintiff in the case, Olivia Vesovich (left). (Photo: Courtesy of Our Children''s Trust)'
 summary: 19-year-old Eva Lighthiser has experienced climate anxiety for most of her life, as her home state of Montana faces worsening floods, wildfires, and extreme heat. Now she and 20 other young people are suing the Trump administration over its efforts to boost fossil fuels while suppressing climate science and renewable energy. Eva Lighthiser, the lead plaintiff in Lighthiser v. Trump, joins Host Jenni Doering to share why she is pushing back against policies she believes are harming her future.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-justice
+  - youth-education
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00027&segmentID=1 -->
 

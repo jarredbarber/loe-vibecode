@@ -1,13 +1,18 @@
 ---
 title: A Tale of Two Turtles
 slug: a-tale-of-two-turtles
-date: '2025-09-12'
+date: 2025-09-12
 category: Segments
 order: '2'
 megaphone_id: LOE5760417808
 image_url: https://loe.org/content/2025-09-12/TURTLE_painted.jpg
 image_caption: 'Pictured above is a painted turtle. Don Lyman initially mistook this painted turtle with a bumpy carapace for a red-eared slider. (Photo: Don Lyman)'
 summary: Living on Earth’s Don Lyman is back in classrooms teaching biology as a substitute and incorporating his passion for herpetology wherever he can. But one unusual classroom turtle presented an identification puzzle, and a teaching moment that he recounts in his essay “A Tale of Two Turtles.”
+tags:
+  - invasive-species
+  - ecology-research
+  - profiles-interviews
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00037&segmentID=2 -->
 

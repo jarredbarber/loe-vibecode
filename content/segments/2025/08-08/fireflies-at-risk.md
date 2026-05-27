@@ -1,13 +1,21 @@
 ---
 title: Fireflies at Risk
 slug: fireflies-at-risk
-date: '2025-08-08'
+date: 2025-08-08
 category: Segments
 order: '3'
 megaphone_id: LOE4319986545
 image_url: https://loe.org/content/2025-08-08/FIREFLIES_field.jpg
 image_caption: 'This timelapse, taken over the course of 30 minutes, shows fireflies in a Wisconsin field. (Photo: Robert Ritchie, Unsplash)'
 summary: The summertime magic of fireflies lighting up at dusk is facing threats because of climate change and habitat destruction. Living on Earth’s Ashanti Mclean shares with Hosts Aynsley O’Neill and Paloma Beltran a few tips that can help to protect firefly species.
+tags:
+  - climate-change
+  - species-loss
+  - endangered-species
+  - forests
+  - wetlands
+  - pesticides
+  - insects
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00032&segmentID=3 -->
 

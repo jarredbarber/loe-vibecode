@@ -1,13 +1,19 @@
 ---
 title: 'BirdNote®: City Owls'
 slug: birdnote-city-owls
-date: '2025-02-07'
+date: 2025-02-07
 category: Segments
 order: '4'
 megaphone_id: LOE8859054893
 image_url: https://loe.org/content/2025-02-07/BIRDNOTE_owl.jpg
 image_caption: 'A great horned owl perches on a pipe. (Photo: © Bill Weaver, Courtesy of BirdNote®)'
 summary: Some owls, like Barred Owls and Great Horned Owls, are happy to call our cities home. There’s plenty of rats and squirrels to eat, and BirdNote’s Michael Stein offers some tips on how to spot these urban owls.
+tags:
+  - birds
+  - mammals
+  - urban-environment
+  - profiles-interviews
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00006&segmentID=4 -->
 

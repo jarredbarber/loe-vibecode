@@ -1,13 +1,21 @@
 ---
 title: Climate Monster in the Caribbean
 slug: climate-monster-in-the-caribbean
-date: '2025-10-31'
+date: 2025-10-31
 category: Segments
 order: '1'
 megaphone_id: LOE8865803894
 image_url: https://loe.org/content/2025-10-31/MELISSA_satellite.jpg
 image_caption: 'Satellite images track the moment Hurricane Melissa made landfall in the southwestern region of Jamaica. One of the most affected communities is Black River, where almost every home suffered damage and approximately 90% lost their roofs. Prime Minister Andrew Holness referred to this area as ''ground zero.'' As of October 31st, an official death toll has not yet been announced. (Photo: CSU/CIRA & NOAA)'
 summary: Hurricane Melissa, the strongest storm to hit the Caribbean in modern times, left a wake of destruction in Jamaica, Cuba and Haiti that will take years to recover from. Jamaican climate physics professor Tannecia Stephenson describes the toll of this climate catastrophe, and meteorologist Ryan Truchelut of the consulting firm Weather Tiger joins Host Jenni Doering to explain how the storm grew so ferocious in the blink of a hurricane’s eye.
+tags:
+  - climate-change
+  - extreme-weather
+  - sea-level-rise
+  - fossil-fuels
+  - oceans
+  - environmental-justice
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00044&segmentID=1 -->
 

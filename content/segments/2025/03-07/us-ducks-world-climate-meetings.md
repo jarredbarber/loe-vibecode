@@ -1,13 +1,19 @@
 ---
 title: US Ducks World Climate Meetings
 slug: us-ducks-world-climate-meetings
-date: '2025-03-07'
+date: 2025-03-07
 category: Segments
 order: '3'
 megaphone_id: LOE7303307342
 image_url: https://loe.org/content/2025-03-07/STOCKTON_trump.jpg
 image_caption: 'Ben Stockton says that from the outside, it isn’t clear whether or not many officials in the State Department’s climate change office are employed anymore. The United States is still a party to the UNFCCC, yet it has not sent any representatives since the start of President Trump’s second term. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: The Trump Administration barred government scientists from attending a key UN climate science meeting in February 2025. What’s more, it seems the customary US task force including officials from the State, Energy, Commerce and Transportation departments has not attended any meetings for the underlying UN climate treaty since the beginning of the Trump Administration. Ben Stockton of the Center for Climate Reporting joins Host Steve Curwood to discuss what this could mean for global climate diplomacy.
+tags:
+  - climate-change
+  - environmental-policy
+  - climate-science
+  - international-treaties
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00010&segmentID=3 -->
 

@@ -280,7 +280,7 @@
 
             // 2) Fall back to enumeration (won't run on older Safari).
             if (!indexedDB.databases) {
-                throw new Error('No saved drafts found — Sveltia only persists to IndexedDB on explicit save (not as-you-type).');
+                throw new Error('NO_DRAFTS');
             }
             const dbs = await indexedDB.databases();
             if (!dbs.length) throw new Error('No IndexedDB databases at this origin — open the CMS and save a draft first.');
@@ -289,7 +289,7 @@
                 const all = await readDraftsFromDB(meta.name);
                 if (all && all.length) return all[all.length - 1];
             }
-            throw new Error('No saved drafts found — Sveltia only persists to IndexedDB on explicit save (not as-you-type).');
+            throw new Error('NO_DRAFTS');
         }
 
         let autoTimer = null;
@@ -309,12 +309,28 @@
                     status.textContent = `From GitHub: ${p}`;
                 } else if (mode === 'draft') {
                     status.textContent = 'Reading Sveltia draft…';
-                    const draft = await readDraftFromIndexedDB();
-                    // draft shape varies; try to pull body + common fields.
-                    const locale = Object.values(draft.currentValues || draft.locales || {})[0] || draft;
-                    fm = { ...locale };
-                    fm.body = locale.body || '';
-                    status.textContent = `Draft: ${draft.collectionName}/${draft.slug}`;
+                    try {
+                        const draft = await readDraftFromIndexedDB();
+                        const locale = Object.values(draft.currentValues || draft.locales || {})[0] || draft;
+                        fm = { ...locale };
+                        fm.body = locale.body || '';
+                        status.textContent = `Draft: ${draft.collectionName}/${draft.slug}`;
+                    } catch (e) {
+                        if (e.message !== 'NO_DRAFTS') throw e;
+                        // No autosaved draft yet — Sveltia stashes drafts to IDB
+                        // every few seconds while typing, and clears them on
+                        // Save (which commits to main). If a path is set, show
+                        // the saved-to-main version instead.
+                        const p = $('path').value.trim();
+                        if (p) {
+                            status.textContent = `No active draft — showing saved version from main: ${p}`;
+                            const text = await fetchFromGitHub(p);
+                            fm = parseFrontmatter(text);
+                        } else {
+                            status.textContent = '✗ No active draft. Open an entry in /admin/ and start typing — autosaves will appear here every few seconds.';
+                            return;
+                        }
+                    }
                 }
                 $('preview-content').innerHTML = render(fm || {});
             } catch (e) {

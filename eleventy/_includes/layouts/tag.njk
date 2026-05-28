@@ -132,7 +132,7 @@ layout: layouts/base.njk
                             {% set _y = 100 - _h %}
                             {% set _label = d.month if _useMonth else (d.year | string) %}
                             {% set _tooltip = _label + ': ' + d.count + (' segment' if d.count == 1 else ' segments') %}
-                            <a href="{{ site.url }}{{ d.url }}" title="{{ _tooltip }}">
+                            <a href="#period-{{ _label }}" title="{{ _tooltip }}">
                                 <rect class="tag-sparkline-bar" x="{{ _offset + 0.1 }}" y="{{ _y }}" width="0.8" height="{{ _h }}" />
                             </a>
                             {% endfor %}

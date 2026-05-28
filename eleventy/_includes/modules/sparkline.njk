@@ -42,6 +42,6 @@
         {% endif %}
     {% endfor %}
     </svg>
-    <figcaption style="font-size:0.78em;color:#888;margin-top:0.2em;text-align:left;">{{ caption }}</figcaption>
+    {% if caption %}<figcaption style="font-size:0.78em;color:#888;margin-top:0.2em;text-align:left;">{{ caption }}</figcaption>{% endif %}
 </figure>
 {% endmacro %}

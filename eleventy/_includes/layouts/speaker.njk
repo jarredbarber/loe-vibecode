@@ -6,17 +6,17 @@ layout: layouts/base.njk
     <div class="body_resize">
         <div class="article-content">
             <h1>{{ speaker.name }}</h1>
+            {% if speaker.yearCounts %}
+            {% set _max = 1 %}
+            {% for y, c in speaker.yearCounts %}{% if c > _max %}{% set _max = c %}{% endif %}{% endfor %}
+            {{ sparkline(speaker.yearCounts, speaker.earliestYear, speaker.latestYear, _max, "") }}
+            {% endif %}
             <p class="speaker-blurb">
                 {{ speaker.count }} appearance{% if speaker.count != 1 %}s{% endif %}
                 on <em>Living on Earth</em>{% if speaker.earliestYear == speaker.latestYear %},
                 {{ speaker.earliestYear }}{% else %},
                 from {{ speaker.earliestYear }} to {{ speaker.latestYear }}{% endif %}.
             </p>
-            {% if speaker.yearCounts %}
-            {% set _max = 1 %}
-            {% for y, c in speaker.yearCounts %}{% if c > _max %}{% set _max = c %}{% endif %}{% endfor %}
-            {{ sparkline(speaker.yearCounts, speaker.earliestYear, speaker.latestYear, _max) }}
-            {% endif %}
             <ul class="archive-list">
                 {% for seg in speaker.segments.slice(0, 50) %}
                 <li>

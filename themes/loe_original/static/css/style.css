@@ -2602,7 +2602,7 @@ iframe {
 .show-header-summary { display: block; overflow: hidden; }
 
 /* ─── Show page segment image: above content on mobile, floated left on desktop ─── */
-@media (max-width: 999px) {
+@media (max-width: 700px) {
     .segment-image {
         float: none !important;
         width: 100% !important;
@@ -2636,5 +2636,5 @@ iframe {
     }
     .archive-year-nav-mobile a:hover { background: #dde6d8; }
     /* Hide the sidebar year list on mobile — replaced by inline nav */
-    .sidebar { display: none; }
+    .archives-page .sidebar { display: none; }
 }

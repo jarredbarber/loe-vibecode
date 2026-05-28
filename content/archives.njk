@@ -11,7 +11,7 @@ title: Show Archives
     {% set y = (show.data.date | strftime('%Y')) %}
     {% if not buckets[y] %}{% set _ = buckets.__setitem__(y, []) if buckets.__setitem__ else buckets %}{% endif %}
 {% endfor %}
-<div class="body">
+<div class="body archives-page">
     <div class="body_resize">
         <div class="left">
             <h1>Show Archives</h1>

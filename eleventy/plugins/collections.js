@@ -126,6 +126,9 @@ module.exports = function (eleventyConfig) {
             entry.earliestYear = Math.min(...dates.map((d) => d.getUTCFullYear()));
             entry.latestYear = Math.max(...dates.map((d) => d.getUTCFullYear()));
             entry.count = entry.segments.length;
+            const yearCounts = {};
+            for (const d of dates) yearCounts[d.getUTCFullYear()] = (yearCounts[d.getUTCFullYear()] || 0) + 1;
+            entry.yearCounts = yearCounts;
             out.push(entry);
         }
         out.sort((a, b) => b.count - a.count || a.slug.localeCompare(b.slug));

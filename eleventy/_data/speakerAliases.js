@@ -31,16 +31,6 @@ const ALIASES = {
     "GELLERMAN": "gellerman",
     "TOOMEY": "toomey",
     "LENDER": "lender",
-    "TROWBRIDGE": "trowbridge",
-    "PFEIFFER": "pfeiffer",
-    "MARTIN": "martin",
-    "ROSS": "ross",
-    "JANG": "jang",
-    "ARSENAULT": "arsenault",
-    "HARRINGTON": "harrington",
-    "GROSSMAN": "grossman",
-    "DUFFIELD": "duffield",
-    "RICHARDSON": "richardson",
 };
 
 // Fuller display names for canonical slugs. Anything missing falls back to

@@ -107,7 +107,8 @@ function buildSpeakersCache() {
     if (_speakersCache) return _speakersCache;
     const fs = require('node:fs');
     const path = require('node:path');
-    const { normalizeSpeaker } = require('../_data/speakerAliases.js');
+    const { normalizeSpeaker, KNOWN_SPEAKERS } = require('../_data/speakerAliases.js');
+        const knownSlugs = new Set(KNOWN_SPEAKERS.map(s => s.slug));
     const SPEAKER_LINE_RE = /^([A-Z](?:[A-Z'’\d\s.]|[a-z]{1,2}(?=[A-Z]))+):/;
     const repoRoot = path.resolve(__dirname, '..', '..');
     const roots = [
@@ -157,7 +158,7 @@ function buildSpeakersCache() {
     // Pass 2: filter each per-file list to only speakers with built pages.
     const filtered = {};
     for (const [rel, list] of Object.entries(perFile)) {
-        const kept = list.filter((s) => (counts.get(s.slug) || 0) >= SPEAKER_MIN_APPEARANCES);
+        const kept = list.filter((s) => knownSlugs.has(s.slug) && (counts.get(s.slug) || 0) >= SPEAKER_MIN_APPEARANCES);
         if (kept.length) filtered[rel] = kept;
     }
     _speakersCache = filtered;

@@ -1,31 +1,31 @@
+/* Dark mode styles. Applied when:
+   - OS prefers dark (auto mode), OR
+   - User has explicitly chosen dark via the staging toggle (html[data-theme="dark"])
+   Light override: html[data-theme="light"] suppresses the media query via specificity. */
+
+/* ─── CSS variable overrides ─── */
 @media (prefers-color-scheme: dark) {
-    :root {
+    html:not([data-theme="light"]) {
         --primary-green: #7fc5b3;
         --primary-green-dark: #a8dccd;
         --secondary-blue: #6fa9a9;
         --accent-teal: #e8d791;
-
         --bg-main: #1a1f1f;
         --bg-header: #232b2b;
         --bg-white: #242a2a;
-
         --text-dark: #e8e4d8;
         --text-medium: #c9c2b0;
         --text-light: #9aa39e;
         --text-lighter: #7d8884;
         --text-placeholder: #5a6562;
-
         --border-light: #2e3838;
         --border-medium: #3a4646;
         --border-input: #3a4646;
-
         --error-red: #e26a6a;
-
         --audio-bg: #1c3a31;
         --audio-text: #F2E6B8;
         --link-info: #7fc5b3;
         --link-info-hover: #a8dccd;
-
         --card-bg: #242a2a;
         --card-border: #2e3838;
         --muted-fg: #9aa39e;
@@ -34,38 +34,106 @@
         --music-cue-bg-hover: rgba(127, 197, 179, 0.16);
         --segment-divider: #2e3838;
     }
+}
 
-    /* Strip the dotted GIF textures that look terrible on dark backgrounds */
-    .header_resize,
-    .header_blog,
-    .header_blog2 {
-        background-image: none !important;
-        background-color: var(--bg-header) !important;
-    }
+html[data-theme="dark"] {
+    --primary-green: #7fc5b3;
+    --primary-green-dark: #a8dccd;
+    --secondary-blue: #6fa9a9;
+    --accent-teal: #e8d791;
+    --bg-main: #1a1f1f;
+    --bg-header: #232b2b;
+    --bg-white: #242a2a;
+    --text-dark: #e8e4d8;
+    --text-medium: #c9c2b0;
+    --text-light: #9aa39e;
+    --text-lighter: #7d8884;
+    --text-placeholder: #5a6562;
+    --border-light: #2e3838;
+    --border-medium: #3a4646;
+    --border-input: #3a4646;
+    --error-red: #e26a6a;
+    --audio-bg: #1c3a31;
+    --audio-text: #F2E6B8;
+    --link-info: #7fc5b3;
+    --link-info-hover: #a8dccd;
+    --card-bg: #242a2a;
+    --card-border: #2e3838;
+    --muted-fg: #9aa39e;
+    --transcript-hover: rgba(255, 255, 255, 0.05);
+    --music-cue-bg: rgba(127, 197, 179, 0.10);
+    --music-cue-bg-hover: rgba(127, 197, 179, 0.16);
+    --segment-divider: #2e3838;
+}
 
-    /* Featured-show / on-this-day card: replace the light teal gradient with
-       a dark card background and a muted teal border that fits the dark palette */
-    .featured-show {
+/* ─── Structural overrides (applied in both dark triggers) ─── */
+
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) body,
+    html:not([data-theme="light"]) .main { background-color: var(--bg-main); color: var(--text-dark); }
+}
+html[data-theme="dark"] body,
+html[data-theme="dark"] .main { background-color: var(--bg-main); color: var(--text-dark); }
+
+/* Strip dotted GIF textures */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .header_resize,
+    html:not([data-theme="light"]) .header_blog,
+    html:not([data-theme="light"]) .header_blog2,
+    html:not([data-theme="light"]) .footer { background-image: none !important; background-color: var(--bg-header) !important; }
+}
+html[data-theme="dark"] .header_resize,
+html[data-theme="dark"] .header_blog,
+html[data-theme="dark"] .header_blog2,
+html[data-theme="dark"] .footer { background-image: none !important; background-color: var(--bg-header) !important; }
+
+/* featured-show card (homepage hero + on-this-day) */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .featured-show,
+    html:not([data-theme="light"]) .on-this-day {
         background: var(--card-bg) !important;
         border-left-color: #4a8a7a !important;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
     }
+    html:not([data-theme="light"]) .featured-show h1,
+    html:not([data-theme="light"]) .featured-show h2,
+    html:not([data-theme="light"]) .featured-show h3,
+    html:not([data-theme="light"]) .on-this-day h2 { color: var(--primary-green) !important; }
 
-    /* Ensure heading and body text are legible inside the card */
-    .featured-show h1,
-    .featured-show h2,
-    .featured-show h3 {
-        color: var(--primary-green) !important;
-    }
+    html:not([data-theme="light"]) .featured-show p,
+    html:not([data-theme="light"]) .featured-show li,
+    html:not([data-theme="light"]) .on-this-day li,
+    html:not([data-theme="light"]) .on-this-day li p { color: var(--text-dark) !important; }
 
-    .featured-show p,
-    .featured-show li {
-        color: var(--text-dark) !important;
-    }
+    html:not([data-theme="light"]) .on-this-day-date,
+    html:not([data-theme="light"]) .featured-show .archive-date { color: var(--text-light) !important; }
 
-    /* Archive segment dates in the history widget */
-    .featured-show .archive-date,
-    .featured-show .on-this-day-date {
-        color: var(--text-light) !important;
-    }
+    html:not([data-theme="light"]) .on-this-day li { border-top-color: var(--border-light) !important; }
+
+    /* "This Week:" inline label */
+    html:not([data-theme="light"]) .featured-segments,
+    html:not([data-theme="light"]) .featured-segments strong { color: var(--text-dark) !important; }
 }
+html[data-theme="dark"] .featured-show,
+html[data-theme="dark"] .on-this-day {
+    background: var(--card-bg) !important;
+    border-left-color: #4a8a7a !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
+}
+html[data-theme="dark"] .featured-show h1,
+html[data-theme="dark"] .featured-show h2,
+html[data-theme="dark"] .featured-show h3,
+html[data-theme="dark"] .on-this-day h2 { color: var(--primary-green) !important; }
+
+html[data-theme="dark"] .featured-show p,
+html[data-theme="dark"] .featured-show li,
+html[data-theme="dark"] .on-this-day li,
+html[data-theme="dark"] .on-this-day li p { color: var(--text-dark) !important; }
+
+html[data-theme="dark"] .on-this-day-date,
+html[data-theme="dark"] .featured-show .archive-date { color: var(--text-light) !important; }
+
+html[data-theme="dark"] .on-this-day li { border-top-color: var(--border-light) !important; }
+
+html[data-theme="dark"] .featured-segments,
+html[data-theme="dark"] .featured-segments strong { color: var(--text-dark) !important; }

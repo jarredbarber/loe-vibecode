@@ -10,6 +10,15 @@
     <title>{% block title %}{{ title or site.name }}{% endblock %}</title>
     <link rel="stylesheet" href="{{ site.url }}/theme/css/style.css">
     {% if site.darkMode %}<link rel="stylesheet" href="{{ site.url }}/theme/css/dark-mode.css">{% endif %}
+    {% if site.target != 'prod' %}
+    {# Apply saved theme before first paint to prevent flash #}
+    <script>
+        (function(){
+            var t = localStorage.getItem('loe-theme');
+            if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
+    {% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
@@ -17,6 +26,7 @@
 </head>
 <body>
     {% if site.target != 'prod' %}
+    <div class="staging-toolbar">
     <div class="editor-badges" hidden>
         <a class="editor-badge editor-badge-cms"
            href="{{ site.url }}/admin/{% if _cms.collection and _cms.slug %}#/collections/{{ _cms.collection }}/entries/{{ _cms.slug }}{% elif _cms.collection %}#/collections/{{ _cms.collection }}{% endif %}"
@@ -27,6 +37,12 @@
            target="_blank" rel="noopener"
            title="{% if _src %}Open this entry's markdown file on GitHub{% else %}Open the repo on GitHub{% endif %}">&lt;/&gt; {% if _src %}Edit on GitHub{% else %}Repo on GitHub{% endif %}</a>
     </div>
+    <div class="theme-toggle" aria-label="Theme">
+        <button class="theme-btn" data-theme-val="light" title="Light mode">☀</button>
+        <button class="theme-btn" data-theme-val="auto"  title="Auto (follow OS)">⬤</button>
+        <button class="theme-btn" data-theme-val="dark"  title="Dark mode">☾</button>
+    </div>
+    </div>{# /staging-toolbar #}
     <script>
         try {
             const u = localStorage.getItem('sveltia-cms.user');
@@ -36,6 +52,26 @@
                 if (badges) badges.removeAttribute('hidden');
             }
         } catch (_) { /* ignore */ }
+
+        // Theme toggle
+        (function() {
+            function applyTheme(t) {
+                if (t === 'auto') document.documentElement.removeAttribute('data-theme');
+                else document.documentElement.setAttribute('data-theme', t);
+                document.querySelectorAll('.theme-btn').forEach(function(b) {
+                    b.classList.toggle('theme-btn-active', b.dataset.themeVal === t);
+                });
+            }
+            var saved = localStorage.getItem('loe-theme') || 'auto';
+            applyTheme(saved);
+            document.querySelectorAll('.theme-btn').forEach(function(b) {
+                b.addEventListener('click', function() {
+                    var t = b.dataset.themeVal;
+                    localStorage.setItem('loe-theme', t);
+                    applyTheme(t);
+                });
+            });
+        })();
     </script>
     {% endif %}
     <div class="main">

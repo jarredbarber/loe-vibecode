@@ -94,4 +94,4 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: pages deploy _site_11ty --project-name=loe-staging --branch=staging
+          command: pages deploy _site_11ty --project-name=loe-staging --branch=main

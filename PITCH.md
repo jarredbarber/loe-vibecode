@@ -1,84 +1,95 @@
-# Living on Earth — Website Rebuild: What We've Built and Why It Matters
+# Living on Earth — What We've Built and Why It Matters
 
-This document is a summary for the LOE editorial and management team. It covers what changed, what's new, and what it means for the show.
-
----
-
-## What Changed: From Dynamic to Static
-
-The old site (Pelican/Python) assembled pages on demand — every visitor triggered a server to query a database, render templates, and return a page. If the database had a problem, the site went down.
-
-The new site (Eleventy/11ty) works differently. Pages are built once, before any visitor arrives, and served as plain files from a CDN. There is nothing to crash and nothing to hack. The site is hosted on GitHub Pages (production) and Cloudflare Pages (staging preview), both free tiers.
-
-| | Old Site | New Site |
-| :--- | :--- | :--- |
-| **How it works** | Server builds each page on request | Pages pre-built, delivered instantly |
-| **Reliability** | Database outages break the site | No database, no downtime |
-| **Security** | Database + login surface exposed | No server-side attack surface |
-| **Hosting cost** | Paid server/database infrastructure | Free (GitHub Pages + Cloudflare) |
-| **Content format** | Locked in database rows | Plain text files (.md), fully portable |
-| **Preview workflow** | None | Staging branch auto-deploys to loe-staging.pages.dev |
+This is a plain-English summary for the LOE team of what has been built, what it does, and why it matters for the show's future.
 
 ---
 
-## The Archive
+## The Core Idea: We Printed the Book Before the Library Opened
 
-The rebuild includes the full 35-year archive: over 10,000 segments and 1,600 shows, going back to 1991. Every episode page, every transcript, every segment is indexed and reachable at a stable URL. Previously, older content existed but was not reliably discoverable. Now it all builds together.
+The old website worked like a printing press that waited for you to walk in before it printed anything. Every visitor triggered the machine from scratch. If one part of the machine broke down, nobody got their page.
 
----
+The new site works differently. Every page is printed in advance and waiting on the shelf before anyone asks for it. There is no machine to break, no moving parts to fail. The pages just sit there, ready. Hosting costs nothing — we use free shelf space provided by GitHub and Cloudflare, two companies whose core business is exactly this kind of reliable file storage.
 
-## Editing Experience
-
-Editors use **Sveltia CMS** at `/admin/`. It is a browser-based visual editor — no code, no markdown syntax required. Editors log in with their GitHub account, write in a rich-text interface, and publish. Saving in the CMS triggers an automatic staging deploy to `loe-staging.pages.dev` in about two minutes, so editors can preview before the change goes live.
-
-Every change is version-controlled in Git. Nothing is ever truly deleted — any change can be rolled back to any prior state.
+This isn't a technical distinction. It means the site will not go down. Not from a traffic spike, not from a software failure, not from someone forgetting to pay a bill.
 
 ---
 
-## AI Features
+## Thirty-Five Years, All in One Place
 
-This is the most significant new capability. Several AI-powered features run automatically, powered by Gemini.
+The rebuild includes the complete Living on Earth archive: more than 10,000 segments and 1,600 shows, going back to 1991. Every episode, every transcript, every segment now has a permanent address on the internet.
 
-### Tag taxonomy (auto-classification)
-
-We defined a controlled vocabulary of 90 topic tags (e.g. "climate policy", "biodiversity", "environmental justice"). Every segment in the archive — all 10,000+ — has been classified against this taxonomy automatically. New segments are classified on publish.
-
-The result: `/tags.html` is a full topic index of the show's 35-year output. Each tag has its own page listing every relevant segment, with a frequency sparkline showing how coverage of that topic has changed over the decades.
-
-### Speaker pages (auto-generated from transcripts)
-
-Every recurring host, reporter, and guest who appears in transcripts gets an auto-generated page at `/people/<name>.html`. These pages are built from transcript analysis — no manual data entry required. Editors do not maintain a "people database"; the site derives it from the content itself.
-
-### Discovery pills on every page
-
-Each segment and show page now shows clickable speaker names and topic tags as inline "pills." A reader interested in a topic or a particular voice can navigate directly to everything else they've appeared in.
-
-### Pre-publish AI copyedit pass
-
-Every content push triggers an automated Gemini review that checks for typos, broken speaker labels (mismatched names between frontmatter and transcript), and frontmatter issues (missing fields, wrong date formats). Problems are flagged before the change goes live. This runs silently in the background — editors just see a normal publish flow, but the AI catches common errors before they reach readers.
-
-### "This week in LOE history" widget
-
-The homepage includes a widget that surfaces archive content from the same calendar week in prior years. It runs automatically — no curation required. It gives returning visitors a reason to explore older content and highlights the depth of the archive.
+For most of the show's history, older content existed somewhere but wasn't reliably findable. Now it's all there, all indexed, all connected. A listener who wants to find what LOE said about the Endangered Species Act in 1994 can find it.
 
 ---
 
-## Listener Features
+## Editing: A Word Processor Where Every Draft Is Kept Forever
 
-- **Zip-code station locator** — enter a zip code, get the nearest affiliate with real distance (Haversine calculation)
-- **Reading and listening time estimates** on segment cards
-- **Clickable inline audio cues** in transcripts — jump to a specific moment in an episode
-- **Dark mode** — follows the OS setting, with a manual toggle
-- **Mobile-responsive** throughout
+Editors use a browser-based tool that looks and works like a word processor. No code. No commands. You log in, you see your stories, you write and edit in a normal text interface, you save. That's it.
+
+Every version of every story is kept permanently. Nothing can be accidentally deleted for good. If an editor wants to see what a story looked like three months ago, or undo a change from last week, that's possible. It works like "track changes" but for every single save, going back indefinitely.
 
 ---
 
-## Summary
+## See It Before It Goes Out
 
-The rebuild delivers three things:
+When an editor saves a story, a preview copy appears at a private address in about two minutes. The editor can read it exactly as a listener would see it — fully formatted, with audio player, everything — before deciding to publish. Only after they approve does it go to the live site.
 
-1. **A more reliable, lower-cost infrastructure** — the site cannot go down from a database failure, and hosting is effectively free.
+It's the difference between a rough proof and a finished page.
 
-2. **A better editing workflow** — visual CMS, staging previews, version history, and automated quality checks.
+---
 
-3. **New discoverability for a 35-year archive** — AI-driven tagging, speaker pages, and a history widget turn the archive from a static record into something navigable and alive.
+## A Researcher Who Read Every Transcript and Filed Everything
+
+We defined a list of 90 topics — things like "climate policy," "biodiversity," "indigenous land rights," "nuclear energy." Then, for all 10,000+ segments in the archive, an automated process read each transcript and assigned it to the right topics from that list.
+
+The result is a topic index of everything Living on Earth has ever covered, going back to 1991. Each topic has its own page showing every relevant segment across the decades, with a simple chart showing how much LOE has covered that topic over time. A listener curious about ocean acidification can find every segment LOE has ever done on it, in order.
+
+New segments are classified automatically when they're published. No one has to maintain this by hand.
+
+---
+
+## A Name in a Transcript Becomes a Page
+
+Every person who appears in LOE transcripts — hosts, reporters, guests, scientists — now has their own page on the site, built automatically from the transcripts themselves. These pages didn't require anyone to build a list or enter names into a form. The site figured out who appears and how often, and created the pages on its own.
+
+A listener who wants to hear more from a particular scientist, or find every story a particular reporter filed, can do that now.
+
+---
+
+## A Copy Editor Who Reviews Every Story Before It Goes Out
+
+Every time a story is published, an automated review runs quietly in the background. It checks for typos, looks for mismatches between a guest's name in the text and their name in the headline, and flags anything that looks off.
+
+Editors don't have to do anything extra — they just save and publish as usual. But before the story reaches readers, something has checked it. Errors that used to slip through now get caught.
+
+---
+
+## "This Week in LOE History"
+
+The homepage now has a section that automatically surfaces archive content from the same week in previous years. Every week it changes, pulling up relevant old stories and segments without anyone choosing them.
+
+It gives longtime listeners a reason to explore what they missed. It reminds new listeners how long this show has been doing this work. And it happens on its own — no curation required.
+
+---
+
+## The Practical Stuff
+
+A few smaller things that add up:
+
+- **Station finder by zip code** — type in a zip code, get the nearest affiliate and how far away it is
+- **Reading time and listening time** shown on every segment, so a listener knows what they're getting into
+- **Clickable moments in transcripts** — a listener can jump directly to a specific exchange in an episode
+- **Dark mode** — the site follows whatever your phone or computer is already set to, and you can switch manually
+- **Works on any phone** — every page is readable on a small screen without zooming or scrolling sideways
+
+---
+
+## What This Adds Up To
+
+Three things, plainly:
+
+**The site won't break.** There's nothing to break. It's a shelf of printed pages.
+
+**Editors have a clean, safe workflow** — write in a familiar tool, preview before publishing, every version saved forever, errors caught before they go out.
+
+**Thirty-five years of work is now findable.** The archive was always there. Now it's indexed by topic, by person, by date, and connected to current content. The show's history is no longer a filing cabinet in a back room — it's part of the living site.

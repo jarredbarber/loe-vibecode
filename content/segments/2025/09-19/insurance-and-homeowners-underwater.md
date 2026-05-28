@@ -1,13 +1,16 @@
 ---
 title: Insurance and Homeowners Underwater
 slug: insurance-and-homeowners-underwater
-date: '2025-09-19'
+date: 2025-09-19
 category: Segments
 order: '2'
 megaphone_id: LOE5097838143
 image_url: https://loe.org/content/2024-10-25/FLORIDA_hurricanes.jpg
 image_caption: 'Florida is battling an increasing number of extreme storms because of climate disruption. The above photo shows damage in Keaton Beach, Florida following Hurricanes Helene and Milton. (Photo: Staff Sgt. Jacob Hancock, U.S. Air National Guard Flickr, CC BY 2.0)'
 summary: While the 2025 Atlantic hurricane season has been relatively quiet, last year damages from three major hurricanes ran to over 200 billion dollars and claims have stressed homeowners and insurance companies alike. Inside Climate News journalist Amy Green shares with Host Steve Curwood what she learned from Florida homeowners facing rising premiums and the cancellation of their insurance policies.
+tags:
+  - climate-change
+  - extreme-weather
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00038&segmentID=2 -->
 

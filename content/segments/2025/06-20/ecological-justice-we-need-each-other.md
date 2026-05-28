@@ -1,13 +1,17 @@
 ---
 title: 'Ecological Justice: "We Need Each Other"'
 slug: ecological-justice-we-need-each-other
-date: '2025-06-20'
+date: 2025-06-20
 category: Segments
 order: '3'
 megaphone_id: LOE2466152783
 image_url: https://loe.org/content/2025-06-20/C1_churches.jpg
 image_caption: 'Churches with solar panels could be resiliency hubs in times of natural disaster, suggests Rev. Mariama White-Hammond. (Photo: Mbrickn, Wikimedia Commons, CC BY 4.0)'
 summary: Rev. Mariama White-Hammond and Host Steve Curwood wrap up their conversation with a discussion about how faith informed her service as former Chief of Environment, Energy and Open Spaces for the City of Boston, and how her faith continues to guide her work to bring about ecological justice.
+tags:
+  - environmental-justice
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00025&segmentID=3 -->
 

@@ -1,13 +1,17 @@
 ---
 title: EV Charging Money Stalled
 slug: ev-charging-money-stalled
-date: '2025-03-28'
+date: 2025-03-28
 category: Segments
 order: '1'
 megaphone_id: LOE6572677403
 image_url: https://loe.org/content/2025-03-28/EV_tesla.jpg
 image_caption: 'Tesla’s Supercharger network is already one of the most robust in the country, giving the company a significant head start—so while the pause in federal EV charging funds stalls other networks, Tesla is unlikely to be heavily impacted. (Photo: Ewan Streit on Unsplash)'
 summary: Electric vehicle chargers are still few and far between compared to gas stations, and a program funded by the 2021 bipartisan Infrastructure Law sought to install many more. But now the Trump administration has stalled this funding for EV chargers. Lee Hedgepeth of Inside Climate News speaks with Host Jenni Doering about the political nuance of the pause.
+tags:
+  - fossil-fuels
+  - environmental-policy
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00013&segmentID=1 -->
 

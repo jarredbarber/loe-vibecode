@@ -1,13 +1,16 @@
 ---
 title: 'Encountering Dragonfly: Notes on the Practice of Re-Enchantment'
 slug: encountering-dragonfly-notes-on-the-practice-of-re-enchantment
-date: '2025-10-03'
+date: 2025-10-03
 category: Segments
 order: '4'
 megaphone_id: LOE6622492028
 image_url: https://loe.org/content/2025-10-03/DRAGONFLY_cover.jpg
 image_caption: 'Encountering Dragonfly: Notes on the Practice of Re-enchantment by Brooke Williams. (Cover: Design by Claudine Mansour, Courtesy of Brooke Williams)'
 summary: 'In lives full of screens and distraction, it can be hard to truly notice the natural world and the subtle ways that other creatures cross our paths. But author Brooke Williams believes these signs from nature can bring us important insights that are worth paying attention to. He sat down with Host Jenni Doering to chat about how he explores these ideas in his book, Encountering Dragonfly: Notes on the Practice of Re-Enchantment.'
+tags:
+  - profiles-interviews
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00040&segmentID=4 -->
 

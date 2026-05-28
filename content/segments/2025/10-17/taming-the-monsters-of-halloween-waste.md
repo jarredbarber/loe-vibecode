@@ -1,13 +1,17 @@
 ---
 title: Taming the Monsters of Halloween Waste
 slug: taming-the-monsters-of-halloween-waste
-date: '2025-10-17'
+date: 2025-10-17
 category: Segments
 order: '4'
 megaphone_id: LOE6218868123
 image_url: https://loe.org/content/2025-10-17/HALLOWEEN_candy.jpg
 image_caption: 'Americans are projected to spend more than 3.9 billion dollars on over 600 million pounds of candy this Halloween. (Photo: Nielsoncaetanosalmeron, Wikimedia Commons, CC BY SA 4.0)'
 summary: One of the most frightening aspects of Halloween is the monstrous amounts of waste it can generate. Katie Brewer of Greater Laingsburg Recyclers in Michigan joins Host Jenni Doering to share ideas for making Halloween a little more sustainable, from recycling candy wrappers, to composting pumpkins, to thrifting costumes.
+tags:
+  - plastics
+  - food-systems
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00042&segmentID=4 -->
 

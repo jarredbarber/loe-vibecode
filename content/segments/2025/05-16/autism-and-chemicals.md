@@ -1,13 +1,17 @@
 ---
 title: Autism and Chemicals
 slug: autism-and-chemicals
-date: '2025-05-16'
+date: 2025-05-16
 category: Segments
 order: '3'
 megaphone_id: LOE4963580676
 image_url: https://loe.org/content/2025-05-16/AUTISM_templegrandin.jpg
 image_caption: 'Autism spectrum disorder covers a range of presentations, characteristics, and support needs. Dr. Temple Grandin is a gifted animal communicator and a well-known autism rights advocate. (Photo: Steve Jurvetson, Flickr, CC BY 2.0)'
 summary: Autism spectrum disorder is now diagnosed in about 1 in 31 children in the United States, a rise of 70 percent in just four years according to the CDC. In addition to better awareness and changing diagnostic tools, growing scientific evidence also points to the role of exposure to toxic chemicals especially during early development in the rising prevalence of autism. Dr. Philip Landrigan, a pediatrician, professor at Boston College, and one of the world’s leading experts on toxic exposure from plastics and pollution discusses with Host Steve Curwood.
+tags:
+  - toxic-exposure
+  - pregnancy-children
+  - plastics
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00020&segmentID=3 -->
 

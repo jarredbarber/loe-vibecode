@@ -11,7 +11,7 @@ title: Show Archives
     {% set y = (show.data.date | strftime('%Y')) %}
     {% if not buckets[y] %}{% set _ = buckets.__setitem__(y, []) if buckets.__setitem__ else buckets %}{% endif %}
 {% endfor %}
-<div class="body">
+<div class="body archives-page">
     <div class="body_resize">
         <div class="left">
             <h1>Show Archives</h1>
@@ -22,6 +22,9 @@ title: Show Archives
                 {% set y = show.data.date | strftime('%Y') %}
                 {% if y not in years %}{% set _ = years.push(y) %}{% endif %}
             {% endfor %}
+            <nav class="archive-year-nav-mobile" aria-label="Jump to year">
+                {% for y in years %}<a href="#year-{{ y }}">{{ y }}</a>{% endfor %}
+            </nav>
 
             {% for y in years %}
             <div class="archive-year-group">

@@ -1,13 +1,21 @@
 ---
 title: No Help From America
 slug: no-help-from-america
-date: '2025-02-14'
+date: 2025-02-14
 category: Segments
 order: '1'
 megaphone_id: LOE6936621304
 image_url: https://loe.org/content/2025-02-14/USAID_volunteers.jpg
 image_caption: 'Climate and environmental activist Nisreen Elsaim (far left) volunteers in Doha, Qatar, with the Female Guardians of the Revolution (right), a Sudanese NGO that serves the therapeutic and psychological needs of female refugees. Elsaim is concerned that the Trump administration’s shutdown of USAID could not only have devastating immediate consequences but could scar the fabric of American foreign policy for decades to come. (Photo: Nisreen Elsaim)'
 summary: The Trump administration’s attempt to freeze all foreign assistance and bid to lay off nearly all USAID staffers are bringing disastrous consequences for millions of acutely hungry people, including those in war-torn Sudan. Nisreen Elsaim is a Sudanese climate and environmental activist and joins Host Jenni Doering to describe the desperate situation and send a warning to the US about the perils of isolationism.
+tags:
+  - fossil-fuels
+  - climate-change
+  - drought
+  - species-loss
+  - environmental-justice
+  - food-systems
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00007&segmentID=1 -->
 

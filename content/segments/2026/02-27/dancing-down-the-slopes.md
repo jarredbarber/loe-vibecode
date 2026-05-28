@@ -8,6 +8,9 @@ megaphone_id: LOE9557944467
 image_url: https://loe.org/content/2026-02-27/AF_balletski.jpg
 image_caption: 'Ed Cook, at a month shy from 67, has been practicing ski ballet in the slopes south of Pittsburgh since 1976. (Photo: Andy Kubis, The Allegheny Front)'
 summary: Ski ballet -- kind of a mashup between ballet, figure skating and skiing -- got a little glory as a demonstration sport in the 1988 and 92 Olympic Games but never became a medal event, and some said it was just a fad. But a few winters ago, ski ballet was being kept alive on Pennsylvania slopes by a very enthusiastic, early-adopter. Andy Kubis produced this story for the Allegheny Front back in 2018.
+tags:
+  - profiles-interviews
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00009&segmentID=6 -->
 

@@ -1,13 +1,16 @@
 ---
 title: Former Park Leader Speaks Out
 slug: former-park-leader-speaks-out
-date: '2025-07-25'
+date: 2025-07-25
 category: Segments
 order: '2'
 megaphone_id: LOE1661087856
 image_url: https://loe.org/content/2025-07-25/CRATER_header.jpg
 image_caption: 'Crater Lake is one of the clearest lakes in the world due to its makeup of pure rainfall and snowmelt. Its bright blue color is visible from space, making the park an iconic U.S. landmark and a must-see for summer travelers, our guest, Kevin Heatley, says. (Photo: Gallagher, Wikimedia Commons, CC BY-SA 2.0)'
 summary: National Parks are undergoing increased layoffs and funding cuts under the second Trump administration. Former Crater Lake superintendent Kevin Keatley joined Living on Earth’s Paloma Beltran to discuss how funding cuts are impacting NPS employees and why he quit just after 5 months.
+tags:
+  - profiles-interviews
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00030&segmentID=2 -->
 

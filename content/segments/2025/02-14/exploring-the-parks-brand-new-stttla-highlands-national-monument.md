@@ -1,13 +1,15 @@
 ---
 title: 'Exploring the Parks: Brand-New Sáttítla Highlands National Monument'
 slug: exploring-the-parks-brand-new-stttla-highlands-national-monument
-date: '2025-02-14'
+date: 2025-02-14
 category: Segments
 order: '3'
 megaphone_id: LOE5305739236
 image_url: https://loe.org/content/2025-02-14/SATTITLA_obsidian.jpg
 image_caption: 'Sattitla means “obsidian place” in Achumawi, a language spoken by the Pit River people. (Photo: courtesy of Protect Sattitla Campaign)'
 summary: In his last days in office President Biden designated the new Sáttítla Highlands National Monument in northern California. Hosts Paloma Beltran and Jenni Doering discuss the otherworldly volcanic landscape and its importance to local tribes.
+tags:
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00007&segmentID=3 -->
 

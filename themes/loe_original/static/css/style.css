@@ -10,6 +10,7 @@
 :root {
     /* Brand Colors */
     --primary-green: #2E5A4C;
+    --map-highlight: #88BDBD;
     /* Deep Forest Green - Used for main branding elements */
     --primary-green-dark: #1e3c32;
     /* Darker shade for hover states */
@@ -2516,4 +2517,144 @@ iframe {
 .editor-badge-gh:hover {
     background-color: #2c343c;
     color: #ffffff;
+}
+
+/* ─── Staging toolbar (editor badges + theme toggle) ─── */
+.staging-toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+}
+/* Editor badges pinned to top-right so they don't overlap the theme toggle */
+.staging-toolbar .editor-badges {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+}
+.theme-toggle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: stretch;
+    gap: 1px;
+    background: #1a1a1a;
+    padding: 0 2px;
+}
+/* When inside the staging toolbar, let the toolbar handle positioning */
+.staging-toolbar .theme-toggle {
+    position: static;
+}
+.theme-btn {
+    border: none;
+    background: #333;
+    color: #ccc;
+    font-size: 13px;
+    padding: 4px 9px;
+    cursor: pointer;
+    line-height: 1;
+    transition: background 0.15s, color 0.15s;
+}
+.theme-btn:hover { background: #555; color: #fff; }
+.theme-btn-active { background: #4a8a7a !important; color: #fff !important; }
+
+/* ─── Tag cloud: smaller pills on mobile ─── */
+@media (max-width: 700px) {
+    .tag-pill {
+        font-size: 0.75em !important;
+        padding: 0.1em 0.45em !important;
+    }
+    .tag-cloud { gap: 0.3em !important; }
+    .tag-group h2 { font-size: 0.95em !important; }
+}
+
+/* ─── Show header image: landscape (>1.2:1) = above summary, portrait/square = float right ─── */
+.header-image-container.landscape {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1em 0;
+}
+.header-image-container.landscape .header-image {
+    max-height: 340px;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+.header-image-container.portrait {
+    float: right;
+    width: 220px;
+    margin: 0 0 1em 1.5em;
+    clear: right;
+}
+.header-image-container.portrait .header-image {
+    width: 100%;
+    height: auto;
+    max-height: none;
+}
+/* Default (before JS fires): treat as landscape */
+.header-image-container:not(.landscape):not(.portrait) {
+    float: none;
+    width: 100%;
+}
+@media (max-width: 700px) {
+    .header-image-container.portrait {
+        float: none;
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+}
+/* Summary text clears the float after the image */
+.show-header-summary { display: block; overflow: hidden; }
+
+/* ─── Show page segment image: above content on mobile, floated left on desktop ─── */
+@media (max-width: 700px) {
+    .segment-image {
+        float: none !important;
+        width: 100% !important;
+        max-height: 220px !important;
+        height: 220px !important;
+        margin: 0 0 10px 0 !important;
+    }
+    .segment-content { float: none !important; width: 100% !important; }
+}
+
+/* ─── Archives: mobile year nav ─── */
+.archive-year-nav-mobile {
+    display: none;
+}
+@media (max-width: 999px) {
+    .archive-year-nav-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4em;
+        margin: 0.75em 0 1.5em;
+    }
+    .archive-year-nav-mobile a {
+        display: inline-block;
+        padding: 0.2em 0.6em;
+        background: #eef1ed;
+        border: 1px solid #d5dcd2;
+        border-radius: 999px;
+        font-size: 0.85em;
+        text-decoration: none;
+        color: #2a4a2a;
+    }
+    .archive-year-nav-mobile a:hover { background: #dde6d8; }
+    /* Hide the sidebar year list on mobile — replaced by inline nav */
+    .archives-page .sidebar { display: none; }
+}
+
+.deploy-badge {
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    background: #1a1a1a;
+    text-decoration: none;
 }

@@ -75,16 +75,20 @@
 
     #zip-finder {
         margin: 20px 0;
-        padding: 16px 20px;
+        padding: 12px 20px;
         background: #f3f7f7;
         border: 1px solid #d6e2e2;
         border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
     }
 
     #zip-finder label {
-        display: block;
         font-weight: 600;
-        margin-bottom: 8px;
+        white-space: nowrap;
+        margin: 0;
     }
 
     #zip-finder input {
@@ -96,7 +100,8 @@
     }
 
     #zip-finder-results {
-        margin-top: 12px;
+        flex-basis: 100%;
+        margin-top: 4px;
     }
 
     #zip-finder-results h4 {
@@ -306,7 +311,8 @@
                             clone.removeAttribute('class'); // Strip original classes to avoid interfering styles
 
                             // Force highlight styles directly
-                            clone.style.setProperty('fill', '#88BDBD', 'important');
+                            const hlColor = getComputedStyle(document.documentElement).getPropertyValue('--map-highlight').trim() || '#88BDBD';
+                            clone.style.setProperty('fill', hlColor, 'important');
                             clone.style.setProperty('stroke', '#ffffff', 'important');
                             clone.style.setProperty('stroke-width', '1px', 'important');
                             clone.style.pointerEvents = 'none'; // Critical for anti-flicker

@@ -21,7 +21,7 @@ Things this site does that the original loe.org doesn't:
 - **Zip-code station locator** on `/stations.html` — type a zip, get the three nearest LOE-affiliate stations by real distance (Haversine, not state-only).
 - **Reading + listening time** estimates on segment cards.
 - **Inline audio cues are clickable** in transcripts — bird calls, music cues, etc. linked through to the Cornell Macaulay Library CDN.
-- **Dark mode** plumbing in place (CSS pass tracked in #109 before flipping on).
+- **Dark mode** — follows OS preference automatically; manual ☀/⬤/☾ toggle on every page saves to localStorage.
 
 **For editors**
 
@@ -35,7 +35,7 @@ Living on Earth is a weekly, hour-long, award-winning environmental news program
 
 # ✍️ Editing the site
 
-There's a CMS at **<https://vibingon.earth/admin/>**. That's the easiest way in. Direct GitHub editing also works for anything the CMS doesn't surface (older archive content, theme files).
+There's a CMS at **<https://loe-staging.pages.dev/admin/>**. That's the easiest way in. Direct GitHub editing also works for anything the CMS doesn't surface (older archive content, theme files).
 
 ## Option A — The CMS (recommended)
 

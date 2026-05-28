@@ -83,14 +83,13 @@ if (opts.includeArchive) segmentRoots.push(path.join(REPO_ROOT, 'content/archive
 const allSegments = segmentRoots.flatMap(walk);
 
 function needsTagging(fm) {
+    // Presence of the `tags` key (even if empty) means we've taken a pass
+    // at this segment — skip on subsequent runs. Sentinel `tags: ["auto"]`
+    // explicitly requests a re-tag.
     const t = fm.tags;
-    if (!t) return true;
-    if (Array.isArray(t)) {
-        if (t.length === 0) return true;
-        if (t.length === 1 && t[0] === 'auto') return true;
-        return false;
-    }
-    return true;
+    if (t === undefined) return true;
+    if (Array.isArray(t) && t.length === 1 && t[0] === 'auto') return true;
+    return false;
 }
 
 // Parse + filter
@@ -227,19 +226,19 @@ for (const seg of targets) {
     }
     try {
         const { tags, usage } = await classify(seg);
-        // Validate every tag is in vocab (belt + suspenders vs. enum).
+        // Vocab is the only quality gate. Whatever the model proposes that's
+        // in-vocab gets written, even if that's 0 or 1 tag — segments that
+        // don't fit the taxonomy shouldn't be skipped (they'd just keep
+        // getting re-attempted on every run).
         const clean = tags.filter((t) => vocabSet.has(t));
-        if (clean.length < 3) {
-            console.warn(`  skipped ${rel} — model returned too few in-vocab tags`);
-            continue;
-        }
         seg.parsed.data.tags = clean;
         const next = matter.stringify(seg.parsed.content, seg.parsed.data, matterOpts);
         fs.writeFileSync(seg.file, next);
         tagged++;
         totalIn += usage.inputTokens || usage.promptTokens || 0;
         totalOut += usage.outputTokens || usage.completionTokens || 0;
-        console.log(`tagged ${rel} → [${clean.join(', ')}]`);
+        const tail = clean.length ? `→ [${clean.join(', ')}]` : `→ [] (no in-vocab tags)`;
+        console.log(`tagged ${rel} ${tail}`);
     } catch (e) {
         console.warn(`  error on ${rel}: ${e.message}`);
     }

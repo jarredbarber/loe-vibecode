@@ -4,13 +4,168 @@ layout: layouts/base.njk
 <div class="body">
     <div class="body_resize">
         <div class="article-content">
-            <h1>#{{ tag.name }}</h1>
-            <p class="speaker-blurb">
-                {{ tag.count }} segment{% if tag.count != 1 %}s{% endif %}
-                tagged with <em>{{ tag.name }}</em> on <em>Living on Earth</em>.
-            </p>
+            <h1 class="tag-header">
+                Tag: <span class="tag-name">#{{ tag.name }}</span>
+                <small class="tag-count-inline">— {{ tag.count }} segment{% if tag.count != 1 %}s{% endif %} on <em>Living on Earth</em></small>
+            </h1>
+            <style>
+                .tag-header .tag-count-inline {
+                    font-size: 0.5em;
+                    color: #888;
+                    font-weight: normal;
+                    margin-left: 0.4em;
+                    white-space: nowrap;
+                }
+            </style>
+
+            {# Frequency-over-time sparkline.
+               - Year buckets by default; falls back to monthly buckets when
+                 the year span is too narrow to be visually informative
+                 (helpful right now — archive isn't tagged yet).
+               - X-axis starts at the earliest tagged period, not 1991.
+               - Bars are anchor links to the corresponding period section
+                 below; clicking jumps + highlights.
+               - Y-axis labels the peak; small + unobtrusive overall. #}
+            {% if tag.count >= 5 and tag.yearCountsPeak %}
+            {% set _spanYears = tag.yearCountsLast - tag.yearCountsFirst %}
+            {% set _useMonth = _spanYears < 3 %}
+            {% set _series = tag.monthCountsWithOffset if _useMonth else tag.yearCounts %}
+            {% set _peak = tag.monthCountsPeak if _useMonth else tag.yearCountsPeak %}
+            {% set _spanUnits = tag.monthCountsSpan if _useMonth else _spanYears %}
+            {% set _periods = _spanUnits + 1 %}
+
+            <style>
+                /* Match the .featured-show callout's width: 800px max,
+                   100% otherwise, centered. Means the chart always feels
+                   like a peer of the show-page hero rather than a small
+                   accent that's narrower than the text. */
+                .tag-sparkline {
+                    box-sizing: border-box;
+                    width: 100%;
+                    max-width: 800px;
+                    margin: 1.5em auto 0.25em;
+                    padding: 0 8px;
+                }
+                /* Grid (not flex) because flex with an intrinsic-sized SVG
+                   child sometimes resolves the bars column to the SVG's
+                   default 300px instead of the remaining row width. Grid
+                   with `1fr` is unambiguous. */
+                .tag-sparkline-row {
+                    display: grid;
+                    grid-template-columns: 28px 1fr;
+                    align-items: stretch;
+                    column-gap: 6px;
+                    height: 84px;
+                }
+                .tag-sparkline-yaxis {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    font-size: 11px;
+                    color: #777;
+                    font-family: 'Space Mono', monospace;
+                    padding-right: 4px;
+                    border-right: 1px solid #d5d8d2;
+                }
+                .tag-sparkline-bars {
+                    /* Explicit height so the inline SVG resolves
+                       height:100% reliably. Without this the SVG was
+                       falling back to its intrinsic 150px ratio. */
+                    height: 84px;
+                    min-width: 0;
+                    border-bottom: 1px solid #c5c8c2;
+                }
+                .tag-sparkline-bars svg {
+                    display: block;
+                    width: 100%;
+                    height: 84px;
+                }
+                .tag-sparkline-bar {
+                    fill: #8bb04d;
+                    transition: fill 0.15s;
+                    cursor: pointer;
+                }
+                .tag-sparkline-bar:hover { fill: #6a8a3f; }
+                .tag-sparkline-xaxis {
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 11px;
+                    color: #777;
+                    font-family: 'Space Mono', monospace;
+                    padding-left: 34px; /* yaxis column + column-gap */
+                    margin: 4px 0 0;
+                }
+                .tag-sparkline-caption {
+                    font-size: 0.85em;
+                    color: var(--muted-fg, #777);
+                    font-style: italic;
+                    margin: 0.5em auto 0.1em;
+                    text-align: center;
+                    line-height: 1.3;
+                }
+                .tag-period-heading {
+                    font-size: 1.05em;
+                    color: #555;
+                    margin: 1em 0 0.25em;
+                    border-bottom: 1px solid #e5e8e3;
+                    padding-bottom: 0.15em;
+                }
+            </style>
+            <div class="tag-sparkline">
+                <div class="tag-sparkline-row">
+                    <div class="tag-sparkline-yaxis" aria-hidden="true">
+                        <span>{{ _peak }}</span>
+                        <span>0</span>
+                    </div>
+                    <div class="tag-sparkline-bars">
+                        {# viewBox uses simple 0-100 coords; preserveAspectRatio
+                           none lets bars stretch horizontally to whatever width
+                           the container is. Heights in viewBox are 0-100; each
+                           bar's height = (count/peak)*100. #}
+                        <svg viewBox="0 0 {{ _periods }} 100" preserveAspectRatio="none"
+                            xmlns="http://www.w3.org/2000/svg" role="img"
+                            aria-label="Segments tagged {{ tag.name }} over time">
+                            {% for d in _series %}
+                            {% set _offset = d.offset if _useMonth else (d.year - tag.yearCountsFirst) %}
+                            {% set _h = (d.count / _peak) * 100 %}
+                            {% set _y = 100 - _h %}
+                            {% set _label = d.month if _useMonth else (d.year | string) %}
+                            {% set _anchor = (d.month | string).slice(0, 4) if _useMonth else (d.year | string) %}
+                            {% set _tooltip = _label + ': ' + d.count + (' segment' if d.count == 1 else ' segments') %}
+                            <a href="#period-{{ _anchor }}" title="{{ _tooltip }}">
+                                <rect class="tag-sparkline-bar" x="{{ _offset + 0.1 }}" y="{{ _y }}" width="0.8" height="{{ _h }}" />
+                            </a>
+                            {% endfor %}
+                        </svg>
+                    </div>
+                </div>
+                {% if _series.length %}
+                {% set _firstLabel = _series[0].month if _useMonth else (_series[0].year | string) %}
+                {% set _lastLabel = _series[_series.length - 1].month if _useMonth else (_series[_series.length - 1].year | string) %}
+                <div class="tag-sparkline-xaxis" aria-hidden="true">
+                    <span>{{ _firstLabel }}</span>
+                    {% if _firstLabel != _lastLabel %}<span>{{ _lastLabel }}</span>{% endif %}
+                </div>
+                {% endif %}
+                <p class="tag-sparkline-caption"><em>Tag occurrences over time</em></p>
+            </div>
+            {% endif %}
+
+            {# Segments list, grouped by year — month-granularity in the chart
+               would be too noisy as a list of headings. Each year section's
+               anchor matches the chart's bar link target. #}
+            {% set _grpFmt = '%Y' %}
+            {% set _prevGroup = '' %}
             <ul class="archive-list">
                 {% for seg in tag.segments %}
+                {% set _group = seg.data.date | strftime(_grpFmt) %}
+                {% if _group != _prevGroup %}
+                {% if _prevGroup != '' %}</ul>{% endif %}
+                <h3 class="tag-period-heading" id="period-{{ _group }}">{{ _group }}</h3>
+                <ul class="archive-list">
+                {% set _prevGroup = _group %}
+                {% endif %}
                 <li>
                     <span class="archive-date">
                         <a href="{{ site.url }}{{ seg.url }}">{{ seg.data.date | strftime('%B %d, %Y') }}</a>:

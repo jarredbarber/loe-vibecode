@@ -1,13 +1,16 @@
 ---
 title: EPA Cancels Climate Justice Grant
 slug: epa-cancels-climate-justice-grant
-date: '2025-05-23'
+date: 2025-05-23
 category: Segments
 order: '4'
 megaphone_id: LOE8779019608
 image_url: https://loe.org/content/2025-05-23/AF_landforce.jpg
 image_caption: 'Landforce crews pulled weeds and dug holes for new trees in April 2025 in front of the Braddock Civic Center near Pittsburgh. (Photo: Julie Grant, The Allegheny Front)'
 summary: Last year, a nonprofit group in Pittsburgh, Pennsylvania was awarded a large federal grant as part of a $2 billion climate justice program through the Inflation Reduction Act. But now that climate and environmental justice work are non grata at the federal government, their grant has evaporated. The Allegheny Front’s Julie Grant reports.
+tags:
+  - environmental-justice
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00021&segmentID=4 -->
 

@@ -1,4 +1,4 @@
-name: Deploy site
+name: Deploy to staging
 
 # Two-tier deploy:
 #   - push to `main` → Cloudflare Pages (staging, https://loe-staging.pages.dev)

@@ -1,13 +1,17 @@
 ---
 title: America's Rural Sanitation Crisis
 slug: americas-rural-sanitation-crisis
-date: '2025-07-11'
+date: 2025-07-11
 category: Segments
 order: '3'
 megaphone_id: LOE4315143570
 image_url: https://loe.org/content/2025-07-11/CCF_holyground.jpg
 image_caption: 'Catherine Coleman Flowers’ recent book is Holy Ground: On Activism, Environmental Justice, and Finding Hope. (Photo: Spiegel & Grau)'
 summary: 'About a quarter of US homes use private septic systems, which can run you thousands of dollars. And more than a million people in America today are living without indoor plumbing, too often in appalling, unhealthy conditions. Catherine Coleman Flowers is working to change that. She is the founder of the Center for Rural Enterprise and Environmental Justice and has published a collection of essays called, Holy Ground: On Activism, Environmental Justice, and Finding Hope. She joins Host Steve Curwood to talk about her work to help rural families across America lead healthier and wealthier lives by improving sanitation.'
+tags:
+  - water-pollution
+  - environmental-justice
+  - rural-communities
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00028&segmentID=3 -->
 

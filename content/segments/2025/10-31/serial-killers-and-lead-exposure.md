@@ -1,13 +1,17 @@
 ---
 title: Serial Killers and Lead Exposure
 slug: serial-killers-and-lead-exposure
-date: '2025-10-31'
+date: 2025-10-31
 category: Segments
 order: '3'
 megaphone_id: LOE5440212954
 image_url: https://loe.org/content/2025-10-31/MURDERLAND_cover.jpg
 image_caption: 'Caroline Fraser’s newest book, Murderland: Crime and Bloodlust in the Time of Serial Killers. (Photo: Courtesy of Caroline Fraser)'
 summary: 'The Pacific Northwest of the US harbored a serial killer hotspot of sorts in the 1970s, associated with the neurotoxin lead. Seattle-born author Caroline Fraser explores this link in her book Murderland: Crime and Bloodlust in the Time of Serial Killers. She joins Host Steve Curwood to discuss how dangerously high lead exposure from smelters and gasoline may have led to the increase of violence and murders in the region.'
+tags:
+  - chemical-contamination
+  - public-health
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=25-P13-00044&segmentID=3 -->
 

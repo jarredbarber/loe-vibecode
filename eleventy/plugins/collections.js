@@ -177,6 +177,8 @@ module.exports = function (eleventyConfig) {
             // loops (Nunjucks {% set %} inside {% for %} doesn't propagate).
             // Month bucketing is a fallback for sparse archives — used when
             // the year span is too narrow to be visually informative.
+            // yearCounts/monthCounts: { count, url } where url is the newest segment in the bucket.
+            // Segments are already sorted newest-first so first-seen per key = newest.
             const yearCounts = new Map();
             const monthCounts = new Map();
             for (const s of entry.segments) {
@@ -191,13 +193,17 @@ module.exports = function (eleventyConfig) {
                     if (d.length >= 7) month = d.slice(0, 7);
                 }
                 if (Number.isFinite(year)) {
-                    yearCounts.set(year, (yearCounts.get(year) || 0) + 1);
+                    const prev = yearCounts.get(year);
+                    yearCounts.set(year, { count: (prev ? prev.count : 0) + 1, url: prev ? prev.url : s.url });
                 }
-                if (month) monthCounts.set(month, (monthCounts.get(month) || 0) + 1);
+                if (month) {
+                    const prev = monthCounts.get(month);
+                    monthCounts.set(month, { count: (prev ? prev.count : 0) + 1, url: prev ? prev.url : s.url });
+                }
             }
             const yc = [...yearCounts.entries()]
                 .sort((a, b) => a[0] - b[0])
-                .map(([year, count]) => ({ year, count }));
+                .map(([year, { count, url }]) => ({ year, count, url }));
             entry.yearCounts = yc;
             entry.yearCountsPeak = yc.reduce((m, x) => Math.max(m, x.count), 0);
             entry.yearCountsFirst = yc.length ? yc[0].year : null;
@@ -205,7 +211,7 @@ module.exports = function (eleventyConfig) {
 
             const mc = [...monthCounts.entries()]
                 .sort((a, b) => (a[0] < b[0] ? -1 : 1))
-                .map(([month, count]) => ({ month, count }));
+                .map(([month, { count, url }]) => ({ month, count, url }));
             entry.monthCounts = mc;
             entry.monthCountsPeak = mc.reduce((m, x) => Math.max(m, x.count), 0);
             // Span in months between first and last (for x-axis offsets).

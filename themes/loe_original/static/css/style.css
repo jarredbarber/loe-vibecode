@@ -2529,9 +2529,12 @@ iframe {
     align-items: stretch;
     gap: 0;
 }
-/* editor-badges is already positioned fixed; inside toolbar, reset that */
+/* Editor badges pinned to top-right so they don't overlap the theme toggle */
 .staging-toolbar .editor-badges {
-    position: static;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
 }
 .theme-toggle {
     position: fixed;

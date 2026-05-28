@@ -181,3 +181,23 @@ html[data-theme="dark"] #zip-finder input {
     color: var(--text-dark) !important;
 }
 html[data-theme="dark"] #zip-finder-results .zip-note { color: var(--text-light) !important; }
+
+/* ─── Segment/show pills (speaker + tag) ─── */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .segment-pills .pill-speaker {
+        background: #2e2818 !important; border-color: #4a3e22 !important; color: #d4b87a !important; }
+    html:not([data-theme="light"]) .segment-pills .pill-tag {
+        background: #1e2a1e !important; border-color: #2e4230 !important; color: #9ecfbe !important; }
+    html:not([data-theme="light"]) .tag-pill {
+        background: #1e2a1e !important; border-color: #2e4230 !important; color: #9ecfbe !important; }
+    html:not([data-theme="light"]) .tag-pill.empty {
+        background: #1e1e1e !important; color: var(--text-lighter) !important; }
+}
+html[data-theme="dark"] .segment-pills .pill-speaker {
+    background: #2e2818 !important; border-color: #4a3e22 !important; color: #d4b87a !important; }
+html[data-theme="dark"] .segment-pills .pill-tag {
+    background: #1e2a1e !important; border-color: #2e4230 !important; color: #9ecfbe !important; }
+html[data-theme="dark"] .tag-pill {
+    background: #1e2a1e !important; border-color: #2e4230 !important; color: #9ecfbe !important; }
+html[data-theme="dark"] .tag-pill.empty {
+    background: #1e1e1e !important; color: var(--text-lighter) !important; }

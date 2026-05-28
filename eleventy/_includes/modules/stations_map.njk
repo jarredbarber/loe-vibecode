@@ -306,7 +306,8 @@
                             clone.removeAttribute('class'); // Strip original classes to avoid interfering styles
 
                             // Force highlight styles directly
-                            clone.style.setProperty('fill', '#88BDBD', 'important');
+                            const hlColor = getComputedStyle(document.documentElement).getPropertyValue('--map-highlight').trim() || '#88BDBD';
+                            clone.style.setProperty('fill', hlColor, 'important');
                             clone.style.setProperty('stroke', '#ffffff', 'important');
                             clone.style.setProperty('stroke-width', '1px', 'important');
                             clone.style.pointerEvents = 'none'; // Critical for anti-flicker

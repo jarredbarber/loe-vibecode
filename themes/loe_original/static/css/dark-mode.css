@@ -64,6 +64,7 @@ html[data-theme="dark"] {
     --music-cue-bg: rgba(127, 197, 179, 0.10);
     --music-cue-bg-hover: rgba(127, 197, 179, 0.16);
     --segment-divider: #2e3838;
+    --map-highlight: #5aaba0;
 }
 
 /* ─── Structural overrides (applied in both dark triggers) ─── */
@@ -201,3 +202,21 @@ html[data-theme="dark"] .tag-pill {
     background: #1e2a1e !important; border-color: #2e4230 !important; color: #9ecfbe !important; }
 html[data-theme="dark"] .tag-pill.empty {
     background: #1e1e1e !important; color: var(--text-lighter) !important; }
+
+/* ─── Stations SVG map: darker state fills on dark background ─── */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) #stations-map-container svg path:not(.borders):not([class*="separator"]) {
+        fill: #3a4a48 !important;
+    }
+    html:not([data-theme="light"]) #stations-map-container svg path.state-highlight,
+    html:not([data-theme="light"]) #stations-map-container svg circle.state-highlight {
+        fill: #5aaba0 !important;
+    }
+}
+html[data-theme="dark"] #stations-map-container svg path:not(.borders):not([class*="separator"]) {
+    fill: #3a4a48 !important;
+}
+html[data-theme="dark"] #stations-map-container svg path.state-highlight,
+html[data-theme="dark"] #stations-map-container svg circle.state-highlight {
+    fill: #5aaba0 !important;
+}

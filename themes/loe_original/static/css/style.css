@@ -10,6 +10,7 @@
 :root {
     /* Brand Colors */
     --primary-green: #2E5A4C;
+    --map-highlight: #88BDBD;
     /* Deep Forest Green - Used for main branding elements */
     --primary-green-dark: #1e3c32;
     /* Darker shade for hover states */

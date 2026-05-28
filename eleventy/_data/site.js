@@ -12,7 +12,5 @@ module.exports = {
     githubRepo: process.env.GITHUB_REPO || 'jarredbarber/loe-vibecode',
     githubBranch: process.env.GITHUB_BRANCH || 'main',
     target: process.env.DEPLOY_TARGET || 'staging',
-    // Dark mode (prefers-color-scheme) — disabled while the CSS has known
-    // bugs (issue filed). Set SITE_DARK_MODE=1 to enable when fixed.
-    darkMode: true, // staging assessment — revert before merging to live
+    darkMode: true,
 };

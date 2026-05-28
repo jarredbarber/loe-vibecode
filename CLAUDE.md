@@ -2,11 +2,24 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Critical Rules
+
+**Never merge or push to the `live` branch without explicit instruction from a human user.** The `live` branch deploys directly to production (vibingon.earth). Always stage on `main` first (deploys to loe-staging.pages.dev). Only merge main→live when the user explicitly asks.
+
 ## Project
 
-Static website for **Living on Earth** (https://vibingon.earth, source for loe.org content), built with **Eleventy (11ty)** and deployed to GitHub Pages via `.github/workflows/deploy.yml` on push to `main`.
+Static website for **Living on Earth** (https://vibingon.earth, source for loe.org content), built with **Eleventy (11ty)**.
 
-The project was originally Pelican; the migration to Eleventy is tracked in issue #2.
+## Deployment: Two-tier branch model
+
+| Branch | Target | URL |
+|--------|--------|-----|
+| `main` | Cloudflare Pages (staging) | https://loe-staging.pages.dev |
+| `live` | GitHub Pages (production) | https://vibingon.earth |
+
+Editor flow: CMS saves to `main` → preview on staging → PR `main → live` → live.
+
+The `refresh-recent-window.yml` workflow dispatches a staging deploy every Monday so the CMS date-range regex stays current even during quiet weeks.
 
 ## Commands
 
@@ -25,67 +38,82 @@ npm --prefix eleventy run incremental
 
 # Run golden tests
 npm test
+
+# Pre-publish show check (links/images/audio, deterministic)
+npm run check-show                       # latest show
+npm run check-show -- --date 2026-05-22  # specific date
+
+# LLM copyedit pass (advisory, ~5¢, requires GEMINI_API_KEY)
+npm run copyedit-check                       # latest show
+npm run copyedit-check -- --date 2026-05-22
+
+# Ingest pipeline (run from ingest/)
+cd ingest && npm run ingest -- emit --year 2026
+cd ingest && npm run ingest -- emit --year 1995 --force  # re-emit from cache
 ```
 
 Cold build of active content (2025+2026, ~500 pages): ~5s. Full build including the 1991-2024 archive (~12k pages): ~84s.
-
-Historical content lives at `content/archive/{shows,segments}/<year>/…`. Eleventy reads all of `content/` recursively so the archive builds and produces live URLs. Sveltia's `folder: content/shows` is an exact-path match — it does **not** recurse into `content/archive/shows/`, so the CMS stays scoped to current content.
-
-When active collections eventually overflow Sveltia's ~1k file ceiling, the fix is `git mv content/shows/<old-year> content/archive/shows/<old-year>` (and same for segments). See `content/admin/README.md` "Runbook: CMS getting slow" for details and the reason we don't dynamically scope `folder:` to the current year.
 
 ## Architecture
 
 ### Eleventy config (`eleventy/.eleventy.js`)
 
-- Input: `../content/` (shared content tree).
-- Output: `../_site_11ty/`.
+- Input: `../content/` (shared content tree). Output: `../_site_11ty/`.
 - Templates: Nunjucks (Jinja2-like syntax).
-- Custom URL scheme: articles render as `YYYY_MM_DD_<slug>.html` via the computed `permalink` — preserves the legacy loe.org URL structure inherited from Pelican.
-- Layout selection happens via `eleventyComputed.layout` derived from the existing Pelican frontmatter fields (`template:`, `category:`) so no per-file changes were needed during the migration.
+- Custom URL scheme: articles render as `YYYY_MM_DD_<slug>.html` via computed `permalink` — preserves legacy loe.org URL structure.
+- Layout selection via `eleventyComputed.layout` derived from Pelican-era frontmatter fields (`template:`, `category:`), so no per-file changes were needed during migration.
+- `eleventy/_data/recentWindow.js` — computes a rolling 4-month date regex at build time to scope CMS to recent content only (Sveltia crashes loading 12k entries).
 
 ### Plugins (`eleventy/plugins/`)
 
-- `shortcodes.js` — registers `{% audio %}` and `{% cue %}` shortcodes for inline audio players and stage-direction blocks.
+- `shortcodes.js` — `{% audio %}` and `{% cue %}` shortcodes for inline audio players and stage-direction blocks.
 - `filters.js` — Nunjucks filters: `strftime`, `ordinal`, `dayOrdinal`, `stripQuotes`, `currentTime`, `toContentRel`, `pathToCmsSlug`.
-- `collections.js` — `shows`, `segments`, `newsletters` collections + `segmentsForShow` filter that indexes segments by date for O(1) lookup.
-- `speaker-highlight.js` — Eleventy transform (cheerio-based) that wraps speaker labels in `<span class="speaker">`, groups them into `<div class="transcript-block">`, and converts `<p><img alt=...></p>` into `<figure><figcaption>`.
-
-### Templates (`eleventy/_includes/`)
-
-- `layouts/base.njk` — site shell, nav, editor badges.
-- `layouts/{article,show,page,newsletter_article}.njk` — per-content-type layouts.
-- `modules/_article_header.njk` — shared header block (title, date, image, megaphone iframe).
-- `modules/show-segment.njk` — segment card on show pages.
-- `modules/stations_map.njk` — interactive US stations map.
-
-Direct templates (`content/{index,archives,newsletter}.njk`) live in `content/` as `.njk` files so Eleventy renders them as standalone pages.
-
-### Ingest pipeline (`ingest/`)
-
-TypeScript pipeline that scrapes loe.org and emits markdown into `content/`. See `INGEST.md`.
+- `collections.js` — `shows`, `segments`, `newsletters` collections + `segmentsForShow` filter (indexes segments by date for O(1) lookup).
+- `speaker-highlight.js` — cheerio transform that wraps speaker labels in `<span class="speaker">`, groups them into `<div class="transcript-block">`, and converts `<p><img alt=...></p>` into `<figure><figcaption>`.
 
 ### Content model
 
 - `content/shows/<year>/<MM-DD>/show.md` — episode cover page; `template: show`, `category: Shows`.
-- `content/segments/<year>/<MM-DD>/<slug>.md` — individual segments, paired with their show by date via the `segmentsForShow` filter at render time.
+- `content/segments/<year>/<MM-DD>/<slug>.md` — individual segments, paired to their show by date via `segmentsForShow`.
 - `content/newsletters/<YYYY-MM-DD>-<slug>.md` — weekly newsletter.
 - `content/pages/<slug>.md` — standalone pages (about, stations, etc.).
-- `archive/{shows,segments}/<year>/…` — historical content (1991-2024), in-repo but not in the build path.
+- `content/archive/{shows,segments}/<year>/…` — historical 1991-2024 content; built and deployed but not CMS-visible.
 - `megaphone_id` frontmatter drives podcast embed rendering.
+
+When editing markdown, preserve frontmatter fields: `title`, `date`, `category`, `template`, `megaphone_id`, `image_url`, `image_caption`, `summary`, `order`.
+
+Historical content lives at `content/archive/{shows,segments}/<year>/…`. When active collections overflow Sveltia's ~1k file ceiling, fix: `git mv content/shows/<old-year> content/archive/shows/<old-year>`. See `content/admin/README.md` "Runbook: CMS getting slow".
 
 ### Tests (`tests/`)
 
-`tests/test_render.mjs` — node:test + cheerio golden tests. Each test asserts a specific invariant we've broken before. Fixture content lives in `tests/fixtures/content/`. Run with `npm test`.
+`tests/test_render.mjs` — node:test + cheerio golden tests. Each test asserts a specific invariant we've broken before. Fixture content lives in `tests/fixtures/content/`.
 
 ### CMS (`content/admin/`)
 
-Sveltia CMS at `/admin/` with OAuth (Cloudflare Worker proxy) or PAT fallback. See `content/admin/README.md`. Recent shows + segments only — older content stays accessible via direct GitHub edit. Preview = save in CMS → staging deploys to loe-staging.pages.dev in ~2 min.
+Sveltia CMS at `/admin/` with OAuth (Cloudflare Worker proxy at `auth/`) or PAT fallback. Scoped to recent content only via `recentWindow.js`. See `content/admin/README.md`.
 
-(A short-lived Python preview service at `loe-vibecode.fly.dev` is still deployed but unused — `fly apps destroy loe-vibecode` to clean up.)
+### Ingest pipeline (`ingest/`)
+
+TypeScript pipeline that scrapes loe.org and emits markdown into `content/`. Stages: `discover` → `fetch` (cached by URL SHA1) → `parse` → `emit`. Cache is durable; re-running `emit --force` never hits the network. See `INGEST.md` for full details.
+
+### Scripts (`scripts/`)
+
+- `check-show.mjs` — validates frontmatter shape, date/path alignment, megaphone_id format, and checks every image/audio/link URL 2xx. Runs in CI on every content push.
+- `copyedit-check.mjs` — LLM advisory pass (Gemini). Always exits 0. Runs in CI only on manual `workflow_dispatch`.
+- `tag-segments.mjs` — utility for tagging segments.
+
+## Infrastructure
+
+See `INFRA.md` for full service registry. Key services:
+
+- **GitHub Actions** — CI/CD (`deploy.yml`, `check-show.yml`, `refresh-recent-window.yml`).
+- **Cloudflare Pages** — staging hosting (`loe-staging` project, deploys from `main`).
+- **GitHub Pages** — production hosting (deploys from `live`).
+- **Cloudflare Worker** (`auth/`) — OAuth proxy for the CMS; source in `auth/src/index.js`.
+
+Secrets: `CLOUDFLARE_API_TOKEN` (wrangler deploy + pages), `GEMINI_API_KEY` (copyedit script). See `INFRA.md` for rotation/migration instructions.
 
 ## Conventions
 
-- When editing show/segment markdown, preserve frontmatter fields (`title`, `date`, `category`, `template`, `megaphone_id`, `image_url`, `image_caption`, `summary`, `order`) — templates and plugins read them by name.
-- Open work lives in GitHub Issues: <https://github.com/jarredbarber/loe-vibecode/issues>. Reference issue numbers in commit messages (`Closes #2`) and use `gh issue create` for new items.
+- Open work lives in GitHub Issues: <https://github.com/jarredbarber/loe-vibecode/issues>. Reference issue numbers in commit messages (`Closes #2`).
 - `_site_11ty/` is the build artifact — don't edit by hand.
-- The legacy Pelican stack (`site_config.py`, `plugins/`, `themes/loe_original/templates/`, `requirements.txt`, `scripts/scrape_*.py`) has been removed. Git tag `pre-eleventy-migration` marks the last commit before the migration if rollback is needed.

@@ -73,6 +73,77 @@
         padding-left: 20px;
     }
 
+    /* Hide the static panel on desktop hover-capable devices */
+    @media (hover: hover) and (min-width: 701px) {
+        #stations-list-display {
+            display: none;
+        }
+    }
+
+    /* Hovercard */
+    #map-hovercard {
+        position: fixed;
+        z-index: 1000;
+        background: var(--card-bg, #fff);
+        color: var(--text, #222);
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 4px 18px rgba(0,0,0,0.18);
+        padding: 14px 16px 12px 16px;
+        max-width: 280px;
+        min-width: 180px;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.12s;
+        font-size: 0.95em;
+    }
+
+    #map-hovercard.visible {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #map-hovercard h3 {
+        margin: 0 0 8px 0;
+        font-size: 1em;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 6px;
+        padding-right: 20px;
+    }
+
+    #map-hovercard ul {
+        margin: 0;
+        padding-left: 18px;
+    }
+
+    #map-hovercard li {
+        margin-bottom: 3px;
+    }
+
+    #map-hovercard-close {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.1em;
+        line-height: 1;
+        color: #888;
+        padding: 0;
+    }
+
+    #map-hovercard-close:hover {
+        color: #333;
+    }
+
+    /* Only show hovercard on desktop hover-capable devices */
+    @media not all and (hover: hover), (max-width: 700px) {
+        #map-hovercard {
+            display: none !important;
+        }
+    }
+
     #zip-finder {
         margin: 20px 0;
         padding: 12px 20px;
@@ -135,6 +206,12 @@
         <h3>Select a State</h3>
         <p>Tap or hover on a state to see available stations.</p>
     </div>
+</div>
+
+<!-- Floating hovercard for desktop -->
+<div id="map-hovercard" role="tooltip" aria-live="polite">
+    <button id="map-hovercard-close" aria-label="Close">&times;</button>
+    <div id="map-hovercard-content"></div>
 </div>
 
 <script id="loe-stations-data" type="application/json">{{ { stations: stations.stations, zipCoords: zipCoords } | dump | safe }}</script>
@@ -228,6 +305,66 @@
         const mapSvg = document.querySelector('#stations-map-container svg');
         const displayDiv = document.getElementById('stations-list-display');
 
+        // Hovercard elements
+        const hovercard = document.getElementById('map-hovercard');
+        const hovercardContent = document.getElementById('map-hovercard-content');
+        const hovercardClose = document.getElementById('map-hovercard-close');
+
+        // Detect desktop hover-capable environment
+        const isDesktopHover = () =>
+            window.matchMedia('(hover: hover) and (min-width: 701px)').matches;
+
+        let cardPinned = false;
+        let lastMouseX = 0;
+        let lastMouseY = 0;
+
+        function positionCard(x, y) {
+            const cardW = hovercard.offsetWidth || 280;
+            const cardH = hovercard.offsetHeight || 200;
+            const margin = 16;
+            const vw = window.innerWidth;
+            const vh = window.innerHeight;
+
+            let left = x + 14;
+            let top = y + 14;
+
+            if (left + cardW + margin > vw) left = x - cardW - 14;
+            if (top + cardH + margin > vh) top = y - cardH - 14;
+            if (left < margin) left = margin;
+            if (top < margin) top = margin;
+
+            hovercard.style.left = left + 'px';
+            hovercard.style.top = top + 'px';
+        }
+
+        function showHovercard(stateName, x, y) {
+            const html = stationMap[stateName]
+                ? `<h3>${stateName}</h3>${stationMap[stateName]}`
+                : `<h3>${stateName}</h3><p>No stations listed.</p>`;
+            hovercardContent.innerHTML = html;
+            hovercard.classList.add('visible');
+            positionCard(x, y);
+        }
+
+        function hideHovercard() {
+            hovercard.classList.remove('visible');
+            cardPinned = false;
+        }
+
+        if (hovercardClose) {
+            hovercardClose.addEventListener('click', function (e) {
+                e.stopPropagation();
+                hideHovercard();
+            });
+        }
+
+        // Click away dismisses pinned card
+        document.addEventListener('click', function (e) {
+            if (cardPinned && !hovercard.contains(e.target)) {
+                hideHovercard();
+            }
+        });
+
         if (mapSvg) {
             // Add ID to svg if missing for CSS specificity
             mapSvg.id = 'us-map-svg';
@@ -297,52 +434,70 @@
                         }
                     };
 
-                    const selectState = () => {
-                        const safeStateName = stateName.replace(/"/g, '\\"');
+                    const highlightState = (name) => {
+                        const safeStateName = name.replace(/"/g, '\\"');
                         const stateParts = mapSvg.querySelectorAll(`[data-state-name="${safeStateName}"]`);
 
                         clearHighlight();
 
                         stateParts.forEach(part => {
-                            // Create explicit clones (not <use>) to guarantee style override
-                            // <use> shadow DOM often resists styling if the original has classes
                             const clone = part.cloneNode(true);
-                            clone.removeAttribute('id'); // Avoid ID conflicts
-                            clone.removeAttribute('class'); // Strip original classes to avoid interfering styles
+                            clone.removeAttribute('id');
+                            clone.removeAttribute('class');
 
-                            // Force highlight styles directly
                             const hlColor = getComputedStyle(document.documentElement).getPropertyValue('--map-highlight').trim() || '#88BDBD';
                             clone.style.setProperty('fill', hlColor, 'important');
                             clone.style.setProperty('stroke', '#ffffff', 'important');
                             clone.style.setProperty('stroke-width', '1px', 'important');
-                            clone.style.pointerEvents = 'none'; // Critical for anti-flicker
-                            clone.classList.add('state_highlight'); // For good measure
+                            clone.style.pointerEvents = 'none';
+                            clone.classList.add('state_highlight');
 
                             highlightGroup.appendChild(clone);
                         });
-
-                        if (stationMap[stateName]) {
-                            displayDiv.innerHTML = `<h3>${stateName}</h3>${stationMap[stateName]}`;
-                        } else {
-                            displayDiv.innerHTML = `<h3>${stateName}</h3><p>No stations listed.</p>`;
-                        }
                     };
 
-                    // Hover for desktop pointer users.
-                    path.addEventListener('mouseenter', selectState);
-                    path.addEventListener('mouseleave', () => {
-                        // Only auto-clear on hover-out for fine-pointer devices;
-                        // on touch we want the selection to stick until the user
-                        // taps another state or outside the map.
-                        if (window.matchMedia('(hover: hover)').matches) {
-                            clearHighlight();
-                        }
+                    // Desktop hover
+                    path.addEventListener('mouseenter', function (e) {
+                        if (!isDesktopHover()) return;
+                        if (cardPinned) return; // don't hijack pinned card on hover
+                        highlightState(stateName);
+                        showHovercard(stateName, e.clientX, e.clientY);
+                        lastMouseX = e.clientX;
+                        lastMouseY = e.clientY;
                     });
 
-                    // Tap for touch users (and a sticky click on desktop too).
-                    path.addEventListener('click', (e) => {
+                    path.addEventListener('mousemove', function (e) {
+                        if (!isDesktopHover()) return;
+                        if (cardPinned) return;
+                        lastMouseX = e.clientX;
+                        lastMouseY = e.clientY;
+                        positionCard(e.clientX, e.clientY);
+                    });
+
+                    path.addEventListener('mouseleave', function () {
+                        if (!isDesktopHover()) return;
+                        if (cardPinned) return;
+                        clearHighlight();
+                        hideHovercard();
+                    });
+
+                    // Click handler
+                    path.addEventListener('click', function (e) {
                         e.stopPropagation();
-                        selectState();
+                        if (isDesktopHover()) {
+                            // Desktop: pin the hovercard
+                            highlightState(stateName);
+                            showHovercard(stateName, e.clientX, e.clientY);
+                            cardPinned = true;
+                        } else {
+                            // Mobile/touch: populate the static display div
+                            highlightState(stateName);
+                            if (stationMap[stateName]) {
+                                displayDiv.innerHTML = `<h3>${stateName}</h3>${stationMap[stateName]}`;
+                            } else {
+                                displayDiv.innerHTML = `<h3>${stateName}</h3><p>No stations listed.</p>`;
+                            }
+                        }
                     });
                 }
             });

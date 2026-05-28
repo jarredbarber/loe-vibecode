@@ -47,21 +47,21 @@
 </div>
 {% endif %}
 
-{% if summaryAboveImage and entry.summary %}
-<p>{{ entry.summary }}</p>
-{% endif %}
-
 {% if entry.banner_url or entry.image_url %}
-<figure class="header-image-container">
-    <img class="header-image" src="{{ entry.banner_url or entry.image_url }}" alt="{{ entry.title }}" />
+{# JS sets .landscape or .portrait on this figure after the image loads.
+   Landscape → full-width above summary. Portrait/square → float right, summary wraps. #}
+<figure class="header-image-container" id="hdr-fig-{{ entry.megaphone_id or 'main' }}">
+    <img class="header-image" id="hdr-img-{{ entry.megaphone_id or 'main' }}"
+         src="{{ entry.banner_url or entry.image_url }}" alt="{{ entry.title }}"
+         onload="(function(img){var fig=img.closest('figure');if(img.naturalWidth&&img.naturalHeight){fig.classList.add(img.naturalWidth/img.naturalHeight>1.2?'landscape':'portrait')}else{fig.classList.add('landscape')}})(this)" />
     {% if entry.image_caption %}
     <figcaption>{{ entry.image_caption }}</figcaption>
     {% endif %}
 </figure>
 {% endif %}
 
-{% if not summaryAboveImage and entry.summary %}
-<p>{{ entry.summary }}</p>
+{% if entry.summary %}
+<p class="show-header-summary">{{ entry.summary }}</p>
 {% endif %}
 
 {% if entry.megaphone_id %}

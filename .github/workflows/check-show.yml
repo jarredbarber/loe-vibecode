@@ -11,7 +11,7 @@ on:
   # Auto-run on content changes so the badge always reflects the latest
   # content state, not whatever stale run was last done manually.
   push:
-    branches: [main]
+    branches: [staging]
     paths:
       - 'content/shows/**'
       - 'content/segments/**'

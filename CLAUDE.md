@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Critical Rules
 
-**Never merge or push to the `live` branch without explicit instruction from a human user.** The `live` branch deploys directly to production (vibingon.earth). Always stage on `main` first (deploys to loe-staging.pages.dev). Only merge main→live when the user explicitly asks.
+**Never merge or push to the `live` branch without explicit instruction from a human user.** The `live` branch deploys directly to production (vibingon.earth). Always stage on `staging` first (deploys to loe-staging.pages.dev). Only merge staging→live when the user explicitly asks.
 
 ## Project
 
@@ -14,10 +14,10 @@ Static website for **Living on Earth** (https://vibingon.earth, source for loe.o
 
 | Branch | Target | URL |
 |--------|--------|-----|
-| `main` | Cloudflare Pages (staging) | https://loe-staging.pages.dev |
+| `staging` | Cloudflare Pages (staging) | https://loe-staging.pages.dev |
 | `live` | GitHub Pages (production) | https://vibingon.earth |
 
-Editor flow: CMS saves to `main` → preview on staging → PR `main → live` → live.
+Editor flow: CMS saves to `staging` → preview on staging → PR `staging → live` → live.
 
 The `refresh-recent-window.yml` workflow dispatches a staging deploy every Monday so the CMS date-range regex stays current even during quiet weeks.
 
@@ -107,7 +107,7 @@ TypeScript pipeline that scrapes loe.org and emits markdown into `content/`. Sta
 See `INFRA.md` for full service registry. Key services:
 
 - **GitHub Actions** — CI/CD (`deploy.yml`, `check-show.yml`, `refresh-recent-window.yml`).
-- **Cloudflare Pages** — staging hosting (`loe-staging` project, deploys from `main`).
+- **Cloudflare Pages** — staging hosting (`loe-staging` project, deploys from `staging`).
 - **GitHub Pages** — production hosting (deploys from `live`).
 - **Cloudflare Worker** (`auth/`) — OAuth proxy for the CMS; source in `auth/src/index.js`.
 

@@ -1,7 +1,7 @@
 name: Refresh recent-window pattern
 
 # eleventy/_data/recentWindow.js computes the CMS date-range regex at build
-# time. If a calendar month passes with no commits to main, the regex drifts
+# time. If a calendar month passes with no commits to staging, the regex drifts
 # and editors can't see new shows. This workflow dispatches the Deploy
 # workflow each week to regenerate the pattern.
 #
@@ -24,4 +24,4 @@ jobs:
       - name: Dispatch deploy workflow
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run deploy.yml --ref main --repo ${{ github.repository }}
+        run: gh workflow run deploy.yml --ref staging --repo ${{ github.repository }}

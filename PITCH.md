@@ -1,87 +1,84 @@
-# Why We Built a Modern Site for Living on Earth
+# Living on Earth — Website Rebuild: What We've Built and Why It Matters
 
-We are upgrading Living on Earth from `"The Old Way"` to `"The Modern Way"`. Here is why this matters to you.
+This document is a summary for the LOE editorial and management team. It covers what changed, what's new, and what it means for the show.
 
-## 1. Visualizing the Difference
+---
 
-**Imagine a user clicks a link to read a story...**
+## What Changed: From Dynamic to Static
 
-### 🔴 The Old Site (Dynamic)
+The old site (Pelican/Python) assembled pages on demand — every visitor triggered a server to query a database, render templates, and return a page. If the database had a problem, the site went down.
 
-It was a complex relay race every time someone visited a page.
+The new site (Eleventy/11ty) works differently. Pages are built once, before any visitor arrives, and served as plain files from a CDN. There is nothing to crash and nothing to hack. The site is hosted on GitHub Pages (production) and Cloudflare Pages (staging preview), both free tiers.
 
-```mermaid
-graph LR
-    User((User)) --Request--> Server[Server]
-    Server --Query--> Database[(Database)]
-    Database --Content--> Server
-    Server --Builds Page--> User
-    style Database fill:#ff9999,stroke:#333,stroke-width:2px
-```
+| | Old Site | New Site |
+| :--- | :--- | :--- |
+| **How it works** | Server builds each page on request | Pages pre-built, delivered instantly |
+| **Reliability** | Database outages break the site | No database, no downtime |
+| **Security** | Database + login surface exposed | No server-side attack surface |
+| **Hosting cost** | Paid server/database infrastructure | Free (GitHub Pages + Cloudflare) |
+| **Content format** | Locked in database rows | Plain text files (.md), fully portable |
+| **Preview workflow** | None | Staging branch auto-deploys to loe-staging.pages.dev |
 
-* **Process**: The server has to "wake up", ask the database for text, find the design templates, glue them together, and *then* send it to you.
-* **Result**: Slower, harder work for the server, and if the database has a hiccup, the whole site breaks.
+---
 
-### 🟢 The New Site (Static)
+## The Archive
 
-It is a simple hand-off. The work is already done.
+The rebuild includes the full 35-year archive: over 10,000 segments and 1,600 shows, going back to 1991. Every episode page, every transcript, every segment is indexed and reachable at a stable URL. Previously, older content existed but was not reliably discoverable. Now it all builds together.
 
-```mermaid
-graph LR
-    User((User)) --Request--> Server[Server]
-    Server --Delivers Page--> User
-    style Server fill:#99ff99,stroke:#333,stroke-width:2px
-```
+---
 
-* **Process**: The page was built once, text and design combined, before the user ever arrived. It's sitting there waiting.
-* **Result**: Instant. Reliable. Cannot "crash" because there are no moving parts.
+## Editing Experience
 
-## 2. Reliability (Oral Tradition vs. The Printed Book)
+Editors use **Sveltia CMS** at `/admin/`. It is a browser-based visual editor — no code, no markdown syntax required. Editors log in with their GitHub account, write in a rich-text interface, and publish. Saving in the CMS triggers an automatic staging deploy to `loe-staging.pages.dev` in about two minutes, so editors can preview before the change goes live.
 
-* **The Old Site (Oral Tradition)**: Like a storyteller recounting a tale from memory, the old server has to "remember" and assemble every page from scratch each time someone visits. If the storyteller gets tired or forgets a detail (database crash), the story stops. It is fragile and labor-intensive.
-* **The New Site (The Printed Book)**: We "print" the website once when we save our work. When a user visits, the page is already waiting for them, perfect every time. It cannot "crash" because there is no active effort required to show it. It just exists, solid and reliable.
+Every change is version-controlled in Git. Nothing is ever truly deleted — any change can be rolled back to any prior state.
 
-## 3. Speed
+---
 
-* **Then**: 🐢 **Slow.** The server had to build the page from scratch for every single visitor.
-* **Now**: 🐇 **Instant.** Because the pages are pre-built, they load immediately. This is crucial for listeners on mobile phones or slow connections.
+## AI Features
 
-## 4. Security
+This is the most significant new capability. Several AI-powered features run automatically, powered by Gemini.
 
-* **Then**: 🔓 **Vulnerable.** The old site had login screens and databases that hackers could try to break into.
-* **Now**: 🔒 **Unhackable.** The new site has no database and no public login screen. It is just read-only text files. There is nothing to hack.
+### Tag taxonomy (auto-classification)
 
-## 5. Ownership
+We defined a controlled vocabulary of 90 topic tags (e.g. "climate policy", "biodiversity", "environmental justice"). Every segment in the archive — all 10,000+ — has been classified against this taxonomy automatically. New segments are classified on publish.
 
-* **Then**: ☁️ **trapped.** Your content was locked inside a complex database format. Moving to a new web host was a massive, expensive project.
-* **Now**: 📂 **Freedom.** Every story is a simple text file (`.md`) that you can see, read, and back up on your own computer. You own your data forever. You can move to any web host in the world in 10 minutes.
+The result: `/tags.html` is a full topic index of the show's 35-year output. Each tag has its own page listing every relevant segment, with a frequency sparkline showing how coverage of that topic has changed over the decades.
 
-## 6. Cost
+### Speaker pages (auto-generated from transcripts)
 
-* **Then**: 💰 **Expensive.** You paid for servers to run the database and the complex code 24/7.
-* **Now**: 🆓 **Free.** Because the site is just simple files, it costs almost nothing to host.
+Every recurring host, reporter, and guest who appears in transcripts gets an auto-generated page at `/people/<name>.html`. These pages are built from transcript analysis — no manual data entry required. Editors do not maintain a "people database"; the site derives it from the content itself.
 
-## 7. The Editor Experience
+### Discovery pills on every page
 
-What does this feel like for the person writing the stories?
+Each segment and show page now shows clickable speaker names and topic tags as inline "pills." A reader interested in a topic or a particular voice can navigate directly to everything else they've appeared in.
 
-* **The Old Way (HTML Forms)**:
-  * **"Code" Heavy**: You often had to paste raw HTML code (`<p>paragraph</p><br>`) into a small text box. One missing bracket could break the page layout.
-  * **Online Only**: You had to be logged into the website to work. If your internet flickered while saving, you lost your work.
-  * **No Undo**: If you accidentally deleted a paragraph and clicked "Save", it was gone forever.
+### Pre-publish AI copyedit pass
 
-* **The New Way (Markdown & Git)**:
-  * **Human Readable**: You write in simple text. You use simple stars for **bold** or *italics*. It is as easy as writing an email.
-  * **Work Anywhere**: You can write your stories offline on your laptop, on a plane, or in your favorite text editor.
-  * **Time Travel**: Every time you save, we keep a permanent snapshot. You can go back to exactly how the file looked yesterday, last month, or last year. You can never "ruin" the site.
+Every content push triggers an automated Gemini review that checks for typos, broken speaker labels (mismatched names between frontmatter and transcript), and frontmatter issues (missing fields, wrong date formats). Problems are flagged before the change goes live. This runs silently in the background — editors just see a normal publish flow, but the AI catches common errors before they reach readers.
+
+### "This week in LOE history" widget
+
+The homepage includes a widget that surfaces archive content from the same calendar week in prior years. It runs automatically — no curation required. It gives returning visitors a reason to explore older content and highlights the depth of the archive.
+
+---
+
+## Listener Features
+
+- **Zip-code station locator** — enter a zip code, get the nearest affiliate with real distance (Haversine calculation)
+- **Reading and listening time estimates** on segment cards
+- **Clickable inline audio cues** in transcripts — jump to a specific moment in an episode
+- **Dark mode** — follows the OS setting, with a manual toggle
+- **Mobile-responsive** throughout
+
+---
 
 ## Summary
 
-| Feature | Old Site | New Site |
-| :--- | :--- | :--- |
-| **Complexity** | ❌ High (Fragile) | ✅ Low (Rock Solid) |
-| **Speed** | ❌ Slower | ✅ Instant |
-| **Security** | ❌ Vulnerable | ✅ Secure |
-| **Cost** | ❌ High | ✅ Free / Low |
-| **Control** | ❌ Vendor Lock-in | ✅ 100% Ownership |
-| **Editing** | ❌ Raw Code / Risky | ✅ Human Text / Undo |
+The rebuild delivers three things:
+
+1. **A more reliable, lower-cost infrastructure** — the site cannot go down from a database failure, and hosting is effectively free.
+
+2. **A better editing workflow** — visual CMS, staging previews, version history, and automated quality checks.
+
+3. **New discoverability for a 35-year archive** — AI-driven tagging, speaker pages, and a history widget turn the archive from a static record into something navigable and alive.

@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://vibingon.earth"><img src="https://raw.githubusercontent.com/jarredbarber/loe-vibecode/main/themes/loe_original/static/img/logo.png" alt="Living on Earth" width="400"></a>
+  <a href="https://vibingon.earth"><img src="https://raw.githubusercontent.com/jarredbarber/loe-vibecode/staging/static/img/logo.png" alt="Living on Earth" width="400"></a>
 
   [![Latest show web check](https://github.com/jarredbarber/loe-vibecode/actions/workflows/check-show.yml/badge.svg)](https://github.com/jarredbarber/loe-vibecode/actions/workflows/check-show.yml)
 </div>

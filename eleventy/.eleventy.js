@@ -15,7 +15,7 @@
 const path = require('node:path');
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy({ '../themes/loe_original/static': 'theme' });
+    eleventyConfig.addPassthroughCopy({ '../static': 'theme' });
     eleventyConfig.addPassthroughCopy({ '../content/images': 'images' });
     eleventyConfig.addPassthroughCopy({ '../content/extra': '.' });
     // admin/index.html + README copy through; config.njk is templated
@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.ignores.add('../content/images/**');
 
     // Watch theme files so dev server reloads on CSS/JS changes.
-    eleventyConfig.addWatchTarget('../themes/loe_original/');
+    eleventyConfig.addWatchTarget('../static/');
 
     // Plugin ports.
     require('./plugins/shortcodes.js')(eleventyConfig);

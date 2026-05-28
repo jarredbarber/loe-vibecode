@@ -33,8 +33,8 @@ backend:
   base_url: https://loe-auth.hector-ea.workers.dev
   auth_endpoint: auth
 
-site_url: https://vibingon.earth
-display_url: https://vibingon.earth
+site_url: {% endraw %}{{ site.url or 'https://vibingon.earth' }}{% raw %}
+display_url: {% endraw %}{{ site.url or 'https://vibingon.earth' }}{% raw %}
 logo_url: /theme/img/logo.png
 
 media_folder: content/images

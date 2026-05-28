@@ -25,40 +25,43 @@
         rel="stylesheet">
 </head>
 <body>
+    {# Staging-only toolbar: editor badges + deploy badge #}
     {% if site.target != 'prod' %}
     <div class="staging-toolbar">
-    <div class="editor-badges" hidden>
-        <a class="editor-badge editor-badge-cms"
-           href="{{ site.url }}/admin/{% if _cms.collection and _cms.slug %}#/collections/{{ _cms.collection }}/entries/{{ _cms.slug }}{% elif _cms.collection %}#/collections/{{ _cms.collection }}{% endif %}"
-           target="_blank" rel="noopener"
-           title="Open this entry in the CMS">✎ Edit in CMS</a>
-        <a class="editor-badge editor-badge-gh"
-           href="{% if _src %}https://github.com/{{ site.githubRepo }}/edit/{{ site.githubBranch }}/content/{{ _src }}{% else %}https://github.com/{{ site.githubRepo }}{% endif %}"
-           target="_blank" rel="noopener"
-           title="{% if _src %}Open this entry's markdown file on GitHub{% else %}Open the repo on GitHub{% endif %}">&lt;/&gt; {% if _src %}Edit on GitHub{% else %}Repo on GitHub{% endif %}</a>
+        <div class="editor-badges" hidden>
+            <a class="editor-badge editor-badge-cms"
+               href="{{ site.url }}/admin/{% if _cms.collection and _cms.slug %}#/collections/{{ _cms.collection }}/entries/{{ _cms.slug }}{% elif _cms.collection %}#/collections/{{ _cms.collection }}{% endif %}"
+               target="_blank" rel="noopener"
+               title="Open this entry in the CMS">✎ Edit in CMS</a>
+            <a class="editor-badge editor-badge-gh"
+               href="{% if _src %}https://github.com/{{ site.githubRepo }}/edit/{{ site.githubBranch }}/content/{{ _src }}{% else %}https://github.com/{{ site.githubRepo }}{% endif %}"
+               target="_blank" rel="noopener"
+               title="{% if _src %}Open this entry's markdown file on GitHub{% else %}Open the repo on GitHub{% endif %}">&lt;/&gt; {% if _src %}Edit on GitHub{% else %}Repo on GitHub{% endif %}</a>
+        </div>
+        <a class="deploy-badge" href="https://github.com/{{ site.githubRepo }}/actions/workflows/deploy.yml"
+           target="_blank" rel="noopener" title="Deploy workflow status">
+            <img src="https://github.com/{{ site.githubRepo }}/actions/workflows/deploy.yml/badge.svg?branch=main"
+                 alt="Deploy status" style="height:20px;display:block;" />
+        </a>
+        <script>
+            try {
+                const u = localStorage.getItem('sveltia-cms.user');
+                if (u && JSON.parse(u).token) {
+                    document.body.classList.add('editor-mode');
+                    const badges = document.querySelector('.editor-badges');
+                    if (badges) badges.removeAttribute('hidden');
+                }
+            } catch (_) { /* ignore */ }
+        </script>
     </div>
-    <a class="deploy-badge" href="https://github.com/{{ site.githubRepo }}/actions/workflows/deploy.yml"
-       target="_blank" rel="noopener" title="Deploy workflow status">
-        <img src="https://github.com/{{ site.githubRepo }}/actions/workflows/deploy.yml/badge.svg?branch=main"
-             alt="Deploy status" style="height:20px;display:block;" />
-    </a>
+    {% endif %}
+    {# Theme toggle — on all environments #}
     <div class="theme-toggle" aria-label="Theme">
         <button class="theme-btn" data-theme-val="light" title="Light mode">☀</button>
         <button class="theme-btn" data-theme-val="auto"  title="Auto (follow OS)">⬤</button>
         <button class="theme-btn" data-theme-val="dark"  title="Dark mode">☾</button>
     </div>
-    </div>{# /staging-toolbar #}
     <script>
-        try {
-            const u = localStorage.getItem('sveltia-cms.user');
-            if (u && JSON.parse(u).token) {
-                document.body.classList.add('editor-mode');
-                const badges = document.querySelector('.editor-badges');
-                if (badges) badges.removeAttribute('hidden');
-            }
-        } catch (_) { /* ignore */ }
-
-        // Theme toggle
         (function() {
             function applyTheme(t) {
                 if (t === 'auto') document.documentElement.removeAttribute('data-theme');
@@ -78,7 +81,6 @@
             });
         })();
     </script>
-    {% endif %}
     <div class="main">
         <div class="header_resize">
             <div class="header">

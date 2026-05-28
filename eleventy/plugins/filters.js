@@ -206,6 +206,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('listeningTime', listeningTime);
     eleventyConfig.addFilter('speakersForSegment', speakersForSegment);
     eleventyConfig.addFilter('aggregatedPillsForShow', aggregatedPillsForShow);
+    eleventyConfig.addFilter('yearCountsToBarLinks', (yearCounts) =>
+        Object.fromEntries(yearCounts.map(({ year }) => [year, `#period-${year}`]))
+    );
 
     // Day-of-month with ordinal — e.g. {{ article.date | dayOrdinal }} → "22nd".
     eleventyConfig.addFilter('dayOrdinal', (value) => {

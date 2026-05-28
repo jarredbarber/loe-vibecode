@@ -28,9 +28,7 @@ layout: layouts/base.njk
                  below; clicking jumps + highlights.
                - Y-axis labels the peak; small + unobtrusive overall. #}
             {% if tag.count >= 5 and tag.yearCountsPeak %}
-            {% set _barLinks = {} %}
-            {% for d in tag.yearCounts %}{% set _ = _barLinks.__setitem__(d.year, '#period-' + (d.year | string)) %}{% endfor %}
-            {{ sparkline(tag.yearCountsDict, tag.yearCountsFirst, tag.yearCountsLast, tag.yearCountsPeak, "Tag occurrences over time", _barLinks) }}
+            {{ sparkline(tag.yearCountsDict, tag.yearCountsFirst, tag.yearCountsLast, tag.yearCountsPeak, "Tag occurrences over time", tag.yearCounts | yearCountsToBarLinks) }}
             {% endif %}
 
             <style>

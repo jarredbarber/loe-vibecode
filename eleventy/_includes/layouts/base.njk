@@ -37,6 +37,11 @@
            target="_blank" rel="noopener"
            title="{% if _src %}Open this entry's markdown file on GitHub{% else %}Open the repo on GitHub{% endif %}">&lt;/&gt; {% if _src %}Edit on GitHub{% else %}Repo on GitHub{% endif %}</a>
     </div>
+    <a class="deploy-badge" href="https://github.com/{{ site.githubRepo }}/actions/workflows/deploy.yml"
+       target="_blank" rel="noopener" title="Deploy workflow status">
+        <img src="https://github.com/{{ site.githubRepo }}/actions/workflows/deploy.yml/badge.svg?branch=main"
+             alt="Deploy status" style="height:20px;display:block;" />
+    </a>
     <div class="theme-toggle" aria-label="Theme">
         <button class="theme-btn" data-theme-val="light" title="Light mode">☀</button>
         <button class="theme-btn" data-theme-val="auto"  title="Auto (follow OS)">⬤</button>

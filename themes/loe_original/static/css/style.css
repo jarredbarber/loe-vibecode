@@ -2639,3 +2639,11 @@ iframe {
     /* Hide the sidebar year list on mobile — replaced by inline nav */
     .archives-page .sidebar { display: none; }
 }
+
+.deploy-badge {
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    background: #1a1a1a;
+    text-decoration: none;
+}

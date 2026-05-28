@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
+{% from "modules/sparkline.njk" import render as sparkline %}
 <div class="body">
     <div class="body_resize">
         <div class="article-content">
@@ -12,28 +13,9 @@ layout: layouts/base.njk
                 from {{ speaker.earliestYear }} to {{ speaker.latestYear }}{% endif %}.
             </p>
             {% if speaker.yearCounts %}
-            {% set _years = [] %}
-            {% for y, c in speaker.yearCounts %}{% set _ = _years.push({year: y, count: c}) %}{% endfor %}
             {% set _max = 1 %}
             {% for y, c in speaker.yearCounts %}{% if c > _max %}{% set _max = c %}{% endif %}{% endfor %}
-            <figure style="margin: 0.5em 0 1.2em;">
-                <svg class="sparkline" viewBox="0 0 {{ (speaker.latestYear - speaker.earliestYear + 1) * 30 }} 84" style="width:min(100%,{{ (speaker.latestYear - speaker.earliestYear + 1) * 30 }}px);height:84px;display:block;">
-                {% for yr in range(speaker.earliestYear, speaker.latestYear + 1) %}
-                    {% set _c = speaker.yearCounts[yr] or 0 %}
-                    {% set _h = ((_c / _max) * 63) | round %}
-                    {% set _x = (yr - speaker.earliestYear) * 30 %}
-                    <rect x="{{ _x + 3 }}" y="{{ 66 - _h }}" width="24" height="{{ _h }}"
-                          fill="{% if _c %}var(--color-accent, #4a8a7a){% else %}#e0e0e0{% endif %}"
-                          rx="1">
-                        <title>{{ yr }}: {{ _c }} segment{% if _c != 1 %}s{% endif %}</title>
-                    </rect>
-                    {% if yr % 5 == 0 %}
-                    <text x="{{ _x + 15 }}" y="80" text-anchor="middle" font-size="9" fill="#888">{{ yr }}</text>
-                    {% endif %}
-                {% endfor %}
-                </svg>
-                <figcaption style="font-size:0.78em;color:#888;margin-top:0.2em;">Segments per year</figcaption>
-            </figure>
+            {{ sparkline(speaker.yearCounts, speaker.earliestYear, speaker.latestYear, _max) }}
             {% endif %}
             <ul class="archive-list">
                 {% for seg in speaker.segments.slice(0, 50) %}

@@ -137,3 +137,47 @@ html[data-theme="dark"] .on-this-day li { border-top-color: var(--border-light) 
 
 html[data-theme="dark"] .featured-segments,
 html[data-theme="dark"] .featured-segments strong { color: var(--text-dark) !important; }
+
+/* ─── Stations map page ─── */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) #stations-list-display,
+    html:not([data-theme="light"]) #zip-finder {
+        background: var(--card-bg) !important;
+        border-color: var(--border-medium) !important;
+        color: var(--text-dark) !important;
+    }
+    html:not([data-theme="light"]) #stations-list-display h3 {
+        border-bottom-color: var(--border-medium) !important;
+        color: var(--primary-green) !important;
+    }
+    html:not([data-theme="light"]) #stations-list-display li,
+    html:not([data-theme="light"]) #stations-list-display p,
+    html:not([data-theme="light"]) #zip-finder label,
+    html:not([data-theme="light"]) #zip-finder-results { color: var(--text-dark) !important; }
+    html:not([data-theme="light"]) #zip-finder input {
+        background: var(--bg-main) !important;
+        border-color: var(--border-input) !important;
+        color: var(--text-dark) !important;
+    }
+    html:not([data-theme="light"]) #zip-finder-results .zip-note { color: var(--text-light) !important; }
+}
+html[data-theme="dark"] #stations-list-display,
+html[data-theme="dark"] #zip-finder {
+    background: var(--card-bg) !important;
+    border-color: var(--border-medium) !important;
+    color: var(--text-dark) !important;
+}
+html[data-theme="dark"] #stations-list-display h3 {
+    border-bottom-color: var(--border-medium) !important;
+    color: var(--primary-green) !important;
+}
+html[data-theme="dark"] #stations-list-display li,
+html[data-theme="dark"] #stations-list-display p,
+html[data-theme="dark"] #zip-finder label,
+html[data-theme="dark"] #zip-finder-results { color: var(--text-dark) !important; }
+html[data-theme="dark"] #zip-finder input {
+    background: var(--bg-main) !important;
+    border-color: var(--border-input) !important;
+    color: var(--text-dark) !important;
+}
+html[data-theme="dark"] #zip-finder-results .zip-note { color: var(--text-light) !important; }

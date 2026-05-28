@@ -36,11 +36,12 @@
         {% else %}
             {{ _barEl | safe }}
         {% endif %}
-        {% if yr % 5 == 0 %}
+        {% set _tickInterval = ((_span / 5) | round) or 1 %}
+        {% if (yr - earliestYear) % _tickInterval == 0 or loop.last %}
             <text x="{{ _x + (_barW / 2) }}" y="{{ _tickY - 1 }}" text-anchor="middle" font-size="9" fill="#888">{{ yr }}</text>
         {% endif %}
     {% endfor %}
     </svg>
-    <figcaption style="font-size:0.78em;color:#888;margin-top:0.2em;">{{ caption }}</figcaption>
+    <figcaption style="font-size:0.78em;color:#888;margin-top:0.2em;text-align:left;">{{ caption }}</figcaption>
 </figure>
 {% endmacro %}

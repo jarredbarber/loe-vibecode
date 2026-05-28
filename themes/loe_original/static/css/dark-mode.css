@@ -248,3 +248,13 @@ html[data-theme="dark"] .header_blog h3 { color: var(--text-dark) !important; }
 html[data-theme="dark"] #map-hovercard {
     background: var(--card-bg) !important; color: var(--text-dark) !important;
     border-color: #3a4a48 !important; }
+
+/* ─── Theme toggle: restore dark styling in dark mode ─── */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .theme-toggle { background: #1a1a1a !important; border-color: #444 !important; }
+    html:not([data-theme="light"]) .theme-btn { color: #ccc !important; }
+    html:not([data-theme="light"]) .theme-btn:hover { background: #555 !important; color: #fff !important; }
+}
+html[data-theme="dark"] .theme-toggle { background: #1a1a1a !important; border-color: #444 !important; }
+html[data-theme="dark"] .theme-btn { color: #ccc !important; }
+html[data-theme="dark"] .theme-btn:hover { background: #555 !important; color: #fff !important; }

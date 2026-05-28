@@ -16,7 +16,7 @@ layout: layouts/base.njk
             {% for y, c in speaker.yearCounts %}{% set _ = _years.push({year: y, count: c}) %}{% endfor %}
             {% set _max = 1 %}
             {% for y, c in speaker.yearCounts %}{% if c > _max %}{% set _max = c %}{% endif %}{% endfor %}
-            <div class="sparkline-wrap" style="margin: 0.5em 0 1.2em;">
+            <figure style="margin: 0.5em 0 1.2em;">
                 <svg class="sparkline" viewBox="0 0 {{ (speaker.latestYear - speaker.earliestYear + 1) * 30 }} 84" style="width:min(100%,{{ (speaker.latestYear - speaker.earliestYear + 1) * 30 }}px);height:84px;display:block;">
                 {% for yr in range(speaker.earliestYear, speaker.latestYear + 1) %}
                     {% set _c = speaker.yearCounts[yr] or 0 %}
@@ -27,12 +27,13 @@ layout: layouts/base.njk
                           rx="1">
                         <title>{{ yr }}: {{ _c }} segment{% if _c != 1 %}s{% endif %}</title>
                     </rect>
-                    {% if loop.first or loop.last or (yr % 5 == 0) %}
+                    {% if yr % 5 == 0 %}
                     <text x="{{ _x + 15 }}" y="80" text-anchor="middle" font-size="9" fill="#888">{{ yr }}</text>
                     {% endif %}
                 {% endfor %}
                 </svg>
-            </div>
+                <figcaption style="font-size:0.78em;color:#888;margin-top:0.2em;">Segments per year</figcaption>
+            </figure>
             {% endif %}
             <ul class="archive-list">
                 {% for seg in speaker.segments.slice(0, 50) %}

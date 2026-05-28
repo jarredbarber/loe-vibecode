@@ -21,7 +21,7 @@ Things this site does that the original loe.org doesn't:
 - **Zip-code station locator** on `/stations.html` — type a zip, get the three nearest LOE-affiliate stations by real distance (Haversine, not state-only).
 - **Reading + listening time** estimates on segment cards.
 - **Inline audio cues are clickable** in transcripts — bird calls, music cues, etc. linked through to the Cornell Macaulay Library CDN.
-- **Dark mode** plumbing in place (CSS pass tracked in #109 before flipping on).
+- **Dark mode** — follows OS preference automatically; manual ☀/⬤/☾ toggle on every page saves to localStorage.
 
 **For editors**
 

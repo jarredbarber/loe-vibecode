@@ -1,12 +1,15 @@
 ---
 title: Recycling and Unhoused Californians
 slug: recycling-and-unhoused-californians-0825
-date: '2023-08-25'
+date: 2023-08-25
 category: Segments
 megaphone_id: LOE3153260308
 image_url: https://loe.org/content/2023-02-10/CA_timothy.jpg
 image_caption: 'Seen here with his dog, Timothy Tschappatt is an unhoused California resident who spends 12 hours a day finding recyclables and bringing them to recycling centers to earn money. (Photo: Isabella Zavarise)'
 summary: The California recycling system depends heavily on the informal labor of unhoused residents who collect recyclables and bring them to recycling centers. But many unhoused people say the state has rarely engaged with them and can even make it more difficult for them to do their work. Reporter Isabella Zavarise digs into the story.
+tags:
+  - environmental-justice
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00034&segmentID=3 -->
 

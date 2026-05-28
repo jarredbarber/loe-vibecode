@@ -1,12 +1,18 @@
 ---
 title: Climate Change and Mating
 slug: climate-change-and-mating
-date: '2023-03-03'
+date: 2023-03-03
 category: Segments
 megaphone_id: LOE5096119656
 image_url: https://loe.org/content/2023-03-03/MATING_dragonfly.jpg
 image_caption: 'A common whitetail dragonfly. Evolutionary ecologist Michael Moore began investigating the link between climate change and mating when he learned dragonfly species that typically have dark wing pigmentation have less or no pigmentation in hotter parts of their species range. (Photo: TexasEagle, Flickr, CC BY-NC 2.0)'
 summary: Showy traits like dark pigmentation on a dragonfly’s wings or a lion’s big, dark mane play a key role in how some animals choose a mate. New research suggests that climate change is making some classically attractive traits more difficult to pull off. Evolutionary ecologist Michael Moore at the University of Colorado Denver joins Host Bobby Bascomb to share more.
+tags:
+  - climate-change
+  - species-loss
+  - insects
+  - mammals
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00009&segmentID=7 -->
 

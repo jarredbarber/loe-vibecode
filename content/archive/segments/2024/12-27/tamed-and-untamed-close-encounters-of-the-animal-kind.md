@@ -1,11 +1,16 @@
 ---
 title: 'Tamed and Untamed: Close Encounters of the Animal Kind'
 slug: tamed-and-untamed-close-encounters-of-the-animal-kind
-date: '2024-12-27'
+date: 2024-12-27
 category: Segments
 image_url: https://loe.org/content/2017-10-06/TAMED-Octopus.jpg
 image_caption: 'The octopus is sometimes depicted as a monster -- Victor Hugo described these deep-sea creatures as horrifying – but writers Sy Montgomery and Liz Thomas say octopuses are far more personable than we realize. (Photo: Scott Ableman, Flickr CC BY-NC-ND 2.0)'
 summary: The science of animal psychology is still developing and what exactly your family dogs, or wild rabbits are thinking is a fascinating topic for many, including committed animal observers, Sy Montgomery and Elizabeth Marshall Thomas. These best-selling writers believe these and all creatures, wild or domesticated, deserve respect. Their new collaborative book of essays, Tamed and Untamed, dives into the curious mental and emotional space among creatures and humans, as they explained to host Steve Curwood, when he visited Sy Montgomery’s New Hampshire farmhouse.
+tags:
+  - mammals
+  - birds
+  - profiles-interviews
+  - book-review
 ---
 <!-- source: http://www.loe.org/shows/segments.html?programID=17-P13-00040&segmentID=5 -->
 

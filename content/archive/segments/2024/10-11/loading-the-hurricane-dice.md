@@ -1,12 +1,19 @@
 ---
 title: Loading the Hurricane Dice
 slug: loading-the-hurricane-dice
-date: '2024-10-11'
+date: 2024-10-11
 category: Segments
 megaphone_id: LOE4077902844
 image_url: https://loe.org/content/2024-10-11/B1_hurricanemilton.jpg
 image_caption: 'Hurricane Milton as seen from the International Space Station on October 8th. (Photo: Satellite photo, NASA, Wikimedia Commons, Public Domain)'
 summary: Unusually warm waters in the Gulf of Mexico helped fuel the rapid intensification of Hurricanes Helene and Milton. Meteorologist Sean Sublette explains to Host Jenni Doering that as humans continue to pump climate-warming greenhouse gases into the atmosphere, we are loading the dice for stronger storms.
+tags:
+  - climate-change
+  - extreme-weather
+  - fossil-fuels
+  - oceans
+  - atmospheric-science
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00041&segmentID=2 -->
 

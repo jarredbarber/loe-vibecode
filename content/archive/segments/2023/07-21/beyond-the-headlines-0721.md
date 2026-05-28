@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0721
-date: '2023-07-21'
+date: 2023-07-21
 category: Segments
 megaphone_id: LOE1864324126
 image_url: https://loe.org/content/2023-07-21/DYKSTRA_ups.jpg
 image_caption: 'UPS drivers are threatening to strike if the Teamsters union cannot strike a deal with the company by July 31. One reason for the impending strike is unsuitably hot working conditions. (Photo: Mike Mozart, Flickr, CC BY 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Aynsley O’Neill to discuss the threatened UPS driver strike and how extreme heat is making conditions inside UPS trucks unbearable. They also cover the “greenhushing” some companies are engaging in. And in history, they look back to when a patent was granted for center-pivot agriculture, making the desert bloom with huge green circles of crops.
+tags:
+  - extreme-weather
+  - fossil-fuels
+  - environmental-policy
+  - corporate-accountability
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00029&segmentID=2 -->
 

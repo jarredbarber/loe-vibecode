@@ -1,12 +1,20 @@
 ---
 title: The Great Displacement
 slug: the-great-displacement-0526
-date: '2023-05-26'
+date: 2023-05-26
 category: Segments
 megaphone_id: LOE5876806354
 image_url: https://loe.org/content/2023-05-26/BITTLE_cover.jpg
 image_caption: '“The Great Displacement: Climate Change and the Next American Migration” is the new book by Jake Bittle. (Photo: Courtesy of Simon and Schuster)'
 summary: 'Climate change is already making some places across the country unlivable and seems likely to uproot millions of Americans in the coming decades. Journalist Jake Bittle collected the stories of people across the U.S. who have been driven out by fires, floods, droughts, and extreme heat. He joins Host Steve Curwood to discuss his new book, “The Great Displacement: Climate Change and the Next American Migration.”'
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - heatwave
+  - sea-level-rise
+  - climate-science
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00021&segmentID=3 -->
 

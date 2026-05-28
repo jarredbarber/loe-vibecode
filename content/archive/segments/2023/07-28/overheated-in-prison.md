@@ -1,12 +1,17 @@
 ---
 title: Overheated in Prison
 slug: overheated-in-prison
-date: '2023-07-28'
+date: 2023-07-28
 category: Segments
 megaphone_id: LOE2019758261
 image_url: https://loe.org/content/2023-07-28/TEXAS_coffield.jpg
 image_caption: 'The Coffield Unit, a Texas prison that can house over 4,000 inmates, is located two hours east of Waco in unincorporated Anderson County. (Photo: Paul Flahive, Texas Public Radio)'
 summary: The summer of 2023 has seen record temperatures and extreme heat waves that can be particularly dangerous for prison inmates without access to air conditioning. Texas Public Radio’s Paul Flahive tells the story of overheated prisoners in Texas.
+tags:
+  - climate-change
+  - heatwave
+  - public-health
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00030&segmentID=1 -->
 

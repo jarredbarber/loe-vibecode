@@ -1,12 +1,16 @@
 ---
 title: Maui's Toxic Landscape
 slug: mauis-toxic-landscape
-date: '2023-09-08'
+date: 2023-09-08
 category: Segments
 megaphone_id: LOE3529990007
 image_url: https://loe.org/content/2023-09-08/MAUI_bicycle.jpg
 image_caption: 'This is an area impacted by the Kula Fire visited by Professor Andrew Whelton. (Photo: Andrew Whelton)'
 summary: The wildfires that killed more than 100 people and displaced thousands on the Hawaiian island of Maui left in their wake a toxic mess of melted and charred metals, plastics and more. Andrew Whelton, a Professor of Civil Environmental and Ecological Engineering at Purdue University, recently returned from Maui to help assess the risks and joins Host Jenni Doering to explain how testing air, water, and soil can keep communities safe from contamination as they rebuild.
+tags:
+  - climate-change
+  - extreme-weather
+  - chemical-contamination
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00036&segmentID=2 -->
 

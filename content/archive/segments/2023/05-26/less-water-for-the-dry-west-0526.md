@@ -1,12 +1,17 @@
 ---
 title: Less Water for the Dry West
 slug: less-water-for-the-dry-west-0526
-date: '2023-05-26'
+date: 2023-05-26
 category: Segments
 megaphone_id: LOE2789691134
 image_url: https://loe.org/content/2023-05-26/COLORADO_river.jpg
 image_caption: 'The Colorado River has been in a state of crisis due to warming weather and drought conditions. (Photo: G. Lamar, Flickr, CC BY 2.0)'
 summary: The states that rely on the Colorado River for water are facing a supply crisis as climate change reduces the river’s flow. Now, after months of tense debates and delay, California, Arizona, and Nevada have finally agreed to substantially reduce their Colorado River water use, at least for now. KUNC reporter Luke Runyon joins Host Jenni Doering to explain the deal and the federal help these states will receive to ease some of the economic pain of cutting water use.
+tags:
+  - climate-change
+  - drought
+  - rivers-watersheds
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00021&segmentID=2 -->
 

@@ -1,12 +1,17 @@
 ---
 title: ExxonMobil Sued in Guyana
 slug: exxonmobil-sued-in-guyana
-date: '2023-05-26'
+date: 2023-05-26
 category: Segments
 megaphone_id: LOE8944340420
 image_url: https://loe.org/content/2023-05-26/GUYANA_Exxon.jpg
 image_caption: 'Exxon’s offshore production vessel off the coast of Guyana. ExxonMobil and its partners are expected to produce more than 1 million barrels of oil and gas per day by late 2026. (Image: Courtesy of ExxonMobil)'
 summary: Guyana has one of the fastest growing economies on the planet as an offshore oil boom gets underway. But a potential spill could wipe out its fishing and ecotourism economy. So, a trial judge recently ruled that a major ExxonMobil crude oil project needs to provide an “unlimited guarantee” to cover the costs of such a spill. Journalist Amy Westervelt of the Critical Frequency podcast joins Host Jenni Doering to explain the ruling and Exxon’s oil development in Guyana.
+tags:
+  - oil-gas
+  - environmental-justice
+  - sea-level-rise
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00021&segmentID=1 -->
 

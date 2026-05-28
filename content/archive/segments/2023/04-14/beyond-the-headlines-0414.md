@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0414
-date: '2023-04-14'
+date: 2023-04-14
 category: Segments
 megaphone_id: LOE6939106425
 image_url: https://loe.org/content/2023-04-14/DYKSTRA_restoration.jpg
 image_caption: 'The Kissimmee River Restoration project has helped restore more than 40 square miles of the Florida river’s ecosystem. (Photo: South Florida Water Management District, Flickr, CC BY-ND 2.0)'
 summary: This week, Living on Earth contributor Peter Dykstra joins Host Aynsley O’Neill to share the rewilding of a river in the Florida Everglades. Plus, a study finds that the warming climate is creating better conditions for home runs in baseball. And in history, they mark the birthday of Aaron Burr, well known for his deadly duel with Alexander Hamilton. He also launched the first New York City water utility.
+tags:
+  - rivers-watersheds
+  - climate-change
+  - extreme-weather
+  - environmental-history
+  - water-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00015&segmentID=4 -->
 

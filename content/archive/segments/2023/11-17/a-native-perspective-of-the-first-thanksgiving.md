@@ -1,12 +1,17 @@
 ---
 title: A Native Perspective of the First Thanksgiving
 slug: a-native-perspective-of-the-first-thanksgiving
-date: '2023-11-17'
+date: 2023-11-17
 category: Segments
 megaphone_id: LOE2850950951
 image_url: https://loe.org/content/2023-11-17/BOOK_cover.jpg
 image_caption: 'Keepunumuk: Weeâchumun’s Thanksgiving Story is a picture book that attempts to teach young children a new, more inclusive, Thanksgiving story. (Photo: © 2022 by Garry Meeches Sr.)'
 summary: 'The story of the “first Thanksgiving” that persists in American culture often stereotypes Native peoples and sanitizes what happened to them as white settlers dispossessed them of their lands. A picture book written and illustrated by Indigenous authors offers a new story of the “first Thanksgiving” that centers the Three Sisters crops. Author Tony Perry joins Host Jenni Doering to discuss the inspiration for Keepunumuk: Weeâchumun’s Thanksgiving Story and share ideas for creating a more inclusive holiday.'
+tags:
+  - indigenous-communities
+  - environmental-history
+  - food-systems
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00046&segmentID=3 -->
 

@@ -1,10 +1,16 @@
 ---
 title: The Extreme Life of the Sea
 slug: the-extreme-life-of-the-sea
-date: '2024-12-27'
+date: 2024-12-27
 category: Segments
 megaphone_id: LOE9568036548
 summary: Life in the ocean is a longstanding mystery to most humans, and even now that we can travel deep beneath the waves, we've barely scratched the surface. A 2014 book, The Extreme Life of the Sea, sheds an entertaining and informative light on some of the ocean’s oldest, oddest, fiercest and strangest creatures. Coauthor and biologist Steve Palumbi discusses the work with Host Steve Curwood.
+tags:
+  - marine-life
+  - oceans
+  - climate-change
+  - species-loss
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00052&segmentID=1 -->
 

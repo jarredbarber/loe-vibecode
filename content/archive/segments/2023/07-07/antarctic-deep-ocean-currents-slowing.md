@@ -1,12 +1,18 @@
 ---
 title: Antarctic Deep Ocean Currents Slowing
 slug: antarctic-deep-ocean-currents-slowing
-date: '2023-07-07'
+date: 2023-07-07
 category: Segments
 megaphone_id: LOE1496071373
 image_url: https://loe.org/content/2023-07-07/GUNN-research vessel.jpg
 image_caption: 'Oceanographers used research vessels to measure the temperature and salinity of Antarctic waters and gather data about deep ocean currents. (Photo: courtesy of Steve Rintoul)'
 summary: Climate disruption is showing up in the slowing of deep ocean currents that transport heat, carbon, and nutrients around the globe. Researchers found that deep ocean circulation around Antarctica has slowed by almost a third in the last 30 years, faster than predicted by climate models. Physical oceanographer Kathy Gunn joins Host Steve Curwood to explain what’s happening and why it may spell trouble for the entire climate system.
+tags:
+  - climate-change
+  - sea-level-rise
+  - oceans
+  - climate-science
+  - arctic-polar
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00027&segmentID=2 -->
 

@@ -1,12 +1,18 @@
 ---
 title: Pushback Against 'Chemical Recycling'
 slug: pushback-against-chemical-recycling
-date: '2024-04-26'
+date: 2024-04-26
 category: Segments
 megaphone_id: LOE2506527750
 image_url: https://loe.org/content/2024-04-26/CHEMRECYCLING_tabling.jpeg
 image_caption: 'Save Our Susquehanna members tabling and giving out signs at a river event at the Campus Theatre in Lewisburg, PA. (Photo: Courtesy of Sandy Field)'
 summary: Small towns in Appalachia are being targeted for so-called chemical recycling plants, but residents are pushing back and citing concerns about chemical fires, air pollution, and toxic wastewater polluting local rivers. Opponents in Point Township, Pennsylvania succeeded in canceling a project there, and Kristina Marusic of Environmental Health News joins Host Jenni Doering to discuss two other proposed chemical recycling plants in Ohio and West Virginia.
+tags:
+  - plastics
+  - chemical-contamination
+  - air-pollution
+  - water-pollution
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00017&segmentID=2 -->
 

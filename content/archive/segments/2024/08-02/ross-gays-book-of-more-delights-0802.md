@@ -1,12 +1,18 @@
 ---
 title: Ross Gay's Book of (More) Delights
 slug: ross-gays-book-of-more-delights-0802
-date: '2024-08-02'
+date: 2024-08-02
 category: Segments
 megaphone_id: LOE3884042722
 image_url: https://loe.org/content/2024-03-08/GAY_moredelights.jpg
 image_caption: 'Ross Gay’s The Book of (More) Delights highlights the joy one can find in everyday life and in the natural world. (Photo: Courtesy of Ross Gay and Algonquin Books)'
 summary: Poet and essayist Ross Gay is back with a follow up to his 2019 Book of Delights, loaded with moments of good that sprout amid our troubles. He joins Host Steve Curwood to share readings from his new Book of (More) Delights celebrating simple joys such as clothes on a clothesline, garlic sprouting, and dandelion abundance.
+tags:
+  - profiles-interviews
+  - book-review
+  - farming
+  - sustainable-agriculture
+  - poetry-essays
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00031&segmentID=5 -->
 

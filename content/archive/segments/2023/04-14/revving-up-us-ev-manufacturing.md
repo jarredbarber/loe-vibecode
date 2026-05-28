@@ -1,12 +1,20 @@
 ---
 title: Revving Up U.S. EV Manufacturing
 slug: revving-up-us-ev-manufacturing
-date: '2023-04-14'
+date: 2023-04-14
 category: Segments
 megaphone_id: LOE6912326822
 image_url: https://loe.org/content/2021-02-05/GM_commitment.jpg
 image_caption: 'The Biden Administration has set a goal for 50% of vehicles sold in 2030 to be zero-emissions vehicles. (Photo: Ivan Radic, Flickr CC BY 2.0)'
 summary: The government offers a $7,500 tax credit to new car buyers to help meet a goal that 50% of all new vehicles sold in the U.S. should be electric by 2030. But to qualify, cars must now meet a new set of requirements. Auto reporter Jim Motavalli joins Host Jenni Doering to talk about how EV manufacturers are responding.
+tags:
+  - fossil-fuels
+  - solar
+  - wind
+  - grid-energy-storage
+  - green-economy
+  - environmental-policy
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00015&segmentID=5 -->
 

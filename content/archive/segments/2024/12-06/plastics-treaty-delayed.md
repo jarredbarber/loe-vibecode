@@ -1,12 +1,16 @@
 ---
 title: Plastics Treaty Delayed
 slug: plastics-treaty-delayed
-date: '2024-12-06'
+date: 2024-12-06
 category: Segments
 megaphone_id: LOE4264652275
 image_url: https://loe.org/content/2024-12-06/PLASTICS_rwanda.jpg
 image_caption: 'Juliet Kabera, Rwanda’s Director General of the Rwanda Environment Management Authority. ICN-5 in Busan, South Korea, was meant to be the fifth and final negotiation session to create an internationally binding treaty on plastic pollution. No treaty was delivered, and the talks will resume some time in 2025. (Photo: Ministry of Environment, Flickr, CC BY NC-ND 2.0)'
 summary: Crafting a UN plastic pollution treaty hasn’t been easy, with countries butting heads on key issues including curbs on plastic production, changes of the chemistry of plastics and the role of waste management. Maria Ivanova of Northeastern University has been a delegate or observer at the treaty negotiations since they began and joins Host Steve Curwood to discuss why the recent session in Korea that was supposed to finalize the treaty resulted in only a very rough draft.
+tags:
+  - plastics
+  - environmental-policy
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00049&segmentID=3 -->
 

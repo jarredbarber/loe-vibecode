@@ -1,12 +1,18 @@
 ---
 title: Used Clothes Pollute Global South
 slug: used-clothes-pollute-global-south
-date: '2023-04-14'
+date: 2023-04-14
 category: Segments
 megaphone_id: LOE5108489907
 image_url: https://loe.org/content/2023-04-14/KENYA_traders.jpeg
 image_caption: 'Market traders at Gikomba Market in Nairobi sell their wares. The second-hand clothing market directly employs roughly two million people in Kenya. (Photo: Courtesy of Changing Markets Foundation and Clean Up Kenya)'
 summary: In wealthy countries, cheap “fast fashion” clothing is often thrown away after being worn just seven or eight times. And while donating those clothes may feel like a good deed, they often end up as waste that pollutes developing countries. Veena Holkar, director of Wildlight Global, spoke with Living on Earth’s Bobby Bascomb.
+tags:
+  - plastics
+  - fossil-fuels
+  - air-pollution
+  - water-pollution
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00015&segmentID=2 -->
 

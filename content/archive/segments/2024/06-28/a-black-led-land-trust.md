@@ -1,12 +1,16 @@
 ---
 title: A Black-led Land Trust
 slug: a-black-led-land-trust
-date: '2024-06-28'
+date: 2024-06-28
 category: Segments
 megaphone_id: LOE1600776718
 image_url: https://loe.org/content/2024-06-28/LANDTRUST_enjoytheoutdoors.jpg
 image_caption: 'Jade Stevens says she wants to create a space where people of color feel safe and welcome so they can enjoy the outdoors. (Photo: K2J Productions)'
 summary: The 40 Acre Conservation League is an African-American grounded land trust that seeks to ease access to the outdoors for people of color, who have historically been excluded from green spaces. The nonprofit recently purchased its first piece of land, 650 acres bordering the Tahoe National Forest in northern California. Jade Stevens is the president of the 40 Acre Conservation League and joined Host Steve Curwood to discuss her vision for the land and improving access to nature for Black and Brown folks.
+tags:
+  - environmental-justice
+  - indigenous-rights
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00026&segmentID=5 -->
 

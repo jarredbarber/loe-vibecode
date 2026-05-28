@@ -1,12 +1,16 @@
 ---
 title: Dioxin Concerns After Train Crash
 slug: dioxin-concerns-after-train-crash-0317
-date: '2023-03-17'
+date: 2023-03-17
 category: Segments
 megaphone_id: LOE5321565885
 image_url: https://loe.org/content/2023-03-03/TRAIN_drone.jpg
 image_caption: 'An image from drone video taken on February 5, 2023 of the Norfolk Southern train derailment near East Palestine, Ohio. (Photo: National Transportation Safety Board, Wikimedia Commons, Public Domain)'
 summary: "The train derailment in East Palestine, Ohio last month led to a controlled release and burn of vinyl chloride, which can produce the neurotoxin dioxin. Julie Grant, a reporter for\_Allegheny Front, joins Host Bobby Bascomb to discuss local concern about the potential dangers of dioxin contamination in their communities."
+tags:
+  - chemical-contamination
+  - toxic-exposure
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00009&segmentID=1 -->
 

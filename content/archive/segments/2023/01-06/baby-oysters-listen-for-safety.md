@@ -1,12 +1,17 @@
 ---
 title: Baby Oysters Listen for Safety
 slug: baby-oysters-listen-for-safety
-date: '2023-01-06'
+date: 2023-01-06
 category: Segments
 megaphone_id: LOE3616777820
 image_url: https://loe.org/content/2023-01-06/OYSTERS_oysters.jpg
 image_caption: 'It appears that oyster larvae are attracted to the sounds of a healthy reef. (Photo: Petras Gagilas, Flickr, CC BY-SA 2.0)'
 summary: Coral reefs play a crucial role in managing tidal surges, creating habitat for other species, and improving water quality. But many oyster species including the Australian flat oyster are under threat. So, some scientists in Australia are looking into how baby oysters find an appropriate place to set up shop. Living on Earth’s Sophia Pandelidis has more on how sound may be key.
+tags:
+  - marine-life
+  - oceans
+  - species-loss
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00001&segmentID=5 -->
 

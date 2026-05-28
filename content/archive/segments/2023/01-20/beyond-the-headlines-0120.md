@@ -1,12 +1,17 @@
 ---
 title: Beyond The Headlines
 slug: beyond-the-headlines-0120
-date: '2023-01-20'
+date: 2023-01-20
 category: Segments
 megaphone_id: LOE5486935723
 image_url: https://loe.org/content/2023-01-20/DYKSTRA_Gas_Stove.jpg
 image_caption: 'A study published in the international Journal of Environmental Research and Public Health estimated that gas-burning stoves are responsible for 12.7 percent of childhood asthma in the United States. (Photo: Kevin Spencer, Flickr, CC BY-NC 2.0)'
 summary: Journalist Peter Dykstra joins Host Steve Curwood this week to discuss a proposal to phase out gas cooking stoves linked to health risks. and They also consider the climate rhetoric of the new Republican Chair of the US House Science, Space and Technology Committee. And in history they look back to President Nixon’s 1970 State of the Union address with its soaring language about protecting the environment.
+tags:
+  - fossil-fuels
+  - climate-change
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00003&segmentID=3 -->
 

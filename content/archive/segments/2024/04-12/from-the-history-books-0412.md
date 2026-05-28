@@ -1,12 +1,18 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0412
-date: '2024-04-12'
+date: 2024-04-12
 category: Segments
 megaphone_id: LOE6936410353
 image_url: https://loe.org/content/2024-04-12/DYKSTRA_tuna.jpeg
 image_caption: 'StarKist began purchasing tuna only from fishing companies that used dolphin-safe fishing practices after a boycott of their product. (Photo: Mike Mozart, Flickr, CC BY 2.0)'
 summary: This week Living on Earth Contributor Peter Dykstra and Host Steve Curwood look back to a couple of big milestones in protecting species from human impacts, starting with when Starkist announced a shift to dolphin-safe tuna after an intrepid activist sparked a boycott. They also look back to the day the last wild California condor was captured as part of an intense captive breeding program that has helped the huge birds bounce back to around 400 today.
+tags:
+  - species-loss
+  - endangered-species
+  - wildlife-corridors
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00015&segmentID=3 -->
 

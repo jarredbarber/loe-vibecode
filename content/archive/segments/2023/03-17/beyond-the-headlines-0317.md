@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0317
-date: '2023-03-17'
+date: 2023-03-17
 category: Segments
 megaphone_id: LOE8690128129
 image_url: https://loe.org/content/2023-03-17/DYKSTRA_toiletpaper.jpg
 image_caption: 'A new study found that toilet paper is a major source of toxic forever chemicals. (Photo: Kev Bation, Unsplash)'
 summary: PFAS “forever” chemicals are everywhere, including in toilet paper, Peter Dykstra reveals in this week’s chat with Living on Earth’s Bobby Bascomb. Also, everything’s big in Texas, including renewable energy, and the state is by far the biggest producer of wind and solar in the U.S. And 55 years ago, prospectors struck black gold on Alaska’s north slope, forever changing the state’s economy and environment.
+tags:
+  - pfas-forever-chemicals
+  - solar
+  - wind
+  - fossil-fuels
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00011&segmentID=2 -->
 

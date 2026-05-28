@@ -1,12 +1,19 @@
 ---
 title: A New War on Cancer – Part 2
 slug: a-new-war-on-cancer-part-2
-date: '2023-07-07'
+date: 2023-07-07
 category: Segments
 megaphone_id: LOE1153790574
 image_url: https://loe.org/content/2023-07-07/CANCER-Clairton Coke Works by Njaimeh Njie.jpeg
 image_caption: 'Clairton Coke Works is owned by US Steel and is the largest coke plant in the US, producing about 4.7 million tons of coke per year. In early 2023 US Steel was fined $307,000 by Allegheny County for air pollution violations. (Photo: Njaimeh Njie)'
 summary: Kristina Marusic and Host Steve Curwood continue their conversation about preventing cancer by reducing exposure to carcinogenic chemicals. Kristina Marusic shares the inspiring stories of cancer prevention advocates and discusses how lifestyle choices are overemphasized as cancer culprits, while chemical and pollution risk factors that people have no individual control over are too often overlooked.
+tags:
+  - toxic-exposure
+  - cancer-environment
+  - public-health
+  - environmental-justice
+  - pfas-forever-chemicals
+  - air-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00027&segmentID=4 -->
 

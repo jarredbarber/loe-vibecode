@@ -1,12 +1,18 @@
 ---
 title: Three Sisters Stew for a Plant-Based Feast
 slug: three-sisters-stew-for-a-plant-based-feast
-date: '2023-11-17'
+date: 2023-11-17
 category: Segments
 megaphone_id: LOE9768948823
 image_url: https://loe.org/content/2021-11-19/THREESISTERS_squashes.jpg
 image_caption: 'The Three Sisters is an agricultural strategy in which winter squash, corn, and climbing beans are planted in a mound to grow symbiotically. Together, this trio of staple crops used in many Native American tribes throughout history. (Photo: John S. Quarterman, Flickr, CC BY 2.0)'
 summary: The Three Sisters are a trio of staple crops that have played a fundamental role in numerous Native American tribes throughout history. The corn, beans, and squash all grow together in a symbiotic planting relationship. Chef Steven Looney talks with Host Steve Curwood about the history and significance of these crops and suggests some recipes from his Chickasaw heritage.
+tags:
+  - farming
+  - food-systems
+  - indigenous-communities
+  - profiles-interviews
+  - sustainable-agriculture
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00046&segmentID=2 -->
 

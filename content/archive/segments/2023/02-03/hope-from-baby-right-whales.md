@@ -1,12 +1,17 @@
 ---
 title: Hope From Baby Right Whales
 slug: hope-from-baby-right-whales
-date: '2023-02-03'
+date: 2023-02-03
 category: Segments
 megaphone_id: LOE9260702953
 image_url: https://loe.org/content/2023-02-03/BABY_whales.JPG
 image_caption: 'Spindle, who is more than 41 years old, had her tenth calf this season. Right whale Catalog number 1204 ''Spindle'' and calf sighted on January 7, 2023, approximately 6nm east of St. Catherines Island, GA. Photo credit: Clearwater Marine Aquarium Research Institute, taken under NOAA permit number 20556.'
 summary: North Atlantic Right Whales are critically endangered with fewer than 350 individuals left, but the births of several baby whales this season are bringing a glimmer of hope for the species. Living on Earth's Sophia Pandelidis reports that so far this season scientists have observed at least 11 living North Atlantic right whale calves in the warm coastal waters of the southern US.
+tags:
+  - species-loss
+  - endangered-species
+  - marine-life
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00005&segmentID=1 -->
 

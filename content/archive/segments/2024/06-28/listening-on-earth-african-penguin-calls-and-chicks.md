@@ -1,12 +1,19 @@
 ---
 title: 'Listening on Earth: African Penguin Calls and Chicks'
 slug: listening-on-earth-african-penguin-calls-and-chicks
-date: '2024-06-28'
+date: 2024-06-28
 category: Segments
 megaphone_id: LOE1894479223
 image_url: https://loe.org/content/2024-06-28/PENGUINS_coasts.jpg
 image_caption: 'African penguins live on the coasts of South Africa and Namibia. (Photo: Megan Trace, Flickr, CC BY-NC 2.0)'
 summary: In this short segment we hear why African penguins are sometimes nicknamed “jackass” penguins. Also, four chicks that recently hatched at the New England Aquarium are giving some hope to this threatened species.
+tags:
+  - species-loss
+  - endangered-species
+  - birds
+  - climate-change
+  - fish
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00026&segmentID=4 -->
 

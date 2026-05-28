@@ -1,12 +1,19 @@
 ---
 title: 29th UN Climate COP Kicks Off
 slug: 29th-un-climate-cop-kicks-off
-date: '2024-11-15'
+date: 2024-11-15
 category: Segments
 megaphone_id: LOE9086762075
 image_url: https://loe.org/content/2024-11-15/COP29_delegatesgather.jpg
 image_caption: 'In Baku, Azerbaijan, delegates from nearly 200 countries gather for the UN Framework Convention of Climate Change’s 29th Conference of the Parties, or COP29. (Photo: IRENA, Flickr, CC BY-NC-ND 2.0)'
 summary: Delegates from nearly 200 countries are meeting in Baku, Azerbaijan for the UN Framework Convention on Climate Change’s 29th Conference of the Parties. Alden Meyer of the climate think tank E3G is a longtime observer of these meetings, and he joins Host Paloma Beltran to share his first impressions as these talks kick off.
+tags:
+  - climate-change
+  - climate-negotiations
+  - fossil-fuels
+  - international-treaties
+  - climate-science
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00046&segmentID=1 -->
 

@@ -29,7 +29,7 @@ YOUNG: From the little Anacostia to the mighty Mississippi, runoff –or nonpoin
 
 YOUNG: The Academy report says there aren’t water quality standards for many stretches of the Mississippi and even monitoring data is lacking or not well coordinated. Doering says the Clean Water Act has not yet been fully applied to the problem of nutrient runoff. The result is a dead zone where marine life can’t live in low-oxygen waters where the river hits the Gulf of Mexico.
 
-DOERING: The act was designed for those things that the public perceived as the 800-pound gorilla. We’ve done fairly well with that 800-pound gorilla. Now we’ve got another 800-pound gorilla.
+OTTO DOERING: The act was designed for those things that the public perceived as the 800-pound gorilla. We’ve done fairly well with that 800-pound gorilla. Now we’ve got another 800-pound gorilla.
 
 YOUNG: The Clean Water Act also has problems upstream. Recent Supreme Court decisions limit the act’s authority over small streams and wetlands. And then, there’s the flow of money—or, rather, the lack of it. Federal funding for Clean Water projects like water lines and sewage treatment has dropped some 60 percent since the early 1990s, even as aging infrastructure is starting to break down. Oregon Democratic congressman Earl Blumenauer wants a long-term source of steady funding.
 

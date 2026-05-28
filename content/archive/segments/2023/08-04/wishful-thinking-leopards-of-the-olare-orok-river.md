@@ -1,12 +1,17 @@
 ---
 title: 'Wishful Thinking: Leopards of the Olare Orok River'
 slug: wishful-thinking-leopards-of-the-olare-orok-river
-date: '2023-08-04'
+date: 2023-08-04
 category: Segments
 megaphone_id: LOE9815462580
 image_url: https://loe.org/content/2022-10-21/LENDER_banner.JPG
 image_caption: 'Although leopards are often regarded as nocturnal animals, it’s not uncommon for visitors of the Maasai Mara on the banks of the Olare Oruk River, to see them during the day. (Photo: © Mark Seth Lender)'
 summary: Young leopards may look like formidable hunters, but they still have a lot to learn. In the Maasai Mara savannah, on the banks of the Olare Orok River, Living on Earth’s Explorer in Residence Mark Seth Lender tracked one young leopard’s learning curve.
+tags:
+  - mammals
+  - wildlife-corridors
+  - forests
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00031&segmentID=2 -->
 

@@ -1,12 +1,17 @@
 ---
 title: The Double-Edged Sword of Disinfectants
 slug: the-double-edged-sword-of-disinfectants
-date: '2023-06-09'
+date: 2023-06-09
 category: Segments
 megaphone_id: LOE2034092743
 image_url: https://loe.org/content/2023-06-09/QACS_disinfectants.jpg
 image_caption: 'Quaternary Ammonium Compounds, or QACs, are a class of chemicals used primarily as disinfectants. (Photo: Marco Verch, Flickr, CC BY 2.0)'
 summary: New research is showing that antimicrobial chemicals called quaternary ammonium compounds (QACs), which are widely used in disinfectants, pesticides and personal care products, are linked to numerous health concerns like asthma and infertility. Study co-author Dr. Carol Kwiatkowski joins Host Aynsley O’Neill to explain the gaps in regulation of these chemicals and what consumers can do to avoid them.
+tags:
+  - chemical-contamination
+  - toxic-exposure
+  - public-health
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00023&segmentID=1 -->
 

@@ -1,12 +1,15 @@
 ---
 title: US-Mexico Water Treaty
 slug: us-mexico-water-treaty
-date: '2024-05-31'
+date: 2024-05-31
 category: Segments
 megaphone_id: LOE2171624593
 image_url: https://loe.org/content/2024-05-31/WATER_rioconchos.jpg
 image_caption: 'The Rio Conchos feeds alfalfa and pecan production in Chihuahua, Mexico. Farmers and politicians in Chihuahua have opposed additional water deliveries to the United States, with several farmer protests starting in 2020. (Photo: Luke Hosty, Inside Climate News)'
 summary: Amid extreme drought affecting Rio Grande tributaries, Mexico is struggling to make water deliveries to Texas as required by an 80-year old treaty. Martha Pskowski is a reporter with Inside Climate News and spoke with Living on Earth’s Paloma Beltran about how the situation is linked to climate change and farmer livelihoods in both the US and Mexico.
+tags:
+  - climate-change
+  - drought
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00022&segmentID=1 -->
 

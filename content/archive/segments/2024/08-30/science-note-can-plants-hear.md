@@ -1,12 +1,15 @@
 ---
 title: 'Science Note: Can Plants Hear?'
 slug: science-note-can-plants-hear
-date: '2024-08-30'
+date: 2024-08-30
 category: Segments
 megaphone_id: LOE9472148488
 image_url: https://loe.org/content/2019-04-12/SCINOTE-bee.jpg
 image_caption: 'Researchers observed that when evening primrose was exposed to the sound of a flying bee, or similar (but synthetic) sound-signals, the flowers began to excrete sweeter nectar within three minutes. (Photo: TJ Gehling, Flickr, CC BY-NC-ND 2.0)'
 summary: Flowers don’t have ears like ours, but recent research finds that some flowers, like evening primrose, can “hear” the buzzing of bees’ wings. Living on Earth’s Don Lyman reports on how these flowers sometimes quickly respond to nearby pollinators by sweetening their nectar.
+tags:
+  - ecology-research
+  - insects
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00035&segmentID=4 -->
 

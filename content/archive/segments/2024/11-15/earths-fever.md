@@ -1,12 +1,18 @@
 ---
 title: Earth’s Fever
 slug: earths-fever
-date: '2024-11-15'
+date: 2024-11-15
 category: Segments
 megaphone_id: LOE9826841647
 image_url: https://loe.org/content/2024-11-15/FEVER_emissions.jpg
 image_caption: 'Greenhouse gas emissions from the burning of fossil fuels have trapped an increasing amount of heat in the atmosphere, leading to a 1.2 0 Centigrade rise in average surface global temperature. (Photo: Ian Barbour, Flickr, CC BY-SA 2.0)'
 summary: Although the global average temperature has been steadily increasing for decades, in 2023 there was a sudden jump of 0.2 degrees Celsius. This has raised alarm among climate scientists about how fast the climate crisis is progressing. Dr. Jennifer Francis is Senior Scientist at the Woodwell Climate Research Center, and she joined Living on Earth’s Jenni Doering to discuss the temperature spike and its implications.
+tags:
+  - climate-change
+  - extreme-weather
+  - atmospheric-science
+  - fossil-fuels
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00046&segmentID=2 -->
 

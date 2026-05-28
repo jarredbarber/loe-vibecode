@@ -1,12 +1,15 @@
 ---
 title: Rebuilding With Resilience in Puerto Rico
 slug: rebuilding-with-resilience-in-puerto-rico
-date: '2023-01-27'
+date: 2023-01-27
 category: Segments
 megaphone_id: LOE5186729245
 image_url: https://loe.org/content/2018-09-21/PRRESILIENCE_Gloria_points.jpg
 image_caption: 'Gloria Vasquez points towards the broken and battered trees behind her house. (Photo: Bobby Bascomb)'
 summary: Human-induced climate change has supercharged massive storms like Hurricane Maria in 2017 that devastated Puerto Rico, killing thousands of people. Living on Earth’s Bobby Bascomb travelled to the island in 2018 and found ravaged communities organizing to rebuild with resilience.
+tags:
+  - climate-change
+  - extreme-weather
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00004&segmentID=2 -->
 

@@ -1,12 +1,19 @@
 ---
 title: '‘It Could Be the Last One’: Stories of People Helping Rare Critters'
 slug: it-could-be-the-last-one-stories-of-people-helping-rare-critters
-date: '2023-12-29'
+date: 2023-12-29
 category: Segments
 megaphone_id: LOE1547682420
 image_url: https://loe.org/content/2021-01-01/CURRY_alaskanwolf.jpg
 image_caption: 'A wolf crosses the highway in Whitehorse, Yukon. (Photo: Joseph, Flickr, CC BY-SA 2.0)'
 summary: As an endangered species advocate, Tierra Curry gets calls and emails from strangers across the country who think they might have found the very last plant or animal of a particular rare species. She shares some of the most humorous and heartwarming stories with Jenni Doering, as well as a story about her own breathtaking encounter with a wolf in an Alaskan snowstorm.
+tags:
+  - endangered-species
+  - species-loss
+  - wildlife-corridors
+  - profiles-interviews
+  - activism
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00052&segmentID=2 -->
 

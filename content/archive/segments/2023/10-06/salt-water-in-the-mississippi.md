@@ -1,12 +1,19 @@
 ---
 title: Salt Water in the Mississippi
 slug: salt-water-in-the-mississippi
-date: '2023-10-06'
+date: 2023-10-06
 category: Segments
 megaphone_id: LOE9608653050
 image_url: https://loe.org/content/2023-10-06/SALTWATER_Leake.jpg
 image_caption: 'A shipping boat glides up the Mississippi River across from the U.S. Army Corps of Engineers'' New Orleans District headquarters off Leake Avenue on Sept. 15, 2023. (Photo: Halle Parker, WWNO)'
 summary: Amid widespread drought, salty water from the Gulf of Mexico is slowly seeping up the Mississippi River towards New Orleans, Louisiana. Halle Parker of public radio station WWNO explains the situation, how it's linked to climate change and possible solutions to Host Jenni Doering.
+tags:
+  - climate-change
+  - drought
+  - water-pollution
+  - drinking-water
+  - rivers-watersheds
+  - sea-level-rise
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00040&segmentID=2 -->
 

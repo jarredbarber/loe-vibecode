@@ -1,12 +1,17 @@
 ---
 title: Hawaiian Kids Win Climate Case
 slug: hawaiian-kids-win-climate-case
-date: '2024-07-12'
+date: 2024-07-12
 category: Segments
 megaphone_id: LOE5755280974
 image_url: https://loe.org/content/2024-07-12/HAWAII_youth.JPG
 image_caption: 'Hawai‘i’s youth plaintiffs celebrate the historic settlement reached with the Hawai‘i Department of Transportation. (Photo: Robin Loznak, Our Children''s Trust)'
 summary: Thirteen young plaintiffs who took the Hawaii Department of Transportation to court over its role in the climate crisis have won a settlement that requires the agency to fast-track public transit, new bike lanes, and electric vehicles. Attorney Joanna Zeigler represented the plaintiffs for Our Children’s Trust and joins Host Aynsley O’Neill to discuss the new and cleaner future of transportation in Hawaii.
+tags:
+  - climate-change
+  - environmental-policy
+  - youth-education
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00028&segmentID=1 -->
 

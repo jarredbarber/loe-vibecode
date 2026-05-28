@@ -1,12 +1,18 @@
 ---
 title: New Climate Writings from Pope Francis
 slug: new-climate-writings-from-pope-francis
-date: '2023-10-13'
+date: 2023-10-13
 category: Segments
 megaphone_id: LOE9295135316
 image_url: https://loe.org/content/2023-10-13/POPE_Pope.jpg
 image_caption: 'Pope Francis wrote his first papal document on the environment, Laudato Si’, in 2015. (Photo: Catholic Church England and Wales, Flickr, CC BY-NC-ND 2.0)'
 summary: Pope Francis is back with an even bolder update to Laudato Si’, his climate change encyclical. Christiana Zenner is an Associate Professor in the Department of Theology at Fordham University and joins Host Paloma Beltran to discuss how “Laudate Deum” takes on climate denial and urges the world to act swiftly to avert climate disaster.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00041&segmentID=1 -->
 

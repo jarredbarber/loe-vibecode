@@ -1,11 +1,16 @@
 ---
 title: Jill Stein and the Planet
 slug: jill-stein-and-the-planet
-date: '2024-10-04'
+date: 2024-10-04
 category: Segments
 image_url: https://loe.org/content/2016-09-30/STEIN--Stein-Banner.jpg
 image_caption: 'Jill Stein, the 2016 Green Party Presidential Nominee, at a September speaking engagement at Pennsylvania State University. (Photo: Penn State, Flickr CC BY-NC-ND 2.0)'
 summary: Dr. Jill Stein is the 2016 Green Party nominee for President of the United States. In a wide-ranging interview with host Steve Curwood they discuss her “Green New Deal” to avert a climate emergency, her plans to scale back military spending, and why she participated in protests against the Dakota Access Pipeline that led to a warrant for her arrest.
+tags:
+  - climate-change
+  - fossil-fuels
+  - indigenous-rights
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=16-P13-00040&segmentID=1 -->
 

@@ -1,12 +1,15 @@
 ---
 title: Animal Self-Medication
 slug: animal-self-medication
-date: '2024-05-17'
+date: 2024-05-17
 category: Segments
 megaphone_id: LOE5050699990
 image_url: https://loe.org/content/2024-05-17/ORANGUTAN_sumatran.jpeg
 image_caption: 'Sumatran orangutans are an endangered species native to Indonesia. (Photo: cuatrok77, Flickr, CC BY-NC-SA 2.0)'
 summary: A paper published in the journal Scientific Reports describes the case study of an orangutan who treated and healed his own wound. Zoologists have long seen behaviors of self-medicating in the animal kingdom, but until now it has rarely if ever been documented in scientific literature. Michael Huffman, an ecologist who reviewed the paper joined Living on Earth’s Paloma Beltran to discuss how some animals are known heal themselves.
+tags:
+  - ecology-research
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00020&segmentID=4 -->
 

@@ -1,12 +1,18 @@
 ---
 title: The "Green Flash"
 slug: the-green-flash
-date: '2024-04-26'
+date: 2024-04-26
 category: Segments
 megaphone_id: LOE5284219079
 image_url: https://loe.org/content/2024-04-26/GREENFLASH_withsmeagull.JPG
 image_caption: 'Mark Seth Lender captures the ‘Green Flash’ alongside Smeagull the Seagull. (Photo: © Mark Seth Lender)'
 summary: On rare occasions a green “flash” can appear on the horizon at sunrise or sunset. Living on Earth’s Explorer-in-Residence Mark Seth Lender has been lucky enough to catch it more than once.
+tags:
+  - atmospheric-science
+  - wildfire
+  - oceans
+  - profiles-interviews
+  - citizen-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00017&segmentID=5 -->
 

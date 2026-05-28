@@ -1,12 +1,17 @@
 ---
 title: 'Note on Emerging Science: Electric Honeybees'
 slug: note-on-emerging-science-electric-honeybees
-date: '2023-02-17'
+date: 2023-02-17
 category: Segments
 megaphone_id: LOE5386935196
 image_url: https://loe.org/content/2023-02-17/BEES-honeybees.jpg
 image_caption: 'A honeybee hive (Photo: Edgar Chaparro on Unsplash)'
 summary: A recent study from the University of Bristol reveals how large insect swarms may affect the electrical charge of the atmosphere. Living on Earth’s Fern Alling explains the phenomenon and the findings.
+tags:
+  - insects
+  - atmospheric-science
+  - climate-science
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00007&segmentID=3 -->
 

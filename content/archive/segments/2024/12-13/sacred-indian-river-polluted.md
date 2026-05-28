@@ -1,12 +1,17 @@
 ---
 title: Sacred Indian River Polluted
 slug: sacred-indian-river-polluted
-date: '2024-12-13'
+date: 2024-12-13
 category: Segments
 megaphone_id: LOE4393451361
 image_url: https://loe.org/content/2024-12-13/YAMUNA_river.jpg
 image_caption: 'Patches of foam on the Yamuna River. This waterway, vital for Delhi''s water supply, is severely polluted by untreated sewage, industrial waste, and agricultural runoff. This contamination makes the water unsafe for use, posing serious health risks. Despite its cultural significance, urgent action has yet to be mobilized to restore its water quality. (Photo: Jyotirmoy Gupta on Unsplash)'
 summary: India’s Yamuna River is considered sacred by some devout Hindus, who bathe in the river to cleanse their sins. But around New Delhi it has become polluted with raw sewage and a thick off-white foam linked to laundry detergents. Susmita Sengupta of the Centre for Science and Environment joins Host Jenni Doering to talk about the causes and possible solutions to this ongoing river pollution crisis.
+tags:
+  - water-pollution
+  - drinking-water
+  - rivers-watersheds
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00050&segmentID=5 -->
 

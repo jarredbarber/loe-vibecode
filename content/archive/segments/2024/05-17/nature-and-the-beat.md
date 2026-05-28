@@ -1,12 +1,16 @@
 ---
 title: Nature and the Beat
 slug: nature-and-the-beat
-date: '2024-05-17'
+date: 2024-05-17
 category: Segments
 megaphone_id: LOE7600454460
 image_url: https://loe.org/content/2018-03-30/BEAST-orangutans.jpg
 image_caption: 'A Beast Box Orangutan and a Bornean Orangutan. (Image: Russell Watkins/Shutterstock and Beast Box)'
 summary: From the chirp of a Katydid to the screech of a parrot, the sounds of nature are all around us and now can be used to help humans make music. Living on Earth’s Bobby Bascomb reports on Beast Box, a website that allows users to create their own unique songs using catchy beats and animal calls as the instruments.
+tags:
+  - birds
+  - mammals
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00020&segmentID=5 -->
 

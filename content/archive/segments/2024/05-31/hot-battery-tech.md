@@ -1,12 +1,16 @@
 ---
 title: Hot Battery Tech
 slug: hot-battery-tech
-date: '2024-05-31'
+date: 2024-05-31
 category: Segments
 megaphone_id: LOE3354208753
 image_url: https://loe.org/content/2024-05-31/BATTERY_heavyindustry.jpg
 image_caption: 'Heavy industry like steel making requires vast amounts of heat. Thermal batteries powered by renewable electricity could store that heat and help decarbonize the industry. (Photo: michael_swan, Flickr, CC BY ND 2.0)'
 summary: Carbon-intensive industries like steel and chemical manufacturing require a lot of heat to operate, most of which comes from burning fossil fuels. Now engineers are working on turning electricity from renewable sources into heat with something called a thermal battery. Inside Climate News reporter Phil McKenna joins Host Aynsley O’Neill to explain how the technology works and plans for commercial-scale deployment.
+tags:
+  - fossil-fuels
+  - climate-change
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00022&segmentID=2 -->
 

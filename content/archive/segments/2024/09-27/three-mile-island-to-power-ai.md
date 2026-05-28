@@ -1,12 +1,19 @@
 ---
 title: Three Mile Island to Power AI
 slug: three-mile-island-to-power-ai
-date: '2024-09-27'
+date: 2024-09-27
 category: Segments
 megaphone_id: LOE9767853284
 image_url: https://loe.org/content/2024-09-27/NUCLEAR_threemile.jpg
 image_caption: 'The deal between Microsoft and energy supplier Constellation would reopen Unit 1 of the Three Mile Island nuclear plant. (Photo: Dave Monteverdi, Flickr, CC BY-NC-ND 2.0)'
 summary: To meet the energy needs of artificial intelligence Microsoft has inked a major power purchase deal with the owners of Three Mile Island in Pennsylvania. A nuclear power reactor there underwent a partial meltdown in 1979. Its unaffected twin reactor operated until 2019 and would provide a carbon-free source of power. Evan Halper reports on the energy transition at the Washington Post and joins Host Jenni Doering to explain the hurdles of getting the shuttered nuclear power plant back online.
+tags:
+  - nuclear
+  - fossil-fuels
+  - grid-energy-storage
+  - green-economy
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00039&segmentID=4 -->
 

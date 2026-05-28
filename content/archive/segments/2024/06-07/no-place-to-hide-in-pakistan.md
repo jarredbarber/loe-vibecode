@@ -1,12 +1,18 @@
 ---
 title: '''No Place to Hide'' In Pakistan'
 slug: no-place-to-hide-in-pakistan
-date: '2024-06-07'
+date: 2024-06-07
 category: Segments
 megaphone_id: LOE6629668830
 image_url: https://loe.org/content/2024-06-07/PAKISTAN_jhelumriver.jpeg
 image_caption: 'Jhelum River in the Pakistani province Punjab, on June 25, 2023. Summer heatwaves have recently hit temperatures of over 120 °F in the area. (Photo: Shanzay Asif)'
 summary: Summer has barely begun in the Northern Hemisphere but extreme heat is already baking Pakistan, where climate disruption is also bringing frequent catastrophic floods. Rafay Alam, an environmental lawyer and member of Pakistan’s Climate Change Council, joins Host Steve Curwood to describe what it’s like to be in Lahore right now, how people are trying to cope and why these climate disasters are compounding Pakistan’s economic and security challenges.
+tags:
+  - climate-change
+  - extreme-weather
+  - heatwave
+  - drought
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00023&segmentID=2 -->
 

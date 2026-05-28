@@ -1,12 +1,15 @@
 ---
 title: No-Mow May
 slug: no-mow-may
-date: '2023-05-05'
+date: 2023-05-05
 category: Segments
 megaphone_id: LOE9275060572
 image_url: https://loe.org/content/2022-05-06/NOMOW_mower.jpg
 image_caption: 'Leaders in the “No-Mow May” movement stress that there is a key window of time–anywhere from February to May depending on an area’s climate–when vital food sources for pollinators should be allowed to flourish. (Photo: Ivan Radic, Flickr, CC BY 2.0)'
 summary: Biologists are encouraging homeowners to leave their lawnmower in the garage for a month this spring to create crucial habitat for pollinators. A proponent of the "No-Mow May" movement, Biology Professor Israel Del Toro from Lawrence University joins Host Bobby Bascomb to discuss why we should be rethinking our lawn care habits.
+tags:
+  - insects
+  - endangered-species
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00018&segmentID=5 -->
 

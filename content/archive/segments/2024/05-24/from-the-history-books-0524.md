@@ -1,12 +1,16 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0524
-date: '2024-05-24'
+date: 2024-05-24
 category: Segments
 megaphone_id: LOE1285856465
 image_url: https://loe.org/content/2024-05-24/DYKSTRA_egret.jpg
 image_caption: 'A snowy egret (Egretta hula) displays its plumage. Under threat of extinction in the early 20th century, the snowy egret is now in the “Least concern” category. (Photo: William H. Majoros, Wikimedia Commons, CC-BY-SA 4.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra and Host Aynsley O’Neill look back to the Lacey Act of 1900, one of the first wildlife protection laws. They also note the founding of the Sierra Club and discuss how the conservation legacy of its first president John Muir has been complicated by his racist views on Native and African Americans.
+tags:
+  - endangered-species
+  - environmental-policy
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00021&segmentID=4 -->
 

@@ -1,12 +1,20 @@
 ---
 title: Protecting India’s Forest
 slug: protecting-indias-forest
-date: '2024-05-10'
+date: 2024-05-10
 category: Segments
 megaphone_id: LOE7801970207
 image_url: https://loe.org/content/2024-05-10/SHUKLA_alok.jpg
 image_caption: 'The 2024 Goldman Prize winner for Asia, Alok Shukla. (Photo: Goldman Environmental Prize)'
 summary: The 2024 Goldman environmental prize winner from Asia mobilized his community to protect the Hasdeo Aranya forests in the state of Chhattisgarh from coal mining. These forests are known as the “lungs of Chhattisgarh”, and a report from the Wildlife Institute of India estimated that around two-thirds of local annual income is tied to forest resources. Living on Earth’s Aysnley O’Neill spoke to Alok Shukla through a translator about his successful anti-mining campaign.
+tags:
+  - forests
+  - climate-change
+  - species-loss
+  - coal
+  - activism
+  - indigenous-communities
+  - water-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00019&segmentID=2 -->
 

@@ -1,12 +1,15 @@
 ---
 title: Puerto Rico’s Solar Power Problem
 slug: puerto-ricos-solar-power-problem
-date: '2024-11-15'
+date: 2024-11-15
 category: Segments
 megaphone_id: LOE3402939166
 image_url: https://loe.org/content/2024-11-15/PR_salinas.jpg
 image_caption: 'A calm body of water in Salinas, Puerto Rico, with green mountains rising in the background under a bright, clear sky. The scene showcases the natural beauty of Puerto Rico’s southern coast. (Photo: Aaron Gonzalez, Unsplash)'
 summary: After Hurricane Maria destroyed Puerto Rico’s power grid in 2017, much of the island was left without electricity for up to a year, leaving vulnerable populations in the lurch. Many Puerto Ricans are pushing for a reliable, sustainable electricity system, but a proposed utility-scale solar project has sparked concerns. Ruth Santiago, an environmental attorney who serves on the White House Environmental Justice Advisory Council, joins Host Paloma Beltran to discuss the future of solar energy in Puerto Rico.
+tags:
+  - solar
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00046&segmentID=5 -->
 

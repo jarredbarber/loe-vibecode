@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-1027
-date: '2023-10-27'
+date: 2023-10-27
 category: Segments
 megaphone_id: LOE2728215089
 image_url: https://loe.org/content/2023-10-27/DYKSTRA_rig.jpg
 image_caption: 'Activists are debating the fate of old oil rigs, as they have become artificial reefs teeming with life below the surface of the ocean. (Photo: Marianne Muegenburg Cothern, Flickr, CC BY-SA 2.0)'
 summary: This week, Living on Earth contributor Peter Dykstra joins Host Steve Curwood to divulge how decommissioned offshore oil rigs can become homes for sea life in what are dubbed “rigs to reefs.” Also, churches are putting solar panels on their roofs to engage in “creation care.” And in history they look back to the opening of the first New York City subway line, all the way back in 1904.
+tags:
+  - fossil-fuels
+  - marine-life
+  - solar
+  - climate-change
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00043&segmentID=5 -->
 

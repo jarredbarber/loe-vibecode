@@ -1,12 +1,19 @@
 ---
 title: “Earth, Sometimes I Try to Play It Casual”
 slug: earth-sometimes-i-try-to-play-it-casual
-date: '2023-04-21'
+date: 2023-04-21
 category: Segments
 megaphone_id: LOE7930657771
 image_url: https://loe.org/content/2023-04-21/PIERCE-twilight.jpg
 image_caption: '“Earth, what I want is to sit gentle under your twilight purple.” – Catherine Pierce (Photo: Bowen Chin, Unsplash)'
 summary: Poet Catherine Pierce joins Living on Earth’s Jenni Doering to read her poem, “Earth, Sometimes I Try to Play It Casual” and her thoughts about the meaning of “celebrating the Earth” by being present to the wonders around us.
+tags:
+  - poetry-essays
+  - profiles-interviews
+  - species-loss
+  - climate-change
+  - oceans
+  - birds
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00016&segmentID=2 -->
 

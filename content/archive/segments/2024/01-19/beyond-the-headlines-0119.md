@@ -1,12 +1,16 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0119
-date: '2024-01-19'
+date: 2024-01-19
 category: Segments
 megaphone_id: LOE1805216074
 image_url: https://loe.org/content/2024-01-19/DYKSTRA_oyster.jpg
 image_caption: 'The Chesapeake Bay oyster fishery is an important source of food and income for many people around the estuary. (Photo: Aileen Devlin, Virginia Sea Grant, Flickr, CC BY 2.0)'
 summary: Living on Earth Contributor Peter Dykstra joins Host Paloma Beltran with good news of an oyster baby boom in the Chesapeake Bay. Also, the EPA is reviewing the safety of vinyl chloride, which is widely used in everything from water pipes to medical devices but is a carcinogen that can harm livers and neurological systems. And in history, they look back to when John Kerry spoke about climate change at his confirmation hearing as Secretary of State.
+tags:
+  - marine-life
+  - water-pollution
+  - toxic-exposure
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00003&segmentID=2 -->
 

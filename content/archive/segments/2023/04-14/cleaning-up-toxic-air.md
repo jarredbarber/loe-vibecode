@@ -1,12 +1,17 @@
 ---
 title: Cleaning Up Toxic Air
 slug: cleaning-up-toxic-air
-date: '2023-04-14'
+date: 2023-04-14
 category: Segments
 megaphone_id: LOE1306298706
 image_url: https://loe.org/content/2023-04-14/AIR_petroplant.jpg
 image_caption: 'The massive Shell Ethane Cracker Petrochemical Plant in Beaver County makes plastic from locally fracked natural gas. The Environmental Integrity Project and Clean Air Council filed a notice of intent to file a lawsuit against the Shell cracker plant. They say the plant has violated the federal Clean Air Act and other environmental laws. (Photo: Mark Dixon, Flickr, NoPetroPA, CC BY 2.0)'
 summary: The EPA is proposing to cut the amount of toxic air pollutants industrial sources are allowed to emit. The targeted chemicals include known carcinogens that have long contaminated communities in Appalachia and Louisiana’s “Cancer Alley.” Judith Enck, founder of Beyond Plastics and a former EPA regional administrator, joins Host Jenni Doering to discuss.
+tags:
+  - air-pollution
+  - cancer-environment
+  - chemical-contamination
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00015&segmentID=1 -->
 

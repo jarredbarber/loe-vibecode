@@ -1,12 +1,16 @@
 ---
 title: Midnight in the Everglades
 slug: midnight-in-the-everglades-0106
-date: '2023-01-06'
+date: 2023-01-06
 category: Segments
 megaphone_id: LOE3677497591
 image_url: https://loe.org/content/2023-01-06/EVERGLADES_alligator.jpg
 image_caption: 'An alligator in Everglades National Park. (Photo: Sheila Sund, Flickr, CC BY-NC 2.0)'
 summary: Alligators have such gaping jaws you might wonder what they eat. For one group of researchers looking into this, the answers so far point to snails and amphibians like the giant salamanders known as amphiumas, rather than fish or hapless mammals that walk too close to swampy waters. Living on Earth’s Don Lyman spent a night in Florida’s Everglades with a team investigating this and shares his story.
+tags:
+  - mammals
+  - fish
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00001&segmentID=3 -->
 

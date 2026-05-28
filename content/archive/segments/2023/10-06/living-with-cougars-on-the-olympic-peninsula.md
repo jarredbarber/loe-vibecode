@@ -1,12 +1,16 @@
 ---
 title: Living with Cougars on the Olympic Peninsula
 slug: living-with-cougars-on-the-olympic-peninsula
-date: '2023-10-06'
+date: 2023-10-06
 category: Segments
 megaphone_id: LOE3312532370
 image_url: https://loe.org/content/2023-10-06/COUGAR-mountain lion.jpeg
 image_caption: 'Cougars are also known as mountain lions, pumas, panthers, and catamounts. (Photo: Elaine R. Wilson, Wikimedia Commons, CC BY-SA 3.0)'
 summary: When a cougar on the Olympic Peninsula in Washington State makes a meal out of someone’s goat or chicken, it can end up with a bounty on its head. But there are non-lethal methods to deter cougars from taking livestock and pets. Liza Gross of Inside Climate News joins Host Aynsley O’Neill to discuss.
+tags:
+  - mammals
+  - wildlife-corridors
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00040&segmentID=5 -->
 

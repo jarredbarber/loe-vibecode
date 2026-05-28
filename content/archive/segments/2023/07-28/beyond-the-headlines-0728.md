@@ -1,12 +1,17 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0728
-date: '2023-07-28'
+date: 2023-07-28
 category: Segments
 megaphone_id: LOE6521342758
 image_url: https://loe.org/content/2023-07-28/DYKSTRA_cod.jpg
 image_caption: 'In Iceland, waste from the seafood industry is being repurposed in leather, blood-clotting agents, and collagen supplements. Skin from the Atlantic cod (shown above) has even been used in human skin grafts. (Photo: The Maritime Aquarium at Norwalk, Flickr, CC BY-ND 2.0)'
 summary: In this week’s trip beyond the headlines, Living on Earth contributor Peter Dykstra joins host Steve Curwood to discuss the ways in which Iceland is repurposing the waste from fish catch, from skin grafts to pharmaceuticals. Then, the two take a look at the string of homes being built in North Carolina’s floodplains seemingly incentivized by the state’s flood buyout program. Finally, for history the pair discuss the life of Kenneth Bainbridge, who directed the first successful test of the atom bomb.
+tags:
+  - fossil-fuels
+  - extreme-weather
+  - sea-level-rise
+  - species-loss
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00030&segmentID=2 -->
 

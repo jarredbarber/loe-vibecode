@@ -1,12 +1,17 @@
 ---
 title: Key Court Cases of 2023
 slug: key-court-cases-of-2023
-date: '2024-01-05'
+date: 2024-01-05
 category: Segments
 megaphone_id: LOE6977871941
 image_url: https://loe.org/content/2022-05-20/SCOTUS-scotus_bldg.jpg
 image_caption: 'The United States Supreme Court reversed five decades of legal precedent when it cut wetlands protections in the Sackett v. EPA case. (Photo: Susan Melkisethian, Flickr, CC BY-NC-ND 2.0)'
 summary: 2023 saw some notable environmental decisions in U.S. federal and state courts, from the Supreme Court’s removal of some wetlands protections to the landmark win for youth plaintiffs in a Montana climate case. Law professor Pat Parenteau joins Host Steve Curwood to explain what these decisions could mean for environmental law and policy going forward.
+tags:
+  - litigation
+  - climate-change
+  - environmental-policy
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00001&segmentID=2 -->
 

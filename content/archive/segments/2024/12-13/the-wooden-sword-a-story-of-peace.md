@@ -1,12 +1,16 @@
 ---
 title: The Wooden Sword / A Story of Peace
 slug: the-wooden-sword-a-story-of-peace
-date: '2024-12-13'
+date: 2024-12-13
 category: Segments
 megaphone_id: LOE7802765933
 image_url: https://loe.org/content/2015-12-18/NOA--Noa-hand_drum.png
 image_caption: 'Noa Baum''s story, “The Wooden Sword” comes from the Afghani-Jewish tradition. (Photo: Sam Kitner)'
 summary: Storyteller Noa Baum collects traditional tales from all over the world and creates original stories. Rooted in Afghan-Jewish traditions, “The Wooden Sword” shows us how faith can help us find happiness, even when we are faced with adversity.
+tags:
+  - profiles-interviews
+  - poetry-essays
+  - indigenous-communities
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00050&segmentID=6 -->
 

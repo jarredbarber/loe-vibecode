@@ -1,12 +1,17 @@
 ---
 title: '"Phoenix" Trees Rise from the Ashes'
 slug: phoenix-trees-rise-from-the-ashes
-date: '2024-01-26'
+date: 2024-01-26
 category: Segments
 megaphone_id: LOE1653242805
 image_url: https://loe.org/content/2024-01-26/REDWOOD_sprouts.jpg
 image_caption: 'Sprouts at the base of a redwood tree in February 2021, 5 months after the 2020 CZU lightning complex fire. (Photo: Melissa Enright, co-author of the study “Old Reserves and Ancient Buds Fuel Regrowth of Coastal Redwood After Catastrophic Fire”)'
 summary: Nearly all the tall coast redwoods in California’s Big Basin Redwoods State Park burned in a 2020 wildfire. But within a few months, the charred trunks had grown a fuzz of healthy green shoots. A new paper documents how the trees were able to regenerate using energy reserves stored for many decades. Lead author Drew Peltier teaches at the University of Nevada – Las Vegas and joins Host Jenni Doering to explain the science behind this stunning recovery.
+tags:
+  - wildfire
+  - forests
+  - climate-change
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00004&segmentID=5 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Australia's Climate Visas for Tuvalu
 slug: australias-climate-visas-for-tuvalu
-date: '2023-12-08'
+date: 2023-12-08
 category: Segments
 megaphone_id: LOE8226891126
 image_url: https://loe.org/content/2023-12-08/VISA_tuvalu.jpeg
 image_caption: 'Tuvalu is a small Pacific Island nation nearly at sea level. (Photo: INABA Tomoaki, Wikimedia Commons, Fair Use)'
 summary: The tiny island nation of Tuvalu faces inundation from rising seas, and a new treaty would allow a limited number of its citizens to study, work or live in Australia under a climate-related visa program. Abul Rizvi is the former Deputy Secretary of the Dept. of Immigration in Australia, and he joins Host Steve Curwood to explain the geopolitical implications of the deal.
+tags:
+  - climate-change
+  - sea-level-rise
+  - indigenous-rights
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00049&segmentID=5 -->
 

@@ -1,12 +1,14 @@
 ---
 title: Environmental Racism in Birmingham
 slug: environmental-racism-in-birmingham
-date: '2023-12-01'
+date: 2023-12-01
 category: Segments
 megaphone_id: LOE7641058132
 image_url: https://loe.org/content/2023-12-01/BIRMINGHAM_church.jpg
 image_caption: 'The Bethel Baptist Church in North Birmingham and the memorial to the parsonage that was bombed on Christmas night, 1956. (Photo: Heather Cowper, Heatheronhertravels.com, Flickr, CC BY-NC 2.0)'
 summary: In North Birmingham, Alabama, racist zoning practices and industrial coke production have plagued Black communities for decades. Despite a growing focus on environmental justice from the federal government, it’s yet to be clear how new funds will help the communities in North Birmingham. Host Steve Curwood speaks with Vernon Loeb, the Executive Editor of Inside Climate News, about what he found during a reporting trip there.
+tags:
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00048&segmentID=3 -->
 

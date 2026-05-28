@@ -1,12 +1,19 @@
 ---
 title: New Power Plant Rules
 slug: new-power-plant-rules
-date: '2024-05-10'
+date: 2024-05-10
 category: Segments
 megaphone_id: LOE5048232915
 image_url: https://loe.org/content/2024-05-10/POWER_existing.jpg
 image_caption: 'Existing coal-fired power plants and new gas-fired power plants will be subject to the updated climate pollution standards set by the EPA. There are also a series of regulations that deal with other pollutants like wastewater and coal ash. (Photo: peggydavis66, Flickr, CC BY-SA 2.0)'
 summary: To replace the Clean Power plan the Obama Administration failed to get past the courts the EPA published new rules for existing coal plants and new gas power plants that tighten standards for mercury emissions, wastewater, and coal ash and also curb coal plant CO2 emissions over time. Living on Earth’s Paloma Beltran discusses with the rule with David Doniger, a former White House and EPA clean air official and attorney for the Natural Resources Defense Fund.
+tags:
+  - climate-change
+  - fossil-fuels
+  - air-pollution
+  - environmental-policy
+  - regulation-deregulation
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00019&segmentID=1 -->
 

@@ -1,12 +1,15 @@
 ---
 title: 'Note on Emerging Science: Why Do Some Lizards and Snakes Have Horns?'
 slug: note-on-emerging-science-why-do-some-lizards-and-snakes-have-horns
-date: '2024-07-12'
+date: 2024-07-12
 category: Segments
 megaphone_id: LOE1089772354
 image_url: https://loe.org/content/2024-07-12/SCINOTE_viper.jpg
 image_caption: 'Species like the Saharan horned viper may have horns to aid in camouflage. (Photo: Richard Castell, Castell Ecology, Flickr, CC BY-NC 2.0)'
 summary: Snakes and lizards have independently evolved horns or spikes on their heads at least 69 times, and recent research finds evidence that horns may provide camouflage for predators that ambush their prey rather than actively chasing it. Living on Earth’s Don Lyman has this note on emerging science.
+tags:
+  - ecology-research
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00028&segmentID=4 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Deep-Freezing to Thwart Extinction
 slug: deep-freezing-to-thwart-extinction
-date: '2023-12-01'
+date: 2023-12-01
 category: Segments
 megaphone_id: LOE9418356294
 image_url: https://loe.org/content/2023-12-01/BIOBANKING_restorationsite.jpg
 image_caption: 'Field biologists enter a restoration site for the endangered Preble’s meadow jumping mouse (Zapus hudsonius preblei), which is only found in parts of Wyoming and Colorado. (Photo: Kika Tuff, Revive & Restore)'
 summary: Scientists are turning to high tech solutions to preserve genetic diversity of endangered species, including biobanking with frozen cells and living tissues. A new project involving the U.S. Fish and Wildlife Service, the nonprofit Revive & Restore, and partners aims to biobank 24 endangered mammals to start. Pete Miraglia of Revive & Restore joins Host Jenni Doering to explain the science of using biobanked material to restore healthy populations of black-footed ferrets, Mexican wolves and more.
+tags:
+  - species-loss
+  - endangered-species
+  - biotechnology
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00048&segmentID=5 -->
 

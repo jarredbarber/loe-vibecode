@@ -1,12 +1,19 @@
 ---
 title: Power to the People
 slug: power-to-the-people-0519
-date: '2023-05-19'
+date: 2023-05-19
 category: Segments
 megaphone_id: LOE7001113431
 image_url: https://loe.org/content/2023-05-19/NYGRID_Hochul.jpg
 image_caption: 'Grassroots organizers worked hard to convince New York Governor Hochul and other lawmakers to include the Build Public Renewables Act in the most recent state budget. (Photo: Metropolitan Transportation Authority, Flickr, CC BY 2.0)'
 summary: New York state has adopted a new law aimed at using federal funds to boost public power from renewables and shut down six polluting “peaker” gas power plants. Lee Ziesche, a spokesperson for Public Power New York, joins Host Jenni Doering to discuss how it will lower electricity rates and boost public health, environmental justice, and energy access.
+tags:
+  - fossil-fuels
+  - solar
+  - wind
+  - environmental-justice
+  - public-health
+  - air-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00020&segmentID=1 -->
 

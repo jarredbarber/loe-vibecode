@@ -1,12 +1,14 @@
 ---
 title: Charging Up U.S. Electric Vehicle Markets
 slug: charging-up-us-electric-vehicle-markets
-date: '2024-03-29'
+date: 2024-03-29
 category: Segments
 megaphone_id: LOE4552771195
 image_url: https://loe.org/content/2024-03-29/EVS_leaf.jpg
 image_caption: 'The Nissan Leaf, priced around $30,000 in March 2024, is one of the cheapest electric vehicles available in the US. (Photo: Benespit, Wikimedia Commons, CC BY-SA 4.0)'
 summary: China’s electric car sales are in the fast lane and lead the world while the U.S. EV industry lags. Although Biden administration policies are designed to jumpstart EVs, a partisan divide on EVs is slowing adoption. Jim Motavalli writes for Autoweek and Barrons and joins Host Aynsley O’Neill to explain what’s going on with the U.S. EV industry and why the future looks bright.
+tags:
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00013&segmentID=1 -->
 

@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-1013
-date: '2023-10-13'
+date: 2023-10-13
 category: Segments
 megaphone_id: LOE3830462033
 image_url: https://loe.org/content/2023-10-13/DYKSTRA_lake.jpg
 image_caption: 'The northern shore of Lake Superior may be getting too warm for brook trout. (Photo: aaronHwarren, Flickr, CC BY-ND 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Paloma Beltran with a couple of warnings from scientists about how the warming planet is affecting species, from brook trout that may get wiped out from streams in the Great Lakes region to mother polar bears who can’t make enough milk because of shrinking Arctic sea ice. In history, they look back to 1988, when three gray whales stuck in the ice captured the world’s attention.
+tags:
+  - climate-change
+  - species-loss
+  - arctic-polar
+  - mammals
+  - fish
+  - marine-life
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00041&segmentID=3 -->
 

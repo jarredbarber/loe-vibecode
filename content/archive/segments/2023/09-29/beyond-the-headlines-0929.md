@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0929
-date: '2023-09-29'
+date: 2023-09-29
 category: Segments
 megaphone_id: LOE2670043878
 image_url: https://loe.org/content/2023-09-29/DYKSTRA_blood.jpg
 image_caption: 'There is a nation-wide blood shortage due in part to natural disasters preventing Americans from donating blood, according to the American Red Cross. (Photo: ec-jpr, Flickr, CC BY ND-NC 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Aynsley O’Neill to warn of how climate disasters are hitting the national blood supply. Also, weather disasters hit 90% of US counties in the last decade. And in history, a 40 year anniversary of the release of a nature movie called “Never Cry Wolf” about a scientist’s change of heart about wolves.
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - wildfire
+  - public-health
+  - species-loss
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00039&segmentID=4 -->
 

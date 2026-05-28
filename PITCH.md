@@ -1,87 +1,95 @@
-# Why We Built a Modern Site for Living on Earth
+# Living on Earth — What We've Built and Why It Matters
 
-We are upgrading Living on Earth from `"The Old Way"` to `"The Modern Way"`. Here is why this matters to you.
+This is a plain-English summary for the LOE team of what has been built, what it does, and why it matters for the show's future.
 
-## 1. Visualizing the Difference
+---
 
-**Imagine a user clicks a link to read a story...**
+## The Core Idea: We Printed the Book Before the Library Opened
 
-### 🔴 The Old Site (Dynamic)
+The old website worked like a printing press that waited for you to walk in before it printed anything. Every visitor triggered the machine from scratch. If one part of the machine broke down, nobody got their page.
 
-It was a complex relay race every time someone visited a page.
+The new site works differently. Every page is printed in advance and waiting on the shelf before anyone asks for it. There is no machine to break, no moving parts to fail. The pages just sit there, ready. Hosting costs nothing — we use free shelf space provided by GitHub and Cloudflare, two companies whose core business is exactly this kind of reliable file storage.
 
-```mermaid
-graph LR
-    User((User)) --Request--> Server[Server]
-    Server --Query--> Database[(Database)]
-    Database --Content--> Server
-    Server --Builds Page--> User
-    style Database fill:#ff9999,stroke:#333,stroke-width:2px
-```
+This isn't a technical distinction. It means the site will not go down. Not from a traffic spike, not from a software failure, not from someone forgetting to pay a bill.
 
-* **Process**: The server has to "wake up", ask the database for text, find the design templates, glue them together, and *then* send it to you.
-* **Result**: Slower, harder work for the server, and if the database has a hiccup, the whole site breaks.
+---
 
-### 🟢 The New Site (Static)
+## Thirty-Five Years, All in One Place
 
-It is a simple hand-off. The work is already done.
+The rebuild includes the complete Living on Earth archive: more than 10,000 segments and 1,600 shows, going back to 1991. Every episode, every transcript, every segment now has a permanent address on the internet.
 
-```mermaid
-graph LR
-    User((User)) --Request--> Server[Server]
-    Server --Delivers Page--> User
-    style Server fill:#99ff99,stroke:#333,stroke-width:2px
-```
+For most of the show's history, older content existed somewhere but wasn't reliably findable. Now it's all there, all indexed, all connected. A listener who wants to find what LOE said about the Endangered Species Act in 1994 can find it.
 
-* **Process**: The page was built once, text and design combined, before the user ever arrived. It's sitting there waiting.
-* **Result**: Instant. Reliable. Cannot "crash" because there are no moving parts.
+---
 
-## 2. Reliability (Oral Tradition vs. The Printed Book)
+## Editing: A Word Processor Where Every Draft Is Kept Forever
 
-* **The Old Site (Oral Tradition)**: Like a storyteller recounting a tale from memory, the old server has to "remember" and assemble every page from scratch each time someone visits. If the storyteller gets tired or forgets a detail (database crash), the story stops. It is fragile and labor-intensive.
-* **The New Site (The Printed Book)**: We "print" the website once when we save our work. When a user visits, the page is already waiting for them, perfect every time. It cannot "crash" because there is no active effort required to show it. It just exists, solid and reliable.
+Editors use a browser-based tool that looks and works like a word processor. No code. No commands. You log in, you see your stories, you write and edit in a normal text interface, you save. That's it.
 
-## 3. Speed
+Every version of every story is kept permanently. Nothing can be accidentally deleted for good. If an editor wants to see what a story looked like three months ago, or undo a change from last week, that's possible. It works like "track changes" but for every single save, going back indefinitely.
 
-* **Then**: 🐢 **Slow.** The server had to build the page from scratch for every single visitor.
-* **Now**: 🐇 **Instant.** Because the pages are pre-built, they load immediately. This is crucial for listeners on mobile phones or slow connections.
+---
 
-## 4. Security
+## See It Before It Goes Out
 
-* **Then**: 🔓 **Vulnerable.** The old site had login screens and databases that hackers could try to break into.
-* **Now**: 🔒 **Unhackable.** The new site has no database and no public login screen. It is just read-only text files. There is nothing to hack.
+When an editor saves a story, a preview copy appears at a private address in about two minutes. The editor can read it exactly as a listener would see it — fully formatted, with audio player, everything — before deciding to publish. Only after they approve does it go to the live site.
 
-## 5. Ownership
+It's the difference between a rough proof and a finished page.
 
-* **Then**: ☁️ **trapped.** Your content was locked inside a complex database format. Moving to a new web host was a massive, expensive project.
-* **Now**: 📂 **Freedom.** Every story is a simple text file (`.md`) that you can see, read, and back up on your own computer. You own your data forever. You can move to any web host in the world in 10 minutes.
+---
 
-## 6. Cost
+## A Researcher Who Read Every Transcript and Filed Everything
 
-* **Then**: 💰 **Expensive.** You paid for servers to run the database and the complex code 24/7.
-* **Now**: 🆓 **Free.** Because the site is just simple files, it costs almost nothing to host.
+We defined a list of 90 topics — things like "climate policy," "biodiversity," "indigenous land rights," "nuclear energy." Then, for all 10,000+ segments in the archive, an automated process read each transcript and assigned it to the right topics from that list.
 
-## 7. The Editor Experience
+The result is a topic index of everything Living on Earth has ever covered, going back to 1991. Each topic has its own page showing every relevant segment across the decades, with a simple chart showing how much LOE has covered that topic over time. A listener curious about ocean acidification can find every segment LOE has ever done on it, in order.
 
-What does this feel like for the person writing the stories?
+New segments are classified automatically when they're published. No one has to maintain this by hand.
 
-* **The Old Way (HTML Forms)**:
-  * **"Code" Heavy**: You often had to paste raw HTML code (`<p>paragraph</p><br>`) into a small text box. One missing bracket could break the page layout.
-  * **Online Only**: You had to be logged into the website to work. If your internet flickered while saving, you lost your work.
-  * **No Undo**: If you accidentally deleted a paragraph and clicked "Save", it was gone forever.
+---
 
-* **The New Way (Markdown & Git)**:
-  * **Human Readable**: You write in simple text. You use simple stars for **bold** or *italics*. It is as easy as writing an email.
-  * **Work Anywhere**: You can write your stories offline on your laptop, on a plane, or in your favorite text editor.
-  * **Time Travel**: Every time you save, we keep a permanent snapshot. You can go back to exactly how the file looked yesterday, last month, or last year. You can never "ruin" the site.
+## A Name in a Transcript Becomes a Page
 
-## Summary
+Every person who appears in LOE transcripts — hosts, reporters, guests, scientists — now has their own page on the site, built automatically from the transcripts themselves. These pages didn't require anyone to build a list or enter names into a form. The site figured out who appears and how often, and created the pages on its own.
 
-| Feature | Old Site | New Site |
-| :--- | :--- | :--- |
-| **Complexity** | ❌ High (Fragile) | ✅ Low (Rock Solid) |
-| **Speed** | ❌ Slower | ✅ Instant |
-| **Security** | ❌ Vulnerable | ✅ Secure |
-| **Cost** | ❌ High | ✅ Free / Low |
-| **Control** | ❌ Vendor Lock-in | ✅ 100% Ownership |
-| **Editing** | ❌ Raw Code / Risky | ✅ Human Text / Undo |
+A listener who wants to hear more from a particular scientist, or find every story a particular reporter filed, can do that now.
+
+---
+
+## A Copy Editor Who Reviews Every Story Before It Goes Out
+
+Every time a story is published, an automated review runs quietly in the background. It checks for typos, looks for mismatches between a guest's name in the text and their name in the headline, and flags anything that looks off.
+
+Editors don't have to do anything extra — they just save and publish as usual. But before the story reaches readers, something has checked it. Errors that used to slip through now get caught.
+
+---
+
+## "This Week in LOE History"
+
+The homepage now has a section that automatically surfaces archive content from the same week in previous years. Every week it changes, pulling up relevant old stories and segments without anyone choosing them.
+
+It gives longtime listeners a reason to explore what they missed. It reminds new listeners how long this show has been doing this work. And it happens on its own — no curation required.
+
+---
+
+## The Practical Stuff
+
+A few smaller things that add up:
+
+- **Station finder by zip code** — type in a zip code, get the nearest affiliate and how far away it is
+- **Reading time and listening time** shown on every segment, so a listener knows what they're getting into
+- **Clickable moments in transcripts** — a listener can jump directly to a specific exchange in an episode
+- **Dark mode** — the site follows whatever your phone or computer is already set to, and you can switch manually
+- **Works on any phone** — every page is readable on a small screen without zooming or scrolling sideways
+
+---
+
+## What This Adds Up To
+
+Three things, plainly:
+
+**The site won't break.** There's nothing to break. It's a shelf of printed pages.
+
+**Editors have a clean, safe workflow** — write in a familiar tool, preview before publishing, every version saved forever, errors caught before they go out.
+
+**Thirty-five years of work is now findable.** The archive was always there. Now it's indexed by topic, by person, by date, and connected to current content. The show's history is no longer a filing cabinet in a back room — it's part of the living site.

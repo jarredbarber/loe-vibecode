@@ -1,12 +1,18 @@
 ---
 title: Mann Bites Lapdogs (Beyond The Headlines)
 slug: mann-bites-lapdogs-beyond-the-headlines
-date: '2024-02-16'
+date: 2024-02-16
 category: Segments
 megaphone_id: LOE7301641858
 image_url: https://loe.org/content/2024-01-05/MANN_mann.jpeg
 image_caption: 'Michael Mann is a world-renowned climate scientist and a Presidential Distinguished Professor at the University of Pennsylvania. (Photo: Eric Sucar, Courtesy of Michael Mann)'
 summary: This week, Living on Earth Contributor Peter Dykstra and Host Steve Curwood catch up on climate scientist Michael Mann’s $1 million legal victory over bloggers who were found to have defamed him. Also, Puerto Rico is encouraging more solar development to help with grid reliability and reduce emissions, and in history they look back to when an ice jam left Niagara Falls high and dry.
+tags:
+  - climate-change
+  - climate-science
+  - solar
+  - litigation
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00007&segmentID=3 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Environment & President Biden's State of the Union
 slug: environment-president-bidens-state-of-the-union
-date: '2023-02-10'
+date: 2023-02-10
 category: Segments
 megaphone_id: LOE7304196070
 image_url: https://loe.org/content/2023-02-10/DYKSTRA_Biden.jpg
 image_caption: Joseph Robinette Biden Jr., the 46th and current President of the United States and member of the Democratic Party during the State of the Union Address on February 7, 2023. (Photo Screenshot of White House Video, Fair Use)
 summary: "Though it was not the central theme of his 2023 State of the Union speech, President Biden devoted more time to the environment than previous presidents have in this annual ritual. Commentator\_Peter Dykstra and Host Steve Curwood discuss President Biden's mentions of climate investments across\_the United States and an initiative to replace lead pipes that drew bipartisan applause. For history they talk about Lyndon B. Johnson, the first US President to mention climate change in a written addendum to a State of the Union\_speech."
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00006&segmentID=2 -->
 

@@ -1,12 +1,19 @@
 ---
 title: Poetry in the Time of Climate Troubles
 slug: poetry-in-the-time-of-climate-troubles
-date: '2024-04-12'
+date: 2024-04-12
 category: Segments
 megaphone_id: LOE3294798450
 image_url: https://loe.org/content/2021-04-16/PIERCE-tulip.jpg
 image_caption: 'Poet Catherine Pierce confronts the climate emergency head-on in her work, and even finds beauty within it. (Photo: Catherine Pierce)'
 summary: In her poems, Catherine Pierce grapples with unfolding climate disaster and other 21st century perils, and the ways they reframe parenting. She joins Host Steve Curwood to share poems from her books Danger Days and The Tornado Is the World, and to reflect on finding beauty and calls to action during the Anthropocene.
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - wildfire
+  - heatwave
+  - poetry-essays
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00015&segmentID=5 -->
 

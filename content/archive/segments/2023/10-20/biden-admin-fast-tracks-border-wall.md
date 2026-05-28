@@ -1,12 +1,14 @@
 ---
 title: Biden Admin Fast-Tracks Border Wall
 slug: biden-admin-fast-tracks-border-wall
-date: '2023-10-20'
+date: 2023-10-20
 category: Segments
 megaphone_id: LOE7946824928
 image_url: https://loe.org/content/2023-10-20/BORDER_barriers.jpg
 image_caption: 'During the Trump Administration 458 miles of border wall barriers along Southern Texas were built. According to the U.S. Border Protection the wall consists mostly of 18- to 30-foot steel bollards anchored in concrete. The barriers also feature sensors, lights, cameras and parallel roads in some places. (Photo: Laiken Jordahl, Center for Biological Diversity)'
 summary: The Biden administration is invoking special powers to waive more than 20 environmental laws so it can fast-track a new section of border wall along the Rio Grande River. The administration claims it is compelled to spend funds appropriated by Congress. Laiken Jordahl of the Center for Biological Diversity joins Host Jenni Doering to voice concerns about the environmental and cultural resources that could be disrupted by the barrier.
+tags:
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00042&segmentID=1 -->
 

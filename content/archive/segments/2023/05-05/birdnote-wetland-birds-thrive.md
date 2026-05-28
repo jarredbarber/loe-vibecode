@@ -1,12 +1,17 @@
 ---
 title: 'BirdNote®: Wetland Birds Thrive'
 slug: birdnote-wetland-birds-thrive
-date: '2023-05-05'
+date: 2023-05-05
 category: Segments
 megaphone_id: LOE5945114622
 image_url: https://loe.org/content/2023-05-05/BIRDNOTE_painting.jpg
 image_caption: 'A painting of two ducks from South Dakotan artist Adam Grimm. (Photo: Adam Grimm, USFWS)'
 summary: While nearly a third of North American bird species are in decline, many birds that depend on wetlands are thriving. BirdNote®’s Michael Stein reports.
+tags:
+  - birds
+  - wetlands
+  - species-loss
+  - farming
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00018&segmentID=7 -->
 

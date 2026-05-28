@@ -1,12 +1,17 @@
 ---
 title: Troubling Trend of Fewer Babies
 slug: troubling-trend-of-fewer-babies
-date: '2023-09-01'
+date: 2023-09-01
 category: Segments
 megaphone_id: LOE2136798391
 image_url: https://loe.org/content/2021-07-16/COUNTDOWN_fertility.jpg
 image_caption: 'Fertility worldwide has dropped nearly 1% per year from 1960 to 2018. Endocrine disrupting chemicals like PFAS and phthalates play a role in fertility decline by affecting male testosterone, diminishing sperm count, decreasing sperm quality, and increasing erectile dysfunction. (Photo: Zappys Technology Solutions, Flickr, CC BY 2.0)'
 summary: 'Over the past four decades, sperm levels among men in Western countries have dropped by more than 50%, and female fertility is also declining. Chemicals known as hormone disruptors are key culprits, including phthalates found in plastics. Shanna Swan, professor of Environmental Medicine and public health at Mount Sinai School of Medicine, led this groundbreaking research and is the author of the 2021 book, "Countdown: How Our Modern World is Threatening Sperm Counts, Altering Male and Female Reproductive Development and Imperiling the Future of the Human Race". Dr. Swan joins Host Steve Curwood to discuss the growing fertility crisis and why it hits vulnerable communities especially hard.'
+tags:
+  - toxic-exposure
+  - plastics
+  - environmental-justice
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00035&segmentID=3 -->
 

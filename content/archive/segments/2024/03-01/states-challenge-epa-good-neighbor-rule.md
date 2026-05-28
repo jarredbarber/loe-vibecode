@@ -1,12 +1,18 @@
 ---
 title: States Challenge EPA "Good Neighbor" Rule
 slug: states-challenge-epa-good-neighbor-rule
-date: '2024-03-01'
+date: 2024-03-01
 category: Segments
 megaphone_id: LOE6220640389
 image_url: https://loe.org/content/2024-03-01/SCOTUS_court.jpg
 image_caption: 'The U.S. Supreme Court heard oral arguments regarding the EPA’s “good neighbor” ozone rule on February 21, 2024. This was part of the Court’s “shadow docket”, as it was filed as an emergency appeal. (Photo: Wikiwopbop, Wikimedia Commons, CC BY-SA 2.5)'
 summary: Ohio, Indiana, and West Virginia have challenged the Environmental Protection Agency’s “Good Neighbor” rule in the Supreme Court. The regulation is designed to keep one state’s ozone emissions from spilling downwind and pushing another state out of compliance. Michael Burger from the Sabin Center for Climate Change Law at Columbia University joins Host Paloma Beltran to explore what this challenge means for the environmental regulation landscape.
+tags:
+  - air-pollution
+  - environmental-policy
+  - regulation-deregulation
+  - climate-change
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00009&segmentID=1 -->
 

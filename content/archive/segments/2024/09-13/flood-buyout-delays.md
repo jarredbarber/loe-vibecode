@@ -1,12 +1,18 @@
 ---
 title: Flood Buyout Delays
 slug: flood-buyout-delays
-date: '2024-09-13'
+date: 2024-09-13
 category: Segments
 megaphone_id: LOE1408003803
 image_url: https://loe.org/content/2024-09-13/BUYOUT-flood.jpg
 image_caption: 'Melissa Krupa’s Socastee home after a flood in February 2021, weeks before the first grants to start a buyout program were approved. (Photo: Courtesy of Melissa Krupa)'
 summary: South Carolina is offering to help homeowners move away from areas plagued by flooding, but at one flagship buyout, only one in ten eligible residents chose to participate. Freelance journalist Daniel Shailer reported on this for Inside Climate News and explains to Living on Earth’s Jenni Doering why delays and predatory real estate practices are getting in the way of moving people out of harms’ way.
+tags:
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - water-pollution
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00037&segmentID=3 -->
 

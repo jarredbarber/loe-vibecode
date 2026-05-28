@@ -1,12 +1,17 @@
 ---
 title: Designing Whale-Safe Lobstering Gear
 slug: designing-whale-safe-lobstering-gear
-date: '2023-02-03'
+date: 2023-02-03
 category: Segments
 megaphone_id: LOE1734577013
 image_url: https://loe.org/content/2023-02-03/GEAR_entangledwhale.jpg
 image_caption: 'There is hope that "on-demand" fishing gear, which eliminates the need for fixed buoy endlines, will prevent accidental right whale entanglements. (Photo: Clearwater Marine Aquarium Research Institute, Flickr, taken under NOAA permit number 20556. Funded by United States Army Corps of Engineers)'
 summary: Ship strikes can be deadly for North Atlantic Right Whales, but many of their untimely deaths are from entanglements with fishing gear, usually the long ropes that attach lobster and crab traps at the bottom of the ocean to buoys at the surface. So, there are efforts to design gear that would render the constant presence of those ropes unnecessary, making it much safer for nearby whales. Mark Baumgartner of the Woods Hole Oceanographic Institution joins Host Bobby Bascomb to explain the options and challenges of transitioning to this type of fishing gear.
+tags:
+  - marine-life
+  - endangered-species
+  - fish
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00005&segmentID=2 -->
 

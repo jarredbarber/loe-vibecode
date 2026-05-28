@@ -1,12 +1,18 @@
 ---
 title: The Drowning South
 slug: the-drowning-south
-date: '2024-05-24'
+date: 2024-05-24
 category: Segments
 megaphone_id: LOE2030087256
 image_url: https://loe.org/content/2024-05-24/SOUTH_sealevelrise.jpeg
 image_caption: 'The Southeast United States has seen roughly equivalent sea level rise since 2010 as it saw in the 50 years before that. In this photo from September 2023 water pools on the Causeway in Mobile, Alabama. (Photo: Ricky Carioti/The Washington Post)'
 summary: Sea levels are rising everywhere due to climate change but not equally, and a recent Washington Post series called “The Drowning South” documents how the US southeast is experiencing an especially rapid rise. Journalist Chris Mooney joins Host Paloma Beltran to talk about how communities near Mobile, Alabama and St. Tammany Parish, Louisiana are being affected.
+tags:
+  - sea-level-rise
+  - climate-change
+  - extreme-weather
+  - environmental-justice
+  - water-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00021&segmentID=5 -->
 

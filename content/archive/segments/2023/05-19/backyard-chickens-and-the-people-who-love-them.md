@@ -1,12 +1,17 @@
 ---
 title: Backyard Chickens and the People Who Love Them
 slug: backyard-chickens-and-the-people-who-love-them
-date: '2023-05-19'
+date: 2023-05-19
 category: Segments
 megaphone_id: LOE7699320993
 image_url: https://loe.org/content/2023-05-19/CHICKENS_cover.JPG
 image_caption: "“Under the Henfluence: Inside the World of Backyard Chickens and the People Who Love Them” is Tove Danovich’s debut nonfiction book.\_(Photo: Courtesy of Agate Publishing)"
 summary: 'As many as 13 percent of American households now keep chickens as pets and a cruelty-free source of fresh eggs. Tove Danovich, author of the new book Under the Henfluence: Inside the World of Backyard Chickens and the People Who Love Them, joins Living on Earth’s Bobby Bascomb to share the joys of raising chickens.'
+tags:
+  - farming
+  - food-systems
+  - mental-health
+  - sustainable-agriculture
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00020&segmentID=6 -->
 

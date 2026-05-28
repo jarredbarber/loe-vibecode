@@ -1,12 +1,17 @@
 ---
 title: Debunking Solar Energy Fears
 slug: debunking-solar-energy-fears
-date: '2023-11-24'
+date: 2023-11-24
 category: Segments
 megaphone_id: LOE4551061463
 image_url: https://loe.org/content/2023-11-24/SOLAR_installation.jpg
 image_caption: 'Solar panel applications and technology continue to grow. Above, a floating solar panel is assembled for a water retention pond in Walden, Colorado. (Photo: National Renewable Energy Lab, Flickr, CC BY-NC-ND 2.0)'
 summary: As solar energy costs fall and installations of solar panels rise, some are raising concerns about the materials they’re made from and are promoting disinformation about the safety of recycling these modules. A team at the National Renewable Energy Laboratory clarified this waste from solar panels and recently published an essay in the journal Nature Physics. Lead author Dr. Heather Mirletz joins Host Jenni Doering to put solar panel waste in perspective.
+tags:
+  - solar
+  - fossil-fuels
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00047&segmentID=5 -->
 

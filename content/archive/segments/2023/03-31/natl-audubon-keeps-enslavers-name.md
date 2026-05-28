@@ -1,12 +1,17 @@
 ---
 title: Natl Audubon Keeps Enslaver’s Name
 slug: natl-audubon-keeps-enslavers-name
-date: '2023-03-31'
+date: 2023-03-31
 category: Segments
 megaphone_id: LOE4134707627
 image_url: https://loe.org/content/2023-03-31/AUDOBON_portrait.jpg
 image_caption: 'A portrait of American ornithologist, naturalist, painter, slaveowner and white supremacist John James Audubon. (Photo: White House Historical Association, Wikimedia Commons, Public Domain)'
 summary: The namesake of the National Audubon Society was an enslaver, racist and white supremacist, so several local chapters are changing their names. But the leadership of the national group has rejected making a change. DC chapter President Tykee James joins Host Steve Curwood to say the decision is an obstacle to a more inclusive birding community.
+tags:
+  - environmental-justice
+  - profiles-interviews
+  - birds
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00013&segmentID=3 -->
 

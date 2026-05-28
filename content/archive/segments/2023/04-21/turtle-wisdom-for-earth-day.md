@@ -1,12 +1,16 @@
 ---
 title: Turtle Wisdom for Earth Day
 slug: turtle-wisdom-for-earth-day
-date: '2023-04-21'
+date: 2023-04-21
 category: Segments
 megaphone_id: LOE2096467527
 image_url: https://loe.org/content/2023-04-21/SY-World Turtle.jpg
 image_caption: 'An artistic representation of the World Turtle. (Photo: Matt Patterson)'
 summary: Author Sy Montgomery joins Host Steve Curwood to share the multicultural story of the “World Turtle” and why turtles are remarkable creatures and models for human care for the Earth.
+tags:
+  - endangered-species
+  - marine-life
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00016&segmentID=4 -->
 

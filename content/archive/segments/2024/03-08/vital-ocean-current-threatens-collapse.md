@@ -1,12 +1,17 @@
 ---
 title: Vital Ocean Current Threatens Collapse
 slug: vital-ocean-current-threatens-collapse
-date: '2024-03-08'
+date: 2024-03-08
 category: Segments
 megaphone_id: LOE1186730808
 image_url: https://loe.org/content/2024-03-08/AMOC_currents.jpg
 image_caption: 'The Atlantic meridional overturning circulation, also known as AMOC, influences weather patterns on land as well as ocean salinity and temperature. (Photo: R. Curry, Woods Hole Oceanographic Institution / Science / USGCRP, Wikimedia Commons, CC BY 3.0)'
 summary: As the climate crisis intensifies, a vital ocean current that includes the Gulf Stream seems to be falling apart, and thus could fail its mission to moderate the climate by bringing heat north from the tropics and cold back south. AP science and environment reporter Seth Borenstein joins Host Steve Curwood to explain the latest research and the potentially disastrous shutdown of this current.
+tags:
+  - climate-change
+  - atmospheric-science
+  - oceans
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00010&segmentID=1 -->
 

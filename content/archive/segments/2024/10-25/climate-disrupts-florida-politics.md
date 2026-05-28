@@ -1,12 +1,17 @@
 ---
 title: Climate Disrupts Florida Politics
 slug: climate-disrupts-florida-politics
-date: '2024-10-25'
+date: 2024-10-25
 category: Segments
 megaphone_id: LOE6071451722
 image_url: https://loe.org/content/2024-10-25/FLORIDA_hurricanes.jpg
 image_caption: 'Hurricanes Helene and Milton hit Florida back-to-back. The above shows damage in Keaton Beach.(Photo: Staff Sgt. Jacob Hancock, U.S. Air National Guard Flickr, CC BY 2.0)'
 summary: In this election year, hurricanes are part of the political conversation about climate change in Florida, where communities are still cleaning up from Helene and Milton. Inside Climate News reporter Amy Green joins Host Paloma Beltran to discuss how Florida’s candidates for U.S. Senator and Republican Governor Ron DeSantis are addressing climate change in the wake of these massive storms.
+tags:
+  - climate-change
+  - extreme-weather
+  - sea-level-rise
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00043&segmentID=1 -->
 

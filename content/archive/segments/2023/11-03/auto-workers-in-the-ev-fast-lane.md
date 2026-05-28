@@ -1,12 +1,17 @@
 ---
 title: Auto Workers in the EV Fast Lane
 slug: auto-workers-in-the-ev-fast-lane
-date: '2023-11-03'
+date: 2023-11-03
 category: Segments
 megaphone_id: LOE3109625421
 image_url: https://loe.org/content/2023-11-03/UAW_president.jpg
 image_caption: 'United Auto Workers president Shawn Fein (center) says the shift to EVs should not be a “race to the bottom.” (Photo: Informed Images, Flickr, CC BY-NC 2.0)'
 summary: Striking auto workers won higher wages, better benefits, and more ability to unionize electric vehicle battery plants that supply the “Big Three” US automakers. Inside Climate News Reporter Dan Gearino joins Host Jenni Doering to unpack what the strike’s outcome could mean for the growing electric vehicle industry, its workers, and the public.
+tags:
+  - fossil-fuels
+  - jobs-just-transition
+  - green-economy
+  - supply-chain
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00044&segmentID=5 -->
 

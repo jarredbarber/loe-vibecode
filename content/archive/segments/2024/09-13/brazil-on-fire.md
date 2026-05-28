@@ -1,12 +1,19 @@
 ---
 title: Brazil On Fire
 slug: brazil-on-fire
-date: '2024-09-13'
+date: 2024-09-13
 category: Segments
 megaphone_id: LOE4566672385
 image_url: https://loe.org/content/2024-09-13/BRAZIL-fire.jpg
 image_caption: 'A wildfire burns in 2020 in the Brazilian state of Amazonas. (Photo: Bruno Kelly, Amazônia Real, Wikimedia Commons, CC BY 2.0)'
 summary: Heat, drought, and arson are fueling an explosion of fires in Brazil’s Amazon and Pantanal region, home to wetlands and grasslands. Marcio Astrini leads the Climate Observatory, a network of civil society groups. He joins Host Aynsley O’Neill to describe the roots of the crisis and the need for the world to act boldly on climate when Brazil hosts the UN climate talks next year.
+tags:
+  - climate-change
+  - extreme-weather
+  - wildfire
+  - drought
+  - forests
+  - deforestation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00037&segmentID=1 -->
 

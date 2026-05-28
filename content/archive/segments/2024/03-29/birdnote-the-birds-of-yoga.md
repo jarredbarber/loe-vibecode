@@ -1,12 +1,16 @@
 ---
 title: 'BIRDNOTE®: The Birds of Yoga'
 slug: birdnote-the-birds-of-yoga
-date: '2024-03-29'
+date: 2024-03-29
 category: Segments
 megaphone_id: LOE6042107442
 image_url: https://loe.org/content/2024-03-29/BIRDNOTE_peacock.jpg
 image_caption: 'Many yoga poses are named after birds, such as the mayūrāsana pose, named after the peacock. (Photo: © Mathias Appel)'
 summary: Bird-inspired yoga poses, from eagle to crow to peacock pose, have deep roots in Hindu mythology and philosophy. BirdNote®’s Trisha Mukherjee explains.
+tags:
+  - birds
+  - profiles-interviews
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00013&segmentID=3 -->
 

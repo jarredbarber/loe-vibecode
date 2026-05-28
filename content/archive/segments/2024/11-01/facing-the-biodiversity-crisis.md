@@ -1,12 +1,17 @@
 ---
 title: Facing the Biodiversity Crisis
 slug: facing-the-biodiversity-crisis
-date: '2024-11-01'
+date: 2024-11-01
 category: Segments
 megaphone_id: LOE7876474862
 image_url: https://loe.org/content/2022-12-16/BIODIVERSITY_palawan.jpeg
 image_caption: 'Palawan Island is the largest in the Philippines and is known as “The Last Ecological Frontier of the Philippines." (Photo: Patrick Kranzmüller, Flickr, CC_BY_NC_ND_2.0)'
 summary: As the world meets in Cali, Colombia at the 2024 UN biodiversity summit, we speak with KM Reyes, co-founder of the Centre for Sustainability Philippines, in a conversation first broadcast in 2022 about how indigenous people are often vital protectors of land and biodiversity. She joined Host Steve Curwood to describe indigenous land protection on the island of Palawan in the Philippines.
+tags:
+  - species-loss
+  - forests
+  - oceans
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00044&segmentID=2 -->
 

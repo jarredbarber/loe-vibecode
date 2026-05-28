@@ -1,12 +1,18 @@
 ---
 title: The UAE Boosts Climate Pledge
 slug: the-uae-boosts-climate-pledge
-date: '2023-07-28'
+date: 2023-07-28
 category: Segments
 megaphone_id: LOE1402377898
 image_url: https://loe.org/content/2023-01-20/COP28_aljaber.jpg
 image_caption: 'Sultan Al Jaber, the chief executive of the UAE''s Abu Dhabi National Oil Company and president of this year''s Cop28 UN climate summit. (Photo: Arctic Circle, Flickr, CC BY 2.0)'
 summary: The UAE has increased its climate ambition targets under the Paris Agreement following criticism around their choice of a top oil executive to lead this year’s UN climate talks. But researchers claim the UAE is unlikely to meet its climate targets given its plans to boost oil and gas production. David Tong, the Global Industry Campaign Manager for Oil Change International, joins host Aynsley O’Neill to explain what the UAE policy means for COP28.
+tags:
+  - climate-change
+  - fossil-fuels
+  - oil-gas
+  - environmental-policy
+  - climate-negotiations
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00030&segmentID=4 -->
 

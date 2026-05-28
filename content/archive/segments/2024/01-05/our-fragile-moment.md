@@ -1,12 +1,18 @@
 ---
 title: Our Fragile Moment
 slug: our-fragile-moment
-date: '2024-01-05'
+date: 2024-01-05
 category: Segments
 megaphone_id: LOE1665573050
 image_url: https://loe.org/content/2024-01-05/MANN_mann.jpeg
 image_caption: 'Michael Mann is a world-renowned climate scientist and a Presidential Distinguished Professor at the University of Pennsylvania. (Photo: Eric Sucar, Courtesy of Michael Mann)'
 summary: '2023 is likely to go down in history as the hottest year ever seen by humans. But we still have a chance to rein in global warming before it runs too hot for our civilization, says UPenn Professor Michael Mann. He joins Host Steve Curwood to discuss his recent book Our Fragile Moment: How Lessons from Earth’s Past Can Help Us Survive the Climate Crisis.'
+tags:
+  - climate-change
+  - extreme-weather
+  - fossil-fuels
+  - climate-science
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00001&segmentID=4 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Environment and the Law in 2023
 slug: environment-and-the-law-in-2023
-date: '2023-01-06'
+date: 2023-01-06
 category: Segments
 megaphone_id: LOE6924450046
 image_url: https://loe.org/content/2022-05-20/SCOTUS-scotus_bldg.jpg
 image_caption: 'The court''s decision in West Virginia v. EPA found that the agency effectively does not have the power to regulate the mix of generation sources to address carbon dioxide emissions from power plants. (Photo: Susan Melkisethian, Flickr, CC BY-NC-ND 2.0)'
 summary: The case West Virginia v. EPA and the Inflation Reduction Act made 2022 a landmark year for environmental law. Pat Parenteau, former EPA regional counsel and emeritus professor at Vermont Law School, joins Host Steve Curwood to look ahead to environmental legal actions on the horizon in 2023, including Supreme Court clean water and other decisions, environmental justice implementation, and suits alleging climate racketeering.
+tags:
+  - environmental-policy
+  - climate-change
+  - litigation
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00001&segmentID=1 -->
 

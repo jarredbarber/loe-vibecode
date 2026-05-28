@@ -1,12 +1,17 @@
 ---
 title: Green Voter Energy
 slug: green-voter-energy
-date: '2024-08-23'
+date: 2024-08-23
 category: Segments
 megaphone_id: LOE3039307392
 image_url: https://loe.org/content/2024-08-23/EVP_voting.jpg
 image_caption: 'The 2024 elections are kicking into high gear, and youth voter turnout could make all the difference. (Photo: Sora Shimazaki, Pexels, CC)'
 summary: A recent poll of 2,600 voters climate concerned young voters in five battleground states conducted by The Environmental Voter Project and Beacon Research found they favored Democratic Presidential candidate Kamala Harris. Nathaniel Stinnett the founder and executive of the Environmental Voter Project joined hosts Aynsley O’Neill and Steve Curwood to discuss the possible impact of Harris’ favorability amongst young green voters.
+tags:
+  - environmental-policy
+  - youth-education
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00034&segmentID=1 -->
 

@@ -1,12 +1,16 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0217
-date: '2023-02-17'
+date: 2023-02-17
 category: Segments
 megaphone_id: LOE9102227434
 image_url: https://loe.org/content/2023-02-17/DYKSTRA-ohio derailment.jpg
 image_caption: 'On February 7, 2023, members of the Ohio National Guard’s 52nd Civil Support Team prepared to assess hazards from the Feb. 3 derailment of a train carrying toxic chemicals near East Palestine, Ohio. (Photo: (U.S. Air National Guard photo by Capt. Jordyn Craft, Ohio National Guard Public Affairs)'
 summary: Journalist Peter Dykstra joins Host Steve Curwood this week to discuss the recent Ohio train derailment, which sent 50 cars carrying toxic chemicals including vinyl chloride careening off their tracks. They also discuss the proposed more efficient energy standards for washing machines, refrigerators, and freezers. For a history lesson, they dive into a prescient 1969 paper warning that the Arctic pack ice is thinning and the summertime ocean at the North Pole would soon become open water.
+tags:
+  - chemical-contamination
+  - climate-change
+  - arctic-polar
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00007&segmentID=2 -->
 

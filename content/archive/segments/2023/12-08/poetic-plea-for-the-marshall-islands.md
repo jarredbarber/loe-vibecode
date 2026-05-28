@@ -1,12 +1,18 @@
 ---
 title: Poetic Plea for The Marshall Islands
 slug: poetic-plea-for-the-marshall-islands
-date: '2023-12-08'
+date: 2023-12-08
 category: Segments
 megaphone_id: LOE5989733064
 image_url: https://loe.org/content/2015-12-11/C2--threatened_by_rising_seas.png
 image_caption: 'The Marshall Islands are threatened by rising seas. (Photo: BermudaMike, Flickr CC BY-NC-ND 2.0)'
 summary: The Marshall Islands’ thousands of residents are extremely vulnerable to climate change. Poet Kathy Jetnil-Kijiner describes life on the island and the threat from rising seas and performs her poem “Tell Them.”
+tags:
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - profiles-interviews
+  - poetry-essays
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00049&segmentID=6 -->
 

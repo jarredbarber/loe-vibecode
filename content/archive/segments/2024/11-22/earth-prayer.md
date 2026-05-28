@@ -1,12 +1,16 @@
 ---
 title: Earth Prayer
 slug: earth-prayer
-date: '2024-11-22'
+date: 2024-11-22
 category: Segments
 megaphone_id: LOE1775852304
 image_url: https://loe.org/content/2023-04-21/JOE-hands in earth.jpg
 image_caption: 'Joe Bruchac’s poem is dedicated to Mother Earth. (Photo: Jonathan Kemper, Unsplash)'
 summary: Nulhegan Abenaki storyteller Joe Bruchac joins Host Steve Curwood to deliver his poem of gratitude for the gifts of the Earth, called “Earth Prayer.”
+tags:
+  - indigenous-rights
+  - poetry-essays
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00047&segmentID=5 -->
 

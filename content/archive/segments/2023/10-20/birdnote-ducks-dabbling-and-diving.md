@@ -1,12 +1,16 @@
 ---
 title: 'BirdNote®: Ducks—-Dabbling and Diving'
 slug: birdnote-ducks-dabbling-and-diving
-date: '2023-10-20'
+date: 2023-10-20
 category: Segments
 megaphone_id: LOE3253375809
 image_url: https://loe.org/content/2023-10-20/BIRDNOTE_mallards.jpg
 image_caption: 'Mallards are “dabbling” ducks, who feed by dipping their bills in water just below the surface or dunking head-first. (Photo: cahadikin, Flickr, Creative Commons)'
 summary: The fall migration in the Northern Hemisphere is a great time to keep an eye out for birds that usually live elsewhere, as BirdNote®’s Mary McCann reports.
+tags:
+  - birds
+  - marine-life
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00042&segmentID=4 -->
 

@@ -1,12 +1,18 @@
 ---
 title: Sunrise Youth Want To Be Courted
 slug: sunrise-youth-want-to-be-courted
-date: '2024-08-23'
+date: 2024-08-23
 category: Segments
 megaphone_id: LOE6030515811
 image_url: https://loe.org/content/2024-08-23/SUNRISE_protesting.jpeg
 image_caption: 'The sunrise movement protesting for a declaration on the climate emergency at the 2024 Democratic National Convention in Chicago. (Photo: Rachel Warriner, Sunrise Movement)'
 summary: The 2020 elections were determined in part by young voters. Polling suggests President Biden lost support from that demographic throughout his term, so Democratic nominee Kamala Harris will need to attract them in her bid to keep the White House blue. The Sunrise Movement is among the multiple climate groups representing youth climate advocates that have yet to endorse a presidential candidate. Ariela Lara, a first-time voter and youth organizer for the Sunrise Movement, joined hosts Aynsley O’Neill and Steve Curwood to cover the organization’s demands on environmental policy.
+tags:
+  - climate-change
+  - environmental-justice
+  - youth-education
+  - activism
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00034&segmentID=4 -->
 

@@ -1,12 +1,18 @@
 ---
 title: Slip-Sliding Away
 slug: slip-sliding-away
-date: '2023-07-28'
+date: 2023-07-28
 category: Segments
 megaphone_id: LOE6796716892
 image_url: https://loe.org/content/2023-07-28/MSL_first.JPG
 image_caption: 'A river otter pokes his head out of the water. (Photo: Mark Seth Lender)'
 summary: River otters tend to avoid human contact, but Living on Earth’s Explorer-in-Residence Mark Seth Lender shares a once-in-a-lifetime encounter with the elusive creatures.
+tags:
+  - mammals
+  - wildlife-corridors
+  - rivers-watersheds
+  - field-reporting
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00030&segmentID=6 -->
 

@@ -1,12 +1,16 @@
 ---
 title: The Greening of Antarctica
 slug: the-greening-of-antarctica
-date: '2024-10-25'
+date: 2024-10-25
 category: Segments
 megaphone_id: LOE2498154404
 image_url: https://loe.org/content/2024-10-25/ANTARCTICA_moss.jpg
 image_caption: 'Although you may think of Antarctica as void of green, its peninsula is actually a habitat for moss. (Photo: Matthew Amesbury)'
 summary: In addition to the retreat and collapse of huge ice shelves, climate change is associated with rapid greening in Antarctica as plants thrive in warmer temperatures. A recent study found that plants have increased more than tenfold on the Antarctic Peninsula in the last few decades. Co-lead author Dr. Olly Bartlett joins Host Jenni Doering to describe the potential ecological consequences of a more verdant Antarctica.
+tags:
+  - climate-change
+  - extreme-weather
+  - invasive-species
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00043&segmentID=6 -->
 

@@ -1,12 +1,19 @@
 ---
 title: Tim Walz's Climate Record
 slug: tim-walzs-climate-record
-date: '2024-09-06'
+date: 2024-09-06
 category: Segments
 megaphone_id: LOE9992234482
 image_url: https://loe.org/content/2024-09-06/WALZ_rally.jpg
 image_caption: 'Minnesota Governor Tim Walz at a Harris-Walz campaign rally in Arizona. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: Tim Walz, the running mate of Democratic presidential nominee Kamala Harris, has signed climate legislation as Minnesota Governor and supported regenerative agriculture bills as a Congressman. Inside Climate News reporter Kristoffer Tigue joins Hosts Aynsley O’Neill and Jenni Doering to discuss the praise Walz has received for his climate work as well as some criticism over his history of supporting the ethanol industry and oil pipelines.
+tags:
+  - climate-change
+  - fossil-fuels
+  - pesticides
+  - environmental-policy
+  - indigenous-rights
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00036&segmentID=2 -->
 

@@ -1,12 +1,19 @@
 ---
 title: 'BirdNote®: The Power Of Albatross Partnerships'
 slug: birdnote-the-power-of-albatross-partnerships
-date: '2023-06-23'
+date: 2023-06-23
 category: Segments
 megaphone_id: LOE9142873976
 image_url: https://loe.org/content/2021-04-16/BIRDNOTE-Waved-albatross-pair-800-Wildlife-Travel-CC.jpg
 image_caption: 'A Waved Albatross pair (Photo: Wildlife Travel, CC)'
 summary: Raising a chick is no small feat for Albatrosses and both parents play a vital role. BirdNote®’s Wenfei Tong describes the strong and unique bonds that help albatrosses raise their young.
+tags:
+  - birds
+  - species-loss
+  - endangered-species
+  - marine-life
+  - profiles-interviews
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00025&segmentID=3 -->
 

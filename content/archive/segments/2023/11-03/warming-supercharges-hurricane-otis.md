@@ -1,12 +1,17 @@
 ---
 title: Warming Supercharges Hurricane Otis
 slug: warming-supercharges-hurricane-otis
-date: '2023-11-03'
+date: 2023-11-03
 category: Segments
 megaphone_id: LOE6390078781
 image_url: https://loe.org/content/2023-11-03/OTIS_hurricane.jpg
 image_caption: 'Hurricane Otis continued its explosive intensification episode off the coast of Guerrero during the evening of October 24th. (Photo: NASA, Wikimedia Commons)'
 summary: Exceptionally warm waters in the Eastern North Pacific off Acapulco, Mexico fed the rapid strengthening of Hurricane Otis into a deadly Category 5 storm that weather forecasters failed to understand in time to warn the public. MIT Professor of Atmospheric Science Kerry Emanuel joins Host Steve Curwood to explain the science behind the storm and share how needed improvements in weather forecasting can help communities better prepare for extreme storms.
+tags:
+  - climate-change
+  - extreme-weather
+  - atmospheric-science
+  - oceans
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00044&segmentID=1 -->
 

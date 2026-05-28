@@ -1,12 +1,20 @@
 ---
 title: Climate Action at the World Court
 slug: climate-action-at-the-world-court
-date: '2024-12-06'
+date: 2024-12-06
 category: Segments
 megaphone_id: LOE3816451451
 image_url: https://loe.org/content/2024-12-06/ICJ_thehague.jpg
 image_caption: 'The International Court of Justice in the Hague, the Netherlands. (Photo: Andrea Brizzi, UN Photo, Flickr, CC BY-NC-ND 2.0)'
 summary: The world’s biggest climate case is underway at the International Court of Justice at the Hague in the Netherlands. Over 100 countries and intergovernmental organizations are arguing before a 15-judge panel, which could decide to issue an advisory opinion to clarify nations’ obligations to limit global warming emissions.
+tags:
+  - climate-change
+  - sea-level-rise
+  - fossil-fuels
+  - environmental-policy
+  - international-treaties
+  - litigation
+  - oceans
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00049&segmentID=1 -->
 

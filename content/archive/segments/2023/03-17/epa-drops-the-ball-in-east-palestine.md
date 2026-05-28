@@ -1,12 +1,16 @@
 ---
 title: EPA Drops the Ball in East Palestine
 slug: epa-drops-the-ball-in-east-palestine
-date: '2023-03-17'
+date: 2023-03-17
 category: Segments
 megaphone_id: LOE9820954732
 image_url: https://loe.org/content/2023-03-17/DYKSTRA_drone.jpg
 image_caption: 'Drone footage shows the freight train derailment in East Palestine, Ohio, February 6, 2023. (Photo: National Transportation Safety Board, public domain)'
 summary: The people of East Palestine, Ohio were left in the dark about toxic chemical risks in the wake of the fiery train derailment, says Judith Enck, a former regional administrator of the EPA. Her commentary calls out the EPA’s delayed and weak response and urges the agency to take steps to regain the public’s trust.
+tags:
+  - chemical-contamination
+  - public-health
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00011&segmentID=3 -->
 

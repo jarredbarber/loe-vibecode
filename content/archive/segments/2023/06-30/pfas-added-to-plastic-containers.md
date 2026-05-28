@@ -1,12 +1,17 @@
 ---
 title: PFAS Added to Plastic Containers
 slug: pfas-added-to-plastic-containers
-date: '2023-06-30'
+date: 2023-06-30
 category: Segments
 megaphone_id: LOE2949976840
 image_url: https://loe.org/content/2023-06-30/PFAS_plastic.jpeg
 image_caption: 'A pesticide called Anvil 10+10 was found to have high levels of PFAS due to the plastic containers it was stored in. (Photo: Courtesy of Kyla Bennett)'
 summary: PFAS “forever chemicals,” linked to cancer, liver problems and more, are leaching into cosmetics, household cleaners, and even food stored in plastic containers treated with fluorination. EPA is now going after a company that uses the fluorination process, but some advocates say the agency still isn’t doing enough to protect the public. Kyla Bennett of Public Employees for Environmental Responsibility joins Host Paloma Beltran to explain the public health risks of this source of PFAS.
+tags:
+  - pfas-forever-chemicals
+  - toxic-exposure
+  - cancer-environment
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00026&segmentID=1 -->
 

@@ -1,12 +1,18 @@
 ---
 title: California Leads with Climate Disclosure Bills
 slug: california-leads-with-climate-disclosure-bills
-date: '2023-09-29'
+date: 2023-09-29
 category: Segments
 megaphone_id: LOE8089538820
 image_url: https://loe.org/content/2023-09-29/CALI_traffic.jpg
 image_caption: 'California has a population of about 40 million people making the state’s economy one of the largest in the United States, with a $3.7 trillion gross state product (GSP) as of 2022. It is the largest sub-national economy in the world. (Photo: Eric Demarcq, Flickr, CC BY-NC-ND 2.0)'
 summary: California is poised to enact two laws that would require companies to disclose how climate change affects their business, and how their operations impact the climate. Dave Jones directs the Climate Risk Initiative at Berkeley Law and joins Host Jenni Doering to explain how this transparency can help investors, consumers, and regulators make better decisions related to climate change and business.
+tags:
+  - climate-change
+  - environmental-policy
+  - corporate-accountability
+  - green-economy
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00039&segmentID=2 -->
 

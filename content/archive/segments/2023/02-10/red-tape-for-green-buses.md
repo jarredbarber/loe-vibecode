@@ -1,12 +1,13 @@
 ---
 title: Red Tape for Green Buses
 slug: red-tape-for-green-buses
-date: '2023-02-10'
+date: 2023-02-10
 category: Segments
 megaphone_id: LOE4411499350
 image_url: https://loe.org/content/2022-11-04/DYKSTRA_bus.jpg
 image_caption: 'The EPA has begun a Clean School Bus Program that low-income communities across the country are able to apply for, but there’s a catch: some school districts are unable to fulfill the scrappage requirement. (Photo: Caitlin Looby, UCI Sustainability, Flickr, CC BY-NC-ND 2.0)'
 summary: To replace polluting diesel school buses with clean electric ones the bipartisan infrastructure law signed by President Biden in 2021 allotted $5 billion over five years for low-income communities. But an unintended consequence of the measure’s terms prevents some of the neediest communities from benefiting from the program. Congresswoman Jan Schakowsky (IL-09) joins Host Steve Curwood from Washington, D.C. to explain what changes she and other lawmakers are calling for.
+tags: []
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00006&segmentID=3 -->
 

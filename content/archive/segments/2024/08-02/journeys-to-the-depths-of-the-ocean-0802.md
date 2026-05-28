@@ -1,12 +1,17 @@
 ---
 title: Journeys to the Depths of the Ocean
 slug: journeys-to-the-depths-of-the-ocean-0802
-date: '2024-08-02'
+date: 2024-08-02
 category: Segments
 megaphone_id: LOE5024117908
 image_url: https://loe.org/content/2024-02-09/CASEY_cover.JPG
 image_caption: 'The Underworld: Journeys to the Depths of the Ocean is Susan Casey’s latest book. (Image: Courtesy of Susan Casey)'
 summary: The oceans cover 70 percent of our “blue planet” yet remain largely unexplored because of the intense pressures at depth. But there are some intrepid few who have descended into this “underworld” and lived to tell of its marvels.
+tags:
+  - oceans
+  - marine-life
+  - profiles-interviews
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00031&segmentID=1 -->
 

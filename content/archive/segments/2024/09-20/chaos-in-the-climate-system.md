@@ -1,12 +1,17 @@
 ---
 title: Chaos in the Climate System
 slug: chaos-in-the-climate-system
-date: '2024-09-20'
+date: 2024-09-20
 category: Segments
 megaphone_id: LOE2747130709
 image_url: https://loe.org/content/2024-09-20/MANN_greenhousegases.jpg
 image_caption: 'Greenhouse gases are heating the atmosphere. A warmer atmosphere holds more moisture, which increases the amount of rainfall during precipitation events. (Photo: Kritzolina, Wikimedia Commons, CC BY-SA 4.0)'
 summary: Catastrophic flooding in Africa, Europe and Asia is linked to changes in the jet stream and warming of the Arctic. University of Pennsylvania climate scientist Michael Mann joins Host Steve Curwood for a discussion about why climate disruption is making extreme weather events much more likely, and how the world can still avert the worst outcomes of runaway climate change.
+tags:
+  - climate-change
+  - extreme-weather
+  - arctic-polar
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00038&segmentID=2 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Climate Voter Power
 slug: climate-voter-power
-date: '2024-07-19'
+date: 2024-07-19
 category: Segments
 megaphone_id: LOE4675648382
 image_url: https://loe.org/content/2020-11-27/STINNETT_estimated.jpg
 image_caption: 'A study from the University of Colorado Boulder analyzed voting trends and used predictive modeling to conclude that climate-focused voter turnout played a pivotal role in electing Joe Biden in 2020. (Photo: Phil Roeder, Flickr, CC BY 2.0)'
 summary: Climate may not always top the list of voter concerns, but research suggests it can tip the scales in US presidential elections, including the 2020 election which came down to 44,000 votes. So the Environmental Voter Project is trying to mobilize nearly 5 million registered voters who rate environment or climate as a top concern but might not otherwise turn out this November. Nathaniel Stinnett is its founder and director and joined Living on Earth’s Aynsley O’Neill to explain why this latent voting bloc is worth tapping into.
+tags:
+  - climate-change
+  - environmental-policy
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00029&segmentID=2 -->
 

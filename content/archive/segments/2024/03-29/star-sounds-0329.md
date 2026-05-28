@@ -1,12 +1,15 @@
 ---
 title: Star Sounds
 slug: star-sounds-0329
-date: '2024-03-29'
+date: 2024-03-29
 category: Segments
 megaphone_id: LOE5393085112
 image_url: https://loe.org/content/2024-03-29/NASA_phantomgalaxy.jpg
 image_caption: 'Composite images and data from a series of infrared, optical, and X-ray instruments make up this view of Messier 74, a spiral galaxy also known as the “Phantom Galaxy”. (Photo: NASA, Flickr, CC BY-NC 2.0)'
 summary: NASA turned infrared, optical, and x-ray data from space into sound in a process called “sonification,” so we can “hear” the gorgeous spiral galaxy known as the Phantom Galaxy. And within our own Milky Way galaxy is the Jellyfish Nebula, the remnant of an exploded star. Host Aynsley O’Neill walks us through these otherworldly sounds.
+tags:
+  - climate-science
+  - earth-observation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00013&segmentID=6 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Saving the Wild Coast of South Africa
 slug: saving-the-wild-coast-of-south-africa
-date: '2024-05-31'
+date: 2024-05-31
 category: Segments
 megaphone_id: LOE3379060848
 image_url: https://loe.org/content/2024-05-31/SOUTHAFRICA_sinegugu.jpg
 image_caption: '2024 Goldman Prize winner Sinegugu Zukulu. Sinegugu and his colleague Nonhle Mbuthuma were named 2024 Goldman Prize winners for their role in preventing the Shell company from conducting seismic testing ahead of oil and gas exploration along the Wild Coast of South Africa’s Eastern Cape. (Photo: Goldman Environmental Prize)'
 summary: In 2021 the “Wild Coast” of eastern South Africa was targeted by Shell for oil exploration, raising concerns for the local Mpondo people about impacts to wildlife and possible contamination of land and water. Environmental activists Nonhle Mbuthuma and Sinegugu Zukulu mounted a campaign and secured a victory from the High Court revoking Shell’s permit. They shared the 2024 Goldman Environmental Prize for Africa, and Sinegugu Zukulu joined Living on Earth’s Steve Curwood to discuss why he believes the Wild Coast needs protecting.
+tags:
+  - fossil-fuels
+  - marine-life
+  - indigenous-rights
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00022&segmentID=6 -->
 

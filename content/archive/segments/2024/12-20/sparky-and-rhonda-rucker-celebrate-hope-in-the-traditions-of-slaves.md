@@ -1,12 +1,15 @@
 ---
 title: Sparky and Rhonda Rucker Celebrate Hope in the Traditions of Slaves
 slug: sparky-and-rhonda-rucker-celebrate-hope-in-the-traditions-of-slaves
-date: '2024-12-20'
+date: 2024-12-20
 category: Segments
 megaphone_id: LOE6769718012
 image_url: https://loe.org/content/2015-12-25/B--Ruckers.png
 image_caption: 'Multi-instrumentalists Sparky and Rhonda Ruckers sing songs and tell stories from the American folk tradition. (Photo: courtesy of Pam Zappardino)'
 summary: Slaves in the American South sang and shared stories to keep their sense of hope alive. Husband and wife duo Sparky and Rhonda Rucker share stories of what slaves could expect at the holiday season, and a hog tale of the trickster High John the Conqueror, along with old-time spirituals.
+tags:
+  - profiles-interviews
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00051&segmentID=2 -->
 

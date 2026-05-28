@@ -1,12 +1,16 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0405
-date: '2024-04-05'
+date: 2024-04-05
 category: Segments
 megaphone_id: LOE6629483006
 image_url: https://loe.org/content/2024-04-05/Dykstra_Marjory_Stoneman_Douglas_02.jpg
 image_caption: 'Conservationist Marjory Stoneman Douglas, author of The Everglades: River of Grass, lived to be 108 years old and was 104 when this photo was taken. (Photo: Abigail B. Wright, Miranda Productions, Inc., Wikimedia Commons, CC BY-SA 3.0)'
 summary: In their look back in history Living on Earth Contributor Peter Dykstra and Host Steve Curwood celebrate the birthday of Everglades protector Marjory Stoneman Douglas. They also mark the debut of prepared frozen meals marketed as TV dinners.
+tags:
+  - profiles-interviews
+  - forests
+  - environmental-history
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00014&segmentID=4 -->
 

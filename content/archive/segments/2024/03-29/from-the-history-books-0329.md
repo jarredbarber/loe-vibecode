@@ -1,12 +1,18 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0329
-date: '2024-03-29'
+date: 2024-03-29
 category: Segments
 megaphone_id: LOE9137874112
 image_url: https://loe.org/content/2024-03-29/DYKSTRA_fukushima.jpeg
 image_caption: 'The 2011 Fukushima nuclear disaster forced 47,000 people to evacuate their homes. (Photo: Tokyo Electric Power Co., TEPCO, Flickr, CC BY-SA 2.0)'
 summary: Living on Earth Contributor Peter Dykstra shares a couple of notable items from this week in history with Host Aynsley O’Neill, including the 1971 startup of the first nuclear reactor at Fukushima Daiichi and the 1970 release of environmental classic “Big Yellow Taxi” by Joni Mitchell.
+tags:
+  - nuclear
+  - fossil-fuels
+  - climate-change
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00013&segmentID=4 -->
 

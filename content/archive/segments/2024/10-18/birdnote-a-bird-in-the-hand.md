@@ -1,12 +1,16 @@
 ---
 title: 'BirdNote®: A Bird in the Hand'
 slug: birdnote-a-bird-in-the-hand
-date: '2024-10-18'
+date: 2024-10-18
 category: Segments
 megaphone_id: LOE5256748288
 image_url: https://loe.org/content/2024-10-18/BIRDNOTE_sparrow.jpg
 image_caption: 'The American Tree Sparrow, a common species in the Northern United States. (Photo: Tom Murray, Flickr, CC BY-NC 2.0)'
 summary: Pennsylvania is known for its unusual town names, which include Burnt Cabins, Intercourse, Pillow, Chinchilla, Hazard and Panic. In today’s BirdNote®, Michael Stein shares how one small community came to be called “Bird-in-Hand”, Pennsylvania.
+tags:
+  - birds
+  - profiles-interviews
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00042&segmentID=2 -->
 

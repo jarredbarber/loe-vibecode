@@ -1,12 +1,17 @@
 ---
 title: Exxon's Alleged Plastics 'Deception'
 slug: exxons-alleged-plastics-deception
-date: '2024-09-27'
+date: 2024-09-27
 category: Segments
 megaphone_id: LOE3359668667
 image_url: https://loe.org/content/2024-09-27/EXXON_sellinggas.jpg
 image_caption: 'Although Exxon is known for selling gas and oil, they also manufacture plastic. (Photo: Harrison Keely, Wikimedia Commons, CC BY 4.0)'
 summary: California is suing ExxonMobil over the oil giant’s alleged “campaign of deception” to convince the public that recycling is a viable solution for plastic waste, when less than 10% of plastics are recycled. Pat Parenteau, emeritus professor at Vermont Law and Graduate School, joins Host Aynsley O’Neill to discuss the lawsuit and the plastic waste crisis.
+tags:
+  - plastics
+  - fossil-fuels
+  - litigation
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00039&segmentID=1 -->
 

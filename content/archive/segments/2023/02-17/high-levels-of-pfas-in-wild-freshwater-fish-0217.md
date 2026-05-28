@@ -1,12 +1,14 @@
 ---
 title: High Levels of PFAS in Wild Freshwater Fish
 slug: high-levels-of-pfas-in-wild-freshwater-fish-0217
-date: '2023-02-17'
+date: 2023-02-17
 category: Segments
 megaphone_id: LOE7890853145
 image_url: https://loe.org/content/2023-02-17/PFAS-fish from great lakes.jpg
 image_caption: 'Whitefish from Lake Michigan, one of the Great Lakes whose fish population was found to be highly contaminated by PFAS. (Photo: NOAA Great Lakes Environmental Research Laboratory)'
 summary: PFAS “forever” chemicals have widespread health impacts from cancers to reproductive disorders. A recent study revealed high levels of PFAS in wild-caught, American freshwater fish. David Andrews, a senior scientist with the Environmental Working Group, joined Living on Earth’s Bobby Bascomb to discuss the results and the impact on consumers.
+tags:
+  - food-systems
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00007&segmentID=4 -->
 

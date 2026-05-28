@@ -1,12 +1,18 @@
 ---
 title: 'Wildly Magical: Animal Encounters in the Galapagos'
 slug: wildly-magical-animal-encounters-in-the-galapagos
-date: '2023-12-29'
+date: 2023-12-29
 category: Segments
 megaphone_id: LOE8466770096
 image_url: https://loe.org/content/2021-01-01/JENNER-Marine-Iguana.jpg
 image_caption: 'Jennifer Junghans had long dreamed of traveling to the Galapagos to swim with the marine iguanas. (Photo: Jennifer Junghans)'
 summary: Writer Jennifer Junghans had always dreamed of going to the Galapagos to swim with the marine iguanas. In 2017 she finally had her chance, and although the iguanas stayed high and dry, the experience brought her up close with blue-footed boobies and blacktip sharks, and face-to-face with a curious pufferfish. Jennifer shares her story of visiting “the remote wilderness of her dreams” with Aynsley O’Neill, who spent a memorable summer studying in the Galapagos.
+tags:
+  - marine-life
+  - mammals
+  - fish
+  - birds
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00052&segmentID=3 -->
 

@@ -1,12 +1,19 @@
 ---
 title: A Climate Skeptic House Speaker
 slug: a-climate-skeptic-house-speaker
-date: '2023-11-03'
+date: 2023-11-03
 category: Segments
 megaphone_id: LOE5133813597
 image_url: https://loe.org/content/2023-11-03/LCV_elected.jpg
 image_caption: 'Representative Mike Johnson (LA-04) was elected House Speaker in October 2023. (Photo: Office of Speaker Mike Johnson, Wikimedia Commons, Public Domain)'
 summary: The new House Speaker, Republican Mike Johnson of Louisiana, has voted for legislation on the environment and some key social issues just 2% of the time, from the perspective of the League of Conservation Voters. Senior VP of Government Affairs Tiernan Sittenfeld joins Host Jenni Doering to voice LCV’s concerns about Speaker Johnson’s climate skepticism, oil and gas industry campaign contributions and bids to repeal President Biden’s signature climate law.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - congressional-action
+  - oil-gas
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00044&segmentID=2 -->
 

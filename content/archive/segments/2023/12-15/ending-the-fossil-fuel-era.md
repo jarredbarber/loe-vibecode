@@ -1,12 +1,18 @@
 ---
 title: Ending the Fossil Fuel Era
 slug: ending-the-fossil-fuel-era
-date: '2023-12-15'
+date: 2023-12-15
 category: Segments
 megaphone_id: LOE3098938191
 image_url: https://loe.org/content/2023-12-15/COP_delegatesfinalized.jpg
 image_caption: 'Delegates at COP28 finalized language around a “transition away” from fossil fuels in the morning of December 13, 2023. (Photo: Mahmoud Khaled, COP28, UN Climate Change, Flickr, CC BY-NC-SA 2.0)'
 summary: Nearly 200 nations attending the COP28 UN climate summit in Dubai came to a consensus to declare fossil fuels are on their way out, marking a breakthrough after three decades of climate summits. Alden Meyer, a senior consultant at E3G, joined Host Steve Curwood from Dubai to explain the outcome and what’s needed to turn the words into action.
+tags:
+  - climate-change
+  - fossil-fuels
+  - oil-gas
+  - climate-negotiations
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00050&segmentID=4 -->
 

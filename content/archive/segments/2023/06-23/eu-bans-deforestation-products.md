@@ -1,12 +1,17 @@
 ---
 title: EU Bans Deforestation Products
 slug: eu-bans-deforestation-products
-date: '2023-06-23'
+date: 2023-06-23
 category: Segments
 megaphone_id: LOE6456057737
 image_url: https://loe.org/content/2023-06-23/EU_deforestation.jpg
 image_caption: 'Deforestation in Brazil from palm oil development. (Photo: Miguel Pinheiro, CIFOR, Flickr, CC BY-NC-ND 2.0)'
 summary: The European Union has enacted legislation aimed at reducing global deforestation with a ban on the sale of products made from cattle, cocoa, coffee, palm oil, soya, and wood, produced on land deforested after 2020. Anke Schulmeister, the Senior Forest Policy Officer for the World Wildlife Fund joined Living on Earth’s Jenni Doering to explain.
+tags:
+  - forests
+  - deforestation
+  - environmental-policy
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00025&segmentID=1 -->
 

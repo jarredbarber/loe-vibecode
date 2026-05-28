@@ -1,12 +1,18 @@
 ---
 title: Oceans Hotter Than Ever
 slug: oceans-hotter-than-ever
-date: '2023-05-05'
+date: 2023-05-05
 category: Segments
 megaphone_id: LOE6711425236
 image_url: https://loe.org/content/2023-05-05/OCEAN_surface.jpg
 image_caption: 'In the last 5 years, the global ocean surface heat content has raised by almost a full degree Fahrenheit. (Photo: Riccardo Maria Mantero, Flickr, CC BY-NC-ND 2.0)'
 summary: The average sea surface temperature of the world’s oceans is rising as the planet warms and global temperatures recently hit all-time highs. Now the La Niña weather pattern of the last 3 years is shifting to an El Niño cycle, warming the oceans even more. Kevin Trenberth is a Distinguished Scholar at the National Center of Atmospheric Research and joins Host Bobby Bascomb to explain why the rapid warming of the oceans puts the whole Earth at risk.
+tags:
+  - climate-change
+  - extreme-weather
+  - oceans
+  - sea-level-rise
+  - atmospheric-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00018&segmentID=1 -->
 

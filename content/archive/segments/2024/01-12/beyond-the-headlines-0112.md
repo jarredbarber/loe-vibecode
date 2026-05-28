@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0112
-date: '2024-01-12'
+date: 2024-01-12
 category: Segments
 megaphone_id: LOE7112533779
 image_url: https://loe.org/content/2024-01-12/DYKSTRA_fathy.jpg
 image_caption: 'Hassan Fathy’s work uses ancient architectural principles to help buildings in hot climates stay cool in sustainable ways. (Photo: Viktor Lazić, Wikimedia Commons, CC BY-SA 4.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Paloma Beltran with a couple of stories about thoughtful dwelling design. In sweltering Egypt, buildings that incorporate centuries-old techniques help naturally keep inhabitants cool. And in Florida, residents in a new development designed with plentiful rooftop solar and energy efficiency pay nothing for electricity. In history they look back to when the Nixon administration stepped in to block a massive jetport that could have impacted the delicate Everglades ecosystem.
+tags:
+  - climate-change
+  - solar
+  - extreme-weather
+  - sea-level-rise
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00002&segmentID=2 -->
 

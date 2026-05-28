@@ -1,12 +1,16 @@
 ---
 title: The New Climate Denial
 slug: the-new-climate-denial
-date: '2024-01-26'
+date: 2024-01-26
 category: Segments
 megaphone_id: LOE9287945965
 image_url: https://loe.org/content/2024-01-26/YOUTUBE_socialnetworks.jpg
 image_caption: 'Social media platforms are making it easier than ever to promote climate disinformation. (Photo: Oleksandr P., Pexels)'
 summary: A recent report finds that social media platforms like YouTube are amplifying and sometimes profiting from new forms of climate denial that falsely claim it’s too late to act on the climate crisis. Imran Ahmed is the CEO and founder of the Center for Countering Digital Hate and joins Host Steve Curwood to talk about how climate disinformation has evolved from attacking science to attacking solutions.
+tags:
+  - climate-change
+  - climate-science
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00004&segmentID=3 -->
 

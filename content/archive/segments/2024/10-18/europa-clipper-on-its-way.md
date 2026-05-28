@@ -1,12 +1,16 @@
 ---
 title: Europa Clipper On Its Way
 slug: europa-clipper-on-its-way
-date: '2024-10-18'
+date: 2024-10-18
 category: Segments
 megaphone_id: LOE8420986126
 image_url: https://loe.org/content/2024-10-18/EUROPA_clipper.jpg
 image_caption: 'The Europa Clipper spacecraft undergoes installation of its five-panel solar array in August 2024. (Photo: NASA’s Marshall Space Flight Center, Flickr, CC BY-NC 2.0)'
 summary: The Europa Clipper spacecraft recently blasted off into space to start a six-year journey towards Jupiter’s icy moon, Europa. On a series of close flybys, Clipper is designed to gather data that could indicate whether Europa might harbor life in the enormous liquid water ocean it appears to have beneath its icy shell.
+tags:
+  - ecology-research
+  - earth-observation
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00042&segmentID=5 -->
 

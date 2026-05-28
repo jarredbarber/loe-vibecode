@@ -1,12 +1,16 @@
 ---
 title: Supreme Court Strips Away Wetlands Protections
 slug: supreme-court-strips-away-wetlands-protections
-date: '2024-01-05'
+date: 2024-01-05
 category: Segments
 megaphone_id: LOE3032962909
 image_url: https://loe.org/content/2023-06-02/WOTUS_cleanwateract.jpg
 image_caption: 'The Waters of the United States (WOTUS) are protected under the Clean Water Act of 1972, and now the Supreme Court has redefined which waters apply. (Photo: Robin Mehdee, Flickr, CC BY-NC-ND 2.0)'
 summary: In a decision reversing five decades of legal precedent, the U.S. Supreme Court effectively stripped environmental protections from nearly half of the wetlands in the nation. Veteran environmental lawyer Pat Parenteau joins Host Steve Curwood to explain the ruling and its impact.
+tags:
+  - wetlands
+  - environmental-policy
+  - climate-change
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=23-P13-00022&segmentID=1 -->
 

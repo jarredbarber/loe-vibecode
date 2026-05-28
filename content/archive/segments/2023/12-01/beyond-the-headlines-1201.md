@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-1201
-date: '2023-12-01'
+date: 2023-12-01
 category: Segments
 megaphone_id: LOE3078193727
 image_url: https://loe.org/content/2023-12-01/DYKSTRA_water.jpg
 image_caption: 'The Environmental Protection Agency has proposed new drinking water standards for six forever chemicals. (Photo: r. nial bradshaw, Flickr, CC BY 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Jenni Doering to share some good news about regulations on PFAS “forever” chemicals. Also, a new freshman dorm at Creighton University in Omaha, Nebraska uses updated rooftop solar thermal technology to heat water. And in history, they look back to a major Alaska public lands bill that protected 100 million acres in 1980.
+tags:
+  - pfas-forever-chemicals
+  - drinking-water
+  - solar
+  - forests
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00048&segmentID=2 -->
 

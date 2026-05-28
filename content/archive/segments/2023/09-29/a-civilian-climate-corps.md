@@ -1,11 +1,16 @@
 ---
 title: A Civilian Climate Corps
 slug: a-civilian-climate-corps
-date: '2023-09-29'
+date: 2023-09-29
 category: Segments
 image_url: https://loe.org/content/2021-02-26/INSLEE-Mount_Rainier_crew.jpg
 image_caption: 'A Student Conservation Association crew is all smiles as they work to restore a trail in the popular Paradise area of Mount Rainier National Park (Photo: Kevin Bacher / NPS, Flickr CC BY 2.0)'
 summary: President Biden has directed the federal government to plan a Civilian Climate Corps loosely styled on the New Deal CCC that put millions to work building trails and park facilities during the Great Depression. Washington Governor Jay Inslee joins Host Steve Curwood to share a vision for how a climate corps could aid conservation, combat climate disaster, and help save energy while harnessing the energy of youth volunteers in America.
+tags:
+  - climate-change
+  - fossil-fuels
+  - jobs-just-transition
+  - youth-education
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=21-P13-00009&segmentID=4 -->
 

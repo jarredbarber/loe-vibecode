@@ -1,12 +1,17 @@
 ---
 title: Climate Goal in Trouble
 slug: climate-goal-in-trouble
-date: '2024-11-01'
+date: 2024-11-01
 category: Segments
 megaphone_id: LOE4769297765
 image_url: https://loe.org/content/2024-11-01/UN_flags.jpeg
 image_caption: 'A recent report from the United Nations admits that the goal of keeping global warming to 1.5º Celsius may now be out of reach. (Photo: Xabi Oregi, Pexels.com, public domain)'
 summary: The UN says the current plans of nations to reduce global warming emissions would result in a destructive three degrees Celsius of warming above pre-industrial levels, far higher than the 1.5 C goal set by the Paris Climate Agreement. Bob Berwyn of Inside Climate News joins Host Jenni Doering to discuss the widening gap between these plans and the ambition that’s needed to prevent catastrophic climate impacts.
+tags:
+  - climate-change
+  - fossil-fuels
+  - extreme-weather
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00044&segmentID=1 -->
 

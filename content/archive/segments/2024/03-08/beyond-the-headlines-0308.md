@@ -1,12 +1,16 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0308
-date: '2024-03-08'
+date: 2024-03-08
 category: Segments
 megaphone_id: LOE1782427691
 image_url: https://loe.org/content/2024-03-08/DYKSTRA_fastfood.jpg
 image_caption: 'Fast food chains like McDonalds are now in compliance with the Food and Drug Administration’s plan of phasing out PFAS from food packaging. PFAS has health issues like cholesterol, weakened liver function and cancer. (Photo: Waferboard, Flickr, CC BY 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra and Host Paloma Beltran discuss the FDA’s announcement that PFAS used to grease-proof food packaging is no longer being used in the U.S. Also, the new offshore wind farm Vineyard Wind now has 5 of 62 planned turbines up and running and helping power the Massachusetts grid. And in history, they look back to when Monty Python met bat biology, with the 2008 documenting of pipistrelle bats living inside the castle of a foul-mouthed Frenchman played by John Cleese.
+tags:
+  - pfas-forever-chemicals
+  - wind
+  - mammals
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00010&segmentID=4 -->
 

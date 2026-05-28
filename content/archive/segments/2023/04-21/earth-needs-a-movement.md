@@ -1,12 +1,18 @@
 ---
 title: Earth Needs a Movement
 slug: earth-needs-a-movement
-date: '2023-04-21'
+date: 2023-04-21
 category: Segments
 megaphone_id: LOE4741121864
 image_url: https://loe.org/content/2023-04-21/C1-Earth_Day_-_Enact_1970.jpeg
 image_caption: 'Students gather for a rally during Michigan’s 1970 Teach-In on the Environment. (Photo: University of Michigan School for Environment and Sustainability, Wikimedia Commons CC BY 2.0)'
 summary: Host Steve Curwood wraps up this Earth Day special with a reflection on the silence of so many who say they are concerned about the Earth amidst its destruction and the climate emergency.
+tags:
+  - climate-change
+  - activism
+  - environmental-policy
+  - public-health
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00016&segmentID=10 -->
 

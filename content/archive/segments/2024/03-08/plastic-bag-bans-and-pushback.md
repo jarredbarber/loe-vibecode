@@ -1,12 +1,16 @@
 ---
 title: Plastic Bag Bans and Pushback
 slug: plastic-bag-bans-and-pushback
-date: '2024-03-08'
+date: 2024-03-08
 category: Segments
 megaphone_id: LOE5115907774
 image_url: https://loe.org/content/2024-03-08/ENCK_bag.jpg
 image_caption: 'A “loophole” in a 2014 California law banning single-use plastic bags at checkout allowed slightly thicker plastic bags to be used instead, leading to more plastic bag pollution by weight. California lawmakers have now introduced a new bill to ban all plastic bags at checkout. (Photo: Ivan Radic, Flickr, CC BY 2.0)'
 summary: A decade ago California became the first US state to ban single-use plastic bags, and eleven states followed suit. But some 18 other states have gone in the opposite direction and even blocked local cities and towns from prohibiting single use plastic bags. Judith Enck, President of Beyond Plastics and a former EPA Regional Administrator, joins Host Paloma Beltran to discuss successes and setbacks for efforts to minimize plastic bag waste.
+tags:
+  - plastics
+  - environmental-policy
+  - regulation-deregulation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00010&segmentID=2 -->
 

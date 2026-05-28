@@ -1,12 +1,18 @@
 ---
 title: Debate Sidesteps Climate Crisis
 slug: debate-sidesteps-climate-crisis
-date: '2024-09-13'
+date: 2024-09-13
 category: Segments
 megaphone_id: LOE1908744853
 image_url: https://loe.org/content/2024-09-13/DEBATE-Kamala.jpg
 image_caption: 'In the debate, Kamala Harris touted both the Biden administration’s expansion of domestic oil and gas production and its investments in clean energy. (Photo: Pachatai, Flickr, CC BY-NC-ND 2.0)'
 summary: Climate change got just one token question at the first and perhaps only debate between presidential candidates Donald Trump and Kamala Harris. Marianne Lavelle of Inside Climate News joins Hosts Steve Curwood and Aynsley O’Neill to offer other climate questions that should be asked about the Inflation Reduction Act, holding oil companies accountable and more.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - profiles-interviews
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00037&segmentID=2 -->
 

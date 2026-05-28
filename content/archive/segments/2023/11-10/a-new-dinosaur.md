@@ -1,12 +1,16 @@
 ---
 title: A New Dinosaur
 slug: a-new-dinosaur
-date: '2023-11-10'
+date: 2023-11-10
 category: Segments
 megaphone_id: LOE1193083993
 image_url: https://loe.org/content/2023-11-10/IGAI_rendering.jpg
 image_caption: 'Igai semkhu was an herbivore. Its name translates to “forgotten lord of the oasis” in ancient Egyptian. (Image Credit for this Artist’s Rendering: Andrew McAfee & Talia Mastalski)'
 summary: A dinosaur fossil discovered in Egypt in the 70s gathered dust in museums for decades and now it finally has a name as a new species, Igai semkhu. Paleontologist Dr. Eric Gorscak spoke with Host Aynsley O’Neill about why fossils from the end of the Age of Dinosaurs about 75 million years ago are relatively rare in Africa and what this “titanosaur” specimen can reveal about the distant past.
+tags:
+  - ecology-research
+  - earth-observation
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00045&segmentID=5 -->
 

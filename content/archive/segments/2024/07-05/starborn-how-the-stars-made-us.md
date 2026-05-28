@@ -1,12 +1,16 @@
 ---
 title: 'Starborn: How the Stars Made Us'
 slug: starborn-how-the-stars-made-us
-date: '2024-07-05'
+date: 2024-07-05
 category: Segments
 megaphone_id: LOE2125424328
 image_url: https://loe.org/content/2024-07-05/STARBORN_nightsky.jpg
 image_caption: 'Roberto Trotta often says, “The night sky is humankind''s only truly global common, shared by all of us across civilizations and millennia”. (Photo: Daniel Delli, Wikimedia Commons CC BY 2.0)'
 summary: 'Stargazing has profoundly shaped who we are as human beings, and gave rise to science, religion, and origin stories from diverse traditions. Roberto Trotta, a cosmologist at the International School for Advanced Studies in Trieste, Italy, explores this legacy in his book Starborn: How the Stars Made Us (And Who We Would Be Without Them). He joins Host Jenni Doering to discuss how studying the night sky shaped science and more and why satellites now threaten our connection to the stars.'
+tags:
+  - light-pollution
+  - environmental-policy
+  - earth-observation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00027&segmentID=4 -->
 

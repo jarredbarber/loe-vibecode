@@ -1,12 +1,17 @@
 ---
 title: Hidden Plastic Waste
 slug: hidden-plastic-waste
-date: '2023-04-14'
+date: 2023-04-14
 category: Segments
 megaphone_id: LOE2377215362
 image_url: https://loe.org/content/2023-04-14/PLASTIC_analysis.jpg
 image_caption: 'A new analysis claims that the UN could be underestimating the international plastic waste trade by up to $1.8 million metric tons. (Photo: Mike Carney, Flickr, CC BY-NC-ND 2.0)'
 summary: There are many sources of hidden plastic in the waste that wealthy countries send to the developing world, in clothing, tires, and electronics. Grist Reporter Joseph Winters joins Host Jenni Doering to discuss how all that extra plastic waste is affecting the environment and health of people in the Global South.
+tags:
+  - plastics
+  - water-pollution
+  - fossil-fuels
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00015&segmentID=3 -->
 

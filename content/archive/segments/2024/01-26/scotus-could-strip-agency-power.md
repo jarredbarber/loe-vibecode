@@ -1,12 +1,18 @@
 ---
 title: SCOTUS Could Strip Agency Power
 slug: scotus-could-strip-agency-power
-date: '2024-01-26'
+date: 2024-01-26
 category: Segments
 megaphone_id: LOE9711617845
 image_url: https://loe.org/content/2024-01-26/CHEVRON_supremecourt.jpg
 image_caption: 'If the Supreme Court were to overturn the forty-year-old Chevron doctrine, it could allow for a reduction in the power of federal agencies like the EPA. (Photo: Thomas Hawk, Flickr, CC BY NC 2.0)'
 summary: Two cases in front of the Supreme Court are looking to restrict federal agency power by overturning the longstanding Chevron Doctrine. Pat Parenteau, emeritus Professor at Vermont Law School, joins Host Aynsley O’Neill to explain how this could limit the ability of federal agencies to set strong environment and climate regulations.
+tags:
+  - environmental-policy
+  - climate-change
+  - regulation-deregulation
+  - public-health
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00004&segmentID=1 -->
 

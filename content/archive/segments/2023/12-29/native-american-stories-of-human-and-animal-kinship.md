@@ -1,12 +1,14 @@
 ---
 title: Native American Stories of Human and Animal Kinship
 slug: native-american-stories-of-human-and-animal-kinship
-date: '2023-12-29'
+date: 2023-12-29
 category: Segments
 megaphone_id: LOE7408192664
 image_url: https://loe.org/content/2021-01-01/BRUCHAC_dog.jpg
 image_caption: 'Dogs hold a special place in many people’s hearts and are lovingly referred to as “man’s best friend”. (Photo: Nathanael Coyne, Flickr, CC BY-NC-ND 2.0)'
 summary: Many Native American communities belong to a clan which identifies with an animal, like the bear, deer, or loon, and they are featured in their stories. Storyteller and musician Joe Bruchac of the Nulhegan Abenaki tribe joins Bobby Bascomb to share flute music and stories of how the dog came to be a loyal human companion, as well as lessons from a mother bear.
+tags:
+  - indigenous-communities
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00052&segmentID=4 -->
 

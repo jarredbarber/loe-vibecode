@@ -1,12 +1,16 @@
 ---
 title: Finance and Climate Denial
 slug: finance-and-climate-denial
-date: '2023-07-21'
+date: 2023-07-21
 category: Segments
 megaphone_id: LOE4500203810
 image_url: https://loe.org/content/2023-07-21/FINANCIAL_coins.jpg
 image_caption: 'A new report from the U.K. finds that the financial sector often underestimates the potential economic harm that climate change could cause. (Photo: Josh Appel, Unsplash, Unsplash License)'
 summary: The financial sector isn’t taking likely climate impacts like moderate sea level rise into account when it calculates risks to assets, according to a report. That leaves retirement accounts and pensions vulnerable in a warming world. Inside Climate News reporter Dan Gearino joins Host Aynsley O’Neill to explain the findings.
+tags:
+  - climate-change
+  - sea-level-rise
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00029&segmentID=3 -->
 

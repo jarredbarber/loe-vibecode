@@ -1,12 +1,18 @@
 ---
 title: 'Dolphins and People: Fishing Buddies'
 slug: dolphins-and-people-fishing-buddies
-date: '2023-02-24'
+date: 2023-02-24
 category: Segments
 megaphone_id: LOE4423004078
 image_url: https://loe.org/content/2023-02-24/DOLPHINS_fishing.JPG
 image_caption: 'The dolphins corral migratory mullet fish toward the water’s edge, making it easier for the fishermen to catch fish. (Photo: Dr. Bianca Romeu, Departamento de Ecologia e Zoologia, Universidade Federal de Santa Catarina; Florianópolis, SC 88040-900, Brazil)'
 summary: In the coastal community of Laguna, Brazil, many net-casting artisanal fishers have an unexpected fishing partner in dolphins. Fishers who work with dolphins catch a lot more fish and now scientists have figured out what the dolphins are getting out of it. Mauricio Cantor is an Assistant Professor of biology and behavioral ecology at Oregon State University and the lead author of the study. He joins host Bobby Bascomb.
+tags:
+  - marine-life
+  - fish
+  - species-loss
+  - ecology-research
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00008&segmentID=4 -->
 

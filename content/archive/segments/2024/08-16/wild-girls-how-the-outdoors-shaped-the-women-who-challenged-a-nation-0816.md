@@ -1,12 +1,16 @@
 ---
 title: 'Wild Girls: How the Outdoors Shaped the Women Who Challenged a Nation'
 slug: wild-girls-how-the-outdoors-shaped-the-women-who-challenged-a-nation-0816
-date: '2024-08-16'
+date: 2024-08-16
 category: Segments
 megaphone_id: LOE8123015556
 image_url: https://loe.org/content/2024-03-01/WILD_cover.jpg
 image_caption: 'Wild Girls: How the Outdoors Shaped the Women Who Challenged A Nation (Photo: Courtesy of Tiya Miles)'
 summary: 'To kick off Women’s History Month, we take a look at the history of women outdoors in America. From abolitionist Harriet Tubman to novelist Louisa May Alcott, some of the country’s most important women trailblazers shared a connection with the natural world in their girlhood. According to author Tiya Miles in her book Wild Girls: How the Outdoors Shaped the Women Who Challenged a Nation, this time spent in the outdoors prepared these women to become pioneers in their fields. She joins Host Paloma Beltran for more.'
+tags:
+  - profiles-interviews
+  - environmental-history
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00033&segmentID=4 -->
 

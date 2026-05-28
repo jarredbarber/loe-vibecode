@@ -1,12 +1,14 @@
 ---
 title: Environmental Justice Denial
 slug: environmental-justice-denial
-date: '2024-07-12'
+date: 2024-07-12
 category: Segments
 megaphone_id: LOE6432261760
 image_url: https://loe.org/content/2024-07-12/HARDEN_plantemissions.jpg
 image_caption: 'Cancer risk associated with emissions of chloroprene from the above Denka plant in Reserve, Louisiana was a key concern of the environmental justice groups who filed the 2022 civil rights complaint with EPA. (Photo: Lee Hedgepeth/Inside Climate News)'
 summary: Black residents of Cancer Alley who live next door to polluting industrial plants say they are the victims of environmental discrimination. But their attempts to seek justice through a key provision of the Civil Rights Act are being met with racist pushback. Monique Harden of the Deep South Center for Environmental Justice joins Host Jenni Doering to discuss the ongoing attacks against environmental justice.
+tags:
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00028&segmentID=3 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Stay Safe in Summer Heat
 slug: stay-safe-in-summer-heat
-date: '2024-06-28'
+date: 2024-06-28
 category: Segments
 megaphone_id: LOE4523926366
 image_url: https://loe.org/content/2024-06-28/HEAT_hydration.jpg
 image_caption: 'Stay hydrated! Water and electrolyte drinks can help you fend off the heat. (Photo: Sue Thompson, Flickr, CC BY-ND 2.0)'
 summary: Heat waves can bring health problems and death for anyone but especially for the young, elderly, and people with conditions like heart disease and diabetes. And heat often coincides with other health-harming climate impacts like floods and wildfires. Dr. Ari Bernstein directs the National Center for Environmental Health and the Agency for Toxic Substances and Disease Registry at the CDC and joins Host Aynsley O’Neill to talk about the public health risks posed by heat and share tips for staying safe this summer.
+tags:
+  - climate-change
+  - heatwave
+  - public-health
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00026&segmentID=2 -->
 

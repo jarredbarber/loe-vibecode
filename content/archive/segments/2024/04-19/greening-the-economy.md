@@ -1,12 +1,18 @@
 ---
 title: Greening the Economy
 slug: greening-the-economy
-date: '2024-04-19'
+date: 2024-04-19
 category: Segments
 megaphone_id: LOE5359135823
 image_url: https://loe.org/content/2021-04-23/ECON_sign.jpg
 image_caption: 'Protesters at a rally in Oakland cite the economy as a focus of climate activism. (Photo: Lily Rhoads, Flickr, CC BY 2.0)'
 summary: Our Earth Day special examines this decisive moment for the human species and our challenging relationship with our planet. Host Steve Curwood starts by meeting people who envision a future reshaped by an emerging energy system and new power structures, as we wean off of fossil fuels.
+tags:
+  - climate-change
+  - fossil-fuels
+  - green-economy
+  - environmental-policy
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00016&segmentID=1 -->
 

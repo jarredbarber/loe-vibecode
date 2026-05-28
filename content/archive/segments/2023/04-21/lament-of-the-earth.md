@@ -1,12 +1,17 @@
 ---
 title: Lament of the Earth
 slug: lament-of-the-earth
-date: '2023-04-21'
+date: 2023-04-21
 category: Segments
 megaphone_id: LOE9892322112
 image_url: https://loe.org/content/2023-04-21/LAMENT-David conducting.jpg
 image_caption: 'David Cherwien conducts the premiere performance of Lament of the Earth. (Photo: courtesy of Flight Creative Media)'
 summary: The orchestral and choral work called “Lament of the Earth” evokes the beauty and wonder of our planet as it speaks directly to the question, ‘where are all the people who care?’ Between excerpts from the 2022 World Premiere of the work, conducting Maestro David Cherwien and Composer Steve Heitzeg join Host Steve Curwood to shed light on its message and inspiration alongside a final reflection from the late lyricist Susan Cherwien.
+tags:
+  - environmental-justice
+  - poetry-essays
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00016&segmentID=11 -->
 

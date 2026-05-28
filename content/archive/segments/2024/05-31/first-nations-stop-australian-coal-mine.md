@@ -1,12 +1,16 @@
 ---
 title: First Nations Stop Australian Coal Mine
 slug: first-nations-stop-australian-coal-mine
-date: '2024-05-31'
+date: 2024-05-31
 category: Segments
 megaphone_id: LOE6961371696
 image_url: https://loe.org/content/2024-05-31/AUSTRALIA_murrawah.jpg
 image_caption: 'Murrawah Maroochy Johnson fears that climate change will lead to the full assimilation of Indigenous people in Australia. (Photo: Courtesy of the Goldman Environmental Prize)'
 summary: First Nations people in Australia saw plans to build an enormous new coal mine in Queensland as a threat to their culture, so they went to court and won. Murrawah Maroochy Johnson is a Wirdi woman from the Birri Gubba Nation who was awarded a 2024 Goldman Environmental Prize for her leadership in stopping the coal mine. She joins Host Jenni Doering to share the significance of land and water to her people.
+tags:
+  - fossil-fuels
+  - climate-change
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00022&segmentID=4 -->
 

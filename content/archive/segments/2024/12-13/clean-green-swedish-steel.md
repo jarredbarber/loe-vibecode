@@ -1,12 +1,16 @@
 ---
 title: Clean, Green Swedish Steel
 slug: clean-green-swedish-steel
-date: '2024-12-13'
+date: 2024-12-13
 category: Segments
 megaphone_id: LOE2728090400
 image_url: https://loe.org/content/2024-12-13/SWEDEN_stegra.jpg
 image_caption: 'The Swedish company, Stegra (formerly H2 Green Steel), produces steel using green hydrogen rather than coal. (Photo: Reid R. Frazier / The Allegheny Front)'
 summary: Steel production accounts for 10% of all carbon dioxide emissions worldwide, in part because it’s typically made with coal. But in Sweden, there are alternatives that can cut steel’s carbon impact down to almost nothing. Reid Frazier of the Allegheny Front reports.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00050&segmentID=2 -->
 

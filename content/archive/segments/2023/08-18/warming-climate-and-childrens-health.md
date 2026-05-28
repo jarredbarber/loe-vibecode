@@ -1,12 +1,19 @@
 ---
 title: Warming Climate and Children’s Health
 slug: warming-climate-and-childrens-health
-date: '2023-08-18'
+date: 2023-08-18
 category: Segments
 megaphone_id: LOE7851779059
 image_url: https://loe.org/content/2022-01-28/CHILDRENHEALTH_fountain.jpg
 image_caption: 'Extreme heat can cause dehydration, heat exhaustion, heat strokes and increase intestinal bacterial infections amongst children. (Photo: Michael Rabodin, Flickr, CC BY 2.0)'
 summary: Children and adolescents are facing increasing health risks from extreme heat, and a study that looked at heat and pediatric emergency department visits found that black and brown children are especially impacted. Lead author Dr. Aaron Bernstein is a Pediatrician and Director of the National Center for Environmental Health at the CDC and joins Host Steve Curwood to discuss the implications of the research.
+tags:
+  - climate-change
+  - extreme-weather
+  - heatwave
+  - public-health
+  - pregnancy-children
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00033&segmentID=2 -->
 

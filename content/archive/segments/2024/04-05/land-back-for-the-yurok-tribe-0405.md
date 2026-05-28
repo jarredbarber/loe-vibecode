@@ -1,12 +1,17 @@
 ---
 title: Land Back for the Yurok Tribe
 slug: land-back-for-the-yurok-tribe-0405
-date: '2024-04-05'
+date: 2024-04-05
 category: Segments
 megaphone_id: LOE4695458420
 image_url: https://loe.org/content/2024-04-05/redwoods.jpeg
 image_caption: '(From left) Save the Redwoods League President and CEO Sam Hodder, Redwood National and State Parks Superintendent Steven Mietz, Yurok Chairman Joseph L. James, and California State Parks North Coast Redwoods Superintendent Victor Bjelajac sign the landmark agreement at ‘O Rew. (Photo: Matt Mais, Yurok Tribe)'
 summary: On the northern California coast the Yurok tribe is getting 125 acres of its stolen land back thanks to an historic partnership between the National Park Service, California State Parks, and Save the Redwoods League. Chairman of the Yurok Tribe Joseph L James joins Host Jenni Doering to describe how the land will help nurture Yurok cultural traditions.
+tags:
+  - indigenous-rights
+  - indigenous-communities
+  - forests
+  - fish
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00014&segmentID=2 -->
 

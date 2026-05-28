@@ -1,12 +1,16 @@
 ---
 title: Fossil Fuel Deception
 slug: fossil-fuel-deception-0112
-date: '2024-01-12'
+date: 2024-01-12
 category: Segments
 megaphone_id: LOE2136984631
 image_url: https://loe.org/content/2024-01-12/ORESKES_mobil.jpg
 image_caption: 'Starting in the 1980s, Exxon Mobil and other fossil fuel companies began an aggressive misinformation campaign designed to discredit climate science. (Photo: Thomas Hawk, Flickr, CC BY-NC 2.0)'
 summary: The fossil fuel industry has known its products would cause dangerous warming for decades but chose to deceive the public to stall climate progress around the globe, says Naomi Oreskes, Professor of the History of Science at Harvard. She joined Host Steve Curwood to describe the fossil fuel industry’s decades-long disinformation campaign and what can be done to turn the climate conversation back towards the truth.
+tags:
+  - fossil-fuels
+  - climate-change
+  - oil-gas
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00002&segmentID=5 -->
 

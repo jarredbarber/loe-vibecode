@@ -1,12 +1,16 @@
 ---
 title: LNG Carbon Bomb
 slug: lng-carbon-bomb
-date: '2024-12-13'
+date: 2024-12-13
 category: Segments
 megaphone_id: LOE4095181775
 image_url: https://loe.org/content/2024-02-02/LNG_cameronparish.jpg
 image_caption: 'The Calcasieu Pass liquefied natural gas (LNG) export facility in Cameron Parish, Louisiana, US, is being developed by Venture Global Calcasieu Pass, a subsidiary of US-based LNG production company Venture Global LNG. (Photo: Halle Parker)'
 summary: The carbon footprint of U.S. liquefied natural gas, or LNG exports is 33% higher than for coal, according to research from Cornell University. Author Robert Howarth is a professor of ecology and environmental biology at Cornell and joins Host Paloma Beltran to explain why LNG is so carbon intensive and discuss the climate risks of a planned expansion of U.S. LNG exports.
+tags:
+  - climate-change
+  - fossil-fuels
+  - oil-gas
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00050&segmentID=1 -->
 

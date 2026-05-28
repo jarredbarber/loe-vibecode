@@ -1,12 +1,17 @@
 ---
 title: 'BirdNote®: Spooky Shearwaters'
 slug: birdnote-spooky-shearwaters
-date: '2023-10-27'
+date: 2023-10-27
 category: Segments
 megaphone_id: LOE1141384846
 image_url: https://loe.org/content/2017-10-27/BIRDNOTE-Wedge-tailed-Shearwater-chick---Dan-Hutcheson.jpg
 image_caption: 'The Wedge-tailed Shearwater’s unusual moaning call once terrified sailors from Europe. (Photo: Dan Hutcheson)'
 summary: At Halloween, we think of ghoulies and ghosties and long-leggitty beasties – indeed, you may even get some of them at your door demanding candy. And as Michael Stein tells us in today’s BirdNote®, some of our avian acquaintances would fit right in.
+tags:
+  - birds
+  - marine-life
+  - fish
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00043&segmentID=4 -->
 

@@ -1,12 +1,19 @@
 ---
 title: Kamala on Earth
 slug: kamala-on-earth
-date: '2024-07-26'
+date: 2024-07-26
 category: Segments
 megaphone_id: LOE8660229391
 image_url: https://loe.org/content/2024-07-26/HARRIS_enoughdelegates.jpg
 image_caption: 'Vice President Kamala Harris has secured more than enough delegates for the Democratic presidential nomination. (Photo: Gage Skidmore, Flickr, CC BY SA 2.0)'
 summary: Vice President Kamala Harris has garnered more than enough delegates for the Democratic nomination for President. Hosts Steve Curwood and Jenni Doering review her record on the environment, which has included prosecuting cases against polluting oil companies, supporting a Green New Deal, and representing the US at UN climate meetings.
+tags:
+  - climate-change
+  - environmental-policy
+  - fossil-fuels
+  - environmental-justice
+  - green-economy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00030&segmentID=1 -->
 

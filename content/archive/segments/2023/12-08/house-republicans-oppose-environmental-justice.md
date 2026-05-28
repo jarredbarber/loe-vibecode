@@ -1,12 +1,15 @@
 ---
 title: House Republicans Oppose Environmental Justice
 slug: house-republicans-oppose-environmental-justice
-date: '2023-12-08'
+date: 2023-12-08
 category: Segments
 megaphone_id: LOE7851386951
 image_url: https://loe.org/content/2023-12-08/JOHNSON_johnson.jpg
 image_caption: 'The first bill passed through the House under Speaker Mike Johnson’s leadership aims to cut five to six billion dollars of funding from the Inflation Reduction Act. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: The very first bill that Speaker Mike Johnson passed through the House would gut many energy and climate projects funded by the Inflation Reduction Act, even though Republican states are massively benefiting from this funding. The repeal would also block environmental justice efforts and deny a “just transition” for disadvantaged communities. Opinion writer Derrick Jackson joins Host Steve Curwood to discuss what he calls racist and hypocritical elements of the House GOP agenda.
+tags:
+  - environmental-justice
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00049&segmentID=1 -->
 

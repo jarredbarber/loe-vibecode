@@ -1,12 +1,19 @@
 ---
 title: Ravaging Floods in Africa
 slug: ravaging-floods-in-africa
-date: '2024-09-20'
+date: 2024-09-20
 category: Segments
 megaphone_id: LOE8530826541
 image_url: https://loe.org/content/2024-09-20/NIGERIA_womanhelped.jpg
 image_caption: 'A woman is helped to safety in Maiduguri, Nigeria. (Photo: Courtesy of Isma’il Alfa Adulrahim)'
 summary: West and Central Africa have been hit hard by extreme flooding in mid September that has claimed thousands of lives and left millions stranded in Nigeria and neighboring countries. Living on Earth intern Nana Mohammed is from northeast Nigeria and joins Host Steve Curwood to describe the perilous situation, which is prompting urgent pleas for wealthy nations to provide more climate adaptation assistance.
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - water-pollution
+  - environmental-justice
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00038&segmentID=1 -->
 

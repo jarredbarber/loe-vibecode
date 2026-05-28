@@ -1,12 +1,20 @@
 ---
 title: Environmental Figures We Lost in 2023
 slug: environmental-figures-we-lost-in-2023
-date: '2024-01-05'
+date: 2024-01-05
 category: Segments
 megaphone_id: LOE3708846299
 image_url: https://loe.org/content/2024-01-05/DYKSTRA_whales.jpg
 image_caption: 'Biologist Roger Payne put the songs of humpback whales on billboard charts in the 1970s. (Photo: Pedro Szekely, Flickr, CC BY-SA 2.0)'
 summary: Household names like Jimmy Buffett, Harry Belafonte, and Senator Dianne Feinstein were among the environmental figures who passed away in 2023. Living on Earth Contributor Peter Dykstra and Host Aynsley O’Neill remember these and some other less recognized people who made contributions to environmental causes.
+tags:
+  - profiles-interviews
+  - environmental-justice
+  - amazon
+  - oceans
+  - forests
+  - species-loss
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00001&segmentID=3 -->
 

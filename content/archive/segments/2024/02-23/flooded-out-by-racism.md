@@ -1,12 +1,15 @@
 ---
 title: Flooded Out by Racism
 slug: flooded-out-by-racism
-date: '2024-02-23'
+date: 2024-02-23
 category: Segments
 megaphone_id: LOE4781072039
 image_url: https://loe.org/content/2024-02-23/BULLARD_drainagepipes.jpg
 image_caption: 'The highway drainage pipes let water out directly towards homes in Shiloh. Typically, drainage runs parallel to roadways to prevent such issues. (Photo: Lee Hedgepeth, Inside Climate News)'
 summary: Dr. Robert Bullard continues to earn his moniker as the “father of environmental justice” by calling for justice for the community of Shiloh, Alabama. The area has suffered repeated flooding ever since a highway was widened and elevated in 2018, causing destruction to homes that Black landowners have proudly kept since the Reconstruction era. Dr. Bullard sat down with Host Steve Curwood to describe the trouble in Shiloh and how it’s affecting residents. They also take a wider look at environmental racism in America today and increasing vulnerabilities from climate change in the years to come.
+tags:
+  - environmental-justice
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00008&segmentID=1 -->
 

@@ -1,12 +1,16 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-1110
-date: '2023-11-10'
+date: 2023-11-10
 category: Segments
 megaphone_id: LOE1310383142
 image_url: https://loe.org/content/2023-11-10/DYKSTRA_coral.jpg
 image_caption: 'A research group in Taiwan showed successful thawing and growth of cryopreserved baby coral (Photo: Ricky, Flickr, BY-NC-ND 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra briefs Host Aynsley O’Neill on some early research into coral cryopreservation as a tool to help restore bleached reefs. Also, a study in Finland has found signs that outdoor learning gives preschoolers an immune boost. And in history, they look back to President Bush Sr.’s signing into law of the Clean Air Act Amendments.
+tags:
+  - coral-reefs
+  - climate-change
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00045&segmentID=2 -->
 

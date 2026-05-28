@@ -1,12 +1,20 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0113
-date: '2023-01-13'
+date: 2023-01-13
 category: Segments
 megaphone_id: LOE5760920062
 image_url: https://loe.org/content/2023-01-13/DYKSTRA_Greenery.jpg
 image_caption: 'A new study finds that the greenery in New York City absorbs as much carbon as all the traffic in the city emits on many summer days. (Photo: Neerav Bhatt, Flickr, CC BY-NC-SA 2.0)'
 summary: In this week’s look Beyond the Headlines, environmental journalist Peter Dykstra and Host Steve Curwood admire the greenery in New York City, which a new study has reported absorbs as much carbon as all the traffic in the city emits on many summer days. They then discuss the climate implications of the Republican House Speaker battle before looking back at Republican President Theodore Roosevelt, who created the Grand Canyon national monument on January 11th, 1908.
+tags:
+  - climate-change
+  - carbon-cycle
+  - fossil-fuels
+  - oil-gas
+  - environmental-policy
+  - congressional-action
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00002&segmentID=3 -->
 

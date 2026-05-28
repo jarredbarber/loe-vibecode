@@ -1,12 +1,20 @@
 ---
 title: 'Science Note: Hurricanes, Lizards, and Leafblowers'
 slug: science-note-hurricanes-lizards-and-leafblowers
-date: '2023-01-27'
+date: 2023-01-27
 category: Segments
 megaphone_id: LOE7369880817
 image_url: https://loe.org/content/2018-09-21/SCINOTE-Female_Anolis_scriptus.jpg
 image_caption: 'A female anolis scriptus lizard. (Photo: Rian Castillo, Wikimedia Commons CC BY 2.0)'
 summary: Hurricanes may act as a force of natural selection for Caribbean lizards, according to a study in the journal Nature. Living on Earth’s Don Lyman explains how scientists used leaf blowers to simulate hurricane-force winds and learn how the hardiest lizards hang on.
+tags:
+  - climate-change
+  - extreme-weather
+  - species-loss
+  - endangered-species
+  - birds
+  - mammals
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00004&segmentID=3 -->
 

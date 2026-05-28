@@ -1,12 +1,19 @@
 ---
 title: Protecting Mediterranean Sea Life
 slug: protecting-mediterranean-sea-life
-date: '2023-09-15'
+date: 2023-09-15
 category: Segments
 megaphone_id: LOE6775404986
 image_url: https://loe.org/content/2023-09-15/GOLDMAN_kizilkaya.jpg
 image_caption: 'Zafer Kizilkaya, the winner of the 2023 Goldman Environmental Prize for Asia, is fighting to protect Turkey’s coastal ecosystems. (Photo: Goldman Environmental Prize, used with permission)'
 summary: Overfishing, warming oceans, invasive species, and unsustainable tourism threaten the rich marine life in the Mediterranean. So Turkish civil engineer and diver Zafer Kizilkaya got together with local fishermen to pilot a community-run Marine Protected Area that led to expanded marine conservation in Turkey. Mr. Kizilkaya was awarded the 2023 Goldman Environmental Prize for Asia for his work, and he joined Living on Earth’s Bobby Bascomb.
+tags:
+  - marine-life
+  - species-loss
+  - invasive-species
+  - climate-change
+  - fossil-fuels
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00037&segmentID=3 -->
 

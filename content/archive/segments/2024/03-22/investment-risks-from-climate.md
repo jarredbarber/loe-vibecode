@@ -1,12 +1,17 @@
 ---
 title: Investment Risks from Climate
 slug: investment-risks-from-climate
-date: '2024-03-22'
+date: 2024-03-22
 category: Segments
 megaphone_id: LOE2594810775
 image_url: https://loe.org/content/2024-03-22/SEC_newrule.jpg
 image_caption: 'The new SEC rule will require companies to be more transparent about their greenhouse gas emissions and the climate-related financial risks they face. (Photo: Richard Bett, Flickr, Public Domain)'
 summary: Climate disasters, adaptation costs and market shifts threaten the value of public companies that are inadequately prepared for climate change. So the Democratic majority US Securities and Exchange Commission recently approved a rule that will require public companies to inform investors about their greenhouse gas emissions and climate risks. Emeritus Professor Pat Parenteau of Vermont Law and Graduate School joins Living on Earth’s Steve Curwood to explain the rule and the pushback from industry and several Republican-led states.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - regulation-deregulation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00012&segmentID=2 -->
 

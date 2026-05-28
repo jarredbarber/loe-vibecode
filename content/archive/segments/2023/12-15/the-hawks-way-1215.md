@@ -1,12 +1,17 @@
 ---
 title: The Hawk’s Way
 slug: the-hawks-way-1215
-date: '2023-12-15'
+date: 2023-12-15
 category: Segments
 megaphone_id: LOE4051493970
 image_url: https://loe.org/content/2022-05-06/HAWK_cover.jpeg
 image_caption: 'The cover of The Hawk’s Way: Encounters with Fierce Beauty by author Sy Montgomery. (Photo: Courtesy of Simon & Schuster)'
 summary: 'Falconry, also known as the practice of hunting with birds, can be traced back perhaps as far as the Ice Age. Many modern aficionados, like author Sy Montgomery, consider the sport to be more about the interaction with these hawks, falcons, and owls, rather than about the hunting itself. Her book The Hawk’s Way: Encounters with Fierce Beauty shares her exploration of the art of falconry. Sy joined Host Steve Curwood for a Living on Earth Book Club Event to discuss the wondrous world of these birds of prey.'
+tags:
+  - birds
+  - mammals
+  - profiles-interviews
+  - book-review
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00034&segmentID=4 -->
 

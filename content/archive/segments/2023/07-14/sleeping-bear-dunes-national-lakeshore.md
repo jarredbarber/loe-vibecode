@@ -1,12 +1,15 @@
 ---
 title: Sleeping Bear Dunes National Lakeshore
 slug: sleeping-bear-dunes-national-lakeshore
-date: '2023-07-14'
+date: 2023-07-14
 category: Segments
 megaphone_id: LOE5623123781
 image_url: https://loe.org/content/2023-07-14/DUNE_hiking.jpg
 image_caption: 'Sleeping Bear Dunes along Lake Michigan welcomes 1,600,000 visitors annually. Visitors enjoy hiking the dunes, biking on the Sleeping Bear Heritage trail, and exploring the nearby towns. (Photo: Sarah Mahaney)'
 summary: Sleeping Bear Dunes National Lakeshore covers a 35-mile-long stretch of Lake Michigan’s eastern coastline and features forests, beaches, dunes, and historic lighthouses. Living on Earth intern Sarah Mahaney recently visited the lakeshore and brought back an audio postcard.
+tags:
+  - endangered-species
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00028&segmentID=4 -->
 

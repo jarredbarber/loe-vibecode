@@ -1,12 +1,16 @@
 ---
 title: 'Note on Emerging Science: Social Mammal Longevity'
 slug: note-on-emerging-science-social-mammal-longevity
-date: '2023-10-13'
+date: 2023-10-13
 category: Segments
 megaphone_id: LOE3999791559
 image_url: https://loe.org/content/2023-10-13/SCINOTE_lions.jpg
 image_caption: 'Lions form social groups known as ‘prides’. (Photo: SenatorCMP, Flickr, CC BY-NC-ND 2.0)'
 summary: A recent study found that mammals that live in groups tend to live longer than solitary mammal species, even after accounting for other factors. Living on Earth’s Don Lyman explains why being social appears to benefit members of a group and help them live longer.
+tags:
+  - mammals
+  - ecology-research
+  - species-loss
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00041&segmentID=4 -->
 

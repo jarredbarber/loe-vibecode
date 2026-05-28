@@ -1,11 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0920
-date: '2024-09-20'
+date: 2024-09-20
 category: Segments
 image_url: https://loe.org/content/2013-11-01/23-bigstock-Tube-Well-4204155.jpg
 image_caption: 'Salt water intrusion could harm agriculture and drinking water along the coast of Bangladesh (photo: bigstockphoto.com)'
 summary: Peter Dykstra, publisher of Environmental Health News and the Daily Climate, discusses some recent environmental stories that didn’t make US headlines with host Steve Curwood, including salt water fouling aquifers in Bangladesh and rare earth mining in Greenland.
+tags:
+  - climate-change
+  - sea-level-rise
+  - drinking-water
+  - groundwater
+  - fossil-fuels
+  - environmental-policy
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=13-P13-00044&segmentID=8 -->
 

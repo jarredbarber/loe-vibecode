@@ -1,12 +1,15 @@
 ---
 title: Hiking on Wheels
 slug: hiking-on-wheels
-date: '2024-10-11'
+date: 2024-10-11
 category: Segments
 megaphone_id: LOE4532241682
 image_url: https://loe.org/content/2024-10-11/TRAILS_groupphoto.jpg
 image_caption: 'Pictured left to right: Fionn Murphy (All Out Adventures program assistant), Amy Sugihara (All Out Adventures participant), Tom Skinner (All Out Adventures participant), Karen Foster (All Out Adventures executive director), Jenni Doering, and El Wilson. (Photo: Sue Tracy, All Out Adventures)'
 summary: Physical disabilities can make getting outside more challenging, but adaptive devices and accessible trails can transform lives. Producer El Wilson, who has cerebral palsy, and producer Jenni Doering test an offroad wheelchair and meet a woman who has been able to reclaim the joy and freedom of hiking since becoming disabled.
+tags:
+  - profiles-interviews
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00041&segmentID=3 -->
 

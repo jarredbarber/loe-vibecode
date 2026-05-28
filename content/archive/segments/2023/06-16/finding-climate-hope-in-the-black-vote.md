@@ -1,12 +1,16 @@
 ---
 title: Finding Climate Hope in the Black Vote
 slug: finding-climate-hope-in-the-black-vote
-date: '2023-06-16'
+date: 2023-06-16
 category: Segments
 megaphone_id: LOE7280359544
 image_url: https://loe.org/content/2023-06-16/B1_voting.jpg
 image_caption: 'Black and Brown people are more likely than any other demographic to vote on environmental issues, according to a study conducted by the Yale Program on Climate Change Communication. (Photo: Janine Robinson, Unsplash, Fair Use)'
 summary: 'Heather McTeer Toney and Host Steve Curwood continue their conversation about her book Before the Streetlights Come On: Black America’s Urgent Call for Climate Solutions and talk about how faith, voting, and community engagement can help address the climate emergency.'
+tags:
+  - climate-change
+  - environmental-justice
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00024&segmentID=2 -->
 

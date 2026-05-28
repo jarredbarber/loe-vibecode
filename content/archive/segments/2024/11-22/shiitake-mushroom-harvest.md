@@ -1,12 +1,17 @@
 ---
 title: Shiitake Mushroom Harvest
 slug: shiitake-mushroom-harvest
-date: '2024-11-22'
+date: 2024-11-22
 category: Segments
 megaphone_id: LOE5998588794
 image_url: https://loe.org/content/2024-11-22/MUSHROOM_inoculated.jpg
 image_caption: 'The inoculated log behind Jenni’s compost bin. (Photo: Jenni Doering)'
 summary: A year after inoculating a log with shiitake mushroom spawn and reporting about it on Living on Earth, Producers Aynsley O’Neill and Jenni Doering harvested and cooked up the first crop. Jenni Doering walks Host Steve Curwood through moments from the mushroom cooking adventure, which didn’t go quite as smoothly as planned.
+tags:
+  - farming
+  - food-systems
+  - profiles-interviews
+  - citizen-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00047&segmentID=3 -->
 

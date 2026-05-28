@@ -1,12 +1,17 @@
 ---
 title: The Crochet Coral Reef
 slug: the-crochet-coral-reef-0216
-date: '2024-02-16'
+date: 2024-02-16
 category: Segments
 megaphone_id: LOE9109382272
 image_url: https://loe.org/content/2024-02-16/CROCHET_curator.jpg
 image_caption: 'Alyssa Velazquez, the curator at the Carnegie Museum of Art, organized the Pittsburgh Satellite Reef by color to mimic the way water filters visible light. (Photo: Sean Eaton, Courtesy of Carnegie Museum of Art)'
 summary: To raise awareness about the threats facing coral reefs, crafters everywhere are picking up their crochet hooks and contributing to a worldwide “Crochet Coral Reef.” Host Paloma Beltran spoke with Alyssa Velazquez, the curator of the Pittsburgh Satellite Reef at the Carnegie Museum of Art about what it’s like to stand inside the exhibit and how it came together.
+tags:
+  - oceans
+  - coral-reefs
+  - climate-change
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00007&segmentID=4 -->
 

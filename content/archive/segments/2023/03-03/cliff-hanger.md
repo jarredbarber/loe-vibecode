@@ -1,12 +1,16 @@
 ---
 title: Cliff Hanger
 slug: cliff-hanger
-date: '2023-03-03'
+date: 2023-03-03
 category: Segments
 megaphone_id: LOE5563805198
 image_url: https://loe.org/content/2023-03-03/LENDER_nest.JPG
 image_caption: 'A cormorant in the Falklands builds a cliff-side nest with his mate. (Photo: Mark Seth Lender)'
 summary: Along the east coast of the Falklands, an agile cormorant soars and dives among the cliffs. Living on Earth's Explorer-in-Residence, Mark Seth Lender, reflects on the empire of this majestic but much-maligned bird.
+tags:
+  - birds
+  - marine-life
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00009&segmentID=6 -->
 

@@ -1,12 +1,14 @@
 ---
 title: 'BirdNote®: Bright Yellow Northern Cardinals'
 slug: birdnote-bright-yellow-northern-cardinals
-date: '2024-12-13'
+date: 2024-12-13
 category: Segments
 megaphone_id: LOE4785432488
 image_url: https://loe.org/content/2024-12-13/BIRDNOTE_cardinal.jpg
 image_caption: 'A yellow Northern Cardinal perches on a fencepost. (Photo: © Jeremy Black, Courtesy of BirdNote ®)'
 summary: ': Cardinals are known for their bright scarlet plumage but turns out some cardinals have yellow feathers instead of the classic red. BirdNote®’s Ariana Remmel explains why.'
+tags:
+  - birds
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00050&segmentID=4 -->
 

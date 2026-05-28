@@ -1,12 +1,18 @@
 ---
 title: Nikki Haley on Climate
 slug: nikki-haley-on-climate-0119
-date: '2024-01-19'
+date: 2024-01-19
 category: Segments
 megaphone_id: LOE5685550921
 image_url: https://loe.org/content/2024-01-12/HALEY_haley.jpg
 image_caption: 'Nikki Haley announced her campaign for president in February 2023. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: Republican presidential candidate Nikki Haley sends mixed signals on climate change, acknowledging that it’s real and human-caused while also touting her role in pulling the U.S. out of the Paris Agreement. Inside Climate News reporter Phil McKenna caught up with the Haley campaign in New Hampshire and joins Hosts Paloma Beltran and Jenni Doering to examine Nikki Haley’s climate record and rhetoric as well as share feedback from voters.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - oil-gas
+  - congressional-action
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00002&segmentID=1 -->
 

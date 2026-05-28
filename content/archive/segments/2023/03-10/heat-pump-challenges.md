@@ -1,12 +1,16 @@
 ---
 title: Heat Pump Challenges
 slug: heat-pump-challenges
-date: '2023-03-10'
+date: 2023-03-10
 category: Segments
 megaphone_id: LOE5981653000
 image_url: https://loe.org/content/2023-03-10/HEATPUMPS_contractor.jpg
 image_caption: 'Brendon Slotterback had a contractor install a heat pump outside his Pittsburgh home. (Photo: Reid R. Frazier from The Allegheny Front)'
 summary: One of the largest sources of greenhouse gas emissions in the US comes from heating buildings. The Biden administration is trying to change that by promoting efficient electric heat pumps. But as the Allegheny Front’s Reid Frazier reports, getting Americans to switch to heat pumps won’t be easy.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00010&segmentID=6 -->
 

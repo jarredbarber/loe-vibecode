@@ -1,12 +1,16 @@
 ---
 title: Microplastics – “A Poison Like No Other”
 slug: microplastics-a-poison-like-no-other
-date: '2023-03-31'
+date: 2023-03-31
 category: Segments
 megaphone_id: LOE3242379037
 image_url: https://loe.org/content/2023-03-31/PLASTIC-microplastics_black_background.jpg
 image_caption: 'Microplastics from the Chesapeake Bay watershed are pictured in a laboratory. (Photo: Chesapeake Bay Program, Flickr CC BY-NC 2.0)'
 summary: 'Microplastics are everywhere scientists have looked for them, from the deepest ocean trenches to mountain peaks. Micro and nano plastics are in our air, water, food, and our own bodies. The recent book “A Poison Like No Other: How Microplastics Corrupted Our Planet and Our Bodies” takes a deep dive into the world of these tiny pollutants laden with thousands of different chemicals. Author Matt Simon joins Host Bobby Bascomb to discuss the dangers and options to address the problem.'
+tags:
+  - plastics
+  - pregnancy-children
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00013&segmentID=4 -->
 

@@ -1,12 +1,16 @@
 ---
 title: Bringing a Plastic Giant to Justice
 slug: bringing-a-plastic-giant-to-justice-0519
-date: '2023-05-19'
+date: 2023-05-19
 category: Segments
 megaphone_id: LOE5805919011
 image_url: https://loe.org/content/2023-05-12/WILSON_header.jpg
 image_caption: 'Diane Wilson in Lavaca Bay, Texas (Photo: Goldman Environmental Prize)'
 summary: The 2023 Goldman Environmental Prize winner from North America went toe-to-toe with one of the largest petrochemical companies in the world, Formosa Plastics, and won a $50 million settlement over its illegal dumping of toxic plastic waste. Diane Wilson joins Host Steve Curwood to share her story of dogged truth-seeking and holding a major polluter accountable for spoiling the biodiverse landscape of the Texas Gulf Coast.
+tags:
+  - plastics
+  - activism
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00019&segmentID=2 -->
 

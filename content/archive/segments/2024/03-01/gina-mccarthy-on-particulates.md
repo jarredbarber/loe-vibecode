@@ -1,12 +1,18 @@
 ---
 title: Gina McCarthy on Particulates
 slug: gina-mccarthy-on-particulates
-date: '2024-03-01'
+date: 2024-03-01
 category: Segments
 megaphone_id: LOE4081575779
 image_url: https://loe.org/content/2024-03-01/MCCARTHY_gina.jpg
 image_caption: 'Gina McCarthy was the Administrator for the Environmental Protection Agency from 2013-2017 and the first White House National Climate Advisor from 2021-2022. She is now the Managing Co-Chair of America Is All In. (Photo: Harvard University)'
 summary: The U.S. Environmental Protection Agency has announced new measures to reduce the allowable amount of fine particulate pollution in the air. Former EPA Administrator Gina McCarthy joins Host Aynsley O’Neill to discuss these new standards, as well as the Inflation Reduction Act and the role of women in the environmental movement.
+tags:
+  - air-pollution
+  - public-health
+  - fossil-fuels
+  - environmental-policy
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00009&segmentID=3 -->
 

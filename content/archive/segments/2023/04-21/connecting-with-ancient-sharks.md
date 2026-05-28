@@ -1,12 +1,15 @@
 ---
 title: Connecting With Ancient Sharks
 slug: connecting-with-ancient-sharks
-date: '2023-04-21'
+date: 2023-04-21
 category: Segments
 megaphone_id: LOE7207468744
 image_url: https://loe.org/content/2023-04-21/LENDER-BANNER-.JPG
 image_caption: 'When cage-free diving with Caribbean reef sharks, one must wear a chain mail suit to protect against accidents. (Photo: Mark Seth Lender)'
 summary: Though humans and sharks are separated by 420 million years of evolution, Living on Earth’s Explorer in Residence Mark Seth Lender was awestruck by just how similar we are on a recent shark encounter with no cage in the Caribbean.
+tags:
+  - marine-life
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00016&segmentID=5 -->
 

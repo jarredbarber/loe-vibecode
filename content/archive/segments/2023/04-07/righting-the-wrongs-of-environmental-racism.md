@@ -1,12 +1,15 @@
 ---
 title: Righting the Wrongs of Environmental Racism
 slug: righting-the-wrongs-of-environmental-racism
-date: '2023-04-07'
+date: 2023-04-07
 category: Segments
 megaphone_id: LOE4111411238
 image_url: https://loe.org/content/2023-04-07/HARDEN-baton rouge refinery.jpg
 image_caption: 'ExxonMobil’s Baton Rouge Refinery along Louisiana’s “Cancer Alley.” (Photo: Jim Bowen, Flickr CC BY 2.0)'
 summary: The Black residents of the heavily industrialized corridor along the Mississippi known as “Cancer Alley” have filed a civil rights and religious liberty lawsuit against the parish council that has given a green light to these polluting facilities for decades. Monique Harden of the Deep South Center for Environmental Justice joins Host Steve Curwood to explain the history of environmental racism and resistance in “Cancer Alley.”
+tags:
+  - environmental-justice
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00014&segmentID=5 -->
 

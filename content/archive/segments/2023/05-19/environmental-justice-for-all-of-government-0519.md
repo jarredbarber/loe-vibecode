@@ -1,12 +1,16 @@
 ---
 title: Environmental Justice for All of Government
 slug: environmental-justice-for-all-of-government-0519
-date: '2023-05-19'
+date: 2023-05-19
 category: Segments
 megaphone_id: LOE1185426644
 image_url: https://loe.org/content/2023-05-19/HARDEN_powerplant.jpg
 image_caption: 'The Environmental Protection Agency proposed rules that would require all US power plants to reduce or capture 90% of their carbon dioxide emissions by 2038. Pictured above is the Haynes Generating Station in Seal Beach, California. (Photo: Jon Sullivan, Flickr, CC BY-NC 2.0)'
 summary: The new White House Office of Environmental Justice will oversee EJ efforts in every federal agency. The Biden administration also wants new power plant rules that call for carbon capture and storage technology, which has yet to be proven at scale and could have environmental justice impacts. Monique Harden, Director of Law, and Policy at the Deep South Center for Environmental Justice, joins Host Steve Curwood to discuss these developments.
+tags:
+  - environmental-justice
+  - fossil-fuels
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00020&segmentID=2 -->
 

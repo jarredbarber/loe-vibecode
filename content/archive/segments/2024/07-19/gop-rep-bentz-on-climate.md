@@ -1,12 +1,20 @@
 ---
 title: GOP Rep. Bentz on Climate
 slug: gop-rep-bentz-on-climate
-date: '2024-07-19'
+date: 2024-07-19
 category: Segments
 megaphone_id: LOE7796297810
 image_url: https://loe.org/content/2024-07-19/BENTZ_bentz.jpg
 image_caption: 'Representative Cliff Bentz (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: Republican Cliff Bentz represents Oregon’s second district in Congress, where he chairs the House Natural Resources Subcommittee on Water, Oceans and Wildlife and is part of the Conservative Climate Caucus. He sat down with Host Steve Curwood to share his views on conservative approaches to climate adaptation, carbon capture and storage, wildfire prevention, public lands stewardship and more.
+tags:
+  - climate-change
+  - fossil-fuels
+  - wildfire
+  - forests
+  - water-rights
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00029&segmentID=3 -->
 

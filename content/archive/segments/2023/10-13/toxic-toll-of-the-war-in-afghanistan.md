@@ -1,12 +1,17 @@
 ---
 title: Toxic Toll of the War in Afghanistan
 slug: toxic-toll-of-the-war-in-afghanistan
-date: '2023-10-13'
+date: 2023-10-13
 category: Segments
 megaphone_id: LOE6238208308
 image_url: https://loe.org/content/2023-10-13/AFGHANISTAN_stream.jpg
 image_caption: 'Outside the Jalalabad airfield, residents wash in the stream that flows from a hole in the high wall surrounding the base. (Photo: Lynzy Billing)'
 summary: The 20-year U.S. war in Afghanistan brought tens of thousands of direct casualties but also dangerous pollutants that survivors are still living among. Lynzy Billing reported from Afghanistan for Inside Climate News and New Lines Magazine and joins Host Jenni Doering to describe the hazards and health problems some Afghans link to the war.
+tags:
+  - water-pollution
+  - chemical-contamination
+  - pfas-forever-chemicals
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00041&segmentID=5 -->
 

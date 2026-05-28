@@ -1,12 +1,17 @@
 ---
 title: Shell Plastics Plant Pollutes
 slug: shell-plastics-plant-pollutes
-date: '2023-06-30'
+date: 2023-06-30
 category: Segments
 megaphone_id: LOE1695471113
 image_url: https://loe.org/content/2023-06-30/SHELL_plant.jpg
 image_caption: 'Shell’s massive plastics plant in Beaver County, Pennsylvania, started operations in late 2022. In May, the state issued a $10 million fine for the plant’s air quality violations. (Photo: Mark Dixon, Flickr, CC BY 2.0)'
 summary: Shell’s massive new ethane cracker plant in western Pennsylvania is sending polluted air and strange smells into the surrounding community. But a $10 million fine pales in comparison to the roughly $100 million a day that the company made in profits in the first quarter of 2023. Reid Frazier of the Allegheny Front discusses with Host Paloma Beltran the concerns of residents and a promised economic boom that hasn’t materialized.
+tags:
+  - air-pollution
+  - plastics
+  - fossil-fuels
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00026&segmentID=2 -->
 

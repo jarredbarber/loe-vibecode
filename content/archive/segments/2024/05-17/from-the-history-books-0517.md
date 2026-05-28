@@ -1,12 +1,20 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0517
-date: '2024-05-17'
+date: 2024-05-17
 category: Segments
 megaphone_id: LOE5839516573
 image_url: https://loe.org/content/2024-05-17/DYKSTRA_adirondacks.jpg
 image_caption: 'The mesmerizing high peaks of the Adirondack Preserve. (Photo: John Munt, Flickr, CC BY-NC 2.0)'
 summary: Living on Earth contributor Peter Dykstra joins Host Aynsley O’Neill for a trip back in time to the creation of the Adirondack Forest Preserve, as well to Franklin Delano Roosevelt’s signing of the Tennessee Valley Authority Act.
+tags:
+  - forests
+  - drinking-water
+  - rivers-watersheds
+  - fossil-fuels
+  - nuclear
+  - environmental-history
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00020&segmentID=3 -->
 

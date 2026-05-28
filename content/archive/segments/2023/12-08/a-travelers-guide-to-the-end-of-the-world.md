@@ -1,12 +1,20 @@
 ---
 title: A Traveler's Guide to the End of the World
 slug: a-travelers-guide-to-the-end-of-the-world
-date: '2023-12-08'
+date: 2023-12-08
 category: Segments
 megaphone_id: LOE9990792914
 image_url: https://loe.org/content/2023-12-08/GESSNER_gessnerandpilkey.jpg
 image_caption: 'David Gessner and Orrin Pilkey traveled up and down the coast discussing the impacts of the climate crisis on the coastline. (Photo: Coke Whitworth)'
 summary: '1.2 degrees Celsius of global warming is already bringing dangerous climate impacts, and even if the world’s nations come together to keep temperatures from rising beyond 1.5 degrees, we face a troubling and uncertain future. Writer David Gessner tries to grapple with this in his 2023 book, A Traveler’s Guide to the End of the World: Tales of Fire, Wind, and Water, and he joins Host Jenni Doering to discuss a complicated relationship with hope amid a warming world.'
+tags:
+  - climate-change
+  - extreme-weather
+  - species-loss
+  - sea-level-rise
+  - drought
+  - wildfire
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00049&segmentID=4 -->
 

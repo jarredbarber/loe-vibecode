@@ -85,7 +85,7 @@ Aynsley joins Living on Earth from the Class of 2018 at Brandeis University, whe
 **Paloma Beltran**
 *Associate Producer*
 
-[pbeltran@loe.org](mailto:pbeltran@loe.org) | [Twitter @palomabeltranf](https://twitter.com/palomabeltranf)
+[pbeltran@loe.org](mailto:pbeltran@loe.org) | [Twitter @palomabeltranf](https://twitter.com/palomabeltranf) | [Appearances on LOE](/people/beltran.html)
 
 Paloma's journey with environmentalism began in her home of Baja California, Mexico where she grew up playing in her grandmother's orange orchard and beach camping with her family along the Gulf of California and the Pacific Ocean. She is passionate about stories involving ecojustice, indigenous communities and environmental policy. In her free time you can find her attempting to cook her grandma's recipes and exploring New England. She joins Living on Earth from the UMass Boston class of 2019, where she majored in Environmental Studies.
 

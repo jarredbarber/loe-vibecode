@@ -1,12 +1,17 @@
 ---
 title: EPA Finally Bans Asbestos
 slug: epa-finally-bans-asbestos
-date: '2024-05-03'
+date: 2024-05-03
 category: Segments
 megaphone_id: LOE4995294692
 image_url: https://loe.org/content/2024-05-03/ASBESTOS_ban.jpg
 image_caption: 'In March 2024, the EPA announced a ban on chrysotile asbestos, the only type of asbestos whose industrial use was still permitted in the U.S. Chrysotile asbestos is used in brake pads, sheet gaskets, and other products. (Photo: James St. John, Flickr, CC BY 2.0)'
 summary: Asbestos is highly toxic to humans and after years of court and congressional battles the EPA is finally banning all uses of asbestos in the U.S. Maria Doa of the Environmental Defense Fund joined Living on Earth’s Jenni Doering to discuss why it took so long and the anticipated public health benefits of the phaseout
+tags:
+  - chemical-contamination
+  - public-health
+  - environmental-policy
+  - cancer-environment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00018&segmentID=2 -->
 

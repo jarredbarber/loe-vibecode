@@ -1,12 +1,14 @@
 ---
 title: Sewage Sludge Danger
 slug: sewage-sludge-danger
-date: '2024-03-29'
+date: 2024-03-29
 category: Segments
 megaphone_id: LOE6429947719
 image_url: https://loe.org/content/2024-03-29/PFOA_truck.jpg
 image_caption: 'According to a study in the journal Environmental Health, over 40% of the six million dry metric tons of sewage sludge produced annually in the United States is later applied to the land. (Photo: City of Geneva, Flickr, CC BY-NC 2.0)'
 summary: Millions of acres of cropland in the U.S. may be contaminated from PFAS-tainted sewage sludge spread on fields as fertilizer. These “forever chemicals” are taken up by plants and then consumed by livestock and people, making them sick. Kyla Bennett of Public Employees for Environmental Responsibility (PEER) joins Host Jenni Doering to reveal the invisible threat of PFAS in our food and discuss why she believes EPA has failed its mission to protect the public.
+tags:
+  - pfas-forever-chemicals
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00013&segmentID=2 -->
 

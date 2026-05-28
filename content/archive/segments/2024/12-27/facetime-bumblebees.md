@@ -1,12 +1,17 @@
 ---
 title: 'FaceTime: Bumblebees'
 slug: facetime-bumblebees
-date: '2024-12-27'
+date: 2024-12-27
 category: Segments
 megaphone_id: LOE2931645510
 image_url: https://loe.org/content/2020-07-06_mon_pod/MSL-Bumble_Bee_on_Milkweed.jpg
 image_caption: 'A bumblebee on a milkweed plant. (Photo: (c) Mark Seth Lender)'
 summary: What’s going on inside the tiny, fuzzy head of a bumblebee? Living on Earth’s Explorer in Residence, Mark Seth Lender, says there might be much more going on than you may think.
+tags:
+  - insects
+  - ecology-research
+  - profiles-interviews
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00052&segmentID=3 -->
 

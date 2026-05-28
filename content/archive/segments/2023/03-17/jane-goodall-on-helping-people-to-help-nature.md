@@ -1,12 +1,14 @@
 ---
 title: Jane Goodall on Helping People to Help Nature
 slug: jane-goodall-on-helping-people-to-help-nature
-date: '2023-03-17'
+date: 2023-03-17
 category: Segments
 megaphone_id: LOE3839896962
 image_url: https://loe.org/content/2023-03-17/GOODALL_cover.jpg
 image_caption: 'Local Voices, Local Choices: The Tacare Approach to Community-Led Conservation is the new book from the Jane Goodall Institute, with an introduction by Dr. Jane Goodall. (Photo: courtesy of the Jane Goodall Institute)'
 summary: Jane Goodall is on a mission to protect habitat worldwide by empowering local communities to develop sustainably. She joins Host Steve Curwood for an in-depth conversation about this holistic approach to conservation and how it all started when she was just ten years old and dreamed of studying wild animals in Africa.
+tags:
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00011&segmentID=6 -->
 

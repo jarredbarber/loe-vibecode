@@ -1,12 +1,14 @@
 ---
 title: Sea Cucumbers Clean Up Fish Poop
 slug: sea-cucumbers-clean-up-fish-poop
-date: '2023-07-14'
+date: 2023-07-14
 category: Segments
 megaphone_id: LOE5289803125
 image_url: https://loe.org/content/2023-07-14/CUCUMBER_red.jpg
 image_caption: 'Kauai Sea Farm has started adding these spiky sea cucumbers to their aquaculture system to help them clean up waste. (Photo: Courtesy of Kiley Price)'
 summary: Fish waste can spread diseases and lead to harmful algae blooms in aquaculture, so some fish farmers are enlisting the help of sea cucumbers that eat organic debris and leave behind clean sediment. Freelance journalist Kiley Price shares with Host Jenni Doering how it works and why farmers face some challenges in adding sea cucumbers to their aquaculture operations.
+tags:
+  - marine-life
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00028&segmentID=6 -->
 

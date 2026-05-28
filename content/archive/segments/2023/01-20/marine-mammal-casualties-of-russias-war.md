@@ -1,12 +1,16 @@
 ---
 title: Marine Mammal Casualties of Russia’s War
 slug: marine-mammal-casualties-of-russias-war
-date: '2023-01-20'
+date: 2023-01-20
 category: Segments
 megaphone_id: LOE8912332953
 image_url: https://loe.org/content/2023-01-20/MARINE_cetacean.jpg
 image_caption: 'The recent rise in cetacean deaths in the Black Sea is likely due to acoustic trauma from military sonar, scientists say. (Photo: Ivan Rusev)'
 summary: In addition to the devastating human toll of Russia’s war on Ukraine, marine scientists have documented recent mass strandings of dolphins and porpoises in the Black Sea. A key suspect is military sonar, which can disorient cetaceans that use sound to navigate. Alix Kroeger, a freelance journalist from the UK, spoke with researchers in the region about the impacts of war on marine mammals and joins Host Bobby Bascomb to explain.
+tags:
+  - marine-life
+  - noise-pollution
+  - species-loss
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00003&segmentID=4 -->
 

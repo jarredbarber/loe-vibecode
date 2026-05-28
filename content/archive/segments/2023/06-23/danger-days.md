@@ -1,12 +1,17 @@
 ---
 title: Danger Days
 slug: danger-days
-date: '2023-06-23'
+date: 2023-06-23
 category: Segments
 megaphone_id: LOE3360529378
 image_url: https://loe.org/content/2023-06-23/DANGERDAYS_bikes.jpg
 image_caption: 'Catherine Pierce’s poem “Danger Days” references a trope of 1980s movies commonly known as “kids on bikes” that harkens to a childlike innocence and freedom that she feels has been lost. (Photo: Berkan Küçükgül, Unsplash)'
 summary: Poet Laureate of Mississippi Catherine Pierce describes these days of extreme heat and humidity that are changing summer vacation as the planet warms in her book Danger Days.
+tags:
+  - climate-change
+  - extreme-weather
+  - heatwave
+  - poetry-essays
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00025&segmentID=5 -->
 

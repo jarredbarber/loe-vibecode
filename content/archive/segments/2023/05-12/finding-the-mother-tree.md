@@ -1,12 +1,16 @@
 ---
 title: Finding the Mother Tree
 slug: finding-the-mother-tree
-date: '2023-05-12'
+date: 2023-05-12
 category: Segments
 megaphone_id: LOE9636451749
 image_url: https://loe.org/content/2021-08-27/TREE-Finding_the_Mother_Tree_cover.jpg
 image_caption: '“Finding the Mother Tree: Discovering the Wisdom of the Forest” takes readers into the field with Suzanne Simard as she describes her forest experiments and shares how her findings helped her through the challenges of motherhood and a cancer diagnosis. (Photo: courtesy of Knopf)'
 summary: An intricate web of roots and fungi connects life in an old growth forest, allowing ancient “Mother trees” to nourish and protect their kin. Forest ecologist Suzanne Simard studies these connections at the University of British Columbia and takes readers into the field with her in her book, Finding the Mother Tree. She joins Living on Earth’s Jenni Doering to share her research findings and reflects on how these trees helped her through the challenges of motherhood and a cancer diagnosis.
+tags:
+  - forests
+  - climate-change
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00019&segmentID=4 -->
 

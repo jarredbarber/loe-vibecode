@@ -1,12 +1,17 @@
 ---
 title: Mapping the Seafloor to Predict Coastal Flooding
 slug: mapping-the-seafloor-to-predict-coastal-flooding
-date: '2023-03-24'
+date: 2023-03-24
 category: Segments
 megaphone_id: LOE6081849978
 image_url: https://loe.org/content/2023-03-24/LEVIN-following the vessel.JPG
 image_caption: 'USF Oceanographers follow an uncrewed autonomous vessel. The vehicle is helping create hyper-detailed maps of the seafloor just off the coast. (Image: David Levin)'
 summary: The topography of the coastal seafloor has a lot to do with how much flooding coastal areas will experience during hurricanes. As reporter David Levin reports, a team of scientists is working on a new technology to create more accurate seafloor maps in the Gulf of Mexico.
+tags:
+  - climate-change
+  - extreme-weather
+  - oceans
+  - earth-observation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00012&segmentID=5 -->
 

@@ -1,12 +1,13 @@
 ---
 title: The Solar Eclipse Takeaways
 slug: the-solar-eclipse-takeaways
-date: '2024-04-12'
+date: 2024-04-12
 category: Segments
 megaphone_id: LOE1876419303
 image_url: https://loe.org/content/2024-04-12/ECLIPSE_tinachen.jpg
 image_caption: 'Living on Earth’s Jenni Doering, Steve Curwood, and Aynsley O’Neill all got a chance to see the total solar eclipse in the Northeast. Jenni Doering’s friend, Tina Chen, took this picture of the moment of totality. (Photo: Tina Chen)'
 summary: The 2024 Great American Eclipse is now in the history books but still front of mind for Host Steve Curwood and Living on Earth’s Aynsley O’Neill and Jenni Doering. They gather to swap stories about experiencing totality and shed light on some of the strange phenomena of the April 8 total solar eclipse.
+tags: []
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00015&segmentID=4 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Restoring the "River of Grass"
 slug: restoring-the-river-of-grass
-date: '2023-07-14'
+date: 2023-07-14
 category: Segments
 megaphone_id: LOE3108340564
 image_url: https://loe.org/content/2023-07-14/EVERGLADES_green.JPG
 image_caption: 'Amy Green is the Florida Correspondent with Inside Climate News and the author of a book on the Everglades called “Moving Water: The Everglades and Big Sugar.” (Photo: Courtesy of Amy Green)'
 summary: Extensive draining and channeling of the Everglades ecosystem has led to toxic algae blooms and land loss in Florida, so now a huge restoration effort is attempting to reverse some of those human caused consequences. But environmental groups have raised concerns about the design of the sixteen square mile reservoir at the heart of the project. Inside Climate News reporter Amy Green joins Host Jenni Doering to explain.
+tags:
+  - water-pollution
+  - drought
+  - climate-change
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00028&segmentID=5 -->
 

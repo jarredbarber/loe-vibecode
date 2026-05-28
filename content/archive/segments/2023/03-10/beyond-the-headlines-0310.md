@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0310
-date: '2023-03-10'
+date: 2023-03-10
 category: Segments
 megaphone_id: LOE6200960126
 image_url: https://loe.org/content/2023-03-10/DYKSTRA_bluewhale.jpg
 image_caption: 'The United Nations has approved a treaty to protect ocean biodiversity on the high seas. (Photo: Gregory “Slobirdr” Smith, Flickr, CC BY-SA 2.0)'
 summary: Host Steve Curwood and Living on Earth contributor Peter Dykstra look beyond the headlines to a United Nations ocean biodiversity protection treaty, along with the newly designated Chilean Tictoc marine park for whales. Then, the pair discuss Antarctica's diminishing sea ice, before looking back to the historic resignation of EPA Administrator Anne Gorsuch-Burford.
+tags:
+  - oceans
+  - marine-life
+  - sea-level-rise
+  - climate-change
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00010&segmentID=2 -->
 

@@ -1,12 +1,16 @@
 ---
 title: Advancing Hydrogen with Government Funded Hubs
 slug: advancing-hydrogen-with-government-funded-hubs
-date: '2023-10-27'
+date: 2023-10-27
 category: Segments
 megaphone_id: LOE2651840135
 image_url: https://loe.org/content/2023-10-27/HYDROGEN_Biden.jpg
 image_caption: 'The Biden administration says the new hydrogen hubs will help cut national greenhouse gas emissions. (Photo: Prachatai, Flickr, CC BY-NC-ND 2.0)'
 summary: The Biden Administration recently announced the recipients of up to $7 billion in grants for seven hydrogen technology “hubs” across the country to help move away from fossil fuels. Inside Climate News reporter Nicholas Kusnetz explains to Host Jenni Doering why any climate benefits depend on the sources of hydrogen.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00043&segmentID=3 -->
 

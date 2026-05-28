@@ -1,12 +1,16 @@
 ---
 title: Solar Eclipse Magic
 slug: solar-eclipse-magic
-date: '2024-03-15'
+date: 2024-03-15
 category: Segments
 megaphone_id: LOE2959123575
 image_url: https://loe.org/content/2024-03-15/ECLIPSE_2017.png
 image_caption: 'In 2017, a total solar eclipse crossed across a narrow portion of the United States from Lincoln Beach, Oregon to Charleston, South Carolina. A partial solar eclipse was visible across the entire North American continent, as well as parts of South America, Africa, and Europe. (Photo: Aubrey Gemignani, NASA, Flickr, CC BY 2.0)'
 summary: 'On April 8th millions across North America will have the opportunity to experience a total solar eclipse, when the moon briefly blocks out the sun. Cosmologist Roberto Trotta is the author of “Starborn: How the Stars Made Us (And Who We Would Be Without Them)" and joins Host Jenni Doering to describe how our ancestors reacted to this strange, otherworldly phenomenon and how you too can safely witness it.'
+tags:
+  - profiles-interviews
+  - earth-observation
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00011&segmentID=5 -->
 

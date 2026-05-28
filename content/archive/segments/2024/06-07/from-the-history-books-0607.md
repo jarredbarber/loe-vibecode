@@ -1,12 +1,18 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0607
-date: '2024-06-07'
+date: 2024-06-07
 category: Segments
 megaphone_id: LOE7728645346
 image_url: https://loe.org/content/2024-06-07/DYKSTRA_coolidge.jpg
 image_caption: 'President Coolidge (center) standing with four members of the Osage Nation at a White House ceremony after signing the Indian Citizenship Act in 1924. (Photo: National Photo Company Collection, Library of Congress, Wikimedia Commons, Public Domain)'
 summary: This week, Host Steve Curwood and Living on Earth contributor Peter Dykstra mark 100 years since the passage of the Indian Citizenship Act. Though a step towards equality Native Americans had to wait until 1957 to secure nationwide voting rights. Also, it’s 60 years since the commissioning of the pioneering submersible ALVIN, which went on to discover the unique ecosystems around hot deep-sea vents.
+tags:
+  - indigenous-rights
+  - environmental-history
+  - profiles-interviews
+  - oceans
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00023&segmentID=5 -->
 

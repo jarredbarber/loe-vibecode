@@ -1,12 +1,18 @@
 ---
 title: Alaska's Rusting Rivers
 slug: alaskas-rusting-rivers
-date: '2024-06-07'
+date: 2024-06-07
 category: Segments
 megaphone_id: LOE7269941009
 image_url: https://loe.org/content/2024-06-07/RUST_streamsandrivers.jpeg
 image_caption: 'Some streams and rivers in Alaska’s remote Brooks Mountain Range are turning orange. Researchers think melting permafrost may be the culprit. (Photo: Josh Koch, U.S. Geological Survey)'
 summary: Streams in northern Alaska are turning a cloudy orange, and scientists think the cause is metals like iron leaching from melting permafrost as the Arctic rapidly warms. Jon O’Donnell is an ecologist for the Arctic Inventory and Monitoring Network at the National Park Service and discusses the research and potential consequences of these changes with Host Jenni Doering.
+tags:
+  - climate-change
+  - arctic-polar
+  - water-pollution
+  - species-loss
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00023&segmentID=1 -->
 

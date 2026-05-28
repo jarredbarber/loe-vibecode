@@ -1,12 +1,16 @@
 ---
 title: Burning Sugarcane Pollutes Communities of Color
 slug: burning-sugarcane-pollutes-communities-of-color-0120
-date: '2023-01-20'
+date: 2023-01-20
 category: Segments
 megaphone_id: LOE6528290327
 image_url: https://loe.org/content/2023-01-20/CANE_burning.jpg
 image_caption: 'Sugarcane fields are routinely burned to incinerate leaf litter before harvest. (Photo: Courtesy of Jose Jesus Zaragoza)'
 summary: Some Florida sugarcane growers near the Everglades still use the archaic method of burning fields to remove the tops and leaves before harvesting the sweet cane stalks. Nearby residents say the smoke and ash promote adverse health effects. As reporter Sandy Tolan explains, communities of color nearby assert they bear a disproportionate burden of adverse health effects from the resulting smoke and ash pollution.
+tags:
+  - air-pollution
+  - environmental-justice
+  - farming
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00003&segmentID=2 -->
 

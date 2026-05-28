@@ -1,12 +1,18 @@
 ---
 title: Joe Manchin, 3rd Party Candidate?
 slug: joe-manchin-3rd-party-candidate
-date: '2024-01-19'
+date: 2024-01-19
 category: Segments
 megaphone_id: LOE8194526048
 image_url: https://loe.org/content/2022-07-29/MANCHIN_headshot.jpg
 image_caption: 'Democratic Senator Joe Manchin in 2017. From the coal-producing state of West Virginia, Senator Manchin has historically advocated for fossil fuel interests. (Photo: Third Way Think Tank, Flickr, CC BY-NC-ND 2.0)'
 summary: A potential third-party presidential run by West Virginia Democratic Senator Joe Manchin could influence the outcome of the 2024 election. Inside Climate News reporter Phil McKenna is back on the campaign trail in New Hampshire with this report about Senator Manchin’s support of fossil fuels and the climate concerns of New Hampshire voters.
+tags:
+  - climate-change
+  - fossil-fuels
+  - oil-gas
+  - environmental-policy
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00003&segmentID=4 -->
 

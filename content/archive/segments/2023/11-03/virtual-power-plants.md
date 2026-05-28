@@ -1,12 +1,17 @@
 ---
 title: Virtual Power Plants
 slug: virtual-power-plants
-date: '2023-11-03'
+date: 2023-11-03
 category: Segments
 megaphone_id: LOE1196866177
 image_url: https://loe.org/content/2023-11-03/VPP_solar.jpg
 image_caption: 'VPPs are networks of small energy-producing and storage devices, such as solar panels and batteries, that are pooled together to serve the electricity grid. (Photo: Hiro Yamagata, Flickr, CC BY-SA 2.0)'
 summary: The aging grid is struggling to accommodate the surge in renewables like wind and solar . And since they don’t produce electricity around the clock, there’s often a mismatch between when the power is being generated and when it’s being used. Ryan Hledik of the consulting firm The Brattle Group explains to Host Steve Curwood how “virtual power plants” can tap home and electric vehicle batteries and shift the timing of HVAC and appliance demand to help close this gap.
+tags:
+  - grid-energy-storage
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00044&segmentID=6 -->
 

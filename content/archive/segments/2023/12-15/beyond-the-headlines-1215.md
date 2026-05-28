@@ -1,12 +1,20 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-1215
-date: '2023-12-15'
+date: 2023-12-15
 category: Segments
 megaphone_id: LOE1452886561
 image_url: https://loe.org/content/2023-12-15/DYKSTRA_mass.jpg
 image_caption: 'A new ruling from the Massachusetts Department of Public Utilities aims to hasten the phase out of natural gas in the state. (Photo: Jonathan Cutrer, Flickr, CC BY 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Aynsley O’Neill bringing news of a step towards phasing out natural gas in Massachusetts, and a lost-then-found tomato in space. In history, they mark an anniversary for the U.S. Marine Mammal Protection Act that’s helped conserve seals, whales, and more.
+tags:
+  - fossil-fuels
+  - solar
+  - wind
+  - species-loss
+  - marine-life
+  - wildlife-corridors
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00050&segmentID=2 -->
 

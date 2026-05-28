@@ -1,12 +1,15 @@
 ---
 title: Mexico's 'Presidenta' and Climate
 slug: mexicos-presidenta-and-climate
-date: '2024-06-07'
+date: 2024-06-07
 category: Segments
 megaphone_id: LOE4139755340
 image_url: https://loe.org/content/2024-06-07/MEXICO_sheinbaum.jpg
 image_caption: 'Claudia Sheinbaum made history as the first woman elected to become Mexico’s president. She has a background in engineering as well as climate science and contributed to multiple IPCC reports. (Photo: EneasMx, Wikimedia Commons, CC BY 4.0)'
 summary: Claudia Sheinbaum, the first woman to be elected President of Mexico, has a background in climate and energy, having co-authored two IPCC climate reports and later implemented clean transportation projects while mayor of Mexico City. Sheinbaum has pledged to boost renewable energy in Mexico but her political links with the current oil-friendly administration could present challenges to reaching green goals. Living on Earth’s Paloma Beltran joins Host Jenni Doering to unpack Sheinbaum’s record and hear how Mexican scientists are responding to her election.
+tags:
+  - climate-change
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00023&segmentID=3 -->
 

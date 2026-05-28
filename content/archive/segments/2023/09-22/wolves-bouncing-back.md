@@ -1,12 +1,18 @@
 ---
 title: Wolves Bouncing Back
 slug: wolves-bouncing-back
-date: '2023-09-22'
+date: 2023-09-22
 category: Segments
 megaphone_id: LOE6392267755
 image_url: https://loe.org/content/2023-09-22/WOLF_2million.jpg
 image_caption: 'Before European colonization of North America there were more than 2,000,000 gray wolves across North America, but populations were almost completely decimated, and after protection by the Endangered Species Act they have rebounded to about 7,000 today. Above is a gray wolf in Omega Park in Quebec. (Photo: Bert de Tilly, Wikimedia Commons, Fair Use)'
 summary: Hunted and trapped for centuries, wolves had all but disappeared from the contiguous US by 1960, but thanks to Endangered Species Act protections they’re bouncing back. A new pack with four pups was recently discovered further south in California in places where wolves hadn’t been seen for a century. Amaroq Weiss of the Center for Biological Diversity joins Host Jenni Doering to explain the vital role of this top predator in keeping ecosystems healthy.
+tags:
+  - endangered-species
+  - species-loss
+  - mammals
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00038&segmentID=5 -->
 

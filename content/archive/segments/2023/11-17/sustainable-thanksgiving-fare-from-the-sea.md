@@ -1,12 +1,13 @@
 ---
 title: Sustainable Thanksgiving Fare from the Sea
 slug: sustainable-thanksgiving-fare-from-the-sea
-date: '2023-11-17'
+date: 2023-11-17
 category: Segments
 megaphone_id: LOE2167568008
 image_url: https://loe.org/content/2020-11-20/OYSTERS-oysters.jpg
 image_caption: '“Emily’s Oysters” are sustainably farmed in Casco Bay, Maine. (Photo: Courtesy of Emily Selinger)'
 summary: Some like ‘em and others don’t but oysters can be eaten in many ways beyond the half-shell, and farmed correctly they nourish shallow waters. From his coastal Maine kitchen celebrity chef Barton Seaver joins Host Steve Curwood to talk about how oyster farming supports local economies and ecosystems, and whips up an oyster-flavored Thanksgiving stuffing.
+tags: []
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00046&segmentID=4 -->
 

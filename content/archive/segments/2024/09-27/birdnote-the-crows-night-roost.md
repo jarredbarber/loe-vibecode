@@ -1,12 +1,19 @@
 ---
 title: 'BirdNote®: The Crows'' Night Roost'
 slug: birdnote-the-crows-night-roost
-date: '2024-09-27'
+date: 2024-09-27
 category: Segments
 megaphone_id: LOE5267160157
 image_url: https://loe.org/content/2024-09-27/BIRDNOTE_crowsfly.jpg
 image_caption: 'A murder of crows fly through the dusky skies. (Photo: Ingrid Taylar, courtesy of BirdNote®)'
 summary: Crows are social creatures that can gather by the thousands in night roosts. BirdNote®’s Ashley Ahearn reports that these gatherings may provide benefits like warmth, protection from predators, and a chance to find a mate.
+tags:
+  - birds
+  - mammals
+  - species-loss
+  - wildlife-corridors
+  - profiles-interviews
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00039&segmentID=5 -->
 

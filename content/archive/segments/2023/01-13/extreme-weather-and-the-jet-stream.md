@@ -1,12 +1,18 @@
 ---
 title: Extreme Weather and the Jet Stream
 slug: extreme-weather-and-the-jet-stream
-date: '2023-01-13'
+date: 2023-01-13
 category: Segments
 megaphone_id: LOE8580355263
 image_url: https://loe.org/content/2023-01-13/WEATHER_cyclone.jpg
 image_caption: 'The northwestern United States bomb cyclone in January 2023. (Photo: NOAA, Wikimedia Commons, public domain)'
 summary: Weather records are now routinely getting shattered across the United States, with recent severe rainstorms in California, freezing temperatures in Texas, and a warm January thaw for the northeast. Jennifer Francis, Senior Scientist at the Woodwell Climate Research Center, joins Host Steve Curwood to explain why a climate disrupted jet stream is behind much of this extreme weather.
+tags:
+  - climate-change
+  - extreme-weather
+  - atmospheric-science
+  - arctic-polar
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00002&segmentID=2 -->
 

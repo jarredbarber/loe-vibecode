@@ -1,11 +1,16 @@
 ---
 title: Carbon in the Congo
 slug: carbon-in-the-congo-0804
-date: '2023-08-04'
+date: 2023-08-04
 category: Segments
 image_url: https://loe.org/content/2022-02-25/CONGO1_fields.jpg
 image_caption: 'Fields bordering the forest near the territory of Yangambi in the Democratic Republic of Congo. (Photo: Axel Fassio, Flickr, CIFOR, CC BY-NC-ND 2.0)'
 summary: "A team of scientists\_recently found a massive peatland holding more than 30 billion metric tons of carbon in the Congo Basin. It is crucial the carbon remain sequestered there to avoid exacerbating the climate crisis.\_Senior reporter for Mongabay John Cannon, wrote a four-part series looking into the Congo peatlands and joined host Bobby Bascomb."
+tags:
+  - climate-change
+  - carbon-cycle
+  - forests
+  - indigenous-rights
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=22-P13-00008&segmentID=3 -->
 

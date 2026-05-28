@@ -1,12 +1,16 @@
 ---
 title: Sy Montgomery on the Brains Behind the Cluck
 slug: sy-montgomery-on-the-brains-behind-the-cluck
-date: '2024-11-01'
+date: 2024-11-01
 category: Segments
 megaphone_id: LOE2158337362
 image_url: https://loe.org/content/2024-11-01/CHICKENS_cover.jpg
 image_caption: 'What the Chicken Knows: A New Appreciation of the World’s Most Familiar Bird by Sy Montgomery. (Photo: Atria Books)'
 summary: 'Author and naturalist Sy Montgomery has trekked across the world to write about pink dolphins in the Amazon and tigers in Asia. But for her latest book, What the Chicken Knows: A New Appreciation of the World’s Most Familiar Bird, she stayed right in her own New Hampshire backyard. Sy sat down with Host Steve Curwood to talk about the social intelligence of chickens, how to handle a feisty rooster and much more.'
+tags:
+  - profiles-interviews
+  - mammals
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00044&segmentID=4 -->
 

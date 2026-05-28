@@ -1,12 +1,17 @@
 ---
 title: The Little Gods of the Forest
 slug: the-little-gods-of-the-forest
-date: '2023-04-21'
+date: 2023-04-21
 category: Segments
 megaphone_id: LOE2100520530
 image_url: https://loe.org/content/2023-04-21/JACKSON-moss_major_jackson.jpg
 image_caption: 'Major Jackson’s poem the Body’s Uncontested Need to Devour, An Explanation is inspired by the moss he sees during his long walks across the Vermont forest. (Photo: Joshua Mayer, Flickr CC BY SA 2.0)'
 summary: Poet Major Jackson joins Living on Earth’s Jenni Doering to read his poem, “The Body’s Uncontested Need to Devour, An Explanation” and reflect about forest bathing and immersing ourselves in nature as a vital life-giving experience.
+tags:
+  - forests
+  - poetry-essays
+  - profiles-interviews
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00016&segmentID=6 -->
 

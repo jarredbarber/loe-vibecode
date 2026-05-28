@@ -1,12 +1,16 @@
 ---
 title: Disastrous Climate Wake Up
 slug: disastrous-climate-wake-up
-date: '2024-10-04'
+date: 2024-10-04
 category: Segments
 megaphone_id: LOE6016112323
 image_url: https://loe.org/content/2024-10-04/HELENE-Asheville devastation.jpg
 image_caption: 'Hurricane Helene devastated towns as far inland as Asheville, NC. (Photo: Bill McMannis, Flickr, CC BY 2.0)'
 summary: 'Hurricane Helene brought devastating storm surge and winds to the Gulf Coast and deadly floods to the inland mountains of North Carolina. Journalist Abrahm Lustgarten is the author of On the Move: The Overheating Earth and the Uprooting of America and joins Host Steve Curwood to discuss the societal toll of repeated climate-fueled disasters and whether this latest super cyclone might prove a tipping point for greater climate awareness and action.'
+tags:
+  - climate-change
+  - extreme-weather
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00040&segmentID=1 -->
 

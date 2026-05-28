@@ -1,12 +1,14 @@
 ---
 title: EV Price War
 slug: ev-price-war
-date: '2023-02-03'
+date: 2023-02-03
 category: Segments
 megaphone_id: LOE6262578081
 image_url: https://loe.org/content/2023-02-03/EV_tesla.jpg
 image_caption: 'Tesla cut its prices by 20 percent to try to keep market share and stimulate sales. (Photo: Ray, Flickr, CC BY-ND 2.0)'
 summary: Despite inflation. automakers including Tesla, Ford and General Motors are now in a price war over electric vehicle sales. The lowered stickers also bring some models under the $55,000 price cap required to qualify for federal tax credits. Jim Motavalli, who writes about green transportation for Autoweek and Barrons, joined Host Steve Curwood to discuss what these aggressive price markdowns mean for electric vehicle consumers.
+tags:
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00005&segmentID=4 -->
 

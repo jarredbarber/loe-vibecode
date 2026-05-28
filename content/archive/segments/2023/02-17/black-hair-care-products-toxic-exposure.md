@@ -1,12 +1,17 @@
 ---
 title: Black Hair Care Products & Toxic Exposure
 slug: black-hair-care-products-toxic-exposure
-date: '2023-02-17'
+date: 2023-02-17
 category: Segments
 megaphone_id: LOE4087670221
 image_url: https://loe.org/content/2018-06-08/HAIR_black_girl_hair.jpg
 image_caption: 'Dr. James-Todd says that as black people resist pressures to conform to white standards of beauty, more have come to embrace their natural hair. (Photo: Nina Strehl, Unsplash)'
 summary: Black women in America commonly use hair relaxers and leave-in conditioners to straighten and smooth their textured hair. But many of these products contain hormone-disrupting chemicals, which are associated with health problems such as early menarche, preterm birth, diabetes, and cancer. Dr. Tamarra James-Todd, an epidemiologist at the Harvard T.H. Chan School of Public Health, spoke with Host Steve Curwood.
+tags:
+  - toxic-exposure
+  - chemical-contamination
+  - public-health
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00007&segmentID=7 -->
 

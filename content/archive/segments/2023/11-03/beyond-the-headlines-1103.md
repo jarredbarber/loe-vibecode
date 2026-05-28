@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-1103
-date: '2023-11-03'
+date: 2023-11-03
 category: Segments
 megaphone_id: LOE2908086174
 image_url: https://loe.org/content/2023-11-03/DYKSTRA_pumpkins.jpeg
 image_caption: 'New studies indicate that edible pumpkins could be a valuable crop in developing countries due to their nutritional value and climate resiliency. (Photo: Suzie Tremmel, Wikimedia Commons, CC BY 2.0)'
 summary: This week, Living on Earth contributor Peter Dykstra and Host Steve Curwood discuss the nutritional value and relative ease of growing pumpkins. Also, the construction industry offers a huge opportunity to incorporate recycled materials. And in history, they look back to when Congress passed an act to protect the popular striped bass also called rockfish.
+tags:
+  - farming
+  - sustainable-agriculture
+  - fossil-fuels
+  - climate-change
+  - fish
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00044&segmentID=3 -->
 

@@ -1,12 +1,16 @@
 ---
 title: 'Black Courage Upon the Sea: Robert Smalls'' Heroic Escape From Slavery'
 slug: black-courage-upon-the-sea-robert-smalls-heroic-escape-from-slavery
-date: '2023-06-16'
+date: 2023-06-16
 category: Segments
 megaphone_id: LOE8830078916
 image_url: https://loe.org/content/2023-06-16/B2_afterfreeing.jpg
 image_caption: 'After freeing himself and his family from slavery in a daring maritime escape, Robert Smalls enlisted as a ship pilot with the Union. Following the Civil War, he returned to South Carolina and embarked on a political career. (Photo: Courtesy of Michael B. Moore)'
 summary: One night in May of 1862, an intrepid Black man named Robert Smalls commandeered a Confederate ship called The Planter in Charleston, South Carolina and liberated himself and his family from enslavement. His great-great grandson Michael B. Moore and retired four-star Admiral Cecil Haney join Host Steve Curwood to share and reflect on the harrowing story of his escape and life of public service after gaining his freedom.
+tags:
+  - profiles-interviews
+  - environmental-history
+  - indigenous-communities
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00024&segmentID=3 -->
 

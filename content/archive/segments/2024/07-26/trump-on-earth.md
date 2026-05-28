@@ -1,12 +1,19 @@
 ---
 title: Trump on Earth
 slug: trump-on-earth
-date: '2024-07-26'
+date: 2024-07-26
 category: Segments
 megaphone_id: LOE4236624283
 image_url: https://loe.org/content/2024-07-26/TRUMP_formerpresident.jpg
 image_caption: 'Former President Donald Trump speaking at The People''s Convention on June 15 in Detroit. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: The four years of the Trump Administration brought over a hundred regulatory rollbacks, the exit of the US from the Paris Climate Agreement, and a conservative dominated Supreme Court that is skeptical of environmental regulation. Inside Climate News Reporter Marianne Lavelle joins Hosts Steve Curwood and Jenni Doering to share insights from a former Trump EPA official, environmental policy experts and advocates about the environmental impacts of the Trump presidency and what a second one could bring.
+tags:
+  - climate-change
+  - environmental-policy
+  - fossil-fuels
+  - regulation-deregulation
+  - oil-gas
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00030&segmentID=2 -->
 

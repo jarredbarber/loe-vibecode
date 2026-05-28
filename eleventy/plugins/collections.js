@@ -4,25 +4,16 @@
  */
 
 const fs = require('node:fs');
-const { normalizeSpeaker } = require('../_data/speakerAliases.js');
+const { normalizeSpeaker, KNOWN_SPEAKERS } = require('../_data/speakerAliases.js');
 
-// Detect speaker labels in raw markdown bodies. Mirrors the regex in
-// speaker-highlight.js but anchors per-line (markdown source) instead of
-// inside HTML <p> tags.
-const SPEAKER_LINE_RE = /^([A-Z](?:[A-Z'’\d\s.]|[a-z]{1,2}(?=[A-Z]))+):/;
 const MIN_APPEARANCES = 3;
 
+// Returns the known LOE speakers whose full display name appears in rawBody.
+// Opt-in: only slugs listed in KNOWN_SPEAKERS (the ALIASES table) get pages.
 function extractSpeakers(rawBody) {
     if (!rawBody || typeof rawBody !== 'string') return [];
-    const seen = new Set();
-    for (const line of rawBody.split('\n')) {
-        const m = line.match(SPEAKER_LINE_RE);
-        if (!m) continue;
-        const norm = normalizeSpeaker(m[1]);
-        if (!norm) continue;
-        seen.add(JSON.stringify([norm.slug, norm.name]));
-    }
-    return Array.from(seen).map((s) => JSON.parse(s)).map(([slug, name]) => ({ slug, name }));
+    const lower = rawBody.toLowerCase();
+    return KNOWN_SPEAKERS.filter(s => lower.includes(s.name.toLowerCase()));
 }
 
 // Read the raw markdown source for a segment, stripped of frontmatter.

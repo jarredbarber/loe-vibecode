@@ -1,12 +1,17 @@
 ---
 title: Europe Votes to Restore Nature
 slug: europe-votes-to-restore-nature
-date: '2023-07-28'
+date: 2023-07-28
 category: Segments
 megaphone_id: LOE6939147355
 image_url: https://loe.org/content/2023-07-28/EU_scientists.jpg
 image_caption: 'Austrian ecosystem researcher Andreas Böhner and several graduate student assistants monitor soil chemistry and plant growth in an alpine pasture within a protected area, where agriculture co-exists with nature conservation. (Photo: Bob Berwyn)'
 summary: To address the main causes of biodiversity loss, the European Union Parliament has approved a nature restoration plan, designed to restore at-risk ecosystems like wetlands. The goal is to conserve 30% of EU territory by 2030. Inside Climate News reporter Bob Berwyn joins host Aynsley O’Neill to discuss.
+tags:
+  - environmental-policy
+  - wetlands
+  - climate-change
+  - marine-life
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00030&segmentID=5 -->
 

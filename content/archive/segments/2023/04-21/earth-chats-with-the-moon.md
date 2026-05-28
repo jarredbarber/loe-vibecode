@@ -1,11 +1,16 @@
 ---
 title: Earth Chats With the Moon
 slug: earth-chats-with-the-moon
-date: '2023-04-21'
+date: 2023-04-21
 category: Segments
 megaphone_id: LOE6555503516
 image_url: https://loe.org/content/2023-04-21/JAY-NASA-Apollo8-Dec24-Earthrise.jpg
 summary: Master storyteller Jay O’Callahan joins Living on Earth’s Paloma Beltran to share a poetic story about a conversation between the Earth and its friend and companion, the Moon.
+tags:
+  - poetry-essays
+  - profiles-interviews
+  - oceans
+  - insects
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00016&segmentID=8 -->
 

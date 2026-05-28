@@ -1,12 +1,15 @@
 ---
 title: Restoring Finland's Peatlands
 slug: restoring-finlands-peatlands
-date: '2023-05-19'
+date: 2023-05-19
 category: Segments
 megaphone_id: LOE9190216975
 image_url: https://loe.org/content/2023-05-19/GOLDMAN_firewood.jpg
 image_caption: 'Tero Mustonen, the 2023 Goldman Environmental Prize winner for Europe, carries firewood. (Photo: Goldman Environmental Prize)'
 summary: Peat that’s burned for energy is a major greenhouse gas emissions source in Finland, which aims to become net zero by 2035. Peat mining is also a leading cause of habitat loss in the country. Tero Mustonen is the 2023 winner of the Goldman Environmental Prize for Europe for his efforts to stop peat mining and joins Host Steve Curwood to share how life is flourishing in the peatlands he’s helped restore.
+tags:
+  - climate-change
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00020&segmentID=3 -->
 

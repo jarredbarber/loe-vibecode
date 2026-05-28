@@ -1,12 +1,15 @@
 ---
 title: Biodiversity Talks Unfinished
 slug: biodiversity-talks-unfinished
-date: '2024-11-08'
+date: 2024-11-08
 category: Segments
 megaphone_id: LOE4945671586
 image_url: https://loe.org/content/2024-11-08/b_COP_president.jpg
 image_caption: 'Susana Muhamad, the Colombian Minister of Environment and Sustainable Development, was the president of the 16th Conference of the Parties of the Biodiversity Convention (COP16). (Photo: UN Biodiversity, Flickr, CC BY 2.0)'
 summary: The latest summit for the UN’s biodiversity treaty to attempt to avert mass extinctions was recessed when it ran out of time to make major decisions. Vox journalist Benji Jones was at the meeting in Cali, Colombia and joins Living on Earth’s Aynsley O’Neill to talk about what it did achieve and what is still unresolved.
+tags:
+  - species-loss
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00045&segmentID=2 -->
 

@@ -1,9 +1,14 @@
 ---
 title: DuPont in Sticky Situation Over Teflon Chemical
 slug: dupont-in-sticky-situation-over-teflon-chemical
-date: '2023-03-24'
+date: 2023-03-24
 category: Segments
 summary: Legal problems and health questions are piling up for DuPont thanks to a chemical used to make Teflon and dozens of other consumer products. Living on Earth's Jeff Young tells us how this chemical's problematic nature came to light.
+tags:
+  - chemical-contamination
+  - public-health
+  - toxic-exposure
+  - water-pollution
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=06-P13-00001&segmentID=1&fbclid=IwAR3SFM2XhjwsUfDOhLU2Q3aatkEprMtoUmsvTM1H-Q8paYdtBYRpmVHhfnM -->
 

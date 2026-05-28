@@ -1,12 +1,17 @@
 ---
 title: 'BirdNote®: Red-Crowned Cranes Dance on Hokkaido'
 slug: birdnote-red-crowned-cranes-dance-on-hokkaido
-date: '2023-02-17'
+date: 2023-02-17
 category: Segments
 megaphone_id: LOE7032680357
 image_url: https://loe.org/content/2023-02-17/BIRDNOTE-cranes dance.jpeg
 image_caption: 'Red-crowned cranes dancing in Hokkaido, Japan (Photo: cyberfox, Wikimedia Commons CC BY 2.1 JP)'
 summary: In Japan cranes are said to be a totem of luck and longevity. BirdNote®’s Michael Stein describes their remarkable dance ritual.
+tags:
+  - birds
+  - endangered-species
+  - profiles-interviews
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00007&segmentID=6 -->
 

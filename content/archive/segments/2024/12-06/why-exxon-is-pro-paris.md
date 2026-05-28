@@ -1,12 +1,17 @@
 ---
 title: Why Exxon is Pro-Paris
 slug: why-exxon-is-pro-paris
-date: '2024-12-06'
+date: 2024-12-06
 category: Segments
 megaphone_id: LOE9429023349
 image_url: https://loe.org/content/2024-12-06/EXXON_ceo.jpg
 image_caption: 'Exxon’s CEO, Darren Woods, disagrees with pulling the United States out of the Paris Agreement, noting that it could result in costly inconsistencies in energy policy. (Photo: Harrison Keely, Wikimedia Commons, CC BY 4.0)'
 summary: Major fossil fuel corporations including ExxonMobil are clearly stating they would prefer the U.S. remain in the Paris Climate Agreement, despite President-elect Donald Trump’s plans to take the country back out. Samantha Gross directs the Energy Security and Climate Initiative at the Brookings Institutions and explains to Host Jenni Doering how oil majors are making long-term plans for an energy transition.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - corporate-accountability
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00049&segmentID=2 -->
 

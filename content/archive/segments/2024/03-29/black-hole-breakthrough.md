@@ -1,12 +1,15 @@
 ---
 title: Black Hole Breakthrough
 slug: black-hole-breakthrough
-date: '2024-03-29'
+date: 2024-03-29
 category: Segments
 megaphone_id: LOE4440165702
 image_url: https://loe.org/content/2024-03-29/SPACE_blackholedisc.jpg
 image_caption: 'Image depicting an accretion disc around a black hole. Although light cannot escape a black hole, scientists are able to observe the bright, hot gas swirling around it. (Photo: NASA’s Goddard Space Flight Center/Jeremy Schnittman, cmglee, Wikimedia Commons, CC BY-SA 4.0)'
 summary: An international team of astronomers recently reported the discovery of a 13 billion-year-old black hole, to date the oldest ever observed, thanks to the powerful James Webb Space Telescope. Lead author Dr. Roberto Maiolino joins Host Jenni Doering to explore new questions about how these mysterious, extremely dense objects form and grow.
+tags:
+  - climate-science
+  - earth-observation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00013&segmentID=5 -->
 

@@ -1,12 +1,15 @@
 ---
 title: Enduring Against Seemingly Impossible Odds
 slug: enduring-against-seemingly-impossible-odds
-date: '2023-09-15'
+date: 2023-09-15
 category: Segments
 megaphone_id: LOE9579374962
 image_url: https://loe.org/content/2020-10-09/SHACKLETON_cleaning.jpg
 image_caption: 'When ‘Endurance’ got trapped in sea ice, the crew aboard the ship kept their minds and bodies occupied by keeping up with their daily activities. (Photo: Manchester City Council, Flickr, CC BY NC ND 2.0)'
 summary: 'In remembrance of Roz Zander we present a story to highlight her work on possibility.In 1914, British explorer Ernest Shackleton and his crew of 27 men set sail for Antarctica. Disaster struck when their ship the “Endurance” became trapped in pack ice and later broke up, yet the entire crew persevered. Rosamund Zander, the author of Pathways to Possibility: Transforming Our Relationship to Ourselves, Each Other, and the World, recently passed away and joined Host Steve Curwood in 2020 to talk about how we can harness the power of optimism to carry us through difficult times.'
+tags:
+  - profiles-interviews
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00037&segmentID=5 -->
 

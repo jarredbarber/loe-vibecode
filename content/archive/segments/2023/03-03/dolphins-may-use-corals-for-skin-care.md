@@ -1,12 +1,16 @@
 ---
 title: Dolphins May Use Corals for Skin Care
 slug: dolphins-may-use-corals-for-skin-care
-date: '2023-03-03'
+date: 2023-03-03
 category: Segments
 megaphone_id: LOE5928218617
 image_url: https://loe.org/content/2023-03-03/SCINOTE-dolphin and coral.jpeg
 image_caption: 'Dolphins may use corals to help keep their skin healthy. (Photo: photo_teria on Pixnio)'
 summary: While diving in the Red Sea, researchers noticed bottlenose dolphins taking turns brushing their bodies against certain corals. As Living on Earth’s Don Lyman reports, scientists hypothesize that it helps the dolphins maintain healthy skin.
+tags:
+  - marine-life
+  - coral-reefs
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00009&segmentID=2 -->
 

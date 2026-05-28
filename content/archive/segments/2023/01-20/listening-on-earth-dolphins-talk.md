@@ -1,12 +1,15 @@
 ---
 title: 'Listening on Earth: Dolphins Talk'
 slug: listening-on-earth-dolphins-talk
-date: '2023-01-20'
+date: 2023-01-20
 category: Segments
 megaphone_id: LOE1491825156
 image_url: https://loe.org/content/2023-01-20/LISTENING_dolphins.jpg
 image_caption: 'Dolphins swim in a pod off the coast of Kaikoura, New Zealand. (Photo: Pablo Heimplatz, Unsplash)'
 summary: Bottlenose dolphins can use clicking noises for echolocation and navigation, and they speak to each other using special whistles. Wild Quest recorded these dolphin noises in the Bahamas.
+tags:
+  - marine-life
+  - citizen-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00003&segmentID=5 -->
 

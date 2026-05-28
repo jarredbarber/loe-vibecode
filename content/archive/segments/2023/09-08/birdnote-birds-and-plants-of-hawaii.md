@@ -1,12 +1,17 @@
 ---
 title: 'BIRDNOTE®: Birds and Plants of Hawaii'
 slug: birdnote-birds-and-plants-of-hawaii
-date: '2023-09-08'
+date: 2023-09-08
 category: Segments
 megaphone_id: LOE6656868314
 image_url: https://loe.org/content/2023-09-08/BIRDNOTE_honeycreeper.jpg
 image_caption: 'The I’iwi or scarlet honeycreeper primarily lives in moist forests between 4,000 and 6,000 feet on the islands of Maui and Hawaii (commonly known as “the Big Island”) and uses its long, curved bill to drink nectar. (Photo: USFWS Pacific Region, public domain)'
 summary: For millions of years the Hawaiian Islands have been forged with fiery lava, a destructive as well as life-bringing force. BirdNote®’s Michael Stein reports on how this rocky archipelago became so abundant in life.
+tags:
+  - birds
+  - endangered-species
+  - invasive-species
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00036&segmentID=3 -->
 

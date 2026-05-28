@@ -1,12 +1,16 @@
 ---
 title: Conversations with Dogs
 slug: conversations-with-dogs
-date: '2024-10-11'
+date: 2024-10-11
 category: Segments
 megaphone_id: LOE3740843955
 image_url: https://loe.org/content/2024-10-11/DOGS_somebreeds.jpg
 image_caption: 'Although some breeds, such as poodles, learn faster than others, most breeds of dogs can learn to use AIC devices. (Photo: Patrick Wood,Comparative Cognition Lab at UC San Diego)'
 summary: New research into word comprehension in dogs suggests that with training and special equipment, man’s best friend can in fact understand specific words and reply. Senior author Federico Rossano is a cognitive scientist at UC San Diego and joins Living on Earth’s Steve Curwood to explain why motivation appears to be one of the most important factors driving this ability for dogs to converse in human speech.
+tags:
+  - ecology-research
+  - citizen-science
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00041&segmentID=4 -->
 

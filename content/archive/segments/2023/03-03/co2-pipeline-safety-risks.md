@@ -1,12 +1,17 @@
 ---
 title: CO2 Pipeline Safety Risks
 slug: co2-pipeline-safety-risks
-date: '2023-03-03'
+date: 2023-03-03
 category: Segments
 megaphone_id: LOE9238440078
 image_url: https://loe.org/content/2023-03-03/CARBON_firefighting.jpg
 image_caption: 'Refrigerated carbon dioxide used in firefighting. Carbon dioxide can be transported in a gaseous, liquid, or supercritical state. (Photo: Washington State Department of Ecology, Flickr, CC BY-NC-ND 2.0)'
 summary: Proponents of carbon capture and storage hope to expand a network of pipelines that transport carbon dioxide from source to sink so that it can’t get into the atmosphere to warm the planet. But these pipelines carry high-pressure CO2 that can be dangerous, even lethal. Bill Caram, the executive director of the Pipeline Safety Trust, explains these safety concerns.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00009&segmentID=3 -->
 

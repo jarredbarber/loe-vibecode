@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0407
-date: '2023-04-07'
+date: 2023-04-07
 category: Segments
 megaphone_id: LOE5433212867
 image_url: https://loe.org/content/2023-04-07/DYKSTRA_enbalming.jpg
 image_caption: 'Embalming became common practice during the Civil War to preserve soldiers’ bodies so they could be buried at home. (Photo: Wagner Free Institute of Science, Flickr, CC BY-NC-ND 2.0)'
 summary: Living on Earth contributor Peter Dykstra joins Host Jenni Doering to share news of the uptick in green burials and a new study that finds a link between climate change and the powerful supercell storms that can give rise to destructive tornadoes. And in the history calendar, they look back 75 years to the indictment of nine corporations for allegedly conspiring to shut down streetcar lines in Los Angeles and elsewhere and replace them with buses made or fueled with their own products.
+tags:
+  - climate-change
+  - extreme-weather
+  - atmospheric-science
+  - fossil-fuels
+  - environmental-history
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00014&segmentID=4 -->
 

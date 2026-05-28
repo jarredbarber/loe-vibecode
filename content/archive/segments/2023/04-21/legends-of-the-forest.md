@@ -1,12 +1,17 @@
 ---
 title: Legends of the Forest
 slug: legends-of-the-forest
-date: '2023-04-21'
+date: 2023-04-21
 category: Segments
 megaphone_id: LOE8322039867
 image_url: https://loe.org/content/2023-04-21/JUNGHANS-JJunghans Big Trees - 8 - Photo Credit_ Jennifer Junghans.jpg
 image_caption: 'Jennifer Junghans’ best friend Matthias Rös among the giant sequoias at Calaveras Big Trees State Park in California. (Photo: Jennifer Junghans)'
 summary: Writer Jennifer Junghans joins Living on Earth’s Aynsley O’Neill to share her essay, “Legends of the Forest” about a visit to a grove of giant sequoia trees and the stories they hold in their ancient, towering trunks.
+tags:
+  - forests
+  - species-loss
+  - indigenous-communities
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00016&segmentID=7 -->
 

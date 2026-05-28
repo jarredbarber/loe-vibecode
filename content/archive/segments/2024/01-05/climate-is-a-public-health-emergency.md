@@ -1,12 +1,17 @@
 ---
 title: Climate is a Public Health Emergency
 slug: climate-is-a-public-health-emergency
-date: '2024-01-05'
+date: 2024-01-05
 category: Segments
 megaphone_id: LOE3851503632
 image_url: https://loe.org/content/2024-01-05/KERRY_Pakistan.jpg
 image_caption: 'The 2022 floods in Pakistan submerged one third of the country, affecting 33 million people, half of whom were children. The floods damaged most of the water systems in affected areas, forcing more than 5.4 million people to rely solely on contaminated water from ponds and wells. (Photo: Abdul Majeed, European Union, Flickr, CC BY 2.0)'
 summary: The climate emergency is creating a public health emergency by increasing risks for heat stress, vector-borne diseases, traumatic injuries and more. Dr. Vanessa Kerry is the World Health Organization Special Envoy for Climate Change and Health and joins Host Aynsley O’Neill to discuss these risks and the importance of fortifying health systems against climate impacts.
+tags:
+  - climate-change
+  - public-health
+  - fossil-fuels
+  - extreme-weather
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00001&segmentID=1 -->
 

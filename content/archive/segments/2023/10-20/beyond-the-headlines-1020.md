@@ -1,12 +1,15 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-1020
-date: '2023-10-20'
+date: 2023-10-20
 category: Segments
 megaphone_id: LOE8980170194
 image_url: https://loe.org/content/2023-10-20/DYKSTRA_sign.jpg
 image_caption: 'Culdesac in Tempe, Arizona is designed as a car-free neighborhood. They do not offer parking spaces for residents. (Photo: Steve DiMatteo on Unsplash)'
 summary: This week, Living on Earth contributor Peter Dykstra joins Host Aynsley O’Neill to describe a car-free community in Arizona that could serve as a model for more sustainable development. Also, a new Right to Repair law in California is projected to cut down on e-waste. And in history, they look back to the first Nobel Prize in Literature awarded to an African, Wole Soyinka, who wrote about the environmental degradation in a postcolonial Niger Delta.
+tags:
+  - environmental-justice
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00042&segmentID=2 -->
 

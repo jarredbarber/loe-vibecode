@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-1006
-date: '2023-10-06'
+date: 2023-10-06
 category: Segments
 megaphone_id: LOE7489857134
 image_url: https://loe.org/content/2023-10-06/DYKSTRA_plastic.jpg
 image_caption: 'The United States Department of the Interior has announced plans to phase out single-use plastics on public lands like national parks and wildlife refuges. (Photo: Caitlin Finnerty, Chesapeake Bay Program, Flickr, CC BY-NC 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra and Host Aynsley O’Neill talk about the plan to phase out single use plastics on U.S. public lands, and the late Senator Dianne Feinstein of California’s environmental record. In history, the Erie Canal has a big birthday – 200 years – since its dedication.
+tags:
+  - plastics
+  - environmental-policy
+  - species-loss
+  - forests
+  - drought
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00040&segmentID=4 -->
 

@@ -1,12 +1,18 @@
 ---
 title: California Targets Bogus Climate Offsets
 slug: california-targets-bogus-climate-offsets
-date: '2023-07-21'
+date: 2023-07-21
 category: Segments
 megaphone_id: LOE5980168412
 image_url: https://loe.org/content/2023-07-21/CA_capitol.jpg
 image_caption: 'The California State Capitol in Sacramento. (Photo: Pirate Rene, Flickr, CC BY-ND 2.0)'
 summary: The California legislature is considering measures that would require large businesses to publicly disclose carbon emissions and verify claimed offsets. Aaron Cantu is a reporter for Capital and Main and joined Living on Earth’s Jenni Doering to give an overview of the bills and how advocates say they could help California meet its ambitious climate goals.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - corporate-accountability
+  - supply-chain
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00029&segmentID=4 -->
 

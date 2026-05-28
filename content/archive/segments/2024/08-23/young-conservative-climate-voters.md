@@ -1,12 +1,19 @@
 ---
 title: Young Conservative Climate Voters
 slug: young-conservative-climate-voters
-date: '2024-08-23'
+date: 2024-08-23
 category: Segments
 megaphone_id: LOE5002993586
 image_url: https://loe.org/content/2024-08-23/ACC_teddy.jpg
 image_caption: 'Members of American Conservation Coalition Action at Theodore Roosevelt Island, a national memorial located on the Potomac River in Washington, D.C. Theodore Roosevelt is often considered the "conservationist president". He studied natural history, enjoyed botany and believed nature existed to benefit mankind. (Photo: American Conservation Coalition Action)'
 summary: Climate change has been a polarizing issue between Republicans and Democrats but there is a growing young conservative movement that's calling for action. American Conservation Coalition Action calls for increasing nuclear power, streamlining energy permitting processes, and prioritizing U.S. energy dominance. Chris Barnard, President of American Conservation Coalition Action, joined hosts Aynsley O’Neill and Steve Curwood to discuss ACC Action’s platform.
+tags:
+  - climate-change
+  - nuclear
+  - environmental-policy
+  - green-economy
+  - youth-education
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00034&segmentID=3 -->
 

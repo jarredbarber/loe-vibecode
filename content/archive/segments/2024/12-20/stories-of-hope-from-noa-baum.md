@@ -1,12 +1,16 @@
 ---
 title: Stories of Hope from Noa Baum
 slug: stories-of-hope-from-noa-baum
-date: '2024-12-20'
+date: 2024-12-20
 category: Segments
 megaphone_id: LOE6193770687
 image_url: https://loe.org/content/2015-12-25/C--Noa-hand_drum.png
 image_caption: 'Noa Baum tells traditional tales and creates original stories, such as “A Father’s Gift.” (Photo: Sam Kitner)'
 summary: Israeli-American storyteller Noa Baum believes that sharing stories keeps hope alive, and she has two examples to demonstrate. First there’s a traditional, Eastern European tale about the importance of stories, and the true recollection of a Pakistani who discovers that his family tree includes people from all over the world and of all faiths.
+tags:
+  - profiles-interviews
+  - activism
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00051&segmentID=3 -->
 

@@ -156,6 +156,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 @media (min-width: 1000px) {
@@ -2537,19 +2538,16 @@ iframe {
     left: auto;
 }
 .theme-toggle {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
+    position: absolute;
+    top: 8px;
+    right: 8px;
     display: flex;
     align-items: stretch;
     gap: 1px;
     background: #1a1a1a;
     padding: 0 2px;
-}
-/* When inside the staging toolbar, let the toolbar handle positioning */
-.staging-toolbar .theme-toggle {
-    position: static;
+    border-radius: 4px;
+    z-index: 10;
 }
 .theme-btn {
     border: none;

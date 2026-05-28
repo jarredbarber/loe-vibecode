@@ -51,12 +51,6 @@
         </script>
     </div>
     {% endif %}
-    {# Theme toggle — on all environments #}
-    <div class="theme-toggle" aria-label="Theme">
-        <button class="theme-btn" data-theme-val="light" title="Light mode">☀</button>
-        <button class="theme-btn" data-theme-val="auto"  title="Auto (follow OS)">⬤</button>
-        <button class="theme-btn" data-theme-val="dark"  title="Dark mode">☾</button>
-    </div>
     <script>
         (function() {
             function applyTheme(t) {
@@ -96,6 +90,12 @@
                         <li><a href="{{ site.url }}/events.html"{% if page.url == '/events.html' %} class="active"{% endif %}>Events</a></li>
                         <li><a href="{{ site.url }}/about.html"{% if page.url == '/about.html' %} class="active"{% endif %}>About Us</a></li>
                     </ul>
+                </div>
+                {# Theme toggle — inside header so it scrolls with the page on mobile #}
+                <div class="theme-toggle" aria-label="Theme">
+                    <button class="theme-btn" data-theme-val="light" title="Light mode">☀</button>
+                    <button class="theme-btn" data-theme-val="auto"  title="Auto (follow OS)">⬤</button>
+                    <button class="theme-btn" data-theme-val="dark"  title="Dark mode">☾</button>
                 </div>
                 <div class="clr"></div>
             </div>

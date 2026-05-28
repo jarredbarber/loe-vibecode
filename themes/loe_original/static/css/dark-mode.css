@@ -220,3 +220,31 @@ html[data-theme="dark"] #stations-map-container svg path.state-highlight,
 html[data-theme="dark"] #stations-map-container svg circle.state-highlight {
     fill: #5aaba0 !important;
 }
+
+/* ─── Archive year nav mobile pills ─── */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .archive-year-nav-mobile a {
+        background: #1e2a1e !important; border-color: #2e4230 !important; color: #9ecfbe !important; }
+    html:not([data-theme="light"]) .archive-year-nav-mobile a:hover {
+        background: #263626 !important; }
+}
+html[data-theme="dark"] .archive-year-nav-mobile a {
+    background: #1e2a1e !important; border-color: #2e4230 !important; color: #9ecfbe !important; }
+html[data-theme="dark"] .archive-year-nav-mobile a:hover {
+    background: #263626 !important; }
+
+/* ─── Blog header text ─── */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .header_blog h3 { color: var(--text-dark) !important; }
+}
+html[data-theme="dark"] .header_blog h3 { color: var(--text-dark) !important; }
+
+/* ─── Hovercard (stations map) ─── */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) #map-hovercard {
+        background: var(--card-bg) !important; color: var(--text-dark) !important;
+        border-color: #3a4a48 !important; }
+}
+html[data-theme="dark"] #map-hovercard {
+    background: var(--card-bg) !important; color: var(--text-dark) !important;
+    border-color: #3a4a48 !important; }

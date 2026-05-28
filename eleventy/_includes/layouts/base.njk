@@ -10,7 +10,6 @@
     <title>{% block title %}{{ title or site.name }}{% endblock %}</title>
     <link rel="stylesheet" href="{{ site.url }}/theme/css/style.css">
     {% if site.darkMode %}<link rel="stylesheet" href="{{ site.url }}/theme/css/dark-mode.css">{% endif %}
-    {% if site.target != 'prod' %}
     {# Apply saved theme before first paint to prevent flash #}
     <script>
         (function(){
@@ -18,7 +17,6 @@
             if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
         })();
     </script>
-    {% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
@@ -51,6 +49,11 @@
         </script>
     </div>
     {% endif %}
+    <div class="theme-toggle" aria-label="Theme">
+        <button class="theme-btn" data-theme-val="light" title="Light mode">☀</button>
+        <button class="theme-btn" data-theme-val="auto"  title="Auto (follow OS)">⬤</button>
+        <button class="theme-btn" data-theme-val="dark"  title="Dark mode">☾</button>
+    </div>
     <script>
         (function() {
             function applyTheme(t) {
@@ -71,11 +74,6 @@
             });
         })();
     </script>
-    <div class="theme-toggle" aria-label="Theme">
-        <button class="theme-btn" data-theme-val="light" title="Light mode">☀</button>
-        <button class="theme-btn" data-theme-val="auto"  title="Auto (follow OS)">⬤</button>
-        <button class="theme-btn" data-theme-val="dark"  title="Dark mode">☾</button>
-    </div>
     <div class="main">
         <div class="header_resize">
             <div class="header">

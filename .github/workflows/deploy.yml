@@ -1,14 +1,14 @@
 name: Deploy to staging
 
 # Two-tier deploy:
-#   - push to `main` → Cloudflare Pages (staging, https://loe-staging.pages.dev)
+#   - push to `staging` → Cloudflare Pages (staging, https://loe-staging.pages.dev)
 #   - push to `live` → GitHub Pages (production, https://vibingon.earth)
-# Editor flow: CMS saves to `main` → preview on staging → PR `main → live` → live.
+# Editor flow: CMS saves to `staging` → preview on staging → PR `staging → live` → live.
 
 on:
   push:
     branches:
-      - main
+      - staging
       - live
   workflow_dispatch:
 
@@ -94,4 +94,4 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: pages deploy _site_11ty --project-name=loe-staging --branch=main
+          command: pages deploy _site_11ty --project-name=loe-staging --branch=staging

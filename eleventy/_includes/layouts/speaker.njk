@@ -17,21 +17,21 @@ layout: layouts/base.njk
             {% set _max = 1 %}
             {% for y, c in speaker.yearCounts %}{% if c > _max %}{% set _max = c %}{% endif %}{% endfor %}
             <div class="sparkline-wrap" style="margin: 0.5em 0 1.2em;">
-                <svg class="sparkline" viewBox="0 0 {{ (speaker.latestYear - speaker.earliestYear + 1) * 20 }} 48" style="width:min(100%,{{ (speaker.latestYear - speaker.earliestYear + 1) * 20 }}px);height:48px;display:block;">
+                <svg class="sparkline" viewBox="0 0 {{ (speaker.latestYear - speaker.earliestYear + 1) * 30 }} 84" style="width:min(100%,{{ (speaker.latestYear - speaker.earliestYear + 1) * 30 }}px);height:84px;display:block;">
                 {% for yr in range(speaker.earliestYear, speaker.latestYear + 1) %}
                     {% set _c = speaker.yearCounts[yr] or 0 %}
-                    {% set _h = ((_c / _max) * 42) | round %}
-                    {% set _x = (yr - speaker.earliestYear) * 20 %}
-                    <rect x="{{ _x + 2 }}" y="{{ 48 - _h }}" width="16" height="{{ _h }}"
+                    {% set _h = ((_c / _max) * 63) | round %}
+                    {% set _x = (yr - speaker.earliestYear) * 30 %}
+                    <rect x="{{ _x + 3 }}" y="{{ 66 - _h }}" width="24" height="{{ _h }}"
                           fill="{% if _c %}var(--color-accent, #4a8a7a){% else %}#e0e0e0{% endif %}"
                           rx="1">
                         <title>{{ yr }}: {{ _c }} segment{% if _c != 1 %}s{% endif %}</title>
                     </rect>
+                    {% if loop.first or loop.last or (yr % 5 == 0) %}
+                    <text x="{{ _x + 15 }}" y="80" text-anchor="middle" font-size="9" fill="#888">{{ yr }}</text>
+                    {% endif %}
                 {% endfor %}
                 </svg>
-                <div style="display:flex;justify-content:space-between;font-size:0.75em;color:#888;width:min(100%,{{ (speaker.latestYear - speaker.earliestYear + 1) * 20 }}px);">
-                    <span>{{ speaker.earliestYear }}</span><span>{{ speaker.latestYear }}</span>
-                </div>
             </div>
             {% endif %}
             <ul class="archive-list">

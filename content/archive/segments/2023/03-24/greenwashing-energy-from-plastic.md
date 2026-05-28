@@ -1,12 +1,18 @@
 ---
 title: Greenwashing Energy from Plastic
 slug: greenwashing-energy-from-plastic
-date: '2023-03-24'
+date: 2023-03-24
 category: Segments
 megaphone_id: LOE2268941141
 image_url: https://loe.org/content/2023-03-24/SINGLA-small plastic.jpg
 image_caption: 'Industry proponents of so-called “chemical recycling” claim that it offers a solution to difficult-to-recycle plastics, but it often doesn’t involve actual recycling at all. (Photo: Tony Alter, Flickr CC BY 2.0)'
 summary: So-called “chemical recycling” is a greenwashing term used for incinerating plastic, according to critics including Veena Singla with the Natural Resources Defense Council. She tells Host Jenni Doering that “chemical recycling” is contributing to climate change and poor air quality for many marginalized communities.
+tags:
+  - plastics
+  - air-pollution
+  - climate-change
+  - environmental-justice
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00012&segmentID=3 -->
 

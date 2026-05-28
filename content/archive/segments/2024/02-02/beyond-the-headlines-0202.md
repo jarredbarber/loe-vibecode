@@ -1,12 +1,17 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0202
-date: '2024-02-02'
+date: 2024-02-02
 category: Segments
 megaphone_id: LOE2969230445
 image_url: https://loe.org/content/2024-02-02/DYKSTRA_crab.jpg
 image_caption: 'Researchers reviewing online imagery found 386 examples of hermit crabs using artificial shells such as plastic caps. (Photo: Eric Heupel, Flickr, CC BY-NC 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Jenni Doering with news of a study that found hermit crabs are using plastic trash as their homes instead of seashells. Also, New Jersey approves two major offshore wind projects that could power 1.8 million homes. And in history, they remember when Jacques Cousteau published The Silent World and revealed the mysteries of the oceans.
+tags:
+  - plastics
+  - marine-life
+  - wind
+  - oceans
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00005&segmentID=2 -->
 

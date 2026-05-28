@@ -1,12 +1,13 @@
 ---
 title: Helping Bats Survive Klamath Dam Removal
 slug: helping-bats-survive-klamath-dam-removal
-date: '2023-11-10'
+date: 2023-11-10
 category: Segments
 megaphone_id: LOE9084562626
 image_url: https://loe.org/content/2023-11-10/BATS_river.jpg
 image_caption: 'The Klamath River stretches 257 miles across Oregon and California and is home to many types of wildlife, and acts as a water resource to nearby communities. The dam removal process is intended to encourage ecological restoration. (Photo: Bureau of Land Management Oregon and Washington, Wikimedia Commons, Public Domain)'
 summary: The removal of four Klamath River dams along the California-Oregon border is expected to give salmon vital access to spawning grounds and is also giving a boost to research on how some other native species including bats can adapt to the change. Reporter Kristian Foden-Vencil of Oregon Public Broadcasting has this story about what bat researchers hope to learn.
+tags: []
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00045&segmentID=4 -->
 

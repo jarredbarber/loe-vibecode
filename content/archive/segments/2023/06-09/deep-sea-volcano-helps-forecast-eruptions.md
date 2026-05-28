@@ -1,12 +1,17 @@
 ---
 title: Deep-Sea Volcano Helps Forecast Eruptions
 slug: deep-sea-volcano-helps-forecast-eruptions
-date: '2023-06-09'
+date: 2023-06-09
 category: Segments
 megaphone_id: LOE4720508286
 image_url: https://loe.org/content/2023-06-09/VOLCANOES_sthelens.jpeg
 image_caption: 'Mount St. Helens, four months after the 1980 eruption. (Photo: Harry Glicken, Wikimedia Commons, Public Domain)'
 summary: Three Sisters and Mounts Hood, Rainier, St. Helens and Shasta are all active volcanoes that put many people in the Pacific Northwest at risk. But only one has erupted in our lifetimes. Jes Burns of Oregon Public Broadcasting reports that a remote deep-sea volcano off the coast of the West Coast erupts far more often and is helping scientists understand when an eruption might occur closer to home.
+tags:
+  - climate-science
+  - ecology-research
+  - earth-observation
+  - oceans
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00023&segmentID=4 -->
 

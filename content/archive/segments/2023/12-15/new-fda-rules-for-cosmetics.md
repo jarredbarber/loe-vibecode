@@ -1,12 +1,18 @@
 ---
 title: New FDA Rules for Cosmetics
 slug: new-fda-rules-for-cosmetics
-date: '2023-12-15'
+date: 2023-12-15
 category: Segments
 megaphone_id: LOE3471135484
 image_url: https://loe.org/content/2023-12-15/FDA_nailpolish.jpg
 image_caption: 'Nail polish, among other cosmetics, often contains harmful chemicals. (Photo: Lelê Breveglieri, Wikimedia Commons, CC BY 2.0)'
 summary: A new law updates cosmetics regulations at the Food and Drug Administration for the first time in 85 years. But gaping loopholes remain for ingredient disclosure and safety testing, amid the continued presence of carcinogens, hormone disruptors and other harmful chemicals in cosmetics. Hosts Aynsley O’Neill and Steve Curwood explain the update and its impact with help from Inside Climate News Reporter Victoria St. Martin.
+tags:
+  - public-health
+  - toxic-exposure
+  - chemical-contamination
+  - cancer-environment
+  - pregnancy-children
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00050&segmentID=1 -->
 

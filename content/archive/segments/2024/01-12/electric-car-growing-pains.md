@@ -1,12 +1,16 @@
 ---
 title: Electric Car Growing Pains
 slug: electric-car-growing-pains
-date: '2024-01-12'
+date: 2024-01-12
 category: Segments
 megaphone_id: LOE9345358040
 image_url: https://loe.org/content/2024-01-12/EV_tesla.jpg
 image_caption: 'The Tesla Model 3 is among the 19 models that qualify for the full $7500 tax credit in 2024. (Photo: crash71100, Flickr, public domain)'
 summary: The electric vehicle industry is undergoing a transformation as sales surge and automakers ramp up production in the U.S. Domestic manufacturing and sourcing requirements mean that only 19 models currently qualify for the $7500 federal EV tax credit, down from 43 in 2023. Dan Gearino of Inside Climate News joins Host Jenni Doering to explain the EV industry’s growing pains and why its future looks bright.
+tags:
+  - fossil-fuels
+  - environmental-policy
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00002&segmentID=3 -->
 

@@ -1,12 +1,18 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0510
-date: '2024-05-10'
+date: 2024-05-10
 category: Segments
 megaphone_id: LOE4094814925
 image_url: https://loe.org/content/2024-05-10/DYKSTRA_duststorms.jpg
 image_caption: 'Dust Storms; "One of South Dakota''s Black Blizzards, 1934". One of the immense "Black Blizzards" that ravaged the Great Plains region during the Dust Bowl era of the 1930s. Images like this raised awareness of the need for implementing sustainable soil management to prevent such environmental disasters in the future. (Photo: U.S. National Archives and Records Administration, Wikimedia Commons, Public Domain)'
 summary: Living on Earth contributor Peter Dykstra joins Host Aynsley O’Neill for a trip back in time to a massive dust storm that covered the United States’ eastern seaboard in the 1930s, as well as the start of the Galapagos National Park in Ecuador.
+tags:
+  - drought
+  - farming
+  - soil-health
+  - environmental-history
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00019&segmentID=4 -->
 

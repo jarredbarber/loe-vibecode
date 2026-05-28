@@ -1,12 +1,18 @@
 ---
 title: Growing Shiitake Mushrooms in Your Own Backyard
 slug: growing-shiitake-mushrooms-in-your-own-backyard
-date: '2024-11-22'
+date: 2024-11-22
 category: Segments
 megaphone_id: LOE5652583838
 image_url: https://loe.org/content/2023-09-29/MUSHROOM_log.jpeg
 image_caption: 'The fully inoculated log, covered in protective wax. (Photo: Aynsley O’Neill)'
 summary: With a few tools and a fresh log, you can grow delicious mushrooms in your backyard that will come back year after year. Hosts Jenni Doering and Aynsley O’Neill team up to inoculate a log with shiitake mushroom spawn.
+tags:
+  - farming
+  - forests
+  - sustainable-agriculture
+  - ecology-research
+  - field-reporting
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=23-P13-00039&segmentID=6 -->
 

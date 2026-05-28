@@ -1,12 +1,18 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0531
-date: '2024-05-31'
+date: 2024-05-31
 category: Segments
 megaphone_id: LOE4215853997
 image_url: https://loe.org/content/2024-05-31/DYKSTRA_hatchling.jpg
 image_caption: 'A closer look at the texture of a hatchling leatherback sea turtle’s shell. (Photo: Ken Clifton, Flickr, CC BY-NC 2.0)'
 summary: Living on Earth Contributor Peter Dykstra and Host Aynsley O’Neill look back to the 1990 outbreak of 65 tornadoes that tore through Illinois, Indiana, Kentucky and Michigan. They also note an anniversary for the listing of leatherback turtles as an endangered species.
+tags:
+  - extreme-weather
+  - climate-change
+  - endangered-species
+  - marine-life
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00022&segmentID=5 -->
 

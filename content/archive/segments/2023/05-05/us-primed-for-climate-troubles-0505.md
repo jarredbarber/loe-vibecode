@@ -1,12 +1,19 @@
 ---
 title: U.S. Primed for Climate Troubles
 slug: us-primed-for-climate-troubles-0505
-date: '2023-05-05'
+date: 2023-05-05
 category: Segments
 megaphone_id: LOE5109892576
 image_url: https://loe.org/content/2023-05-05/WEATHER_mountains.jpg
 image_caption: 'When dry air from the Rocky Mountains combines with moist air from the Gulf of Mexico, severe weather can brew. (Photo: G. Lamar, Flickr, CC BY 2.0)'
 summary: 'Because of its unique geography, the United States is particularly vulnerable to nearly every kind of weather-related disaster: tornadoes, hurricanes, wildfires, and more. And as Associated Press science writer Seth Borenstein explains to Living on Earth’s Aynsley O’Neill, these natural disasters are getting an unnatural boost with climate change.'
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - wildfire
+  - atmospheric-science
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00018&segmentID=2 -->
 

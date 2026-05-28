@@ -1,12 +1,18 @@
 ---
 title: “Don’t Look Up” and the Absurdity of Climate Inaction
 slug: dont-look-up-and-the-absurdity-of-climate-inaction
-date: '2023-08-04'
+date: 2023-08-04
 category: Segments
 megaphone_id: LOE7686967433
 image_url: https://loe.org/content/2022-01-28/MANN-Netflix_page.jpg
 image_caption: '“Don’t Look Up” set a Netflix record for most views in a single week and has become the second most-watched original movie in the company’s history. (Photo: Screenshot of “Don’t Look Up” page on Netflix)'
 summary: Don’t Look Up, Adam McKay’s 2021 film, uses humor and the metaphor of an impending, Earth-obliterating comet to satirize the ideological denial of climate change that pervades much of our current public discourse. Michael Mann, at that time Distinguished Professor of Atmospheric Science at Penn State University, joined Host Steve Curwood to discuss how the film holds up a mirror to the political obstacles to climate action and false promises of future technological fixes.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - profiles-interviews
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00031&segmentID=3 -->
 

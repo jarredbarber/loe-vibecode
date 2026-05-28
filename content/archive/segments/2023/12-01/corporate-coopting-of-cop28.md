@@ -1,12 +1,17 @@
 ---
 title: Corporate Coopting of COP28?
 slug: corporate-coopting-of-cop28
-date: '2023-12-01'
+date: 2023-12-01
 category: Segments
 megaphone_id: LOE5133067961
 image_url: https://loe.org/content/2023-12-01/COP_aljaber.jpg
 image_caption: 'Leaked documents allege that ahead of COP 28, COP President Sultan Al Jaber used bilateral meetings with leaders from around the world to promote his companies’ commercial interests. He is pictured here with India’s Prime Minister Shri Narendra Modi in July 2023. (Photo: MEAphotogallery, Flickr, CC BY-NC-ND 2.0)'
 summary: Leaked documents from the team leading the COP28 climate talks now underway in Dubai point to corporate coopting of the UN climate negotiations. COP President Sultan Al Jaber is also CEO of the UAE national oil company Adnoc, which according to the internal documents has used the COP process to try to cut oil and gas deals with companies and countries. Ben Stockton of the Centre for Climate Reporting, which partnered with the BBC to verify and review these leaked documents, joins Host Steve Curwood to discuss.
+tags:
+  - climate-negotiations
+  - fossil-fuels
+  - corporate-accountability
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00048&segmentID=1 -->
 

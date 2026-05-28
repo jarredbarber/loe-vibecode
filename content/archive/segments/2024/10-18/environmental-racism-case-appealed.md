@@ -1,12 +1,14 @@
 ---
 title: Environmental Racism Case Appealed
 slug: environmental-racism-case-appealed
-date: '2024-10-18'
+date: 2024-10-18
 category: Segments
 megaphone_id: LOE6281756416
 image_url: https://loe.org/content/2021-09-10/A1_DOW.jpg
 image_caption: 'The Dow Chemical Company facility near the Mississippi River in Hahnville, Louisiana. (Photo: Goldman Environmental Prize)'
 summary: In the lower Mississippi River region commonly known as Cancer Alley, communities of color live among industrial pollution while white neighborhoods have been mostly spared from heavy industry. The Fifth Circuit Court of Appeals is now considering whether to allow a landmark environmental racism lawsuit brought against the local government to go to trial. Inside Climate News reporter James Bruggers discusses the case background and context with Host Aynsley O’Neill.
+tags:
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00042&segmentID=3 -->
 

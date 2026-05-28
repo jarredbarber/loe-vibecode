@@ -1,11 +1,17 @@
 ---
 title: 'Rising: Dispatches From The New American Shore'
 slug: rising-dispatches-from-the-new-american-shore-1018
-date: '2024-10-18'
+date: 2024-10-18
 category: Segments
 image_url: https://loe.org/content/2018-09-14/RISING_isledejeancharles.jpg
 image_caption: 'The Isle de Jean Charles off the coast of Louisiana has lost more than ninety percent of its landmass in the last fifty years. The Native community living on the island became the country’s first climate refugees, forced to leave their flooded home in 2016. (Photo: Karen Apricot, Flickr CC BY-NC-ND 2.0)'
 summary: 'As ocean levels rise, coastal communities contend with higher floods, stronger hurricanes, and saltwater intrusion. Some are even being forced to retreat to higher ground. From Louisiana to Staten Island to Pensacola, writer Elizabeth Rush set out to document the stories of people caught in these rising tides. Rush speaks with Host Steve Curwood about her new book, Rising: Dispatches from the New American Shore.'
+tags:
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - indigenous-communities
+  - environmental-justice
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=18-P13-00037&segmentID=4 -->
 

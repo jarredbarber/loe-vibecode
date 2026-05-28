@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0512
-date: '2023-05-12'
+date: 2023-05-12
 category: Segments
 megaphone_id: LOE8485150972
 image_url: https://loe.org/content/2023-05-12/DYKSTRA_lula.jpg
 image_caption: 'Brazilian President Luiz Inácio Lula da Silva has set aside six new Indigenous reserves in the Amazon rainforest, restricting logging and mining on 1.5 million acres. (Photo: Alberto César Araújo, Amazônia Real, Flickr, CC BY-NC-ND 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Steve Curwood to discuss new Indigenous reserves in the Brazilian Amazon totaling a million and a half acres. They also unpack how in the U.S., Indigenous care for the forest, including traditional burning, has been disregarded and contributed to massive wildfires in California. In history they look back to the man who gave Cape Cod its name.
+tags:
+  - indigenous-rights
+  - amazon
+  - wildfire
+  - forests
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00019&segmentID=3 -->
 

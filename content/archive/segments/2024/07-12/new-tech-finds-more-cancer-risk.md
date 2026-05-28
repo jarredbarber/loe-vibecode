@@ -1,12 +1,17 @@
 ---
 title: New Tech Finds More Cancer Risk
 slug: new-tech-finds-more-cancer-risk
-date: '2024-07-12'
+date: 2024-07-12
 category: Segments
 megaphone_id: LOE1916573402
 image_url: https://loe.org/content/2024-07-12/EO_petrocorridor.jpeg
 image_caption: 'Johns Hopkins University researchers studied ethylene oxide across Louisiana''s petrochemical corridor. Companies often resort to venting or flaring (pictured above) where gas is burned as a safety measure. Venting and flaring of petrochemical plants are seen as a significant source of gas waste and toxic chemical emissions. (Photo: Peter DeCarlo)'
 summary: New technology reveals startling levels of cancer-causing ethylene oxide gas wafting from industrial sources in Cancer Alley, Louisiana. Peter DeCarlo of Johns Hopkins University led the research and joins Host Jenni Doering to explain the findings and the health risks for residents.
+tags:
+  - air-pollution
+  - toxic-exposure
+  - cancer-environment
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00028&segmentID=2 -->
 

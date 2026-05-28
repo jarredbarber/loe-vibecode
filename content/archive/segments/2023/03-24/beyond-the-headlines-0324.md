@@ -1,12 +1,20 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0324
-date: '2023-03-24'
+date: 2023-03-24
 category: Segments
 megaphone_id: LOE3328368886
 image_url: https://loe.org/content/2023-03-24/DYKSTRA-plastic bag.jpg
 image_caption: 'New research finds that plastic bags are scouring the deepest parts of the ocean floor. (Photo: NOAA OKEANOS EXPLORER Program; Our Deepwater Backyard: Exploring Atlantic Canyons and Seamounts 2014, Flickr CC BY 2.0)'
 summary: LOE contributor Peter Dykstra shares with host Jenni Doering new research that found plastic bags scouring the deepest parts of the ocean floor. Also, a huge Sargassum seaweed mass is making its way toward the Florida coast just in time for Spring Break. And in the history books, the 52nd anniversary of Tokyo Electric Power Company opening the ill-fated Fukushima nuclear reactors which later were the source of one of the world’s worst nuclear disasters.
+tags:
+  - plastics
+  - oceans
+  - marine-life
+  - invasive-species
+  - fossil-fuels
+  - nuclear
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00012&segmentID=2 -->
 

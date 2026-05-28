@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0908
-date: '2023-09-08'
+date: 2023-09-08
 category: Segments
 megaphone_id: LOE9424208851
 image_url: https://loe.org/content/2023-09-08/DYKSTRA_vivek.jpg
 image_caption: 'Presidential candidate Vivek Ramaswamy is a staunch climate denier. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: Living on Earth Contributor Peter Dykstra joins Host Paloma Beltran to note the concern about climate change from young conservatives and discuss the results of a study that found coronavirus circulating among deer in Ohio. In the history books, they look back 35 years to 1988, when the massive Yellowstone wildfires spared the historic Old Faithful Inn.
+tags:
+  - climate-change
+  - extreme-weather
+  - wildfire
+  - public-health
+  - mammals
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00036&segmentID=4 -->
 

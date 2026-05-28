@@ -1,12 +1,16 @@
 ---
 title: Pink Snow and the Climate
 slug: pink-snow-and-the-climate
-date: '2023-01-13'
+date: 2023-01-13
 category: Segments
 megaphone_id: LOE7213221162
 image_url: https://loe.org/content/2023-01-13/SNOW-glacier blood.jpeg
 image_caption: '“Glacier blood” is another nickname for the melted remnants of pink snow. (Photo: Jim Elser)'
 summary: Pink snow, also known as “watermelon snow” or “glacier blood,” is the result of a typically late summer bloom of pink colored algae that flourish in melting snow. And although snow algae are still very understudied, scientists are worried that darker snow will absorb more of the sun’s heat than white snow and cause the snowpack to melt more quickly. Jim Elser, a professor of ecology at the University of Montana, joins Host Bobby Bascomb to explain the implications for climate change and summertime water supplies that rely on steady runoff.
+tags:
+  - climate-change
+  - extreme-weather
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00002&segmentID=1 -->
 

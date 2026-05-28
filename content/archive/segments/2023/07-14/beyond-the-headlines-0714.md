@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0714
-date: '2023-07-14'
+date: 2023-07-14
 category: Segments
 megaphone_id: LOE7472621814
 image_url: https://loe.org/content/2023-07-14/DYKSTRA_peaches.jpg
 image_caption: 'This year, Georgia peach trees have only produced about one-third of their normal crop volume. (Photo: Thomas Cizauskas, Flickr, CC BY-NC-ND 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Aynsley O’Neill to mourn the loss of most of Georgia’s crop of juicy peaches in 2023, thanks in part to an unusually warm winter. Also, a meta-study finds that low-emission zones in some cities are reducing heart attacks, strokes, and breathing problems. And in history, it’s the 30 year anniversary for the release of the film “Free Willy” that was based on the plight of a real captive orca whale named Keiko.
+tags:
+  - climate-change
+  - drought
+  - farming
+  - air-pollution
+  - public-health
+  - marine-life
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00028&segmentID=2 -->
 

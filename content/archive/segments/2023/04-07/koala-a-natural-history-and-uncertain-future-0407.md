@@ -1,12 +1,18 @@
 ---
 title: 'Koala: A Natural History and Uncertain Future'
 slug: koala-a-natural-history-and-uncertain-future-0407
-date: '2023-04-07'
+date: 2023-04-07
 category: Segments
 megaphone_id: LOE8408660106
 image_url: https://loe.org/content/LOE_events_2023/NORTON Book Shot KOALA 3-4.jpg
 image_caption: 'Danielle Clode’s new book, Koala: A Natural History and an Uncertain Future, dives into the world of this iconic creature. (Photo: W.W. Norton & Company)'
 summary: 'The koala is an iconic character in Australian wildlife but remains an enigma to many. Danielle Clode, an award-winning Australian author, set out to discover the fascinating story behind the koala’s cuddly image for her new book, Koala: A Natural History and an Uncertain Future. She joined Hosts Steve Curwood and Jenni Doering for a recent Living on Earth Book Club event.'
+tags:
+  - species-loss
+  - endangered-species
+  - mammals
+  - forests
+  - book-review
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00014&segmentID=2 -->
 

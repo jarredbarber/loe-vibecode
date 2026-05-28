@@ -1,10 +1,17 @@
 ---
 title: The Next Chapter of the Living on Earth Book Club
 slug: the-next-chapter-of-the-living-on-earth-book-club-0317
-date: '2023-03-17'
+date: 2023-03-17
 category: Segments
 image_url: https://loe.org/content/2023-03-17/BITTLE_cover.jpeg
 summary: 'In the coming decades millions of Americans will be uprooted by wildfires, floods, and rising seas in the largest migration in our country’s history. And many are already on the move. "The Great Displacement: Climate Change and the Next American Migration" by Jake Bittle compassionately tells their stories and uncovers how government and insurance policies are shaping who rebuilds and who retreats. Tune in on March 23rd for the next Living on Earth Book Club event – live with Jake Bittle.'
+tags:
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - wildfire
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00011&segmentID=4 -->
 

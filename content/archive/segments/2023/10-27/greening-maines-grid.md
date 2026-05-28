@@ -1,12 +1,17 @@
 ---
 title: Greening Maine's Grid?
 slug: greening-maines-grid
-date: '2023-10-27'
+date: 2023-10-27
 category: Segments
 megaphone_id: LOE4217004253
 image_url: https://loe.org/content/2023-10-27/PINE_panels.jpg
 image_caption: 'A solar array sits on top of a former landfill in Mount Desert Island, Maine, the home of Acadia National Park. (Photo: ReVision Energy)'
 summary: On November 7th voters in the state of Maine will be able to choose if they want to replace the state’s two existing for-profit electric utilities with a non-profit utility largely governed by an elected board. Freelance reporter Annie Ropeik discusses with Host Steve Curwood how the new utility could help the state decarbonize its electricity sector.
+tags:
+  - climate-change
+  - grid-energy-storage
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00043&segmentID=2 -->
 

@@ -1,12 +1,15 @@
 ---
 title: Sacred Groves in China
 slug: sacred-groves-in-china
-date: '2023-10-27'
+date: 2023-10-27
 category: Segments
 megaphone_id: LOE4709012707
 image_url: https://loe.org/content/2023-10-27/GROVES_holyhilljp.jpg
 image_caption: 'This Holy Hill in the Dai village of Chengzi, surrounded by monoculture rubber plantations, contains tall old-growth trees. (Photo: Lily Zeng)'
 summary: In the Yunnan Province in Southwest China, generations of locals have protected sacred forest groves that some consider the homes of the spirits of their ancestors. Lily Zeng researched these “holy hills” as part of her doctoral studies at Yale School of the Environment and she joined Living on Earth’s Bobby Bascomb to describe them.
+tags:
+  - forests
+  - indigenous-communities
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00043&segmentID=6 -->
 

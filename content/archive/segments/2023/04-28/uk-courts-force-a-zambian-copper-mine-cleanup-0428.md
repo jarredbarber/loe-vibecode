@@ -1,12 +1,19 @@
 ---
 title: UK Courts Force A Zambian Copper Mine Cleanup
 slug: uk-courts-force-a-zambian-copper-mine-cleanup-0428
-date: '2023-04-28'
+date: 2023-04-28
 category: Segments
 megaphone_id: LOE8080877471
 image_url: https://loe.org/content/2023-04-28/GOLDMAN_awarded.jpg
 image_caption: 'Chilekwa Mumba was recently awarded the prestigious Goldman Environmental Prize for coordinating the precedent-setting international lawsuit which held UK mining company Vedanta Resources responsible. (Photo: Goldman Environmental Foundation)'
 summary: The 2023 Africa recipient of the Goldman Environmental Prize brought a UK based mining company to justice for polluting a river in Zambia with waste from an open pit copper mine that sickened locals and killed fish. Prize winner Chilekwa Mumba joins Host Paloma Beltran to share how he organized the community and persuaded a UK based law firm to take on the case.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - water-pollution
+  - environmental-justice
+  - litigation
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00017&segmentID=3 -->
 

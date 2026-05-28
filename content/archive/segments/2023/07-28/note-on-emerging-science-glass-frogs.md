@@ -1,12 +1,15 @@
 ---
 title: 'Note on Emerging Science: Glass Frogs'
 slug: note-on-emerging-science-glass-frogs
-date: '2023-07-28'
+date: 2023-07-28
 category: Segments
 megaphone_id: LOE9199602481
 image_url: https://loe.org/content/2023-07-28/FROGS_glassfrog.jpg
 image_caption: 'A glass frog (Rulyrana susatamai) sits on a leaf. (Photo: Mauricio Rivera Correa, Wikimedia Commons, CC BY-SA 2.5)'
 summary: So-called glass frogs have translucent skin, which shows their internal organs. Living on Earth’s Don Lyman reports that these frogs have a special kind of blood that helps them camouflage when sleeping.
+tags:
+  - amphibians
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00030&segmentID=3 -->
 

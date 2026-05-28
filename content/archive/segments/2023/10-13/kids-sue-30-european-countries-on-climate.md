@@ -1,12 +1,17 @@
 ---
 title: Kids Sue 30+ European Countries on Climate
 slug: kids-sue-30-european-countries-on-climate
-date: '2023-10-13'
+date: 2023-10-13
 category: Segments
 megaphone_id: LOE9697379288
 image_url: https://loe.org/content/2023-10-13/LAWSUIT_youth.jpg
 image_caption: 'Four of the six youth applicants, now aged 11-24, are from the Leiria region of Portugal, which experienced deadly forest fires in 2017. (Photo: Global Legal Action Network)'
 summary: Six young plaintiffs from Portugal are suing over 30 European countries they say have violated their rights to life by failing to act on climate change. Patrick Parenteau is an emeritus professor at Vermont Law School and joins Host Jenni Doering to recap the recent hearing in front of a “Grand Chamber” of judges in the European Court of Human Rights and discuss what it could mean for climate action.
+tags:
+  - climate-change
+  - environmental-policy
+  - litigation
+  - international-treaties
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00041&segmentID=2 -->
 

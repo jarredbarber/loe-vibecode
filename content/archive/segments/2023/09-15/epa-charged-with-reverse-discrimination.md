@@ -1,12 +1,15 @@
 ---
 title: EPA Charged With Reverse Discrimination
 slug: epa-charged-with-reverse-discrimination
-date: '2023-09-15'
+date: 2023-09-15
 category: Segments
 megaphone_id: LOE4405513793
 image_url: https://loe.org/content/2023-09-15/RISE_StJames.jpg
 image_caption: 'Members of environmental justice advocacy group RISE St. James march from Freedom Plaza to White House in October 2022 (Photo: Frypie, Wikimedia Commons, CC BY-SA 4.0)'
 summary: In 2022 the US EPA opened a civil rights investigation into whether the State of Louisiana overburdens Black communities along “Cancer Alley” with toxic industries. But EPA and the Department of Justice abruptly closed the inquiry when the Louisiana attorney general filed a suit charging reverse discrimination. Monique Harden of the Deep South Center for Environmental Justice joins Host Steve Curwood to discuss the role of industry in the suit and the progress towards environmental justice that could have been made.
+tags:
+  - environmental-justice
+  - toxic-exposure
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00037&segmentID=1 -->
 

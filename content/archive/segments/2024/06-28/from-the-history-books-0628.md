@@ -1,12 +1,16 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0628
-date: '2024-06-28'
+date: 2024-06-28
 category: Segments
 megaphone_id: LOE5563879979
 image_url: https://loe.org/content/2024-06-28/DYKSTRA_chinagasoline.jpg
 image_caption: 'The sale of leaded gasoline in China was banned in July 2000. (Photo: LHOON, Flickr, CC BY-SA 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra and Host Aynsley O’Neill look back to the year 2000, when China finally banned the use of lead in gasoline. The same year, a historic rescue moved some 18,000 African or “jackass” penguins out of the path of an oil spill.
+tags:
+  - fossil-fuels
+  - water-pollution
+  - marine-life
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00026&segmentID=3 -->
 

@@ -1,12 +1,18 @@
 ---
 title: Sudan's Climate and War Misery
 slug: sudans-climate-and-war-misery
-date: '2024-10-04'
+date: 2024-10-04
 category: Segments
 megaphone_id: LOE4300470851
 image_url: https://loe.org/content/2024-10-04/sudan_zam_zam.jpg
 image_caption: 'In the aftermath of the collapse of the 30-year Bashir dictatorship in 2019, Sudan has been devastated by the impacts of climate change and the ravages of war as two rival generals struggle for power. Millions of Sudanese have fled their homes. Pictured above are displaced communities in Zam Zam camp for Internally Displaced People (IDP) in North Darfur. (Photo: Albert Gonzalez Farran, UNAMID, Flickr, CC BY-NC-ND 2.0)'
 summary: Millions of Sudanese people have fled armed conflict in recent months, only to face famine as well as floods and extreme heat worsened by climate change. Nisreen Elsaim is a young climate activist from Sudan who co-chaired the UN Secretary General’s first youth advisory group on climate change. She joins Host Steve Curwood to describe the harrowing conditions for Sudanese refugees and what gives her hope.
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - fossil-fuels
+  - species-loss
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00040&segmentID=4 -->
 

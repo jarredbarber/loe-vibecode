@@ -1,12 +1,17 @@
 ---
 title: Bacon Bear
 slug: bacon-bear
-date: '2023-12-01'
+date: 2023-12-01
 category: Segments
 megaphone_id: LOE3257214351
 image_url: https://loe.org/content/2023-12-01/LENDER_standing.jpg
 image_caption: 'Polar bear stands, looking towards Mark Seth Lender’s research vessel. (Photo: © Mark Seth Lender)'
 summary: Smell is an ancient and powerful sense, and for Living on Earth’s Explorer in Residence Mark Seth Lender, it evokes potent memories and an encounter with a hungry polar bear.
+tags:
+  - arctic-polar
+  - mammals
+  - food-systems
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00048&segmentID=4 -->
 

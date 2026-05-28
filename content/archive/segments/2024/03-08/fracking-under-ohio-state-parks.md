@@ -1,12 +1,19 @@
 ---
 title: Fracking Under Ohio State Parks
 slug: fracking-under-ohio-state-parks
-date: '2024-03-08'
+date: 2024-03-08
 category: Segments
 megaphone_id: LOE3556283183
 image_url: https://loe.org/content/2024-03-08/FRACK_protesters.jpg
 image_caption: 'Protesters attended a meeting in November, when the Oil and Gas Land Management Commission voted to allow drilling and fracking under Salt Fork State Park, Valley Run Wildlife Area, and Zepernick Wildlife Area. (Photo: Cathy Cowan Becker/ Save Ohio Parks)'
 summary: In Ohio, drilling and fracking may soon begin underneath Salt Fork State Park, Ohio’s largest, as well as the Valley Run and Zepernick State Wildlife Areas, despite legal attempts to halt the extraction. Energy News Network reporter Kathiann Kowalski joins Host Steve Curwood to describe concerns about the potential risks of drilling under these lands.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - extreme-weather
+  - forests
+  - water-pollution
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00010&segmentID=3 -->
 

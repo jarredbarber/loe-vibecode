@@ -1,12 +1,16 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0705
-date: '2024-07-05'
+date: 2024-07-05
 category: Segments
 megaphone_id: LOE2350337478
 image_url: https://loe.org/content/2024-07-05/DYKSTRA_dome.jpg
 image_caption: 'The geodesic dome at Montreal’s Biosphere Museum was designed by Buckminster Fuller, a futurist who aimed to do “more with less.” (Photo: Daniel Mennerich, Flickr, CC BY-NC-ND 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra and Host Aynsley O’Neill celebrate the birthday of Buckminster Fuller, inventor of the geodesic dome and other engineering marvels aimed at improving energy efficiency. They also look back to President Nixon’s proposal to create two new federal agencies consolidating US work on environmental regulation as well as on oceans, atmosphere, and weather, giving rise to the EPA and NOAA.
+tags:
+  - environmental-history
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00027&segmentID=2 -->
 

@@ -1,12 +1,16 @@
 ---
 title: Remembering Bob Edwards and Ross Gelbspan
 slug: remembering-bob-edwards-and-ross-gelbspan
-date: '2024-02-16'
+date: 2024-02-16
 category: Segments
 megaphone_id: LOE5170767660
 image_url: https://loe.org/content/2024-02-16/MEMORIAL_ross.jpg
 image_caption: 'Ross Gelbspan was a journalist for several decades at a number of establishments, including The Boston Globe. (Photo: Courtesy of Thea Gelbspan)'
 summary: Host Steve Curwood shares some recordings and memories of the late Bob Edwards and Ross Gelbspan, two giants of journalism who helped support Living on Earth from its earliest days getting on the air.
+tags:
+  - profiles-interviews
+  - climate-change
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00007&segmentID=5 -->
 

@@ -1,12 +1,20 @@
 ---
 title: 'Birdnote®: Here Come the Merlins'
 slug: birdnote-here-come-the-merlins
-date: '2024-10-04'
+date: 2024-10-04
 category: Segments
 megaphone_id: LOE5262334080
 image_url: https://loe.org/content/2017-10-20/BIRDNOTE-Merlin-perched.jpg
 image_caption: 'The Merlin may be small, but it packs a serious punch. In Medieval times, nobility used the bird to hunt sky larks. (Photo: Greg Thompson)'
 summary: The Merlin is one of the world’s smallest falcons yet it’s something of a trailblazer. Rising global temperatures are forcing many species to head north, but as BirdNote®’s Mary McCann reports, these adaptive predators have begun to move south to occupy the abandoned homes of other avian migrants.
+tags:
+  - climate-change
+  - species-loss
+  - birds
+  - arctic-polar
+  - pesticides
+  - profiles-interviews
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00040&segmentID=2 -->
 

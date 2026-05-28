@@ -1,12 +1,18 @@
 ---
 title: U.S. Funding Fossil Fuels Abroad
 slug: us-funding-fossil-fuels-abroad
-date: '2024-05-03'
+date: 2024-05-03
 category: Segments
 megaphone_id: LOE1791568223
 image_url: https://loe.org/content/2024-05-03/FINANCE_exim.jpeg
 image_caption: 'The official export credit agency of the United States is the Export-Import Bank of the United States (EXIM) pictured above. (Photo: Ben Shumin, Wikimedia Commons, CC BY-SA 2.0)'
 summary: Despite an international agreement to phase out financing for fossil fuel projects abroad, the Biden administration recently approved a $500 million dollar loan guarantee for an oil and gas drilling project in Bahrain. Nina Pušić of Oil Change International spoke to Living on Earth’s Paloma Beltran to explain why such actions also hold other nations back from ending this practice
+tags:
+  - fossil-fuels
+  - oil-gas
+  - environmental-policy
+  - international-treaties
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00018&segmentID=1 -->
 

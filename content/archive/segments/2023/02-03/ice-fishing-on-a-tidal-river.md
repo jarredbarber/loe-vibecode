@@ -1,12 +1,17 @@
 ---
 title: Ice Fishing on a Tidal River
 slug: ice-fishing-on-a-tidal-river
-date: '2023-02-03'
+date: 2023-02-03
 category: Segments
 megaphone_id: LOE2955998733
 image_url: https://loe.org/content/2022-03-04/ICE_shack.jpg
 image_caption: 'A yellow ice shack located on Shagawa Lake in the Superior National Forest in Minnesota. (Photo: Lance Cheung, Forest Service USDA, Public Domain)'
 summary: Winter can be cold and dark, but the bright light reflected from frozen lakes, ponds, and streams can be cheery and warm. And that's the secret of ice fishing. Mark William Damsel explains the joys of ice fishing on a frozen river in this audio postcard from Living on Earth's Bobby Bascomb.
+tags:
+  - fossil-fuels
+  - fish
+  - climate-change
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00005&segmentID=6 -->
 

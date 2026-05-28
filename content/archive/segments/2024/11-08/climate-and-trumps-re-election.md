@@ -1,12 +1,16 @@
 ---
 title: Climate and Trump's Re-Election
 slug: climate-and-trumps-re-election
-date: '2024-11-08'
+date: 2024-11-08
 category: Segments
 megaphone_id: LOE5688139473
 image_url: https://loe.org/content/2024-11-08/ELECTION_trump.jpg
 image_caption: 'President-elect Donald Trump. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: The re-election of Donald Trump casts US climate action into doubt. President-elect Trump has vowed he will again pull the US out of the Paris Climate Agreement, cancel President Biden’s climate policies and unleash American fossil fuels. Inside Climate News Executive Editor Vernon Loeb and Reporter Marianne Lavelle join Hosts Steve Curwood and Jenni Doering for a roundtable discussion about what’s next for the climate, environmental policy and journalism.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00045&segmentID=1 -->
 

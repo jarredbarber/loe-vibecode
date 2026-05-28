@@ -1,12 +1,20 @@
 ---
 title: Renewable Power Surge in China
 slug: renewable-power-surge-in-china
-date: '2024-02-02'
+date: 2024-02-02
 category: Segments
 megaphone_id: LOE6649092629
 image_url: https://loe.org/content/2024-02-02/CHINA_solarpv.jpg
 image_caption: 'In 2023, China commissioned as much solar energy as the entire world did in the previous year. (Photo: Pixabay, Pexels)'
 summary: China surged ahead of other countries in 2023 to add 66% more wind power than it had before and bring online as much solar energy as the entire world had developed in 2022. Isabel Hilton, founder of China Dialogue, joins Host Aynsley O’Neill to examine the geopolitical and economic implications of China’s dominance in the renewable energy sector.
+tags:
+  - solar
+  - wind
+  - fossil-fuels
+  - green-economy
+  - environmental-policy
+  - supply-chain
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00005&segmentID=3 -->
 

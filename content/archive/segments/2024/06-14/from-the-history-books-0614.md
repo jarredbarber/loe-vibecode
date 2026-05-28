@@ -1,12 +1,16 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0614
-date: '2024-06-14'
+date: 2024-06-14
 category: Segments
 megaphone_id: LOE6956894791
 image_url: https://loe.org/content/2024-06-14/DYKSTRA_bigbend.jpg
 image_caption: 'The Chisos Mountains in Big Bend National Park. (Photo: Jonathan Cutrer, Flickr, CC BY-NC 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Steve Curwood to look back on the 1944 creation of Big Bend National Park, renowned for its Chihuahuan Desert ecology and dark skies. They also go further back in time to the 1889 New York law mandating that all electric and phone lines in New York City and Buffalo be placed underground.
+tags:
+  - environmental-history
+  - light-pollution
+  - urban-environment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00024&segmentID=2 -->
 

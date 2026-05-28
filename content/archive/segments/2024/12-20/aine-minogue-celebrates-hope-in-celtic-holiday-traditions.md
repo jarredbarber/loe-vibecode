@@ -1,12 +1,15 @@
 ---
 title: Aine Minogue Celebrates Hope In Celtic Holiday Traditions
 slug: aine-minogue-celebrates-hope-in-celtic-holiday-traditions
-date: '2024-12-20'
+date: 2024-12-20
 category: Segments
 megaphone_id: LOE3967880548
 image_url: https://loe.org/content/2015-12-25/A--Aine.png
 image_caption: 'Áine Minogue is a harpist originally from County Tipperary, Ireland. She lives in the Boston, MA area. (Photo: courtesy of Aine Minogue)'
 summary: Irish harpist Aine Minogue launches the Living on Earth holiday special, with stories of mid-winter traditions. Aine and host Steve Curwood discuss the importancee of visiting friends, decorating with evergreens, and summoning longer days, and she plays traditional tunes of the season and sings about a creature from the Land Beneath the Sea.
+tags:
+  - profiles-interviews
+  - music-soundscapes
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00051&segmentID=1 -->
 

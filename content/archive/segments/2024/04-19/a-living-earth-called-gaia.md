@@ -1,12 +1,18 @@
 ---
 title: A Living Earth Called “Gaia”
 slug: a-living-earth-called-gaia
-date: '2024-04-19'
+date: 2024-04-19
 category: Segments
 megaphone_id: LOE7294000748
 image_url: https://loe.org/content/2019-04-19/PERSHING-earthrise.jpg
 image_caption: 'Earthrise is the image of planet Earth taken from the Apollo spacecraft during the first manned mission to the moon, led by NASA in 1968. This event has continuously sparked interest in the beauty of the earth, and the possibilities brought forth by science. (Photo: NASA, www.earthday.org, Public Domain)'
 summary: Next, Host Steve Curwood and the Living on Earth team explore Earth as a complex and self-sustaining organism called Gaia. Over billions of years life has interacted with the air, water and rocks of this planet to keep life in the sweet spots for temperature and resource supplies. With the help of scientists, deep ecologists, children, an astronaut and more, we explore our place on this living planet.
+tags:
+  - climate-science
+  - ecology-research
+  - earth-observation
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00016&segmentID=2 -->
 

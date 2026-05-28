@@ -1,12 +1,17 @@
 ---
 title: Hurricanes’ Hidden Toll
 slug: hurricanes-hidden-toll
-date: '2024-10-11'
+date: 2024-10-11
 category: Segments
 megaphone_id: LOE4958380354
 image_url: https://loe.org/content/2024-10-11/A1_hurricanehelene.jpg
 image_caption: 'Damage from Hurricane Helene in North Carolina. Overall, initial reports indicate Helene has killed at least 231 people across 6 states, one of the deadliest hurricanes to strike the US mainland in the last 50 years. Ultimate mortality could be 300 times that, the published by Nature research suggests. (Photo: NCDOTcommunications, Wikimedia Commons, CC BY 2.0)'
 summary: New research published in Nature suggests that initial death tolls only account for a tiny fraction of the mortality that can be linked to hurricanes. On average, each tropical storm or hurricane contributes to 7,000 to 11,000 excess deaths as long as 15 years afterwards. Lead author Rachel Young of UC Berkeley joins Host Paloma Beltran to explain how societal disruptions can bring these long-term effects.
+tags:
+  - climate-change
+  - extreme-weather
+  - public-health
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00041&segmentID=1 -->
 

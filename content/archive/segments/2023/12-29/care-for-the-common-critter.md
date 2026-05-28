@@ -1,12 +1,16 @@
 ---
 title: Care for the Common Critter
 slug: care-for-the-common-critter
-date: '2023-12-29'
+date: 2023-12-29
 category: Segments
 megaphone_id: LOE3771568975
 image_url: https://loe.org/content/2021-01-01/JULIE-rabbitredstretchedout.jpg
 image_caption: 'A wild rabbit Julie Zickefoose loved which she called “Red,” relaxing in her yard. (Photo: Julie Zickefoose)'
 summary: As a wildlife rehabilitator, Julie Zickefoose has had some remarkable encounters with animals. She joins Bobby Bascomb to share some of her own stories and animal insights as well as tales of uncommon encounters others have had while helping common woodchucks and rabbits in need.
+tags:
+  - mammals
+  - wildlife-corridors
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00052&segmentID=1 -->
 

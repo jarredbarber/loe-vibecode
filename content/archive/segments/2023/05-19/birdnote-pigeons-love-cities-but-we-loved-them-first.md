@@ -1,12 +1,18 @@
 ---
 title: 'BirdNote®: Pigeons Love Cities - But We Loved Them First'
 slug: birdnote-pigeons-love-cities-but-we-loved-them-first
-date: '2023-05-19'
+date: 2023-05-19
 category: Segments
 megaphone_id: LOE8639730870
 image_url: https://loe.org/content/2023-05-19/BIRDNOTE_mesopotamia.jpg
 image_caption: 'The first recorded evidence of pigeons flocking to cities began in Mesopotamia, 7000 years ago. (Photo: Suzanne Schroeter, CC)'
 summary: Pigeons are everywhere in our cities, and even though some may seem them as winged rats, pigeons and people have a long-standing bond. Ashley Ahearn reports in this BirdNote®.
+tags:
+  - birds
+  - urban-environment
+  - ecology-research
+  - profiles-interviews
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00020&segmentID=5 -->
 

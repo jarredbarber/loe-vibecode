@@ -1,12 +1,17 @@
 ---
 title: Green Energy Gridlock
 slug: green-energy-gridlock
-date: '2023-04-07'
+date: 2023-04-07
 category: Segments
 megaphone_id: LOE9514509603
 image_url: https://loe.org/content/2023-04-07/SOLAR_panels.jpg
 image_caption: Among the states that have taken a variety of actions to encourage solar energy is Oregon. A 2017 state law bars homeowners’ associations from banning solar panels. (Photo by Portland General Electric, Flickr, CC BY-ND 2.0)
 summary: America can’t meet its goals of reducing carbon pollution from power plants unless power grids get major upgrades and rules to bring clean energy online are detangled. American Clean Power Association CEO Jason Grumet joins Host Jenni Doering to explain the challenges and opportunities facing implementation of the Inflation Reduction Act.
+tags:
+  - climate-change
+  - grid-energy-storage
+  - environmental-policy
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00014&segmentID=1 -->
 

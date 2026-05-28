@@ -1,12 +1,16 @@
 ---
 title: The Power Of Stories
 slug: the-power-of-stories
-date: '2023-12-22'
+date: 2023-12-22
 category: Segments
 megaphone_id: LOE6673249497
 image_url: https://loe.org/content/2013-12-27/1-bigstock-Grey-Wolf-Canis-lupus-Stalks-44515036.jpg
 image_caption: 'A grey wolf stalks (photo: bigstockphoto.com)'
 summary: Living on Earth’s winter holiday tradition featuring legends and seasonal stories continues. Storyteller Lee Ellen Marvin joins Host Steve Curwood to share stories about children and wolves, as well as some tips on becoming a good storyteller.
+tags:
+  - profiles-interviews
+  - mammals
+  - poetry-essays
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00051&segmentID=1 -->
 

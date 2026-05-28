@@ -1,12 +1,18 @@
 ---
 title: 'BIRDNOTE®: Resplendent Quetzal'
 slug: birdnote-resplendent-quetzal
-date: '2024-06-07'
+date: 2024-06-07
 category: Segments
 megaphone_id: LOE6745942152
 image_url: https://loe.org/content/2024-06-07/BIRDNOTE_resplendent.jpg
 image_caption: 'A male Resplendent Quetzal perches atop a branch. (Photo: Norm Herr, Wikimedia Commons, Public Domain)'
 summary: Birds tend not to pay attention to borders between nations, and many routinely migrate between the United States and Mexico each spring and fall without showing any papers whatsoever. But if you happen to live north of that border, you’ll need your passport to go see one incredibly remarkable bird called the Resplendent Quetzal. BirdNote®’s Lucina Melesio has more.
+tags:
+  - birds
+  - endangered-species
+  - deforestation
+  - forests
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00023&segmentID=4 -->
 

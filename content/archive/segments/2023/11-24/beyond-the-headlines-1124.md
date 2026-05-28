@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-1124
-date: '2023-11-24'
+date: 2023-11-24
 category: Segments
 megaphone_id: LOE8730677343
 image_url: https://loe.org/content/2023-11-24/DYKSTRA_solar.jpg
 image_caption: 'A study from the Rhodium Group shows that communities that were once centered around fossil fuel extraction are converting into clean energy hubs, thanks in part to the Inflation Reduction Act. (Photo: FirstEnergy, Flickr, CC BY-ND 2.0)'
 summary: This week, Living on Earth contributor Peter Dykstra and Host Jenni Doering discuss the clean energy infrastructure popping up in former fossil fuel strongholds. Also, waste pickers who comb through trash to glean recyclable metals and plastics are asking for a seat at the table in the negotiations for a global plastic waste treaty. And in history, they look back to when scientists debunked the “Piltdown Man” hoax fossil.
+tags:
+  - fossil-fuels
+  - solar
+  - wind
+  - plastics
+  - environmental-justice
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00047&segmentID=2 -->
 

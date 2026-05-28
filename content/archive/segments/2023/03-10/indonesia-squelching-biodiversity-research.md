@@ -1,12 +1,18 @@
 ---
 title: Indonesia Squelching Biodiversity Research
 slug: indonesia-squelching-biodiversity-research
-date: '2023-03-10'
+date: 2023-03-10
 category: Segments
 megaphone_id: LOE7361766434
 image_url: https://loe.org/content/2023-03-10/INDONESIA_orangutan.jpg
 image_caption: 'A mother and infant orangutan. The illegal pet trade is a major threat to orangutans in Indonesia, but obstacles to collaboration with scientists make tracking their populations challenging. (Photo: Bob Brewer, Unsplash, Unsplash license)'
 summary: Indonesia has one of the world’s largest tropical forests and touts itself as a global leader in conservation. But researchers from outside Indonesia say the government is blocking data to assess conservation progress and local scientists fear reprisals if they publish data that doesn’t fit the government’s optimistic narrative. Environmental journalist Fred Pearce joins Host Steve Curwood to discuss.
+tags:
+  - species-loss
+  - forests
+  - deforestation
+  - endangered-species
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00010&segmentID=3 -->
 

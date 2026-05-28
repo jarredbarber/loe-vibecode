@@ -1,12 +1,17 @@
 ---
 title: Climate and the PA Senate Race
 slug: climate-and-the-pa-senate-race
-date: '2024-10-18'
+date: 2024-10-18
 category: Segments
 megaphone_id: LOE1423251287
 image_url: https://loe.org/content/2024-10-18/PA_casey.jpg
 image_caption: 'Pennsylvania’s Democratic Senator Bob Casey has served three terms so far and is up for reelection this fall. (Photo: AFGE, Flickr, CC BY 2.0)'
 summary: As control of the US Senate hangs in the balance, the Pennsylvania race between Democratic incumbent Senator Bob Casey and his Republican challenger Dave McCormick is heating up. Inside Climate News reporter Kiley Bense joins Host Jenni Doering to explain the climate and environment dimensions of Pennsylvania’s Senate race.
+tags:
+  - climate-change
+  - fossil-fuels
+  - oil-gas
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00042&segmentID=1 -->
 

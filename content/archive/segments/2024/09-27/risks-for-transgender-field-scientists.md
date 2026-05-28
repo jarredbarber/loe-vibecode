@@ -1,12 +1,15 @@
 ---
 title: Risks for Transgender Field Scientists
 slug: risks-for-transgender-field-scientists
-date: '2024-09-27'
+date: 2024-09-27
 category: Segments
 megaphone_id: LOE1413007661
 image_url: https://loe.org/content/2024-09-27/TRANS_workstoensure.jpg
 image_caption: 'Dr. Kottler works to ensure that the next generation of queer field scientists isn’t deterred by discrimination or lack of infrastructure to support them. (Photo: Nicole Crane, courtesy of Ezra Kottler)'
 summary: For students and scientists who are transgender or gender nonconforming, field research can bring unique challenges and risks. Dr. Ezra Kottler, a conservation scientist and founder of the Transgender and Gender Nonconforming Field Alliance, joins Host Jenni Doering to describe how institutions can help ensure field research settings are safer and more inclusive of trans people.
+tags:
+  - profiles-interviews
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00039&segmentID=6 -->
 

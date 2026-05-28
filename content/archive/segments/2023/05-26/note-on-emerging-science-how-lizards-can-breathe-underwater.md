@@ -1,12 +1,16 @@
 ---
 title: 'Note on Emerging Science: How Lizards Can Breathe Underwater'
 slug: note-on-emerging-science-how-lizards-can-breathe-underwater
-date: '2023-05-26'
+date: 2023-05-26
 category: Segments
 megaphone_id: LOE2026083141
 image_url: https://loe.org/content/2023-05-26/ANOLES_rebreathe.jpg
 image_caption: 'Anoles can pull off impressive feats of underwater breathing. The secret, researchers found, is the lizard’s ability to “rebreathe” using a bubble that forms around its snout. (Photo: Adrien Chateignier, Flickr, CC BY-NC-ND 2.0)'
 summary: Some anole lizards can stay underwater for up to 20 minutes to evade predators, and now researchers have discovered their secret. Living on Earth’s Don Lyman reports that these lizards use a bubble of air around their snouts and rebreathe the bubble in and out.
+tags:
+  - ecology-research
+  - earth-observation
+  - insects
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00021&segmentID=5 -->
 

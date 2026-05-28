@@ -1,12 +1,15 @@
 ---
 title: The Transformation of J. D. Vance
 slug: the-transformation-of-j-d-vance-0719
-date: '2024-07-19'
+date: 2024-07-19
 category: Segments
 megaphone_id: LOE9885585020
 image_url: https://loe.org/content/2024-07-19/VANCE_ohiosenator.jpg
 image_caption: 'Former President Trump picked Ohio Senator JD Vance to be his running mate in November’s presidential election. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: 'J. D.VANCE : Donald Trump’s running mate, Ohio Senator J. D. Vance, once held moderate Republican stances on climate and clean energy. But he now echoes Trump on the “Green New Scam” and unleashing domestic fossil fuels. Ohio-based Inside Climate News Reporter Dan Gearino joins Hosts Steve Curwood and Jenni Doering to contrast the J. D. Vance of a few years ago with that of today.'
+tags:
+  - fossil-fuels
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00029&segmentID=1 -->
 

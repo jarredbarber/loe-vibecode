@@ -1,12 +1,17 @@
 ---
 title: A World Without Plastic Pollution
 slug: a-world-without-plastic-pollution
-date: '2023-06-09'
+date: 2023-06-09
 category: Segments
 megaphone_id: LOE2112411088
 image_url: https://loe.org/content/2023-06-09/PLASTIC_delegates.jpeg
 image_caption: 'UN delegates of the International Science Council gathered in Paris at the Intergovernmental Negotiating Committee on Plastic Pollution. Pictured from left to right are Kishore Boodhoo, Anda Popovici, Maria Ivanova, Adetoun Mustapha, Margaret Spring, Stefano Aliani. (Photo: Courtesy of Maria Ivanova)'
 summary: 2,000 people from across the globe recently gathered in Paris to work towards a UN treaty to eliminate plastic pollution. Maria Ivanova, the Director of the School of Public Policy and Urban Affairs at Northeastern University, took part in the Paris talks and joins Host Aynsley O’Neill to paint a picture of a world with far less plastic and how we can get there.
+tags:
+  - plastics
+  - environmental-policy
+  - international-treaties
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00023&segmentID=3 -->
 

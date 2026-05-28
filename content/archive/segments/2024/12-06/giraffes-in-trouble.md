@@ -1,12 +1,19 @@
 ---
 title: Giraffes in Trouble
 slug: giraffes-in-trouble
-date: '2024-12-06'
+date: 2024-12-06
 category: Segments
 megaphone_id: LOE3620704595
 image_url: https://loe.org/content/2024-12-06/GIRAFFES_kenya.JPG
 image_caption: 'Giraffe translocation to the Kitenden corridor in Kenya. (Photo: Courtesy of IFAW)'
 summary: Facing habitat loss, poaching and climate disruption, giraffes have declined more than 40 percent in the last thirty years. The US Fish and Wildlife Service recently proposed listing three giraffe subspecies as endangered and two others as threatened. Danielle Kessler, US Director at the International Fund for Animal Welfare, and Host Jenni Doering talk about the threats to giraffes and how their proposed addition to the Endangered Species List could aid recovery.
+tags:
+  - species-loss
+  - endangered-species
+  - climate-change
+  - drought
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00049&segmentID=5 -->
 

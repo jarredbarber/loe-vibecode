@@ -1,12 +1,16 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0126
-date: '2024-01-26'
+date: 2024-01-26
 category: Segments
 megaphone_id: LOE9167748178
 image_url: https://loe.org/content/2024-01-26/DYKSTRA_greenspace.jpg
 image_caption: 'A study in the journal JAMA Network has linked increased bone density in children to the amount of green space near their homes. (Photo: Lee Simpson, Flickr, CC BY-NC-ND 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Aynsley O’Neill to share research that found a positive link between kids’ access to green space and their bone density. They also talk about how the practice of “deconstructing” buildings instead of demolishing them allows for reuse of many materials. And in history, they remember Pete Seeger, who passed away ten years ago after a lifetime of contributions to environmental causes and, of course, folk music.
+tags:
+  - urban-environment
+  - environmental-justice
+  - forests
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00004&segmentID=2 -->
 

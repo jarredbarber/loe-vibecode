@@ -1,12 +1,15 @@
 ---
 title: 'Jellyfish Age Backwards: Nature''s Secrets to Longevity'
 slug: jellyfish-age-backwards-natures-secrets-to-longevity-0804
-date: '2023-08-04'
+date: 2023-08-04
 category: Segments
 megaphone_id: LOE1223712013
 image_url: https://loe.org/content/2023-04-28/JELLYFISH_cover.jpg
 image_caption: 'Jellyfish Age Backwards: Nature’s Secrets to Longevity  is the new book by Nicklas Brendborg (Photo: Courtesy of Little, Brown and Company)'
 summary: 'In nature, some animals live far longer than humans, and some don’t appear to age at all. One species of jellyfish can continually revert back to a juvenile stage, making it essentially immortal. Author Nicklas Brendborg explores this and more in his book, “Jellyfish Age Backwards: Nature’s Secrets to Longevity,” and he joins Host Paloma Beltran to share how humans can live longer.'
+tags:
+  - ecology-research
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00031&segmentID=4 -->
 

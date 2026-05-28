@@ -1,12 +1,17 @@
 ---
 title: Young Conservatives Tired of Climate Denial
 slug: young-conservatives-tired-of-climate-denial
-date: '2023-10-06'
+date: 2023-10-06
 category: Segments
 megaphone_id: LOE9523590203
 image_url: https://loe.org/content/2023-10-06/CONSERVATIVES_matthews.jpg
 image_caption: 'Karly Matthews is Vice President of Communications for the American Conservation Coalition, an organization whose mission is to build the conservative environmental movement. (Photo: American Conservation Coalition)'
 summary: As the 2024 campaign season heats up, some young Republicans want their party to move on from climate denial and offer solutions. Karly Matthews is Vice President of the American Conservation Coalition and joins Host Jenni Doering to discuss policies that align with the environmental roots of the party.
+tags:
+  - climate-change
+  - environmental-policy
+  - fossil-fuels
+  - youth-education
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00040&segmentID=1 -->
 

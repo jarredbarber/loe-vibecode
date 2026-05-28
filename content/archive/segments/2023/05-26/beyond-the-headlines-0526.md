@@ -1,12 +1,17 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0526
-date: '2023-05-26'
+date: 2023-05-26
 category: Segments
 megaphone_id: LOE4777325701
 image_url: https://loe.org/content/2023-05-26/DYKSTRA_gianforte.jpeg
 image_caption: 'Montana Governor Greg Gianforte (center) has signed a bill considered by many critics to be one of the worst anti-climate laws in the country. (Photo: USDA, Wikimedia Commons, Public Domain)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Steve Curwood to talk about Montana’s new law that blocks climate concerns from permitting decisions. Also, Bisphenol A or BPA is linked to cancer, obesity, and diabetes. Now private researchers say significant levels of BPA can be found in some sports bras and other athletic clothing. And in history, they look back to the creation of the Nobel Prizes.
+tags:
+  - climate-change
+  - fossil-fuels
+  - chemical-contamination
+  - cancer-environment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00021&segmentID=4 -->
 

@@ -1,12 +1,16 @@
 ---
 title: EV Chargers Good for Business
 slug: ev-chargers-good-for-business
-date: '2024-11-01'
+date: 2024-11-01
 category: Segments
 megaphone_id: LOE9471698380
 image_url: https://loe.org/content/2024-11-01/EV_charging.jpg
 image_caption: 'Even as EVs'' popularity grows, functioning charging ports are still difficult to find in some parts of the country. (Photo: Michael Quinn, NPS Photo, Picryl.com, public domain)'
 summary: Research shows that public EV charging stations bring more customers and income to nearby businesses. Tik Root, senior staff writer at Grist, joins Host Jenni Doering to explain these benefits and how businesses can take advantage of them when installing EV charging.
+tags:
+  - environmental-policy
+  - green-economy
+  - environmental-investment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00044&segmentID=3 -->
 

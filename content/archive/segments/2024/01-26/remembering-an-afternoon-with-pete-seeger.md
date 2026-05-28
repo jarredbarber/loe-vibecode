@@ -1,9 +1,13 @@
 ---
 title: Remembering An Afternoon WIth Pete Seeger
 slug: remembering-an-afternoon-with-pete-seeger
-date: '2024-01-26'
+date: 2024-01-26
 category: Segments
 summary: Iconic musician and activist Pete Seeger has died at the age of 94. Living on Earth spent an afternoon with the folk music legend in 1998. Seeger told host Steve Curwood that Rachel Carson's book “Silent Spring” inspired him to environmental activism. One of Seeger’s goals was to clean up New York’s Hudson River and he helped get the sloop “Clearwater” built to spread the message about pollution. Steve Curwood met Pete Seeger at the Sloop Club on the banks of the Hudson in Beacon, New York and has this profile.
+tags:
+  - activism
+  - profiles-interviews
+  - environmental-history
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=14-P13-00005&segmentID=3 -->
 

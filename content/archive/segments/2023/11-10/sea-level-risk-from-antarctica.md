@@ -1,12 +1,19 @@
 ---
 title: Sea Level Risk From Antarctica
 slug: sea-level-risk-from-antarctica
-date: '2023-11-10'
+date: 2023-11-10
 category: Segments
 megaphone_id: LOE6843266986
 image_url: https://loe.org/content/2023-11-10/ICE_calving.jpg
 image_caption: 'This photo, taken during NASA’s Operation IceBridge to describe ice shelf loss, depicts the calving of an ice shelf located in West Antarctica. (Photo: Jefferson Beck, NASA/GSFC, Flickr, CC BY 2.0)'
 summary: Antarctica’s ice shelves block glaciers from flowing into the sea but a recent study found that these ice shelves lost 8.3 trillion tons of ice in the last 25 years and are at risk releasing more glacier ice into the ocean. Richard Alley is a professor of Geosciences at Penn State University and joined Host Steve Curwood to shed light on what all this could mean for sea level rise and future ice loss in Antarctica.
+tags:
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - climate-science
+  - earth-observation
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00045&segmentID=3 -->
 

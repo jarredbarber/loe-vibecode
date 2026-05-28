@@ -1,12 +1,17 @@
 ---
 title: 'Orbital: An Earth-Centric Novel Set in Space'
 slug: orbital-an-earth-centric-novel-set-in-space-0809
-date: '2024-08-09'
+date: 2024-08-09
 category: Segments
 megaphone_id: LOE6640710788
 image_url: https://loe.org/content/2024-03-22/ORBITAL_cover.jpg
 image_caption: 'Orbital by Samantha Harvey is a fictional novel about twenty-four hours in the lives of six astronauts aboard a space station orbiting earth. (Photo: Courtesy of Grove Hardcover)'
 summary: The handful of astronauts and cosmonauts on board the International Space Station float in a strange paradox, with the Earth constantly in view, but always out of reach. The 2023 novel called Orbital explores the splendor of planet Earth as seen from orbit through a day in the life of six astronauts up on the ISS, and author Samantha Harvey joins Host Jenni Doering to discuss her book.
+tags:
+  - climate-change
+  - extreme-weather
+  - oceans
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00032&segmentID=5 -->
 

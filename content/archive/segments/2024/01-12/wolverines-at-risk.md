@@ -1,12 +1,19 @@
 ---
 title: Wolverines at Risk
 slug: wolverines-at-risk
-date: '2024-01-12'
+date: 2024-01-12
 category: Segments
 megaphone_id: LOE2397984098
 image_url: https://loe.org/content/2024-01-12/WOLVERINE_wolverines.jpeg
 image_caption: 'Wolverines have big bushy tails and tiny ears. (Photo: Maia C, Flickr, CC BY-NC-ND 2.0)'
 summary: Fierce and fuzzy wolverines are in decline, especially in the Lower 48 states where the U.S. Fish and Wildlife Service recently designated them as a Threatened species. Wildlife biologist Doris Hausleitner joins Host Jenni Doering to discuss how disappearing snow and habitat is affecting wolverines and share the creative techniques needed to study these elusive creatures.
+tags:
+  - endangered-species
+  - climate-change
+  - species-loss
+  - mammals
+  - wildlife-corridors
+  - arctic-polar
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00002&segmentID=4 -->
 

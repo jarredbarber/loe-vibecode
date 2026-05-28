@@ -1,12 +1,14 @@
 ---
 title: Great Salt Lake Going Dry
 slug: great-salt-lake-going-dry
-date: '2023-02-10'
+date: 2023-02-10
 category: Segments
 megaphone_id: LOE9138386757
 image_url: https://loe.org/content/2023-02-10/UTAH_sunsetlake.jpg
 image_caption: 'A new report found that the Great Salt Lake will disappear in 5 years if water consumption isn''t cut almost in half in the next two years. (Photo: Jan Arendtsz. Flickr, CC BY-ND 2.0)'
 summary: Since 1860 the Great Salt Lake has lost three-quarters of its water, mostly due to human activities, and some scientists now predict it will dry up completely in the next five years unless emergency conservation measures are taken. The loss of the lake would devastate migratory bird populations and create a public health crisis linked to toxic dust in the lakebed. Brigham Young University ecologist Benjamin Abbott spoke with Host Jenni Doering about the crisis and why water conservation in the agricultural sector is vital.
+tags:
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00006&segmentID=1 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Curbside Capture of Desert Rain
 slug: curbside-capture-of-desert-rain
-date: '2023-06-02'
+date: 2023-06-02
 category: Segments
 megaphone_id: LOE5031687112
 image_url: https://loe.org/content/2023-06-02/LIVINGPANTRY_river.jpg
 image_caption: 'The city of Tucson, Arizona, imports the majority of its water from the drought-stricken Colorado River, via the 336 mile long Central Arizona Project Canal. (Photo: John Morton, Flickr, CC BY 2.0)'
 summary: Thirty years ago, a neighborhood group in Tucson started harvesting local rainwater by directing runoff into street-side basins filled with native, food-bearing plants. Co-founder Brad Lancaster joined Living on Earth’s Bobby Bascomb to tell how “planting the rain” improves neighborhoods, builds climate resilience, and helps the desert bloom.
+tags:
+  - climate-change
+  - drought
+  - indigenous-rights
+  - citizen-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00022&segmentID=5 -->
 

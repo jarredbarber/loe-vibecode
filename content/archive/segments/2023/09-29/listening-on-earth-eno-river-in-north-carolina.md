@@ -1,12 +1,18 @@
 ---
 title: 'Listening on Earth: Eno River in North Carolina'
 slug: listening-on-earth-eno-river-in-north-carolina
-date: '2023-09-29'
+date: 2023-09-29
 category: Segments
 megaphone_id: LOE1522033394
 image_url: https://loe.org/content/2023-09-29/LISTENING_eno.jpg
 image_caption: 'Eno River State Park is in Durham, North Carolina. (Photo: Jim Liestman, Flickr, CC BY-NC-ND 2.0)'
 summary: The Eno River gives life to great blue herons, Eastern box turtles, and yellow trout lilies as it flows through Durham, North Carolina. Living on Earth’s Fern Alling recorded this audio in Eno River State Park.
+tags:
+  - rivers-watersheds
+  - wildlife-corridors
+  - indigenous-rights
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00039&segmentID=7 -->
 

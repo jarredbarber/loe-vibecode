@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0428
-date: '2023-04-28'
+date: 2023-04-28
 category: Segments
 megaphone_id: LOE9255469736
 image_url: https://loe.org/content/2023-04-28/DYKSTRA_fire.jpg
 image_caption: 'Aerial fire retardants, which contain ammonium phosphate, are suspected by some as being harmful to waterways and wildlife. (Photo: scatteredVIEW, Flickr, CC BY-NC-ND 2.0)'
 summary: This week, Living on Earth commentator Peter Dykstra joins Host Steve Curwood to share news of a lawsuit seeking to curb the use of aerial fire retardants to combat wildfires over water pollution concerns. They also shed light on the murder of Ecuadorian Indigenous activist Eduardo Mendúa, who opposed oil drilling in the Amazon. And they look back 70 years to the day Hooker Chemical Company sold off its Love Canal toxic chemical dumpsite for just one dollar, setting the scene for a public health crisis that came to light years later.
+tags:
+  - water-pollution
+  - wildfire
+  - indigenous-rights
+  - amazon
+  - toxic-exposure
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00017&segmentID=2 -->
 

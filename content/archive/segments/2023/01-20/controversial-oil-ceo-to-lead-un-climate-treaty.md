@@ -1,12 +1,19 @@
 ---
 title: Controversial Oil CEO to Lead UN Climate Treaty
 slug: controversial-oil-ceo-to-lead-un-climate-treaty
-date: '2023-01-20'
+date: 2023-01-20
 category: Segments
 megaphone_id: LOE4830015042
 image_url: https://loe.org/content/2023-01-20/COP28_aljaber.jpg
 image_caption: 'Oil company CEO Sultan al Jaber was appointed president of COP 28 by the UAE. (Photo: Arctic Circle, Flickr, CC BY 2.0)'
 summary: Activists are expressing outrage in the wake of the decision by the United Arab Emirates to appoint oil executive Sultan al-Jaber as President of this year’s UN climate treaty negotiations at COP28 in Dubai. Mithika Mwenda, executive director of the Pan African Climate Justice Alliance and May Boeve, executive director of 350.org, join Host Steve Curwood to explain the concerns and discuss how fossil fuel interests are deflecting progress in the treaty process.
+tags:
+  - climate-change
+  - fossil-fuels
+  - oil-gas
+  - environmental-policy
+  - activism
+  - international-treaties
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00003&segmentID=1 -->
 

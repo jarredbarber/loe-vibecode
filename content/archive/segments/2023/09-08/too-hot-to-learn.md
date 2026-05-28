@@ -1,12 +1,18 @@
 ---
 title: Too Hot to Learn
 slug: too-hot-to-learn
-date: '2023-09-08'
+date: 2023-09-08
 category: Segments
 megaphone_id: LOE4731833746
 image_url: https://loe.org/content/2023-09-08/HEAT_highway.jpg
 image_caption: 'Extreme heat can affect us in subtle ways, impairing our cognitive abilities and reaction time. (Photo: Chris Yarzab, Flickr, CC BY 2.0)'
 summary: As extreme heat linked to climate disruption becomes more common during the school year, many U.S. schools lack adequate cooling and ventilation systems to keep kids safe and focused on learning. Dr. Joseph Allen, an Associate Professor and Director of the Healthy Buildings Program at the Harvard TH Chan School of Public Health, joins Host Paloma Beltran to explain how temperature and air quality affect learning outcomes for low-income kids and students of color the most.
+tags:
+  - climate-change
+  - extreme-weather
+  - heatwave
+  - public-health
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00036&segmentID=1 -->
 

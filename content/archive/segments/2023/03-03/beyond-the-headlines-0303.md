@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0303
-date: '2023-03-03'
+date: 2023-03-03
 category: Segments
 megaphone_id: LOE4166850357
 image_url: https://loe.org/content/2023-03-03/DYKSTRA_equipment.jpg
 image_caption: 'Hydropower equipment in Muttersholtz. The town’s municipal buildings are all powered by clean energy, with plans to include residential homes soon. (Photo: Laurent Jerry. Wikimedia Commons, CC BY-SA 4.0)'
 summary: In this week’s trip beyond the headlines, contributor Peter Dykstra and Host Jenni Doering discuss the impressive clean energy achievement of a small town in France. Next, they consider a study about growing threats to narwhals from shrinking Arctic sea ice before going back in history for a look at the Rivers and Harbors Act of 1899.
+tags:
+  - solar
+  - wind
+  - species-loss
+  - arctic-polar
+  - rivers-watersheds
+  - water-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00009&segmentID=4 -->
 

@@ -1,12 +1,19 @@
 ---
 title: '''Ecocide'' of Ukrainian River'
 slug: ecocide-of-ukrainian-river
-date: '2024-10-25'
+date: 2024-10-25
 category: Segments
 megaphone_id: LOE4042601555
 image_url: https://loe.org/content/2024-10-25/UKRAINE_war.jpg
 image_caption: 'A scene from Russia''s war on Ukraine, which began in February 2022. The image shows the aftermath of destruction: buildings are in ruins, with debris scattered in the streets. (Photo: UNDP Ukraine, Flickr, CC BY-ND 2.0)'
 summary: An explosion that spilled chemical waste into a river near the Russia-Ukraine border this August led to an ecological disaster with mass fish die-offs. Kyiv blames the Kremlin for a deliberate act of ‘ecocide’ amid the war that started with Russia’s 2022 invasion. Ukrainian journalist Artem Mazhulin reports for the Guardian and joins Host Jenni Doering to describe the impacts of the spill and the toll the war is taking on his country.
+tags:
+  - water-pollution
+  - chemical-contamination
+  - rivers-watersheds
+  - species-loss
+  - fossil-fuels
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00043&segmentID=3 -->
 

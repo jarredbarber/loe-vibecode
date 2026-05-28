@@ -1,12 +1,17 @@
 ---
 title: Celebrating Earth Day with John Denver
 slug: celebrating-earth-day-with-john-denver
-date: '2023-04-21'
+date: 2023-04-21
 category: Segments
 megaphone_id: LOE4657908748
 image_url: https://loe.org/content/2023-04-21/JAY-NASA-Apollo8-Dec24-Earthrise.jpg
 image_caption: NASA Blue Marble of the Earth's Eastern Hemisphere. Composition of images taken by Moderate Resolution Imaging Spectroradiometer (MODIS), flying on board of the sattelite Terra, by NASA. (Photo:Wikimedia Commons, NASA)
 summary: Steve Curwood and Bobby Bascomb kick off this Earth Day special with a look back on the memorable 1990 Earth Day. For the 20th anniversary of Earth Day, John Denver took center stage for a massive rally on the National Mall and called for action to protect our fragile planet.
+tags:
+  - activism
+  - profiles-interviews
+  - environmental-policy
+  - book-review
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00016&segmentID=1 -->
 

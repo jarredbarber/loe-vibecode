@@ -1,12 +1,17 @@
 ---
 title: Rethinking the Recycling Symbol
 slug: rethinking-the-recycling-symbol
-date: '2023-07-14'
+date: 2023-07-14
 category: Segments
 megaphone_id: LOE8026862831
 image_url: https://loe.org/content/2023-07-14/SYMBOL_landfill.jpg
 image_caption: 'Over 90% of plastic in the United States does not get recycled, much of it ending up in landfills. (Photo: Alan Levine, Flickr, CC BY 2.0)'
 summary: The chasing arrow symbol that many consumers think means a plastic product is recyclable often doesn’t mean that in practice, since most plastics are of little to no economic value. Jennie Romer is Deputy Assistant Administrator for Pollution Prevention at EPA and joins Host Aynsley O’Neill to explain how revising the use of the recycling symbol could reduce consumer confusion.
+tags:
+  - plastics
+  - environmental-policy
+  - regulation-deregulation
+  - food-systems
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00028&segmentID=1 -->
 

@@ -1,12 +1,15 @@
 ---
 title: New Era for Nuclear Power
 slug: new-era-for-nuclear-power
-date: '2024-05-03'
+date: 2024-05-03
 category: Segments
 megaphone_id: LOE9957961456
 image_url: https://loe.org/content/2024-05-03/TERRAPOWER_natrium.jpg
 image_caption: 'TerraPower’s Natrium reactor, which uses liquid sodium as a coolant, is designed to vary its power output depending on demand. (Photo: Steve Jurvetson, Flickr, CC BY 2.0)'
 summary: The Biden Administration is helping finance advanced nuclear power reactors and refurbishment of traditional nuclear power stations to promote the generation of zero emission electricity. Some of the new designs incorporate liquid sodium to offer more flexibility in power output to an electrical grid where renewable energy is intermittent. MIT professor Jacopo Buongiorno talks with Host Steve Curwood about nuclear power technology and the implications for public health and safety.
+tags:
+  - nuclear
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00018&segmentID=3 -->
 

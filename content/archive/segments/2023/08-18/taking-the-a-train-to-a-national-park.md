@@ -1,12 +1,13 @@
 ---
 title: Taking the A Train to a National Park
 slug: taking-the-a-train-to-a-national-park
-date: '2023-08-18'
+date: 2023-08-18
 category: Segments
 megaphone_id: LOE6247647338
 image_url: https://loe.org/content/2022-06-03/GATEWAY_sunset.jpg
 image_caption: 'Jamaica Bay Wildlife Refuge in Gateway National Recreation Area. (Photo: Peter Roan, Flickr, CC BY-NC 2.0)'
 summary: Gateway National Recreation Area offers green spaces, beaches and recreation just a quick transit ride from the urban jungle of New York City. Don Riepe is the guardian of the Jamaica Bay portion of Gateway and joins Host Steve Curwood to talk about the value of affordable and accessible venues to be with nature.
+tags: []
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00033&segmentID=3 -->
 

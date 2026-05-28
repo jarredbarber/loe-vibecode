@@ -1,12 +1,19 @@
 ---
 title: Uprooted By Climate
 slug: uprooted-by-climate
-date: '2024-09-13'
+date: 2024-09-13
 category: Segments
 megaphone_id: LOE8529588172
 image_url: https://loe.org/content/2024-09-13/ABRAHM-protest_sign.jpg
 image_caption: 'In September 2019 over 100,000 people participated in a climate strike in Melbourne, Australia. (Photo: Takver from Australia, Wikimedia Commons, CC BY-SA 2.0)'
 summary: 'The relentless heating of the Earth is prompting people to move after climate-related catastrophes and amid more gradual changes. Journalist Abrahm Lustgarten is the author of On the Move: The Overheating Earth and the Uprooting of America, and he talks with Host Steve Curwood about the northward migration he anticipates as Americans seek to escape punishing heat, fire, and drought.'
+tags:
+  - climate-change
+  - extreme-weather
+  - drought
+  - wildfire
+  - heatwave
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00037&segmentID=4 -->
 

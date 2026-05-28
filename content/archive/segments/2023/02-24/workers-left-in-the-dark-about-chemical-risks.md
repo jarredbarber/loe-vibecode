@@ -1,12 +1,16 @@
 ---
 title: Workers Left in the Dark About Chemical Risks
 slug: workers-left-in-the-dark-about-chemical-risks
-date: '2023-02-24'
+date: 2023-02-24
 category: Segments
 megaphone_id: LOE9243352148
 image_url: https://loe.org/content/2023-02-24/CHEM_door.jpg
 image_caption: 'A recent study of 650 Safety Data Sheets found that thirty percent contained inaccurate hazard warnings. (Photo: Tom Blackwell, Flickr, CC BY-NC 2.0)'
 summary: Safety Data Sheets provide information about the risks of workplace chemicals. Recent research found that nearly a third of those studied contained inaccurate hazard warnings and often downplayed the risks of known carcinogens. Charlotte Brody, the Vice President of Health Initiatives for Blue Green Alliance, which co-produced the study, joins Host Bobby Bascomb to discuss why the failure to disclose these risks undermines worker safety.
+tags:
+  - toxic-exposure
+  - public-health
+  - regulation-deregulation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00008&segmentID=3 -->
 

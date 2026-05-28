@@ -1,12 +1,18 @@
 ---
 title: Methane Tracking From Space
 slug: methane-tracking-from-space-0315
-date: '2024-03-15'
+date: 2024-03-15
 category: Segments
 megaphone_id: LOE3519731134
 image_url: https://loe.org/content/2024-03-15/METHANESAT_launch.jpg
 image_caption: 'MethaneSAT launched on March 4th, 2024. (Photo: Courtesy of SpaceX, via Environmental Defense Fund)'
 summary: A new satellite recently blasted off into Earth orbit with the important mission of tracking methane emissions from oil and gas infrastructure across the globe. Dr. Stephen Conley is an atmospheric scientist and joins Host Aynsley O’Neill to explain why free public access to the data from MethaneSAT is a game-changer for holding oil and gas companies accountable for climate pollution.
+tags:
+  - climate-change
+  - atmospheric-science
+  - fossil-fuels
+  - oil-gas
+  - corporate-accountability
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00011&segmentID=1 -->
 

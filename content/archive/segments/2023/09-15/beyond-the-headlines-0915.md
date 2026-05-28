@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0915
-date: '2023-09-15'
+date: 2023-09-15
 category: Segments
 megaphone_id: LOE2071791610
 image_url: https://loe.org/content/2023-09-15/DYKSTRA_islands.jpg
 image_caption: 'A group of island nations, including Antigua and Barbuda, is asking an international court to recognize greenhouse gases as marine pollution. (Photo: Derek Hatfield, Flickr, CC BY 2.0)'
 summary: This week, Living on Earth contributor Peter Dykstra joins Host Jenni Doering to share how small island nations are making a case for planet-warming greenhouse gases to be considered ocean pollutants. Also, the EPA delays setting new standards for ozone, a major air pollutant. And in history, they look back to 1992 when the first African American woman went to space.
+tags:
+  - climate-change
+  - sea-level-rise
+  - oceans
+  - air-pollution
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00037&segmentID=4 -->
 

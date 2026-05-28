@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-1208
-date: '2023-12-08'
+date: 2023-12-08
 category: Segments
 megaphone_id: LOE9960277254
 image_url: https://loe.org/content/2023-12-08/DYKSTRA_airplane.jpg
 image_caption: 'The sustainable flight took place on a Virgin Atlantic Boeing 787 like the one in the above photo. (Photo: Steve Lynes, Wikimedia Commons, CC BY 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Jenni Doering with an “underground” success story about the rediscovery of a rare species of golden mole with some help from a border collie. Also, a jetliner recently flew across the Atlantic powered by waste fats and sugars. And in history, they look back to the creation of Superfund in 1980 to clean up toxic waste.
+tags:
+  - species-loss
+  - endangered-species
+  - fossil-fuels
+  - toxic-exposure
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00049&segmentID=2 -->
 

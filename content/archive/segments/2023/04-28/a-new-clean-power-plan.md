@@ -1,12 +1,17 @@
 ---
 title: A New Clean Power Plan
 slug: a-new-clean-power-plan
-date: '2023-04-28'
+date: 2023-04-28
 category: Segments
 megaphone_id: LOE2818362921
 image_url: https://loe.org/content/2022-07-01/WV-power_plant.jpg
 image_caption: 'The Biden administration is putting forth new rules to curb greenhouse gas emissions from fossil fuel-fired power plants that will require carbon capture and sequestration in many instances. (Photo: Emilian Robert Vicol, Flickr, CC BY 2.0)'
 summary: Under President Obama the Environmental Protection Agency tried to fight climate change by curbing overall emissions from the electric power sector, but those rules were blocked in court and then repealed by President Trump. Now the agency is trying again and it’s now backed up by provisions in the Inflation Reduction Act. Its new power plant emissions rules are crafted on a plant-by-plant basis designed to survive legal challenges, according to environmental law expert Pat Parenteau, who joins Host Steve Curwood to explain.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - regulation-deregulation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00017&segmentID=1 -->
 

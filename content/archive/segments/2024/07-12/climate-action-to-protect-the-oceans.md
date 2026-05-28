@@ -1,12 +1,18 @@
 ---
 title: Climate Action to Protect the Oceans
 slug: climate-action-to-protect-the-oceans
-date: '2024-07-12'
+date: 2024-07-12
 category: Segments
 megaphone_id: LOE8907040090
 image_url: https://loe.org/content/2024-07-12/ITLOS_tribunalmeeting.JPG
 image_caption: 'The International Tribunal for the Law of the Sea published an advisory opinion stating that carbon emissions are polluting the oceans and that governments therefore have a legal obligation to reduce those emissions. (Photo: International Tribunal for the Law of the Sea photo)'
 summary: Island nations are facing a flooded future and running out of time for the world to get its climate act together. So, they turned to the UN Convention on the Law of the Sea, and in May 2024, a court found that countries do have legal obligations to stop greenhouse gases from polluting the world’s oceans. Katie Surma is a reporter with Inside Climate News and joins Host Jenni Doering to explain what the decision could mean for global climate action.
+tags:
+  - climate-change
+  - sea-level-rise
+  - oceans
+  - environmental-policy
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00028&segmentID=6 -->
 

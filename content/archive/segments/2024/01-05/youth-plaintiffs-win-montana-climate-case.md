@@ -1,12 +1,18 @@
 ---
 title: Youth Plaintiffs Win Montana Climate Case
 slug: youth-plaintiffs-win-montana-climate-case
-date: '2024-01-05'
+date: 2024-01-05
 category: Segments
 megaphone_id: LOE7529133770
 image_url: https://loe.org/content/2023-07-07/HELD-youth plaintiffs cheered by supporters.jpeg
 image_caption: 'Youth plaintiffs Badge Busse, Mica Kantor, and Eva L. are cheered on by supporters as they arrive for their second day of trial in June 2023. On August 14, Judge Kathy Seeley sided with the sixteen young plaintiffs in a historic decision for the climate crisis. (Photo: Robin Loznak/Courtesy of Our Children’s Trust)'
 summary: In a first of its kind ruling in the U.S., sixteen young plaintiffs have won their suit against the state of Montana over its refusal to protect them from climate change. Vermont Law and Graduate School Emeritus Professor Pat Parenteau joins Host Jenni Doering to explain the unprecedented ruling and where the case could head next.
+tags:
+  - climate-change
+  - youth-education
+  - fossil-fuels
+  - litigation
+  - environmental-justice
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=23-P13-00033&segmentID=1 -->
 

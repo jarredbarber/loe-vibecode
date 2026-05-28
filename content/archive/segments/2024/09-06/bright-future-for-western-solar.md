@@ -1,12 +1,17 @@
 ---
 title: Bright Future for Western Solar
 slug: bright-future-for-western-solar
-date: '2024-09-06'
+date: 2024-09-06
 category: Segments
 megaphone_id: LOE4498814791
 image_url: https://loe.org/content/2024-09-06/SOLAR_updatedplan.jpg
 image_caption: 'The proposed updated Western Solar Plan would extend solar development guidance to five additional western states: Idaho, Wyoming, Montana, Washington, and Oregon. (Photo: Tom Brewster Photography)'
 summary: The Bureau of Land Management is updating its master plan for developing solar energy on BLM lands in the West, to help the US meet ambitious clean energy targets. Gregg DeBie is an attorney with the Wilderness Society and joins Host Aynsley O’Neill to explain how the proposed plan aims to reduce barriers to solar by highlighting “previously disturbed” lands and automatically excluding critical habitat.
+tags:
+  - solar
+  - climate-change
+  - environmental-policy
+  - species-loss
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00036&segmentID=1 -->
 

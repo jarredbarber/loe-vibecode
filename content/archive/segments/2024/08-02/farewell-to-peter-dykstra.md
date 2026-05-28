@@ -1,12 +1,16 @@
 ---
 title: Farewell to Peter Dykstra
 slug: farewell-to-peter-dykstra
-date: '2024-08-02'
+date: 2024-08-02
 category: Segments
 megaphone_id: LOE5221907323
 image_url: https://loe.org/content/2024-08-02/PETER_peter.jpg
 image_caption: 'Peter Dykstra was a journalist who worked on environmental issues for decades, including time at CNN''s Science, Tech and Weather Unit, Environmental Health News and The Daily Climate, as well as Living On Earth. He was loved by many and will be missed. (Photo: Courtesy of Peter Dykstra''s family)'
 summary: Living on Earth host Steve Curwood announces the death of our beloved correspondent Peter Dykstra. We are preparing a tribute, and invite listeners to write in with your own fond memories.
+tags:
+  - profiles-interviews
+  - environmental-justice
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00031&segmentID=3 -->
 

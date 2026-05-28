@@ -1,12 +1,17 @@
 ---
 title: Lowballing Sea Level Rise
 slug: lowballing-sea-level-rise
-date: '2023-07-21'
+date: 2023-07-21
 category: Segments
 megaphone_id: LOE7937314463
 image_url: https://loe.org/content/2023-07-21/SEALEVEL_truck.jpg
 image_caption: 'More than half of the U.S. cities and states that Andra and her colleagues examined in their study underestimated the upper end of possible sea level rise, compared to forecasts by the Intergovernmental Panel on Climate Change. (Photo: Wade Austin Ellis, Unsplash, Unsplash License)'
 summary: Many U.S. states and cities are underestimating how much the seas could rise even as they plan long term infrastructure, according to a study. Lead author Andra Garner of Rowan University joins Host Steve Curwood to explain why the moving target of climate impacts is confounding some planners.
+tags:
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00029&segmentID=5 -->
 

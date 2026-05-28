@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0322
-date: '2024-03-22'
+date: 2024-03-22
 category: Segments
 megaphone_id: LOE6112994687
 image_url: https://loe.org/content/2024-03-22/DYKSTRA_leadblood.jpg
 image_caption: 'Lead exposure can lead to harmful health effects including neurological issues. A recent study found that individuals currently receiving federal housing assistance in the United States had blood lead levels that were 11.4% lower than those of other low-income individuals. (Photo: National Cancer Institute, Unsplash)'
 summary: This week, Living on Earth Contributor Peter Dykstra and Host Aynsley O’Neill talk about a study that found safer lead levels in people living in federal public housing versus low-income private housing. Also, a $600,000 sand dune paid for by residents of Salisbury, MA washed away just days after being put in place. And in history they celebrate the birthday of French mathematician Jean Baptiste Joseph Fourier, who first proposed the existence of the greenhouse effect 200 years ago.
+tags:
+  - toxic-exposure
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - atmospheric-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00012&segmentID=3 -->
 

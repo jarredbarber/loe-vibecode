@@ -1,12 +1,17 @@
 ---
 title: 'Listening on Earth: Coquí Chirps'
 slug: listening-on-earth-coqu-chirps
-date: '2023-01-27'
+date: 2023-01-27
 category: Segments
 megaphone_id: LOE2334178519
 image_url: https://loe.org/content/2023-01-27/COQUI_frog.jpg
 image_caption: 'Coquí frogs are so named for their distinctive vocal call. (Photo: acevvvedo, Flickr, CC BY-NC 2.0)'
 summary: Coquí frogs were heavily affected by Hurricane Maria, but within months of the storm, they could once again be heard making their iconic calls across the island. Living on Earth's Bobby Bascomb recorded these coquí noises in the mountains of Puerto Rico.
+tags:
+  - species-loss
+  - amphibians
+  - extreme-weather
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00004&segmentID=5 -->
 

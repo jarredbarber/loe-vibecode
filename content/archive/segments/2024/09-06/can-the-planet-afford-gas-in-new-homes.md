@@ -1,12 +1,16 @@
 ---
 title: Can the Planet Afford Gas in New Homes?
 slug: can-the-planet-afford-gas-in-new-homes
-date: '2024-09-06'
+date: 2024-09-06
 category: Segments
 megaphone_id: LOE1636365867
 image_url: https://loe.org/content/2024-09-06/HABITAT_raiseawall.jpg
 image_caption: 'Volunteers raise a wall into place during the Habitat for Humanity Earth Day 2009 in Oakland, California. (Photo: Sandia National Laboratories, Flickr, CC BY-NC-SA 2.0).'
 summary: Some new affordable homes built by Habitat for Humanity are being fitted with solar panels and labeled as “zero-net energy”, meaning they are supposed to produce as much or more energy than they use. But as reporter Dharna Noor of the Guardian explains to Host Jenni Doering, some of these homes include gas appliances, canceling out many of the climate benefits.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00036&segmentID=3 -->
 

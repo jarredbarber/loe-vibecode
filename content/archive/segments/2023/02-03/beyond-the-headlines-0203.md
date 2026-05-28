@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0203
-date: '2023-02-03'
+date: 2023-02-03
 category: Segments
 megaphone_id: LOE2481524774
 image_url: https://loe.org/content/2023-02-03/DYKSTRA_beaver.jpeg
 image_caption: 'People in Montana are constructing artificial beaver dams to re-create their ecological benefits and, hopefully, attract the animal back to the area. (Photo: Keith Williams, Flickr, CC BY-NC-ND 2.0)'
 summary: This week, journalist Peter Dykstra reaches Beyond the Headlines to bring us good news. People in Montana are constructing artificial beaver dams to restore marshes. Companies are flooding into Georgia to build electric vehicles, providing 28,000 jobs. And, since the banning of DDT in the 1970s, Brown Pelicans have made a strong comeback.
+tags:
+  - climate-change
+  - drought
+  - wildlife-corridors
+  - endangered-species
+  - invasive-species
+  - jobs-just-transition
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00005&segmentID=3 -->
 

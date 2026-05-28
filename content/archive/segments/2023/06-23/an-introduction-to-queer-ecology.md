@@ -1,12 +1,17 @@
 ---
 title: An Introduction to Queer Ecology
 slug: an-introduction-to-queer-ecology
-date: '2023-06-23'
+date: 2023-06-23
 category: Segments
 megaphone_id: LOE4512116451
 image_url: https://loe.org/content/2023-06-23/QUEER_mulberry.jpg
 image_caption: 'White mulberry trees have been known to change sex, from male (those that produce pollen) to female (those that produce fruit) and vice versa. They also sometimes produce fruit and pollen from the same plant. (Photo: Luis Fernández García L. Fdez, Wikimedia Commons, CC BY-SA 2.1 ES)'
 summary: The academic discipline known as “queer ecology” looks at environmental politics through a queer lens, rejecting heterosexual and cisgender identities as the only norms. Host Aynsley O’Neill speaks with Cate Sandilands, who coined the term ‘queer ecology’ in the 1990s, about diverse displays of gender and sexuality in nature, as well as how queer resistance can make an impact in the fight against the climate crisis.
+tags:
+  - ecology-research
+  - environmental-justice
+  - activism
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00025&segmentID=2 -->
 

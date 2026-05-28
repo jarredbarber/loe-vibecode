@@ -1,12 +1,19 @@
 ---
 title: Uncle Sam Wants YOU for Climate Corps
 slug: uncle-sam-wants-you-for-climate-corps
-date: '2024-04-26'
+date: 2024-04-26
 category: Segments
 megaphone_id: LOE7677407733
 image_url: https://loe.org/content/2024-04-26/ACC_americorps.jpg
 image_caption: 'The American Climate Corps will partner with existing programs like AmeriCorps. (Photo: EL Gringo, Flickr, CC BY-NC-ND 2.0)'
 summary: On Earth Day President Biden announced the official launch of his new climate-focused jobs program, the American Climate Corps. Maggie Thomas is Special Assistant to the President on Climate and joins Host Aynsley O’Neill to discuss the thousands of jobs the Corps offers in community outreach, biological surveys, invasive species removal and more.
+tags:
+  - climate-change
+  - jobs-just-transition
+  - environmental-justice
+  - forests
+  - invasive-species
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00017&segmentID=1 -->
 

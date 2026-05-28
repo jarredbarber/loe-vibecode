@@ -1,12 +1,17 @@
 ---
 title: Poems for a "New Nature" with Ada Limón
 slug: poems-for-a-new-nature-with-ada-limn
-date: '2024-09-06'
+date: 2024-09-06
 category: Segments
 megaphone_id: LOE7225553062
 image_url: https://loe.org/content/2024-09-06/LIMON_cover.jpg
 image_caption: 'You Are Here: Poetry in the Natural World is a poetry collection edited by Ada Limón. (Photo: Courtesy of Milkweed)'
 summary: 'Poetry can be up to the seemingly impossible task of capturing ecological loss, wild joy, and empathy for other species on this embattled planet. US Poet Laureate Ada Limón joins Host Jenni Doering to share poems from her new anthology, You Are Here: Poetry in the Natural World and discuss why she believes we need a new kind of nature poetry for the new nature amid the climate crisis.'
+tags:
+  - climate-change
+  - species-loss
+  - poetry-essays
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00036&segmentID=4 -->
 

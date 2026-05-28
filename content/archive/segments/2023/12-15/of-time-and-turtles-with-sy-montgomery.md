@@ -1,12 +1,16 @@
 ---
 title: Of Time and Turtles with Sy Montgomery
 slug: of-time-and-turtles-with-sy-montgomery
-date: '2023-12-15'
+date: 2023-12-15
 category: Segments
 megaphone_id: LOE6436996840
 image_url: https://loe.org/content/2023-12-15/SY_cover.jpg
 image_caption: 'The cover of Of Time and Turtles: Mending the World, Shell by Shattered Shell by Sy Montgomery, with illustrations by Matt Patterson. (Photo Courtesy of HarperCollins, Illustration by © Matt Patterson)'
 summary: 'Author and animal whisperer Sy Montgomery’s latest book, Of Time and Turtles: Mending the World, Shell by Shattered Shell features miraculous stories of recovery at a hospital for gravely injured turtles. Sy joined Host Steve Curwood in the NHPR studios to share these stories and discuss how these long-lived, ancient beings help illuminate the nature of time itself.'
+tags:
+  - mammals
+  - ecology-research
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00050&segmentID=3 -->
 

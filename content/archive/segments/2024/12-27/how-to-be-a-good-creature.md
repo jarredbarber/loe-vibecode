@@ -1,12 +1,17 @@
 ---
 title: How To Be A Good Creature
 slug: how-to-be-a-good-creature
-date: '2024-12-27'
+date: 2024-12-27
 category: Segments
 megaphone_id: LOE6960571355
 image_url: https://loe.org/content/2019-07-12/SY_sy-and-liz.jpg
 image_caption: 'Sy Montgomery (left) poses here with her beloved Border Collie Thurber and friend and occasional writing partner Elizabeth Marshall Thomas at Sy’s New Hampshire farmhouse. (Photo: Steve Curwood)'
 summary: From tarantulas in French Guinea to reclusive, aquarium-dwelling octopuses to the dogs and chickens in her own backyard, naturalist and author Sy Montgomery has connected with creatures all over the globe. They are her friends, her family, and especially her teachers. In her book, How To Be A Good Creature, she looks back on the valuable life lessons she’s learned from her friendships with feathered, furred and tentacled animals. Sy Montgomery joins Host Steve Curwood to discuss her treasured memories of these creatures.
+tags:
+  - profiles-interviews
+  - mammals
+  - insects
+  - marine-life
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00052&segmentID=4 -->
 

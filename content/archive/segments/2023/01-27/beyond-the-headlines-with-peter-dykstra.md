@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines With Peter Dykstra
 slug: beyond-the-headlines-with-peter-dykstra
-date: '2023-01-27'
+date: 2023-01-27
 category: Segments
 megaphone_id: LOE6841211080
 image_url: https://loe.org/content/2023-01-27/DYKSTRA_iguana.jpg
 image_caption: 'Fewer iguanas are falling from trees in Florida during the cold due to climbing global temperatures from climate change and a shift in cold hardiness in the lizards. (Photo: Steve Singer, Flickr, CC BY-ND 2.0)'
 summary: Journalist Peter Dykstra joins host Steve Curwood to discuss why fewer iguanas are falling in Florida during cold snaps. They also consider if England's recent ban on some single-use plastics set to take effect in October will stem the accumulation of disposable plastic. For a history lesson, they dive into Karl Benz's 1886 patent for a three-wheeled, chain-driven, gasoline-powered horseless carriage he obtained with financial and design help from his wife Bertha.
+tags:
+  - climate-change
+  - invasive-species
+  - plastics
+  - fossil-fuels
+  - oil-gas
+  - environmental-history
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00004&segmentID=4 -->
 

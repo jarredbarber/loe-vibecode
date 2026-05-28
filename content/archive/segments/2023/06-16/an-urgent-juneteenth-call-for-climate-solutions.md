@@ -1,12 +1,15 @@
 ---
 title: An Urgent Juneteenth Call for Climate Solutions
 slug: an-urgent-juneteenth-call-for-climate-solutions
-date: '2023-06-16'
+date: 2023-06-16
 category: Segments
 megaphone_id: LOE3914736796
 image_url: https://loe.org/content/2023-04-07/HARDEN-baton rouge refinery.jpg
 image_caption: 'ExxonMobil’s Baton Rouge Refinery along Louisiana’s “Cancer Alley.” (Photo: Jim Bowen, Flickr CC BY 2.0)'
 summary: 'Generations of Black Americans have faced racism, redlining and environmental injustices, such as breathing 40 percent dirtier air and being twice as likely as white Americans to be hospitalized or die from climate-related health problems. So the quest for racial justice now must include addressing the climate emergency, writes Heather McTeer Toney in her 2023 book Before the Streetlights Come On: Black America’s Urgent Call for Climate Solutions. She joins Host Steve Curwood in part one of their conversation.'
+tags:
+  - environmental-justice
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00024&segmentID=1 -->
 

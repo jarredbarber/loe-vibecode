@@ -1,12 +1,15 @@
 ---
 title: Fighting Pollution Linked to Online Shopping
 slug: fighting-pollution-linked-to-online-shopping
-date: '2024-05-10'
+date: 2024-05-10
 category: Segments
 megaphone_id: LOE1442065011
 image_url: https://loe.org/content/2024-05-10/VIDAURRE_andrea.jpg
 image_caption: 'The 2024 Goldman Prize winner for North America, Andrea Vidaurre. (Photo: Goldman Environmental Prize)'
 summary: The 2024 Goldman Environmental Prize recipient from North America, Andrea Vidaurre led a campaign that convinced the California Air Resources Board to make rules designed to decrease air pollution and lead to zero-emission trucking by 2036. These rules are aimed at reducing diesel pollution related to the online shopping industry. Andrea joined Living on Earth’s Paloma Beltran to discuss how these new rules are aimed at reducing toxic air pollution in the Inland Empire of Southern California.
+tags:
+  - air-pollution
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00019&segmentID=3 -->
 

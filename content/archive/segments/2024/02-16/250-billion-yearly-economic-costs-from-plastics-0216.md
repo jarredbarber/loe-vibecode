@@ -1,12 +1,16 @@
 ---
 title: $250 Billion Yearly Economic Costs from Plastics
 slug: 250-billion-yearly-economic-costs-from-plastics-0216
-date: '2024-02-16'
+date: 2024-02-16
 category: Segments
 megaphone_id: LOE9653190351
 image_url: https://loe.org/content/2024-02-16/PLASTICS_chemicalsused.jpg
 image_caption: 'Many chemicals used in plastics disrupt normal hormone function and can hurt human health, costing the US upwards of $250 billion a year in healthcare costs. (Photo: Laura James, Pexels)'
 summary: Hormone-disrupting chemicals in plastics take a yearly economic and health toll in the hundreds of billions of dollars in the U.S. alone, according to a recent study. Pediatrician Leonardo Trasande discusses the research with Host Steve Curwood and explains why PFAS, phthalates, BPA and flame retardants in plastics are so harmful to human health.
+tags:
+  - plastics
+  - public-health
+  - chemical-contamination
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00007&segmentID=1 -->
 

@@ -1,12 +1,15 @@
 ---
 title: Stories of the Night Sky and an English Wassail
 slug: stories-of-the-night-sky-and-an-english-wassail
-date: '2023-12-22'
+date: 2023-12-22
 category: Segments
 megaphone_id: LOE6911010148
 image_url: https://loe.org/content/2013-12-27/7-bigstock-Clear-night-sky-over-the-fores-16135424.jpg
 image_caption: 'A clear winter night (photo: bigstockphoto.org)'
 summary: Writer, storyteller, and musician Joseph Bruchac offers Iroquois myths, first about the twinkling stars of the Pleiades in the winter sky and then about why life on earth continues through the long, dark nights of mid-winter. Then storyteller Diane Edgecomb shares an English tale in which barnyard animals get the last word. She closes with a Cherokee myth about the trees that stay green all winter long, the evergreens.
+tags:
+  - indigenous-rights
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00051&segmentID=3 -->
 

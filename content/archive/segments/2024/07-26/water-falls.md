@@ -1,12 +1,17 @@
 ---
 title: Water! Falls!
 slug: water-falls
-date: '2024-07-26'
+date: 2024-07-26
 category: Segments
 megaphone_id: LOE2768178685
 image_url: https://loe.org/content/2024-07-26/b_MSL_svalbard.JPG
 image_caption: 'A waterfall above the Arctic Circle in Edgeøya, an island in the southeast of Norway’s Svalbard archipelago. (Photo: © Mark Seth Lender)'
 summary: Living on Earth’s Explorer in Residence Mark Seth Lender muses on what waterfalls and volcanoes have in common, in transforming their elements of water and rock into something new.
+tags:
+  - rivers-watersheds
+  - oceans
+  - climate-science
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00030&segmentID=4 -->
 

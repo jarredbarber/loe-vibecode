@@ -1,12 +1,17 @@
 ---
 title: A New War on Cancer – Part 1
 slug: a-new-war-on-cancer-part-1
-date: '2023-07-07'
+date: 2023-07-07
 category: Segments
 megaphone_id: LOE2105689642
 image_url: https://loe.org/content/2023-07-07/CANCER-Breast_cancer_cell.jpeg
 image_caption: 'A breast cancer cell, photographed by a scanning electron microscope. Photo: National Cancer Institute, Wikimedia Commons)'
 summary: 'Treatments for cancer are better than ever, but cases continue to rise and cancer is still the second leading cause of death in the US. And with environmental factors linked to as many as two thirds of all cancer cases, some are calling for stronger chemical regulations as a means of cancer prevention. Kristina Marusic is the author of the book “A New War on Cancer: The Unlikely Heroes Revolutionizing Prevention” and joins Host Steve Curwood in Part 1 of their conversation to talk about why prevention is often overlooked.'
+tags:
+  - toxic-exposure
+  - cancer-environment
+  - pregnancy-children
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00027&segmentID=3 -->
 

@@ -1,12 +1,18 @@
 ---
 title: China and US Restart Climate Diplomacy
 slug: china-and-us-restart-climate-diplomacy
-date: '2023-11-24'
+date: 2023-11-24
 category: Segments
 megaphone_id: LOE6613403782
 image_url: https://loe.org/content/2023-11-24/CHINA_envoys.jpg
 image_caption: 'China’s Special Envoy for Climate Change Xie Zhenhua and US Special Envoy on Climate John Kerry released a statement on November 14, 2023 on “enhancing cooperation to address the climate crisis.” They are pictured here in 2015. (Photo: US Department of State, Flickr, Public Domain)'
 summary: The world is way off track from the Paris Agreement goal to limit warming to 1.5 degrees Celsius. A new joint statement on fighting the climate crisis from the world’s two biggest emitters, China and the United States, offers a glimmer of hope for global action on the eve of COP28. Alden Meyer of the climate think tank E3G joins Host Steve Curwood to explain.
+tags:
+  - climate-change
+  - fossil-fuels
+  - international-treaties
+  - green-economy
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00047&segmentID=3 -->
 

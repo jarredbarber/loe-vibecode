@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0505
-date: '2023-05-05'
+date: 2023-05-05
 category: Segments
 megaphone_id: LOE9772907600
 image_url: https://loe.org/content/2023-05-05/DYKSTRA_Mower.jpg
 image_caption: 'Clean-air advocates claim the pollution emitted by small gasoline engines used to power lawn mowers and leaf blowers are harmful to human health and the environment. (Photo: Andres Siimon, Unsplash)'
 summary: This week, Living on Earth contributor Peter Dykstra joins Host Jenni Doering to discuss a growing movement in U.S. cities to ban or restrict noisy and highly polluting gas-powered leaf blowers and lawnmowers. Another set of rules in California aims to reduce air pollution from diesel locomotives. And in history, whales mistaken for submarines were among the unfortunate casualties of the brief, undeclared war between Britain and Argentina over control of the Falkland Islands in 1982.
+tags:
+  - air-pollution
+  - noise-pollution
+  - public-health
+  - environmental-justice
+  - marine-life
+  - endangered-species
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00018&segmentID=4 -->
 

@@ -1,12 +1,18 @@
 ---
 title: Rescuing Bats from Extreme Cold
 slug: rescuing-bats-from-extreme-cold
-date: '2023-01-13'
+date: 2023-01-13
 category: Segments
 megaphone_id: LOE3061782993
 image_url: https://loe.org/content/2023-01-13/BATS_gloves.jpg
 image_caption: 'A Mexican free tailed bat in the care of Bat World Sanctuary. Bat World Sanctuary was key in aiding Wary Warwick rescue the Mexican free tailed bats. Their volunteer helped Mary sort through the healthy bats vs the injured ones who needed critical care. Bat World Sanctuary made two 12 hour round trips to bring about 120 bats to Bat World Sanctuary; they could treat injuries and provide care until they are ready to be released. Some of these bats will require lifetime care by Bat World Sanctuary due to their injuries. (Photo: Courtesy of Bat World Sanctuary)'
 summary: In Texas, this winter’s extreme weather delivered an unusual cold snap that some bats just couldn’t deal with. So, Mary Warwick, the Wildlife Director of the Houston Humane Society, sprang into action and along with help from Bat World Sanctuary saved around 1600 Mexican free-tailed bats from hypothermic shock. Living on Earth’s Paloma Beltran shares her story.
+tags:
+  - climate-change
+  - extreme-weather
+  - species-loss
+  - wildlife-corridors
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00002&segmentID=5 -->
 

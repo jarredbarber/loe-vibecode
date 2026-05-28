@@ -1,12 +1,15 @@
 ---
 title: Ecological Conversion and Solidarity
 slug: ecological-conversion-and-solidarity
-date: '2024-04-19'
+date: 2024-04-19
 category: Segments
 megaphone_id: LOE8242283001
 image_url: https://loe.org/content/2021-04-23/VALUES-ripples_in_water.jpg
 image_caption: '“This is who you are”: In the Lakota language of Tiokasin Ghosthorse’s people, the word for water is “mni” and also conveys the idea of “the living relationship between you and I and all things.” (Photo: Linus Nylund, Unsplash)'
 summary: Science and policy are vital in building a more sustainable world, but they often don’t convey the values we need in order to engage people to do so. With spiritual guides who carry diverse traditions and teachings, Host Steve Curwood surveys the values that can guide us along this path towards ecological harmony. Indigenous stories, holy scriptures, East Asian cosmologies, papal encyclicals and divine revelation all shed light on our duties and relationship to each other and to our common home.
+tags:
+  - indigenous-rights
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00016&segmentID=3 -->
 

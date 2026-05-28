@@ -1,12 +1,16 @@
 ---
 title: 'One Step Further: The Story of Katherine Johnson'
 slug: one-step-further-the-story-of-katherine-johnson
-date: '2024-02-23'
+date: 2024-02-23
 category: Segments
 megaphone_id: LOE8129258787
 image_url: https://loe.org/content/2021-06-04/ONESTEPFURTHER_premiere.jpg
 image_caption: 'Katherine Johnson, watching the movie premiere of  Hidden Figures  on December 1, 2016. (Photo: Aubrey Gemignani, NASA, Flickr, CC BY-NC-ND 2.0)'
 summary: 'The 2021 children’s book One Step Further: My Story of Math, the Moon, and a Lifelong Mission tells the story of Katherine Johnson, an African American woman who while living under Jim Crow in the south worked at NASA as a mathematician and helped put a man on the moon. Host Steve Curwood spoke with one of Katherine’s three daughters, Katherine Moore, who co-authored One Step Further to help share her mother''s story.'
+tags:
+  - profiles-interviews
+  - earth-observation
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00008&segmentID=2 -->
 

@@ -1,12 +1,18 @@
 ---
 title: Big Oil Bid in Alaska
 slug: big-oil-bid-in-alaska
-date: '2023-02-17'
+date: 2023-02-17
 category: Segments
 megaphone_id: LOE2856695930
 image_url: https://loe.org/content/2023-02-17/OIL-2019-Willow-Exploration.jpg
 image_caption: 'An aerial photo of an exploration pad for ConocoPhillips’ Willow Project. (Photo: courtesy of ConocoPhillips)'
 summary: A major plan by oil giant ConocoPhillips to drill in Alaska’s North Slope is poised to move ahead after preliminary approval by a federal agency, though it still needs President Biden’s final consent. The potentially lucrative Willow drilling project on federal land could dump millions of tons of climate disrupting carbon into the atmosphere over its lifetime and pose risks to the health of nearby Alaska Native communities and biological diversity. Andy Moderow is Alaska State Director for the Alaska Wilderness League and joins Host Steve Curwood to discuss.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - climate-change
+  - atmospheric-science
+  - indigenous-communities
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00007&segmentID=1 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Mining Riches on the Ocean Floor
 slug: mining-riches-on-the-ocean-floor
-date: '2023-07-28'
+date: 2023-07-28
 category: Segments
 megaphone_id: LOE6152838218
 image_url: https://loe.org/content/2023-07-28/OCEAN_zone.jpg
 image_caption: 'The Clarion-Clipperton Zone stretches from southeast of Hawaii all the way to Mexico, averaging a depth of three miles. (Photo: NOAA Office of Ocean Exploration and Research, Deepwater Wonders of Wake, public domain)'
 summary: In the depths of the sea, parts of the ocean floor are covered with manganese nodules. These contain valuable minerals that could be extremely useful for renewable energy resources, like electric car batteries. But mining these nodules could prove hazardous for deep ocean biodiversity, Professor Eugene Gallagher from the University of Massachusetts Boston explains to host Steve Curwood.
+tags:
+  - oceans
+  - species-loss
+  - fossil-fuels
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00030&segmentID=8 -->
 

@@ -1,12 +1,17 @@
 ---
 title: '"Oh, Say Can You See?": Kingfisher on Long Island Sound'
 slug: oh-say-can-you-see-kingfisher-on-long-island-sound
-date: '2023-06-30'
+date: 2023-06-30
 category: Segments
 megaphone_id: LOE9946825944
 image_url: https://loe.org/content/2023-06-30/LENDER_fishing.JPG
 image_caption: 'A kingfisher zooms towards the water, ready to begin fishing. (Photo: © Mark Seth Lender)'
 summary: The fourth of July is a time for Americans to feast on hot dogs, veggie burgers and corn on the cob. But as Living on Earth’s Explorer in Residence Mark Seth Lender observers, the kingfisher has its own version of an Independence Day picnic.
+tags:
+  - birds
+  - marine-life
+  - field-reporting
+  - fish
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00026&segmentID=3 -->
 

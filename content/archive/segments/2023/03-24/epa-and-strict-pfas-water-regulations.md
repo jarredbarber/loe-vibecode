@@ -1,12 +1,13 @@
 ---
 title: EPA and Strict PFAS Water Regulations
 slug: epa-and-strict-pfas-water-regulations
-date: '2023-03-24'
+date: 2023-03-24
 category: Segments
 megaphone_id: LOE1130466009
 image_url: https://loe.org/content/2023-03-24/PFAS-drinking water from tap.jpg
 image_caption: 'EPA has proposed new limits on the amount of PFAS chemicals allowable in drinking water. The rules would require many utilities to install new technology to remove these harmful chemicals. (Photo: Government of Prince Edward Island, Flickr CC BY NC ND 2.0)'
 summary: The EPA recently proposed new regulations that will dramatically lower the amount of PFAS chemicals that can be present in drinking water. PFAS are associated with health concerns including cancers and reproductive issues. Melanie Benesh from the Environmental Working Group tells Host Bobby Bascomb that the move is a huge win for public health.
+tags: []
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00012&segmentID=1 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0519
-date: '2023-05-19'
+date: 2023-05-19
 category: Segments
 megaphone_id: LOE9583273111
 image_url: https://loe.org/content/2023-05-19/DYKSTRA_yangmei.jpg
 image_caption: 'The yangmei fruit is native to eastern Asia, but changing weather means more farmers are starting to grow the blight-resistant crop in California. (Photo: kanonn, Flickr, CC BY-ND 2.0)'
 summary: This week, Living on Earth contributor Peter Dykstra joins Host Jenni Doering to share how exotic fruits could give California farmers options for replacing thirstier crops like almonds in a warming world. They also discuss how warmer temperatures mean more flowering days each year and therefore longer allergy seasons. In history they look back to the precise date, three years in a row, that the little town of Codell, Kansas was hit by tornadoes.
+tags:
+  - climate-change
+  - farming
+  - drought
+  - extreme-weather
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00020&segmentID=4 -->
 

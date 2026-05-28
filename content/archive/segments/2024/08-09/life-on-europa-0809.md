@@ -1,12 +1,16 @@
 ---
 title: Life on Europa?
 slug: life-on-europa-0809
-date: '2024-08-09'
+date: 2024-08-09
 category: Segments
 megaphone_id: LOE2372189129
 image_url: https://loe.org/content/2024-03-15/EUROPA_moon.png
 image_caption: 'Europa, one of Jupiter’s 95 known moons, is around 90% the size of our Moon. With a water ice crust, scientists have long speculated that there might be a liquid water ocean underneath. (Photo: Juno Mission Photo, Kevin M. Gill, NASA/JPL-Caltech/SwRI/MSSS, Wikimedia Commons, CC BY 3.0)'
 summary: 'Jupiter’s moon Europa is one of the most promising places to look for extraterrestrial life. Europa has a large liquid ocean beneath its icy crust, so NASA plans to launch the Clipper space probe later this year to investigate. As part of the mission NASA is sending a poem to space. US Poet Laureate Ada Limón reads aloud her poem, “In Praise of Mystery: A Poem for Europa.”'
+tags:
+  - climate-science
+  - ecology-research
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00032&segmentID=4 -->
 

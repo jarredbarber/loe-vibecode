@@ -1,12 +1,20 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0623
-date: '2023-06-23'
+date: 2023-06-23
 category: Segments
 megaphone_id: LOE9985571196
 image_url: https://loe.org/content/2023-06-23/DYKSTRA_sanitizer.jpg
 image_caption: 'During the pandemic, the FDA relaxed its standards for the production of hand sanitizers, resulting in the use of some dangerous ingredients like benzene. (Photo: Trinity Care Foundation, Flickr, CC BY-NC-ND 2.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins host Aynsley O’Neill to discuss how a batch of hastily crafted hand sanitizer inadvertently released toxic chemicals like the carcinogen benzene. Also, how outdoor activities during the summer are moving indoors due to increasing temperatures from climate change. They follow with REI and Dick’s Sporting Goods banning PFAS forever chemicals in their products. And for history, after a 1907 decision by President Theodore Roosevelt the Owens Valley water was diverted to serve Los Angeles, eventually leaving the valley dry.
+tags:
+  - chemical-contamination
+  - toxic-exposure
+  - climate-change
+  - extreme-weather
+  - pfas-forever-chemicals
+  - water-rights
+  - environmental-history
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00025&segmentID=4 -->
 

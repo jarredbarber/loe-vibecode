@@ -1,12 +1,16 @@
 ---
 title: Native American Tales
 slug: native-american-tales
-date: '2023-12-22'
+date: 2023-12-22
 category: Segments
 megaphone_id: LOE6787358800
 image_url: https://loe.org/content/2020-12-18/SEASONS_updated.jpg
 image_caption: 'Stories of the seasons (Photo: Barbara Friedman, Flickr, CC BY-NC 2.0)'
 summary: Wampanoag storyteller Medicine Story spins a tale about the shortest days of the year, and how the Wampanoag people persuaded Grandfather Sun to return. And Cherokee storyteller Gayle Ross shares seasonal tales of the importance of the warmth and the promise of spring handed down in her family.
+tags:
+  - indigenous-communities
+  - profiles-interviews
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00051&segmentID=2 -->
 

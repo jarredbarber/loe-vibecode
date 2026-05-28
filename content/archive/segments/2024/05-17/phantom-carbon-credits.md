@@ -1,12 +1,16 @@
 ---
 title: Phantom Carbon Credits
 slug: phantom-carbon-credits
-date: '2024-05-17'
+date: 2024-05-17
 category: Segments
 megaphone_id: LOE8464211850
 image_url: https://loe.org/content/2024-05-17/SHELL_tarsands.jpg
 image_caption: 'Oil and gas fuel is Canada’s largest export, and much of that oil comes from the country’s tar sands. Shell’s Quest project was the first major carbon capture project serving Alberta’s tar sands production. (Photo: Dru Oja Jay/Howl Arts Collective, Flickr, CC BY 2.0)'
 summary: Shell’s flagship carbon capture and storage project in Canada generated millions of dollars in carbon credits based on greenhouse gas emission reductions that never took place. According to a study by Greenpeace Canada, the scheme was part of Shell’s billion-dollar Quest carbon capture project. While these phantom credits were legal from 2015 to 2021 under approved carbon tax rules, Shell’s actions raise questions about carbon capture practices in Canada’s lucrative fossil fuel industry. Living on Earth’s Steve Curwood spoke to Greenpeace Canada researcher Keith Stewart.
+tags:
+  - fossil-fuels
+  - climate-change
+  - carbon-cycle
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00020&segmentID=2 -->
 

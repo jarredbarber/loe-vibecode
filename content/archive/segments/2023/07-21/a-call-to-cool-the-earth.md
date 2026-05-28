@@ -1,12 +1,19 @@
 ---
 title: A Call to Cool the Earth
 slug: a-call-to-cool-the-earth
-date: '2023-07-21'
+date: 2023-07-21
 category: Segments
 megaphone_id: LOE6284787986
 image_url: https://loe.org/content/2023-07-21/WOODWELL_Arctic.jpg
 image_caption: 'The Arctic plays a critical role in the Earth’s climate system by reflecting heat back into the atmosphere and sequestering carbon in its frozen tundra. (Photo: Duncan Cumming, Flickr, CC BY-NC 2.0)'
 summary: Earth is choked by too much carbon in the atmosphere and running a fever that is only bound to get worse if we fail to restore its balance. Biologist Dr. George Woodwell explains to Host Steve Curwood why soaking up some of that carbon with the help of trees and plants is vitally important to life on Earth as we know it.
+tags:
+  - climate-change
+  - extreme-weather
+  - carbon-cycle
+  - forests
+  - arctic-polar
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00029&segmentID=1 -->
 

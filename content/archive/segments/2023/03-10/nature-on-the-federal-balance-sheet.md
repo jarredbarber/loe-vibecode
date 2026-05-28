@@ -1,12 +1,16 @@
 ---
 title: Nature on the Federal Balance Sheet
 slug: nature-on-the-federal-balance-sheet
-date: '2023-03-10'
+date: 2023-03-10
 category: Segments
 megaphone_id: LOE1484302877
 image_url: https://loe.org/content/2016-07-22/BILMES-glacier_point.jpg
 image_caption: 'Natural capital accounting is the process of calculating the dollar value of services provided by nature such as recreation and clean water. (Photo: Taylor Davis, Flickr CC BY-NC-ND 2.0)'
 summary: The White House is starting to account for natural capital, the economic value of services provided by nature, when making decisions. Linda Bilmes teaches Public Policy and Public Finance at Harvard's Kennedy School of Government and she joins Host Bobby Bascomb to take a look at this emerging strategy.
+tags:
+  - green-economy
+  - environmental-policy
+  - climate-science
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00010&segmentID=1 -->
 

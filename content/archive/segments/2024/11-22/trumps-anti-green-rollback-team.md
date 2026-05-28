@@ -1,12 +1,17 @@
 ---
 title: Trump's Anti-Green Rollback Team
 slug: trumps-anti-green-rollback-team
-date: '2024-11-22'
+date: 2024-11-22
 category: Segments
 megaphone_id: LOE4299406645
 image_url: https://loe.org/content/2024-11-22/NOMS_trumpzeldin.jpg
 image_caption: 'President-elect Donald Trump has pointed to Lee Zeldin, who has supported Trump since his first presidential campaign in 2016, as his choice for head of the Environmental Protection Agency. (Photo: Shaleah Craighead, Wikimedia Commons, Public Domain)'
 summary: President-elect Trump has nominated three men to run federal departments critical for climate and environmental protection with a mandate to roll back green rules and regulations. Vermont Law Emeritus Professor Pat Parenteau is among the critics of these choices and joins Host Steve Curwood to discuss the nominees, former US Rep. Lee Zeldin for EPA, Liberty Energy CEO Chris Wright for Energy and North Dakota Gov. Doug Burgum for Interior.
+tags:
+  - environmental-policy
+  - regulation-deregulation
+  - climate-change
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00047&segmentID=1 -->
 

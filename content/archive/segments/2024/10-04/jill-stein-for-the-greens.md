@@ -1,12 +1,18 @@
 ---
 title: Jill Stein for the Greens
 slug: jill-stein-for-the-greens
-date: '2024-10-04'
+date: 2024-10-04
 category: Segments
 megaphone_id: LOE5137165739
 image_url: https://loe.org/content/2024-10-04/stein_podium_blue.jpg
 image_caption: Green Party presidential nominee Jill Stein speaking with attendees at the Free & Equal Elections Presidential Debate at the 2024 FreedomFest at Caesars Forum Conference Center in Las Vegas, Nevada. (Gage Skidmore, Flickr, CC BY 2.0)
 summary: Physician Jill Stein, the 2024 Green Party nominee for US President, urges a much quicker phaseout of fossil fuels than either of her Republican or Democratic opponents appear willing to consider. Jill Stein joins Host Jenni Doering to lay out her vision for what she calls a “real” Green New Deal and to push back against claims by Democrats that voting for her in a swing state could hand victory to Donald Trump.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00040&segmentID=3 -->
 

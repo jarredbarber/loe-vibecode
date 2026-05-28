@@ -1,12 +1,15 @@
 ---
 title: From the History Books
 slug: from-the-history-books-0712
-date: '2024-07-12'
+date: 2024-07-12
 category: Segments
 megaphone_id: LOE5861824150
 image_url: https://loe.org/content/2024-07-12/DYKSTRA_walden.jpg
 image_caption: 'The northern shore of Walden Pond, close to where Thoreau conducted his famous experiment in minimal living. (Photo: Terryballard, Wikimedia Commons, CC BY-SA 4.0)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Aynsley O’Neill to celebrate the July 12, 1817, birth of nature writer Henry David Thoreau. They also mark the July 1850 invention of icemaking using compressed air.
+tags:
+  - environmental-history
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00028&segmentID=5 -->
 

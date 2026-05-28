@@ -1,12 +1,20 @@
 ---
 title: Coming Cleaner on Fracking Chemicals
 slug: coming-cleaner-on-fracking-chemicals
-date: '2024-02-09'
+date: 2024-02-09
 category: Segments
 megaphone_id: LOE3915165270
 image_url: https://loe.org/content/2023-11-24/PENN_fracking.jpg
 image_caption: Workers at a fracking drill site in Murphy, Pennsylvania. In 2024, Pennsylvania Governor Josh Shapiro announced changes in policy that will require fracking companies to disclose lists of chemicals they plan to use before they break ground on new drilling sites. (Photo by Alice McGown, FracTracker Alliance, Flickr, CC BY-NC-ND 2.0)
 summary: Pennsylvania has advanced rules that will warn the public about toxic chemicals gas and oil drillers plan to inject into the ground, but chemicals that are considered “trade secrets” will remain shrouded in mystery. Environmental Health News reporter Kristina Marusic joined Living on Earth’s Aynsley O’Neill to unpack what the new fracking rules mean for keeping drinking water safe.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - chemical-contamination
+  - drinking-water
+  - pfas-forever-chemicals
+  - environmental-policy
+  - supply-chain
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00006&segmentID=3 -->
 

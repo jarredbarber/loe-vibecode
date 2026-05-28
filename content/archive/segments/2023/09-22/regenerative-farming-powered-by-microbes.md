@@ -1,12 +1,17 @@
 ---
 title: Regenerative Farming Powered by Microbes
 slug: regenerative-farming-powered-by-microbes
-date: '2023-09-22'
+date: 2023-09-22
 category: Segments
 megaphone_id: LOE1557188782
 image_url: https://loe.org/content/2023-09-22/TGR_cover.jpg
 image_caption: 'Living on Earth’s Steve Curwood spoke with Dorn Cox about his book, “The Great Regeneration: Ecological Agriculture, Open-Source Technology, and a Radical Vision of Hope” at our live book club event in Dover, NH. (Chelsea Green Publishing)'
 summary: 'Microorganisms in soil generate carbon-rich soil and help plants grow, but too often our food comes from industrial farms that limit beneficial microbes by depleting the soil with tillage and toxic chemicals. Farmer and author Dorn Cox joins Host Steve Curwood to describe his collaborative high-tech vision of harnessing the power of microbes outlined in his book  The Great Regeneration: Ecological Agriculture, Open-Source Technology, and a Radical Vision of Hope.'
+tags:
+  - sustainable-agriculture
+  - farming
+  - soil-health
+  - biotechnology
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00038&segmentID=3 -->
 

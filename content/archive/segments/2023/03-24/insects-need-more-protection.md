@@ -1,12 +1,17 @@
 ---
 title: Insects Need More Protection
 slug: insects-need-more-protection
-date: '2023-03-24'
+date: 2023-03-24
 category: Segments
 megaphone_id: LOE8092964260
 image_url: https://loe.org/content/2023-03-24/INSECTS-bumblebee.jpg
 image_caption: 'An endangered rusty patched bumblebee forages for food. A recent study estimates 76% of insect species are inadequately protected by conservation areas worldwide. (Photo: Dan Mullen, Flickr CC BY-NC-ND 2.0)'
 summary: Roughly three quarters of the world’s insect species are inadequately protected, even in conservation areas. To help insects, which are important pollinators and the base of many food chains, Scott Black of the Xerces Society tells Host Bobby Bascomb that even small areas of protected habitat can make a big difference.
+tags:
+  - species-loss
+  - insects
+  - pesticides
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00012&segmentID=4 -->
 

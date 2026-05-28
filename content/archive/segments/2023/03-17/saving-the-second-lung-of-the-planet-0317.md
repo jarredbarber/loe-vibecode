@@ -1,12 +1,20 @@
 ---
 title: Saving the Second Lung of the Planet
 slug: saving-the-second-lung-of-the-planet-0317
-date: '2023-03-17'
+date: 2023-03-17
 category: Segments
 megaphone_id: LOE3233675152
 image_url: https://loe.org/content/2023-03-17/TREATY_aerial.jpg
 image_caption: 'Aerial view of village in Lac Paku in the peatland forest near Mbandaka, Democratic Republic of the Congo. The Congo peatlands are the most carbon-rich tropical region in the world and are estimated to store the equivalent of three years’ worth of total global fossil fuel. (Photo: Courtesy of Greenpeace Africa)'
 summary: The Congo Basin in Central Africa is a critical biodiversity hotspot and linchpin in the fight against climate disruption. Conservationist Irene Wabiwa joins Host Steve Curwood to discuss the urgent need to turn the United Nations’ recent promises to protect biodiversity into reality in the Congo and around the world.
+tags:
+  - climate-change
+  - species-loss
+  - forests
+  - drought
+  - water-pollution
+  - indigenous-rights
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00011&segmentID=5 -->
 

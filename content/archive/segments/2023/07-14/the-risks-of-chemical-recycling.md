@@ -1,12 +1,18 @@
 ---
 title: The Risks of 'Chemical Recycling'
 slug: the-risks-of-chemical-recycling
-date: '2023-07-14'
+date: 2023-07-14
 category: Segments
 megaphone_id: LOE3347125585
 image_url: https://loe.org/content/2023-07-14/CHEMICAL_pellets.jpg
 image_caption: 'Jay Schabel, president of the plastics division at Brightmark, holds plastic pellets in the company’s new chemical recycling plant in Indiana at the end of July. The pellets are made from plastic waste and sent into chemical processing equipment to make diesel fuel, naphtha and wax. (Photo: Courtesy of James Bruggers)'
 summary: So-called ‘chemical recycling’ of plastics is a highly inefficient process that releases large amounts of carbon emissions and hazardous pollutants. James Bruggers reports for Inside Climate News and joined Host Steve Curwood to discuss the health and safety problems he’s been covering at the Brightmark chemical recycling plant in Indiana.
+tags:
+  - plastics
+  - air-pollution
+  - fossil-fuels
+  - environmental-policy
+  - regulation-deregulation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00028&segmentID=3 -->
 

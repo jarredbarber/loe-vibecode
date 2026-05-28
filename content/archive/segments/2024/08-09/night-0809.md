@@ -1,12 +1,15 @@
 ---
 title: Night
 slug: night-0809
-date: '2024-08-09'
+date: 2024-08-09
 category: Segments
 megaphone_id: LOE7249154374
 image_url: https://loe.org/content/2024-03-15/LENDER_skyward.JPG
 image_caption: 'Mark Seth Lender turns his camera skyward to capture a lunar eclipse. (Photo: © Mark Seth Lender)'
 summary: The vastness of space can provoke fear but the perspective it brings can also bring inspiration and even comfort. Living on Earth’s Explorer in Residence Mark Seth Lender recounts the impact on his consciousness of a star-studded sky, planets in full view, and shooting stars.
+tags:
+  - profiles-interviews
+  - earth-observation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00032&segmentID=2 -->
 

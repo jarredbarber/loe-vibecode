@@ -1,12 +1,18 @@
 ---
 title: Hydrogen Fueled Future
 slug: hydrogen-fueled-future-0908
-date: '2023-09-08'
+date: 2023-09-08
 category: Segments
 megaphone_id: LOE9393937996
 image_url: https://loe.org/content/2023-09-08/HYDROGEN_electrolysers.jpg
 image_caption: 'These electrolysers from Giner, Inc split the bonds of water to produce hydrogen and oxygen. (Photo: Robin Lubbock, WBUR)'
 summary: If you combine hydrogen from carbon-free sources and oxygen in a fuel cell, you get water and electricity. Bruce Gellerman reports on how this chemical reaction is fueling visions of future, carbon free flights and changing voyages of fantasy into reality.
+tags:
+  - climate-change
+  - fossil-fuels
+  - solar
+  - wind
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00036&segmentID=5 -->
 

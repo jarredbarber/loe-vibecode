@@ -1,12 +1,19 @@
 ---
 title: 'BIRDNOTE®: Encounter the Cassowary'
 slug: birdnote-encounter-the-cassowary
-date: '2024-05-31'
+date: 2024-05-31
 category: Segments
 megaphone_id: LOE2669860246
 image_url: https://loe.org/content/2020-01-10/BIRDNOTE_cassowary.jpg
 image_caption: 'The Southern Cassowary is easily identified by its blue head, grey casque, and red wattle at the back of its neck. (Photo: CC Kirsty Komuso)'
 summary: BirdNote's Mary McCann describes an interaction with a Southern Cassowary, a huge, flightless, and almost-prehistoric looking bird. Found in the forests of Northern Australia, it has the lowest-pitched birdcall in the world.
+tags:
+  - birds
+  - mammals
+  - forests
+  - species-loss
+  - profiles-interviews
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00022&segmentID=3 -->
 

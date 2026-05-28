@@ -1,12 +1,17 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0301
-date: '2024-03-01'
+date: 2024-03-01
 category: Segments
 megaphone_id: LOE1195384570
 image_url: https://loe.org/content/2024-03-01/DYKSTRA_oats.jpg
 image_caption: 'Chlormequat is applied to crops like oats to prevent them from drooping and make them easier to harvest. However, animal studies suggest that it may have harmful health effects related to fertility and fetal development. (Photo: Tim Jokl, Flickr, CC BY-NC 2.0)'
 summary: Living on Earth contributor Peter Dykstra joins Host Aynsley O’Neill with news of a study showing a particular pesticide that’s present in 80% of U.S. adults. Then, the two discuss some 450 state bills asking for PFAS legislation on the docket in 2024. Finally, the pair take a look at some key historical moments surrounding national lands.
+tags:
+  - pesticides
+  - pfas-forever-chemicals
+  - environmental-policy
+  - forests
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00009&segmentID=2 -->
 

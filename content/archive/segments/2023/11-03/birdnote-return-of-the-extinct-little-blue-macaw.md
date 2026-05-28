@@ -1,12 +1,19 @@
 ---
 title: 'BirdNote®: Return of the Extinct Little Blue Macaw'
 slug: birdnote-return-of-the-extinct-little-blue-macaw
-date: '2023-11-03'
+date: 2023-11-03
 category: Segments
 megaphone_id: LOE5079936807
 image_url: https://loe.org/content/2023-11-03/BIRDNOTE_Macaw.jpg
 image_caption: 'Two blue Spix’s Macaws perch on a tree branch. (Photo: Etna 1984)'
 summary: With a little help, some species can make a miraculous comeback, even from extinction in the wild. BirdNote’s Lucina Melesio has this story about a recent avian recovery.
+tags:
+  - species-loss
+  - endangered-species
+  - birds
+  - forests
+  - amazon
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00044&segmentID=4 -->
 

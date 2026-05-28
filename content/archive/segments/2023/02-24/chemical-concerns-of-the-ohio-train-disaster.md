@@ -1,12 +1,15 @@
 ---
 title: Chemical Concerns of the Ohio Train Disaster
 slug: chemical-concerns-of-the-ohio-train-disaster
-date: '2023-02-24'
+date: 2023-02-24
 category: Segments
 megaphone_id: LOE6723246997
 image_url: https://loe.org/content/2023-02-24/TRAIN_regan.jpg
 image_caption: 'EPA Administrator Michael Regan discusses air monitoring equipment with on-scene coordinators. (Source: U.S. EPA, epa.gov, public domain)'
 summary: Eleven of the 38 train cars that came off the tracks in East Palestine, Ohio in early February contained hazardous materials including the carcinogen vinyl chloride. Crews intentionally released and burned vinyl chloride to avoid a potential explosion. Ideastream Public Media’s Abigail Bottar joins Host Bobby Bascomb to discuss residents’ lingering concerns about the long-term effects of the chemicals in their community.
+tags:
+  - chemical-contamination
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00008&segmentID=1 -->
 

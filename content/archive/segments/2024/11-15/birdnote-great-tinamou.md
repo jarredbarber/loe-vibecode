@@ -1,12 +1,17 @@
 ---
 title: 'BirdNote®: Great Tinamou'
 slug: birdnote-great-tinamou
-date: '2024-11-15'
+date: 2024-11-15
 category: Segments
 megaphone_id: LOE6451103637
 image_url: https://loe.org/content/2024-11-15/BIRDNOTE_forestfloor.jpg
 image_caption: 'A Great Tinamou on the forest floor. (Photo: Aaron Maizlish, Flickr, CC BY-NC 2.0)'
 summary: The jungles of Colombia are home to a bird with a haunting call. BirdNote’s Mary McCann reports.
+tags:
+  - birds
+  - mammals
+  - field-reporting
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00046&segmentID=4 -->
 

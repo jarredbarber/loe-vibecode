@@ -1,12 +1,16 @@
 ---
 title: Taking Stock of Climate Progress
 slug: taking-stock-of-climate-progress
-date: '2023-06-02'
+date: 2023-06-02
 category: Segments
 megaphone_id: LOE7897980783
 image_url: https://loe.org/content/2023-06-02/BONN_plenary.jpg
 image_caption: 'The U.N. climate change conference in Bonn, Germany, will kick off on June 5th. Above, a session takes place at the Bonn headquarters of the U.N. Framework Convention on Climate Change. (Photo: Shubert Ciencia, Flickr, CC BY-NC 2.0)'
 summary: Delegates gather starting June 5 in Bonn, Germany to discuss loss and damage for vulnerable countries and progress under the 2015 Paris Climate Agreement, key issues leading up to COP28 in Dubai later this fall. David Waskow of the World Resources Institute joins Host Jenni Doering to give a preview of the agenda at Bonn and the controversy over the incoming COP28 President, an oil executive.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00022&segmentID=2 -->
 

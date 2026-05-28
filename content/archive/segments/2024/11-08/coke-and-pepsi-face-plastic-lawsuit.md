@@ -1,12 +1,17 @@
 ---
 title: Coke and Pepsi Face Plastic Lawsuit
 slug: coke-and-pepsi-face-plastic-lawsuit
-date: '2024-11-08'
+date: 2024-11-08
 category: Segments
 megaphone_id: LOE7260462205
 image_url: https://loe.org/content/2024-11-08/PLASTICS_bottles.jpg
 image_caption: 'Both PepsiCo and the Coca-Cola Company have been sued by Los Angeles County for allegedly misleading claims about plastic recycling. (Photo: josecarlosfernandez, Flickr, CC BY-NC-SA 2.0)'
 summary: The County of Los Angeles is suing beverage giants Coca-Cola and PepsiCo over alleged deceptive marketing around plastics recycling. Coke and Pepsi as well as other brands they own including Mountain Dew, Sprite, Gatorade, and Smartwater are often packaged in single-use plastic bottles, which are not infinitely recyclable despite what many consumers allegedly have been led to believe.
+tags:
+  - plastics
+  - litigation
+  - environmental-policy
+  - corporate-accountability
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00045&segmentID=3 -->
 

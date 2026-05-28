@@ -1,12 +1,18 @@
 ---
 title: Big Oil Under Fire in Puerto Rico
 slug: big-oil-under-fire-in-puerto-rico
-date: '2023-01-27'
+date: 2023-01-27
 category: Segments
 megaphone_id: LOE3090042012
 image_url: https://loe.org/content/2023-01-27/RICO_billions.jpg
 image_caption: 'Hurricanes Irma and Maria caused billions of dollars in damage to Puerto Rico. Puerto Rico''s government estimated it would need $132 billion from 2018 through 2028 to repair and replace the infrastructure damaged by the hurricanes. (Photo: US Department of Agriculture, Flickr, Public Domain)'
 summary: Sixteen municipalities in Puerto Rico sue big fossil fuel companies for damages from Hurricanes Irma and Maria. The communities allege the fossil fuel companies learned their products would change the climate and intensify storms and then colluded to lie about it to the public. A win for the plaintiffs would be historic. LOE's Steve Curwood spoke with Melissa Sims, Senior Counsel with the Plaintiff's law firm Milberg.
+tags:
+  - climate-change
+  - fossil-fuels
+  - extreme-weather
+  - litigation
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00004&segmentID=1 -->
 

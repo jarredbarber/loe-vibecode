@@ -1,12 +1,18 @@
 ---
 title: Vermont's "Climate Superfund" Bill
 slug: vermonts-climate-superfund-bill
-date: '2024-05-24'
+date: 2024-05-24
 category: Segments
 megaphone_id: LOE8847135145
 image_url: https://loe.org/content/2024-05-24/VERMONT_capital.jpg
 image_caption: 'A flood in July 2023 left Vermont’s capital Montpelier underwater for weeks, causing more than $1 billion in damages. (Photo: The National Guard, Flickr, CC BY 2.0)'
 summary: Facing costly climate impacts such as the billion-dollar flood disaster of July 2023, Vermont is seeking to make fossil fuel companies pay. Vermont Law and Graduate School Emeritus Professor Pat Parenteau joins Host Paloma Beltran to discuss the state’s “Climate Superfund” bill and its potential influence.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - litigation
+  - regulation-deregulation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00021&segmentID=1 -->
 

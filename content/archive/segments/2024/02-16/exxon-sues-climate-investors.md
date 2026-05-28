@@ -1,12 +1,19 @@
 ---
 title: Exxon Sues Climate Investors
 slug: exxon-sues-climate-investors
-date: '2024-02-16'
+date: 2024-02-16
 category: Segments
 megaphone_id: LOE8631901550
 image_url: https://loe.org/content/2024-02-16/EXXON_gasoline.jpg
 image_caption: 'The activist shareholders’ resolution called on Exxon to set targets limiting Scope 3 emissions, which include emissions from customers burning gasoline in their cars. (Photo: Mr. Satterly, Wikimedia, Public Domain)'
 summary: ExxonMobil recently sued activist investors in federal court in Texas for a repeated effort to bring a climate resolution to a vote at the company’s annual shareholder meeting. The giant oil company has persisted even though the activists have withdrawn the petition. Pat Parenteau of Vermont Law and Graduate School joins Host Paloma Beltran to explain the backstory and chilling effect Exxon’s actions could have on investor engagement.
+tags:
+  - fossil-fuels
+  - corporate-accountability
+  - environmental-justice
+  - climate-change
+  - regulation-deregulation
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00007&segmentID=2 -->
 

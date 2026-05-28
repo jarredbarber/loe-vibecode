@@ -1,12 +1,17 @@
 ---
 title: Big Emitters Silent at UN
 slug: big-emitters-silent-at-un
-date: '2023-09-22'
+date: 2023-09-22
 category: Segments
 megaphone_id: LOE8057502017
 image_url: https://loe.org/content/2023-09-22/UN_guterres.jpg
 image_caption: 'UN Secretary-General Antonio Guterres said that humanity’s climate-disrupting actions have “opened the gates of hell.” (Photo: Loey Felipe, UN Photo)'
 summary: At the UN Climate Ambition Summit in New York, developed nations promised more money to help vulnerable countries adapt, but big emitting countries including the US and China had no new plans to put on the table. Living on Earth’s Paloma Beltran joins Host Jenni Doering to share highlights from the summit.
+tags:
+  - climate-change
+  - fossil-fuels
+  - climate-negotiations
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00038&segmentID=1 -->
 

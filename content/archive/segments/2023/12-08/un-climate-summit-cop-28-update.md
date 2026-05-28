@@ -1,12 +1,19 @@
 ---
 title: UN Climate Summit COP 28 Update
 slug: un-climate-summit-cop-28-update
-date: '2023-12-08'
+date: 2023-12-08
 category: Segments
 megaphone_id: LOE2133527137
 image_url: https://loe.org/content/2023-12-08/COP_group.jpg
 image_caption: 'From left: Bharrat Jagdeo, Vice President of Guyana; Brazil’s Minister of the Environment Marina Silva; Brazilian President Luiz Inácio Lula da Silva; His Excellency Dr. Sultan Al Jaber, COP28 President; Indonesian President Joko Widodo; and Razan Al Mubarak, President of the International Union for Conservation of Nature. The leaders gathered on December 2, 2023, during the Nature Session as part of COP28 in Dubai, United Arab Emirates. (Photo: Stuart Wilson, COP28, CC BY-SA 2.0)'
 summary: As the UN Climate Summit in Dubai heads towards its scheduled final day on Tuesday, December 12, delegates have yet to achieve consensus for the Global Stock take. That’s a report on progress meeting the goals of the 2015 Paris Agreement, which aspires to limit global warming to 1.5 degrees Celsius. A majority of delegates and climate advocates say there is insufficient progress to meet those goals and want COP28 to find consensus to adopt additional measures. Many nations and NGOs are also decrying the failure to fully fund climate adaptation for poor nations.
+tags:
+  - climate-change
+  - climate-negotiations
+  - fossil-fuels
+  - solar
+  - wind
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00049&segmentID=3 -->
 

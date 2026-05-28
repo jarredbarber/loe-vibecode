@@ -1,11 +1,17 @@
 ---
 title: 'Saving Jemima: Life and Love with a Hard-Luck Blue Jay'
 slug: saving-jemima-life-and-love-with-a-hard-luck-blue-jay
-date: '2023-12-29'
+date: 2023-12-29
 category: Segments
 image_url: https://loe.org/content/2020-07-24/JEMIMA_julie.jpg
 image_caption: 'Julie Zickefoose with Jemima, a wild blue jay she raised. (Photo: Courtesy of Julie Zickefoose and HMH Publishing)'
 summary: Raising an injured baby blue jay named Jemima turned out to be one of the most challenging, and rewarding, experiences of wildlife rehabilitator Julie Zickefoose’s life. In her book Saving Jemima, which she also illustrated, Zickefoose gives a peek inside the mind of her young charge learning how to be a blue jay and shares the balance of emotions involved in raising a wild bird for release. Julie Zickefoose joins Host Bobby Bascomb to tell her story as part of the Living on Earth Good Reads on Earth series.
+tags:
+  - birds
+  - wildlife-corridors
+  - profiles-interviews
+  - ecology-research
+  - book-review
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=20-P13-00030&segmentID=6 -->
 

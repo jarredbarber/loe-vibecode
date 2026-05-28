@@ -1,12 +1,17 @@
 ---
 title: '"What I Want to Believe About the Vireos"'
 slug: what-i-want-to-believe-about-the-vireos
-date: '2023-05-05'
+date: 2023-05-05
 category: Segments
 megaphone_id: LOE1015012344
 image_url: https://loe.org/content/2023-05-05/POEM_vireo.jpg
 image_caption: 'A vireo perches atop a twig. (Photo: yuki_alm_misa, Flickr, CC BY-NC-ND 2.0)'
 summary: The songbirds called vireos have increased in number by more than 50 percent in recent decades, while birds overall are struggling. That was the inspiration for Poet Laureate of Mississippi Catherine Pierce’s poem, “What I Want to Believe About the Vireos.” She joins Host Jenni Doering to share and discuss.
+tags:
+  - species-loss
+  - birds
+  - poetry-essays
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00018&segmentID=6 -->
 

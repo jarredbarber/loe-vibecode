@@ -1,12 +1,18 @@
 ---
 title: Beirut's Deadly Air
 slug: beiruts-deadly-air
-date: '2024-06-14'
+date: 2024-06-14
 category: Segments
 megaphone_id: LOE9759902434
 image_url: https://loe.org/content/2024-06-14/BEIRUT_pinkclouds.jpg
 image_caption: 'Pink clouds in the aftermath of the 2020 Beirut explosions. A catastrophic blast rocked Beirut''s port resulting from the detonation of hundreds of tons of ammonium nitrate, a fertilizer material with highly explosive properties. (Photo: Freimut Bahlo, Wikimedia Commons, CC BY-SA 4.0)'
 summary: Clouds of diesel fumes clog the air in Beirut, Lebanon where the virtual collapse of the power grid has led residents to rely on diesel generators. The city’s air is now so badly polluted researchers at the American University of Beirut are linking it to a startling 30% spike in cancer cases. Chemistry professor Najat Saliba, who is also a member of Lebanon’s parliament, joins Host Steve Curwood to discuss the health toll of this pollution and its roots in Lebanon’s debt crisis.
+tags:
+  - air-pollution
+  - fossil-fuels
+  - public-health
+  - cancer-environment
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00024&segmentID=1 -->
 

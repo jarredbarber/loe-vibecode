@@ -1,12 +1,16 @@
 ---
 title: Green Cooling and Heating for Public Housing
 slug: green-cooling-and-heating-for-public-housing
-date: '2024-02-09'
+date: 2024-02-09
 category: Segments
 megaphone_id: LOE1066744598
 image_url: https://loe.org/content/2024-02-09/APARTMENTS_dorchester.jpg
 image_caption: 'The Franklin Field Apartments in Dorchester, MA will be the first apartment complex in Boston to run on networked geothermal heat pumps. (Photo: John Wilcox, Courtesy of City of Boston Mayor’s Office)'
 summary: To help address the climate crisis the city of Boston is piloting the replacement of natural gas with ground-source heat pumps in a public housing project. The technology brings fossil-free cooling and heating as well as cleaner air to historically disadvantaged tenants. Host Jenni Doering speaks with Kenzie Bok, the Administrator of the Boston Housing Authority.
+tags:
+  - climate-change
+  - environmental-justice
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00006&segmentID=1 -->
 

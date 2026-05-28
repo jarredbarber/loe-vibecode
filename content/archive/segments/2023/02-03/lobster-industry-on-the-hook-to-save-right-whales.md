@@ -1,12 +1,19 @@
 ---
 title: Lobster Industry on the Hook to Save Right Whales
 slug: lobster-industry-on-the-hook-to-save-right-whales
-date: '2023-02-03'
+date: 2023-02-03
 category: Segments
 megaphone_id: LOE5965685494
 image_url: https://loe.org/content/2022-12-02/WHALE_whales.jpg
 image_caption: 'Only around 350 North Atlantic right whales remain in the wild. The primary known causes of death for these marine mammals are ship strikes and rope entanglements. (Photo: New England Aquarium, taken under NOAA permit #25739)'
 summary: Entanglement in fishing gear for crab and lobster traps is one of the biggest threats to the critically endangered North Atlantic Right Whale. So, the Marine Stewardship Council recently suspended its sustainability certificate for the lobster fishery in the Gulf of Maine, which led Whole Foods to halt its sale of Maine lobsters. Nicole Ogrysko, Bangor News Correspondent for Maine Public Radio, joins Host Bobby Bascomb to discuss the impacts to Maine lobstermen who are already struggling with high fuel prices, volatile lobster prices and the trade war with China.
+tags:
+  - species-loss
+  - marine-life
+  - fish
+  - environmental-policy
+  - regulation-deregulation
+  - litigation
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=22-P13-00048&segmentID=1 -->
 

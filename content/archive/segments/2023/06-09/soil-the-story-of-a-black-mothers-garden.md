@@ -1,12 +1,13 @@
 ---
 title: 'Soil: The Story of a Black Mother''s Garden'
 slug: soil-the-story-of-a-black-mothers-garden
-date: '2023-06-09'
+date: 2023-06-09
 category: Segments
 megaphone_id: LOE3873896690
 image_url: https://loe.org/content/2023-06-09/SOIL-Soil_cover.jpg
 image_caption: 'The cover of Soil: The Story of a Black Mother’s Garden. (Image: Courtesy of Simon & Schuster)'
 summary: 'Over seven years poet Camille Dungy gradually transformed her sterile Fort Collins, Colorado lawn into a pollinator haven teeming with native plants and the wildlife they attract. Her book “Soil: The Story of a Black Mother’s Garden” recounts that journey alongside a world in turmoil amid the coronavirus pandemic, police violence and wildfires. Camille Dungy joined Host Steve Curwood at a recent live event to talk about how all her hard work amending hard clay soil has yielded gifts of joy as well as metaphors.'
+tags: []
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00023&segmentID=5 -->
 

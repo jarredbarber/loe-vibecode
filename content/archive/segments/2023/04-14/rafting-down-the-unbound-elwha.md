@@ -1,10 +1,11 @@
 ---
 title: Rafting down the Unbound Elwha
 slug: rafting-down-the-unbound-elwha
-date: '2023-04-14'
+date: 2023-04-14
 category: Segments
 image_url: https://loe.org/content/2014-09-05/ELWHA--raft.png
 summary: The National Park Service just finished removing the last dams that blocked the Elwha River for over a century in Washington’s Olympic Peninsula. The river now flows freely, open once more for salmon, otters, bears and rafters. Ashley Ahearn of EarthFix takes us for a ride down the river.
+tags: []
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=14-P13-00036&segmentID=3 -->
 

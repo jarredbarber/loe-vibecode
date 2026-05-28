@@ -1,12 +1,18 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0602
-date: '2023-06-02'
+date: 2023-06-02
 category: Segments
 megaphone_id: LOE8512018508
 image_url: https://loe.org/content/2023-06-02/DYKSTRA_Uruguay.jpg
 image_caption: 'Uruguay is using salt water from the Rio De La Plata to replenish drinking water resources. (Photo: Tania Malrechauffe, Unsplash, Fair Use)'
 summary: This week, Living on Earth contributor Peter Dykstra joins Host Jenni Doering to share news of Uruguay’s salty tap water as a severe drought has forced managers to use estuary water to boost supply. Also, new research links plastic waste clogging up storm drains to a deadly flood in Mumbai in 2005. And in history, they wish Bryce Canyon National Park a very happy 100th birthday.
+tags:
+  - drought
+  - drinking-water
+  - climate-change
+  - plastics
+  - water-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00022&segmentID=4 -->
 

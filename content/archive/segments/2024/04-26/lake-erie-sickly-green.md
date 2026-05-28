@@ -1,12 +1,18 @@
 ---
 title: Lake Erie Sickly Green
 slug: lake-erie-sickly-green
-date: '2024-04-26'
+date: 2024-04-26
 category: Segments
 megaphone_id: LOE9700415032
 image_url: https://loe.org/content/2024-04-26/ERIE_lake.jpg
 image_caption: 'Lake Erie provides drinking water for about 11 million people. (Photo: Jackie, Flickr, CC BY 2.0)'
 summary: Lake Erie is being sickened by agricultural runoff and polluted wastewater, turning this important source of freshwater green. The US Department of Justice and two environmental groups recently filed suit against the Campbell Soup Company for its alleged contribution to the problems. Lake Erie Waterkeeper Sandy Bihn joins Host Aynsley O’Neill to explain the toll that multiple sources of pollution are taking on the lake.
+tags:
+  - water-pollution
+  - farming
+  - cafos-livestock
+  - water-rights
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00017&segmentID=3 -->
 

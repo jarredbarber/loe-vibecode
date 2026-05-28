@@ -1,10 +1,15 @@
 ---
 title: Wolf Song on the Rebound
 slug: wolf-song-on-the-rebound
-date: '2023-09-22'
+date: 2023-09-22
 category: Segments
 megaphone_id: LOE5446541972
 summary: For years, wolves were missing from Yellowstone National Park, leaving an eerie silence in the air. But now that the wolf population is recovering, the Park’s acoustic landscape is reviving. Reporter-in-Residence Jennifer Jerrett’s audio postcard brings us a harmonious chorus of howling wolves.
+tags:
+  - mammals
+  - species-loss
+  - field-reporting
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00038&segmentID=6 -->
 

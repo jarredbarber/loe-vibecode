@@ -1,12 +1,16 @@
 ---
 title: Plastic Pollution Treaty Talks
 slug: plastic-pollution-treaty-talks
-date: '2024-05-10'
+date: 2024-05-10
 category: Segments
 megaphone_id: LOE5406212360
 image_url: https://loe.org/content/2024-05-10/PLASTICS_mountains.jpg
 image_caption: 'Plastic and other waste in the Himalaya mountains. The fourth of five UN plastics treaty talks aimed at addressing the growing global problem of plastic pollution took place in Ottawa, Canada in April. (Photo: Sylwia Bartyzel, Unsplash)'
 summary: The fourth meeting of UN talks aimed to address plastic pollution took place this April in Ottawa, Canada. The goal is to have a legally binding international agreement on plastics pollution by the end of 2024. Professor Maria Ivanova, Director of the School of Public Policy and Urban Affairs at Northeastern University joined Living on Earth’s Paloma Beltran to give an update on what happened at these most recent talks.
+tags:
+  - plastics
+  - fossil-fuels
+  - international-treaties
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00019&segmentID=5 -->
 

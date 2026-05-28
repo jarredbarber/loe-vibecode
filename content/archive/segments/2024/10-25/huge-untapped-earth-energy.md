@@ -1,12 +1,16 @@
 ---
 title: Huge Untapped Earth Energy
 slug: huge-untapped-earth-energy
-date: '2024-10-25'
+date: 2024-10-25
 category: Segments
 megaphone_id: LOE8491447481
 image_url: https://loe.org/content/2024-10-25/GEOTHERMAL_iceland.jpeg
 image_caption: 'Pictured above is a geothermal feature in Mývatn Iceland. Geothermal energy close to the surface produces over a quarter of Iceland''s total electricity. (Photo: Courtesy of Jamie Beard)'
 summary: The heat within Earth’s crust could become a major source of always-on, carbon-free, renewable geothermal electricity thanks to the emergence of fracking technology that can drill now as much as six miles below the surface and reach hot zones. Jamie Beard is the founder of Project InnerSpace and joins Host Paloma Beltran to explain why a partnership between the oil and gas and geothermal industries could bring transformational change to the energy sector worldwide.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00043&segmentID=4 -->
 

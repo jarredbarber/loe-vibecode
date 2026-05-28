@@ -1,12 +1,16 @@
 ---
 title: Event Promo -- Susan Casey on the Deep Sea
 slug: event-promo-susan-casey-on-the-deep-sea
-date: '2024-11-29'
+date: 2024-11-29
 category: Segments
 megaphone_id: LOE5597021723
 image_url: https://loe.org/content/2024-11-29/EVENT_cover.jpg
 image_caption: 'The Underworld: Journeys to the Depths of the Ocean, from bestselling author Susan Casey. (Photo: Courtesy of Penguin Random House)'
 summary: Living on Earth and the New England Aquarium will host a live author interview on December 5 online and in person in Boston. In a promo clip from a previous interview on the show, Susan Casey speaks about the mysteries of the deep ocean captured in her book The Underworld.
+tags:
+  - marine-life
+  - oceans
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00048&segmentID=3 -->
 

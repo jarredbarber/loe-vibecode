@@ -1,12 +1,18 @@
 ---
 title: Bringing Back the Endangered Species Act
 slug: bringing-back-the-endangered-species-act
-date: '2023-06-30'
+date: 2023-06-30
 category: Segments
 megaphone_id: LOE7437390325
 image_url: https://loe.org/content/2023-06-30/ESA_condor.jpg
 image_caption: 'The California condor, a colossal bird with a wingspan over nine feet, was originally listed as endangered in 1967 under the precursor to the Endangered Species Act. In 1982, roughly 20 of the birds remained in the wild. By 2022, following recovery efforts, the U.S. Fish and Wildlife Service says their population had rebounded to 347. (Photo: U.S. Fish and Wildlife Service, Public Domain)'
 summary: Only a few dozen species have ever recovered enough to make it off the endangered species list, due to a lack of funding and political controversy. Pat Parenteau, emeritus professor at Vermont Law and Graduate School discusses with Host Aynsley O’Neill some recent updates to the Endangered Species Act by the Biden Administration and where he says they fall short.
+tags:
+  - endangered-species
+  - environmental-policy
+  - climate-change
+  - marine-life
+  - litigation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00026&segmentID=5 -->
 

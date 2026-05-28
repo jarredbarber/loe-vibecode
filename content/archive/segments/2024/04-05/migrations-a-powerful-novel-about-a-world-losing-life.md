@@ -1,12 +1,18 @@
 ---
 title: 'Migrations: A Powerful Novel About A World Losing Life'
 slug: migrations-a-powerful-novel-about-a-world-losing-life
-date: '2024-04-05'
+date: 2024-04-05
 category: Segments
 megaphone_id: LOE1015853430
 image_url: https://loe.org/content/2020-12-04/MIGRATIONS_tern.jpg
 image_caption: 'The Arctic tern has the longest migration route out of any bird. Every year, it flies from the Arctic to the Antarctic and back. (Photo: Ed Dunens, Flickr, CC BY 2.0)'
 summary: 'In the 2020 novel Migrations set in the future, polar bears are extinct. So are chimpanzees and wolves and big cats. For the novel’s protagonist, this mass extinction is personal. So, she does the first thing that comes to mind: she makes her way onto a fishing boat to follow what might be the very last migration of the Arctic Tern from pole to pole. Host Steve Curwood speaks with author Charlotte McConaghy about her masterful debut work of environmental fiction.'
+tags:
+  - climate-change
+  - species-loss
+  - birds
+  - oceans
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00014&segmentID=5 -->
 

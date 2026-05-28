@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0224
-date: '2023-02-24'
+date: 2023-02-24
 category: Segments
 megaphone_id: LOE8607242860
 image_url: https://loe.org/content/2023-02-24/DYKSTRA_Ukraine.jpg
 image_caption: 'Ukraine is demanding that Russia pay for environmental war crimes. (Photo: Oleksandr Ratushniak. Flickr, CC BY-ND 2.0)'
 summary: "Journalist Peter Dykstra joins Host Bobby Bascomb this week to discuss the billions of dollars in damage to Ukraine’s environment since the Russian invasion. They also discuss the ongoing bird flu outbreak in which some 60 million chickens and turkeys have been slaughtered on hundreds of commercial farms in the U.S. For a history lesson, they dive into the 1799\_Federal Timber Forestry Purchases Act, which was likely\_the first forest conservation measure in the U.S."
+tags:
+  - water-pollution
+  - species-loss
+  - fossil-fuels
+  - forests
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00008&segmentID=2 -->
 

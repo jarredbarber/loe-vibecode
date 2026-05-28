@@ -1,11 +1,16 @@
 ---
 title: Befriending An Octopus
 slug: befriending-an-octopus
-date: '2024-12-27'
+date: 2024-12-27
 category: Segments
 image_url: http://stream.loe.org/images/111118/TOP/TOP octopusarm.jpg
 image_caption: '(Photo: Tonly LaCasse)'
 summary: Octopuses may have small brains, but scientists believe they are intelligent creatures with distinct personalities. Living on Earth’s Steve Curwood and environmental writer Sy Montgomery went behind the exhibits at the New England Aquarium and wrapped their arms around Octavia, a giant Pacific octopus.
+tags:
+  - mammals
+  - profiles-interviews
+  - ecology-research
+  - citizen-science
 ---
 <!-- source: http://www.loe.org/shows/segments.html?programID=11-P13-00046&segmentID=6 -->
 

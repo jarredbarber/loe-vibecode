@@ -1,12 +1,14 @@
 ---
 title: The Accidental Ecosystem
 slug: the-accidental-ecosystem-0106
-date: '2023-01-06'
+date: 2023-01-06
 category: Segments
 megaphone_id: LOE2409245635
 image_url: https://loe.org/content/2023-01-06/ECOSYSTEM_cover.jpg
 image_caption: 'Peter Alagona’s 2022 book “The Accidental Ecosystem: People and Wildlife in American Cities.” (Photo: Courtesy of University of California Press)'
 summary: 'Many non-human animals call cities home or take advantage of their abundant resources. In his 2022 book The Accidental Ecosystem: People and Wildlife in American Cities, environmental historian Peter Alagona explores how other species have found ways to live among us. He joins Host Jenni Doering to discuss how being more intentional about how we design and use our cities in the future can bring benefits for both humans and the wildlife we share these spaces with.'
+tags:
+  - urban-environment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00001&segmentID=4 -->
 

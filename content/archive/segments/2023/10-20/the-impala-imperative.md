@@ -1,12 +1,18 @@
 ---
 title: The Impala Imperative
 slug: the-impala-imperative
-date: '2023-10-20'
+date: 2023-10-20
 category: Segments
 megaphone_id: LOE7093266217
 image_url: https://loe.org/content/2022-03-11/MSL_two.jpg
 image_caption: 'Two impala face each other in tall grass. (Photo: © Mark Seth Lender)'
 summary: Prey species have evolved many ways to confuse their predators, from a zebra’s stripes to an impala’s back side. Living on Earth’s Explorer in Residence, Mark Seth Lender explains.
+tags:
+  - mammals
+  - wildlife-corridors
+  - ecology-research
+  - field-reporting
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00042&segmentID=5 -->
 

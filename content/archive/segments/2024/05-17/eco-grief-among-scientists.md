@@ -1,12 +1,18 @@
 ---
 title: Eco Grief Among Scientists
 slug: eco-grief-among-scientists
-date: '2024-05-17'
+date: 2024-05-17
 category: Segments
 megaphone_id: LOE7860675025
 image_url: https://loe.org/content/2024-05-17/OCEAN_reef.jpeg
 image_caption: 'The Great Barrier Reef is the world''s largest coral reef system, located in the Coral Sea off the coast of northeast Australia. (Photo: Jorge Láscar, Wikipedia Commons, CC BY 2.0)'
 summary: 2023 was the hottest year on record, at 1.48 degrees Celsius above preindustrial levels. That’s just below the 1.5 C increase that the UN says is the limit to avoid the worst impacts of climate change. As the summer of 2024 approaches in the Northern Hemisphere, climate scientists are raising the alarm on dangerous impacts of ongoing heat waves. Bob Berwyn from Inside Climate news joined Living on Earth’s Aynsley O’Neill to discuss ocean heat waves and profound grief among marine scientists.
+tags:
+  - climate-change
+  - extreme-weather
+  - species-loss
+  - marine-life
+  - heatwave
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00020&segmentID=1 -->
 

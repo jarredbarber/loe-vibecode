@@ -1,12 +1,13 @@
 ---
 title: Pope and Postal EVs
 slug: pope-and-postal-evs
-date: '2024-12-13'
+date: 2024-12-13
 category: Segments
 megaphone_id: LOE5265654241
 image_url: https://loe.org/content/2024-12-13/EV_duckmobile.jpg
 image_caption: 'An example of the new USPS electric vehicles, or “duckmobiles”. This version, an Oshkosh Next Generation Delivery Vehicle, was on display at the 2023 Consumer Electronics Show. (Photo: U.S. Government Accountability Office, Wikimedia Commons, public domain)'
 summary: The newest Popemobile for the Holy Father is an all-electric Mercedes-Benz, and most of the new U.S. Postal Service trucks are EVs, too. Jim Motavalli writes about green transportation for Autoweek and Barron’s and talks with Living on Earth’s Aynsley O’Neill about the shift to EVs by the Vatican, Post Offices, and everyday consumers.
+tags: []
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00050&segmentID=3 -->
 

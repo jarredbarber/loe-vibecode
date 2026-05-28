@@ -1,12 +1,20 @@
 ---
 title: Climate Deception
 slug: climate-deception-0126
-date: '2024-01-26'
+date: 2024-01-26
 category: Segments
 megaphone_id: LOE2430919389
 image_url: https://loe.org/content/2024-01-19/ORESKES_oilrig.jpg
 image_caption: 'The Global Climate Coalition was a lobbying organization created by a group of fossil fuel companies to spread climate denial. One of its primary objectives was to block the United States from signing the Kyoto Protocol. (Photo: Marianne Muegenburg Cothern, Flickr, CC BY-SA 2.0)'
 summary: When scientists began to warn in the later half of the twentieth century that burning oil, gas, and coal could bring severe consequences for our planet, they touched a nerve in the powerful fossil fuel industry. In this second installment of our series on climate change disinformation, historian of science Naomi Oreskes and Host Steve Curwood dive into how the fossil fuel industry infiltrated the political sphere and scientific community to block climate action.
+tags:
+  - climate-change
+  - fossil-fuels
+  - climate-science
+  - environmental-policy
+  - corporate-accountability
+  - activism
+  - profiles-interviews
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=24-P13-00003&segmentID=3 -->
 

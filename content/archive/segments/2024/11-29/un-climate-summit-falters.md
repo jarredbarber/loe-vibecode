@@ -1,12 +1,18 @@
 ---
 title: UN Climate Summit Falters
 slug: un-climate-summit-falters
-date: '2024-11-29'
+date: 2024-11-29
 category: Segments
 megaphone_id: LOE2427128758
 image_url: https://loe.org/content/2024-11-29/COP29_guterres.jpg
 image_caption: 'Antonio Guterres, secretary-general of the United Nations, speaks at COP29 in Baku, Azerbaijan. (Photo: The Presidential Press and Information Office of Azerbaijan, Wikimedia Commons, CC BY 4.0)'
 summary: The UN climate treaty summit known as COP29 teetered on the edge of collapse as less developed nations implored the rich countries of the global north to provide financial relief to help them cope with rising climate costs. Alden Meyer, senior consultant with E3G, was at the COP and joins Host Steve Curwood to explain the frustrations with the process and the compromise delegates eventually reached.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
+  - climate-negotiations
+  - international-treaties
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00048&segmentID=1 -->
 

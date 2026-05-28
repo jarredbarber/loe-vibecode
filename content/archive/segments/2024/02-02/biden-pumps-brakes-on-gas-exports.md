@@ -1,12 +1,16 @@
 ---
 title: Biden Pumps Brakes on Gas Exports
 slug: biden-pumps-brakes-on-gas-exports
-date: '2024-02-02'
+date: 2024-02-02
 category: Segments
 megaphone_id: LOE7001255931
 image_url: https://loe.org/content/2024-02-02/LNG_cameronparish.jpg
 image_caption: 'The Calcasieu Pass liquefied natural gas (LNG) export facility in Cameron Parish, Louisiana, US, is operated by Venture Global Calcasieu Pass, a subsidiary of US-based LNG production company Venture Global LNG. (Photo: Halle Parker)'
 summary: The Biden Administration has paused new export permits of liquefied natural gas over concerns that these enormous facilities would emit millions of tons of greenhouse gases every year. Reporter Halle Parker of WWNO in New Orleans joins Host Jenni Doering to discuss why LNG exports have been rising in recent years and the impact they are having on the Gulf Coast and the global climate.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00005&segmentID=1 -->
 

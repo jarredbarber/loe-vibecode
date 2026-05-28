@@ -1,12 +1,19 @@
 ---
 title: Kamala Harris on Climate and the Environment
 slug: kamala-harris-on-climate-and-the-environment
-date: '2024-08-23'
+date: 2024-08-23
 category: Segments
 megaphone_id: LOE3562368397
 image_url: https://loe.org/content/2024-08-23/KAMALA_record.jpg
 image_caption: 'Kamala Harris’s record as an Attorney General who took on oil companies and promoted environmental justice has energized many climate voters. (Photo: Prachatai, Flickr, CC BY-NC-ND 2.0)'
 summary: Democratic presidential nominee Kamala Harris she has a long environmental history from her time as a former California attorney general who took on oil companies, her work on the Inflation Reduction Act as Vice President, to her engagement in international climate diplomacy. Marianne Lavelle from Inside Climate News joins hosts O’Neill and Steve Curwood to walk through Kamala Harris’ environmental record and what it could mean for her campaign.
+tags:
+  - climate-change
+  - environmental-policy
+  - green-economy
+  - profiles-interviews
+  - fossil-fuels
+  - international-treaties
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00034&segmentID=2 -->
 

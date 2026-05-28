@@ -1,12 +1,16 @@
 ---
 title: In Defense of Little Foxes
 slug: in-defense-of-little-foxes
-date: '2024-01-26'
+date: 2024-01-26
 category: Segments
 megaphone_id: LOE6235102744
 image_url: https://loe.org/content/2024-01-26/MSL_foxandsquirrel.JPG
 image_caption: 'RedFox takes a bite out of the squirrel Mark Seth Lender nicknamed “The Fat Man.” (Photo: © Mark Seth Lender)'
 summary: Living on Earth Explorer in Residence, Mark Seth Lender, describes his internal conflict when a red fox who’s a welcome visitor to his backyard pursues a familiar squirrel.
+tags:
+  - mammals
+  - wildlife-corridors
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00004&segmentID=4 -->
 

@@ -1,12 +1,18 @@
 ---
 title: The American Climate Corps
 slug: the-american-climate-corps
-date: '2023-09-29'
+date: 2023-09-29
 category: Segments
 megaphone_id: LOE4880087499
 image_url: https://loe.org/content/2023-09-29/ACC_solar.jpg
 image_caption: 'The future clean energy economy will require a technically skilled workforce. (Photo: Trin Trahn, Pexels, CC)'
 summary: Ninety years after the creation of the Civilian Conservation Corps, the Biden administration is mobilizing a national workforce to tackle today’s crisis of climate disruption. The American Climate Corps aims to train 20,000 young people in its first year for jobs in clean energy, climate resilience, and land restoration. Trevor Dolan of Evergreen Action joins Host Aynsley O’Neill to discuss.
+tags:
+  - climate-change
+  - jobs-just-transition
+  - green-economy
+  - youth-education
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00039&segmentID=1 -->
 

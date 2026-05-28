@@ -1,11 +1,14 @@
 ---
 title: The Book of Delights
 slug: the-book-of-delights-0802
-date: '2024-08-02'
+date: 2024-08-02
 category: Segments
 image_url: https://loe.org/content/2020-02-28/GAY_cover.jpg
 image_caption: 'The Book of Delights is the first nonfiction book from poet Ross Gay, who dedicated a year to writing daily essays about the things that delight him. (Photo: Courtesy of Ross Gay)'
 summary: For a year, poet Ross Gay took a moment almost every day to write about something that delighted him. He has compiled the essays into his most recent volume, The Book of Delights. Ross Gay joins Living on Earth’s Bobby Bascomb to discuss the power of finding delight in unexpected ways.
+tags:
+  - profiles-interviews
+  - poetry-essays
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=20-P13-00009&segmentID=6 -->
 

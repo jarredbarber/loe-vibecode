@@ -1,12 +1,14 @@
 ---
 title: Human Voices and the "Ecology of Fear"
 slug: human-voices-and-the-ecology-of-fear
-date: '2023-10-20'
+date: 2023-10-20
 category: Segments
 megaphone_id: LOE2795508334
 image_url: https://loe.org/content/2023-10-20/FEAR_wateringhole.jpg
 image_caption: 'Giraffe converge around the watering hole, similar to the set-up for Dr. Zanette’s study. (Photo: Konstantin’s Europe and More, Flickr, CC BY-NC-ND 2.0)'
 summary: A new study finds that giraffes, zebras, warthogs and impalas are far more afraid of human conversation than even the growls of lions. Lead author Dr. Liana Zanette of Western University in Canada joins Host Aynsley O’Neill to explain how her research provides new insights into the “ecology of fear.”
+tags:
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00042&segmentID=6 -->
 

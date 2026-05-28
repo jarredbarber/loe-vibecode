@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0630
-date: '2023-06-30'
+date: 2023-06-30
 category: Segments
 megaphone_id: LOE9549461685
 image_url: https://loe.org/content/2023-06-30/DYKSTRA_arctic.jpg
 image_caption: 'The Arctic Ocean is becoming warmer and saltier, which is more akin to the Atlantic Ocean, in a process known as “Atlantification”. (Photo: Alex Berger, Flickr, CC BY-NC 2.0)'
 summary: This week, Peter Dykstra joins Host Aynsley O’Neill to share news of the “Atlantification” of the Arctic Ocean, as species more accustomed to warmer waters find safe harbor in the warming Arctic. They also cover the $10 billion settlement deal with 3M over contamination from the PFAS chemicals it manufactures. And in history, a look back to the delisting of the bald eagle, which had recovered following a few decades on the endangered species list.
+tags:
+  - climate-change
+  - arctic-polar
+  - pfas-forever-chemicals
+  - water-pollution
+  - endangered-species
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00026&segmentID=4 -->
 

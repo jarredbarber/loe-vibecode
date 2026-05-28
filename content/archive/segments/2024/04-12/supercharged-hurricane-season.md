@@ -1,12 +1,18 @@
 ---
 title: Supercharged Hurricane Season
 slug: supercharged-hurricane-season
-date: '2024-04-12'
+date: 2024-04-12
 category: Segments
 megaphone_id: LOE7764548896
 image_url: https://loe.org/content/2024-04-12/HURRICANES_ocean.jpg
 image_caption: 'Three simultaneous tropical cyclones form in the 2023 Atlantic hurricane season. Idalia (left), Franklin (center), and what would eventually become Jose (far right). (Photo: S imagery from NOAA''s NOAA-20 Satellite, NOAA View Global Data Explorer, Wikimedia Commons, Public Domain)'
 summary: Some scientists are predicting this year’s Atlantic hurricane season will be extremely active as a La Niña develops amid ocean warmth linked to global warming. Meteorologist Ryan Truchelut of Weather Tiger joins Host Steve Curwood to discuss the science behind these factors and how people along the Atlantic and Gulf coasts can stay safe.
+tags:
+  - climate-change
+  - extreme-weather
+  - atmospheric-science
+  - oceans
+  - water-pollution
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00015&segmentID=1 -->
 

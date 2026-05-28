@@ -1,12 +1,17 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0209
-date: '2024-02-09'
+date: 2024-02-09
 category: Segments
 megaphone_id: LOE1192336783
 image_url: https://loe.org/content/2023-10-06/SALTWATER_wedge.jpg
 image_caption: 'A graphic depicting what a saltwater wedge looks like, how it interacts with freshwater, as well as the sill, or underwater barrier, constructed by the Corps in July 2023. (Photo: U.S. Army Corps of Engineers)'
 summary: Living on Earth Contributor Peter Dykstra joins Host Steve Curwood with news of a reprieve -- for now -- for the drinking water supplies threatened by saltwater intrusion in coastal Louisiana. Also, a city in Germany is using the Rhine River as a giant source of heat and cooling potential on an industrial scale. And in history, they mark the birthday and exoneration of the Renaissance’s Galileo Galilei.
+tags:
+  - sea-level-rise
+  - climate-change
+  - drinking-water
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00006&segmentID=2 -->
 

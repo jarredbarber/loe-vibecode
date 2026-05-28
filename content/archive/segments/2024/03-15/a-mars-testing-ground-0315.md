@@ -1,12 +1,15 @@
 ---
 title: A Mars Testing Ground
 slug: a-mars-testing-ground-0315
-date: '2024-03-15'
+date: 2024-03-15
 category: Segments
 megaphone_id: LOE9761339323
 image_url: https://loe.org/content/2024-03-15/MARS_simulate.JPG
 image_caption: 'To simulate a Mars mission, crew members suit up while outside of the station structures. (Photo: Courtesy of the Mars Society)'
 summary: Since 2001 the Mars Society has run over 270 simulated missions at a remote site in the high desert of Utah, to study the effect of extra-vehicular activity or EVA on the human body and mimic field research people might run on Mars one day, such as looking for fossilized life. Mars Society President Dr. Robert Zubrin joins Host Aynsley O’Neill to describe the research station, what a day in the life of a participant looks like and says why he believes we should send humans to Mars.
+tags:
+  - earth-observation
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00011&segmentID=3 -->
 

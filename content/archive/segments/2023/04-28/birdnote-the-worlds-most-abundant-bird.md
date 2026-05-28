@@ -1,12 +1,19 @@
 ---
 title: 'BIRDNOTE®: The World''s Most Abundant Bird'
 slug: birdnote-the-worlds-most-abundant-bird
-date: '2023-04-28'
+date: 2023-04-28
 category: Segments
 megaphone_id: LOE6509093278
 image_url: https://loe.org/content/2023-04-28/BIRDNOTE_tree.jpg
 image_caption: 'A flock of red-billed quelea perch in the branches of a tree. (Photo: Bernard Dupont, CC)'
 summary: The red-billed Quelea is a small finch-like African bird that migrates long distances in massive flocks. BirdNote®’s Michael Stein reports.
+tags:
+  - birds
+  - species-loss
+  - invasive-species
+  - farming
+  - profiles-interviews
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00017&segmentID=4 -->
 

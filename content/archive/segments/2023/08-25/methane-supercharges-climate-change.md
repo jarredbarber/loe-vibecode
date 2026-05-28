@@ -1,12 +1,17 @@
 ---
 title: Methane Supercharges Climate Change
 slug: methane-supercharges-climate-change
-date: '2023-08-25'
+date: 2023-08-25
 category: Segments
 megaphone_id: LOE8893248221
 image_url: https://loe.org/content/2022-09-23/METHANE_cow.jpg
 image_caption: 'The recent surge in atmospheric methane has been largely attributed to microbial sources, such as cow burps and wetlands. (Photo: Spike Stitch, Flickr, CC BY-NC-ND 2.0)'
 summary: Scientists are sounding the alarm about a recent uptick in methane emissions. Methane is roughly 85 times more potent than CO2 as a greenhouse gas when it’s first emitted and reducing methane releases now may be one of the fastest ways to slow down climate change. Kristofer Covey, Assistant Professor of Environmental Studies and Sciences at Skidmore College, talks with Host Steve Curwood about the sources of this surge and how they can be addressed.
+tags:
+  - climate-change
+  - atmospheric-science
+  - fossil-fuels
+  - arctic-polar
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00034&segmentID=2 -->
 

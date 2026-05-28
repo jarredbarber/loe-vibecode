@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0922
-date: '2023-09-22'
+date: 2023-09-22
 category: Segments
 megaphone_id: LOE3600974091
 image_url: https://loe.org/content/2023-09-22/DYKSTRA_portuguese.jpg
 image_caption: 'Four of the six young people who will take European nations to court seeking climate action are from Leiria, a region of Portugal that experienced deadly wildfires in 2017. (Photo: Marcelo Engenheiro, Courtesy of the Global Legal Action Network)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Steve Curwood to discuss a youth climate lawsuit against 32 European states, and the restoration of a Clean Water Act rule that was rolled back by the Trump administration. In history, they raise a glass of hard apple cider for Johnny Appleseed’s birthday.
+tags:
+  - climate-change
+  - litigation
+  - water-pollution
+  - environmental-policy
+  - regulation-deregulation
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00038&segmentID=2 -->
 

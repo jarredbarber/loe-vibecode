@@ -1,12 +1,18 @@
 ---
 title: 'An Immense World: How Animal Senses Reveal the Hidden Realms Around Us'
 slug: an-immense-world-how-animal-senses-reveal-the-hidden-realms-around-us
-date: '2023-08-11'
+date: 2023-08-11
 category: Segments
 megaphone_id: LOE1597911648
 image_url: https://loe.org/content/2022-11-04/YONG_header.jpg
 image_caption: 'Ed Yong’s 2022 book  An Immense World: How Animal Senses Reveal the Hidden Realms Around Us  (Photo: Courtesy of Penguin Random House)'
 summary: 'Every animal species experiences the world in a way that is totally unique to them. Mantis shrimp, for example, have many more photoreceptors than humans and can filter polarized light, and star-nosed moles can smell under water. At a Living on Earth Book Club event, author Ed Yong joined Living on Earth’s Steve Curwood to share the fascinating sensory abilities he learned about in researching his new book, “An Immense World: How Animal Senses Reveal the Hidden Realms Around Us”.'
+tags:
+  - mammals
+  - insects
+  - birds
+  - profiles-interviews
+  - book-review
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00032&segmentID=4 -->
 

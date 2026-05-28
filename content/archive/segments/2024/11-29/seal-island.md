@@ -1,12 +1,17 @@
 ---
 title: Seal Island
 slug: seal-island
-date: '2024-11-29'
+date: 2024-11-29
 category: Segments
 megaphone_id: LOE4244529147
 image_url: https://loe.org/content/2024-11-29/LENDER_seal.JPG
 image_caption: 'Seal’s head pokes up above the water. (Photo: © Mark Seth Lender)'
 summary: The rocky coast of Maine is an ecological hotspot but to see a lot of its wildlife, you’ll have to venture out to sea. And that’s where Living on Earth’s Explorer in Residence, Mark Seth Lender found himself not long ago.
+tags:
+  - marine-life
+  - mammals
+  - wildlife-corridors
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00048&segmentID=2 -->
 

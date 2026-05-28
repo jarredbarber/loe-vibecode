@@ -1,12 +1,15 @@
 ---
 title: Environmental Justice for All of Government
 slug: environmental-justice-for-all-of-government-0602
-date: '2023-06-02'
+date: 2023-06-02
 category: Segments
 megaphone_id: LOE9600714616
 image_url: https://loe.org/content/2023-06-02/EPA_tornado.jpg
 image_caption: 'The EPA enlists aid from other governmental agencies such as Health and Human Services and FEMA to respond to severe weather events. (Photo: Chickamauga Tornado, Flickr, CC BY-SA 2.0)'
 summary: President Biden recently created a White House Office of Environmental Justice to coordinate EJ efforts across all federal agencies. EPA Region 4 Administrator Daniel Blackman joins Host Steve Curwood to discuss how the office can help address the disproportionate pollution and climate-related damages that environmental justice communities in the Southeast U.S. often suffer.
+tags:
+  - environmental-justice
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00022&segmentID=3 -->
 

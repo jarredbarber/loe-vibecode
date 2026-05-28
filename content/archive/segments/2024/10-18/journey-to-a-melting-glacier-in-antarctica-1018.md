@@ -1,12 +1,20 @@
 ---
 title: Journey to a Melting Glacier in Antarctica
 slug: journey-to-a-melting-glacier-in-antarctica-1018
-date: '2024-10-18'
+date: 2024-10-18
 category: Segments
 megaphone_id: LOE5277241033
 image_url: https://loe.org/content/2024-02-02/QUICKENING_thwaites.JPG
 image_caption: 'Thwaites glacier surrounded by sea ice. (Photo: Elizabeth Rush)'
 summary: 'Thwaites Glacier in Antarctica holds enough ice that its melting could raise sea levels worldwide by 2 feet, but it’s so remote that until recently no one had ever approached where it meets the sea. Elizabeth Rush was a writer-in-residence on board the first research icebreaker to visit Thwaites and chronicles the journey in her book The Quickening: Creation and Community at the Ends of the Earth. She joined Living on Earth Host Steve Curwood to share the experience of witnessing the glacier’s unraveling and the crucial data the scientists on board unearthed.'
+tags:
+  - climate-change
+  - sea-level-rise
+  - extreme-weather
+  - arctic-polar
+  - oceans
+  - climate-science
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00042&segmentID=6 -->
 

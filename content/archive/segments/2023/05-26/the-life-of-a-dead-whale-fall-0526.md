@@ -1,12 +1,16 @@
 ---
 title: The Life of a Dead Whale Fall
 slug: the-life-of-a-dead-whale-fall-0526
-date: '2023-05-26'
+date: 2023-05-26
 category: Segments
 megaphone_id: LOE6057136606
 image_url: https://loe.org/content/2023-05-26/WHALEFALL_cover.jpg
 image_caption: '“Whale Fall: Exploring an Ocean-Floor Ecosystem” is the new book written by Melissa Stewart and illustrated by Rob Dunlavey. (Photo: Courtesy of Random House)'
 summary: 'When a whale dies, it eventually sinks to the ocean floor. And although that whale’s life is over, that’s when a whole new circle of life kicks off, with thousands of organisms including hagfish, zombie worms, and octopuses feeding off this “whale fall” for 50 or more years. Children’s author Melissa Stewart wrote about this ecosystem in her book, “Whale Fall: Exploring an Ocean-Floor Ecosystem,” and joins Host Jenni Doering to discuss.'
+tags:
+  - marine-life
+  - oceans
+  - species-loss
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00021&segmentID=6 -->
 

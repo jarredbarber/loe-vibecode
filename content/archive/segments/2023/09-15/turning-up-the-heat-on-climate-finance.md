@@ -1,12 +1,18 @@
 ---
 title: Turning Up the Heat on Climate Finance
 slug: turning-up-the-heat-on-climate-finance
-date: '2023-09-15'
+date: 2023-09-15
 category: Segments
 megaphone_id: LOE8319787428
 image_url: https://loe.org/content/2023-09-15/AFRICA_Nairobi.jpg
 image_caption: 'Kenyan people in traditional dress during the visit of Ursula von der Leyen, President of the European Commission, to Nairobi, Kenya where she participated in the Africa Climate Summit on September 5th, 2023. (Photo: Dati Bento, European Union, EC, Fair Use)'
 summary: Africa has emitted a tiny fraction of the greenhouse gas emissions from the more developed parts of the world but is experiencing catastrophic impacts with little ability to adapt. Alden Meyer of E3G joins Host Jenni Doering to explain how climate finance was a focus of the recent Africa Climate Summit, which took place in advance of the Climate Ambition Summit that UN Secretary General Antonio Guterres is convening in New York on September 20th.
+tags:
+  - climate-change
+  - fossil-fuels
+  - environmental-justice
+  - climate-negotiations
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00037&segmentID=2 -->
 

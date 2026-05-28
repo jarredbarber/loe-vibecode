@@ -1,12 +1,18 @@
 ---
 title: A Vivid New View of Earth
 slug: a-vivid-new-view-of-earth
-date: '2024-07-05'
+date: 2024-07-05
 category: Segments
 megaphone_id: LOE8821672538
 image_url: https://loe.org/content/2024-07-05/PACE_alloftheletters.jpg
 image_caption: 'This image encompasses all of the letters in the PACE acronym. Blooms of phytoplankton (P) are seen as green colors off the coast. Red dust aerosols (A) blow from western Africa over the Atlantic Ocean that is dotted with clouds (C). Minerals carried within the dust deliver key nutrients such as iron to sustain life at the base of the ocean ecosystem (E). (Photo: NASA)'
 summary: A powerful new NASA satellite called PACE can look at the ocean and clouds to distinguish between different kinds of microscopic phytoplankton and aerosols from an orbit 400 miles up. PACE Project Scientist Dr. Jeremy Werdell joins Host Jenni Doering to describe how the technology works, its value to scientific research on climate change, and the real-time data it provides about water and air quality worldwide.
+tags:
+  - climate-science
+  - earth-observation
+  - oceans
+  - water-pollution
+  - carbon-cycle
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00027&segmentID=3 -->
 

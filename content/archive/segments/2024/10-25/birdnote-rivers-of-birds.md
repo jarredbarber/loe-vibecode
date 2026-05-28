@@ -1,12 +1,16 @@
 ---
 title: 'BirdNote®: Rivers of Birds'
 slug: birdnote-rivers-of-birds
-date: '2024-10-25'
+date: 2024-10-25
 category: Segments
 megaphone_id: LOE6788358133
 image_url: https://loe.org/content/2019-04-05/BIRDNOTE-tern.jpg
 image_caption: 'Every year the Arctic Tern follows a migratory pattern of 50,000 miles, one of the longest routes for any bird. (Photo: Gregg Thompson)'
 summary: Along the four major North American flyways, huge “rivers” of Arctic Terns and other migrating birds are now making their way south again. BirdNote®’s Mary McCann describes their incredible journey.
+tags:
+  - birds
+  - arctic-polar
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00043&segmentID=5 -->
 

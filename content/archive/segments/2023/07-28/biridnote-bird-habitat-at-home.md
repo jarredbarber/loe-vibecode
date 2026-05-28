@@ -1,12 +1,17 @@
 ---
 title: 'BIRIDNOTE®: Bird Habitat at Home'
 slug: biridnote-bird-habitat-at-home
-date: '2023-07-28'
+date: 2023-07-28
 category: Segments
 megaphone_id: LOE2701866712
 image_url: https://loe.org/content/2023-07-28/BIRDNOTE_tree.jpg
 image_caption: 'A black-capped chickadee perches on a tree branch. (Photo: Colin Durfee, CC)'
 summary: Cultivating natural habitat for native birds can help combat biodiversity loss, as Ariana Remmel reports in today’s BirdNote.
+tags:
+  - species-loss
+  - endangered-species
+  - birds
+  - forests
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00030&segmentID=7 -->
 

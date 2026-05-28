@@ -1,12 +1,19 @@
 ---
 title: Unmasking Secret Fracking Chemicals
 slug: unmasking-secret-fracking-chemicals
-date: '2023-11-24'
+date: 2023-11-24
 category: Segments
 megaphone_id: LOE2099452733
 image_url: https://loe.org/content/2023-11-24/PENN_fracking.jpg
 image_caption: Workers at a fracking drill site in Murphy, Pennsylvania. An October 2023 report by Physicians for Social Responsibility details the risks of injecting PFAS into Pennsylvania’s oil and gas wells, including the use of 160 million pounds of undisclosed chemicals, some of which could be this toxic “forever” chemical. (Photo by Alice McGown, FracTracker Alliance, Flickr, CC BY-NC-ND 2.0)
 summary: Many of the chemicals used in fracking for natural gas are hazardous to human health, but loopholes in disclosure laws mean that companies can keep them secret. So Pennsylvania’s Governor is moving to compel companies to disclose the chemicals they use in fracking operations. Environmental Health News reporter Kristina Marusic joins Host Steve Curwood to explain the health risks and disclosure challenges.
+tags:
+  - fossil-fuels
+  - oil-gas
+  - water-pollution
+  - public-health
+  - toxic-exposure
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00047&segmentID=1 -->
 

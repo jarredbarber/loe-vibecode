@@ -1,12 +1,15 @@
 ---
 title: A Children’s Author On Inspiring Kids to Protect the Planet
 slug: a-childrens-author-on-inspiring-kids-to-protect-the-planet
-date: '2023-04-21'
+date: 2023-04-21
 category: Segments
 megaphone_id: LOE6940465644
 image_url: https://loe.org/content/2023-04-21/CHERRY-back & front Kapok Tree cover new edition 1200 pixels.jpeg
 image_caption: 'One of Lynne’s Cherry’s most well-known books is The Great Kapok Tree (Photo: Courtesy of Lynne Cherry)'
 summary: Children’s author Lynne Cherry joins Host Bobby Bascomb to describe how a childhood filled with exploring nature led to her career of writing and illustrating stories to inspire kids to protect forests and nature.
+tags:
+  - forests
+  - species-loss
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00016&segmentID=3 -->
 

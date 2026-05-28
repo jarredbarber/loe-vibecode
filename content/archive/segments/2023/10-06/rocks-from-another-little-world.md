@@ -1,12 +1,16 @@
 ---
 title: Rocks from Another (Little) World
 slug: rocks-from-another-little-world
-date: '2023-10-06'
+date: 2023-10-06
 category: Segments
 megaphone_id: LOE2711656237
 image_url: https://loe.org/content/2023-10-06/ASTEROID_launch.jpg
 image_caption: 'The OSIRIS-REx spacecraft is launched via a United Launch Alliance Atlas V 411 Rocket on September 8, 2016. (Photo: United Launch Alliance, Courtesy of AsteroidMission.org)'
 summary: The spacecraft OSIRIS-REx has successfully delivered a sample from the asteroid Bennu to Earth. Scientists like Dr. Vicky Hamilton, a planetary geologist and co-investigator on the OSIRIS-REx mission, are eager to study the rocky material and see if it can unveil anything about the origins of our solar system. Dr. Hamilton joins Host Aynsley O’Neill to share surprising findings from the mission.
+tags:
+  - climate-science
+  - ecology-research
+  - earth-observation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00040&segmentID=3 -->
 

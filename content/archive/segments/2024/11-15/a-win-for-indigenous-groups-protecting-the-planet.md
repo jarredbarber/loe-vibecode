@@ -1,12 +1,14 @@
 ---
 title: A win for Indigenous Groups Protecting the Planet
 slug: a-win-for-indigenous-groups-protecting-the-planet
-date: '2024-11-15'
+date: 2024-11-15
 category: Segments
 megaphone_id: LOE7593492887
 image_url: https://loe.org/content/2024-11-15/BIODIVERSITY_kankuamo.jpg
 image_caption: 'Kankuamo at COP16 in Cali, Colombia during the “viva paz con naturaleza” or the “peace with nature event”. (Photo: Courtesy of Carmen Rosa Guerra Ariza)'
 summary: This year’s 16th meeting for the UN Convention on Biological Diversity was suspended as negotiations ran overtime and delegates needed to catch flights home. But earlier in the talks, a decision was reached to give indigenous communities a proper seat at the table moving forward. Carmen Rosa Guerra Ariza is delegate from one such indigenous community, the Kankuamo people, and she joins Host Aynsley O’Neill to discuss this win.
+tags:
+  - indigenous-rights
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00046&segmentID=3 -->
 

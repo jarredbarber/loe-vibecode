@@ -1,12 +1,17 @@
 ---
 title: Eagle!
 slug: eagle
-date: '2024-10-18'
+date: 2024-10-18
 category: Segments
 megaphone_id: LOE4090119771
 image_url: https://loe.org/content/2024-10-18/MSL_eagle.jpg
 image_caption: 'A panic of American herring gulls alerted Lender to the eagle’s presence. (Photo: © Mark Seth Lender)'
 summary: Rise early in the morning and head out to a nearby national wildlife refuge, and you’ve got a good shot of being rewarded with the sights and sounds of all kinds of birds. And on this birdwatching trip, you might be watched back, Living on Earth’s Explorer in Residence Mark Seth Lender reports.
+tags:
+  - birds
+  - wildlife-corridors
+  - field-reporting
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00042&segmentID=4 -->
 

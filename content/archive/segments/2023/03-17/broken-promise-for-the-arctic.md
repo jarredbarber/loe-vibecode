@@ -1,12 +1,19 @@
 ---
 title: Broken Promise for the Arctic
 slug: broken-promise-for-the-arctic
-date: '2023-03-17'
+date: 2023-03-17
 category: Segments
 megaphone_id: LOE8796775451
 image_url: https://loe.org/content/2023-03-17/ALASKA_Caribou.jpg
 image_caption: 'The community and people of Anaktuvuk Pass, the Nunamiut people, have expressed their concern that the Willow oil project will threaten their traditional caribou hunting and trading grounds by reducing the caribou population. Pictured above is Teshekpuk Caribou in the Northeast National Petroleum Reserve in Alaska. (Photo: Bob Wick, Bureau of Land Management, Flickr, CC BY 2.0)'
 summary: A massive new oil drilling project in the Arctic just got the green light from President Biden despite his promises for no new drilling on federal lands. Environmental law expert Pat Parenteau joins Host Steve Curwood to explain the climate contradictions within the White House and what could happen next.
+tags:
+  - climate-change
+  - fossil-fuels
+  - oil-gas
+  - arctic-polar
+  - environmental-policy
+  - corporate-accountability
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00011&segmentID=1 -->
 

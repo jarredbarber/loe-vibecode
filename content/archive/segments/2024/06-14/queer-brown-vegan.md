@@ -1,12 +1,17 @@
 ---
 title: Queer Brown Vegan
 slug: queer-brown-vegan
-date: '2024-06-14'
+date: 2024-06-14
 category: Segments
 megaphone_id: LOE8914026995
 image_url: https://loe.org/content/2024-06-14/QBV_isaias.jpg
 image_caption: 'Isaias Hernandez is the environmentalist and media creative behind the platform Queer Brown Vegan. He has an environmental science degree from UC Berkeley and lives in Los Angeles, California. (Photo: Courtesy of Isaias Hernandez)'
 summary: Isaias Hernandez is an environmental activist and social media creative who uses the handle @QueerBrownVegan on Instagram, TikTok and YouTube. His topics include environmental racism, mushroom foraging, and queer ecology. He joined Living on Earth’s Paloma Beltran during Pride Month to talk about intersectionality, “rainbow-washing”, and more.
+tags:
+  - environmental-justice
+  - indigenous-rights
+  - profiles-interviews
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00024&segmentID=3 -->
 

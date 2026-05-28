@@ -1,12 +1,16 @@
 ---
 title: Fossil Fuels Richly Subsidized
 slug: fossil-fuels-richly-subsidized
-date: '2023-09-29'
+date: 2023-09-29
 category: Segments
 megaphone_id: LOE4048357211
 image_url: https://loe.org/content/2023-09-29/SUBSIDIZED_protester.jpg
 image_caption: 'A protester in the UK rallies against United Kingdom funding of fossil fuel projects (Photo: Gerry Popplestone, Flickr, CC BY-NC-ND 2.0)'
 summary: Governments are increasingly touting clean and renewable energy as the way of the future. But if you follow the money, you would find that fossil fuels are receiving massive subsidies, worth around $7 trillion dollars each year, according to a recent report from the International Monetary Fund. Antung Liu is a coauthor of the report and joined Living on Earth Host Steve Curwood to explain how the fossil fuel industry is receiving such generous subsidies every year.
+tags:
+  - fossil-fuels
+  - climate-change
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00039&segmentID=3 -->
 

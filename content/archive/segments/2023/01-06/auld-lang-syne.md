@@ -1,12 +1,18 @@
 ---
 title: Auld Lang Syne
 slug: auld-lang-syne
-date: '2023-01-06'
+date: 2023-01-06
 category: Segments
 megaphone_id: LOE7623502440
 image_url: https://loe.org/content/2023-01-06/DYKSTRA_exxon.jpg
 image_caption: 'Joe Hazelwood was Captain of the Exxon Valdez, a supertanker that spilled 11 million gallons of oil into Alaska’s Prince William Sound in 1989. (Photo: NOAA, Flickr, CC BY 2.0)'
 summary: "This week, journalist Peter Dykstra and Host Steve Curwood take some time to reflect on some lives we lost in 2022. From\_Living on Earth's\_former producer Lucia Small to the infamous climate change skeptic Pat Michaels, the two discuss the passing of individuals who made their mark on the environmental sector, for better or for worse."
+tags:
+  - climate-change
+  - fossil-fuels
+  - species-loss
+  - environmental-justice
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00001&segmentID=2 -->
 

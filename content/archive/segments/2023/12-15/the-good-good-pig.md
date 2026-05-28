@@ -1,9 +1,13 @@
 ---
 title: The Good Good Pig
 slug: the-good-good-pig
-date: '2023-12-15'
+date: 2023-12-15
 category: Segments
 summary: Living on Earth’s commentator, Sy Montgomery’s famous pig, Christopher Hogwood, has passed on. But he left his owner with enough fond memories to write a book. And that’s just what she did. Sy Montgomery joins us to talk about her most recent book, The Good Good Pig.
+tags:
+  - profiles-interviews
+  - mammals
+  - activism
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=06-P13-00023&segmentID=7 -->
 

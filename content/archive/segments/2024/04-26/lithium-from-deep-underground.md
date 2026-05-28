@@ -1,12 +1,15 @@
 ---
 title: Lithium from Deep Underground
 slug: lithium-from-deep-underground
-date: '2024-04-26'
+date: 2024-04-26
 category: Segments
 megaphone_id: LOE5884429141
 image_url: https://loe.org/content/2024-04-26/LITHIUM_openpit.jpg
 image_caption: 'The open pit of the world’s largest hard-rock lithium mine, located in Western Australia. Hard rock mines can cover many acres of land and damage local ecosystems. (Photo: Calistemon, Wikimedia Commons, CC BY-SA 4.0)'
 summary: Lithium is used in electric vehicle batteries and plays a key role in the global shift towards clean transportation, but current extraction methods come with environmental costs. Some companies are exploring an alternative that taps brine water deep in the Earth. Wyatt Myskow of Inside Climate News joins Host Jenni Doering to explain how it works and what questions about its impacts remain.
+tags:
+  - fossil-fuels
+  - groundwater
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00017&segmentID=4 -->
 

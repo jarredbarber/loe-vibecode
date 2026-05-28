@@ -1,12 +1,16 @@
 ---
 title: Tips for a Thriving Indoor Herb Garden
 slug: tips-for-a-thriving-indoor-herb-garden
-date: '2023-09-22'
+date: 2023-09-22
 category: Segments
 megaphone_id: LOE2958801938
 image_url: https://loe.org/content/2023-09-22/GARDEN_outdoor.jpg
 image_caption: 'If you keep an outdoor herb garden, fall is the perfect time to bring your plants indoors for the winter. (Photo: YoungDoo M. Carey, Flickr, CC BY-NC 2.0)'
 summary: No matter how cold your winters get, with a bit of counterspace and some windows you can easily grow fresh herbs all year-round inside. Living on Earth’s gardening guru, Michael Weishan joins Host Jenni Doering to share some tips on how to keep up your green thumb indoors.
+tags:
+  - farming
+  - sustainable-agriculture
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00038&segmentID=4 -->
 

@@ -1,12 +1,17 @@
 ---
 title: SCOTUS Restricts Rulemaking
 slug: scotus-restricts-rulemaking
-date: '2024-07-05'
+date: 2024-07-05
 category: Segments
 megaphone_id: LOE1753208226
 image_url: https://loe.org/content/2024-07-05/CHEVRON_supremecourt.jpg
 image_caption: 'On June 28, 2024, the U.S. Supreme Court struck down a decades-old Chevron Deference Doctrine that had mandated federal courts to accept reasonable agency interpretations of unclear laws. (Photo: Joe Ravi, Wikimedia Commons, CC BY-SA 3.0)'
 summary: In a 6-3 decision the US Supreme Court struck down the longstanding Chevron deference doctrine, which allowed federal agencies to make rules relying on unclear statutes, provided their interpretation was reasonable. Law professor and former EPA Regional Counsel Pat Parenteau joins Host Aynsley O’Neill to parse the potentially disastrous consequences of this decision for environmental and other public protection regulations and what agencies and lawyers will need to do to have a fighting chance in court.
+tags:
+  - environmental-policy
+  - regulation-deregulation
+  - public-health
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00027&segmentID=1 -->
 

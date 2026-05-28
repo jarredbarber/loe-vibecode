@@ -1,12 +1,15 @@
 ---
 title: Feds Power Up Electric Cars
 slug: feds-power-up-electric-cars
-date: '2024-01-19'
+date: 2024-01-19
 category: Segments
 megaphone_id: LOE1363719996
 image_url: https://loe.org/content/2024-01-19/EVs_Charging.jpeg
 image_caption: 'President Biden has set a goal for the U.S. to increase from 170,000 to 500,000 EV charging stations by the end of this decade. (Photo: Stivabc, Pixabay.com)'
 summary: The U.S. Department of Transportation recently granted more than $600 million to states and communities across the country to roll out new EV charging stations and tune up existing ones. Transportation Secretary Pete Buttigieg joins Host Jenni Doering to discuss the connections between EV charging access, environmental justice, and economic growth.
+tags:
+  - climate-change
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00003&segmentID=1 -->
 

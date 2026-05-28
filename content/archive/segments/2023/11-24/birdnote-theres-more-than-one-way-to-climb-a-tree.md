@@ -1,12 +1,18 @@
 ---
 title: 'BIRDNOTE®: There''s More Than One Way to Climb a Tree'
 slug: birdnote-theres-more-than-one-way-to-climb-a-tree
-date: '2023-11-24'
+date: 2023-11-24
 category: Segments
 megaphone_id: LOE1785078389
 image_url: https://loe.org/content/2023-11-24/BIRDNOTE_birds.jpg
 image_caption: 'A nuthatch (left) and pileated woodpecker (right). Both birds climb trees to hunt for insects living in the bark, but their feet have evolved differently, and woodpeckers are adept at climbing up, while nuthatches can easily go up or down the tree. (Photo: putneypics and Gregg Thompson IG)'
 summary: Time and again nature has come up with diverse ways that species can succeed in their environments. Birds have feathers to keep them aloft, while bats use a thin membrane of skin stretched over their wing bones. And in today’s BirdNote®, Mary McCann tells us how two species of birds have evolved different ways to move around their forest homes.
+tags:
+  - birds
+  - mammals
+  - forests
+  - ecology-research
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00047&segmentID=4 -->
 

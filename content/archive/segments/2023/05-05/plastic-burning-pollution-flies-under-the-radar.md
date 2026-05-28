@@ -1,12 +1,16 @@
 ---
 title: Plastic Burning Pollution Flies Under the Radar
 slug: plastic-burning-pollution-flies-under-the-radar
-date: '2023-05-05'
+date: 2023-05-05
 category: Segments
 megaphone_id: LOE2911326613
 image_url: https://loe.org/content/2023-05-05/EPA_incinerator.jpg
 image_caption: 'Municipal incinerators in the US are currently exempt from regulations requiring facilities that release toxic chemicals to report those outputs to the Toxics Release Inventory. (Photo: Massachusetts Dept. of Environmental Protection, Flickr, CC BY 2.0)'
 summary: Waste incineration facilities in the US don’t have to report the dioxins and other toxic chemicals they’re emitting from burning plastic to a key database. Timothy Whitehouse is the Executive Director of Public Employees for Environmental Responsibility and joins Host Jenni Doering to explain the gap in publicly accessible pollution data.
+tags:
+  - plastics
+  - air-pollution
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00018&segmentID=3 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Amazing Animal Mothers
 slug: amazing-animal-mothers
-date: '2023-05-12'
+date: 2023-05-12
 category: Segments
 megaphone_id: LOE2133412952
 image_url: https://loe.org/content/2023-05-12/MOTHER_orangutans.jpg
 image_caption: 'During the first two years of life, baby orangutans rely on their mothers for food, transportation, and protection. (Photo: Ucumari Photography, Flickr, CC BY-NC-ND 2.0)'
 summary: This Mother’s Day we’re celebrating the tenacity and tenderness of animal mothers, from crocodiles to leopards to whales. Aletris Neils is the executive director of Conservation CATalyst and joined Living on Earth’s Bobby Bascomb to share why observing mother orangutans inspired her own journey to becoming a mother.
+tags:
+  - mammals
+  - endangered-species
+  - wildlife-corridors
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00019&segmentID=1 -->
 

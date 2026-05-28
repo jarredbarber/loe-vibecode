@@ -1,12 +1,17 @@
 ---
 title: 'Listening on Earth: The Many Sounds of Wild Turkeys'
 slug: listening-on-earth-the-many-sounds-of-wild-turkeys
-date: '2023-11-17'
+date: 2023-11-17
 category: Segments
 megaphone_id: LOE7565094218
 image_url: https://loe.org/content/2023-11-17/LISTENING_turkey.jpg
 image_caption: 'Wild turkeys make a number of vocalizations other than the famous “gobble gobble”. (Photo: Viktor Talashuk, Unsplash, Unsplash License)'
 summary: The wild cousins of the centerpiece on many Thanksgiving tables do more than just gobble. Turkeys squawk, chirp, and even softly “purr” to express contentment in a flock.
+tags:
+  - birds
+  - mammals
+  - wildlife-corridors
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00046&segmentID=5 -->
 

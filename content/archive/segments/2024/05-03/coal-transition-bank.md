@@ -1,12 +1,16 @@
 ---
 title: Coal Transition Bank
 slug: coal-transition-bank
-date: '2024-05-03'
+date: 2024-05-03
 category: Segments
 megaphone_id: LOE1995096943
 image_url: https://loe.org/content/2024-05-03/AF_electricbus.jpg
 image_caption: 'This Lewis County Transit electric bus was purchased with grant funds from TransAlta. (Photo: Jeremy Long, WITF)'
 summary: The only coal-fired power plant in Washington state is in the process of shutting down, taking hundreds of jobs with it. But a $55 million fund set up by the coal plant is helping revitalize the small town with community development projects and more. Rachel McDevitt of WITF and StateImpact Pennsylvania reports.
+tags:
+  - fossil-fuels
+  - jobs-just-transition
+  - environmental-tech
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00018&segmentID=4 -->
 

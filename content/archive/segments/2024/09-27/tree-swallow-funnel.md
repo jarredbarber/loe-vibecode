@@ -1,12 +1,17 @@
 ---
 title: Tree Swallow Funnel
 slug: tree-swallow-funnel
-date: '2024-09-27'
+date: 2024-09-27
 category: Segments
 megaphone_id: LOE5910759954
 image_url: https://loe.org/content/2024-09-27/MSL_treeswallows.JPG
 image_caption: 'Tree swallows traveling en masse. (Photo: Mark Seth Lender)'
 summary: One of the smallest and most agile migrating birds is the tree swallow. Living on Earth’s Explorer in Residence Mark Seth Lender marvels at how these little fliers gather in huge airborne displays as they prepare for the fall migration.
+tags:
+  - birds
+  - insects
+  - species-loss
+  - field-reporting
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00039&segmentID=7 -->
 

@@ -1,12 +1,16 @@
 ---
 title: Biden Climate Cash in Jeopardy
 slug: biden-climate-cash-in-jeopardy
-date: '2024-11-22'
+date: 2024-11-22
 category: Segments
 megaphone_id: LOE1441924647
 image_url: https://loe.org/content/2024-11-22/IRA_presidentelecttrump.jpg
 image_caption: 'President-elect Trump has expressed interest in pulling back the Inflation Reduction Act. (Photo: Gage Skidmore, Flickr, CC BY-SA 2.0)'
 summary: Given President-elect Trump’s vow to dismantle the Inflation Reduction Act, some communities are concerned about their applications for climate and environmental justice funding. Jillian Blanchard of Lawyers for Good Government talks with Living on Earth’s Aynsley O’Neill about what’s on the line and why bipartisan support for the IRA may help preserve some federal support.
+tags:
+  - climate-change
+  - environmental-justice
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00047&segmentID=2 -->
 

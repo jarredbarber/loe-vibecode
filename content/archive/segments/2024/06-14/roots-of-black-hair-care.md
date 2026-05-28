@@ -1,12 +1,14 @@
 ---
 title: Roots of Black Hair Care
 slug: roots-of-black-hair-care
-date: '2024-06-14'
+date: 2024-06-14
 category: Segments
 megaphone_id: LOE9071233847
 image_url: https://loe.org/content/2024-06-14/WALKER_madamcj.jpg
 image_caption: 'Madam C.J. Walker is considered the first female self-made millionaire in the United States, due to her well-documented wealth she earned from her cosmetics and haircare products. (Photo: Scurlock Studios, Smithsonian Institution, Public Domain)'
 summary: 'Hair care products marketed to Black women today often include cancer-causing formaldehyde and hormone disrupting chemicals. But back in the early 1900s, an enterprising Black woman named Madam C. J. Walker used mostly natural ingredients in her hair products to empower Black women and become the first female American self-made millionaire. Host Steve Curwood talks with her great-great granddaughter, A’Lelia Bundles, who wrote the 2001 book On Her Own Ground: The Life and Times of Madam C. J. Walker.'
+tags:
+  - toxic-exposure
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00024&segmentID=4 -->
 

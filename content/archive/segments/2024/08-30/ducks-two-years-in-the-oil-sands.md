@@ -1,12 +1,16 @@
 ---
 title: 'Ducks: Two Years in the Oil Sands'
 slug: ducks-two-years-in-the-oil-sands
-date: '2024-08-30'
+date: 2024-08-30
 category: Segments
 megaphone_id: LOE3406364551
 image_url: https://loe.org/content/2023-06-23/DUCKS-cover.jpg
 image_caption: 'The cover of Ducks: Two Years in the Oil Sands. (Image: copyright Kate Beaton. Courtesy Drawn & Quarterly.)'
 summary: 'The Athabasca oil sands in Alberta; Canada ranks as one of the world’s most destructive crude oil operations. People laboring in the Athabasca oil sands often live in austere work camps, with long 12-hour shifts and female workers imperiled by sexual harassment and violence. Kate Beaton captured that painful reality in her 2022 graphic memoir Ducks: Two Years in the Oil Sands and joined Living on Earth’s Jenni Doering to talk about her experience.'
+tags:
+  - fossil-fuels
+  - oil-gas
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00035&segmentID=5 -->
 

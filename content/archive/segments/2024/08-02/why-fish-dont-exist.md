@@ -1,12 +1,17 @@
 ---
 title: Why Fish Don’t Exist
 slug: why-fish-dont-exist
-date: '2024-08-02'
+date: 2024-08-02
 category: Segments
 megaphone_id: LOE8092891716
 image_url: https://loe.org/content/2020-05-29/FISH-bookcover.jpg
 image_caption: '“Why Fish Don’t Exist: A Story of Loss, Love, and the Hidden Order of Life” is Lulu Miller’s first book. (Image: Courtesy of Simon & Schuster)'
 summary: Fish scientist David Starr Jordan discovered thousands of new fish species around 1900, and kept going even as he faced repeated disasters that threatened to obliterate his life’s work. His stubborn optimism is the springboard for science journalist Lulu Miller’s new book, “Why Fish Don’t Exist”, and the search for order in a cold, chaotic world. Lulu Miller and Host Steve Curwood discuss what her journey into science and the past uncovered about the astonishing life of David Starr Jordan.
+tags:
+  - fish
+  - species-loss
+  - profiles-interviews
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00031&segmentID=2 -->
 

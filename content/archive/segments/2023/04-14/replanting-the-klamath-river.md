@@ -1,12 +1,15 @@
 ---
 title: Replanting The Klamath River
 slug: replanting-the-klamath-river
-date: '2023-04-14'
+date: 2023-04-14
 category: Segments
 megaphone_id: LOE7678776103
 image_url: https://loe.org/content/2023-04-14/KLAMATH-Frank Henry.jpg
 image_caption: 'Yurok tribal member and Fish Technician 1 Frank Henry Jr. works alongside Iron Gate Reservoir in Feb. 2023. The reservoir will be drained when Iron Gate Dam is removed as part of the Klamath River restoration. (Photo: Juliet Grable / JPR)'
 summary: Four dams are being torn down on the Klamath River, revealing land that’s been submerged for decades. Juliet Grable of Jefferson Public Radio reports that local tribes and partners are working to replant the area with native species.
+tags:
+  - rivers-watersheds
+  - invasive-species
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00015&segmentID=6 -->
 

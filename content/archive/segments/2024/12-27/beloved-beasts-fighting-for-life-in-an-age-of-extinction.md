@@ -1,12 +1,18 @@
 ---
 title: 'Beloved Beasts: Fighting for Life in An Age of Extinction'
 slug: beloved-beasts-fighting-for-life-in-an-age-of-extinction
-date: '2024-12-27'
+date: 2024-12-27
 category: Segments
 megaphone_id: LOE7885472939
 image_url: https://loe.org/content/2021-04-30/BEASTS-bison.jpg
 image_caption: 'As many as 30-60 million American Bison once roamed the plains. They were nearly hunted to extinction around the turn of the century but have recovered from the brink thanks to conservation efforts. (Photo: Road Travel America, Flickr CC BY 2.0)'
 summary: 'Animals like the American Bison, bald eagle, and giant panda are just a few of the charismatic species that have come dangerously close to extinction. But thanks to some visionaries, species like these have been saved from that fate. In her 2021 book Beloved Beasts: Fighting for Life in an Age of Extinction, science writer Michelle Nijhuis shares the stories of some conservation heroes, and she joins Host Jenni Doering to discuss.'
+tags:
+  - species-loss
+  - endangered-species
+  - birds
+  - mammals
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00052&segmentID=2 -->
 

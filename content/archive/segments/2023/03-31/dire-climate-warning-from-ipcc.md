@@ -1,12 +1,18 @@
 ---
 title: Dire Climate Warning From IPCC
 slug: dire-climate-warning-from-ipcc
-date: '2023-03-31'
+date: 2023-03-31
 category: Segments
 megaphone_id: LOE8205389045
 image_url: https://loe.org/content/2023-03-31/IPCC_finalwarning.jpg
 image_caption: 'The latest Intergovernmental Panel on Climate Change (IPCC) Synthesis Report delivered a final warning on the climate crisis, as rising greenhouse gas emissions are now pushing the world closer to warming levels that would collapse civilization. (Photo: Chris LeBoutillier, Unsplash)'
 summary: The world has no more than a year or two to start bending the curve of carbon emissions downward to avoid more drastic impacts of climate change, according to the latest scientific consensus the Intergovernmental Panel on Climate Change. UPenn climate scientist Michael Mann joins Host Steve Curwood to discuss what’s at stake for the planet and what’s necessary to keep warming below 1.5 degrees Celsius.
+tags:
+  - climate-change
+  - extreme-weather
+  - fossil-fuels
+  - climate-science
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00013&segmentID=1 -->
 

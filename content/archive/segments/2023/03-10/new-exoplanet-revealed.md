@@ -1,12 +1,15 @@
 ---
 title: New Exoplanet Revealed
 slug: new-exoplanet-revealed
-date: '2023-03-10'
+date: 2023-03-10
 category: Segments
 megaphone_id: LOE6234123357
 image_url: https://loe.org/content/2023-03-10/EXOPLANET_planet.jpg
 image_caption: 'An illustration of LHS 475 b. Scientists are determining whether the newly discovered exoplanet has an atmosphere. (Photo: NASA/European Space Agency/Canadian Space Agency/L. Hustak (STScI))'
 summary: NASA scientists used data from the James Webb Space Telescope to identify exoplanet LHS 475 b. Exoplanets are planets outside of our solar system that orbit a different star, and can be very difficult to identify. Living on Earth’s Aynsley O’Neill spoke with one of the lead researchers on the project, exoplanet astronomer Kevin Stevenson, about how the finding may help develop a model for identifying planets that are likely to contain life.
+tags:
+  - climate-science
+  - earth-observation
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00010&segmentID=5 -->
 

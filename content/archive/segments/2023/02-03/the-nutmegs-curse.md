@@ -1,12 +1,19 @@
 ---
 title: The Nutmeg's Curse
 slug: the-nutmegs-curse
-date: '2023-02-03'
+date: 2023-02-03
 category: Segments
 megaphone_id: LOE9395614166
 image_url: https://loe.org/content/2023-02-03/NUTMEG_cover.JPG
 image_caption: 'Amitav Ghosh''s 2021 book The Nutmeg''s Curse: Parables for a Planet in Crisis (Photo: Courtesy of The University of Chicago Press)'
 summary: 'Native to the Banda Islands in Indonesia, nutmeg and other spices like cloves were coveted for their trade value by colonial powers, who set about exterminating the local people to dominate the nutmeg trade. In his 2021 book The Nutmeg''s Curse: Parables for a Planet in Crisis, author Amitav Ghosh reveals the origins of our current climate crisis in the violent extractive economies pioneered by colonial powers centuries ago. Amitav Ghosh joined Host Steve Curwood for a Living on Earth Book Club event to discuss this dark history of the so-called ''enlightenment''.'
+tags:
+  - climate-change
+  - fossil-fuels
+  - species-loss
+  - deforestation
+  - indigenous-rights
+  - environmental-history
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00005&segmentID=5 -->
 

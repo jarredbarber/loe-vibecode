@@ -1,12 +1,16 @@
 ---
 title: 'Wake! Up!: Paper Wasp'
 slug: wake-up-paper-wasp
-date: '2024-05-10'
+date: 2024-05-10
 category: Segments
 megaphone_id: LOE7349968088
 image_url: https://loe.org/content/2024-05-10/LENDER_flower.JPG
 image_caption: 'Paper wasp perches on top of a flower. (Photo: © Mark Seth Lender)'
 summary: Living on Earth’s Explorer in Residence Mark Seth Lender aids a paper wasp trying to get outdoors.
+tags:
+  - insects
+  - field-reporting
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00019&segmentID=6 -->
 

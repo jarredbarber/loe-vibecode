@@ -1,12 +1,17 @@
 ---
 title: 'World''s Smallest Vertebrate: Note on Emerging Science'
 slug: worlds-smallest-vertebrate-note-on-emerging-science
-date: '2024-09-27'
+date: 2024-09-27
 category: Segments
 megaphone_id: LOE3041325063
 image_url: https://loe.org/content/2024-09-27/FROG_frog.jpeg
 image_caption: 'The Brazilian flea toad (Brachycephalus pulex) averages mere millimeters in length. (Photo: Person Who Took Photo, Person’s Organization If Applicable, Website Where You Got Photo, CC Copyright info)'
 summary: The Brazilian flea toad is only about a quarter of an inch long, making it the smallest vertebrate known to Western science. Its feet are so small that they have just two toes as opposed to the usual five on larger frogs and toads, Living on Earth’s Don Lyman reports in this note on emerging science.
+tags:
+  - species-loss
+  - amphibians
+  - ecology-research
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00039&segmentID=2 -->
 

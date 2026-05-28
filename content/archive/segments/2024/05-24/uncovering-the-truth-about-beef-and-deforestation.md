@@ -1,12 +1,19 @@
 ---
 title: Uncovering the Truth About Beef and Deforestation
 slug: uncovering-the-truth-about-beef-and-deforestation
-date: '2024-05-24'
+date: 2024-05-24
 category: Segments
 megaphone_id: LOE4510908929
 image_url: https://loe.org/content/2024-05-24/BRAZIL_marcel.jpg
 image_caption: 'Marcel Gomes is the executive secretary at the nonprofit media outlet Repórter Brasil and leads the organization’s investigations and research teams. He is the 2024 winner of the Goldman Environmental Prize for Central and South America. (Photo: Goldman Environmental Prize)'
 summary: The Brazilian cattle industry has led to massive land clearing in the Amazon rainforest. Investigative journalist Marcel Gomes set out to uncover which companies were involved and documented a direct link between the meatpacking company JBS and illegal deforestation in Brazil. He received the 2024 Goldman Environmental Prize for Central and South America and joins Host Paloma Beltran to talk about the need for more transparency about where beef comes from and better cattle grazing practices.
+tags:
+  - deforestation
+  - amazon
+  - forests
+  - climate-change
+  - farming
+  - food-systems
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00021&segmentID=3 -->
 

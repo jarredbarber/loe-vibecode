@@ -1,12 +1,17 @@
 ---
 title: The Human Toll of Pollinator Loss
 slug: the-human-toll-of-pollinator-loss
-date: '2023-03-10'
+date: 2023-03-10
 category: Segments
 megaphone_id: LOE6408374597
 image_url: https://loe.org/content/2023-03-10/MEYERS_bee.jpeg
 image_caption: 'With declining numbers of insects like bees, the yield of pollinator-dependent crops decreases significantly. (Photo: Andreas Trepte, avi-fauna.info, Wikimedia Commons, CC BY-SA 2.5)'
 summary: A study conducted by Harvard’s T.H. Chan School of Public Health shows the decline of pollinators is contributing to the deaths of an estimated half a million people a year worldwide. That’s because yields of nutritious foods like most fruits, vegetables, and nuts are falling as the pollinators they depend on disappear. Dr. Sam Myers, the study’s lead researcher, joins Host Bobby Bascomb to discuss how this falling yield is linked to more preventable deaths from ailments such as heart disease and diabetes.
+tags:
+  - species-loss
+  - insects
+  - farming
+  - public-health
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00010&segmentID=4 -->
 

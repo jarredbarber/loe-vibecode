@@ -1,11 +1,15 @@
 ---
 title: Supreme Court Limits EPA Power
 slug: supreme-court-limits-epa-power
-date: '2023-04-28'
+date: 2023-04-28
 category: Segments
 image_url: https://loe.org/content/2022-05-20/SCOTUS-scotus_bldg.jpg
 image_caption: 'The court''s decision in West Virginia v. EPA says that the agency effectively does not have the power to regulate the mix of generation sources to address carbon dioxide emissions from power plants. (Photo: Susan Melkisethian, Flickr, CC BY-NC-ND 2.0)'
 summary: In a major 6 to 3 decision with sobering implications for climate policy, the conservative majority of the Supreme Court ruled that the Environmental Protection Agency overstepped its authority when it created guidelines for how utilities generate electricity. Vermont Law School Professor Pat Parenteau joins Host Steve Curwood to discuss how the decision goes against precedent and hampers efforts to tackle climate change.
+tags:
+  - climate-change
+  - environmental-policy
+  - regulation-deregulation
 ---
 <!-- source: https://www.loe.org/shows/segments.html?programID=22-P13-00026&segmentID=1 -->
 

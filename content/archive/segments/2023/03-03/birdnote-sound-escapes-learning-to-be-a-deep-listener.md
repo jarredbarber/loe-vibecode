@@ -1,12 +1,16 @@
 ---
 title: 'BirdNote®: Sound Escapes – Learning to Be a Deep Listener'
 slug: birdnote-sound-escapes-learning-to-be-a-deep-listener
-date: '2023-03-03'
+date: 2023-03-03
 category: Segments
 megaphone_id: LOE2354420245
 image_url: https://loe.org/content/2023-03-03/BIRDNOTE_treebranch.jpg
 image_caption: 'A gilded barbet perches on a tree branch. (Photo: © Dusan M Brinkhuizen)'
 summary: Sound recordist Gordon Hempton brings us the sounds of the Amazon in this BirdNote® from Ashley Ahearn.
+tags:
+  - amazon
+  - insects
+  - birdnote-segment
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00009&segmentID=5 -->
 

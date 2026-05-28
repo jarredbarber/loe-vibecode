@@ -1,12 +1,16 @@
 ---
 title: Personal Care Products and IVF Miscarriage
 slug: personal-care-products-and-ivf-miscarriage
-date: '2024-03-22'
+date: 2024-03-22
 category: Segments
 megaphone_id: LOE4507423119
 image_url: https://loe.org/content/2024-03-22/IVF_cosmetics.jpg
 image_caption: 'A variety of personal care products, from cosmetics to skin care, have been associated with adverse IVF outcomes. (Photo: Pixabay, Pexels)'
 summary: A recent study of 1500 women in China found links between personal care product use and in-vitro fertilization problems, including slower embryo development and miscarriage. Pediatrician Leonardo Trasande joins Host Aynsley O’Neill to discuss the findings and the growing evidence linking hormone disrupting chemicals to pregnancy difficulties for people using IVF.
+tags:
+  - pregnancy-children
+  - toxic-exposure
+  - pfas-forever-chemicals
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00012&segmentID=1 -->
 

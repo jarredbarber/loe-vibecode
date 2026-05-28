@@ -1,12 +1,17 @@
 ---
 title: Rift Over Loss and Damage
 slug: rift-over-loss-and-damage
-date: '2023-10-27'
+date: 2023-10-27
 category: Segments
 megaphone_id: LOE2364733061
 image_url: https://loe.org/content/2023-10-27/BERWYN_Freddy.jpg
 image_caption: 'Tropical Cyclone Freddy, one of many natural disasters likely influenced by climate change, hit the developing country of Mozambique in the spring of 2022 and destroyed many homes. (Photo: Mbuto Machili, Global Partnership for Education, Flickr, CC BY-NC-ND 2.0)'
 summary: Wealthy nations have agreed to pay low-income countries for some of the loss and damage caused by the climate crisis. But rich and poor nations are still divided on key elements of the fund with just a few weeks to go before COP 28. Bob Berwyn, a journalist with Inside Climate News, joins Host Jenni Doering to explain.
+tags:
+  - climate-change
+  - climate-negotiations
+  - fossil-fuels
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00043&segmentID=1 -->
 

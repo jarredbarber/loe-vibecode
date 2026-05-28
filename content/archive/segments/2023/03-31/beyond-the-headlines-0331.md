@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0331
-date: '2023-03-31'
+date: 2023-03-31
 category: Segments
 megaphone_id: LOE3947730517
 image_url: https://loe.org/content/2023-03-31/DYKSTRA_glass.jpg
 image_caption: 'A group of 140 Scotch distilleries in Scotland have agreed to achieve net zero carbon emissions to maintain a good reputation among tourists and preserve the local peat bogs. (Photo: PublicDomainPictures, Pixabay)'
 summary: Living on Earth Contributor Peter Dykstra joins Host Bobby Bascomb to talk about Scotch whiskey going green. Also, armadillos are marching north into the Midwest thanks to climate change. And in history, they look back to likely the only time mafia boss Charles “Lucky” Luciano was held accountable for a killing, with the victim a pheasant.
+tags:
+  - fossil-fuels
+  - wind
+  - climate-change
+  - species-loss
+  - environmental-history
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00013&segmentID=2 -->
 

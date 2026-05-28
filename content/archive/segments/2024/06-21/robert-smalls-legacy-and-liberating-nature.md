@@ -1,12 +1,19 @@
 ---
 title: Robert Smalls' Legacy and Liberating Nature
 slug: robert-smalls-legacy-and-liberating-nature
-date: '2024-06-21'
+date: 2024-06-21
 category: Segments
 megaphone_id: LOE8740737060
 image_url: https://loe.org/content/2023-06-16/C1_cover.jpg
 image_caption: 'The cover of Tales of the Talented Tenth No. 3: Robert Smalls, by Joel Christian Gill. (Photo: Courtesy of Joel Christian Gill)'
 summary: Host Steve Curwood and guests Michael B. Moore and Admiral Cecil Haney continue their conversation about Robert Smalls and are joined by Joel Christian Gill, a cartoonist and historian who authored a graphic biography about Smalls. They discuss Robert Smalls’ legacy, the current enslavement of nature, and how his courage relates to the courageous action and leadership that is now urgently needed to deal with the climate emergency.
+tags:
+  - profiles-interviews
+  - environmental-justice
+  - activism
+  - indigenous-rights
+  - climate-change
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00025&segmentID=4 -->
 

@@ -1,12 +1,17 @@
 ---
 title: Listener Comments
 slug: listener-comments
-date: '2024-07-26'
+date: 2024-07-26
 category: Segments
 megaphone_id: LOE5099304623
 image_url: https://loe.org/content/2024-07-26/LOE_logo.jpg
 image_caption: Living on Earth listeners are encouraged to reach out to us at our comments email, comments@loe.org.
 summary: Letters are read from Living on Earth listeners concerned about an interview with Conservative Climate Caucus and Republican US Congress member Cliff Bentz of Oregon, with comments from Host Steve Curwood about First Amendment rights of free speech and free press, and the dangers of censorship.
+tags:
+  - environmental-policy
+  - congressional-action
+  - profiles-interviews
+  - activism
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=24-P13-00030&segmentID=3 -->
 

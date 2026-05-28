@@ -1,12 +1,19 @@
 ---
 title: Beyond the Headlines
 slug: beyond-the-headlines-0609
-date: '2023-06-09'
+date: 2023-06-09
 category: Segments
 megaphone_id: LOE5473820511
 image_url: https://loe.org/content/2023-06-09/DYKSTRA_water.jpg
 image_caption: 'Dupont and its spinoffs Chemours and Corteva have reportedly reached a $1.19 billion settlement over their alleged contamination of drinking water supplies with PFAS “forever” chemicals (Photo: US EPA, public domain)'
 summary: This week, Living on Earth Contributor Peter Dykstra joins Host Steve Curwood to discuss the $1.19 billion settlement by Dupont and two spinoffs over PFAS “forever chemical” contamination of drinking water supplies. Also, while replacing lead pipes that carry drinking water into homes is essential for public health, the PVC pipes they’re often replaced with can leach toxins into the water. And in history, they look back to an 1804 declaration in Pittsburgh on the nuisance of coal smoke, a problem that would only intensify as the city became the steelmaking heart of America.
+tags:
+  - pfas-forever-chemicals
+  - water-pollution
+  - public-health
+  - environmental-justice
+  - air-pollution
+  - fossil-fuels
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=23-P13-00023&segmentID=2 -->
 

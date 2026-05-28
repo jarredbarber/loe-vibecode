@@ -17,19 +17,19 @@ layout: layouts/base.njk
             {% set _max = 1 %}
             {% for y, c in speaker.yearCounts %}{% if c > _max %}{% set _max = c %}{% endif %}{% endfor %}
             <div class="sparkline-wrap" style="margin: 0.5em 0 1.2em;">
-                <svg class="sparkline" viewBox="0 0 {{ (speaker.latestYear - speaker.earliestYear + 1) * 10 }} 32" style="width:min(100%,{{ (speaker.latestYear - speaker.earliestYear + 1) * 10 }}px);height:32px;display:block;">
+                <svg class="sparkline" viewBox="0 0 {{ (speaker.latestYear - speaker.earliestYear + 1) * 20 }} 64" style="width:min(100%,{{ (speaker.latestYear - speaker.earliestYear + 1) * 20 }}px);height:64px;display:block;">
                 {% for yr in range(speaker.earliestYear, speaker.latestYear + 1) %}
                     {% set _c = speaker.yearCounts[yr] or 0 %}
-                    {% set _h = ((_c / _max) * 28) | round %}
-                    {% set _x = (yr - speaker.earliestYear) * 10 %}
-                    <rect x="{{ _x + 1 }}" y="{{ 32 - _h }}" width="8" height="{{ _h }}"
+                    {% set _h = ((_c / _max) * 56) | round %}
+                    {% set _x = (yr - speaker.earliestYear) * 20 %}
+                    <rect x="{{ _x + 2 }}" y="{{ 64 - _h }}" width="16" height="{{ _h }}"
                           fill="{% if _c %}var(--color-accent, #4a8a7a){% else %}#e0e0e0{% endif %}"
                           rx="1">
                         <title>{{ yr }}: {{ _c }} segment{% if _c != 1 %}s{% endif %}</title>
                     </rect>
                 {% endfor %}
                 </svg>
-                <div style="display:flex;justify-content:space-between;font-size:0.75em;color:#888;width:min(100%,{{ (speaker.latestYear - speaker.earliestYear + 1) * 10 }}px);">
+                <div style="display:flex;justify-content:space-between;font-size:0.75em;color:#888;width:min(100%,{{ (speaker.latestYear - speaker.earliestYear + 1) * 20 }}px);">
                     <span>{{ speaker.earliestYear }}</span><span>{{ speaker.latestYear }}</span>
                 </div>
             </div>

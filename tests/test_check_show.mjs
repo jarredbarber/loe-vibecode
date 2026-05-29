@@ -32,16 +32,15 @@ test('parseFrontmatter: parses basic key/value pairs', () => {
     assert.ok(body.includes('Body text here.'));
 });
 
-test('parseFrontmatter: strips surrounding single quotes from values', () => {
-    const raw = `---\ntitle: 'Quoted Title'\n---\n`;
-    const { fm } = parseFrontmatter(raw);
-    assert.equal(fm.title, 'Quoted Title');
-});
-
-test('parseFrontmatter: strips surrounding double quotes from values', () => {
-    const raw = `---\ntitle: "Double Quoted"\n---\n`;
-    const { fm } = parseFrontmatter(raw);
-    assert.equal(fm.title, 'Double Quoted');
+test('parseFrontmatter: strips surrounding quotes from values', () => {
+    const cases = [
+        { raw: `---\ntitle: 'Quoted Title'\n---\n`, expected: 'Quoted Title' },
+        { raw: `---\ntitle: "Double Quoted"\n---\n`, expected: 'Double Quoted' },
+    ];
+    for (const { raw, expected } of cases) {
+        const { fm } = parseFrontmatter(raw);
+        assert.equal(fm.title, expected, `expected title ${expected}`);
+    }
 });
 
 test('parseFrontmatter: returns empty fm and raw text when no frontmatter delimiters', () => {
@@ -218,31 +217,20 @@ test('extractUrlRefs: does not include image_url ref when fm.image_url is absent
 // classify
 // ---------------------------------------------------------------------------
 
-test('classify: ok when res.ok is true', () => {
-    assert.equal(classify({ ok: true, status: 200 }), 'ok');
-});
-
-test('classify: ok for 206 partial content (CDN range response)', () => {
-    // The checkUrl function sets ok: true when status===206; classify just sees ok:true.
-    assert.equal(classify({ ok: true, status: 206 }), 'ok');
-});
-
-test('classify: warn for 403 (bot-blocked)', () => {
-    assert.equal(classify({ ok: false, status: 403 }), 'warn');
-});
-
-test('classify: warn for 429 (rate-limited)', () => {
-    assert.equal(classify({ ok: false, status: 429 }), 'warn');
-});
-
-test('classify: fail for 404', () => {
-    assert.equal(classify({ ok: false, status: 404 }), 'fail');
-});
-
-test('classify: fail for 500', () => {
-    assert.equal(classify({ ok: false, status: 500 }), 'fail');
-});
-
-test('classify: fail for 0 (network error)', () => {
-    assert.equal(classify({ ok: false, status: 0 }), 'fail');
+test('classify: maps HTTP status / ok flag to ok|warn|fail', () => {
+    const cases = [
+        // res.ok true → ok (200 success, and 206 partial which checkUrl flags ok)
+        { res: { ok: true, status: 200 }, expected: 'ok' },
+        { res: { ok: true, status: 206 }, expected: 'ok' },
+        // bot-blocked / rate-limited → warn
+        { res: { ok: false, status: 403 }, expected: 'warn' },
+        { res: { ok: false, status: 429 }, expected: 'warn' },
+        // hard failures → fail
+        { res: { ok: false, status: 404 }, expected: 'fail' },
+        { res: { ok: false, status: 500 }, expected: 'fail' },
+        { res: { ok: false, status: 0 }, expected: 'fail' },
+    ];
+    for (const { res, expected } of cases) {
+        assert.equal(classify(res), expected, `status ${res.status} (ok=${res.ok}) → ${expected}`);
+    }
 });

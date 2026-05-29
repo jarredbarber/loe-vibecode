@@ -1,14 +1,54 @@
 /**
- * OAuth proxy for Sveltia CMS — verbatim copy of
- * https://github.com/sveltia/sveltia-cms-auth/blob/main/src/index.js
- * (MIT-licensed). Deployed as a Cloudflare Worker so editors can use
- * "Sign in with GitHub" from /admin/ instead of pasting a PAT.
+ * OAuth proxy for Sveltia CMS.
+ *
+ * VENDORED SOURCE
+ * ---------------
+ * This file is a vendored copy of sveltia-cms-auth, with local modifications
+ * applied on top.
+ *
+ *   Upstream: https://github.com/sveltia/sveltia-cms-auth/blob/main/src/index.js
+ *   License:  MIT
+ *   Version:  version unknown, vendored 2025-04 (based on feature set matching
+ *             the README at that time; no explicit release tag was pinned)
+ *
+ * LOCAL MODIFICATIONS
+ * -------------------
+ * 1. Collaborator check (isCollaborator function, ~lines 275–295):
+ *    After a successful GitHub token exchange, we verify the authenticated user
+ *    is a collaborator on the repo named in the ALLOWED_REPO env var. If not,
+ *    the token is withheld and an error page is returned. This is a UX gate —
+ *    GitHub enforces write access at the API level regardless — but it prevents
+ *    curious visitors from entering /admin/ only to discover they can't publish.
+ *    Env var: ALLOWED_REPO (e.g. "jarredbarber/loe-vibecode"); omit to skip check.
+ *
+ * 2. GitHub scope narrowed to "public_repo,user" (line ~100):
+ *    Upstream requests "repo" (full private access). We only need public_repo
+ *    since this is a public repository.
+ *
+ * 3. Megaphone RSS proxy (handlePodcastRss, ~lines 302–326):
+ *    Extra route GET /podcast.rss that proxies the Megaphone feed. This is
+ *    unrelated to auth; it's co-located here because the Worker already exists.
+ *
+ * HOW TO UPDATE
+ * -------------
+ * 1. Fetch the latest upstream index.js:
+ *      curl -O https://raw.githubusercontent.com/sveltia/sveltia-cms-auth/main/src/index.js
+ * 2. Diff against this file to identify changes upstream made:
+ *      diff index.js auth/src/index.js
+ * 3. Copy the new upstream content into auth/src/index.js, then manually
+ *    re-apply each local modification listed above.
+ * 4. Update the "Version" line in this header with today's date.
+ * 5. Run `wrangler deploy` from auth/ to push the updated Worker.
+ *
+ * Deployed as a Cloudflare Worker so editors can use "Sign in with GitHub"
+ * from /admin/ instead of pasting a PAT.
  *
  * Required env (set via `wrangler secret put`):
  *   GITHUB_CLIENT_ID
  *   GITHUB_CLIENT_SECRET
  * Optional:
  *   ALLOWED_DOMAINS   comma-separated, supports `*` wildcard
+ *   ALLOWED_REPO      owner/repo to gate collaborator check (e.g. "jarredbarber/loe-vibecode")
  */
 
 const supportedProviders = ['github', 'gitlab'];

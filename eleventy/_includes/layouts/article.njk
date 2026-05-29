@@ -12,6 +12,19 @@ layout: layouts/base.njk
             {% include "modules/_article_header.njk" %}
             {{ content | safe }}
         </div>
+        {% if category == 'Segments' %}
+          {% set related = page.inputPath | relatedForSegment %}
+          {% if related and related.length %}
+          <aside class="related-segments">
+            <h3>Related segments</h3>
+            <ul class="archive-list">
+              {% for item in related %}
+              <li><a href="{{ item.url }}">{{ item.title }}</a> <span class="silver">({{ item.date }})</span></li>
+              {% endfor %}
+            </ul>
+          </aside>
+          {% endif %}
+        {% endif %}
         <p><a href="{{ site.url }}/index.html" class="silver">&larr; Back to Home</a></p>
     </div>
     <div class="clr"></div>

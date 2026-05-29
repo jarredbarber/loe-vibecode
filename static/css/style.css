@@ -2303,6 +2303,26 @@ figcaption {
     text-decoration: underline;
 }
 
+/* --- Related segments box (bottom of each segment page) --- */
+
+.related-segments {
+    margin: 2.5em 0 1em;
+    padding-top: 1.2em;
+    border-top: 2px solid var(--border-light);
+}
+
+.related-segments h3 {
+    font-size: 1.1em;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 0 0.5em;
+}
+
+.related-segments .archive-list li {
+    padding: 7px 0;
+}
+
 /* --- Custom adjustments for Index Titles --- */
 
 /* Featured Show: pull title (h3) closer to date (h2) */

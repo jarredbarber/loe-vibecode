@@ -15,6 +15,8 @@
         (function(){
             var t = localStorage.getItem('loe-theme');
             if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+            var s = localStorage.getItem('loe-text-size');
+            if (s === 'large' || s === 'xlarge') document.documentElement.setAttribute('data-text-size', s);
         })();
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,10 +51,17 @@
         </script>
     </div>
     {% endif %}
-    <div class="theme-toggle" aria-label="Theme">
-        <button class="theme-btn" data-theme-val="light" title="Light mode">☀</button>
-        <button class="theme-btn" data-theme-val="auto"  title="Auto (follow OS)">⬤</button>
-        <button class="theme-btn" data-theme-val="dark"  title="Dark mode">☾</button>
+    <div class="site-controls">
+        <div class="theme-toggle" aria-label="Theme">
+            <button class="theme-btn" data-theme-val="light" title="Light mode">☀</button>
+            <button class="theme-btn" data-theme-val="auto"  title="Auto (follow OS)">⬤</button>
+            <button class="theme-btn" data-theme-val="dark"  title="Dark mode">☾</button>
+        </div>
+        <div class="text-size-toggle" aria-label="Text size">
+            <button class="text-size-btn" data-size-val="normal" title="Normal text size">A</button>
+            <button class="text-size-btn" data-size-val="large"  title="Large text size">A</button>
+            <button class="text-size-btn" data-size-val="xlarge" title="Largest text size">A</button>
+        </div>
     </div>
     <script>
         (function() {
@@ -63,13 +72,30 @@
                     b.classList.toggle('theme-btn-active', b.dataset.themeVal === t);
                 });
             }
-            var saved = localStorage.getItem('loe-theme') || 'auto';
-            applyTheme(saved);
+            var savedTheme = localStorage.getItem('loe-theme') || 'auto';
+            applyTheme(savedTheme);
             document.querySelectorAll('.theme-btn').forEach(function(b) {
                 b.addEventListener('click', function() {
                     var t = b.dataset.themeVal;
                     localStorage.setItem('loe-theme', t);
                     applyTheme(t);
+                });
+            });
+
+            function applySize(s) {
+                if (s === 'normal') document.documentElement.removeAttribute('data-text-size');
+                else document.documentElement.setAttribute('data-text-size', s);
+                document.querySelectorAll('.text-size-btn').forEach(function(b) {
+                    b.classList.toggle('text-size-btn-active', b.dataset.sizeVal === s);
+                });
+            }
+            var savedSize = localStorage.getItem('loe-text-size') || 'normal';
+            applySize(savedSize);
+            document.querySelectorAll('.text-size-btn').forEach(function(b) {
+                b.addEventListener('click', function() {
+                    var s = b.dataset.sizeVal;
+                    localStorage.setItem('loe-text-size', s);
+                    applySize(s);
                 });
             });
         })();

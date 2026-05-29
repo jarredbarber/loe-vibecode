@@ -2555,20 +2555,27 @@ iframe {
     right: 0;
     left: auto;
 }
-.theme-toggle {
+.site-controls {
     position: absolute;
     top: 0;
     left: 0;
+    display: flex;
+    align-items: stretch;
+    gap: 8px;
+    z-index: 10;
+}
+.theme-toggle,
+.text-size-toggle {
     display: flex;
     align-items: stretch;
     gap: 1px;
     background: #e8ede8;
     padding: 0 2px;
     border-radius: 4px;
-    z-index: 10;
     border: 1px solid #d0d8d0;
 }
-.theme-btn {
+.theme-btn,
+.text-size-btn {
     border: none;
     background: transparent;
     color: #555;
@@ -2578,8 +2585,31 @@ iframe {
     line-height: 1;
     transition: background 0.15s, color 0.15s;
 }
-.theme-btn:hover { background: #d0d8d0; color: #222; }
-.theme-btn-active { background: #4a8a7a !important; color: #fff !important; }
+.theme-btn:hover,
+.text-size-btn:hover { background: #d0d8d0; color: #222; }
+.theme-btn-active,
+.text-size-btn-active { background: #4a8a7a !important; color: #fff !important; }
+/* The three "A" glyphs grow to telegraph what the control does. */
+.text-size-btn { font-family: Georgia, 'Times New Roman', serif; font-weight: bold; }
+.text-size-btn[data-size-val="normal"] { font-size: 12px; }
+.text-size-btn[data-size-val="large"]  { font-size: 15px; }
+.text-size-btn[data-size-val="xlarge"] { font-size: 18px; }
+
+/* Reader text scaling. Base is .body { font-size: 16px }; transcript copy
+   inherits from it, so bumping this enlarges body + transcript text while
+   leaving fixed-px UI chrome (toggles, sparkline labels) alone. */
+html[data-text-size="large"] .body  { font-size: 20px; }
+html[data-text-size="xlarge"] .body { font-size: 24px; }
+
+/* Honor reduced-motion: kill the sparkline/toggle transitions + smooth scroll. */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
 
 /* ─── Tag cloud: smaller pills on mobile ─── */
 @media (max-width: 700px) {

@@ -1,10 +1,16 @@
 ---
 layout: layouts/base.njk
 ---
+{% from "modules/sparkline.njk" import render as sparkline %}
 <div class="body">
     <div class="body_resize">
         <div class="article-content">
             <h1>{{ speaker.name }}</h1>
+            {% if speaker.yearCounts %}
+            {% set _max = 1 %}
+            {% for y, c in speaker.yearCounts %}{% if c > _max %}{% set _max = c %}{% endif %}{% endfor %}
+            {{ sparkline(speaker.yearCounts, speaker.earliestYear, speaker.latestYear, _max, "") }}
+            {% endif %}
             <p class="speaker-blurb">
                 {{ speaker.count }} appearance{% if speaker.count != 1 %}s{% endif %}
                 on <em>Living on Earth</em>{% if speaker.earliestYear == speaker.latestYear %},

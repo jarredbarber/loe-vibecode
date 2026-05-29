@@ -202,6 +202,7 @@ module.exports = function (eleventyConfig) {
             entry.yearCountsPeak = yc.reduce((m, x) => Math.max(m, x.count), 0);
             entry.yearCountsFirst = yc.length ? yc[0].year : null;
             entry.yearCountsLast = yc.length ? yc[yc.length - 1].year : null;
+            entry.yearCountsDict = Object.fromEntries(yc.map(({ year, count }) => [year, count]));
 
             const mc = [...monthCounts.entries()]
                 .sort((a, b) => (a[0] < b[0] ? -1 : 1))

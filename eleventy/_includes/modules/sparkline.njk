@@ -1,0 +1,47 @@
+{#
+  sparkline(yearCounts, earliestYear, latestYear, peak, caption, barLinks)
+
+  yearCounts  — dict of { year: count }
+  earliestYear, latestYear — ints
+  peak        — max count value (for scaling)
+  caption     — figcaption text (default: "Segments per year")
+  barLinks    — optional dict of { year: "#anchor" } for clickable bars
+#}
+{% macro render(yearCounts, earliestYear, latestYear, peak, caption="Segments per year", barLinks=null) %}
+{% set _span = latestYear - earliestYear + 1 %}
+{% set _barW = 24 %}
+{% set _barGap = 6 %}
+{% set _unitW = _barW + _barGap %}
+{% set _svgH = 72 %}
+{% set _barMaxH = 63 %}
+{% set _tickY = _svgH + 12 %}
+{% set _totalW = _span * _unitW %}
+<figure style="margin: 0.5em 0 1.2em;">
+    <svg class="sparkline" viewBox="0 0 {{ _totalW }} {{ _tickY }}"
+         style="width:min(100%,{{ _totalW }}px);height:{{ _tickY }}px;display:block;"
+         role="img" aria-label="{{ caption }}">
+    {% for yr in range(earliestYear, latestYear + 1) %}
+        {% set _c = yearCounts[yr] or 0 %}
+        {% set _h = ((_c / peak) * _barMaxH) | round %}
+        {% set _x = (yr - earliestYear) * _unitW %}
+        {% set _barEl %}
+            <rect x="{{ _x + 1 }}" y="{{ _svgH - _h }}" width="{{ _barW }}" height="{{ _h }}"
+                  fill="{% if _c %}var(--color-accent, #4a8a7a){% else %}#e0e0e0{% endif %}"
+                  rx="1">
+                <title>{{ yr }}: {{ _c }} segment{% if _c != 1 %}s{% endif %}</title>
+            </rect>
+        {% endset %}
+        {% if barLinks and barLinks[yr] %}
+            <a href="{{ barLinks[yr] }}">{{ _barEl | safe }}</a>
+        {% else %}
+            {{ _barEl | safe }}
+        {% endif %}
+        {% set _tickInterval = ((_span / 5) | round) or 1 %}
+        {% if (yr - earliestYear) % _tickInterval == 0 or loop.last %}
+            <text x="{{ _x + (_barW / 2) }}" y="{{ _tickY - 1 }}" text-anchor="middle" font-size="9" fill="#888">{{ yr }}</text>
+        {% endif %}
+    {% endfor %}
+    </svg>
+    {% if caption %}<figcaption style="font-size:0.78em;color:#888;margin-top:0.2em;text-align:left;">{{ caption }}</figcaption>{% endif %}
+</figure>
+{% endmacro %}

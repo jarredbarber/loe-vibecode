@@ -195,6 +195,129 @@ function aggregatedPillsForShow(segments) {
     };
 }
 
+// ---------------------------------------------------------------------------
+// Related segments — TF-IDF tag similarity, computed once and cached.
+// score(a,b) = Σ 1/freq(t) for t in intersection(tags_a, tags_b)
+// Diversity nudge: at least 2 distinct "primary" tags (first tag) across picks.
+// Tiebreak by recency gap (prefer different years).
+// ---------------------------------------------------------------------------
+let _relatedCache = null;
+function buildRelatedCache() {
+    if (_relatedCache) return _relatedCache;
+    const fs = require('node:fs');
+    const path = require('node:path');
+    const yaml = require('js-yaml');
+    const repoRoot = path.resolve(__dirname, '..', '..');
+    const roots = [
+        path.resolve(repoRoot, 'content', 'segments'),
+        path.resolve(repoRoot, 'content', 'archive', 'segments'),
+    ];
+    const walk = function* (dir) {
+        let entries = [];
+        try { entries = fs.readdirSync(dir, { withFileTypes: true }); }
+        catch { return; }
+        for (const e of entries) {
+            const p = path.join(dir, e.name);
+            if (e.isDirectory()) yield* walk(p);
+            else if (e.isFile() && e.name.endsWith('.md')) yield p;
+        }
+    };
+
+    // Parse frontmatter from each segment.
+    const segments = [];
+    for (const root of roots) {
+        for (const file of walk(root)) {
+            let raw = '';
+            try { raw = fs.readFileSync(file, 'utf8'); } catch { continue; }
+            if (!raw.startsWith('---')) continue;
+            const end = raw.indexOf('\n---', 3);
+            if (end === -1) continue;
+            const fmStr = raw.slice(4, end);
+            let fm;
+            try { fm = yaml.load(fmStr); } catch { continue; }
+            const tags = Array.isArray(fm.tags) ? fm.tags.filter(Boolean) : [];
+            if (!tags.length) continue;
+            const date = fm.date ? new Date(fm.date) : null;
+            if (!date || isNaN(date)) continue;
+            const yyyy = date.getUTCFullYear();
+            const mm = String(date.getUTCMonth() + 1).padStart(2, '0');
+            const dd = String(date.getUTCDate()).padStart(2, '0');
+            const slug = fm.slug || path.basename(file, '.md');
+            const url = `/${yyyy}_${mm}_${dd}_${slug}.html`;
+            const rel = path.relative(repoRoot, file).replace(/^content\//, '');
+            segments.push({ rel, url, title: fm.title || slug, date, year: yyyy, tags });
+        }
+    }
+
+    // Build inverted index: tag → count of segments with that tag.
+    const tagFreq = new Map();
+    for (const seg of segments) {
+        for (const t of seg.tags) tagFreq.set(t, (tagFreq.get(t) || 0) + 1);
+    }
+
+    // For each segment, score all others and pick top 4-5.
+    const result = {};
+    for (let i = 0; i < segments.length; i++) {
+        const a = segments[i];
+        const tagsA = new Set(a.tags);
+        // Score candidates.
+        const scored = [];
+        for (let j = 0; j < segments.length; j++) {
+            if (i === j) continue;
+            const b = segments[j];
+            let score = 0;
+            for (const t of b.tags) {
+                if (tagsA.has(t)) score += 1 / (tagFreq.get(t) || 1);
+            }
+            if (score > 0) scored.push({ score, seg: b });
+        }
+        if (!scored.length) continue;
+        // Sort by score desc, then by recency (prefer different years from `a`).
+        scored.sort((x, y) => {
+            if (y.score !== x.score) return y.score - x.score;
+            // Prefer segments from a different year (tiebreak by year distance desc).
+            const xDiff = Math.abs(x.seg.year - a.year);
+            const yDiff = Math.abs(y.seg.year - a.year);
+            return yDiff - xDiff;
+        });
+        // Pick top candidates with diversity nudge: ≥2 distinct primary tags.
+        const picks = [];
+        const primaryTags = new Set();
+        for (const { seg } of scored) {
+            if (picks.length >= 5) break;
+            picks.push(seg);
+            if (seg.tags[0]) primaryTags.add(seg.tags[0]);
+        }
+        // If diversity not met (< 2 primary tags) and we have <4 picks, top-up
+        // from candidates with a different primary tag.
+        if (primaryTags.size < 2 && picks.length < 4) {
+            for (const { seg } of scored) {
+                if (picks.includes(seg)) continue;
+                if (!picks.find(p => p.tags[0] === seg.tags[0])) {
+                    picks.push(seg);
+                    if (picks.length >= 4) break;
+                }
+            }
+        }
+        result[a.rel] = picks.slice(0, 5).map(s => ({
+            url: s.url,
+            title: s.title,
+            date: s.date.toISOString().slice(0, 10),
+        }));
+    }
+    _relatedCache = result;
+    return result;
+}
+
+function relatedForSegment(inputPath) {
+    if (!inputPath) return [];
+    // inputPath may be "./content/segments/..." or "segments/..." — normalise.
+    const m = String(inputPath).match(/content\/(.+\.md)$/);
+    const rel = m ? m[1] : null;
+    if (!rel) return [];
+    return buildRelatedCache()[rel] || [];
+}
+
 module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('ordinal', ordinal);
     eleventyConfig.addFilter('strftime', strftime);
@@ -205,6 +328,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('readingTime', readingTime);
     eleventyConfig.addFilter('listeningTime', listeningTime);
     eleventyConfig.addFilter('speakersForSegment', speakersForSegment);
+    eleventyConfig.addFilter('relatedForSegment', relatedForSegment);
     eleventyConfig.addFilter('aggregatedPillsForShow', aggregatedPillsForShow);
     eleventyConfig.addFilter('yearCountsToBarLinks', (yearCounts) =>
         Object.fromEntries(yearCounts.map(({ year }) => [year, `#period-${year}`]))

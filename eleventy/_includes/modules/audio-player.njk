@@ -1,20 +1,24 @@
 {# Build-time audio player — replaces the Megaphone iframe with a site-styled
-   player. Wiring (play, scrub, resume, deep-link, clip, chapter auto-advance)
-   lives in static/js/episode-player.js, which reads track ids from the
-   .ep-chap nodes. Theming uses the site CSS variables, so dark mode is
-   automatic. The audio source is the episode's enclosure mp3
-   (traffic.megaphone.fm/<id>.mp3), which preserves Megaphone's dynamic ad
-   insertion + download counting.
+   player. Wiring (play, scrub, resume, deep-link, clip, chapter auto-advance,
+   Media Session, up-next radio) lives in static/js/episode-player.js, which
+   reads track data from the .ep-chap / .ep-next nodes. Theming uses the site
+   CSS variables, so dark mode is automatic. The audio source is the episode's
+   enclosure mp3 (traffic.megaphone.fm/<id>.mp3), which preserves Megaphone's
+   dynamic ad insertion + download counting.
 
-   tracks     — list of { id, title }  (megaphone_id + display title)
+   tracks     — list of { id, title, art }  (megaphone_id, display title, artwork URL)
    single     — true for one-track pages (hides the chapter list)
-   fallbackId — megaphone_id used in a <noscript> iframe fallback #}
-{% macro player(tracks, single=false, fallbackId="") %}
+   fallbackId — megaphone_id used in a <noscript> iframe fallback
+   queue      — optional up-next radio tracks { id, title, art } (related segments);
+                played after the main track ends on single-segment pages #}
+{% macro player(tracks, single=false, fallbackId="", queue=[]) %}
 {% if tracks and tracks.length %}
 <div class="episode-player{% if single %} episode-player--single{% endif %}" aria-label="Episode audio player">
     <div class="ep-row">
         <img class="ep-logo" src="{{ site.url }}/theme/img/logo.png" alt="Living on Earth">
-        <button class="ep-play" type="button" aria-label="Play">▶</button>
+        <button class="ep-skip ep-back" type="button" aria-label="Back 15 seconds">&#8634;<span class="ep-skip-n">15</span></button>
+        <button class="ep-play" type="button" aria-label="Play">&#9654;</button>
+        <button class="ep-skip ep-fwd" type="button" aria-label="Forward 15 seconds">&#8635;<span class="ep-skip-n">15</span></button>
         <div class="ep-mid">
             <div class="ep-now"></div>
             <div class="ep-bar" role="slider" aria-label="Seek" tabindex="0"><div class="ep-buf"></div><div class="ep-fill"></div></div>
@@ -28,9 +32,16 @@
     </div>
     <ul class="ep-chaps">
         {% for t in tracks %}
-        <li class="ep-chap" data-id="{{ t.id }}" data-i="{{ loop.index0 }}"><span class="ep-chap-n">{{ loop.index }}</span><span class="ep-chap-t">{{ t.title | stripQuotes }}</span></li>
+        <li class="ep-chap" data-id="{{ t.id }}" data-i="{{ loop.index0 }}" data-art="{{ t.art }}"><span class="ep-chap-n">{{ loop.index }}</span><span class="ep-chap-t">{{ t.title | stripQuotes }}</span></li>
         {% endfor %}
     </ul>
+    {% if queue and queue.length %}
+    <ul class="ep-queue" hidden>
+        {% for t in queue %}
+        <li class="ep-next" data-id="{{ t.id }}" data-title="{{ t.title | stripQuotes }}" data-art="{{ t.art }}"></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
     {% if fallbackId %}<noscript><iframe frameborder="0" height="200" scrolling="no" width="100%" src="https://player.megaphone.fm/{{ fallbackId }}?light=true"></iframe></noscript>{% endif %}
 </div>
 {% endif %}

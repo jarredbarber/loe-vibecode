@@ -1,8 +1,9 @@
 // Wires the build-time .episode-player markup (see modules/audio-player.njk).
-// Reads track ids from .ep-chap nodes and plays the enclosure mp3
-// (traffic.megaphone.fm/<id>.mp3 — preserves Megaphone ads + download counts).
-// Features: play/pause, scrub, buffered, speed, resume (localStorage),
-// chapter list with auto-advance, ?t=/&ch=/&end= deep-links, clip-to-share.
+// Plays the enclosure mp3 (traffic.megaphone.fm/<id>.mp3 — preserves Megaphone
+// ads + download counting). Features: play/pause, scrub, ±15s skip, speed
+// (incl. 0.8×), resume (localStorage), chapter list w/ auto-advance, up-next
+// radio (related segments after a single segment ends), ?t=/&ch=/&end=
+// deep-links, clip-to-share, and OS Media Session (lock-screen) controls.
 
 (function () {
     'use strict';
@@ -27,21 +28,26 @@
     }
 
     function init(el, applyUrl) {
-        var tracks = [].slice.call(el.querySelectorAll('.ep-chap')).map(function (li) {
-            return { id: li.dataset.id, title: (li.querySelector('.ep-chap-t') || {}).textContent || '' };
+        var chapters = [].slice.call(el.querySelectorAll('.ep-chap')).map(function (li) {
+            return { id: li.dataset.id, title: (li.querySelector('.ep-chap-t') || {}).textContent || '', art: li.dataset.art || '' };
         });
-        if (!tracks.length) return;
-        var multi = !el.classList.contains('episode-player--single') && tracks.length > 1;
+        // Up-next radio queue (related segments) — played after the main track.
+        var queue = [].slice.call(el.querySelectorAll('.ep-next')).map(function (li) {
+            return { id: li.dataset.id, title: li.dataset.title || '', art: li.dataset.art || '' };
+        });
+        var all = chapters.concat(queue);
+        if (!all.length) return;
+        var multi = !el.classList.contains('episode-player--single') && chapters.length > 1;
 
         var Q = function (s) { return el.querySelector(s); };
         var audio = new Audio(); audio.preload = 'metadata';
         var play = Q('.ep-play'), bar = Q('.ep-bar'), fill = Q('.ep-fill'), buf = Q('.ep-buf'),
             curEl = Q('.ep-cur'), durEl = Q('.ep-dur'), now = Q('.ep-now'), spd = Q('.ep-spd');
-        var speeds = [1, 1.5, 2], si = 0, cur = -1, pend = null, tick = 0;
+        var speeds = [0.8, 1, 1.5, 2], si = 1, cur = -1, pend = null, tick = 0;
         var clipMode = false, clipA = null, clipB = null, stopAt = null;
 
         var qp = new URLSearchParams(applyUrl ? location.search : '');
-        var startCh = Math.max(0, Math.min(tracks.length - 1, parseInt(qp.get('ch') || '0', 10) || 0));
+        var startCh = Math.max(0, Math.min(all.length - 1, parseInt(qp.get('ch') || '0', 10) || 0));
         var startT = parseT(qp.get('t'));
         var clipEnd = qp.get('end') ? parseT(qp.get('end')) : null;
         clipB = clipEnd; stopAt = clipEnd;
@@ -64,20 +70,34 @@
             var u = new URL(location.href);
             u.searchParams.set('t', Math.round(a));
             if (b != null) u.searchParams.set('end', Math.round(b)); else u.searchParams.delete('end');
-            if (multi) u.searchParams.set('ch', cur);
+            if (multi && cur < chapters.length) u.searchParams.set('ch', cur);
             return u.toString();
         }
         function setChap(i) {
             el.querySelectorAll('.ep-chap').forEach(function (c) { c.classList.toggle('ep-cur', +c.dataset.i === i); });
         }
+        function setMedia(i) {
+            if (!('mediaSession' in navigator)) return;
+            var t = all[i];
+            try {
+                navigator.mediaSession.metadata = new MediaMetadata({
+                    title: t.title, artist: 'Living on Earth', album: 'Living on Earth',
+                    artwork: t.art ? [{ src: t.art, sizes: '512x512', type: 'image/jpeg' }] : []
+                });
+            } catch (e) { /* ignore */ }
+        }
         function load(i, seek, auto) {
             cur = i;
-            pend = (seek != null) ? seek : (parseFloat(localStorage.getItem('ep-pos-' + tracks[i].id)) || 0);
-            audio.src = mp3(tracks[i].id); audio.load();
-            now.textContent = tracks[i].title;
+            var radio = i >= chapters.length;
+            pend = (seek != null) ? seek : (parseFloat(localStorage.getItem('ep-pos-' + all[i].id)) || 0);
+            audio.src = mp3(all[i].id); audio.load();
+            now.textContent = (radio ? '♫ ' : '') + all[i].title;
+            el.classList.toggle('ep-radio-on', radio);
             durEl.textContent = '--:--'; curEl.textContent = '0:00';
             fill.style.right = '100%'; buf.style.right = '100%';
-            setChap(i);
+            setChap(radio ? -1 : i);
+            setMedia(i);
+            if (radio) toast('Up next — playing a related segment');
             if (auto) audio.play();
         }
 
@@ -91,20 +111,29 @@
             fill.style.right = (100 - audio.currentTime / d * 100) + '%';
             curEl.textContent = fmt(audio.currentTime);
             if (audio.buffered.length) buf.style.right = (100 - audio.buffered.end(audio.buffered.length - 1) / d * 100) + '%';
-            if (++tick % 10 === 0) localStorage.setItem('ep-pos-' + tracks[cur].id, audio.currentTime);
+            if (++tick % 10 === 0) localStorage.setItem('ep-pos-' + all[cur].id, audio.currentTime);
             if (stopAt != null && audio.currentTime >= stopAt) { audio.pause(); stopAt = null; }
+            if ('mediaSession' in navigator && navigator.mediaSession.setPositionState && isFinite(audio.duration)) {
+                try { navigator.mediaSession.setPositionState({ duration: audio.duration, position: audio.currentTime, playbackRate: audio.playbackRate }); } catch (e) { /* ignore */ }
+            }
         });
-        audio.addEventListener('play', function () { play.textContent = '❚❚'; play.setAttribute('aria-label', 'Pause'); });
+        audio.addEventListener('play', function () {
+            play.textContent = '❚❚'; play.setAttribute('aria-label', 'Pause');
+            if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'playing';
+        });
         audio.addEventListener('pause', function () {
             play.textContent = '▶'; play.setAttribute('aria-label', 'Play');
-            if (cur >= 0) localStorage.setItem('ep-pos-' + tracks[cur].id, audio.currentTime);
+            if (cur >= 0) localStorage.setItem('ep-pos-' + all[cur].id, audio.currentTime);
+            if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
         });
         audio.addEventListener('ended', function () {
-            localStorage.removeItem('ep-pos-' + tracks[cur].id);
-            if (multi && cur < tracks.length - 1) load(cur + 1, 0, true);
+            localStorage.removeItem('ep-pos-' + all[cur].id);
+            if (cur < all.length - 1) load(cur + 1, 0, true);
         });
 
         play.addEventListener('click', function () { audio.paused ? audio.play() : audio.pause(); });
+        Q('.ep-back').addEventListener('click', function () { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+        Q('.ep-fwd').addEventListener('click', function () { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 15); });
         bar.addEventListener('click', function (e) {
             var r = bar.getBoundingClientRect(), t = (e.clientX - r.left) / r.width * (audio.duration || 0);
             if (clipMode) {
@@ -131,6 +160,18 @@
         el.querySelectorAll('.ep-chap').forEach(function (c) {
             c.addEventListener('click', function () { load(+c.dataset.i, 0, true); });
         });
+
+        // OS / lock-screen / headphone controls.
+        if ('mediaSession' in navigator) {
+            var ms = navigator.mediaSession, H = function (a, fn) { try { ms.setActionHandler(a, fn); } catch (e) { /* unsupported */ } };
+            H('play', function () { audio.play(); });
+            H('pause', function () { audio.pause(); });
+            H('seekbackward', function (e) { audio.currentTime = Math.max(0, audio.currentTime - ((e && e.seekOffset) || 15)); });
+            H('seekforward', function (e) { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + ((e && e.seekOffset) || 15)); });
+            H('seekto', function (e) { if (e.fastSeek && 'fastSeek' in audio) { audio.fastSeek(e.seekTime); return; } audio.currentTime = e.seekTime; });
+            H('previoustrack', function () { if (cur > 0) load(cur - 1, 0, true); });
+            H('nexttrack', function () { if (cur < all.length - 1) load(cur + 1, 0, true); });
+        }
 
         load(startCh, (startT || clipEnd != null) ? startT : null, applyUrl && !!(qp.get('t') || clipEnd));
     }

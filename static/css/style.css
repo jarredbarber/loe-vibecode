@@ -2574,7 +2574,15 @@ iframe {
     transition: background 0.15s;
 }
 .ep-play:hover { background: #3d7468; }
+.ep-skip {
+    flex: none; border: none; background: transparent; color: var(--text-medium);
+    font-size: 18px; line-height: 1; cursor: pointer; padding: 4px;
+    display: inline-flex; align-items: center; gap: 1px;
+}
+.ep-skip:hover { color: #4a8a7a; }
+.ep-skip-n { font: bold 9px/1 'Space Mono', monospace; }
 .ep-mid { flex: 1; min-width: 0; }
+.ep-radio-on .ep-now { color: #4a8a7a; }
 .ep-now {
     font: bold 13px/1.4 Georgia, serif; color: var(--text-dark);
     margin: 0 0 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;

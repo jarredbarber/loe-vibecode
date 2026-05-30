@@ -245,7 +245,11 @@ function buildRelatedCache() {
             const slug = fm.slug || path.basename(file, '.md');
             const url = `/${yyyy}_${mm}_${dd}_${slug}.html`;
             const rel = path.relative(repoRoot, file).replace(/^content\//, '');
-            segments.push({ rel, url, title: fm.title || slug, date, year: yyyy, tags });
+            segments.push({
+                rel, url, title: fm.title || slug, date, year: yyyy, tags,
+                megaphoneId: fm.megaphone_id || null,
+                art: fm.image_url || fm.banner_url || null,
+            });
         }
     }
 
@@ -303,6 +307,8 @@ function buildRelatedCache() {
             url: s.url,
             title: s.title,
             date: s.date.toISOString().slice(0, 10),
+            megaphoneId: s.megaphoneId,
+            art: s.art,
         }));
     }
     _relatedCache = result;

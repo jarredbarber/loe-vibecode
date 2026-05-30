@@ -1906,10 +1906,6 @@ figcaption {
     }
 }
 
-.segment-player {
-    margin-bottom: 10px;
-}
-
 .segment-length {
     color: var(--text-light);
     font-style: italic;
@@ -2555,6 +2551,63 @@ iframe {
     right: 0;
     left: auto;
 }
+/* ─── Episode audio player (replaces the Megaphone iframe) ─── */
+/* Backgrounds/borders/text use site vars so dark mode adapts automatically;
+   the accent stays a fixed mid-green (#4a8a7a) so white text on it is legible
+   in both light and dark themes. */
+.episode-player {
+    border: 1px solid var(--border-medium);
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 0 0 1.2em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.ep-row { display: flex; align-items: center; gap: 14px; }
+.ep-logo { height: 34px; width: auto; flex: none; }
+.ep-play {
+    flex: none; width: 46px; height: 46px; border-radius: 50%; border: none;
+    background: #4a8a7a; color: #fff; font-size: 18px; line-height: 1; cursor: pointer;
+    transition: background 0.15s;
+}
+.ep-play:hover { background: #3d7468; }
+.ep-mid { flex: 1; min-width: 0; }
+.ep-now {
+    font: bold 13px/1.4 Georgia, serif; color: var(--text-dark);
+    margin: 0 0 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.ep-bar { height: 9px; background: var(--border-light); border-radius: 5px; cursor: pointer; position: relative; }
+.ep-buf, .ep-fill { position: absolute; top: 0; bottom: 0; left: 0; right: 100%; border-radius: 5px; }
+.ep-buf { background: var(--border-medium); }
+.ep-fill { background: #4a8a7a; }
+.ep-bar:focus { outline: 2px solid #4a8a7a; outline-offset: 2px; }
+.ep-mark { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--error-red); }
+.ep-meta { display: flex; justify-content: space-between; font: 11px/1.6 'Space Mono', monospace; color: var(--text-light); margin-top: 5px; }
+.ep-tools { display: flex; gap: 6px; flex: none; }
+.ep-tool {
+    border: 1px solid var(--border-medium); background: var(--bg-white); color: #4a8a7a;
+    border-radius: 6px; padding: 6px 9px; font: bold 12px/1 'Space Mono', monospace; cursor: pointer;
+}
+.ep-tool:hover { background: var(--border-light); }
+.ep-tool.ep-on { background: #4a8a7a; color: #fff; }
+.episode-player--single .ep-chaps { display: none; }
+.ep-chaps {
+    list-style: none; margin: 12px 0 0; padding: 10px 0 0;
+    border-top: 1px solid var(--border-light); max-height: 260px; overflow: auto;
+}
+.ep-chap {
+    display: flex; gap: 9px; padding: 7px 8px; border-radius: 6px; cursor: pointer;
+    font: 14px/1.35 Georgia, serif; color: var(--text-dark);
+}
+.ep-chap:hover { background: var(--transcript-hover); }
+.ep-chap.ep-cur { background: #4a8a7a; color: #fff; }
+.ep-chap-n { flex: none; opacity: 0.6; font: 11px/1.6 'Space Mono', monospace; }
+.ep-toast {
+    position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%);
+    background: var(--text-dark); color: var(--bg-main); padding: 8px 14px; border-radius: 6px;
+    font: 13px Georgia, serif; z-index: 99999; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
 .site-controls {
     position: absolute;
     top: 0;

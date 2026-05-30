@@ -20,13 +20,8 @@
     {% endif %}
 
     <div class="segment-content">
-        {% if segment.data.megaphone_id %}
-        <div class="segment-player">
-            <iframe frameborder="0" height="200" scrolling="no" width="100%"
-                src="https://player.megaphone.fm/{{ segment.data.megaphone_id }}?light=true"></iframe>
-        </div>
-        {% endif %}
-
+        {# Per-segment players removed — the show header player chapters by
+           segment instead (see show.njk → _audioTracks). #}
         {% if segment.data.summary %}
         <p>{{ segment.data.summary }}{% if segment.data.length %} <span class="segment-length">({{ segment.data.length }})</span>{% endif %}</p>
         {% endif %}

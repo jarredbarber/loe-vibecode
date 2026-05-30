@@ -2567,7 +2567,7 @@ iframe {
     clear: both;
 }
 .ep-row { display: flex; align-items: center; gap: 14px; }
-.ep-logo { height: 34px; width: auto; flex: none; }
+.ep-logo { height: 42px; width: auto; flex: none; }
 .ep-play {
     flex: none; width: 46px; height: 46px; border-radius: 50%; border: none;
     background: #4a8a7a; color: #fff; font-size: 18px; line-height: 1; cursor: pointer;

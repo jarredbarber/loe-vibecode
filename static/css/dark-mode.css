@@ -77,16 +77,6 @@ html[data-theme="dark"] body,
 html[data-theme="dark"] .main { background-color: var(--bg-main); color: var(--text-dark); }
 
 /* Strip dotted GIF textures */
-@media (prefers-color-scheme: dark) {
-    html:not([data-theme="light"]) .header_resize,
-    html:not([data-theme="light"]) .header_blog,
-    html:not([data-theme="light"]) .header_blog2,
-    html:not([data-theme="light"]) .footer { background-image: none !important; background-color: var(--bg-header) !important; }
-}
-html[data-theme="dark"] .header_resize,
-html[data-theme="dark"] .header_blog,
-html[data-theme="dark"] .header_blog2,
-html[data-theme="dark"] .footer { background-image: none !important; background-color: var(--bg-header) !important; }
 
 /* featured-show card (homepage hero + on-this-day) */
 @media (prefers-color-scheme: dark) {

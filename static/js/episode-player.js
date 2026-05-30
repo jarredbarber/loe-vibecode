@@ -151,7 +151,38 @@
             else if (e.key === 'ArrowLeft') { audio.currentTime = Math.max(0, audio.currentTime - 5); e.preventDefault(); }
             else if (e.key === ' ' || e.key === 'Enter') { audio.paused ? audio.play() : audio.pause(); e.preventDefault(); }
         });
-        spd.addEventListener('click', function () { si = (si + 1) % speeds.length; audio.playbackRate = speeds[si]; spd.textContent = speeds[si] + '×'; });
+        // Speed: tap cycles; long-press (or right-click) opens a picker.
+        var spdMenu = null, spdTimer = null, spdLong = false;
+        function setSpeed(rate) {
+            si = speeds.indexOf(rate); if (si < 0) { speeds.push(rate); si = speeds.length - 1; }
+            audio.playbackRate = rate; spd.textContent = rate + '×';
+        }
+        function closeSpeedMenu() {
+            if (!spdMenu) return;
+            spdMenu.remove(); spdMenu = null;
+            document.removeEventListener('click', closeSpeedMenu);
+        }
+        function openSpeedMenu() {
+            closeSpeedMenu();
+            spdMenu = document.createElement('div'); spdMenu.className = 'ep-spd-menu';
+            speeds.slice().sort(function (a, b) { return a - b; }).forEach(function (r) {
+                var b = document.createElement('button');
+                b.type = 'button'; b.className = 'ep-spd-opt' + (r === speeds[si] ? ' ep-on' : '');
+                b.textContent = r + '×';
+                b.addEventListener('click', function (ev) { ev.stopPropagation(); setSpeed(r); closeSpeedMenu(); });
+                spdMenu.appendChild(b);
+            });
+            spd.parentNode.appendChild(spdMenu);
+            setTimeout(function () { document.addEventListener('click', closeSpeedMenu); }, 0);
+        }
+        spd.addEventListener('pointerdown', function () { spdLong = false; spdTimer = setTimeout(function () { spdLong = true; openSpeedMenu(); }, 450); });
+        spd.addEventListener('pointerup', function () { clearTimeout(spdTimer); });
+        spd.addEventListener('pointerleave', function () { clearTimeout(spdTimer); });
+        spd.addEventListener('contextmenu', function (e) { e.preventDefault(); openSpeedMenu(); });
+        spd.addEventListener('click', function (e) {
+            if (spdLong) { e.preventDefault(); e.stopPropagation(); spdLong = false; return; }
+            si = (si + 1) % speeds.length; audio.playbackRate = speeds[si]; spd.textContent = speeds[si] + '×';
+        });
         Q('.ep-share').addEventListener('click', function () { copy(urlAt(audio.currentTime, null)); toast('Link copied at ' + fmt(audio.currentTime)); });
         Q('.ep-clip').addEventListener('click', function () {
             clipMode = !clipMode; clipA = null; this.classList.toggle('ep-on', clipMode);

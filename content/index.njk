@@ -49,20 +49,19 @@ eleventyExcludeFromCollections: true
         {% if latest %}
         <div class="featured-show">
             <h1>This Week on <i>Living on Earth</i></h1>
-            {% set thisWeekSegments = (latest | segmentsForShow(collections.segments)) %}
-            {% if thisWeekSegments.length %}
-            <div class="featured-segments">
-                <strong>{{ latest.data.date | strftime('%B') }} {{ latest.data.date | dayOrdinal }}:</strong>
-                {% for segment in thisWeekSegments %}
-                <a href="{{ site.url }}{{ segment.url }}">{{ segment.data.title }}</a>{% if not loop.last %} | {% endif %}
-                {% endfor %}
-            </div>
-            {% endif %}
             {% if latest.data.megaphone_id %}
             {{ player([{ id: latest.data.megaphone_id, title: latest.data.title, art: latest.data.image_url or latest.data.banner_url }], true, latest.data.megaphone_id, [], true) }}
             {% endif %}
             {% if latest.data.summary %}
-            <p class="featured-summary"><em>{{ latest.data.summary }}</em></p>
+            <p class="featured-summary"><strong>{{ latest.data.date | strftime('%B') }} {{ latest.data.date | dayOrdinal }}:</strong> <em>{{ latest.data.summary }}</em></p>
+            {% endif %}
+            {% set thisWeekSegments = (latest | segmentsForShow(collections.segments)) %}
+            {% if thisWeekSegments.length %}
+            <div class="featured-segments">
+                {% for segment in thisWeekSegments %}
+                <a href="{{ site.url }}{{ segment.url }}">{{ segment.data.title }}</a>{% if not loop.last %} | {% endif %}
+                {% endfor %}
+            </div>
             {% endif %}
             <p><a href="{{ site.url }}{{ latest.url }}" class="read-more-btn">View Full Show →</a></p>
         </div>

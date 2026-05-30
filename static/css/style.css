@@ -1959,7 +1959,7 @@ figcaption {
 }
 
 .featured-show h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     color: var(--primary-green);
     margin-top: 0;
     margin-bottom: 10px;
@@ -2614,16 +2614,17 @@ iframe {
 .ep-tool:hover { background: var(--border-light); }
 .ep-tool.ep-on { background: #4a8a7a; color: #fff; }
 .episode-player--single .ep-chaps { display: none; }
-/* Frameless variant for players nested inside an already-framed container
-   (e.g. the homepage "This Week" callout). */
+/* Lightly-framed variant for the homepage "This Week" callout: thin border,
+   no heavy card shadow/background, no logo (the callout already names the show). */
 .episode-player--bare {
-    border: none;
-    border-radius: 0;
+    border: 1px solid #aaa;
+    border-radius: 8px;
     box-shadow: none;
     background: transparent;
-    padding: 0;
+    padding: 10px 14px;
     margin: 0.6em 0 0.2em;
 }
+.episode-player--bare .ep-logo { display: none; }
 /* Desktop: narrow the embedded callout player to 80% and center it. Stays
    full-width on mobile (where the controls already wrap). */
 @media (min-width: 701px) {
@@ -2632,6 +2633,16 @@ iframe {
         max-width: 80%;
         margin: 0.6em auto 0.2em;
     }
+}
+/* Mobile: stack the homepage player — title + bar + times first, then the
+   back/play/forward buttons centered underneath, then the tools row. */
+@media (max-width: 600px) {
+    .episode-player--bare .ep-row { justify-content: center; }
+    .episode-player--bare .ep-mid { order: 1; }
+    .episode-player--bare .ep-back,
+    .episode-player--bare .ep-play,
+    .episode-player--bare .ep-fwd { order: 2; }
+    .episode-player--bare .ep-tools { order: 3; }
 }
 .ep-chaps {
     list-style: none; margin: 12px 0 0; padding: 10px 0 0;

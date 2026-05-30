@@ -139,6 +139,12 @@ html[data-theme="dark"] .on-this-day li { border-top-color: var(--border-light) 
 html[data-theme="dark"] .featured-segments,
 html[data-theme="dark"] .featured-segments strong { color: var(--text-dark) !important; }
 
+/* Homepage embedded player border — #aaa reads too bright on the dark card. */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .episode-player--bare { border-color: #555 !important; }
+}
+html[data-theme="dark"] .episode-player--bare { border-color: #555 !important; }
+
 /* ─── Stations map page ─── */
 @media (prefers-color-scheme: dark) {
     html:not([data-theme="light"]) #stations-list-display,

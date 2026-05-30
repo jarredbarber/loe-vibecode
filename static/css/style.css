@@ -2562,6 +2562,9 @@ iframe {
     padding: 14px 18px;
     margin: 0 0 1.2em;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    /* Never wrap beside / under a floated portrait header image — the player
+       is full-width and always sits below the image. */
+    clear: both;
 }
 .ep-row { display: flex; align-items: center; gap: 14px; }
 .ep-logo { height: 34px; width: auto; flex: none; }

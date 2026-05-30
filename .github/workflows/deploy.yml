@@ -81,6 +81,18 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
+      - name: Notify ntfy.sh
+        if: always()
+        run: |
+          STATUS='${{ job.status }}'
+          [ "$STATUS" = success ] && TAGS=white_check_mark || TAGS=rotating_light
+          curl -s \
+            -H "Title: LOE production deploy: $STATUS" \
+            -H "Tags: $TAGS" \
+            -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            -d "production (vibingon.earth) $STATUS — ${GITHUB_REF_NAME}@${GITHUB_SHA::7}" \
+            https://ntfy.sh/loe-vibecode
+
   deploy-staging:
     if: needs.build.outputs.target == 'staging'
     runs-on: ubuntu-latest
@@ -95,3 +107,15 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           command: pages deploy _site_11ty --project-name=loe-staging --branch=main
+
+      - name: Notify ntfy.sh
+        if: always()
+        run: |
+          STATUS='${{ job.status }}'
+          [ "$STATUS" = success ] && TAGS=white_check_mark || TAGS=rotating_light
+          curl -s \
+            -H "Title: LOE staging deploy: $STATUS" \
+            -H "Tags: $TAGS" \
+            -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            -d "staging (loe-staging.pages.dev) $STATUS — ${GITHUB_REF_NAME}@${GITHUB_SHA::7}" \
+            https://ntfy.sh/loe-vibecode

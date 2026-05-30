@@ -2614,6 +2614,16 @@ iframe {
 .ep-tool:hover { background: var(--border-light); }
 .ep-tool.ep-on { background: #4a8a7a; color: #fff; }
 .episode-player--single .ep-chaps { display: none; }
+/* Frameless variant for players nested inside an already-framed container
+   (e.g. the homepage "This Week" callout). */
+.episode-player--bare {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+    margin: 0.6em 0 0.2em;
+}
 .ep-chaps {
     list-style: none; margin: 12px 0 0; padding: 10px 0 0;
     border-top: 1px solid var(--border-light); max-height: 260px; overflow: auto;

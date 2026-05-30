@@ -3,6 +3,7 @@ layout: layouts/base.njk
 permalink: /index.html
 eleventyExcludeFromCollections: true
 ---
+{% from "modules/audio-player.njk" import player with context %}
 <style>
 .on-this-day {
     /* Match .featured-show shell so the two callouts feel like a set. */
@@ -69,6 +70,9 @@ eleventyExcludeFromCollections: true
                 {% endif %}
                 <div style="clear: both;"></div>
             </div>
+            {% if latest.data.megaphone_id %}
+            {{ player([{ id: latest.data.megaphone_id, title: latest.data.title, art: latest.data.image_url or latest.data.banner_url }], true, latest.data.megaphone_id, [], true) }}
+            {% endif %}
             <p><a href="{{ site.url }}{{ latest.url }}" class="read-more-btn">View Full Show →</a></p>
         </div>
 

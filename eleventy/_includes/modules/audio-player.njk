@@ -10,10 +10,12 @@
    single     — true for one-track pages (hides the chapter list)
    fallbackId — megaphone_id used in a <noscript> iframe fallback
    queue      — optional up-next radio tracks { id, title, art } (related segments);
-                played after the main track ends on single-segment pages #}
-{% macro player(tracks, single=false, fallbackId="", queue=[]) %}
+                played after the main track ends on single-segment pages
+   bare       — drop the card frame (border/radius/shadow/padding) when the player
+                already sits inside a framed container (e.g. the homepage callout) #}
+{% macro player(tracks, single=false, fallbackId="", queue=[], bare=false) %}
 {% if tracks and tracks.length %}
-<div class="episode-player{% if single %} episode-player--single{% endif %}" aria-label="Episode audio player">
+<div class="episode-player{% if single %} episode-player--single{% endif %}{% if bare %} episode-player--bare{% endif %}" aria-label="Episode audio player">
     <div class="ep-row">
         <img class="ep-logo" src="{{ site.url }}/theme/img/logo.png" alt="Living on Earth">
         <button class="ep-skip ep-back" type="button" aria-label="Back 15 seconds">&#8634;<span class="ep-skip-n">15</span></button>

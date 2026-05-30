@@ -1906,10 +1906,6 @@ figcaption {
     }
 }
 
-.segment-player {
-    margin-bottom: 10px;
-}
-
 .segment-length {
     color: var(--text-light);
     font-style: italic;
@@ -2555,6 +2551,113 @@ iframe {
     right: 0;
     left: auto;
 }
+/* ─── Episode audio player (replaces the Megaphone iframe) ─── */
+/* Backgrounds/borders/text use site vars so dark mode adapts automatically;
+   the accent stays a fixed mid-green (#4a8a7a) so white text on it is legible
+   in both light and dark themes. */
+.episode-player {
+    border: 1px solid var(--border-medium);
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 0 0 1.2em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    /* Never wrap beside / under a floated portrait header image — the player
+       is full-width and always sits below the image. */
+    clear: both;
+}
+.ep-row { display: flex; align-items: center; gap: 14px; }
+.ep-logo { height: 42px; width: auto; flex: none; }
+.ep-play {
+    flex: none; width: 46px; height: 46px; border-radius: 50%; border: none;
+    background: #4a8a7a; color: #fff; font-size: 18px; line-height: 1; cursor: pointer;
+    transition: background 0.15s;
+}
+.ep-play:hover { background: #3d7468; }
+.ep-skip {
+    flex: none; border: none; background: transparent; color: var(--text-medium);
+    font-size: 18px; line-height: 1; cursor: pointer; padding: 4px;
+    display: inline-flex; align-items: center; gap: 1px;
+}
+.ep-skip:hover { color: #4a8a7a; }
+.ep-skip-n { font: bold 9px/1 'Space Mono', monospace; }
+.ep-mid { flex: 1; min-width: 0; }
+.ep-radio-on .ep-now { color: #4a8a7a; }
+.ep-now {
+    font: bold 13px/1.4 Georgia, serif; color: var(--text-dark);
+    margin: 0 0 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.ep-bar { height: 9px; background: var(--border-light); border-radius: 5px; cursor: pointer; position: relative; }
+.ep-buf, .ep-fill { position: absolute; top: 0; bottom: 0; left: 0; right: 100%; border-radius: 5px; }
+.ep-buf { background: var(--border-medium); }
+.ep-fill { background: #4a8a7a; }
+.ep-bar:focus { outline: 2px solid #4a8a7a; outline-offset: 2px; }
+.ep-mark { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--error-red); }
+.ep-meta { display: flex; justify-content: space-between; font: 11px/1.6 'Space Mono', monospace; color: var(--text-light); margin-top: 5px; }
+.ep-tools { display: flex; gap: 6px; flex: none; position: relative; }
+.ep-spd-menu {
+    position: absolute; bottom: 100%; left: 0; margin-bottom: 6px; z-index: 50;
+    display: flex; flex-direction: column; min-width: 64px; overflow: hidden;
+    background: var(--card-bg); border: 1px solid var(--border-medium);
+    border-radius: 8px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+.ep-spd-opt {
+    border: none; background: transparent; color: var(--text-dark);
+    font: bold 13px/1 'Space Mono', monospace; padding: 9px 14px; cursor: pointer; text-align: left;
+}
+.ep-spd-opt:hover { background: var(--transcript-hover); }
+.ep-spd-opt.ep-on { background: #4a8a7a; color: #fff; }
+.ep-tool {
+    border: 1px solid var(--border-medium); background: var(--bg-white); color: #4a8a7a;
+    border-radius: 6px; padding: 6px 9px; font: bold 12px/1 'Space Mono', monospace; cursor: pointer;
+}
+.ep-tool:hover { background: var(--border-light); }
+.ep-tool.ep-on { background: #4a8a7a; color: #fff; }
+.episode-player--single .ep-chaps { display: none; }
+/* Frameless variant for players nested inside an already-framed container
+   (e.g. the homepage "This Week" callout). */
+.episode-player--bare {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+    margin: 0.6em 0 0.2em;
+}
+/* Desktop: narrow the embedded callout player to 80% and center it. Stays
+   full-width on mobile (where the controls already wrap). */
+@media (min-width: 701px) {
+    .episode-player--bare {
+        width: 80%;
+        max-width: 80%;
+        margin: 0.6em auto 0.2em;
+    }
+}
+.ep-chaps {
+    list-style: none; margin: 12px 0 0; padding: 10px 0 0;
+    border-top: 1px solid var(--border-light); max-height: 260px; overflow: auto;
+}
+.ep-chap {
+    display: flex; gap: 9px; padding: 7px 8px; border-radius: 6px; cursor: pointer;
+    font: 14px/1.35 Georgia, serif; color: var(--text-dark);
+}
+.ep-chap:hover { background: var(--transcript-hover); }
+.ep-chap.ep-cur { background: #4a8a7a; color: #fff; }
+.ep-chap-n { flex: none; opacity: 0.6; font: 11px/1.6 'Space Mono', monospace; }
+.ep-toast {
+    position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%);
+    background: var(--text-dark); color: var(--bg-main); padding: 8px 14px; border-radius: 6px;
+    font: 13px Georgia, serif; z-index: 99999; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+/* Narrow screens: let the row wrap so the scrubber and the speed/share/clip
+   tools each drop to their own line instead of overflowing the widget. */
+@media (max-width: 600px) {
+    .episode-player .ep-row { flex-wrap: wrap; gap: 8px 10px; }
+    .episode-player .ep-mid { flex: 1 1 100%; }
+    .episode-player .ep-tools { flex-basis: 100%; justify-content: center; }
+    .episode-player .ep-spd-menu { left: 50%; transform: translateX(-50%); }
+}
+
 .site-controls {
     position: absolute;
     top: 0;

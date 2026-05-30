@@ -14,6 +14,12 @@ layout: layouts/base.njk
 {% set _pills = segments | aggregatedPillsForShow %}
 {% set _aggSpeakers = _pills.speakers %}
 {% set _aggTags = _pills.tags %}
+{# Chapter the episode player by segment: each segment is its own enclosure
+   mp3, played sequentially. Read by _article_header.njk → audio-player macro. #}
+{% set _audioTracks = [] %}
+{% for segment in segments %}
+    {% if segment.data.megaphone_id %}{% set _ = _audioTracks.push({ id: segment.data.megaphone_id, title: segment.data.title, art: segment.data.image_url or segment.data.banner_url }) %}{% endif %}
+{% endfor %}
 <div class="body">
     <div class="body_resize">
         <div class="single-column">

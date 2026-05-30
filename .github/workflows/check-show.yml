@@ -51,3 +51,15 @@ jobs:
           else
             npm run copyedit-check
           fi
+
+      - name: Notify ntfy.sh
+        if: always()
+        run: |
+          STATUS='${{ job.status }}'
+          [ "$STATUS" = success ] && TAGS=white_check_mark || TAGS=rotating_light
+          curl -s \
+            -H "Title: LOE show check: $STATUS" \
+            -H "Tags: $TAGS" \
+            -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            -d "show check $STATUS — ${GITHUB_REF_NAME}@${GITHUB_SHA::7}" \
+            https://ntfy.sh/loe-vibecode

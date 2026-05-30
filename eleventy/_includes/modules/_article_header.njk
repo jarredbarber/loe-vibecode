@@ -4,7 +4,10 @@
      entry              — frontmatter object (the page's `data` in Eleventy)
      title_html         — pre-rendered <h2>...</h2> for the title
      summaryAboveImage  — boolean: true for shows, false for segments.
+     _audioTracks       — optional: show pages pass a list of {id,title} so the
+                          player chapters by segment (set in show.njk).
 #}
+{% from "modules/audio-player.njk" import player with context %}
 {{ title_html | safe }}
 <p class="clr"></p>
 <p><strong>Air Date: {{ entry.date | strftime('%B %d, %Y') }}</strong></p>
@@ -64,12 +67,15 @@
 <p class="show-header-summary">{{ entry.summary }}</p>
 {% endif %}
 
-{% if entry.megaphone_id %}
 <br />
-<span>
-    <iframe frameborder="0" height="200" scrolling="no"
-        src="https://player.megaphone.fm/{{ entry.megaphone_id }}?light=true" width="100%"></iframe>
-</span>
+{% if _audioTracks and _audioTracks.length %}
+{{ player(_audioTracks, false, entry.megaphone_id) }}
+{% elif entry.megaphone_id %}
+{# Up-next radio queue: related segments that have their own audio. #}
+{% set _related = page.inputPath | relatedForSegment %}
+{% set _queue = [] %}
+{% for r in _related %}{% if r.megaphoneId %}{% set _ = _queue.push({ id: r.megaphoneId, title: r.title, art: r.art }) %}{% endif %}{% endfor %}
+{{ player([{ id: entry.megaphone_id, title: entry.title, art: entry.image_url }], true, entry.megaphone_id, _queue) }}
 {% elif entry.audio_url %}
 <div class="audio">
     <audio controls style="width: 100%;">

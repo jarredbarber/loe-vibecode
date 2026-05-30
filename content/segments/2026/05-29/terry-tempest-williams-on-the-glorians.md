@@ -8,6 +8,11 @@ megaphone_id: LOE4807024440
 image_url: https://loe.org/content/2026-05-29/GLORIANS_bison.jpg
 image_caption: 'Bison graze on Antelope Island, a small island located within the Great Salt Lake in Utah. (Photo: Matthew Dillon, Wikimedia Commons, CC BY 2.0)'
 summary: 'The Utah desert with its raw beauty has long been a muse for writer Terry Tempest Williams. In her 2026 book, The Glorians: Visitations from the Holy Ordinary, she explores miraculous moments of grace that call for our attention, even in spaces that may at first seem unremarkable. Terry Tempest Williams joined Hosts Steve Curwood and Jenni Doering for an online Living on Earth Book Club event.'
+tags:
+  - profiles-interviews
+  - book-review
+  - forests
+  - climate-change
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00022&segmentID=4 -->
 

@@ -8,6 +8,13 @@ megaphone_id: LOE1451498012
 image_url: https://loe.org/content/2026-05-29/CUP_franceaustralia.jpg
 image_caption: 'France (blue, white, and red) play Australia (yellow, green, and white) in Group D of the 2022 FIFA World Cup. In 2022, the Cup was held in five host cities in Qatar. This year, it’s being played in 16 cities throughout North America. Scientists with Scientists for Global Responsibility are worried about how heat and humidity could jeopardize player safety. (Photo: Tasnim News Agency, Wikimedia Commons, CC BY 4.0)'
 summary: 'The 2026 FIFA Men’s World Cup will mostly take place during the North American summer, and the prospect of extreme heat prompted a group of current and former players to write an open letter to FIFA calling for better protection of players. Stuart Parkinson, a co-author of the 2025 report “FIFA’s Climate Blind Spot: The Men’s World Cup in a Warming World”, talks with Host Steve Curwood about the risks for players and fans as well as the climate costs of the 2026 games.'
+tags:
+  - climate-change
+  - extreme-weather
+  - fossil-fuels
+  - heatwave
+  - environmental-policy
+  - green-economy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00022&segmentID=2 -->
 

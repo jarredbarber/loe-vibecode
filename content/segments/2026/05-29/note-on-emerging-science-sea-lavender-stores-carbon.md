@@ -8,6 +8,11 @@ megaphone_id: LOE6130740872
 image_url: https://loe.org/content/2026-05-29/SEA_lavender.jpg
 image_caption: 'Sea lavender is both beautiful and powerful; its ability to store large amounts of carbon helps to mitigate atmospheric warming. (Photo: Stan Shebs, Wikimedia Commons, CC BY-SA 3.0)'
 summary: Sea ‘lavender,’ a purple flowering plant also known as statice that grows abundantly in salt marshes and coasts around the world, appears to be excellent at removing planet-warming carbon from the atmosphere and storing it in soils. Living on Earth’s Julia Vaz reports on this recent research.
+tags:
+  - climate-change
+  - carbon-cycle
+  - wetlands
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00022&segmentID=3 -->
 

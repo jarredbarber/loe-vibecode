@@ -8,6 +8,12 @@ megaphone_id: LOE9859271641
 image_url: https://loe.org/content/2026-05-29/ICJ_boats.jpg
 image_caption: 'Pictured above are destroyed boats at the BP wharf in Vanuatu after Cyclone Pam struck the island in 2015. According to a report from ReliefWeb, estimates say that 95 percent of crops were destroyed in the affected areas, leaving communities food insecure. (Photo: Graham Crumb, Wikimedia Commons, CC BY-SA 3.0)'
 summary: More than two-thirds of U.N. members recently voted in favor of a resolution affirming a landmark ruling by the International Court of Justice that countries have a legal obligation to limit global warming. While this advisory opinion is not enforceable, it will likely be cited in lawsuits and appeals as a fact in the fight against climate disruption. Inside Climate News reporter Bob Berwyn speaks with Host Jenni Doering about the significance of the ruling and its U.N. adoption.
+tags:
+  - climate-change
+  - environmental-policy
+  - international-treaties
+  - sea-level-rise
+  - extreme-weather
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00022&segmentID=1 -->
 

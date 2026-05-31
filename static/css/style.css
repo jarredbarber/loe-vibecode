@@ -109,6 +109,12 @@ html {
     background: var(--bg-main);
 }
 
+.resize2 {
+    width: 94%;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
 @media (min-width: 1000px) {
     .resize {
         width: 960px;
@@ -116,6 +122,12 @@ html {
         margin: 0 auto;
         border: 1px solid var(--border-light);
         background: var(--bg-main);
+    }
+
+    .resize2 {
+        width: 960px;
+        padding: 10px 0;
+        margin: 0 auto;
     }
 }
 
@@ -156,6 +168,21 @@ html {
         flex-direction: row;
         align-items: center;
     }
+}
+
+/* 2 */
+.header_blog2 {
+    background: url(images/header_blog_bg.gif) top center repeat-x;
+    padding: 20px 0 0 0;
+    margin: 0;
+    height: 95px;
+}
+
+.header_blog2 h2 {
+    font: bold 36px Arial, Helvetica, sans-serif;
+    color: var(--bg-white);
+    padding: 10px 0 0 0;
+    margin: 0;
 }
 
 /* logo */
@@ -324,9 +351,20 @@ html {
     }
 }
 
+
+/* forms */
+
+.form-all {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
 input,
 textarea {
     font-family: "Lucida Console", Courier, monospace;
+}
+
+.form-label {
+    font-family: "Lucida Console", Courier, monospace !important;
 }
 
 /* */
@@ -382,6 +420,14 @@ textarea {
     margin: 0;
 }
 
+.body p.photocap {
+    font: normal 85.7% Arial, Helvetica, sans-serif;
+    color: var(--accent-teal);
+    line-height: 1.8em;
+    padding: 3px 5px;
+    margin: 0;
+}
+
 .body p span {
     color: var(--text-light);
     font: normal 78.5% Arial, Helvetica, sans-serif;
@@ -422,6 +468,14 @@ textarea {
     .body p {
         font: normal 14px Arial, Helvetica, sans-serif;
         color: var(--text-dark);
+        line-height: 1.8em;
+        padding: 3px 5px;
+        margin: 0;
+    }
+
+    .body p.photocap {
+        font: normal 12px Arial, Helvetica, sans-serif;
+        color: var(--accent-teal);
         line-height: 1.8em;
         padding: 3px 5px;
         margin: 0;
@@ -480,10 +534,43 @@ textarea {
     /* Ensure block */
 }
 
+/* Mobile: Stack images */
+.body img.floated,
+.body img.floated2,
+.body img.floatleft,
+.body img.floatright {
+    float: none;
+    display: block;
+    margin: 10px auto;
+}
+
 @media (min-width: 1000px) {
     .body img.floated {
         float: right;
         margin: 5px 0 5px 20px;
+    }
+
+    .body img.floated2 {
+        float: left;
+        margin: 5px 15px 5px 0;
+    }
+
+    .body img.floatleft {
+        float: left;
+        /* Name suggests left, orig was right? checking logic */
+        /* Original floatleft had float: right; confusing naming? 
+           Original: .body img.floatleft { float: right; ... }
+           Original: .body img.floatright { float: left; ... }
+           This seems inverted or legacy naming. I will preserve original behavior.
+        */
+        float: right;
+        margin: 5px 0 5px 20px;
+    }
+
+    .body img.floatright {
+        float: left;
+        /* Preserving original inverted behavior */
+        margin: 5px 15px 5px 0;
     }
 }
 
@@ -534,11 +621,21 @@ textarea {
     width: auto;
 }
 
+.indextopthree {
+    padding: 10px 15px;
+    float: none;
+}
+
+@media (min-width: 1000px) {
+    .indextopthree {
+        float: left;
+    }
+}
 
 
 /*.imageright { float:right; margin:5px 20px; padding:0;}
 .imageleft { float:left; margin:5px 15px 5px 0; padding:0;}
-*/
+.imageleft p.photocap { font:normal 10px Arial, Helvetica, sans-serif; color:var(--text-light); line-height:1.8em; padding:3px 5px; margin:0;}*/
 /** inline text images **/
 
 .imageleft {
@@ -893,7 +990,66 @@ p.clr,
         background-color: var(--bg-main)
     }
 }
-Removed empty ruleset */
+
+/*galeria (width was 64px but now 128 to allow for 4 icons) (add _1 from the ends of files to make it grayscale and hover-over)*/
+.galeria {
+    width: 128px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    height: 23px;
+}
+
+.galeria ul,
+.galeria ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    line-height: 23px;
+}
+
+.galeria a {
+    display: block;
+    padding: 0 2px;
+    margin: 0;
+    width: 24px;
+    height: 23px;
+}
+
+/* .galeria a:hover {} Removed empty ruleset */
+
+.galeria a.first {
+    background: url(images/rss_1.gif) top no-repeat;
+}
+
+.galeria a:hover.first {
+    background: url(images/rss_1.gif) top no-repeat;
+}
+
+.galeria a.sek {
+    background: url(images/IG_Glyph_small.gif) top no-repeat;
+}
+
+.galeria a:hover.sek {
+    background: url(images/IG_Glyph_small.gif) top no-repeat;
+}
+
+.galeria a.thre {
+    background: url(images/rss_3.gif) top no-repeat;
+}
+
+.galeria a:hover.thre {
+    background: url(images/rss_3.gif) top no-repeat;
+}
+
+.galeria a.four {
+    background: url(images/rss_4.gif) top no-repeat;
+}
+
+.galeria a:hover.four {
+    background: url(images/rss_4.gif) top no-repeat;
+}
 
 /* Slider */
 
@@ -984,12 +1140,27 @@ div#slideshow {
     padding: 0;
 }
 
+.slider_content_inner img {
+    border: none;
+}
+
+
+.controls-center {
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
 #slider_controls {
     margin: 0 auto;
     z-index: 1000;
 }
 
 @media (min-width: 1000px) {
+    .controls-center {
+        width: 960px;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
 
     #slider_controls {
         margin: 0 auto;
@@ -997,6 +1168,23 @@ div#slideshow {
     }
 }
 
+/* Highlight */
+
+.imagehighlight {
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+    border: 0px;
+}
+
+@media (min-width: 1000px) {
+    .imagehighlight {
+        width: 960px;
+        height: 327px;
+        border: 0px;
+    }
+}
 
 #slider_controls ul {
     margin: 0;
@@ -1188,6 +1376,22 @@ li#sb_digg a:hover {
     background-color: var(--audio-bg);
 }
 
+.audiosmall {
+    display: table;
+    display: table-cell;
+    width: 100%;
+    color: var(--audio-text);
+    background-color: var(--audio-bg);
+}
+
+.audiolarge {
+    display: table;
+    display: table-cell;
+    width: 100%;
+    color: var(--audio-text);
+    background-color: var(--audio-bg);
+}
+
 
 audio:hover,
 audio:focus,
@@ -1218,6 +1422,18 @@ audio {
 @media (min-width: 1000px) {
     .audio {
         width: 400px;
+        color: var(--audio-text);
+        background-color: var(--audio-bg);
+    }
+
+    .audiosmall {
+        width: 300px;
+        color: var(--audio-text);
+        background-color: var(--audio-bg);
+    }
+
+    .audiolarge {
+        width: 600px;
         color: var(--audio-text);
         background-color: var(--audio-bg);
     }
@@ -1790,6 +2006,30 @@ figcaption {
     overflow: hidden;
 }
 
+.featured-content {
+    overflow: auto;
+    /* Clear floats */
+}
+
+.featured-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0 auto 15px auto !important;
+    float: none;
+    display: block;
+}
+
+@media (min-width: 1000px) {
+    .featured-image {
+        width: 250px;
+        height: 250px;
+        float: left;
+        margin: 0 30px 15px 0 !important;
+    }
+}
 
 .featured-summary {
     font-size: 1.1em;
@@ -1964,6 +2204,13 @@ figcaption {
 
 #mc-embedded-subscribe-form .button:hover {
     background-color: var(--primary-green-dark);
+}
+
+.indicates-required {
+    text-align: right;
+    font-size: 11px;
+    color: var(--text-light);
+    margin-bottom: 10px;
 }
 
 .asterisk {
@@ -2563,4 +2810,12 @@ html[data-text-size="xlarge"] .body { font-size: 24px; }
     .archive-year-nav-mobile a:hover { background: #dde6d8; }
     /* Hide the sidebar year list on mobile — replaced by inline nav */
     .archives-page .sidebar { display: none; }
+}
+
+.deploy-badge {
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    background: #1a1a1a;
+    text-decoration: none;
 }

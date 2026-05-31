@@ -56,10 +56,11 @@ jobs:
         if: always()
         run: |
           STATUS='${{ job.status }}'
-          [ "$STATUS" = success ] && TAGS=white_check_mark || TAGS=rotating_light
+          [ "$STATUS" = success ] && TAGS=white_check_mark PRIO=default || TAGS=rotating_light PRIO=high
           curl -s \
             -H "Title: LOE show check: $STATUS" \
             -H "Tags: $TAGS" \
+            -H "Priority: $PRIO" \
             -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             -d "show check $STATUS — ${GITHUB_REF_NAME}@${GITHUB_SHA::7}" \
             https://ntfy.sh/loe-vibecode

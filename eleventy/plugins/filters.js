@@ -325,7 +325,6 @@ function relatedForSegment(inputPath) {
 }
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addFilter('ordinal', ordinal);
     eleventyConfig.addFilter('strftime', strftime);
     eleventyConfig.addFilter('stripQuotes', stripQuotes);
     eleventyConfig.addFilter('currentTime', currentTime);

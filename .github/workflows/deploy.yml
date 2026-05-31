@@ -69,6 +69,19 @@ jobs:
           name: _site_11ty
           path: '_site_11ty'
 
+      # Build failures skip the deploy jobs (needs: build), so notify here or
+      # a broken build (failing test/template) would ping nothing.
+      - name: Notify ntfy.sh on build failure
+        if: failure()
+        run: |
+          curl -s \
+            -H "Title: LOE build FAILED — no deploy" \
+            -H "Priority: high" \
+            -H "Tags: rotating_light" \
+            -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            -d "build failed on ${GITHUB_REF_NAME}@${GITHUB_SHA::7}" \
+            https://ntfy.sh/loe-vibecode
+
   deploy-prod:
     if: needs.build.outputs.target == 'prod'
     environment:
@@ -85,10 +98,11 @@ jobs:
         if: always()
         run: |
           STATUS='${{ job.status }}'
-          [ "$STATUS" = success ] && TAGS=white_check_mark || TAGS=rotating_light
+          [ "$STATUS" = success ] && TAGS=white_check_mark PRIO=default || TAGS=rotating_light PRIO=high
           curl -s \
             -H "Title: LOE production deploy: $STATUS" \
             -H "Tags: $TAGS" \
+            -H "Priority: $PRIO" \
             -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             -d "production (vibingon.earth) $STATUS — ${GITHUB_REF_NAME}@${GITHUB_SHA::7}" \
             https://ntfy.sh/loe-vibecode
@@ -112,10 +126,11 @@ jobs:
         if: always()
         run: |
           STATUS='${{ job.status }}'
-          [ "$STATUS" = success ] && TAGS=white_check_mark || TAGS=rotating_light
+          [ "$STATUS" = success ] && TAGS=white_check_mark PRIO=default || TAGS=rotating_light PRIO=high
           curl -s \
             -H "Title: LOE staging deploy: $STATUS" \
             -H "Tags: $TAGS" \
+            -H "Priority: $PRIO" \
             -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             -d "staging (loe-staging.pages.dev) $STATUS — ${GITHUB_REF_NAME}@${GITHUB_SHA::7}" \
             https://ntfy.sh/loe-vibecode

@@ -25,21 +25,24 @@ const SPEAKER_RE = /^\s*([A-Z](?:[A-Z'’\d\s.]|[a-z]{1,2}(?=[A-Z]))+):/;
 // the page HTML. The archive (~12k pages) never changes between builds, so we
 // cache transform(html) keyed by sha1(html) and skip the cheerio parse on hits.
 //
-// The only per-build-volatile bit is the footer's "Last updated: <date>", which
-// changes once a day — so we namespace the cache by date: it hits all day, then
-// resets (when every page's HTML has legitimately changed anyway). A warm
-// rebuild then skips cheerio entirely for unchanged pages.
-const CACHE_VERSION = 'v1';
+// Pages are fully build-deterministic (no date/time in output), so the cache
+// persists indefinitely across builds — a page only re-runs cheerio if its
+// rendered HTML actually changed. We MERGE (load existing, add new, write all)
+// rather than prune to this build's pages: other builds share this file (the
+// test suite builds fixture content through the same plugin), and pruning would
+// let a small/partial build wipe the full cache. Growth is slow (only changed
+// pages add entries; stale ones linger harmlessly); CACHE_VERSION resets it all
+// when the transform logic changes.
+const CACHE_VERSION = 'v2';
 const CACHE_FILE = path.resolve(__dirname, '..', '.cache', 'speaker-highlight.json');
 let _cache = null;
 let _dirty = false;
-function today() { return new Date().toISOString().slice(0, 10); }
 function loadCache() {
     if (_cache) return _cache;
     _cache = new Map();
     try {
         const data = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
-        if (data.version === CACHE_VERSION && data.date === today()) {
+        if (data.version === CACHE_VERSION) {
             _cache = new Map(Object.entries(data.entries));
         }
     } catch { /* no/stale cache — start fresh */ }
@@ -50,7 +53,7 @@ function flushCache() {
     try {
         fs.mkdirSync(path.dirname(CACHE_FILE), { recursive: true });
         fs.writeFileSync(CACHE_FILE, JSON.stringify({
-            version: CACHE_VERSION, date: today(), entries: Object.fromEntries(_cache),
+            version: CACHE_VERSION, entries: Object.fromEntries(_cache),
         }));
         _dirty = false;
     } catch { /* best-effort cache; ignore write failures */ }

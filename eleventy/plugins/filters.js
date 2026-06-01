@@ -37,16 +37,6 @@ function stripQuotes(value) {
     return String(value).replace(/^"+|"+$/g, '');
 }
 
-// Build-time date, formatted per `fmt`. Deliberately DATE-ONLY (no clock time):
-// a minute-level timestamp here would change every build, making every one of
-// the ~12k pages differ on each rebuild — which defeats the speaker-highlight
-// transform cache, Eleventy incremental, and Cloudflare's upload dedup. Stable
-// within a UTC day; the only legitimately-daily churn.
-function currentTime(_ignored, fmt) {
-    const now = new Date();
-    return strftime(now.toISOString(), fmt);
-}
-
 /** Absolute or content-relative input path → "shows/2026/05-22/show.md". */
 function toContentRel(inputPath) {
     if (!inputPath) return null;
@@ -331,7 +321,6 @@ function relatedForSegment(inputPath) {
 module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('strftime', strftime);
     eleventyConfig.addFilter('stripQuotes', stripQuotes);
-    eleventyConfig.addFilter('currentTime', currentTime);
     eleventyConfig.addFilter('toContentRel', toContentRel);
     eleventyConfig.addFilter('pathToCmsSlug', pathToCmsSlug);
     eleventyConfig.addFilter('readingTime', readingTime);

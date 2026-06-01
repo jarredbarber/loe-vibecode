@@ -5,15 +5,17 @@ eleventyExcludeFromCollections: true
 title: "Chapter Player Demo — Living on Earth"
 ---
 {#
-  TEMPORARY UX demo comparing two playback models for the same episode:
-    1. Full-stream player — ONE full-episode file, chapter ticks seek within it.
-    2. Single-segment player — clicking a chapter loads that segment's own
-       (separately QC'd) file and plays it from 0:00.
+  TEMPORARY UX demo. Two players, both sourcing the SINGLE full-episode mp3
+  (no separate segment files):
+    1. Full stream + integrated chapter list — chapter ticks/list seek within
+       the full file.
+    2. Windowed segment — same full file, but displays/plays ONLY one segment's
+       range [start, nextStart], showing 0:00–segmentLength. Proves a
+       "single segment" player needs no separate file, just offsets.
 
-  `start` offsets are PLACEHOLDER estimates from measured segment durations
-  (cumulative, broadcast order) — early by the ~5½ min of intro/transitions/ads
-  in the full hour. Real in-episode timestamps drop straight into the CHAPTERS
-  array's `start` values. `id` is each segment's megaphone_id (for player 2).
+  `start` offsets are PLACEHOLDER estimates (measured segment durations,
+  cumulative) — early by the ~5½ min of intro/transitions/ads in the full hour.
+  Real in-episode timestamps drop straight into CHAPTERS[].start.
 
   Delete content/chapter-demo.njk when done testing.
 #}
@@ -22,12 +24,12 @@ title: "Chapter Player Demo — Living on Earth"
     <div class="single-column">
       <h1 style="color:var(--primary-green);">Chapter Player Demo</h1>
       <p style="background:#fff3cd;color:#664d03;border:1px solid #ffe69c;border-radius:6px;padding:10px 14px;font-size:0.9em;">
-        🔧 <strong>UX test.</strong> Two ways to play the same May 29 episode. Chapter offsets in the top
-        player are <strong>placeholder estimates</strong> (off by up to ~5 min) until real timestamps are wired in.
+        🔧 <strong>UX test.</strong> Both players use the <em>one</em> full-episode file. Chapter offsets are
+        <strong>placeholder estimates</strong> (off by up to ~5 min) until real timestamps are wired in.
       </p>
 
-      <h3 style="color:var(--primary-green);margin-bottom:4px;">1 · Full stream + chapter seek</h3>
-      <p style="font-size:0.88em;color:var(--text-light);margin-top:0;">One 51:53 file. Click a tick on the bar (or a chapter below) to seek within it.</p>
+      <h3 style="color:var(--primary-green);margin-bottom:4px;">1 · Full stream + chapters</h3>
+      <p style="font-size:0.88em;color:var(--text-light);margin-top:0;">One 51:53 file; tap a tick or a chapter to seek within it.</p>
       <div class="episode-player" id="full" aria-label="Full episode player">
         <div class="ep-row">
           <button class="ep-skip ep-back" type="button" aria-label="Back 15 seconds">&#8634;<span class="ep-skip-n">15</span></button>
@@ -40,21 +42,18 @@ title: "Chapter Player Demo — Living on Earth"
           </div>
           <div class="ep-tools"><button class="ep-tool ep-spd" type="button" aria-label="Playback speed">1&times;</button></div>
         </div>
+        <ul class="ep-chaps" id="chaps"></ul>
       </div>
 
-      <h3 style="color:var(--primary-green);margin-bottom:4px;">Chapters</h3>
-      <p style="font-size:0.88em;color:var(--text-light);margin-top:0;">Tap a chapter to seek the full stream above <em>and</em> load its individual segment file below.</p>
-      <ul class="ep-chaps" id="chaps" style="border:1px solid var(--border-medium);border-radius:10px;padding:8px;max-height:none;"></ul>
-
-      <h3 style="color:var(--primary-green);margin-bottom:4px;">2 · Single segment file</h3>
-      <p style="font-size:0.88em;color:var(--text-light);margin-top:0;">The selected chapter's own separately-QC'd segment file, from 0:00.</p>
-      <div class="episode-player episode-player--single" id="seg" aria-label="Single segment player">
+      <h3 style="color:var(--primary-green);margin-bottom:4px;">2 · Windowed segment (same file)</h3>
+      <p style="font-size:0.88em;color:var(--text-light);margin-top:0;">Plays only one segment's slice of the full file — shows 0:00 to the segment length, no separate file. Tap a chapter above to change which.</p>
+      <div class="episode-player episode-player--single" id="seg" aria-label="Windowed segment player">
         <div class="ep-row">
           <button class="ep-skip ep-back" type="button" aria-label="Back 15 seconds">&#8634;<span class="ep-skip-n">15</span></button>
           <button class="ep-play" type="button" aria-label="Play">&#9654;</button>
           <button class="ep-skip ep-fwd" type="button" aria-label="Forward 15 seconds">&#8635;<span class="ep-skip-n">15</span></button>
           <div class="ep-mid">
-            <div class="ep-now" style="color:var(--text-light);font-style:italic;">Tap a chapter above to load it here</div>
+            <div class="ep-now">—</div>
             <div class="ep-bar" role="slider" aria-label="Seek" tabindex="0"><div class="ep-buf"></div><div class="ep-fill"></div></div>
             <div class="ep-meta"><span class="ep-cur">0:00</span><span class="ep-dur">--:--</span></div>
           </div>
@@ -76,61 +75,62 @@ title: "Chapter Player Demo — Living on Earth"
 (function () {
   // ── EDIT HERE: real in-episode `start` timestamps (seconds) drop straight in ──
   var FULL = 'https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/LOE2565642750.mp3';
-  var seg = function(id){ return 'https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/' + id + '.mp3'; };
   var CHAPTERS = [
-    { title: 'U.N. Affirms Climate Duty',                            id: 'LOE9859271641', start: 0    },
-    { title: 'World Cup in a Warming World',                         id: 'LOE1451498012', start: 729  },
-    { title: 'Note on Emerging Science: Sea Lavender Stores Carbon', id: 'LOE6130740872', start: 1187 },
-    { title: 'Terry Tempest Williams on The Glorians',              id: 'LOE4807024440', start: 1327 }
+    { title: 'U.N. Affirms Climate Duty',                            start: 0    },
+    { title: 'World Cup in a Warming World',                         start: 729  },
+    { title: 'Note on Emerging Science: Sea Lavender Stores Carbon', start: 1187 },
+    { title: 'Terry Tempest Williams on The Glorians',              start: 1327 }
   ];
+  var DEFAULT_SEG = 1; // segment 2 (World Cup)
   // ─────────────────────────────────────────────────────────────────────────────
 
   function fmt(s){ if(!isFinite(s)||s<0) return '0:00'; var m=Math.floor(s/60),x=Math.floor(s%60); return m+':'+(x<10?'0':'')+x; }
   var speeds=[0.8,1,1.5,2];
+  function clamp(v,lo,hi){ return Math.max(lo,Math.min(hi,v)); }
 
-  // Generic transport wiring shared by both players.
-  function wire(el){
-    var Q=function(s){return el.querySelector(s);};
-    var a=new Audio(); a.preload='metadata';
-    var play=Q('.ep-play'), bar=Q('.ep-bar'), fill=Q('.ep-fill'), buf=Q('.ep-buf'),
-        curEl=Q('.ep-cur'), durEl=Q('.ep-dur'), spd=Q('.ep-spd'), si=1;
-    a.addEventListener('loadedmetadata', function(){ durEl.textContent=fmt(a.duration); if(el._onmeta) el._onmeta(a,bar); });
-    a.addEventListener('timeupdate', function(){
-      var d=a.duration||1; fill.style.right=(100-a.currentTime/d*100)+'%'; curEl.textContent=fmt(a.currentTime);
-      if(a.buffered.length) buf.style.right=(100-a.buffered.end(a.buffered.length-1)/d*100)+'%';
-      if(el._ontick) el._ontick(a.currentTime);
-    });
-    a.addEventListener('play', function(){ play.textContent='❚❚'; play.setAttribute('aria-label','Pause'); });
-    a.addEventListener('pause', function(){ play.textContent='▶'; play.setAttribute('aria-label','Play'); });
-    play.addEventListener('click', function(){ a.paused?a.play():a.pause(); });
-    Q('.ep-back').addEventListener('click', function(){ a.currentTime=Math.max(0,a.currentTime-15); });
-    Q('.ep-fwd').addEventListener('click', function(){ a.currentTime=Math.min(a.duration||0,a.currentTime+15); });
-    bar.addEventListener('click', function(e){ var r=bar.getBoundingClientRect(); a.currentTime=(e.clientX-r.left)/r.width*(a.duration||0); });
-    spd.addEventListener('click', function(){ si=(si+1)%speeds.length; a.playbackRate=speeds[si]; spd.textContent=speeds[si]+'×'; });
-    el._audio=a; el._now=Q('.ep-now');
-    return a;
-  }
-
-  // Player 1: full stream + clickable chapter ticks.
-  var fullEl=document.getElementById('full');
-  var chaps=document.getElementById('chaps');
-  var curCh=-1;
-  function highlight(i){ if(i===curCh) return; curCh=i; chaps.querySelectorAll('.ep-chap').forEach(function(c){ c.classList.toggle('ep-cur', +c.dataset.i===i); }); }
+  // ── Player 1: full stream + integrated chapter list + ticks ──
+  var fullEl=document.getElementById('full'), fQ=function(s){return fullEl.querySelector(s);};
+  var fA=new Audio(); fA.preload='metadata'; fA.src=FULL;
+  var fPlay=fQ('.ep-play'), fBar=fQ('.ep-bar'), fFill=fQ('.ep-fill'), fBuf=fQ('.ep-buf'),
+      fCur=fQ('.ep-cur'), fDur=fQ('.ep-dur'), fSpd=fQ('.ep-spd'), fSi=1, chaps=document.getElementById('chaps'), curCh=-1;
   function chapterAt(t){ var idx=0; for(var i=0;i<CHAPTERS.length;i++){ if(t>=CHAPTERS[i].start) idx=i; } return idx; }
-  fullEl._onmeta=function(a,bar){ var d=a.duration||1; CHAPTERS.forEach(function(c){ var t=document.createElement('div'); t.className='ch-tick'; t.style.left=(c.start/d*100)+'%'; t.title=c.title; t.addEventListener('click', function(ev){ ev.stopPropagation(); a.currentTime=c.start; a.play(); }); bar.appendChild(t); }); };
-  fullEl._ontick=function(t){ highlight(chapterAt(t)); };
-  var fullAudio=wire(fullEl); fullAudio.src=FULL;
-
-  // Player 2: single segment.
-  var segEl=document.getElementById('seg'); var segAudio=wire(segEl);
-  function loadSegment(i){ var c=CHAPTERS[i]; segEl._now.textContent=c.title; segEl._now.style.color=''; segEl._now.style.fontStyle=''; segAudio.src=seg(c.id); segAudio.load(); segAudio.play(); }
-
-  // Chapter list: seek the full stream AND load the single segment.
+  function highlight(i){ if(i===curCh) return; curCh=i; chaps.querySelectorAll('.ep-chap').forEach(function(c){ c.classList.toggle('ep-cur', +c.dataset.i===i); }); }
   CHAPTERS.forEach(function(c,i){
     var li=document.createElement('li'); li.className='ep-chap'; li.dataset.i=i;
     li.innerHTML='<span class="ep-chap-n">'+(i+1)+'</span><span class="ep-chap-t">'+c.title+'</span><span class="ch-time">'+fmt(c.start)+'</span>';
-    li.addEventListener('click', function(){ fullAudio.currentTime=c.start; loadSegment(i); });
+    li.addEventListener('click', function(){ fA.currentTime=c.start; fA.play(); selectSeg(i); });
     chaps.appendChild(li);
   });
+  fA.addEventListener('loadedmetadata', function(){ fDur.textContent=fmt(fA.duration); var d=fA.duration||1; CHAPTERS.forEach(function(c){ var t=document.createElement('div'); t.className='ch-tick'; t.style.left=(c.start/d*100)+'%'; t.title=c.title; t.addEventListener('click', function(ev){ ev.stopPropagation(); fA.currentTime=c.start; fA.play(); }); fBar.appendChild(t); }); if(segWin) segWin(); });
+  fA.addEventListener('timeupdate', function(){ var d=fA.duration||1; fFill.style.right=(100-fA.currentTime/d*100)+'%'; fCur.textContent=fmt(fA.currentTime); if(fA.buffered.length) fBuf.style.right=(100-fA.buffered.end(fA.buffered.length-1)/d*100)+'%'; highlight(chapterAt(fA.currentTime)); });
+  fA.addEventListener('play', function(){ fPlay.textContent='❚❚'; fPlay.setAttribute('aria-label','Pause'); });
+  fA.addEventListener('pause', function(){ fPlay.textContent='▶'; fPlay.setAttribute('aria-label','Play'); });
+  fPlay.addEventListener('click', function(){ fA.paused?fA.play():fA.pause(); });
+  fQ('.ep-back').addEventListener('click', function(){ fA.currentTime=Math.max(0,fA.currentTime-15); });
+  fQ('.ep-fwd').addEventListener('click', function(){ fA.currentTime=Math.min(fA.duration||0,fA.currentTime+15); });
+  fBar.addEventListener('click', function(e){ var r=fBar.getBoundingClientRect(); fA.currentTime=(e.clientX-r.left)/r.width*(fA.duration||0); });
+  fSpd.addEventListener('click', function(){ fSi=(fSi+1)%speeds.length; fA.playbackRate=speeds[fSi]; fSpd.textContent=speeds[fSi]+'×'; });
+
+  // ── Player 2: windowed segment from the SAME full file ──
+  var segEl=document.getElementById('seg'), sQ=function(s){return segEl.querySelector(s);};
+  var sA=new Audio(); sA.preload='metadata'; sA.src=FULL;
+  var sPlay=sQ('.ep-play'), sBar=sQ('.ep-bar'), sFill=sQ('.ep-fill'), sBuf=sQ('.ep-buf'),
+      sCur=sQ('.ep-cur'), sDur=sQ('.ep-dur'), sNow=sQ('.ep-now'), sSpd=sQ('.ep-spd'), sSi=1;
+  var winStart=0, winEnd=null, segIdx=DEFAULT_SEG;
+  function winBounds(i){ return [CHAPTERS[i].start, (i+1<CHAPTERS.length) ? CHAPTERS[i+1].start : (sA.duration||null)]; }
+  function segWin(){ var b=winBounds(segIdx); winStart=b[0]; winEnd=b[1]; if(winEnd!=null) sDur.textContent=fmt(winEnd-winStart); }
+  function selectSeg(i){ segIdx=i; sNow.textContent=(i+1)+' · '+CHAPTERS[i].title; segWin(); sA.currentTime=winStart; sFill.style.right='100%'; sCur.textContent='0:00'; sA.play(); }
+  sA.addEventListener('loadedmetadata', function(){ segWin(); });
+  sA.addEventListener('timeupdate', function(){ if(winEnd==null) return; if(sA.currentTime<winStart){ sA.currentTime=winStart; return; } if(sA.currentTime>=winEnd){ sA.pause(); sA.currentTime=winStart; return; } var len=winEnd-winStart, rel=sA.currentTime-winStart; sFill.style.right=(100-rel/len*100)+'%'; sCur.textContent=fmt(rel); if(sA.buffered.length){ var be=sA.buffered.end(sA.buffered.length-1); sBuf.style.right=(100-clamp((be-winStart)/len,0,1)*100)+'%'; } });
+  sA.addEventListener('play', function(){ sPlay.textContent='❚❚'; sPlay.setAttribute('aria-label','Pause'); });
+  sA.addEventListener('pause', function(){ sPlay.textContent='▶'; sPlay.setAttribute('aria-label','Play'); });
+  sPlay.addEventListener('click', function(){ if(sA.currentTime<winStart||sA.currentTime>=winEnd) sA.currentTime=winStart; sA.paused?sA.play():sA.pause(); });
+  sQ('.ep-back').addEventListener('click', function(){ sA.currentTime=clamp(sA.currentTime-15, winStart, winEnd||Infinity); });
+  sQ('.ep-fwd').addEventListener('click', function(){ sA.currentTime=clamp(sA.currentTime+15, winStart, winEnd||Infinity); });
+  sBar.addEventListener('click', function(e){ if(winEnd==null) return; var r=sBar.getBoundingClientRect(); sA.currentTime=winStart+(e.clientX-r.left)/r.width*(winEnd-winStart); });
+  sSpd.addEventListener('click', function(){ sSi=(sSi+1)%speeds.length; sA.playbackRate=speeds[sSi]; sSpd.textContent=speeds[sSi]+'×'; });
+
+  // init player 2 label/window to the default segment (no autoplay)
+  sNow.textContent=(DEFAULT_SEG+1)+' · '+CHAPTERS[DEFAULT_SEG].title;
 })();
 </script>

@@ -24,4 +24,4 @@ jobs:
       - name: Dispatch deploy workflow
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run deploy.yml --ref staging --repo ${{ github.repository }}
+        run: gh workflow run deploy.yml --ref staging --repo ${{ github.repository }} -f notify=false

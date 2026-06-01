@@ -11,6 +11,12 @@ on:
       - staging
       - live
   workflow_dispatch:
+    inputs:
+      notify:
+        description: 'Send a success ntfy ping (failures always notify). The weekly refresh sets this false to avoid routine pings.'
+        required: false
+        default: 'true'
+        type: string
 
 permissions:
   contents: read
@@ -95,7 +101,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Notify ntfy.sh
-        if: always()
+        if: always() && (failure() || github.event.inputs.notify != 'false')
         run: |
           STATUS='${{ job.status }}'
           [ "$STATUS" = success ] && TAGS=white_check_mark PRIO=default || TAGS=rotating_light PRIO=high
@@ -123,7 +129,7 @@ jobs:
           command: pages deploy _site_11ty --project-name=loe-staging --branch=main
 
       - name: Notify ntfy.sh
-        if: always()
+        if: always() && (failure() || github.event.inputs.notify != 'false')
         run: |
           STATUS='${{ job.status }}'
           [ "$STATUS" = success ] && TAGS=white_check_mark PRIO=default || TAGS=rotating_light PRIO=high

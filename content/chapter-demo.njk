@@ -1,0 +1,113 @@
+---
+layout: layouts/base.njk
+permalink: /chapter-demo.html
+eleventyExcludeFromCollections: true
+title: "Chapter Player Demo — Living on Earth"
+---
+{#
+  TEMPORARY UX demo: single full-episode stream + clickable chapter markers
+  (one audio file, seek-based chapters) — contrast with the production show
+  player, which plays separate per-segment files.
+
+  Offsets below are PLACEHOLDER estimates from measured segment durations
+  (cumulative, broadcast order). They run early by the ~5½ min of intro /
+  transitions / ads that live in the full hour but not the segment files.
+  Replace `start` with real in-episode timestamps when available — that's
+  the only change needed.
+
+  Delete this file (content/chapter-demo.njk) when done testing.
+#}
+<div class="body">
+  <div class="body_resize">
+    <div class="single-column">
+      <h1 style="color:var(--primary-green);">Chapter Player Demo</h1>
+      <p style="background:#fff3cd;color:#664d03;border:1px solid #ffe69c;border-radius:6px;padding:10px 14px;font-size:0.9em;">
+        🔧 <strong>UX test.</strong> This plays the <em>single full-episode file</em> (51:53) and seeks within it
+        to chapter marks — unlike the live show player, which switches between separate segment files.
+        Chapter offsets here are <strong>placeholder estimates</strong> (off by up to ~5 min) until real
+        per-segment timestamps are wired in.
+      </p>
+
+      <div class="episode-player" id="demo" aria-label="Episode audio player">
+        <div class="ep-row">
+          <button class="ep-skip ep-back" type="button" aria-label="Back 15 seconds">&#8634;<span class="ep-skip-n">15</span></button>
+          <button class="ep-play" type="button" aria-label="Play">&#9654;</button>
+          <button class="ep-skip ep-fwd" type="button" aria-label="Forward 15 seconds">&#8635;<span class="ep-skip-n">15</span></button>
+          <div class="ep-mid">
+            <div class="ep-now">Living on Earth: May 29, 2026</div>
+            <div class="ep-bar" id="bar" role="slider" aria-label="Seek" tabindex="0">
+              <div class="ep-buf"></div><div class="ep-fill"></div>
+            </div>
+            <div class="ep-meta"><span class="ep-cur">0:00</span><span class="ep-dur">--:--</span></div>
+          </div>
+          <div class="ep-tools">
+            <button class="ep-tool ep-spd" type="button" aria-label="Playback speed">1&times;</button>
+          </div>
+        </div>
+        <ul class="ep-chaps" id="chaps"></ul>
+      </div>
+    </div>
+  </div>
+  <div class="clr"></div>
+</div>
+
+<style>
+  /* chapter tick marks on the scrubber */
+  #bar .ch-tick { position:absolute; top:-3px; bottom:-3px; width:2px; background:var(--primary-green); opacity:0.55; pointer-events:none; }
+  /* chapter rows show a start time */
+  .ch-time { flex:none; margin-left:auto; font:11px/1.6 'Space Mono',monospace; color:var(--text-light); }
+  .ep-chap.ep-cur .ch-time { color:#fff; }
+</style>
+
+<script>
+(function () {
+  // ── EDIT HERE: real in-episode timestamps drop straight into `start` (seconds) ──
+  var FULL = 'https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/LOE2565642750.mp3';
+  var CHAPTERS = [
+    { title: 'U.N. Affirms Climate Duty',                            start: 0    },
+    { title: 'World Cup in a Warming World',                         start: 729  },
+    { title: 'Note on Emerging Science: Sea Lavender Stores Carbon', start: 1187 },
+    { title: 'Terry Tempest Williams on The Glorians',              start: 1327 }
+  ];
+  // ───────────────────────────────────────────────────────────────────────────────
+
+  function fmt(s){ if(!isFinite(s)||s<0) return '0:00'; var m=Math.floor(s/60),x=Math.floor(s%60); return m+':'+(x<10?'0':'')+x; }
+  var el = document.getElementById('demo'), Q = function(s){ return el.querySelector(s); };
+  var audio = new Audio(); audio.preload='metadata'; audio.src = FULL;
+  var play=Q('.ep-play'), bar=document.getElementById('bar'), fill=Q('.ep-fill'), buf=Q('.ep-buf'),
+      curEl=Q('.ep-cur'), durEl=Q('.ep-dur'), now=Q('.ep-now'), spd=Q('.ep-spd'),
+      chaps=document.getElementById('chaps');
+  var speeds=[0.8,1,1.5,2], si=1, cur=-1;
+
+  // render chapter rows
+  CHAPTERS.forEach(function(c,i){
+    var li=document.createElement('li'); li.className='ep-chap'; li.dataset.i=i;
+    li.innerHTML='<span class="ep-chap-n">'+(i+1)+'</span><span class="ep-chap-t">'+c.title+'</span><span class="ch-time">'+fmt(c.start)+'</span>';
+    li.addEventListener('click', function(){ audio.currentTime=c.start; audio.play(); });
+    chaps.appendChild(li);
+  });
+  function currentChapter(t){ var idx=0; for(var i=0;i<CHAPTERS.length;i++){ if(t>=CHAPTERS[i].start) idx=i; } return idx; }
+  function highlight(i){ if(i===cur) return; cur=i; chaps.querySelectorAll('.ep-chap').forEach(function(c){ c.classList.toggle('ep-cur', +c.dataset.i===i); }); }
+
+  audio.addEventListener('loadedmetadata', function(){
+    durEl.textContent=fmt(audio.duration);
+    var d=audio.duration||1;
+    CHAPTERS.forEach(function(c){ var t=document.createElement('div'); t.className='ch-tick'; t.style.left=(c.start/d*100)+'%'; bar.appendChild(t); });
+  });
+  audio.addEventListener('timeupdate', function(){
+    var d=audio.duration||1;
+    fill.style.right=(100-audio.currentTime/d*100)+'%';
+    curEl.textContent=fmt(audio.currentTime);
+    if(audio.buffered.length) buf.style.right=(100-audio.buffered.end(audio.buffered.length-1)/d*100)+'%';
+    highlight(currentChapter(audio.currentTime));
+  });
+  audio.addEventListener('play', function(){ play.textContent='❚❚'; play.setAttribute('aria-label','Pause'); });
+  audio.addEventListener('pause', function(){ play.textContent='▶'; play.setAttribute('aria-label','Play'); });
+
+  play.addEventListener('click', function(){ audio.paused?audio.play():audio.pause(); });
+  Q('.ep-back').addEventListener('click', function(){ audio.currentTime=Math.max(0,audio.currentTime-15); });
+  Q('.ep-fwd').addEventListener('click', function(){ audio.currentTime=Math.min(audio.duration||0,audio.currentTime+15); });
+  bar.addEventListener('click', function(e){ var r=bar.getBoundingClientRect(); audio.currentTime=(e.clientX-r.left)/r.width*(audio.duration||0); });
+  spd.addEventListener('click', function(){ si=(si+1)%speeds.length; audio.playbackRate=speeds[si]; spd.textContent=speeds[si]+'×'; });
+})();
+</script>

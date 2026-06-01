@@ -57,6 +57,21 @@ jobs:
           npm ci --no-audit --no-fund
           npm --prefix eleventy ci --no-audit --no-fund
 
+      # Persist the speaker-highlight transform cache across runs so the build
+      # skips cheerio for unchanged pages (~halves cold-build time). Keyed by
+      # date because the cache namespaces by day; restore-keys grabs the most
+      # recent same-day cache and we save a fresh one per commit.
+      - name: Build date (cache key)
+        id: bdate
+        run: echo "d=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+      - name: Cache Eleventy transform output
+        uses: actions/cache@v4
+        with:
+          path: eleventy/.cache
+          key: eleventy-cache-${{ steps.bdate.outputs.d }}-${{ github.sha }}
+          restore-keys: |
+            eleventy-cache-${{ steps.bdate.outputs.d }}-
+
       - name: Build site (Eleventy)
         env:
           DEPLOY_TARGET: ${{ steps.pick.outputs.target }}

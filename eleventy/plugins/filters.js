@@ -37,10 +37,14 @@ function stripQuotes(value) {
     return String(value).replace(/^"+|"+$/g, '');
 }
 
+// Build-time date, formatted per `fmt`. Deliberately DATE-ONLY (no clock time):
+// a minute-level timestamp here would change every build, making every one of
+// the ~12k pages differ on each rebuild — which defeats the speaker-highlight
+// transform cache, Eleventy incremental, and Cloudflare's upload dedup. Stable
+// within a UTC day; the only legitimately-daily churn.
 function currentTime(_ignored, fmt) {
     const now = new Date();
-    return strftime(now.toISOString(), fmt) +
-        ` at ${now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })} ET`;
+    return strftime(now.toISOString(), fmt);
 }
 
 /** Absolute or content-relative input path → "shows/2026/05-22/show.md". */

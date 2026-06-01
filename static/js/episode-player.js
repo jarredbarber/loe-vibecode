@@ -28,6 +28,9 @@
     }
 
     function init(el, applyUrl) {
+        // Let a page opt out of the global auto-wirer (e.g. a demo page that
+        // hand-wires its own .episode-player markup).
+        if (el.hasAttribute('data-no-autowire')) return;
         var chapters = [].slice.call(el.querySelectorAll('.ep-chap')).map(function (li) {
             return { id: li.dataset.id, title: (li.querySelector('.ep-chap-t') || {}).textContent || '', art: li.dataset.art || '' };
         });

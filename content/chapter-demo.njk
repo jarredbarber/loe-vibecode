@@ -30,7 +30,7 @@ title: "Chapter Player Demo — Living on Earth"
 
       <h3 style="color:var(--primary-green);margin-bottom:4px;">1 · Full stream + chapters</h3>
       <p style="font-size:0.88em;color:var(--text-light);margin-top:0;">One 51:53 file; tap a tick or a chapter to seek within it.</p>
-      <div class="episode-player" id="full" aria-label="Full episode player">
+      <div class="episode-player" id="full" data-no-autowire aria-label="Full episode player">
         <div class="ep-row">
           <button class="ep-skip ep-back" type="button" aria-label="Back 15 seconds">&#8634;<span class="ep-skip-n">15</span></button>
           <button class="ep-play" type="button" aria-label="Play">&#9654;</button>
@@ -47,7 +47,7 @@ title: "Chapter Player Demo — Living on Earth"
 
       <h3 style="color:var(--primary-green);margin-bottom:4px;">2 · Windowed segment (same file)</h3>
       <p style="font-size:0.88em;color:var(--text-light);margin-top:0;">Plays only one segment's slice of the full file — shows 0:00 to the segment length, no separate file. Tap a chapter above to change which.</p>
-      <div class="episode-player episode-player--single" id="seg" aria-label="Windowed segment player">
+      <div class="episode-player episode-player--single" id="seg" data-no-autowire aria-label="Windowed segment player">
         <div class="ep-row">
           <button class="ep-skip ep-back" type="button" aria-label="Back 15 seconds">&#8634;<span class="ep-skip-n">15</span></button>
           <button class="ep-play" type="button" aria-label="Play">&#9654;</button>
@@ -119,7 +119,7 @@ title: "Chapter Player Demo — Living on Earth"
   var winStart=0, winEnd=null, segIdx=DEFAULT_SEG;
   function winBounds(i){ return [CHAPTERS[i].start, (i+1<CHAPTERS.length) ? CHAPTERS[i+1].start : (sA.duration||null)]; }
   function segWin(){ var b=winBounds(segIdx); winStart=b[0]; winEnd=b[1]; if(winEnd!=null) sDur.textContent=fmt(winEnd-winStart); }
-  function selectSeg(i){ segIdx=i; sNow.textContent=(i+1)+' · '+CHAPTERS[i].title; segWin(); sA.currentTime=winStart; sFill.style.right='100%'; sCur.textContent='0:00'; sA.play(); }
+  function selectSeg(i){ segIdx=i; sNow.textContent=(i+1)+' · '+CHAPTERS[i].title; segWin(); if(sA.readyState>=1) sA.currentTime=winStart; sFill.style.right='100%'; sCur.textContent='0:00'; }
   sA.addEventListener('loadedmetadata', function(){ segWin(); });
   sA.addEventListener('timeupdate', function(){ if(winEnd==null) return; if(sA.currentTime<winStart){ sA.currentTime=winStart; return; } if(sA.currentTime>=winEnd){ sA.pause(); sA.currentTime=winStart; return; } var len=winEnd-winStart, rel=sA.currentTime-winStart; sFill.style.right=(100-rel/len*100)+'%'; sCur.textContent=fmt(rel); if(sA.buffered.length){ var be=sA.buffered.end(sA.buffered.length-1); sBuf.style.right=(100-clamp((be-winStart)/len,0,1)*100)+'%'; } });
   sA.addEventListener('play', function(){ sPlay.textContent='❚❚'; sPlay.setAttribute('aria-label','Pause'); });
@@ -129,6 +129,10 @@ title: "Chapter Player Demo — Living on Earth"
   sQ('.ep-fwd').addEventListener('click', function(){ sA.currentTime=clamp(sA.currentTime+15, winStart, winEnd||Infinity); });
   sBar.addEventListener('click', function(e){ if(winEnd==null) return; var r=sBar.getBoundingClientRect(); sA.currentTime=winStart+(e.clientX-r.left)/r.width*(winEnd-winStart); });
   sSpd.addEventListener('click', function(){ sSi=(sSi+1)%speeds.length; sA.playbackRate=speeds[sSi]; sSpd.textContent=speeds[sSi]+'×'; });
+
+  // Only one player audible at a time.
+  fA.addEventListener('play', function(){ sA.pause(); });
+  sA.addEventListener('play', function(){ fA.pause(); });
 
   // init player 2 label/window to the default segment (no autoplay)
   sNow.textContent=(DEFAULT_SEG+1)+' · '+CHAPTERS[DEFAULT_SEG].title;

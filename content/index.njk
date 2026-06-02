@@ -46,6 +46,11 @@ eleventyExcludeFromCollections: true
 {% set recent = collections.shows.slice(1, 6) %}
 <div class="body">
     <div class="body_resize">
+        {% if site.target != 'prod' and build.sha %}
+        <p style="text-align:center;font-size:0.75em;color:var(--text-light);margin:0 0 1em;">
+            staging build <a href="https://github.com/jarredbarber/loe-vibecode/commit/{{ build.sha }}">{{ build.sha }}</a>
+        </p>
+        {% endif %}
         {% if latest %}
         <div class="featured-show">
             <h1>This Week on <i>Living on Earth</i></h1>
@@ -98,10 +103,5 @@ eleventyExcludeFromCollections: true
         {% endfor %}
         {% endif %}
         <div class="clr"></div>
-        {% if site.target != 'prod' and build.sha %}
-        <p style="text-align:center;font-size:0.75em;color:var(--text-light);margin-top:2em;">
-            staging build <a href="https://github.com/jarredbarber/loe-vibecode/commit/{{ build.sha }}">{{ build.sha }}</a>
-        </p>
-        {% endif %}
     </div>
 </div>

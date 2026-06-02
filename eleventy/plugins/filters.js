@@ -37,12 +37,6 @@ function stripQuotes(value) {
     return String(value).replace(/^"+|"+$/g, '');
 }
 
-function currentTime(_ignored, fmt) {
-    const now = new Date();
-    return strftime(now.toISOString(), fmt) +
-        ` at ${now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' })} ET`;
-}
-
 /** Absolute or content-relative input path → "shows/2026/05-22/show.md". */
 function toContentRel(inputPath) {
     if (!inputPath) return null;
@@ -327,7 +321,6 @@ function relatedForSegment(inputPath) {
 module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('strftime', strftime);
     eleventyConfig.addFilter('stripQuotes', stripQuotes);
-    eleventyConfig.addFilter('currentTime', currentTime);
     eleventyConfig.addFilter('toContentRel', toContentRel);
     eleventyConfig.addFilter('pathToCmsSlug', pathToCmsSlug);
     eleventyConfig.addFilter('readingTime', readingTime);

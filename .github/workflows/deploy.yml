@@ -11,6 +11,12 @@ on:
       - staging
       - live
   workflow_dispatch:
+    inputs:
+      notify:
+        description: 'Send a success ntfy ping (failures always notify). The weekly refresh sets this false to avoid routine pings.'
+        required: false
+        default: 'true'
+        type: string
 
 permissions:
   contents: read
@@ -51,6 +57,19 @@ jobs:
           npm ci --no-audit --no-fund
           npm --prefix eleventy ci --no-audit --no-fund
 
+      # Persist the speaker-highlight transform cache across runs so the build
+      # skips cheerio for unchanged pages (~halves cold-build time). The cache
+      # is build-deterministic and no longer namespaces by day, so the key is
+      # per-commit (always saves fresh) and the restore-key grabs the most
+      # recent cache regardless of date — no first-build-of-day cold start.
+      - name: Cache Eleventy transform output
+        uses: actions/cache@v4
+        with:
+          path: eleventy/.cache
+          key: eleventy-cache-${{ github.sha }}
+          restore-keys: |
+            eleventy-cache-
+
       - name: Build site (Eleventy)
         env:
           DEPLOY_TARGET: ${{ steps.pick.outputs.target }}
@@ -62,17 +81,34 @@ jobs:
         with:
           path: '_site_11ty'
 
-      - name: Upload artifact (staging)
+      # Staging deploys straight from this job — no artifact upload/download
+      # handoff to a separate job. That round-trip cost ~15s for nothing, since
+      # CF Pages dedups the upload itself. Prod still uses the GitHub Pages
+      # deploy-pages action, which requires the artifact + its own job below.
+      - name: Deploy to Cloudflare Pages (staging)
         if: steps.pick.outputs.target == 'staging'
-        uses: actions/upload-artifact@v4
+        uses: cloudflare/wrangler-action@v3
         with:
-          name: _site_11ty
-          path: '_site_11ty'
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: pages deploy _site_11ty --project-name=loe-staging --branch=main
 
-      # Build failures skip the deploy jobs (needs: build), so notify here or
-      # a broken build (failing test/template) would ping nothing.
-      - name: Notify ntfy.sh on build failure
-        if: failure()
+      - name: Notify ntfy.sh — staging
+        if: always() && steps.pick.outputs.target == 'staging' && (failure() || github.event.inputs.notify != 'false')
+        run: |
+          STATUS='${{ job.status }}'
+          [ "$STATUS" = success ] && TAGS=white_check_mark PRIO=default || TAGS=rotating_light PRIO=high
+          curl -s \
+            -H "Title: LOE staging deploy: $STATUS" \
+            -H "Tags: $TAGS" \
+            -H "Priority: $PRIO" \
+            -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            -d "staging (loe-staging.pages.dev) $STATUS — ${GITHUB_REF_NAME}@${GITHUB_SHA::7}" \
+            https://ntfy.sh/loe-vibecode
+
+      # Prod build failures skip deploy-prod (needs: build) so they'd ping
+      # nothing — notify here. (Staging failures are covered by the step above.)
+      - name: Notify ntfy.sh on build failure (prod)
+        if: failure() && steps.pick.outputs.target == 'prod'
         run: |
           curl -s \
             -H "Title: LOE build FAILED — no deploy" \
@@ -95,7 +131,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Notify ntfy.sh
-        if: always()
+        if: always() && (failure() || github.event.inputs.notify != 'false')
         run: |
           STATUS='${{ job.status }}'
           [ "$STATUS" = success ] && TAGS=white_check_mark PRIO=default || TAGS=rotating_light PRIO=high
@@ -105,32 +141,4 @@ jobs:
             -H "Priority: $PRIO" \
             -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             -d "production (vibingon.earth) $STATUS — ${GITHUB_REF_NAME}@${GITHUB_SHA::7}" \
-            https://ntfy.sh/loe-vibecode
-
-  deploy-staging:
-    if: needs.build.outputs.target == 'staging'
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: _site_11ty
-          path: _site_11ty
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: pages deploy _site_11ty --project-name=loe-staging --branch=main
-
-      - name: Notify ntfy.sh
-        if: always()
-        run: |
-          STATUS='${{ job.status }}'
-          [ "$STATUS" = success ] && TAGS=white_check_mark PRIO=default || TAGS=rotating_light PRIO=high
-          curl -s \
-            -H "Title: LOE staging deploy: $STATUS" \
-            -H "Tags: $TAGS" \
-            -H "Priority: $PRIO" \
-            -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
-            -d "staging (loe-staging.pages.dev) $STATUS — ${GITHUB_REF_NAME}@${GITHUB_SHA::7}" \
             https://ntfy.sh/loe-vibecode

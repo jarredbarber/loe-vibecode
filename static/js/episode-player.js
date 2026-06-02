@@ -27,7 +27,26 @@
         return 'https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/' + id + '.mp3';
     }
 
+    // ── Engagement analytics ────────────────────────────────────────────────
+    // Megaphone's own embed player reports play / quartile / complete events
+    // into Google Tag Manager's dataLayer (which fans out to whatever GA the
+    // publisher has wired). This custom player isn't that iframe, so we mirror
+    // the SAME events into dataLayer/gtag ourselves — preserving web-play
+    // engagement metrics in the publisher's existing analytics with no backend
+    // to run. (Download counting + dynamic ads are already preserved by
+    // streaming the enclosure mp3, see top of file.) Cleanly no-ops when no GTM
+    // or gtag is on the page.
+    function track(name, data) {
+        try {
+            (window.dataLayer = window.dataLayer || []).push(Object.assign({ event: name }, data));
+            if (typeof window.gtag === 'function') window.gtag('event', name, data);
+        } catch (e) { /* analytics must never break playback */ }
+    }
+
     function init(el, applyUrl) {
+        // Let a page opt out of the global auto-wirer (e.g. a demo page that
+        // hand-wires its own .episode-player markup).
+        if (el.hasAttribute('data-no-autowire')) return;
         var chapters = [].slice.call(el.querySelectorAll('.ep-chap')).map(function (li) {
             return { id: li.dataset.id, title: (li.querySelector('.ep-chap-t') || {}).textContent || '', art: li.dataset.art || '' };
         });
@@ -44,6 +63,7 @@
         var play = Q('.ep-play'), bar = Q('.ep-bar'), fill = Q('.ep-fill'), buf = Q('.ep-buf'),
             curEl = Q('.ep-cur'), durEl = Q('.ep-dur'), now = Q('.ep-now'), spd = Q('.ep-spd');
         var speeds = [0.8, 1, 1.5, 2], si = 1, cur = -1, pend = null, tick = 0;
+        var started = false, reached = {};  // per-track engagement state
         var clipMode = false, clipA = null, clipB = null, stopAt = null;
 
         var qp = new URLSearchParams(applyUrl ? location.search : '');
@@ -52,6 +72,17 @@
         var clipEnd = qp.get('end') ? parseT(qp.get('end')) : null;
         clipB = clipEnd; stopAt = clipEnd;
 
+        function trackData(extra) {
+            var t = all[cur] || {}, d = audio.duration || 0;
+            return Object.assign({
+                episode_id: t.id,                 // the playing track's megaphone_id
+                episode_title: t.title,
+                position: Math.round(audio.currentTime) || 0,
+                duration: Math.round(d) || undefined,
+                percent: d ? Math.round(audio.currentTime / d * 100) : undefined,
+                player: 'loe-web'
+            }, extra || {});
+        }
         function toast(m) {
             var t = document.createElement('div'); t.className = 'ep-toast'; t.textContent = m;
             document.body.appendChild(t); setTimeout(function () { t.remove(); }, 1900);
@@ -88,6 +119,7 @@
         }
         function load(i, seek, auto) {
             cur = i;
+            started = false; reached = {};  // reset engagement milestones for the new track
             var radio = i >= chapters.length;
             pend = (seek != null) ? seek : (parseFloat(localStorage.getItem('ep-pos-' + all[i].id)) || 0);
             audio.src = mp3(all[i].id); audio.load();
@@ -112,6 +144,12 @@
             curEl.textContent = fmt(audio.currentTime);
             if (audio.buffered.length) buf.style.right = (100 - audio.buffered.end(audio.buffered.length - 1) / d * 100) + '%';
             if (++tick % 10 === 0) localStorage.setItem('ep-pos-' + all[cur].id, audio.currentTime);
+            if (started && audio.duration) {
+                var pc = audio.currentTime / audio.duration * 100;
+                [25, 50, 75].forEach(function (q) {
+                    if (pc >= q && !reached[q]) { reached[q] = true; track('audio_progress', trackData({ percent: q })); }
+                });
+            }
             if (stopAt != null && audio.currentTime >= stopAt) { audio.pause(); stopAt = null; }
             if ('mediaSession' in navigator && navigator.mediaSession.setPositionState && isFinite(audio.duration)) {
                 try { navigator.mediaSession.setPositionState({ duration: audio.duration, position: audio.currentTime, playbackRate: audio.playbackRate }); } catch (e) { /* ignore */ }
@@ -119,6 +157,7 @@
         });
         audio.addEventListener('play', function () {
             play.textContent = '❚❚'; play.setAttribute('aria-label', 'Pause');
+            if (!started) { started = true; track('audio_play', trackData()); }
             if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'playing';
         });
         audio.addEventListener('pause', function () {
@@ -127,6 +166,7 @@
             if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
         });
         audio.addEventListener('ended', function () {
+            track('audio_complete', trackData({ percent: 100 }));
             localStorage.removeItem('ep-pos-' + all[cur].id);
             if (cur < all.length - 1) load(cur + 1, 0, true);
         });

@@ -14,8 +14,63 @@
  */
 
 const cheerio = require('cheerio');
+const crypto = require('node:crypto');
+const fs = require('node:fs');
+const path = require('node:path');
 
 const SPEAKER_RE = /^\s*([A-Z](?:[A-Z'’\d\s.]|[a-z]{1,2}(?=[A-Z]))+):/;
+
+// ── Persistent transform cache ──────────────────────────────────────────────
+// This cheerio transform is ~44% of total build time and is a pure function of
+// the page HTML. The archive (~12k pages) never changes between builds, so we
+// cache transform(html) keyed by sha1(html) and skip the cheerio parse on hits.
+//
+// Pages are fully build-deterministic (no date/time in output), so the cache
+// persists indefinitely across builds — a page only re-runs cheerio if its
+// rendered HTML actually changed. We MERGE (load existing, add new, write all)
+// rather than prune to this build's pages: other builds share this file (the
+// test suite builds fixture content through the same plugin), and pruning would
+// let a small/partial build wipe the full cache. Growth is slow (only changed
+// pages add entries; stale ones linger harmlessly); CACHE_VERSION resets it all
+// when the transform logic changes.
+const CACHE_VERSION = 'v2';
+const CACHE_FILE = path.resolve(__dirname, '..', '.cache', 'speaker-highlight.json');
+let _cache = null;
+let _dirty = false;
+function loadCache() {
+    if (_cache) return _cache;
+    _cache = new Map();
+    try {
+        const data = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+        if (data.version === CACHE_VERSION) {
+            _cache = new Map(Object.entries(data.entries));
+        }
+    } catch { /* no/stale cache — start fresh */ }
+    return _cache;
+}
+function flushCache() {
+    if (!_dirty || !_cache) return;
+    try {
+        fs.mkdirSync(path.dirname(CACHE_FILE), { recursive: true });
+        fs.writeFileSync(CACHE_FILE, JSON.stringify({
+            version: CACHE_VERSION, entries: Object.fromEntries(_cache),
+        }));
+        _dirty = false;
+    } catch { /* best-effort cache; ignore write failures */ }
+}
+function cachedTransform(html) {
+    if (!html || typeof html !== 'string') return html;
+    // Cheap early-out (also avoids hashing pages with nothing to do).
+    if (!SPEAKER_RE.test(html) && !html.includes('<img')) return html;
+    const cache = loadCache();
+    const key = crypto.createHash('sha1').update(html).digest('hex');
+    const hit = cache.get(key);
+    if (hit !== undefined) return hit;
+    const out = transform(html);
+    cache.set(key, out);
+    _dirty = true;
+    return out;
+}
 
 function transform(html) {
     if (!html || typeof html !== 'string') return html;
@@ -118,6 +173,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addTransform('speaker-highlight', function (content) {
         // Only run on HTML output.
         if (!String(this.page.outputPath || '').endsWith('.html')) return content;
-        return transform(content);
+        return cachedTransform(content);
     });
+    // Persist the cache once the build finishes so the next build is warm.
+    eleventyConfig.on('eleventy.after', flushCache);
 };

@@ -35,12 +35,11 @@
     // engagement metrics in the publisher's existing analytics with no backend
     // to run. (Download counting + dynamic ads are already preserved by
     // streaming the enclosure mp3, see top of file.) Cleanly no-ops when no GTM
-    // or gtag is on the page. Set window.EP_ANALYTICS_DEBUG = true to log events.
+    // or gtag is on the page.
     function track(name, data) {
         try {
             (window.dataLayer = window.dataLayer || []).push(Object.assign({ event: name }, data));
             if (typeof window.gtag === 'function') window.gtag('event', name, data);
-            if (window.EP_ANALYTICS_DEBUG) console.log('[ep-analytics]', name, data);
         } catch (e) { /* analytics must never break playback */ }
     }
 

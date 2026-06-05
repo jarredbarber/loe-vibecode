@@ -3,7 +3,8 @@ layout: layouts/base.njk
 ---
 {% set entry = { title: title, date: date, summary: summary,
     banner_url: banner_url, image_url: image_url, image_caption: image_caption,
-    megaphone_id: megaphone_id, audio_url: audio_url } %}
+    megaphone_id: megaphone_id, audio_url: audio_url,
+    start: start, duration: duration } %}
 {% set title_html %}<h2>{{ title }}</h2>{% endset %}
 {% set summaryAboveImage = false %}
 <div class="body">

@@ -90,6 +90,8 @@ collections:
       - { label: 'Image caption', name: 'image_caption', widget: 'string', required: false }
       - { label: 'Summary', name: 'summary', widget: 'text', required: false }
       - { label: 'Order', name: 'order', widget: 'number', required: false, hint: 'Optional. Lower numbers come first on the show page. Defaults to filename order.' }
+      - { label: 'Segment start (timecode)', name: 'start', widget: 'string', required: false, pattern: ['^(\\d+|\\d+(:\\d{1,2})+)$', 'Use MM:SS, H:MM:SS, or seconds'], hint: 'Offset of this segment in the full-show audio, e.g. 12:09. Leave blank to use a separate per-segment Megaphone file.' }
+      - { label: 'Segment duration (timecode)', name: 'duration', widget: 'string', required: false, pattern: ['^(\\d+|\\d+(:\\d{1,2})+)$', 'Use MM:SS, H:MM:SS, or seconds'], hint: 'Length of this segment, e.g. 8:32.' }
       - { label: 'Tags', name: 'tags', widget: 'select', multiple: true, required: false, options: {% endraw %}{{ VOCAB | dump | safe }}{% raw %}, hint: 'Pick from the controlled vocabulary at /tags.html. Empty is OK if nothing fits.' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 

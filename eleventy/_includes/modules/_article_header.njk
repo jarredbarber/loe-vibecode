@@ -70,6 +70,15 @@
 <br />
 {% if _audioTracks and _audioTracks.length %}
 {{ player(_audioTracks, false, entry.megaphone_id) }}
+{% elif entry.start %}
+{# Windowed segment: a slice of the parent show's full-episode file. The show
+   (resolved by date) carries the full mp3 as its own megaphone_id. #}
+{% set _show = entry.date | showForDate(collections.shows) %}
+{% if _show and _show.data.megaphone_id %}
+{{ player([{ full: _show.data.megaphone_id, start: (entry.start | tcToSeconds), dur: (entry.duration | tcToSeconds), title: entry.title, art: entry.image_url }], true, _show.data.megaphone_id) }}
+{% elif entry.megaphone_id %}
+{{ player([{ id: entry.megaphone_id, title: entry.title, art: entry.image_url }], true, entry.megaphone_id) }}
+{% endif %}
 {% elif entry.megaphone_id %}
 {# Up-next radio queue: related segments that have their own audio. #}
 {% set _related = page.inputPath | relatedForSegment %}

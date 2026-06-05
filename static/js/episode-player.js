@@ -43,12 +43,195 @@
         } catch (e) { /* analytics must never break playback */ }
     }
 
+    // Full-file player: one mp3 (the show's full episode), chapters are offsets.
+    // mode 'chaptered' — multi-chapter show; taps seek; continuous playback.
+    // mode 'windowed'  — single segment; plays only [start, start+dur]; stops.
+    function initWindowed(el, applyUrl, chapters, mode) {
+        var Q = function (s) { return el.querySelector(s); };
+        var audio = new Audio(); audio.preload = 'metadata';
+        audio.src = mp3(chapters[0].full);
+        var play = Q('.ep-play'), bar = Q('.ep-bar'), fill = Q('.ep-fill'), buf = Q('.ep-buf'),
+            curEl = Q('.ep-cur'), durEl = Q('.ep-dur'), now = Q('.ep-now'), spd = Q('.ep-spd');
+        var speeds = [0.8, 1, 1.5, 2], si = 1;
+        var started = false, reached = {};
+        var fullId = chapters[0].full;
+        var posKey = 'ep-pos-' + fullId + (mode === 'windowed' ? '-w' + chapters[0].start : '');
+
+        // Window bounds for chapter i: [start, end). End is the next chapter's
+        // start, or start+dur, or the file end. In chaptered mode we do NOT stop
+        // at the boundary (winEnd governs the scrubber/labels only via highlight).
+        function endOf(i) {
+            if (i + 1 < chapters.length) return chapters[i + 1].start;
+            if (chapters[i].dur != null) return chapters[i].start + chapters[i].dur;
+            return audio.duration || null;
+        }
+
+        function track2(name, extra) {
+            var c = chapters[curCh] || chapters[0] || {};
+            track(name, Object.assign({
+                episode_id: fullId, episode_title: c.title,
+                position: Math.round(audio.currentTime) || 0,
+                duration: Math.round(audio.duration) || undefined,
+                player: 'loe-web'
+            }, extra || {}));
+        }
+
+        // ── chaptered: whole-file scrubber, chapter list seeks + highlights ──
+        var curCh = mode === 'windowed' ? 0 : -1;
+        function chapterAt(t) { var idx = 0; for (var i = 0; i < chapters.length; i++) { if (t >= chapters[i].start) idx = i; } return idx; }
+        function highlight(i) {
+            if (i === curCh) return; curCh = i;
+            el.querySelectorAll('.ep-chap').forEach(function (c) { c.classList.toggle('ep-cur', +c.dataset.i === i); });
+            setMediaMeta(i);
+        }
+        function setMediaMeta(i) {
+            if (!('mediaSession' in navigator)) return;
+            var t = chapters[i] || chapters[0];
+            try {
+                navigator.mediaSession.metadata = new MediaMetadata({
+                    title: t.title, artist: 'Living on Earth', album: 'Living on Earth',
+                    artwork: t.art ? [{ src: t.art, sizes: '512x512', type: 'image/jpeg' }] : []
+                });
+            } catch (e) { /* ignore */ }
+        }
+
+        // ── windowed: scrubber + labels relative to the single segment window ──
+        var winStart = mode === 'windowed' ? chapters[0].start : 0;
+        var winEnd = null; // resolved on loadedmetadata for windowed mode
+
+        audio.addEventListener('loadedmetadata', function () {
+            if (mode === 'windowed') {
+                winEnd = endOf(0);
+                durEl.textContent = winEnd != null ? fmt(winEnd - winStart) : fmt(audio.duration);
+                if (now) now.textContent = chapters[0].title;
+                var resume = parseFloat(localStorage.getItem(posKey));
+                audio.currentTime = (resume && resume > winStart && (winEnd == null || resume < winEnd)) ? resume : winStart;
+                setMediaMeta(0);
+            } else {
+                durEl.textContent = fmt(audio.duration);
+                var r = parseFloat(localStorage.getItem(posKey)) || 0;
+                if (r > 0 && r < audio.duration) audio.currentTime = r;
+                highlight(chapterAt(audio.currentTime));
+            }
+        });
+
+        var tick = 0;
+        audio.addEventListener('timeupdate', function () {
+            if (mode === 'windowed') {
+                if (winEnd == null) { winEnd = endOf(0); }
+                if (audio.currentTime < winStart) { audio.currentTime = winStart; return; }
+                if (winEnd != null && audio.currentTime >= winEnd) {
+                    audio.pause(); track2('audio_complete', { percent: 100 });
+                    localStorage.removeItem(posKey); audio.currentTime = winStart; return;
+                }
+                var len = (winEnd || audio.duration) - winStart, rel = audio.currentTime - winStart;
+                fill.style.right = (100 - rel / len * 100) + '%';
+                curEl.textContent = fmt(rel);
+                if (audio.buffered.length) { var be = audio.buffered.end(audio.buffered.length - 1); fill.parentNode && (buf.style.right = (100 - Math.max(0, Math.min(1, (be - winStart) / len)) * 100) + '%'); }
+                if (started && len > 0) {
+                    var pcw = rel / len * 100;
+                    [25, 50, 75].forEach(function (q) { if (pcw >= q && !reached[q]) { reached[q] = true; track2('audio_progress', { percent: q }); } });
+                }
+            } else {
+                var d = audio.duration || 1;
+                fill.style.right = (100 - audio.currentTime / d * 100) + '%';
+                curEl.textContent = fmt(audio.currentTime);
+                if (audio.buffered.length) buf.style.right = (100 - audio.buffered.end(audio.buffered.length - 1) / d * 100) + '%';
+                highlight(chapterAt(audio.currentTime));
+                if (started && audio.duration) {
+                    var pc = audio.currentTime / audio.duration * 100;
+                    [25, 50, 75].forEach(function (q) { if (pc >= q && !reached[q]) { reached[q] = true; track2('audio_progress', { percent: q }); } });
+                }
+            }
+            if (++tick % 10 === 0) localStorage.setItem(posKey, audio.currentTime);
+            if ('mediaSession' in navigator && navigator.mediaSession.setPositionState && isFinite(audio.duration)) {
+                try { navigator.mediaSession.setPositionState({ duration: audio.duration, position: audio.currentTime, playbackRate: audio.playbackRate }); } catch (e) { /* ignore */ }
+            }
+        });
+
+        audio.addEventListener('play', function () {
+            play.textContent = '❚❚'; play.setAttribute('aria-label', 'Pause');
+            if (!started) { started = true; track2('audio_play'); }
+            if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'playing';
+        });
+        audio.addEventListener('pause', function () {
+            play.textContent = '▶'; play.setAttribute('aria-label', 'Play');
+            localStorage.setItem(posKey, audio.currentTime);
+            if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
+        });
+        audio.addEventListener('ended', function () {
+            track2('audio_complete', { percent: 100 });
+            localStorage.removeItem(posKey);
+        });
+
+        play.addEventListener('click', function () {
+            if (mode === 'windowed' && (audio.currentTime < winStart || (winEnd != null && audio.currentTime >= winEnd))) audio.currentTime = winStart;
+            audio.paused ? audio.play() : audio.pause();
+        });
+        Q('.ep-back').addEventListener('click', function () {
+            var lo = mode === 'windowed' ? winStart : 0;
+            audio.currentTime = Math.max(lo, audio.currentTime - 15);
+        });
+        Q('.ep-fwd').addEventListener('click', function () {
+            var hi = mode === 'windowed' && winEnd != null ? winEnd : (audio.duration || 0);
+            audio.currentTime = Math.min(hi, audio.currentTime + 15);
+        });
+        bar.addEventListener('click', function (e) {
+            var r = bar.getBoundingClientRect(), frac = (e.clientX - r.left) / r.width;
+            if (mode === 'windowed') {
+                if (winEnd == null) return;
+                audio.currentTime = winStart + frac * (winEnd - winStart);
+            } else {
+                audio.currentTime = frac * (audio.duration || 0);
+            }
+        });
+        bar.addEventListener('keydown', function (e) {
+            var lo = mode === 'windowed' ? winStart : 0;
+            var hi = mode === 'windowed' && winEnd != null ? winEnd : (audio.duration || 0);
+            if (e.key === 'ArrowRight') { audio.currentTime = Math.min(hi, audio.currentTime + 5); e.preventDefault(); }
+            else if (e.key === 'ArrowLeft') { audio.currentTime = Math.max(lo, audio.currentTime - 5); e.preventDefault(); }
+            else if (e.key === ' ' || e.key === 'Enter') { audio.paused ? audio.play() : audio.pause(); e.preventDefault(); }
+        });
+        spd.addEventListener('click', function () {
+            si = (si + 1) % speeds.length; audio.playbackRate = speeds[si]; spd.textContent = speeds[si] + '×';
+        });
+
+        // Chapter list: chaptered → seek; windowed page has only one chapter
+        // (clicking it just restarts the window).
+        el.querySelectorAll('.ep-chap').forEach(function (c) {
+            c.addEventListener('click', function () {
+                var i = +c.dataset.i;
+                if (mode === 'windowed') { audio.currentTime = winStart; audio.play(); return; }
+                audio.currentTime = chapters[i].start; highlight(i); audio.play();
+            });
+        });
+
+        if ('mediaSession' in navigator) {
+            var ms = navigator.mediaSession, H = function (a, fn) { try { ms.setActionHandler(a, fn); } catch (e) { /* unsupported */ } };
+            H('play', function () { audio.play(); });
+            H('pause', function () { audio.pause(); });
+            H('seekbackward', function (e) { var lo = mode === 'windowed' ? winStart : 0; audio.currentTime = Math.max(lo, audio.currentTime - ((e && e.seekOffset) || 15)); });
+            H('seekforward', function (e) { var hi = mode === 'windowed' && winEnd != null ? winEnd : (audio.duration || 0); audio.currentTime = Math.min(hi, audio.currentTime + ((e && e.seekOffset) || 15)); });
+            if (mode === 'chaptered') {
+                H('previoustrack', function () { var i = Math.max(0, chapterAt(audio.currentTime) - 1); audio.currentTime = chapters[i].start; highlight(i); });
+                H('nexttrack', function () { var i = Math.min(chapters.length - 1, chapterAt(audio.currentTime) + 1); audio.currentTime = chapters[i].start; highlight(i); });
+            }
+        }
+    }
+
     function init(el, applyUrl) {
         // Let a page opt out of the global auto-wirer (e.g. a demo page that
         // hand-wires its own .episode-player markup).
         if (el.hasAttribute('data-no-autowire')) return;
         var chapters = [].slice.call(el.querySelectorAll('.ep-chap')).map(function (li) {
-            return { id: li.dataset.id, title: (li.querySelector('.ep-chap-t') || {}).textContent || '', art: li.dataset.art || '' };
+            return {
+                id: li.dataset.id,
+                full: li.dataset.full || null,
+                start: li.dataset.start != null ? parseInt(li.dataset.start, 10) : null,
+                dur: li.dataset.dur != null ? parseInt(li.dataset.dur, 10) : null,
+                title: (li.querySelector('.ep-chap-t') || {}).textContent || '',
+                art: li.dataset.art || ''
+            };
         });
         // Up-next radio queue (related segments) — played after the main track.
         var queue = [].slice.call(el.querySelectorAll('.ep-next')).map(function (li) {
@@ -56,6 +239,20 @@
         });
         var all = chapters.concat(queue);
         if (!all.length) return;
+        // Full-file modes (single mp3, no per-chapter src reload):
+        //   chaptered — a show whose every chapter is a window into the full
+        //               file: chapter taps seek, playback flows continuously.
+        //   windowed  — a standalone segment page playing only [start,start+dur].
+        // Anything not fully windowed falls through to the legacy multi-file path.
+        var windowedChaps = chapters.filter(function (c) { return c.full && c.start != null; });
+        if (windowedChaps.length === chapters.length && windowedChaps.length) {
+            if (el.classList.contains('episode-player--single') && chapters.length === 1) {
+                initWindowed(el, applyUrl, chapters, 'windowed');
+            } else {
+                initWindowed(el, applyUrl, chapters, 'chaptered');
+            }
+            return;
+        }
         var multi = !el.classList.contains('episode-player--single') && chapters.length > 1;
 
         var Q = function (s) { return el.querySelector(s); };

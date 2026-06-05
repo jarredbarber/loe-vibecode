@@ -233,4 +233,23 @@ module.exports = function (eleventyConfig) {
         const key = new Date(showDate).toISOString().slice(0, 10);
         return indexSegments(segments).get(key) || [];
     });
+
+    // Reverse of segmentsForShow: given a date and the shows collection,
+    // return that date's show entry (or null). Used by a standalone segment
+    // page to resolve its parent show's full-episode megaphone_id for
+    // windowed playback. O(1) after a one-time index, cached on the array.
+    eleventyConfig.addFilter('showForDate', function (date, shows) {
+        if (!date || !shows) return null;
+        if (!shows.__byDate) {
+            const idx = new Map();
+            for (const s of shows) {
+                const d = s.data ? s.data.date : s.date;
+                const key = new Date(d).toISOString().slice(0, 10);
+                if (!idx.has(key)) idx.set(key, s);
+            }
+            Object.defineProperty(shows, '__byDate', { value: idx, enumerable: false });
+        }
+        const key = new Date(date).toISOString().slice(0, 10);
+        return shows.__byDate.get(key) || null;
+    });
 };

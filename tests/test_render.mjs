@@ -14,6 +14,7 @@ import path from 'node:path';
 import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import * as cheerio from 'cheerio';
+import filtersPlugin from '../eleventy/plugins/filters.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, '..');
@@ -22,6 +23,8 @@ const SEGMENT_QUOTE = '2099_01_01_quote-test-bursts-forth.html';
 const SEGMENT_BIRDNOTE = '2099_01_01_birdnote-fixture.html';
 const SHOW_PAGE = '2099_01_01_living-on-earth-january-1-2099.html';
 const INDEX_PAGE = 'index.html';
+const CHAPTERED_SHOW = '2099_02_02_living-on-earth-february-2-2099.html';
+const WINDOWED_SEGMENT = '2099_02_02_world-cup-warming.html';
 
 let outDir;
 
@@ -107,4 +110,60 @@ test('nav active state per page', () => {
     const $seg = load(SEGMENT_BIRDNOTE);
     const segActive = $seg('.menu li a.active').get();
     assert.equal(segActive.length, 0);
+});
+
+// 8. tcToSeconds parses MM:SS, H:MM:SS, and bare seconds.
+test('tcToSeconds parses timecodes to integer seconds', () => {
+    const { tcToSeconds } = filtersPlugin;
+    assert.equal(tcToSeconds('12:09'), 729);
+    assert.equal(tcToSeconds('1:02:03'), 3723);
+    assert.equal(tcToSeconds('134'), 134);
+    assert.equal(tcToSeconds(134), 134);
+    assert.equal(tcToSeconds('0:00'), 0);
+    assert.equal(tcToSeconds(''), null);
+    assert.equal(tcToSeconds(null), null);
+    assert.equal(tcToSeconds('garbage'), null);
+});
+
+// 9. A show whose segments all have `start` renders a single-file chaptered
+//    player: every chapter points at the show's full id via data-full +
+//    data-start, and no chapter carries a per-segment data-id.
+test('chaptered show renders single-file windowed chapters', () => {
+    const $ = load(CHAPTERED_SHOW);
+    const chaps = $('.episode-player .ep-chap');
+    assert.ok(chaps.length >= 2, `expected >=2 chapters, got ${chaps.length}`);
+    chaps.each((_, li) => {
+        assert.equal($(li).attr('data-full'), 'LOEFIXTURE0100');
+        assert.ok($(li).attr('data-start') !== undefined, 'chapter missing data-start');
+        assert.equal($(li).attr('data-id'), undefined, 'windowed chapter must not have data-id');
+    });
+    // 12:09 -> 729, 19:47 -> 1187
+    const starts = chaps.map((_, li) => $(li).attr('data-start')).get();
+    assert.deepEqual(starts, ['729', '1187']);
+});
+
+// 10. The standalone segment page for a windowed segment renders a --single
+//     windowed player against the parent show's full id, with data-dur.
+test('windowed segment page renders --single windowed player', () => {
+    const $ = load(WINDOWED_SEGMENT);
+    const player = $('.episode-player--single');
+    assert.equal(player.length, 1, 'expected one --single player');
+    const li = player.find('.ep-chap');
+    assert.equal(li.length, 1);
+    assert.equal(li.attr('data-full'), 'LOEFIXTURE0100');
+    assert.equal(li.attr('data-start'), '729');   // 12:09
+    assert.equal(li.attr('data-dur'), '458');     // 7:38
+    assert.equal(li.attr('data-id'), undefined);
+});
+
+// 11. Regression: a legacy show (no segment timecodes) still renders per-segment
+//     data-id chapters — the 1.6k existing shows must not change.
+test('legacy show still renders multi-file data-id chapters', () => {
+    const $ = load(SHOW_PAGE);
+    const chaps = $('.episode-player .ep-chap');
+    assert.ok(chaps.length >= 1);
+    chaps.each((_, li) => {
+        assert.ok($(li).attr('data-id') !== undefined, 'legacy chapter must keep data-id');
+        assert.equal($(li).attr('data-full'), undefined, 'legacy chapter must not be windowed');
+    });
 });

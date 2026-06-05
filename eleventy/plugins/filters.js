@@ -37,6 +37,23 @@ function stripQuotes(value) {
     return String(value).replace(/^"+|"+$/g, '');
 }
 
+/**
+ * Parse a human timecode to integer seconds. Accepts "MM:SS", "H:MM:SS",
+ * a bare integer-seconds string, or a number. Returns null for empty/garbage
+ * so callers (and the player) can treat "no timecode" distinctly from 0:00.
+ */
+function tcToSeconds(tc) {
+    if (tc === null || tc === undefined || tc === '') return null;
+    if (typeof tc === 'number') return Number.isFinite(tc) ? Math.round(tc) : null;
+    const s = String(tc).trim();
+    if (s === '') return null;
+    if (/^\d+$/.test(s)) return parseInt(s, 10);
+    if (!/^\d+(:\d{1,2})+$/.test(s)) return null;
+    let sec = 0;
+    for (const part of s.split(':')) sec = sec * 60 + parseInt(part, 10);
+    return sec;
+}
+
 /** Absolute or content-relative input path → "shows/2026/05-22/show.md". */
 function toContentRel(inputPath) {
     if (!inputPath) return null;
@@ -321,6 +338,7 @@ function relatedForSegment(inputPath) {
 module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('strftime', strftime);
     eleventyConfig.addFilter('stripQuotes', stripQuotes);
+    eleventyConfig.addFilter('tcToSeconds', tcToSeconds);
     eleventyConfig.addFilter('toContentRel', toContentRel);
     eleventyConfig.addFilter('pathToCmsSlug', pathToCmsSlug);
     eleventyConfig.addFilter('readingTime', readingTime);
@@ -338,3 +356,5 @@ module.exports = function (eleventyConfig) {
         return d ? ordinal(d.getUTCDate()) : '';
     });
 };
+
+module.exports.tcToSeconds = tcToSeconds;

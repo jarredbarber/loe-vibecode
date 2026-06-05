@@ -14,6 +14,53 @@ This isn't a technical distinction. It means the site will not go down. Not from
 
 ---
 
+## Two Pictures: How the Old Site and the New Site Are Built
+
+It helps to see the difference. Here is the shape of a typical older website — the kind loe.org has historically been. Behind the scenes it's a program running on an always-on machine that builds each page from scratch out of a database every time someone visits.
+
+```mermaid
+flowchart LR
+    Visitor["Any visitor"] -->|"asks for a page"| Server["Web server<br/>builds each page on the spot"]
+    Server <-->|"looks up content on<br/>every single visit"| DB[("Database<br/>where all content lives")]
+    Editor["Editor"] -->|"logs in over<br/>the public internet"| Server
+    Server -->|"hands back a freshly-built page"| Visitor
+```
+
+Everything runs through one always-on machine. That machine builds every page on demand, holds the keys to the database, *and* hosts the editor login — all of it reachable from the public internet. It's powerful, but it's a lot of surface to defend, patch, and keep running.
+
+Here is the new site. The editing side and the public side are completely separate, and the public side has no live machinery behind it at all:
+
+```mermaid
+flowchart LR
+    subgraph private["PRIVATE — behind a GitHub sign-in"]
+        Editor["Editor"] -->|"Sign in with GitHub"| CMS["Editing tool<br/>in the browser"]
+        CMS -->|"saves a new version"| Repo[("Content archive<br/>every version kept forever")]
+        Repo -->|"rebuilds the site<br/>automatically"| Build["Build step"]
+    end
+    Build -->|"publishes finished pages"| CDN[["PUBLIC — pre-printed pages on free,<br/>read-only hosting (GitHub + Cloudflare)"]]
+    CDN -->|"plain pages, nothing<br/>behind them to break into"| Visitor["Any visitor"]
+```
+
+Visitors only ever touch finished, read-only pages sitting on file hosting. Editing happens somewhere else entirely, behind a login — and even there, no one is ever touching the public site directly.
+
+### Why this is safer — in plain terms
+
+- **There's no database or server sitting behind the public site.** The pages a visitor sees are just files. There's nothing to hack into, overload, or take down, because there's no live machinery there — only the printed result.
+- **The production site has no login page at all.** The old model put the editor login on the same public address as the site. On the new site, the public address (vibingon.earth) has no "admin" door — there's nothing there to attack.
+- **Editors sign in with GitHub — we never handle passwords.** "Sign in with GitHub" hands the password step to GitHub, one of the most heavily-guarded login systems in the world. Our site never sees, stores, or could leak an editor's password. It's the same idea as the "Sign in with Google" button you already use elsewhere.
+- **Only named people can get in.** Signing in isn't enough — an editor also has to be on the project's explicit list of approved people. Anyone else who signs in is turned away at the door.
+- **The worst case is small and reversible.** Even if someone got into the editing side, there's no database or server for them to reach, because there isn't one. The most they could do is propose a content change — and every change is recorded, attributed to a person, reversible, and previewed before it ever reaches the public site.
+
+| | Old site | New site |
+|---|---|---|
+| The public site is… | a live program talking to a database | a shelf of finished pages |
+| If it's attacked or overloaded… | the whole site can go down | nothing to take down — files just sit there |
+| The editor login is… | on the public site, open to the internet | separate and private, via "Sign in with GitHub" |
+| Passwords are… | handled (and stored) by the site | never seen by the site — GitHub handles them |
+| A bad or mistaken change is… | potentially live, and hard to undo | recorded, reversible, and previewed first |
+
+---
+
 ## Thirty-Five Years, All in One Place
 
 The rebuild includes the complete Living on Earth archive: more than 10,000 segments and 1,600 shows, going back to 1991. Every episode, every transcript, every segment now has a permanent address on the internet.
@@ -79,6 +126,7 @@ A few smaller things that add up:
 - **Station finder by zip code** — type in a zip code, get the nearest affiliate and how far away it is
 - **Reading time and listening time** shown on every segment, so a listener knows what they're getting into
 - **Clickable moments in transcripts** — a listener can jump directly to a specific exchange in an episode
+- **Chaptered audio** — a new show plays as one continuous episode with tappable chapter markers on the player, so a listener can jump straight to the segment they want without loading a separate file for each
 - **Dark mode** — the site follows whatever your phone or computer is already set to, and you can switch manually
 - **Works on any phone** — every page is readable on a small screen without zooming or scrolling sideways
 

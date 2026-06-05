@@ -20,6 +20,7 @@ Things this site does that the original loe.org doesn't:
 - **"This week in LOE history"** on the homepage — surfaces archive segments from the same calendar week in past years, anchored to the latest show's air date.
 - **Zip-code station locator** on `/stations.html` — type a zip, get the three nearest LOE-affiliate stations by real distance (Haversine, not state-only).
 - **Reading + listening time** estimates on segment cards.
+- **Chaptered audio player** — new shows play as a single full-episode file with tappable chapter markers on the scrubber (seek between segments without loading a separate file each). Driven by optional `start`/`duration` timecodes on segments; legacy shows keep their per-segment players untouched.
 - **Inline audio cues are clickable** in transcripts — bird calls, music cues, etc. linked through to the Cornell Macaulay Library CDN.
 - **Dark mode** — follows OS preference automatically; manual ☀/⬤/☾ toggle on every page saves to localStorage.
 
@@ -117,6 +118,15 @@ The two shortcodes:
 
 `order:` is optional — it sorts segments on the show page. Without it, alphabetical filename order is used.
 
+**Chaptering a show (optional).** Add `start:` (and ideally `duration:`) timecodes to a segment to play it as a window into the show's single full-episode audio instead of its own file:
+
+```yaml
+start: '12:09'      # where this segment begins in the full-show mp3
+duration: '7:37'    # how long it runs
+```
+
+Timecodes accept `MM:SS`, `H:MM:SS`, or a plain number of seconds. If **every** segment of a show has a `start`, the show renders one chaptered player with seek markers; if only some do, the show falls back to the old per-segment players (and the pre-publish check warns you). Older shows without these fields are unaffected.
+
 ### Image conventions
 
 - Header image: set `image_url` in frontmatter; optional `image_caption` for the caption shown under it.
@@ -156,6 +166,18 @@ ingest/                                 # TypeScript scraper that pulls from loe
 - **CMS says "Failed to fetch" after login**: token probably doesn't have `repo` scope. Generate a Classic PAT with full `repo` access.
 - **Build failing**: <https://github.com/jarredbarber/loe-vibecode/actions> shows the workflow runs.
 - **Anything else**: <https://github.com/jarredbarber/loe-vibecode/issues>
+
+## Hosting, security & cost
+
+The site is **static** — every page is built ahead of time and served as a plain file. There is no application server and no database behind the public site, so there is nothing there to attack, overload, or take down.
+
+- **Production** (<https://vibingon.earth>) is served from **GitHub Pages**, deployed from the `live` branch. It has **no `/admin/` surface** — production cannot be edited in a browser; changes only arrive via a reviewed `main → live` pull request.
+- **Staging** (<https://loe-staging.pages.dev>) is served from **Cloudflare Pages**, deployed on every push to `main`. The CMS at `/admin/` lives here.
+- **Editing is gated by GitHub OAuth.** Editors click "Sign in with GitHub"; the site never sees or stores a password. A small Cloudflare Worker (`auth/`) brokers the OAuth handshake and only issues access to accounts that are **collaborators on the repo** — signing in is not enough on its own.
+- **Cost:** hosting, CI, OAuth, and staging are all on **free tiers**. The only paid piece is the optional LLM copy-edit pass (Google Gemini), at roughly **5¢ per run / under $5 a year**.
+- **Durability:** content is plain Markdown in Git, so every version of every page is kept forever and any change is reversible.
+
+Full service registry, secrets, and owner-migration steps are in **INFRA.md**.
 
 ## For developers
 

@@ -2592,6 +2592,9 @@ iframe {
 .ep-buf { background: var(--border-medium); }
 .ep-fill { background: #4a8a7a; }
 .ep-bar:focus { outline: 2px solid #4a8a7a; outline-offset: 2px; }
+/* Chapter markers on the single-file chaptered scrubber (drawn by episode-player.js). */
+.ep-tick { position: absolute; top: -2px; bottom: -2px; width: 2px; margin-left: -1px; background: var(--primary-green, #6a8a3f); opacity: 0.55; border-radius: 1px; cursor: pointer; }
+.ep-tick:hover { opacity: 0.9; }
 .ep-mark { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--error-red); }
 .ep-meta { display: flex; justify-content: space-between; font: 11px/1.6 'Space Mono', monospace; color: var(--text-light); margin-top: 5px; }
 .ep-tools { display: flex; gap: 6px; flex: none; position: relative; }

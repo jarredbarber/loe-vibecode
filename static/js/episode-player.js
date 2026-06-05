@@ -109,6 +109,18 @@
                 setMediaMeta(0);
             } else {
                 durEl.textContent = fmt(audio.duration);
+                // Draw a chapter marker on the scrubber for each chapter after
+                // the first (chapter 1 starts at 0:00). Clicking a tick seeks.
+                var d0 = audio.duration || 1;
+                chapters.forEach(function (c, i) {
+                    if (!c.start) return;
+                    var t = document.createElement('div');
+                    t.className = 'ep-tick';
+                    t.style.left = (c.start / d0 * 100) + '%';
+                    t.title = c.title;
+                    t.addEventListener('click', function (ev) { ev.stopPropagation(); audio.currentTime = c.start; highlight(i); audio.play(); });
+                    bar.appendChild(t);
+                });
                 var r = parseFloat(localStorage.getItem(posKey)) || 0;
                 if (r > 0 && r < audio.duration) audio.currentTime = r;
                 highlight(chapterAt(audio.currentTime));

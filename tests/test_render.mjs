@@ -156,6 +156,21 @@ test('windowed segment page renders --single windowed player', () => {
     assert.equal(li.attr('data-id'), undefined);
 });
 
+// 11b. Homepage featured player picks up the chapter list when the latest show
+//      is fully chaptered (every segment has a start timecode).
+test('homepage featured player renders seek-based chapters when chaptered', () => {
+    const $ = load(INDEX_PAGE);
+    const chaps = $('.featured-show .episode-player .ep-chap');
+    assert.ok(chaps.length >= 2, `expected chaptered featured player, got ${chaps.length} chapters`);
+    chaps.each((_, li) => {
+        assert.equal($(li).attr('data-full'), 'LOEFIXTURE0100');
+        assert.ok($(li).attr('data-start') !== undefined, 'featured chapter missing data-start');
+        assert.equal($(li).attr('data-id'), undefined, 'featured chapter must not be a per-segment file');
+    });
+    // Not the one-track --single fallback.
+    assert.equal($('.featured-show .episode-player--single').length, 0);
+});
+
 // 11. Regression: a legacy show (no segment timecodes) still renders per-segment
 //     data-id chapters — the 1.6k existing shows must not change.
 test('legacy show still renders multi-file data-id chapters', () => {

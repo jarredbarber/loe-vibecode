@@ -34,7 +34,11 @@
     </div>
     <ul class="ep-chaps">
         {% for t in tracks %}
+        {% if t.full %}
+        <li class="ep-chap" data-full="{{ t.full }}" data-start="{{ t.start }}"{% if t.dur != null %} data-dur="{{ t.dur }}"{% endif %} data-i="{{ loop.index0 }}" data-art="{{ t.art }}"><span class="ep-chap-n">{{ loop.index }}</span><span class="ep-chap-t">{{ t.title | stripQuotes }}</span></li>
+        {% else %}
         <li class="ep-chap" data-id="{{ t.id }}" data-i="{{ loop.index0 }}" data-art="{{ t.art }}"><span class="ep-chap-n">{{ loop.index }}</span><span class="ep-chap-t">{{ t.title | stripQuotes }}</span></li>
+        {% endif %}
         {% endfor %}
     </ul>
     {% if queue and queue.length %}

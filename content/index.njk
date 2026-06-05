@@ -46,11 +46,29 @@ eleventyExcludeFromCollections: true
 {% set recent = collections.shows.slice(1, 6) %}
 <div class="body">
     <div class="body_resize">
+        {% if site.target != 'prod' and build.sha %}
+        <p style="text-align:center;font-size:0.75em;color:var(--text-light);margin:0 0 1em;">
+            staging build <a href="https://github.com/jarredbarber/loe-vibecode/commit/{{ build.sha }}">{{ build.sha }}</a>
+        </p>
+        {% endif %}
         {% if latest %}
         <div class="featured-show">
             <h1>This Week on <i>Living on Earth</i></h1>
             {% if latest.data.megaphone_id %}
+            {# If every segment of the latest show carries a `start` timecode, the
+               show is chaptered into its single full-episode file — render the
+               seek-based chapter list here too (mirrors layouts/show.njk).
+               Otherwise fall back to the one-track featured player. #}
+            {% set _featSegments = (latest | segmentsForShow(collections.segments)) %}
+            {% set _featTracks = [] %}
+            {% for segment in _featSegments %}
+                {% if segment.data.start %}{% set _ = _featTracks.push({ full: latest.data.megaphone_id, start: (segment.data.start | tcToSeconds), dur: (segment.data.duration | tcToSeconds), title: segment.data.title, art: segment.data.image_url or segment.data.banner_url }) %}{% endif %}
+            {% endfor %}
+            {% if _featTracks.length and _featTracks.length == _featSegments.length %}
+            {{ player(_featTracks, false, latest.data.megaphone_id, [], true) }}
+            {% else %}
             {{ player([{ id: latest.data.megaphone_id, title: latest.data.title, art: latest.data.image_url or latest.data.banner_url }], true, latest.data.megaphone_id, [], true) }}
+            {% endif %}
             {% endif %}
             {% if latest.data.summary %}
             <p class="featured-summary"><strong>{{ latest.data.date | strftime('%B') }} {{ latest.data.date | dayOrdinal }}:</strong> <em>{{ latest.data.summary }}</em></p>
@@ -98,10 +116,5 @@ eleventyExcludeFromCollections: true
         {% endfor %}
         {% endif %}
         <div class="clr"></div>
-        {% if site.target != 'prod' and build.sha %}
-        <p style="text-align:center;font-size:0.75em;color:var(--text-light);margin-top:2em;">
-            staging build <a href="https://github.com/jarredbarber/loe-vibecode/commit/{{ build.sha }}">{{ build.sha }}</a>
-        </p>
-        {% endif %}
     </div>
 </div>

@@ -78,6 +78,15 @@ export function validateFrontmatter(doc, expectedDate) {
     if (doc.kind === 'segment' && doc.fm.category !== 'Segments') {
         findings.push({ level: 'fail', msg: `expected category: Segments, got "${doc.fm.category}"` });
     }
+    const TC_RE = /^(\d+|\d+(:\d{1,2})+)$/;
+    for (const field of ['start', 'duration']) {
+        if (doc.fm[field] && !TC_RE.test(doc.fm[field])) {
+            findings.push({ level: 'fail', msg: `${field} "${doc.fm[field]}" is not a timecode (MM:SS, H:MM:SS, or seconds)` });
+        }
+    }
+    if (doc.kind === 'segment' && doc.fm.start && !doc.fm.duration) {
+        findings.push({ level: 'warn', msg: 'segment has start but no duration — windowed player will run to the next chapter / file end' });
+    }
     return findings;
 }
 
@@ -214,6 +223,20 @@ if (isMain) {
         for (const doc of docs) {
             const docFindings = validateFrontmatter(doc, date);
             for (const f of docFindings) note(f.level, relpath(doc.path), f.msg);
+        }
+
+        // Single-file chapter player cross-checks: a segment with `start` is a
+        // window into the show's full-episode file, so the show MUST carry a
+        // megaphone_id. A half-converted show (some segments windowed, some not)
+        // silently falls back to the legacy multi-file player — warn the editor.
+        const showDoc = docs.find((d) => d.kind === 'show');
+        const segDocs = docs.filter((d) => d.kind === 'segment');
+        const windowed = segDocs.filter((d) => d.fm.start);
+        if (windowed.length && !(showDoc && showDoc.fm.megaphone_id)) {
+            note('fail', relpath(showDoc.path), 'segments have start timecodes but the show has no megaphone_id (the full-episode file)');
+        }
+        if (windowed.length && windowed.length !== segDocs.length) {
+            note('warn', relpath(showDoc.path), `partial chapter conversion: ${windowed.length}/${segDocs.length} segments have start — show will use the legacy multi-file player`);
         }
 
         // ---- URL extraction ----

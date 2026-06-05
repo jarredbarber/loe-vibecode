@@ -3,6 +3,7 @@ layout: layouts/base.njk
 permalink: /index.html
 eleventyExcludeFromCollections: true
 ---
+{% from "modules/audio-player.njk" import player with context %}
 {% set latest = collections.shows[0] %}
 {% set recent = collections.shows.slice(1, 6) %}
 <div class="body">
@@ -13,6 +14,20 @@ eleventyExcludeFromCollections: true
             <h2><a href="{{ site.url }}{{ latest.url }}">
                 {{ latest.data.date | strftime('%B') }} {{ latest.data.date | dayOrdinal }}, {{ latest.data.date | strftime('%Y') }}
             </a></h2>
+            {% if latest.data.megaphone_id %}
+            {# Mirror content/index.njk: chaptered featured player when the latest
+               show's segments all carry start timecodes, else one-track player. #}
+            {% set _featSegments = (latest | segmentsForShow(collections.segments)) %}
+            {% set _featTracks = [] %}
+            {% for segment in _featSegments %}
+                {% if segment.data.start %}{% set _ = _featTracks.push({ full: latest.data.megaphone_id, start: (segment.data.start | tcToSeconds), dur: (segment.data.duration | tcToSeconds), title: segment.data.title, art: segment.data.image_url or segment.data.banner_url }) %}{% endif %}
+            {% endfor %}
+            {% if _featTracks.length and _featTracks.length == _featSegments.length %}
+            {{ player(_featTracks, false, latest.data.megaphone_id, [], true) }}
+            {% else %}
+            {{ player([{ id: latest.data.megaphone_id, title: latest.data.title, art: latest.data.image_url or latest.data.banner_url }], true, latest.data.megaphone_id, [], true) }}
+            {% endif %}
+            {% endif %}
             <div class="featured-content">
                 {% if latest.data.banner_url or latest.data.image_url %}
                 <img src="{{ latest.data.banner_url or latest.data.image_url }}" alt="{{ latest.data.title }}" class="featured-image" />

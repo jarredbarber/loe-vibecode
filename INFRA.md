@@ -82,6 +82,28 @@ Cheapest service to migrate.
 
 There is no scheduled rotation. Rotate any of these credentials if they leak, an account is decommissioned, or once a year as housekeeping. The migration steps above are also the rotation steps (just keep the same owner — only the credentials change).
 
+## Upgrading the Sveltia CMS (pinned + SRI)
+
+The CMS script in `content/admin/index.html` is pinned to an exact version with a Subresource Integrity hash, so a compromised CDN/package can't run swapped-out JS in an editor's authenticated session:
+
+```html
+<script src="https://unpkg.com/@sveltia/cms@0.166.0/dist/sveltia-cms.js" type="module"
+    integrity="sha384-…" crossorigin="anonymous"></script>
+```
+
+Because the hash is tied to the exact bytes, **bumping the version means recomputing the hash** — otherwise the browser blocks the script and the CMS silently fails to load. To upgrade:
+
+1. Pick the new version (`npm view @sveltia/cms version` for latest).
+2. Recompute the integrity hash for that exact version:
+   ```bash
+   curl -sL "https://unpkg.com/@sveltia/cms@<VERSION>/dist/sveltia-cms.js" \
+     | openssl dgst -sha384 -binary | openssl base64 -A
+   ```
+3. Update **both** the `@<VERSION>` in the `src` and the `integrity="sha384-<hash>"` in `content/admin/index.html`.
+4. Push to `staging` and confirm `loe-staging.pages.dev/admin/` still loads (SRI is strict — a wrong hash = blank CMS). Production has no `/admin/`, so this only ever affects staging.
+
+The GitHub Actions in `.github/workflows/` are likewise pinned to commit SHAs (e.g. `cloudflare/wrangler-action`); bump those via the trailing `# vX` comment + a fresh SHA, ideally with Dependabot.
+
 ## What's NOT documented elsewhere
 
 - The `ALLOWED_DOMAINS` setting in `auth/wrangler.toml` restricts the worker so it can't be used as a generic OAuth proxy for unrelated sites. If we add a staging domain (see issue #36), add it there.

@@ -87,7 +87,7 @@ jobs:
       # deploy-pages action, which requires the artifact + its own job below.
       - name: Deploy to Cloudflare Pages (staging)
         if: steps.pick.outputs.target == 'staging'
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd # v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           command: pages deploy _site_11ty --project-name=loe-staging --branch=main

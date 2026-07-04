@@ -6,7 +6,8 @@
    enclosure mp3 (traffic.megaphone.fm/<id>.mp3), which preserves Megaphone's
    dynamic ad insertion + download counting.
 
-   tracks     — list of { id, title, art }  (megaphone_id, display title, artwork URL)
+   tracks     — list of { id, title, art } (megaphone_id) or { src, title, art }
+                (direct enclosure URL, for episodes not on Megaphone — see #167)
    single     — true for one-track pages (hides the chapter list)
    fallbackId — megaphone_id used in a <noscript> iframe fallback
    queue      — optional up-next radio tracks { id, title, art } (related segments);
@@ -36,6 +37,8 @@
         {% for t in tracks %}
         {% if t.full %}
         <li class="ep-chap" data-full="{{ t.full }}" data-start="{{ t.start }}"{% if t.dur != null %} data-dur="{{ t.dur }}"{% endif %} data-i="{{ loop.index0 }}" data-art="{{ t.art }}"><span class="ep-chap-n">{{ loop.index }}</span><span class="ep-chap-t">{{ t.title | stripQuotes }}</span></li>
+        {% elif t.src %}
+        <li class="ep-chap" data-src="{{ t.src }}" data-i="{{ loop.index0 }}" data-art="{{ t.art }}"><span class="ep-chap-n">{{ loop.index }}</span><span class="ep-chap-t">{{ t.title | stripQuotes }}</span></li>
         {% else %}
         <li class="ep-chap" data-id="{{ t.id }}" data-i="{{ loop.index0 }}" data-art="{{ t.art }}"><span class="ep-chap-n">{{ loop.index }}</span><span class="ep-chap-t">{{ t.title | stripQuotes }}</span></li>
         {% endif %}

@@ -86,12 +86,9 @@
 {% for r in _related %}{% if r.megaphoneId %}{% set _ = _queue.push({ id: r.megaphoneId, title: r.title, art: r.art }) %}{% endif %}{% endfor %}
 {{ player([{ id: entry.megaphone_id, title: entry.title, art: entry.image_url }], true, entry.megaphone_id, _queue) }}
 {% elif entry.audio_url %}
-<div class="audio">
-    <audio controls style="width: 100%;">
-        <source src="{{ entry.audio_url }}" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-</div>
+{# Not (yet) on Megaphone — loe.org serves a raw enclosure mp3 directly.
+   See issue #167. #}
+{{ player([{ src: entry.audio_url, title: entry.title, art: entry.image_url }], true) }}
 {% endif %}
 
 <div class="clr"></div>

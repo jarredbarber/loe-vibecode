@@ -17,14 +17,18 @@ layout: layouts/base.njk
 {# Chapter the episode player by segment. A segment with `start` is a window
    into the show's full-episode file (the show's own megaphone_id) — that
    produces a single-file chaptered player (see episode-player.js). A segment
-   without `start` keeps its own enclosure mp3 (legacy multi-file path). Read
-   by _article_header.njk → audio-player macro. #}
+   without `start` keeps its own enclosure mp3 (legacy multi-file path). A
+   segment with neither a megaphone_id nor `start` but an `audio_url` (loe.org
+   not (yet) on Megaphone, see issue #167) plays that URL directly. Read by
+   _article_header.njk → audio-player macro. #}
 {% set _audioTracks = [] %}
 {% for segment in segments %}
     {% if segment.data.start and megaphone_id %}
         {% set _ = _audioTracks.push({ full: megaphone_id, start: (segment.data.start | tcToSeconds), dur: (segment.data.duration | tcToSeconds), title: segment.data.title, art: segment.data.image_url or segment.data.banner_url }) %}
     {% elif segment.data.megaphone_id %}
         {% set _ = _audioTracks.push({ id: segment.data.megaphone_id, title: segment.data.title, art: segment.data.image_url or segment.data.banner_url }) %}
+    {% elif segment.data.audio_url %}
+        {% set _ = _audioTracks.push({ src: segment.data.audio_url, title: segment.data.title, art: segment.data.image_url or segment.data.banner_url }) %}
     {% endif %}
 {% endfor %}
 <div class="body">

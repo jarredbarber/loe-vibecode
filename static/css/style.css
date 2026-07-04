@@ -466,7 +466,10 @@ textarea {
 	prettier, people had trouble reading it though
 	.body p { font:normal 14px Arial, Helvetica, sans-serif; color:var(--text-light); line-height:1.8em; padding:3px 5px; margin:0;}*/
     .body p {
-        font: normal 14px Arial, Helvetica, sans-serif;
+        /* 0.875em (not 14px) so this scales with .body's font-size — the
+           text-size toggle (#172) sets font-size on .body, and a hardcoded
+           px value here would silently defeat it on >=1000px viewports. */
+        font: normal 0.875em Arial, Helvetica, sans-serif;
         color: var(--text-dark);
         line-height: 1.8em;
         padding: 3px 5px;

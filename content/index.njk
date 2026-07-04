@@ -31,6 +31,17 @@ eleventyExcludeFromCollections: true
     border-top: 1px solid #e0dcd0;
 }
 .on-this-day li:first-child { border-top: 0; }
+/* Titles should read as bold links; the :visited selector is needed to
+   outrank the global `.body a:visited` teal. */
+.on-this-day li > a,
+.on-this-day li > a:visited {
+    font-weight: bold;
+    color: var(--primary-green-dark);
+}
+.on-this-day li > a:hover {
+    color: var(--primary-green);
+    text-decoration: underline;
+}
 .on-this-day li p {
     margin: .25em 0 0;
     font-size: .92em;

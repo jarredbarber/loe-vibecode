@@ -401,7 +401,7 @@ textarea {
 }
 
 .body h3 {
-    font: normal 115% Arial, Helvetica, sans-serif;
+    font: bold 115% Arial, Helvetica, sans-serif;
     color: var(--text-medium);
     padding: 10px 5px;
     margin: 0 0 10px 0;
@@ -451,7 +451,9 @@ textarea {
     }
 
     .body h3 {
-        font: normal 16px Arial, Helvetica, sans-serif;
+        /* bold + em-sized (not px) so it reads as a subheader and scales
+           with the text-size toggle, like .body p above. */
+        font: bold 1.15em Arial, Helvetica, sans-serif;
         color: var(--text-medium);
         padding: 10px 5px;
         margin: 0 0 10px 0;
@@ -2044,14 +2046,19 @@ figcaption {
 }
 
 .featured-segments {
-    font-size: 0.95em;
+    /* Match desktop body copy (0.875em) — 0.95em read oversized next to it. */
+    font-size: 0.875em;
     line-height: 1.8;
     margin: 10px 0;
     overflow: hidden;
 }
 
-.featured-segments a {
-    color: var(--link-info);
+/* Bold + darker so segment titles read as links; :visited outranks the
+   global `.body a:visited` teal. */
+.featured-segments a,
+.featured-segments a:visited {
+    color: var(--primary-green-dark);
+    font-weight: bold;
     text-decoration: none;
 }
 

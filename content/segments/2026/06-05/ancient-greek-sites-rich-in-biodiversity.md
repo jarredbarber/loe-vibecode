@@ -8,6 +8,8 @@ megaphone_id: LOE5182661519
 image_url: https://loe.org/content/2026-06-05/GREECE_aurinia.jpg
 image_caption: 'A recent study found that 11% of Greece’s biodiversity is present in 20 archaeological sites, which make up just 0.018% of Greece’s total area. Above, a Aurinia saxatilis plant, or “Basket of Gold” blooms on the Acropolis. (Photo: BIAS Photographic Archive/ Natural Environment and Climate Change Agency)'
 summary: Today, the Agora and Acropolis of Athens, Delphi on Mount Parnassus, and other Greek archaeological sites preserve not only cultural heritage, but also animal and plant species, including some that were around in ancient times and described in historical accounts and Greek mythology. Panayiotis Pafilis is a professor of animal diversity at the National and Kapodistrian University of Athens who has studied this abundance of life at ancient sites, and he speaks with Host Aynsley O’Neill.
+tags:
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00023&segmentID=2 -->
 

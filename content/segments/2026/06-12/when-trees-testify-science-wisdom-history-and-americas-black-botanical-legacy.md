@@ -8,6 +8,10 @@ megaphone_id: LOE9581243709
 image_url: https://loe.org/content/2026-06-12/TREES_cover.jpg
 image_caption: 'Beronda L. Montgomery’s latest book,  When Trees Testify: Science, Wisdom, History, and America’s Black Botanical Legacy. (Photo: Courtesy of Beronda Montgomery)'
 summary: 'When plant biologist Beronda Montgomery sat down to write what became a personal memoir mixed with a botanical history of African Americans, she found her research as a PhD lab scientist had brought her squarely into the world of social science as well. From her studies of how plants respond to light during photosynthesis, she started shining a light on the history of extensive plant cultivation by African Americans, including those who endured forced labor. Beronda Montgomery joins Host Steve Curwood to discuss her book, When Trees Testify: Science, Wisdom, History and America’s Black Botanical Legacy.'
+tags:
+  - environmental-history
+  - profiles-interviews
+  - indigenous-communities
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00024&segmentID=2 -->
 

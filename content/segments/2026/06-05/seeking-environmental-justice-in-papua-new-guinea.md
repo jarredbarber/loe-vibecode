@@ -8,6 +8,11 @@ megaphone_id: LOE2127879568
 image_url: https://loe.org/content/2026-06-05/MATBOB_winnerphoto.jpg
 image_caption: 'Theonila Roka Matbob is the winner of the 2026 Goldman Environmental Prize for Islands & Island Nations. (Photo: Goldman Environmental Prize)'
 summary: The indigenous residents of Bougainville island in Papua New Guinea say their home used to provide them with everything they needed—shelter, fertile land, and clean water. That is until a copper and gold mine run by British-Australian company Rio Tinto set up shop and operated in the 1970s and 80s. Today, heavy metals like copper sulfate and cadmium still pollute waterways, and Theonila Roka Matbob, the 2026 Goldman Environmental Prize Winner for Islands and Island Nations, has been fighting for years to pressure Rio Tinto into taking full responsibility for remediating this damage. She joins Host Jenni Doering.
+tags:
+  - water-pollution
+  - environmental-justice
+  - indigenous-rights
+  - corporate-accountability
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00023&segmentID=4 -->
 

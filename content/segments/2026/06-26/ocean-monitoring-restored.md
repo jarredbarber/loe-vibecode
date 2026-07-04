@@ -8,6 +8,9 @@ audio_url: https://loe.org/content/2026-06-26/LOE_260626_A1_Ocean%20Monitoring%2
 image_url: https://loe.org/content/2026-06-26/OOI_buoy.jpg
 image_caption: 'Shown above is a surface buoy in the Irminger Sea, off the coast of Greenland, as the Irminger 8 team heads out to inspect it. Buoys like this contribute to the 900 or so instruments that are part of the Ocean Observatories Initiative. (Photo: Image from work supported by the U.S. National Science Foundation Ocean Observatories Initiative, oceanobservatories.org)'
 summary: After announcing at the end of May it was dismantling the Ocean Observatories Initiative, the National Science Foundation faced widespread public criticism and the Senate passed a bipartisan measure to preserve the vital ocean monitoring network. NSF then reversed its decision and says an array that was already being removed will be redeployed. Living on Earth’s Aynsley O’Neill joins Hosts Steve Curwood and Jenni Doering to discuss this reprieve for climate and ocean science.
+tags:
+  - climate-change
+  - oceans
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00026&segmentID=1 -->
 

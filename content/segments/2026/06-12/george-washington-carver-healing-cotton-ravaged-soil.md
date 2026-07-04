@@ -8,6 +8,11 @@ megaphone_id: LOE5548608681
 image_url: https://loe.org/content/2022-02-25/CARVER_profile.jpg
 image_caption: 'Soil scientist George Washington Carver lived from 1864 to 1943 and began working at the Tuskegee Institute in 1896. His reputation rose to fame during the early 1920s. (Photo: National Archives and Records Administration, Flickr, Public Domain)'
 summary: George Washington Carver was born into slavery but went on to become a famous agronomist and helped poor people in the South improve their lives and soils by planting peanuts and other legumes. This week, he comes back from the past in the form of actor and playwright Paxton Williams. As “George Washington Carver” Williams talks to Host Steve Curwood about the future of modern-day agriculture and intersections between racial dynamics and agricultural development.
+tags:
+  - soil-health
+  - sustainable-agriculture
+  - farming
+  - environmental-justice
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00024&segmentID=1 -->
 

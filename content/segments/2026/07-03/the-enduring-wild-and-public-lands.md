@@ -8,6 +8,11 @@ audio_url: https://loe.org/content/2026-07-03/LOE_260703_B1_.mp3
 image_url: https://loe.org/content/2026-07-03/ENDURINGWILD_cover.jpg
 image_caption: 'Josh Jackson’s debut book is The Enduring Wild: A Journey Into California’s Public Lands. (Photo: Courtesy of Heyday Books)'
 summary: 'Around 30% of the land in the United States is federal public land, and the biggest chunk or 245 million acres falls under the purview of the Bureau of Land Management. BLM lands are sometimes called “leftover” or “forgotten” lands, but they offer free or very cheap camping and feature a stark beauty that captivated writer and photographer Josh Jackson, author of the 2025 book, The Enduring Wild: A Journey into California’s Public Lands. He speaks with Host Jenni Doering about some stunning BLM lands to start exploring.'
+tags:
+  - forests
+  - indigenous-communities
+  - environmental-policy
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00027&segmentID=2 -->
 

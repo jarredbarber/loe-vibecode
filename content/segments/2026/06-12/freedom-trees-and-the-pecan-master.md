@@ -8,6 +8,12 @@ megaphone_id: LOE9570826442
 image_url: https://loe.org/content/2026-06-12/TREES_redwoods.jpg
 image_caption: 'Montgomery encourages everyone to connect with trees and nature to the best of their ability. Above, visitors walk through Henry Cowell Redwoods State Park in California, home to some of the largest trees on Earth. (Photo: Marty Aligata, Wikimedia Commons, CC BY-SA 4.0)'
 summary: 'Host Steve Curwood and author Beronda Montgomery continue their conversation about her book, When Trees Testify: Science, Wisdom, History and America’s Black Botanical Legacy. They discuss abolitionist Harriet Tubman’s use of the sycamore tree to help guide enslaved people to freedom, how an enslaved man named Antoine made a breakthrough to graft a successful variety of pecan tree, and the significance of trees as physical companions and powerful metaphors for resilience as we celebrate Juneteenth and remember the end of slavery.'
+tags:
+  - indigenous-rights
+  - farming
+  - food-systems
+  - environmental-history
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00024&segmentID=3 -->
 

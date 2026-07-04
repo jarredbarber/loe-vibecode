@@ -8,6 +8,9 @@ audio_url: https://loe.org/content/2026-06-19/LOE_260619_B3_Burrowing%20Bees.mp3
 image_url: https://loe.org/content/2026-06-19/BEES_regularis.jpg
 image_caption: 'Though many of us might assume that bees always live in hives, most species of bees are solitary, and many of those live underground. Above is Adrena regularis, also known as the regular mining bee. Bryan Danforth and his team at Cornell studied a large aggregation of these solitary bees at a local cemetery. (Photo: Bryan Danforth)'
 summary: While honeybees get most of the buzz, most bees don’t produce honey, and most don’t even live in colonies. Instead, they’re solitary bees who build individual nests. These are the type of bees that Bryan Danforth studies as a professor of entomology at Cornell University. He speaks with Host Paloma Beltran about his recent paper detailing an astonishing finding of several million solitary bees in a cemetery in Ithaca, New York.
+tags:
+  - insects
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00025&segmentID=4 -->
 

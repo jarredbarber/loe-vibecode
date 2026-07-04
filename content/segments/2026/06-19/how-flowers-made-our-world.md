@@ -8,6 +8,8 @@ audio_url: https://loe.org/content/2026-06-19/LOE_260619_C1_How%20Flowers%20Made
 image_url: https://loe.org/content/2026-06-19/FLOWERS_cover.jpg
 image_caption: 'David George Haskell’s 2026 book, How Flowers Made Our World: The Story of Nature’s Revolutionaries  (Photo: Courtesy of David George Haskell)'
 summary: 'Lush peonies, delicate hydrangeas, and vibrant roses burst into bloom in early summer, filling gardens and parks with color and fragrance. But flowers are more than their beauty. They’re some of the oldest beings on Earth, and they played a large role in shaping the natural world as we know it. David George Haskell is an author and biologist whose 2026 book is How Flowers Made Our World: The Story of Nature’s Revolutionaries, and he joined Living on Earth’s Steve Curwood.'
+tags:
+  - ecology-research
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00025&segmentID=5 -->
 

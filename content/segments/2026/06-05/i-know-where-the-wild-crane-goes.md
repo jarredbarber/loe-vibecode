@@ -8,6 +8,10 @@ megaphone_id: LOE9906292633
 image_url: https://loe.org/content/2026-06-05/MSL_cranes.jpg
 image_caption: 'Mark Seth Lender’s most recent essay shares his experience seeing sandhill cranes at Bosque del Apache National Wildlife Refuge in New Mexico. (Photo: Mark Seth Lender)'
 summary: Sandhill cranes are now nesting up on the tundra, northwest of upper Hudson Bay. Explorer in Residence Mark Seth Lender has followed them there from their wintering grounds in Bosque del Apache National Wildlife Refuge, New Mexico.
+tags:
+  - birds
+  - arctic-polar
+  - profiles-interviews
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00023&segmentID=3 -->
 

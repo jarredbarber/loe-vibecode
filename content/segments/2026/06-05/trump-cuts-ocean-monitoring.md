@@ -8,6 +8,12 @@ megaphone_id: LOE8231440810
 image_url: https://loe.org/content/2026-06-05/OOI_buoy.jpg
 image_caption: 'The Ocean Observatories Initiative uses ocean monitoring instruments, such as sensors attached to buoys for data transmission and collection (Photo: Woods Hole Oceanographic Institute, Courtesy of Suzanne Pelisson)'
 summary: The National Science Foundation has announced it will begin removing most of the Ocean Observatories Initiative, a collection of roughly 900 instruments in the Pacific and Atlantic Oceans that gathers fixed-point data on temperature, carbon dioxide levels, and more. Craig McLean, formerly the assistant administrator for research and acting chief scientist at NOAA, joins Host Jenni Doering to discuss the importance of this monitoring system to understanding climate risks, vital ocean currents and more.
+tags:
+  - climate-change
+  - oceans
+  - sea-level-rise
+  - atmospheric-science
+  - environmental-policy
 ---
 <!-- source: https://loe.org/shows/segments.html?programID=26-P13-00023&segmentID=1 -->
 

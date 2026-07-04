@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
     padding: 1.25em 1.5em;
     border-left: 4px solid #6a8a3f;
     border-radius: 8px;
-    background: rgba(244, 241, 232, 0.7);
+    background: var(--card-bg);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 .on-this-day h2 {
@@ -28,13 +28,10 @@ eleventyExcludeFromCollections: true
 }
 .on-this-day li {
     padding: .4em 0;
-    border-top: 1px solid #e0dcd0;
+    border-top: 1px solid var(--border-light);
 }
 .on-this-day li:first-child { border-top: 0; }
-/* Titles should read as bold links; the :visited selector is needed to
-   outrank the global `.body a:visited` teal. */
-.on-this-day li > a,
-.on-this-day li > a:visited {
+.on-this-day li > a {
     font-weight: bold;
     color: var(--primary-green-dark);
 }
@@ -45,10 +42,10 @@ eleventyExcludeFromCollections: true
 .on-this-day li p {
     margin: .25em 0 0;
     font-size: .92em;
-    color: #444;
+    color: var(--text-medium);
 }
 .on-this-day-date {
-    color: #777;
+    color: var(--text-light);
     font-size: .85em;
     margin-left: .5em;
 }

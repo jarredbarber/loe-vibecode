@@ -388,7 +388,7 @@ textarea {
 }
 
 .body h2 {
-    font: bold 20px Arial, Helvetica, sans-serif;
+    font: bold 1.25em Arial, Helvetica, sans-serif;
     color: var(--text-medium);
     padding: 10px 5px;
     margin: 0 0 10px 0;
@@ -422,7 +422,7 @@ textarea {
 
 .body p.photocap {
     font: normal 85.7% Arial, Helvetica, sans-serif;
-    color: var(--accent-teal);
+    color: var(--muted-fg);
     line-height: 1.8em;
     padding: 3px 5px;
     margin: 0;
@@ -435,14 +435,14 @@ textarea {
 
 @media (min-width: 1000px) {
     .body h2 span {
-        font: bold 14px Arial, Helvetica, sans-serif;
+        font: bold 0.875em Arial, Helvetica, sans-serif;
         color: var(--text-lighter);
     }
 
     .body h2.errormessage {
         font-weight: bold;
         font-style: italic;
-        font: 20px Arial,
+        font: 1.25em Arial,
             Helvetica,
             sans-serif;
         color: var(--text-medium);
@@ -460,7 +460,7 @@ textarea {
     }
 
     .body h3 span {
-        font: normal 14px Arial, Helvetica, sans-serif;
+        font: normal 0.875em Arial, Helvetica, sans-serif;
         color: var(--text-lighter);
     }
 
@@ -479,8 +479,8 @@ textarea {
     }
 
     .body p.photocap {
-        font: normal 12px Arial, Helvetica, sans-serif;
-        color: var(--accent-teal);
+        font: normal 0.75em Arial, Helvetica, sans-serif;
+        color: var(--muted-fg);
         line-height: 1.8em;
         padding: 3px 5px;
         margin: 0;
@@ -488,13 +488,8 @@ textarea {
 
     .body p span {
         color: var(--text-light);
-        font: normal 11px Arial, Helvetica, sans-serif;
+        font: normal 0.7em Arial, Helvetica, sans-serif;
     }
-}
-
-.body a:visited {
-    color: var(--secondary-blue);
-    text-decoration: none;
 }
 
 .body a {
@@ -524,7 +519,7 @@ textarea {
 
 @media (min-width: 1000px) {
     .body ul li {
-        font: normal 14px Arial, Helvetica, sans-serif;
+        font: normal 0.875em Arial, Helvetica, sans-serif;
         color: var(--text-light);
         line-height: 1.8em;
         padding: 3px 5px;
@@ -719,7 +714,7 @@ textarea {
 
 .body p.caption {
     font: normal 85.7% Arial, Helvetica, sans-serif;
-    color: var(--accent-teal);
+    color: var(--muted-fg);
     line-height: 1.8em;
     padding: 3px 5px;
     margin: 0;
@@ -727,7 +722,7 @@ textarea {
 
 .body table.image caption {
     font: normal 85.7% Arial, Helvetica, sans-serif;
-    color: var(--accent-teal);
+    color: var(--muted-fg);
     line-height: 1.8em;
     padding: 3px 5px;
     margin: 0;
@@ -735,16 +730,16 @@ textarea {
 
 @media (min-width: 1000px) {
     .body p.caption {
-        font: normal 12px Arial, Helvetica, sans-serif;
-        color: var(--accent-teal);
+        font: normal 0.75em Arial, Helvetica, sans-serif;
+        color: var(--muted-fg);
         line-height: 1.8em;
         padding: 3px 5px;
         margin: 0;
     }
 
     .body table.image caption {
-        font: normal 12px Arial, Helvetica, sans-serif;
-        color: var(--accent-teal);
+        font: normal 0.75em Arial, Helvetica, sans-serif;
+        color: var(--muted-fg);
         line-height: 1.8em;
         padding: 3px 5px;
         margin: 0;
@@ -2053,10 +2048,7 @@ figcaption {
     overflow: hidden;
 }
 
-/* Bold + darker so segment titles read as links; :visited outranks the
-   global `.body a:visited` teal. */
-.featured-segments a,
-.featured-segments a:visited {
+.featured-segments a {
     color: var(--primary-green-dark);
     font-weight: bold;
     text-decoration: none;

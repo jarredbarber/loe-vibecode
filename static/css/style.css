@@ -500,6 +500,15 @@ textarea {
     /* Ensure block */
 }
 
+/* `---` separators (e.g. between About-page staff bios) must start a new
+   row even when the preceding bio's photo is floated (inline
+   style="float:left/right") and taller than its text — otherwise the
+   next heading/paragraph wraps up alongside the leftover float instead
+   of rendering on its own line. */
+.body hr {
+    clear: both;
+}
+
 /* Mobile: Stack images */
 .body img.floated,
 .body img.floated2,

@@ -65,7 +65,7 @@ In addition to his non-profit broadcast media work, Mark teaches viola da gamba 
 
 [jrego@loe.org](mailto:jrego@loe.org)
 
-Jacob Rego has been with Living On Earth since 2012. He is a graduate from Berklee College of Music where he studied music production and engineering as well as acoustics and electronics. The science of audio engineering is his passion. When he’s not at work, Jacob can be found designing his own music equipment, and recording / producing local talent.
+Jacob Rego has been with Living on Earth since 2012. He is a graduate of Berklee College of Music, where he studied music production and engineering as well as acoustics and electronics; the science of audio engineering is his passion. A trumpet and keyboard player since childhood, Jake recorded at The Juilliard School with jazz trumpeter Warren Vaché at age 10, an experience that inspired his path into music as a career. When he's not at work, Jacob can be found designing his own recording equipment and guitar pickups, and recording and producing local talent.
 
 ---
 

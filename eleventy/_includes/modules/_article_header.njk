@@ -55,8 +55,8 @@
    Landscape → full-width above summary. Portrait/square → float right, summary wraps. #}
 <figure class="header-image-container" id="hdr-fig-{{ entry.megaphone_id or 'main' }}">
     <img class="header-image" id="hdr-img-{{ entry.megaphone_id or 'main' }}"
-         src="{{ entry.banner_url or entry.image_url }}" alt="{{ entry.title }}"
-         onload="(function(img){var fig=img.closest('figure');if(img.naturalWidth&&img.naturalHeight){fig.classList.add(img.naturalWidth/img.naturalHeight>1.2?'landscape':'portrait')}else{fig.classList.add('landscape')}})(this)" />
+         src="{{ entry.banner_url or entry.image_url }}" alt="{{ entry.title }}" />
+    <script>(function () { var img = document.currentScript.previousElementSibling; function done() { var fig = img.closest('figure'); if (img.naturalWidth && img.naturalHeight) { fig.classList.add(img.naturalWidth / img.naturalHeight > 1.2 ? 'landscape' : 'portrait') } else { fig.classList.add('landscape') } } if (img.complete) { done() } else { img.addEventListener('load', done) } })();</script>
     {% if entry.image_caption %}
     <figcaption>{{ entry.image_caption }}</figcaption>
     {% endif %}

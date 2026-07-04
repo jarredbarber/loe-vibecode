@@ -13,12 +13,17 @@
 # Default policy for the public site. script-src is hash-pinned (no
 # 'unsafe-inline') so injected <script> tags — e.g. via the markdown
 # html:true trust boundary — can't execute even though they'd render as
-# inert text in the page. The 5 hashes are every static inline <script>
-# body across base.njk (3) and stations_map.njk (2); recompute with
-# `node -e` regex-extracting <script>...</script> bodies and sha256/base64
-# hashing them (see issue #164) if those blocks' content ever changes.
+# inert text in the page. The 6 hashes are every static inline <script>
+# body across base.njk (3), stations_map.njk (2), and _article_header.njk's
+# header-image landscape/portrait classifier (1); recompute with `node -e`
+# regex-extracting <script>...</script> bodies and sha256/base64 hashing
+# them (see issue #164) if those blocks' content ever changes.
+#
+# media-src covers Megaphone's dynamic-ad-insertion redirect targets
+# (dcs-*.megaphone.fm, observed in issue #167) via a wildcard, plus the
+# podtrac.com redirector and the legacy traffic.megaphone.fm host.
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-rxsZAmtxR2oINN8UcFj6AtDqoVrPPpy00+UxcKSP85s=' 'sha256-DrvuIhQv+fF+Xaie4hd27johLYkwh8BfuMTJDIrviIs=' 'sha256-45i6cyN/kJ8h/dKZu8kTh5thJHHZWdoETgM9e4D5U0E=' 'sha256-kaeXcKaxzkYh8uCogVYorm4QyZex/ukYoO5GqCF4urw=' 'sha256-yKvIZ13aPScUGGobVeqZOnPsVrQ5UFCMnf/IwOcXUqc='; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data: https://loe.org; media-src 'self' https://www.podtrac.com https://traffic.megaphone.fm; frame-src https://player.megaphone.fm; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-rxsZAmtxR2oINN8UcFj6AtDqoVrPPpy00+UxcKSP85s=' 'sha256-DrvuIhQv+fF+Xaie4hd27johLYkwh8BfuMTJDIrviIs=' 'sha256-45i6cyN/kJ8h/dKZu8kTh5thJHHZWdoETgM9e4D5U0E=' 'sha256-kaeXcKaxzkYh8uCogVYorm4QyZex/ukYoO5GqCF4urw=' 'sha256-yKvIZ13aPScUGGobVeqZOnPsVrQ5UFCMnf/IwOcXUqc=' 'sha256-92V626xS0wDozHXYX6R7Qth5JJpsOgY1KwC/NTbEnE8='; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data: https://loe.org; media-src 'self' https://www.podtrac.com https://traffic.megaphone.fm https://*.megaphone.fm; frame-src https://player.megaphone.fm; frame-ancestors 'none'
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

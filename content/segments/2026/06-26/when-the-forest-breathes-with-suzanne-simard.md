@@ -4,6 +4,7 @@ slug: when-the-forest-breathes-with-suzanne-simard
 date: 2026-06-26
 category: Segments
 order: '3'
+audio_url: https://loe.org/content/2026-06-26/LOE_260626_B2_&_C1_When%20the%20Forest%20Breathes.mp3
 image_url: https://loe.org/content/2026-06-26/SIMARD_cover.jpg
 image_caption: 'Suzanne Simard is the author of  When the Forest Breathes: Renewal and Resilience in the Natural World.  (Photo: Courtesy of Penguin Random House)'
 summary: 'Hosts Steve Curwood and Jenni Doering continue their conversation with forest ecologist Suzanne Simard about her latest book When the Forest Breathes: Renewal and Resilience in the Natural World. They discuss the interconnections between forests, the climate, salmon, Indigenous peoples and more.'

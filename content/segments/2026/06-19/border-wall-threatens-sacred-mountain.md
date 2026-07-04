@@ -4,6 +4,7 @@ slug: border-wall-threatens-sacred-mountain
 date: 2026-06-19
 category: Segments
 order: '2'
+audio_url: https://loe.org/content/2026-06-19/LOE_260619_B1_KPBS%20(Border%20Wall).mp3
 image_url: https://loe.org/content/2026-06-19/BORDER_solisandcalles.jpg
 image_caption: 'KPBS reporter Gustavo Solis (left) looks out over Tecate Peak’s new border wall construction with Norma Meza Calles (right), a Kumeyaay leader who lives in Baja California. Tecate Peak is considered sacred to the Kumeyaay community. (Photo: Carlos Castillo / KPBS)'
 summary: As part of its hard line on immigration, the Trump administration is building out new sections of border barriers, and one of the sections recently under construction runs across a small Southern California mountain just east of San Diego called Tecate Peak. KPBS reporter Gustavo Solis says construction crews are destroying parts of a mountain that’s sacred to the Kumeyaay people of California and Baja California.

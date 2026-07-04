@@ -4,6 +4,7 @@ slug: the-spectacular-regrowth-of-new-england-forests
 date: 2026-07-03
 category: Segments
 order: '3'
+audio_url: https://loe.org/content/2026-07-03/LOE_260703_C1_WITH%20TAG%20WOODWELL.mp3
 image_url: https://loe.org/content/2026-07-03/FORESTS_secondgrowth.jpg
 image_caption: 'This second-growth forest in New Jersey was once a plot of farmland; it has since become a mature deciduous forest. (Photo: Nicholas A. Tonelli, Wikimedia Commons, CC BY 2.0)'
 summary: When European colonists landed in North America, some of the most dramatic changes they made were to our forests. Clearcutting ran rampant, but now, on the 250th birthday of the United States, much of our forests have recovered, particularly in the Northeast. Bill Moomaw, Distinguished Visiting Scientist at the Woodwell Climate Research Center, tells that story of recovery to Host Steve Curwood and explains why maintaining our forests is vital for mitigating the effects of climate change.

@@ -4,6 +4,7 @@ slug: fighting-fracking-in-colombia
 date: 2026-06-26
 category: Segments
 order: '2'
+audio_url: https://loe.org/content/2026-06-26/LOE_260626_A2_Goldman%20(Yuvelis).mp3
 image_url: https://loe.org/content/2026-06-26/GOLDMAN_miramar.jpg
 image_caption: 'Yuvelis Morales Blanco next to the Miramar Swamp, by Ecopetrol’s main refinery. Ecopetrol’s new fracking project, the Comprehensive Research Pilot Project, is currently on hold. (Photo: Christian EscobarMora for the Goldman Environmental Prize)'
 summary: Our sixth and final installment of interviews with the 2026 Goldman Environmental Prize winners features Latin American winner Yuvelis Morales Blanco, honored for fighting against fracking in Colombia. Living on Earth’s Paloma Beltran spoke with Yuvelis about her activism and the death threats she received. The recent presidential elections in Colombia put fracking back on the table, after four years of an administration that signaled a desire to transition away from fossil fuels.

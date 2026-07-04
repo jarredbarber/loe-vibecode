@@ -4,6 +4,7 @@ slug: note-on-emerging-science-long-lived-greenland-sharks
 date: 2026-06-19
 category: Segments
 order: '3'
+audio_url: https://loe.org/content/2026-06-19/LOE_260619_B2_Science%20Note%20(Greenland%20Sharks).mp3
 image_url: https://loe.org/content/2026-06-19/SHARK_nunavut.jpg
 image_caption: 'A Greenland shark spotted at the edge of Admiralty Inlet, Nunavut, Canada. (Photo: Hemming1952, Wikimedia Commons, CC BY-SA 4.0)'
 summary: With a lifespan of several hundred years, Greenland sharks may be the longest living vertebrates on Earth and are estimated to reach sexual maturity at about 150 years old. Living on Earth’s Don Lyman reports in this note on emerging science about how enhanced activity of DNA repair genes may help Greenland sharks’ eyes avoid the usual degradation of aging.

@@ -67,12 +67,12 @@ async function readEditorialFields(
 
 const SEGMENT_KNOWN_KEYS = new Set([
     'title', 'slug', 'date', 'category', 'order',
-    'megaphone_id', 'image_url', 'image_caption', 'summary',
+    'megaphone_id', 'audio_url', 'image_url', 'image_caption', 'summary',
 ]);
 
 const SHOW_KNOWN_KEYS = new Set([
     'title', 'date', 'category', 'template',
-    'megaphone_id', 'image_url', 'summary',
+    'megaphone_id', 'audio_url', 'image_url', 'summary',
 ]);
 
 async function exists(path: string): Promise<boolean> {
@@ -155,6 +155,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
             // not the filename's alphabetical order.
             order: String(idx + 1),
             megaphone_id: doc.megaphoneId,
+            audio_url: doc.audioUrl,
             image_url: doc.imageUrl,
             image_caption: doc.imageCaption,
             summary: doc.summary,
@@ -176,6 +177,7 @@ export async function emitShow(input: EmitShowInput, opts: { force?: boolean } =
         category: 'Shows',
         template: 'show',
         megaphone_id: show.megaphoneId,
+        audio_url: show.audioUrl,
         image_url: showImage,
         summary: showSummary,
     }, preservedShow);

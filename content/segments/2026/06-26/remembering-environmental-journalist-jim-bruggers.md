@@ -4,6 +4,7 @@ slug: remembering-environmental-journalist-jim-bruggers
 date: 2026-06-26
 category: Segments
 order: '4'
+audio_url: https://loe.org/content/2026-06-26/LOE_260626_Jim%20Bruggers%20Remembrance.mp3
 image_url: https://loe.org/content/2026-06-26/BRUGGERS_pointreyes.jpg
 image_caption: 'Environmental journalist James Bruggers poses at Point Reyes, a landmark on the Pacific coast in Marin County, California. (Photo: Courtesy of Chris Bruggers)'
 summary: James Bruggers, who passed away in June, was a champion of environmental justice reporting who helped build the Society of Environmental Journalists with 13 years on its board and another two as its president. As a reporter for Inside Climate News, Jim appeared on Living on Earth over the years, and we remember his inspiring impact.

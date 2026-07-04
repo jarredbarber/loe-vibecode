@@ -20,10 +20,12 @@
 # them (see issue #164) if those blocks' content ever changes.
 #
 # media-src covers Megaphone's dynamic-ad-insertion redirect targets
-# (dcs-*.megaphone.fm, observed in issue #167) via a wildcard, plus the
-# podtrac.com redirector and the legacy traffic.megaphone.fm host.
+# (dcs-*.megaphone.fm, observed in issue #167) via a wildcard, the
+# podtrac.com redirector, the legacy traffic.megaphone.fm host, and
+# loe.org itself for episodes not (yet) on Megaphone, which loe.org
+# serves as a raw enclosure mp3 (also #167; see audio_url in ingest).
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-rxsZAmtxR2oINN8UcFj6AtDqoVrPPpy00+UxcKSP85s=' 'sha256-DrvuIhQv+fF+Xaie4hd27johLYkwh8BfuMTJDIrviIs=' 'sha256-45i6cyN/kJ8h/dKZu8kTh5thJHHZWdoETgM9e4D5U0E=' 'sha256-kaeXcKaxzkYh8uCogVYorm4QyZex/ukYoO5GqCF4urw=' 'sha256-yKvIZ13aPScUGGobVeqZOnPsVrQ5UFCMnf/IwOcXUqc=' 'sha256-92V626xS0wDozHXYX6R7Qth5JJpsOgY1KwC/NTbEnE8='; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data: https://loe.org; media-src 'self' https://www.podtrac.com https://traffic.megaphone.fm https://*.megaphone.fm; frame-src https://player.megaphone.fm; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-rxsZAmtxR2oINN8UcFj6AtDqoVrPPpy00+UxcKSP85s=' 'sha256-DrvuIhQv+fF+Xaie4hd27johLYkwh8BfuMTJDIrviIs=' 'sha256-45i6cyN/kJ8h/dKZu8kTh5thJHHZWdoETgM9e4D5U0E=' 'sha256-kaeXcKaxzkYh8uCogVYorm4QyZex/ukYoO5GqCF4urw=' 'sha256-yKvIZ13aPScUGGobVeqZOnPsVrQ5UFCMnf/IwOcXUqc=' 'sha256-92V626xS0wDozHXYX6R7Qth5JJpsOgY1KwC/NTbEnE8='; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data: https://loe.org; media-src 'self' https://loe.org https://www.podtrac.com https://traffic.megaphone.fm https://*.megaphone.fm; frame-src https://player.megaphone.fm; frame-ancestors 'none'
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

@@ -4,6 +4,7 @@ slug: el-nio-is-here
 date: 2026-06-19
 category: Segments
 order: '1'
+audio_url: https://loe.org/content/2026-06-19/LOE_260619_A1_Summer%20Climate%20Weather%20(El%20Nino).mp3
 image_url: https://loe.org/content/2026-06-19/NINO_phenom.jpg
 image_caption: 'The El Niño phenomenon pulls the Pacific jet stream eastward, carrying wetter conditions to the western U.S. and Mexico and drier conditions to the north. (Photo: NASA, Joshua Stevens, modified by Michala Garrison)'
 summary: The 2026 El Niño is now officially underway, according to the National Oceanic and Atmospheric Administration or NOAA. Combined with the ongoing rising temperatures from the climate crisis, this possible “super” El Niño could spell major disruption of weather patterns and ocean circulation worldwide. Kevin Trenberth, scientist at the University of Auckland in New Zealand as well as a Distinguished Scholar at the National Center for Atmospheric Research in Boulder, Colorado, joins Host Jenni Doering to explain.

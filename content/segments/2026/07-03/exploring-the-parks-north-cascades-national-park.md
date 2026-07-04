@@ -4,6 +4,7 @@ slug: exploring-the-parks-north-cascades-national-park
 date: 2026-07-03
 category: Segments
 order: '1'
+audio_url: https://loe.org/content/2026-07-03/LOE_260703_A1_.mp3
 image_url: https://loe.org/content/2019-05-10/b_CASCADES_tent.jpg
 image_caption: 'The sun breaks through early morning clouds near Easy Pass and Fisher Basin. (Photo: National Park Service, Public Domain)'
 summary: As we mark America’s 250th birthday, we celebrate parts of America’s enduring ecology, including our national parks. At the heart of one of Washington State’s most expansive wild ecosystems is North Cascades National Park, just a three-hour drive from Seattle yet one of the lesser-known parks. Saul Weisberg, founder and executive director of the North Cascades Institute and super docent of the North Cascades, joins Host Steve Curwood to talk about his years exploring the park.

@@ -26,7 +26,7 @@ layout: layouts/base.njk
                     <span class="archive-segments">
                         <a href="{{ site.url }}{{ seg.url }}">{{ seg.data.title | stripQuotes }}</a>
                         {% if seg.data.summary %}
-                            <p class="speaker-segment-summary">{{ seg.data.summary | safe }}</p>
+                            <p class="speaker-segment-summary">{{ seg.data.summary }}</p>
                         {% endif %}
                     </span>
                 </li>

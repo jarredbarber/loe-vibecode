@@ -31,9 +31,11 @@ jobs:
         run: npm ci
 
       - name: Link / image / audio check
+        env:
+          SHOW_DATE: ${{ inputs.date }}
         run: |
-          if [ -n "${{ inputs.date }}" ]; then
-            npm run check-show -- --date "${{ inputs.date }}"
+          if [ -n "$SHOW_DATE" ]; then
+            npm run check-show -- --date "$SHOW_DATE"
           else
             npm run check-show
           fi
@@ -45,9 +47,10 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SHOW_DATE: ${{ inputs.date }}
         run: |
-          if [ -n "${{ inputs.date }}" ]; then
-            npm run copyedit-check -- --date "${{ inputs.date }}"
+          if [ -n "$SHOW_DATE" ]; then
+            npm run copyedit-check -- --date "$SHOW_DATE"
           else
             npm run copyedit-check
           fi

@@ -7,6 +7,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {# GitHub Pages (live) can't serve custom headers, so this <meta> is the
+       only CSP surface it gets — keep in sync with content/extra/_headers'
+       "/*" policy (Cloudflare Pages/staging uses that file instead). The
+       script-src hashes cover this file's 3 inline <script> blocks; if
+       their content changes, recompute per the note in _headers. #}
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-rxsZAmtxR2oINN8UcFj6AtDqoVrPPpy00+UxcKSP85s=' 'sha256-DrvuIhQv+fF+Xaie4hd27johLYkwh8BfuMTJDIrviIs=' 'sha256-45i6cyN/kJ8h/dKZu8kTh5thJHHZWdoETgM9e4D5U0E=' 'sha256-kaeXcKaxzkYh8uCogVYorm4QyZex/ukYoO5GqCF4urw=' 'sha256-yKvIZ13aPScUGGobVeqZOnPsVrQ5UFCMnf/IwOcXUqc='; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self' https://www.podtrac.com https://traffic.megaphone.fm; frame-src https://player.megaphone.fm">
     <title>{% block title %}{{ title or site.name }}{% endblock %}</title>
     <link rel="stylesheet" href="{{ site.url }}/theme/css/style.css">
     {% if site.darkMode %}<link rel="stylesheet" href="{{ site.url }}/theme/css/dark-mode.css">{% endif %}

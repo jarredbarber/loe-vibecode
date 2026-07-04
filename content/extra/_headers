@@ -1,0 +1,25 @@
+# Cloudflare Pages reads this file from the deploy root (staging only —
+# GitHub Pages/live has no equivalent, see the <meta http-equiv> CSP
+# fallback in base.njk for that host).
+#
+# Scoped policy for the CMS: unpkg (Sveltia bundle, SRI-pinned in
+# content/admin/index.html), the GitHub API, and our OAuth worker.
+/admin/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://unpkg.com; connect-src 'self' https://api.github.com https://loe-auth.hector-ea.workers.dev; img-src 'self' data:; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Default policy for the public site. script-src is hash-pinned (no
+# 'unsafe-inline') so injected <script> tags — e.g. via the markdown
+# html:true trust boundary — can't execute even though they'd render as
+# inert text in the page. The 5 hashes are every static inline <script>
+# body across base.njk (3) and stations_map.njk (2); recompute with
+# `node -e` regex-extracting <script>...</script> bodies and sha256/base64
+# hashing them (see issue #164) if those blocks' content ever changes.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-rxsZAmtxR2oINN8UcFj6AtDqoVrPPpy00+UxcKSP85s=' 'sha256-DrvuIhQv+fF+Xaie4hd27johLYkwh8BfuMTJDIrviIs=' 'sha256-45i6cyN/kJ8h/dKZu8kTh5thJHHZWdoETgM9e4D5U0E=' 'sha256-kaeXcKaxzkYh8uCogVYorm4QyZex/ukYoO5GqCF4urw=' 'sha256-yKvIZ13aPScUGGobVeqZOnPsVrQ5UFCMnf/IwOcXUqc='; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self' https://www.podtrac.com https://traffic.megaphone.fm; frame-src https://player.megaphone.fm; frame-ancestors 'none'
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=()

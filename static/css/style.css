@@ -337,21 +337,6 @@ html {
 }
 
 
-/* body */
-.body_resize {
-    padding: 0;
-    margin: 0 auto;
-}
-
-@media (min-width: 1000px) {
-    .body_resize {
-        padding: 0;
-        width: 960px;
-        margin: 0 auto;
-    }
-}
-
-
 /* forms */
 
 .form-all {
@@ -575,36 +560,12 @@ textarea {
 }
 
 
-.right {
-    margin: 0;
-    padding: 15px;
-}
-
-.left {
-    margin: 0;
-    padding: 15px;
-}
-
 .blog {
     width: 100%;
     margin: 0;
 }
 
 @media (min-width: 1000px) {
-    .right {
-        width: 290px;
-        margin: 0;
-        padding: 15px;
-        float: right;
-    }
-
-    .left {
-        width: 610px;
-        margin: 0;
-        padding: 15px;
-        float: left;
-    }
-
     .blog {
         max-width: 800px;
         width: 100%;
@@ -1564,77 +1525,25 @@ audio {
 
 /* Subtitle Styling for Homepage */
 
-/* Featured Date */
-.featured-show h2 {
-    font-size: 2.5em;
-    /* Made even larger (was 2.2em) */
-    color: var(--primary-green-dark);
-    margin-bottom: 5px;
-}
-
-.featured-show h2 a,
-.featured-show h2 a:visited {
-    color: var(--primary-green-dark);
-    text-decoration: none;
-}
-
 /* Featured Title (Subtitle) */
 .featured-show h3 {
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 1.1em;
-    /* Made even smaller (was 1.3em) */
+    font-size: 1.5em;
     font-weight: normal;
     font-style: italic;
     color: var(--primary-green-dark);
-    margin-top: 5px;
+    margin-top: 0;
+    padding-top: 0;
     margin-bottom: 15px;
     line-height: 1.3;
 }
 
-.featured-show h3 a,
-.featured-show h3 a:visited {
+.featured-show h3 a {
     color: var(--primary-green-dark);
     text-decoration: none;
 }
 
 .featured-show h3 a:hover {
-    color: var(--primary-green);
-}
-
-/* Recent Shows Date */
-.blog h3 {
-    font-size: 1.8em;
-    /* Made even larger (was 1.6em) */
-    color: var(--primary-green-dark);
-    margin-bottom: 5px;
-}
-
-.blog h3 a,
-.blog h3 a:visited {
-    color: var(--primary-green-dark);
-    text-decoration: none;
-}
-
-/* Recent Shows Title (Subtitle) */
-.blog h4 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 1.0em;
-    /* Made even smaller (was 1.1em) */
-    font-weight: normal;
-    font-style: italic;
-    color: var(--primary-green-dark);
-    margin-top: 0px;
-    margin-bottom: 10px;
-    line-height: 1.3;
-}
-
-.blog h4 a,
-.blog h4 a:visited {
-    color: var(--primary-green-dark);
-    text-decoration: none;
-}
-
-.blog h4 a:hover {
     color: var(--primary-green);
 }
 
@@ -1984,8 +1893,10 @@ figcaption {
 
 .featured-show h2 {
     font-size: 1.5em;
+    color: var(--primary-green-dark);
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
 }
 
 .featured-show h2 a {
@@ -2094,7 +2005,10 @@ figcaption {
 
 .blog h3 {
     font-size: 1.3em;
+    color: var(--primary-green-dark);
     margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
 }
 
 .blog h3 a {
@@ -2321,29 +2235,9 @@ figcaption {
     padding: 7px 0;
 }
 
-/* --- Custom adjustments for Index Titles --- */
-
-/* Featured Show: pull title (h3) closer to date (h2) */
-.featured-show h2 {
-    margin-bottom: 0 !important;
-    padding-bottom: 5px !important;
-}
-
-.featured-show h3 {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    font-size: 1.5em !important;
-}
-
-/* Recent Shows: pull title (h4) closer to date (h3) */
-.blog h3 {
-    margin-bottom: 0 !important;
-    padding-bottom: 2px !important;
-}
-
 /* Define h4 for recent shows since it wasn't defined */
 .blog h4 {
-    font: bold 18px Arial, Helvetica, sans-serif;
+    font: bold 1.125em Arial, Helvetica, sans-serif;
     color: var(--primary-green);
     padding: 2px 5px 10px 5px;
     margin: 0;

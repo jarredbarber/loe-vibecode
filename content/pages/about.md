@@ -100,6 +100,8 @@ Paloma's journey with environmentalism began in her home of Baja California, Mex
 
 Sophia Pandelidis joined Living on Earth in 2022 as an Editorial Intern with a degree in International Studies from Boston College. An animal lover from a young age, Sophia is especially drawn to pieces about the fascinating creatures that roam our earth. She is excited to use audio storytelling to ignite the public’s interest in conservation. When she is not producing, Sophia is performing on latin dance teams, singing, hiking, and playing with her cats.
 
+---
+
 ## Funders
 
 Support for Living on Earth is provided by:

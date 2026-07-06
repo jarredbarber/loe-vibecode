@@ -67,9 +67,18 @@ Cold build of active content (2025+2026, ~500 pages): ~5s. Full build including 
 ### Plugins (`eleventy/plugins/`)
 
 - `shortcodes.js` — `{% audio %}` and `{% cue %}` shortcodes for inline audio players and stage-direction blocks.
-- `filters.js` — Nunjucks filters: `strftime`, `ordinal`, `dayOrdinal`, `stripQuotes`, `currentTime`, `toContentRel`, `pathToCmsSlug`.
-- `collections.js` — `shows`, `segments`, `newsletters` collections + `segmentsForShow` filter (indexes segments by date for O(1) lookup).
+- `filters.js` — Nunjucks filters: `strftime`, `ordinal`, `dayOrdinal`, `stripQuotes`, `currentTime`, `toContentRel`, `pathToCmsSlug`, `tcToSeconds` (timecode `MM:SS`/`H:MM:SS`/int → integer seconds, for the chapter player).
+- `collections.js` — `shows`, `segments`, `newsletters` collections + `segmentsForShow` and `showForDate` filters (both index by date for O(1) lookup; `showForDate` is the reverse of `segmentsForShow`, used by a windowed segment page to resolve its parent show's full-episode `megaphone_id`).
 - `speaker-highlight.js` — cheerio transform that wraps speaker labels in `<span class="speaker">`, groups them into `<div class="transcript-block">`, and converts `<p><img alt=...></p>` into `<figure><figcaption>`.
+
+### Audio player (`static/js/episode-player.js`)
+
+Build-time markup comes from the `audio-player.njk` macro (`{% audio %}` shortcode and the show/segment players); the browser wiring lives in `static/js/episode-player.js`. Two families of player, chosen by which `data-*` attributes the macro emitted (field-presence, no flags):
+
+- **Legacy multi-file** — each chapter is a separate Megaphone enclosure (`data-id`), played sequentially. The ~1.6k historical shows use this; the path is intentionally left untouched.
+- **Single-file chapter player** (`initWindowed`) — one full-episode mp3 (`data-full` = the show's own `megaphone_id`) with per-chapter `data-start`/`data-dur` offsets. *Chaptered* mode (a show whose segments all have `start:`) seeks within the file, draws clickable tick markers on the scrubber, and plays continuously across chapters. *Windowed* mode (a standalone segment page, `episode-player--single`) plays only `[start, start+dur]` and stops at the window end. The homepage "This Week" player uses chaptered mode when the latest show is fully chaptered.
+
+Design + rationale (no dynamic ad insertion, so fixed timestamps address the file reliably): `docs/superpowers/specs/2026-06-02-single-file-chapter-player-design.md`.
 
 ### Content model
 
@@ -78,9 +87,10 @@ Cold build of active content (2025+2026, ~500 pages): ~5s. Full build including 
 - `content/newsletters/<YYYY-MM-DD>-<slug>.md` — weekly newsletter.
 - `content/pages/<slug>.md` — standalone pages (about, stations, etc.).
 - `content/archive/{shows,segments}/<year>/…` — historical 1991-2024 content; built and deployed but not CMS-visible.
-- `megaphone_id` frontmatter drives podcast embed rendering.
+- `megaphone_id` frontmatter drives podcast embed rendering. On a **show** it is the full-episode mp3; on a **segment** it is that segment's own enclosure (legacy multi-file mode).
+- Optional segment `start` / `duration` timecodes (`MM:SS`, `H:MM:SS`, or bare seconds) opt a show into the **single-file chapter player**: the segment becomes a window `[start, start+dur]` into the show's full-episode mp3 instead of shipping its own file. A show whose segments *all* have `start` renders one chaptered player; a partial conversion falls back to legacy multi-file (and `check-show` warns). Going forward, new shows are authored this way; the legacy archive is not backfilled.
 
-When editing markdown, preserve frontmatter fields: `title`, `date`, `category`, `template`, `megaphone_id`, `image_url`, `image_caption`, `summary`, `order`.
+When editing markdown, preserve frontmatter fields: `title`, `date`, `category`, `template`, `megaphone_id`, `image_url`, `image_caption`, `summary`, `order`, `start`, `duration`.
 
 Historical content lives at `content/archive/{shows,segments}/<year>/…`. When active collections overflow Sveltia's ~1k file ceiling, fix: `git mv content/shows/<old-year> content/archive/shows/<old-year>`. See `content/admin/README.md` "Runbook: CMS getting slow".
 

@@ -90,54 +90,33 @@ html[data-theme="dark"] .footer { background-image: none !important; background-
 
 /* featured-show card (homepage hero + on-this-day) */
 @media (prefers-color-scheme: dark) {
-    html:not([data-theme="light"]) .featured-show,
-    html:not([data-theme="light"]) .on-this-day {
+    html:not([data-theme="light"]) .featured-show {
         background: var(--card-bg) !important;
         border-left-color: #4a8a7a !important;
         box-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
     }
     html:not([data-theme="light"]) .featured-show h1,
     html:not([data-theme="light"]) .featured-show h2,
-    html:not([data-theme="light"]) .featured-show h3,
-    html:not([data-theme="light"]) .on-this-day h2 { color: var(--primary-green) !important; }
+    html:not([data-theme="light"]) .featured-show h3 { color: var(--primary-green) !important; }
 
     html:not([data-theme="light"]) .featured-show p,
-    html:not([data-theme="light"]) .featured-show li,
-    html:not([data-theme="light"]) .on-this-day li,
-    html:not([data-theme="light"]) .on-this-day li p { color: var(--text-dark) !important; }
+    html:not([data-theme="light"]) .featured-show li { color: var(--text-dark) !important; }
 
-    html:not([data-theme="light"]) .on-this-day-date,
     html:not([data-theme="light"]) .featured-show .archive-date { color: var(--text-light) !important; }
-
-    html:not([data-theme="light"]) .on-this-day li { border-top-color: var(--border-light) !important; }
-
-    /* "This Week:" inline label */
-    html:not([data-theme="light"]) .featured-segments,
-    html:not([data-theme="light"]) .featured-segments strong { color: var(--text-dark) !important; }
 }
-html[data-theme="dark"] .featured-show,
-html[data-theme="dark"] .on-this-day {
+html[data-theme="dark"] .featured-show {
     background: var(--card-bg) !important;
     border-left-color: #4a8a7a !important;
     box-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
 }
 html[data-theme="dark"] .featured-show h1,
 html[data-theme="dark"] .featured-show h2,
-html[data-theme="dark"] .featured-show h3,
-html[data-theme="dark"] .on-this-day h2 { color: var(--primary-green) !important; }
+html[data-theme="dark"] .featured-show h3 { color: var(--primary-green) !important; }
 
 html[data-theme="dark"] .featured-show p,
-html[data-theme="dark"] .featured-show li,
-html[data-theme="dark"] .on-this-day li,
-html[data-theme="dark"] .on-this-day li p { color: var(--text-dark) !important; }
+html[data-theme="dark"] .featured-show li { color: var(--text-dark) !important; }
 
-html[data-theme="dark"] .on-this-day-date,
 html[data-theme="dark"] .featured-show .archive-date { color: var(--text-light) !important; }
-
-html[data-theme="dark"] .on-this-day li { border-top-color: var(--border-light) !important; }
-
-html[data-theme="dark"] .featured-segments,
-html[data-theme="dark"] .featured-segments strong { color: var(--text-dark) !important; }
 
 /* Homepage embedded player border — #aaa reads too bright on the dark card. */
 @media (prefers-color-scheme: dark) {

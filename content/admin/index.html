@@ -8,7 +8,12 @@
 </head>
 <body>
     <!-- Sveltia CMS: Decap-compatible config, faster UI. -->
-    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
+    <!-- Pinned to an exact version + Subresource Integrity so a compromised
+         CDN/package can't run swapped-out JS in an editor's session. Bumping
+         the version means recomputing the integrity hash. -->
+    <script src="https://unpkg.com/@sveltia/cms@0.166.0/dist/sveltia-cms.js" type="module"
+        integrity="sha384-XLuDzHDLClvRmLyDeti5c15WwOqgqhVwdNyUh9lBdQP65TXeeH4NK/H0b8p8wrLc"
+        crossorigin="anonymous"></script>
 
     <!-- Full-entry preview is Sveltia's built-in markdown renderer +
          the inline toPreview() handlers on each editor component below.

@@ -55,8 +55,8 @@
    Landscape → full-width above summary. Portrait/square → float right, summary wraps. #}
 <figure class="header-image-container" id="hdr-fig-{{ entry.megaphone_id or 'main' }}">
     <img class="header-image" id="hdr-img-{{ entry.megaphone_id or 'main' }}"
-         src="{{ entry.banner_url or entry.image_url }}" alt="{{ entry.title }}"
-         onload="(function(img){var fig=img.closest('figure');if(img.naturalWidth&&img.naturalHeight){fig.classList.add(img.naturalWidth/img.naturalHeight>1.2?'landscape':'portrait')}else{fig.classList.add('landscape')}})(this)" />
+         src="{{ entry.banner_url or entry.image_url }}" alt="{{ entry.title }}" />
+    <script>(function () { var img = document.currentScript.previousElementSibling; function done() { var fig = img.closest('figure'); if (img.naturalWidth && img.naturalHeight) { fig.classList.add(img.naturalWidth / img.naturalHeight > 1.2 ? 'landscape' : 'portrait') } else { fig.classList.add('landscape') } } if (img.complete) { done() } else { img.addEventListener('load', done) } })();</script>
     {% if entry.image_caption %}
     <figcaption>{{ entry.image_caption }}</figcaption>
     {% endif %}
@@ -86,12 +86,9 @@
 {% for r in _related %}{% if r.megaphoneId %}{% set _ = _queue.push({ id: r.megaphoneId, title: r.title, art: r.art }) %}{% endif %}{% endfor %}
 {{ player([{ id: entry.megaphone_id, title: entry.title, art: entry.image_url }], true, entry.megaphone_id, _queue) }}
 {% elif entry.audio_url %}
-<div class="audio">
-    <audio controls style="width: 100%;">
-        <source src="{{ entry.audio_url }}" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-</div>
+{# Not (yet) on Megaphone — loe.org serves a raw enclosure mp3 directly.
+   See issue #167. #}
+{{ player([{ src: entry.audio_url, title: entry.title, art: entry.image_url }], true) }}
 {% endif %}
 
 <div class="clr"></div>

@@ -10,6 +10,7 @@ export interface ShowDoc {
     title: string;
     date: string;
     megaphoneId: string | null;
+    audioUrl: string | null;
     imageUrl: string | null;
     summary: string | null;
 }
@@ -47,6 +48,16 @@ export function parseShow(html: string, fallbackDate: string | null = null): Sho
         }
     }
 
+    // Fallback for shows not (yet) hosted on Megaphone: the "FULL SHOW" raw
+    // mp3 is marked class="audio", distinct from the per-segment preview
+    // players on the same page (class="audiosmall"). See issue #167.
+    let audioUrl: string | null = null;
+    if (!megaphoneId) {
+        const audio = select('audio.audio[src]', root);
+        const src = (audio?.properties?.src as string) ?? '';
+        if (src) audioUrl = absoluteUrl(src);
+    }
+
     let imageUrl: string | null = null;
     const img = select('img[itemprop="image"]', root) ?? select('div.left img', root);
     if (img) {
@@ -65,5 +76,5 @@ export function parseShow(html: string, fallbackDate: string | null = null): Sho
         }
     }
 
-    return { title, date, megaphoneId, imageUrl, summary };
+    return { title, date, megaphoneId, audioUrl, imageUrl, summary };
 }

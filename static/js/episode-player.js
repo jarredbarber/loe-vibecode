@@ -1,6 +1,8 @@
 // Wires the build-time .episode-player markup (see modules/audio-player.njk).
 // Plays the enclosure mp3 (traffic.megaphone.fm/<id>.mp3 — preserves Megaphone
-// ads + download counting). Features: play/pause, scrub, ±15s skip, speed
+// ads + download counting), or a direct data-src URL for episodes not (yet)
+// on Megaphone (loe.org-hosted raw mp3, see issue #167). Features: play/pause,
+// scrub, ±15s skip, speed
 // (incl. 0.8×), resume (localStorage), chapter list w/ auto-advance, up-next
 // radio (related segments after a single segment ends), ?t=/&ch=/&end=
 // deep-links, clip-to-share, and OS Media Session (lock-screen) controls.
@@ -238,6 +240,7 @@
         var chapters = [].slice.call(el.querySelectorAll('.ep-chap')).map(function (li) {
             return {
                 id: li.dataset.id,
+                src: li.dataset.src || null,
                 full: li.dataset.full || null,
                 start: li.dataset.start != null ? parseInt(li.dataset.start, 10) : null,
                 dur: li.dataset.dur != null ? parseInt(li.dataset.dur, 10) : null,
@@ -281,10 +284,11 @@
         var clipEnd = qp.get('end') ? parseT(qp.get('end')) : null;
         clipB = clipEnd; stopAt = clipEnd;
 
+        function trackKey(i) { return all[i].id || all[i].src; }
         function trackData(extra) {
             var t = all[cur] || {}, d = audio.duration || 0;
             return Object.assign({
-                episode_id: t.id,                 // the playing track's megaphone_id
+                episode_id: t.id || t.src,        // the playing track's megaphone_id (or direct URL, #167)
                 episode_title: t.title,
                 position: Math.round(audio.currentTime) || 0,
                 duration: Math.round(d) || undefined,
@@ -330,8 +334,8 @@
             cur = i;
             started = false; reached = {};  // reset engagement milestones for the new track
             var radio = i >= chapters.length;
-            pend = (seek != null) ? seek : (parseFloat(localStorage.getItem('ep-pos-' + all[i].id)) || 0);
-            audio.src = mp3(all[i].id); audio.load();
+            pend = (seek != null) ? seek : (parseFloat(localStorage.getItem('ep-pos-' + trackKey(i))) || 0);
+            audio.src = all[i].src || mp3(all[i].id); audio.load();
             now.textContent = (radio ? '♫ ' : '') + all[i].title;
             el.classList.toggle('ep-radio-on', radio);
             durEl.textContent = '--:--'; curEl.textContent = '0:00';
@@ -352,7 +356,7 @@
             fill.style.right = (100 - audio.currentTime / d * 100) + '%';
             curEl.textContent = fmt(audio.currentTime);
             if (audio.buffered.length) buf.style.right = (100 - audio.buffered.end(audio.buffered.length - 1) / d * 100) + '%';
-            if (++tick % 10 === 0) localStorage.setItem('ep-pos-' + all[cur].id, audio.currentTime);
+            if (++tick % 10 === 0) localStorage.setItem('ep-pos-' + trackKey(cur), audio.currentTime);
             if (started && audio.duration) {
                 var pc = audio.currentTime / audio.duration * 100;
                 [25, 50, 75].forEach(function (q) {
@@ -371,12 +375,12 @@
         });
         audio.addEventListener('pause', function () {
             play.textContent = '▶'; play.setAttribute('aria-label', 'Play');
-            if (cur >= 0) localStorage.setItem('ep-pos-' + all[cur].id, audio.currentTime);
+            if (cur >= 0) localStorage.setItem('ep-pos-' + trackKey(cur), audio.currentTime);
             if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
         });
         audio.addEventListener('ended', function () {
             track('audio_complete', trackData({ percent: 100 }));
-            localStorage.removeItem('ep-pos-' + all[cur].id);
+            localStorage.removeItem('ep-pos-' + trackKey(cur));
             if (cur < all.length - 1) load(cur + 1, 0, true);
         });
 

@@ -13,6 +13,7 @@ export interface SegmentDoc {
     title: string;
     slug: string;
     megaphoneId: string | null;
+    audioUrl: string | null;
     imageUrl: string | null;
     imageCaption: string | null;
     summary: string | null;
@@ -230,6 +231,18 @@ function findMegaphoneId(root: Root): string | null {
     return null;
 }
 
+/**
+ * Fallback for segments not (yet) hosted on Megaphone: loe.org still serves
+ * some current episodes as a raw <audio src="/content/...mp3"> element (see
+ * issue #167). Only used when findMegaphoneId comes up empty.
+ */
+function findAudioUrl(root: Root): string | null {
+    const audio = select('audio[src]', root);
+    if (!audio) return null;
+    const src = (audio.properties?.src as string) ?? '';
+    return src ? absoluteUrl(src) : null;
+}
+
 function findHeadlineTitle(root: Root): string {
     const h = select('[itemprop="headline"]', root);
     if (h) return toText(h).trim();
@@ -423,6 +436,7 @@ export function parseSegment(html: string, titleHint?: string): SegmentDoc {
 
     const title = findHeadlineTitle(root) || titleHint || 'Untitled';
     const megaphoneId = findMegaphoneId(root);
+    const audioUrl = megaphoneId ? null : findAudioUrl(root);
     const header = findHeaderImage(root);
     const summary = findSummary(root);
     const transcript = collectBodyChildren(root);
@@ -432,6 +446,7 @@ export function parseSegment(html: string, titleHint?: string): SegmentDoc {
         title,
         slug: slugify(title),
         megaphoneId,
+        audioUrl,
         imageUrl: header?.url ?? null,
         imageCaption: header?.caption ?? null,
         summary,

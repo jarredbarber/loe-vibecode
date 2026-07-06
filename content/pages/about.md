@@ -45,7 +45,7 @@ A member of the Living on Earth team since 2014, Jenni Doering enjoys producing 
 
 ---
 
-<img src="https://bethel-university.imgix.net/academics/faculty/images/kausch-mark.jpg?w=400&auto=format" width=180 alt="Mark Kausch" style="float:left; margin-right:20px; margin-bottom:10px;">
+<img src="/images/staff/mark-kausch.jpg" width=180 alt="Mark Kausch" style="float:left; margin-right:20px; margin-bottom:10px;">
 
 **Mark Kausch**
 *Director of Advancement and Program Strategy*
@@ -58,18 +58,18 @@ In addition to his non-profit broadcast media work, Mark teaches viola da gamba 
 
 ---
 
-<img src="https://about.me/cdn-cgi/image/q=80,dpr=1,f=auto,fit=cover,w=1200,h=630,gravity=auto/https://assets.about.me/background/users/j/a/c/jacob.rego_1360098872_87.jpg" width=180 alt="Jake Rego" style="float:right; margin-left:20px; margin-bottom:10px;">
+<img src="/images/staff/jake-rego.webp" width=180 alt="Jake Rego" style="float:right; margin-left:20px; margin-bottom:10px;">
 
 **Jake Rego**
 *Technical Director*
 
 [jrego@loe.org](mailto:jrego@loe.org)
 
-Jacob Rego has been with Living On Earth since 2012. He is a graduate from Berklee College of Music where he studied music production and engineering as well as acoustics and electronics. The science of audio engineering is his passion. When he’s not at work, Jacob can be found designing his own music equipment, and recording / producing local talent.
+Jacob Rego has been with Living on Earth since 2012. He is a graduate of Berklee College of Music, where he studied music production and engineering as well as acoustics and electronics; the science of audio engineering is his passion. A trumpet and keyboard player since childhood, Jake recorded at The Juilliard School with jazz trumpeter Warren Vaché at age 10, an experience that inspired his path into music as a career. When he's not at work, Jacob can be found designing his own recording equipment and guitar pickups, and recording and producing local talent.
 
 ---
 
-<img src="https://media.licdn.com/dms/image/v2/C4E03AQH87PDBFCtIhA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1535224502967?e=2147483647&v=beta&t=4Ziv74BIh3PsNySwtYgWRNR3HBEliO5VEkGN_MxZXuM" width=180 alt="Aynsley O'Neill" style="float:left; margin-right:20px; margin-bottom:10px;">
+<img src="/images/staff/aynsley-oneill.jpg" width=180 alt="Aynsley O'Neill" style="float:left; margin-right:20px; margin-bottom:10px;">
 
 **Aynsley O'Neill**
 *Producer*
@@ -80,7 +80,7 @@ Aynsley joins Living on Earth from the Class of 2018 at Brandeis University, whe
 
 ---
 
-<img src="https://media.muckrack.com/profile/images/9261220/paloma-beltran.jpeg.256x256_q100_crop-smart.jpg" width=180 alt="Paloma Beltran" style="float:right; margin-left:20px; margin-bottom:10px;">
+<img src="/images/staff/paloma-beltran.jpg" width=180 alt="Paloma Beltran" style="float:right; margin-left:20px; margin-bottom:10px;">
 
 **Paloma Beltran**
 *Associate Producer*
@@ -91,7 +91,7 @@ Paloma's journey with environmentalism began in her home of Baja California, Mex
 
 ---
 
-<img src="https://media.licdn.com/dms/image/v2/D4E03AQGOWtpoNT0MSQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1676044025653?e=2147483647&v=beta&t=DvzFiaFNQMRy1AyMlFIBF3iSY9SWEyVlGA9x1hY2NkU" width=180 alt="Sophia Pandelidis" style="float:left; margin-right:20px; margin-bottom:10px;">
+<img src="/images/staff/sophia-pandelidis.jpg" width=180 alt="Sophia Pandelidis" style="float:left; margin-right:20px; margin-bottom:10px;">
 
 **Sophia Pandelidis**
 *Assistant Producer*
@@ -100,17 +100,19 @@ Paloma's journey with environmentalism began in her home of Baja California, Mex
 
 Sophia Pandelidis joined Living on Earth in 2022 as an Editorial Intern with a degree in International Studies from Boston College. An animal lover from a young age, Sophia is especially drawn to pieces about the fascinating creatures that roam our earth. She is excited to use audio storytelling to ignite the public’s interest in conservation. When she is not producing, Sophia is performing on latin dance teams, singing, hiking, and playing with her cats.
 
+---
+
 ## Funders
 
 Support for Living on Earth is provided by:
 
 <div class="sponsor-cloud">
-  <a href="http://www.breckenridge.com/" target="_blank"><img src="/images/sponsors/breckinridge.png" alt="Breckinridge Capital Advisors" class="sponsor-logo"></a>
-  <a href="http://www.barrfoundation.org/" target="_blank"><img src="/images/sponsors/barr.svg" alt="Barr Foundation" class="sponsor-logo"></a>
-  <a href="http://www.granthamfoundation.org/" target="_blank"><img src="/images/sponsors/grantham.svg" alt="Grantham Foundation" class="sponsor-logo"></a>
-  <a href="http://www.nsf.gov" target="_blank"><img src="/images/sponsors/nsf.svg" alt="National Science Foundation" class="sponsor-logo"></a>
-  <a href="http://www.paxworld.com/" target="_blank"><img src="/images/sponsors/impax.png" alt="Impax Asset Management" class="sponsor-logo"></a>
-  <a href="http://www.stonyfield.com/" target="_blank"><img src="/images/sponsors/stonyfield.png" alt="Stonyfield Farm" class="sponsor-logo"></a>
+  <a href="http://www.breckenridge.com/" target="_blank" rel="noopener"><img src="/images/sponsors/breckinridge.png" alt="Breckinridge Capital Advisors" class="sponsor-logo"></a>
+  <a href="http://www.barrfoundation.org/" target="_blank" rel="noopener"><img src="/images/sponsors/barr.svg" alt="Barr Foundation" class="sponsor-logo"></a>
+  <a href="http://www.granthamfoundation.org/" target="_blank" rel="noopener"><img src="/images/sponsors/grantham.svg" alt="Grantham Foundation" class="sponsor-logo"></a>
+  <a href="http://www.nsf.gov" target="_blank" rel="noopener"><img src="/images/sponsors/nsf.svg" alt="National Science Foundation" class="sponsor-logo"></a>
+  <a href="http://www.paxworld.com/" target="_blank" rel="noopener"><img src="/images/sponsors/impax.png" alt="Impax Asset Management" class="sponsor-logo"></a>
+  <a href="http://www.stonyfield.com/" target="_blank" rel="noopener"><img src="/images/sponsors/stonyfield.png" alt="Stonyfield Farm" class="sponsor-logo"></a>
 </div>
 
 ### Major Contributors

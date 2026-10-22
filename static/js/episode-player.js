@@ -28,6 +28,18 @@
     function mp3(id) {
         return 'https://www.podtrac.com/pts/redirect.mp3/traffic.megaphone.fm/' + id + '.mp3';
     }
+    // localStorage throws when storage is blocked (privacy settings); never let
+    // that kill the player.
+    var store = {
+        get: function (k) { try { return store.get(k); } catch (e) { return null; } },
+        set: function (k, v) { try { store.set(k, v); } catch (e) { /* ignore */ } },
+        del: function (k) { try { store.del(k); } catch (e) { /* ignore */ } }
+    };
+    function toast(m) {
+        var t = document.createElement('div'); t.className = 'ep-toast'; t.textContent = m;
+        document.body.appendChild(t); setTimeout(function () { t.remove(); }, 1900);
+    }
+    function copy(s) { try { navigator.clipboard.writeText(s); } catch (e) { /* ignore */ } }
 
     // ── Engagement analytics ────────────────────────────────────────────────
     // Megaphone's own embed player reports play / quartile / complete events
@@ -58,6 +70,11 @@
         var started = false, reached = {};
         var fullId = chapters[0].full;
         var posKey = 'ep-pos-' + fullId + (mode === 'windowed' ? '-w' + chapters[0].start : '');
+        // Deep links: ?t= is an absolute offset into the full file, &end= stops there.
+        var qp = new URLSearchParams(applyUrl ? location.search : '');
+        var startT = parseT(qp.get('t')) || null;
+        var stopAt = qp.get('end') ? parseT(qp.get('end')) : null;
+        var clipMode = false, clipA = null, clipB = stopAt;
 
         // Window bounds for chapter i: [start, end). End is the next chapter's
         // start, or start+dur, or the file end. In chaptered mode we do NOT stop
@@ -106,9 +123,10 @@
                 winEnd = endOf(0);
                 durEl.textContent = winEnd != null ? fmt(winEnd - winStart) : fmt(audio.duration);
                 if (now) now.textContent = chapters[0].title;
-                var resume = parseFloat(localStorage.getItem(posKey));
+                var resume = parseFloat(store.get(posKey));
                 audio.currentTime = (resume && resume > winStart && (winEnd == null || resume < winEnd)) ? resume : winStart;
                 setMediaMeta(0);
+                if (startT != null && startT >= winStart && (winEnd == null || startT < winEnd)) audio.currentTime = startT;
             } else {
                 durEl.textContent = fmt(audio.duration);
                 // Draw a chapter marker on the scrubber for each chapter after
@@ -123,10 +141,13 @@
                     t.addEventListener('click', function (ev) { ev.stopPropagation(); audio.currentTime = c.start; highlight(i); audio.play(); });
                     bar.appendChild(t);
                 });
-                var r = parseFloat(localStorage.getItem(posKey)) || 0;
+                var r = parseFloat(store.get(posKey)) || 0;
                 if (r > 0 && r < audio.duration) audio.currentTime = r;
+                if (startT != null && startT < audio.duration) audio.currentTime = startT;
                 highlight(chapterAt(audio.currentTime));
             }
+            marks();
+            if (applyUrl && (startT != null || stopAt != null)) audio.play();
         });
 
         var tick = 0;
@@ -136,7 +157,7 @@
                 if (audio.currentTime < winStart) { audio.currentTime = winStart; return; }
                 if (winEnd != null && audio.currentTime >= winEnd) {
                     audio.pause(); track2('audio_complete', { percent: 100 });
-                    localStorage.removeItem(posKey); audio.currentTime = winStart; return;
+                    store.del(posKey); audio.currentTime = winStart; return;
                 }
                 var len = (winEnd || audio.duration) - winStart, rel = audio.currentTime - winStart;
                 fill.style.right = (100 - rel / len * 100) + '%';
@@ -157,10 +178,41 @@
                     [25, 50, 75].forEach(function (q) { if (pc >= q && !reached[q]) { reached[q] = true; track2('audio_progress', { percent: q }); } });
                 }
             }
-            if (++tick % 10 === 0) localStorage.setItem(posKey, audio.currentTime);
+            if (++tick % 10 === 0) store.set(posKey, audio.currentTime);
+            if (stopAt != null && audio.currentTime >= stopAt) { audio.pause(); stopAt = null; }
             if ('mediaSession' in navigator && navigator.mediaSession.setPositionState && isFinite(audio.duration)) {
                 try { navigator.mediaSession.setPositionState({ duration: audio.duration, position: audio.currentTime, playbackRate: audio.playbackRate }); } catch (e) { /* ignore */ }
             }
+        });
+
+        // Share / clip: links carry absolute file offsets, so they work on both
+        // the show page and a windowed segment page of the same file.
+        function barTime(e) {
+            var r = bar.getBoundingClientRect(), frac = (e.clientX - r.left) / r.width;
+            if (mode === 'windowed') return winEnd == null ? null : winStart + frac * (winEnd - winStart);
+            return frac * (audio.duration || 0);
+        }
+        function marks() {
+            el.querySelectorAll('.ep-mark').forEach(function (m) { m.remove(); });
+            var lo = mode === 'windowed' ? winStart : 0;
+            var hi = mode === 'windowed' && winEnd != null ? winEnd : (audio.duration || 0);
+            if (!(hi > lo)) return;
+            [clipA, clipB].forEach(function (t) {
+                if (t == null) return;
+                var m = document.createElement('div'); m.className = 'ep-mark';
+                m.style.left = ((t - lo) / (hi - lo) * 100) + '%'; bar.appendChild(m);
+            });
+        }
+        function urlAt(a, b) {
+            var u = new URL(location.href);
+            u.searchParams.set('t', Math.round(a));
+            if (b != null) u.searchParams.set('end', Math.round(b)); else u.searchParams.delete('end');
+            return u.toString();
+        }
+        Q('.ep-share').addEventListener('click', function () { copy(urlAt(audio.currentTime, null)); toast('Link copied at ' + fmt(audio.currentTime - winStart)); });
+        Q('.ep-clip').addEventListener('click', function () {
+            clipMode = !clipMode; clipA = null; this.classList.toggle('ep-on', clipMode);
+            if (clipMode) toast('Click start, then end, on the bar');
         });
 
         audio.addEventListener('play', function () {
@@ -170,12 +222,12 @@
         });
         audio.addEventListener('pause', function () {
             play.textContent = '▶'; play.setAttribute('aria-label', 'Play');
-            localStorage.setItem(posKey, audio.currentTime);
+            store.set(posKey, audio.currentTime);
             if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
         });
         audio.addEventListener('ended', function () {
             track2('audio_complete', { percent: 100 });
-            localStorage.removeItem(posKey);
+            store.del(posKey);
         });
 
         play.addEventListener('click', function () {
@@ -191,13 +243,14 @@
             audio.currentTime = Math.min(hi, audio.currentTime + 15);
         });
         bar.addEventListener('click', function (e) {
-            var r = bar.getBoundingClientRect(), frac = (e.clientX - r.left) / r.width;
-            if (mode === 'windowed') {
-                if (winEnd == null) return;
-                audio.currentTime = winStart + frac * (winEnd - winStart);
-            } else {
-                audio.currentTime = frac * (audio.duration || 0);
-            }
+            var t = barTime(e);
+            if (t == null) return;
+            if (!clipMode) { audio.currentTime = t; return; }
+            if (clipA == null) { clipA = t; marks(); toast('Start set — now click the end'); return; }
+            clipB = t; if (clipB < clipA) { var z = clipA; clipA = clipB; clipB = z; }
+            marks(); copy(urlAt(clipA, clipB)); clipMode = false;
+            Q('.ep-clip').classList.remove('ep-on');
+            toast('Clip link copied (' + fmt(clipA - winStart) + '–' + fmt(clipB - winStart) + ')');
         });
         bar.addEventListener('keydown', function (e) {
             var lo = mode === 'windowed' ? winStart : 0;
@@ -226,6 +279,7 @@
             H('pause', function () { audio.pause(); });
             H('seekbackward', function (e) { var lo = mode === 'windowed' ? winStart : 0; audio.currentTime = Math.max(lo, audio.currentTime - ((e && e.seekOffset) || 15)); });
             H('seekforward', function (e) { var hi = mode === 'windowed' && winEnd != null ? winEnd : (audio.duration || 0); audio.currentTime = Math.min(hi, audio.currentTime + ((e && e.seekOffset) || 15)); });
+            H('seekto', function (e) { audio.currentTime = e.seekTime; });
             if (mode === 'chaptered') {
                 H('previoustrack', function () { var i = Math.max(0, chapterAt(audio.currentTime) - 1); audio.currentTime = chapters[i].start; highlight(i); });
                 H('nexttrack', function () { var i = Math.min(chapters.length - 1, chapterAt(audio.currentTime) + 1); audio.currentTime = chapters[i].start; highlight(i); });
@@ -296,11 +350,6 @@
                 player: 'loe-web'
             }, extra || {});
         }
-        function toast(m) {
-            var t = document.createElement('div'); t.className = 'ep-toast'; t.textContent = m;
-            document.body.appendChild(t); setTimeout(function () { t.remove(); }, 1900);
-        }
-        function copy(s) { try { navigator.clipboard.writeText(s); } catch (e) { /* ignore */ } }
         function marks() {
             el.querySelectorAll('.ep-mark').forEach(function (m) { m.remove(); });
             var d = audio.duration || 0; if (!d) return;
@@ -334,7 +383,7 @@
             cur = i;
             started = false; reached = {};  // reset engagement milestones for the new track
             var radio = i >= chapters.length;
-            pend = (seek != null) ? seek : (parseFloat(localStorage.getItem('ep-pos-' + trackKey(i))) || 0);
+            pend = (seek != null) ? seek : (parseFloat(store.get('ep-pos-' + trackKey(i))) || 0);
             audio.src = all[i].src || mp3(all[i].id); audio.load();
             now.textContent = (radio ? '♫ ' : '') + all[i].title;
             el.classList.toggle('ep-radio-on', radio);
@@ -356,7 +405,7 @@
             fill.style.right = (100 - audio.currentTime / d * 100) + '%';
             curEl.textContent = fmt(audio.currentTime);
             if (audio.buffered.length) buf.style.right = (100 - audio.buffered.end(audio.buffered.length - 1) / d * 100) + '%';
-            if (++tick % 10 === 0) localStorage.setItem('ep-pos-' + trackKey(cur), audio.currentTime);
+            if (++tick % 10 === 0) store.set('ep-pos-' + trackKey(cur), audio.currentTime);
             if (started && audio.duration) {
                 var pc = audio.currentTime / audio.duration * 100;
                 [25, 50, 75].forEach(function (q) {
@@ -375,12 +424,12 @@
         });
         audio.addEventListener('pause', function () {
             play.textContent = '▶'; play.setAttribute('aria-label', 'Play');
-            if (cur >= 0) localStorage.setItem('ep-pos-' + trackKey(cur), audio.currentTime);
+            if (cur >= 0) store.set('ep-pos-' + trackKey(cur), audio.currentTime);
             if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
         });
         audio.addEventListener('ended', function () {
             track('audio_complete', trackData({ percent: 100 }));
-            localStorage.removeItem('ep-pos-' + trackKey(cur));
+            store.del('ep-pos-' + trackKey(cur));
             if (cur < all.length - 1) load(cur + 1, 0, true);
         });
 

@@ -2,7 +2,6 @@ import { mkdir, writeFile, readFile, stat } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
-import { cachePathFor } from './fetch.js';
 import type { ShowDoc } from './parse-show.js';
 import type { SegmentDoc } from './parse-segment.js';
 
@@ -97,13 +96,10 @@ async function safeWrite(path: string, content: string, opts: WriteOpts): Promis
     if (await exists(path)) {
         const existing = await readFile(path, 'utf8');
         if (existing === content) return 'unchanged';
-        if (!opts.force) {
-            const fileStat = await stat(path);
-            const cacheStat = await stat(cachePathFor(opts.sourceUrl)).catch(() => null);
-            if (cacheStat && fileStat.mtimeMs > cacheStat.mtimeMs + 1000) {
-                return 'skipped';
-            }
-        }
+        // ponytail: any existing file that differs is treated as hand-edited.
+        // The old mtime-vs-cache heuristic lost edits whenever the cache was
+        // refetched (cache mtime newer than a git checkout). --force overrides.
+        if (!opts.force) return 'skipped';
     }
     await mkdir(dirname(path), { recursive: true });
     await writeFile(path, content, 'utf8');

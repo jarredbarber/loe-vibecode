@@ -62,14 +62,6 @@ function toContentRel(inputPath) {
     return m ? m[1] : null;
 }
 
-/** "shows/2026/05-22/show.md" → { collection: "shows", slug: "2026/05-22/show" } */
-function pathToCmsSlug(relSourcePath) {
-    if (!relSourcePath) return { collection: null, slug: null };
-    const m = relSourcePath.match(/^(shows|segments|newsletters|pages)\/(.+)\.md$/);
-    if (!m) return { collection: null, slug: null };
-    return { collection: m[1], slug: m[2] };
-}
-
 /** Strip HTML tags and shortcode-ish noise, then count word-like tokens. */
 function countWords(value) {
     if (!value) return 0;
@@ -112,7 +104,7 @@ function listeningTime(body) {
 // Only speakers with ≥ MIN_APPEARANCES total are returned — those are the
 // ones with /people/<slug>.html pages built (see plugins/collections.js).
 // Single-mention guests get filtered out so pill links don't 404.
-const SPEAKER_MIN_APPEARANCES = 3;
+const { MIN_APPEARANCES: SPEAKER_MIN_APPEARANCES } = require('./collections.js');
 let _speakersCache = null;
 function buildSpeakersCache() {
     if (_speakersCache) return _speakersCache;
@@ -340,7 +332,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('stripQuotes', stripQuotes);
     eleventyConfig.addFilter('tcToSeconds', tcToSeconds);
     eleventyConfig.addFilter('toContentRel', toContentRel);
-    eleventyConfig.addFilter('pathToCmsSlug', pathToCmsSlug);
     eleventyConfig.addFilter('readingTime', readingTime);
     eleventyConfig.addFilter('listeningTime', listeningTime);
     eleventyConfig.addFilter('speakersForSegment', speakersForSegment);

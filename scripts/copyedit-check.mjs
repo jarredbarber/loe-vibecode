@@ -11,7 +11,7 @@
 //
 // Env:
 //   GEMINI_API_KEY  required
-//   LLM_MODEL       optional, default 'gemini-2.5-flash'
+//   LLM_MODEL       optional, default 'gemini-3-flash-preview'
 
 import { readFileSync, readdirSync, existsSync, appendFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';

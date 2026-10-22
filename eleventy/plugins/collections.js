@@ -253,3 +253,5 @@ module.exports = function (eleventyConfig) {
         return shows.__byDate.get(key) || null;
     });
 };
+
+module.exports.MIN_APPEARANCES = MIN_APPEARANCES;

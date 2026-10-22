@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Auto-tag segments against the controlled vocabulary in
- * `content/admin/tag-vocab.yml` using Gemini.
+ * `content/tag-vocab.yml` using Gemini.
  *
  * Usage:
  *   node scripts/tag-segments.mjs [--limit N] [--dry-run] [--include-archive]
@@ -27,7 +27,7 @@ import matter from 'gray-matter';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
-const VOCAB_PATH = path.join(REPO_ROOT, 'content/admin/tag-vocab.yml');
+const VOCAB_PATH = path.join(REPO_ROOT, 'content/tag-vocab.yml');
 
 // --- CLI parsing -----------------------------------------------------------
 
@@ -163,7 +163,7 @@ if (!opts.dryRun) {
     ({ z } = await import('zod'));
 }
 
-const MODEL_ID = 'gemini-2.5-flash-lite';
+const MODEL_ID = 'gemini-3-flash-preview';
 
 function buildPrompt(seg) {
     const { data, content } = seg.parsed;
@@ -212,7 +212,7 @@ let totalIn = 0;
 let totalOut = 0;
 let tagged = 0;
 
-// Pricing (USD per 1M tokens) — gemini-2.5-flash-lite as of issue comment.
+// Pricing (USD per 1M tokens) — still the gemini-2.5-flash-lite figures; update for gemini-3-flash-preview.
 const PRICE_IN = 0.075 / 1_000_000;
 const PRICE_OUT = 0.30 / 1_000_000;
 
@@ -249,4 +249,4 @@ const cost = totalIn * PRICE_IN + totalOut * PRICE_OUT;
 console.log('---');
 console.log(`Done. Tagged ${tagged} segments.`);
 console.log(`Tokens: ${totalIn} in / ${totalOut} out.`);
-console.log(`Estimated cost: $${cost.toFixed(4)} (gemini-2.5-flash-lite).`);
+console.log(`Estimated cost: $${cost.toFixed(4)} (${MODEL_ID}, 2.5-flash-lite pricing).`);

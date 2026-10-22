@@ -37,7 +37,7 @@ Steve has been a journalist for more than 30 years with experience at NPR, CBS N
 <img src="/images/staff/jenni-doering.png" width=180 alt="Jenni Doering" style="float:right; margin-left:20px; margin-bottom:10px;">
 
 **Jenni Doering**
-*Managing Producer / resident hottie*
+*Managing Producer*
 
 617-287-4121 | [jdoering@loe.org](mailto:jdoering@loe.org) | [Twitter @jennidoering](https://twitter.com/jennidoering) | [Appearances on LOE](/people/doering.html)
 

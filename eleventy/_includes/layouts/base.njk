@@ -1,7 +1,6 @@
 {# Eleventy port of themes/loe_original/templates/base.html. #}
 {% set thisWeek = collections.shows[0] %}
 {% set _src = page.inputPath | toContentRel %}
-{% set _cms = _src | pathToCmsSlug %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +9,9 @@
     {# GitHub Pages (live) can't serve custom headers, so this <meta> is the
        only CSP surface it gets — keep in sync with content/extra/_headers'
        "/*" policy (Cloudflare Pages/staging uses that file instead). The
-       script-src hashes cover this file's 3 inline <script> blocks; if
+       script-src hashes cover this file's 2 inline <script> blocks; if
        their content changes, recompute per the note in _headers. #}
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-rxsZAmtxR2oINN8UcFj6AtDqoVrPPpy00+UxcKSP85s=' 'sha256-DrvuIhQv+fF+Xaie4hd27johLYkwh8BfuMTJDIrviIs=' 'sha256-45i6cyN/kJ8h/dKZu8kTh5thJHHZWdoETgM9e4D5U0E=' 'sha256-kaeXcKaxzkYh8uCogVYorm4QyZex/ukYoO5GqCF4urw=' 'sha256-yKvIZ13aPScUGGobVeqZOnPsVrQ5UFCMnf/IwOcXUqc=' 'sha256-92V626xS0wDozHXYX6R7Qth5JJpsOgY1KwC/NTbEnE8='; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data: https://loe.org; media-src 'self' https://loe.org https://www.podtrac.com https://traffic.megaphone.fm https://*.megaphone.fm; frame-src https://player.megaphone.fm https://www.youtube.com">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-rxsZAmtxR2oINN8UcFj6AtDqoVrPPpy00+UxcKSP85s=' 'sha256-45i6cyN/kJ8h/dKZu8kTh5thJHHZWdoETgM9e4D5U0E=' 'sha256-kaeXcKaxzkYh8uCogVYorm4QyZex/ukYoO5GqCF4urw=' 'sha256-yKvIZ13aPScUGGobVeqZOnPsVrQ5UFCMnf/IwOcXUqc=' 'sha256-92V626xS0wDozHXYX6R7Qth5JJpsOgY1KwC/NTbEnE8='; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data: https://loe.org; media-src 'self' https://loe.org https://www.podtrac.com https://traffic.megaphone.fm https://*.megaphone.fm; frame-src https://player.megaphone.fm https://www.youtube.com">
     <title>{% block title %}{{ title or site.name }}{% endblock %}</title>
     <link rel="stylesheet" href="{{ site.url }}/theme/css/style.css">
     {% if site.darkMode %}<link rel="stylesheet" href="{{ site.url }}/theme/css/dark-mode.css">{% endif %}
@@ -31,30 +30,15 @@
         rel="stylesheet">
 </head>
 <body>
-    {# Staging-only toolbar: editor badges + deploy badge #}
+    {# Staging-only: Edit on GitHub badge #}
     {% if site.target != 'prod' %}
     <div class="staging-toolbar">
-        <div class="editor-badges" hidden>
-            <a class="editor-badge editor-badge-cms"
-               href="{{ site.url }}/admin/{% if _cms.collection and _cms.slug %}#/collections/{{ _cms.collection }}/entries/{{ _cms.slug }}{% elif _cms.collection %}#/collections/{{ _cms.collection }}{% endif %}"
-               target="_blank" rel="noopener"
-               title="Open this entry in the CMS">✎ Edit in CMS</a>
+        <div class="editor-badges">
             <a class="editor-badge editor-badge-gh"
                href="{% if _src %}https://github.com/{{ site.githubRepo }}/edit/{{ site.githubBranch }}/content/{{ _src }}{% else %}https://github.com/{{ site.githubRepo }}{% endif %}"
                target="_blank" rel="noopener"
                title="{% if _src %}Open this entry's markdown file on GitHub{% else %}Open the repo on GitHub{% endif %}">&lt;/&gt; {% if _src %}Edit on GitHub{% else %}Repo on GitHub{% endif %}</a>
         </div>
-
-        <script>
-            try {
-                const u = localStorage.getItem('sveltia-cms.user');
-                if (u && JSON.parse(u).token) {
-                    document.body.classList.add('editor-mode');
-                    const badges = document.querySelector('.editor-badges');
-                    if (badges) badges.removeAttribute('hidden');
-                }
-            } catch (_) { /* ignore */ }
-        </script>
     </div>
     {% endif %}
     <div class="site-controls">
@@ -150,7 +134,7 @@
                         <a href="/">Home</a> ·
                         <a href="/about.html#contact-us">Contact</a> ·
                         <a href="/jobs.html">Careers</a> ·
-                        <a href="https://loe-auth.hector-ea.workers.dev/podcast.rss">RSS</a> ·
+                        <a href="https://feeds.megaphone.fm/livingonearth">RSS</a> ·
                         <a href="/donate.html">Donate</a>
                     </nav>
                 </div>

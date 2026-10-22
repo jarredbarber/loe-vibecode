@@ -3,7 +3,7 @@ name: Deploy to staging
 # Two-tier deploy:
 #   - push to `staging` → Cloudflare Pages (staging, https://loe-staging.pages.dev)
 #   - push to `live` → GitHub Pages (production, https://vibingon.earth)
-# Editor flow: CMS saves to `staging` → preview on staging → PR `staging → live` → live.
+# Editor flow: edit on `staging` (GitHub web editor / git) → preview on staging → PR `staging → live` → live.
 
 on:
   push:
@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
     inputs:
       notify:
-        description: 'Send a success ntfy ping (failures always notify). The weekly refresh sets this false to avoid routine pings.'
+        description: 'Send a success ntfy ping (failures always notify).'
         required: false
         default: 'true'
         type: string

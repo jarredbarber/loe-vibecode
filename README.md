@@ -26,9 +26,9 @@ What this site does that the original loe.org doesn't:
 
 **For editors**
 
-- **CMS at `/admin/`** (staging only — production has no editor surface; live is publish-via-PR). Sveltia with one-click GitHub OAuth, gated to repo collaborators.
+- **Edit on GitHub** — every page on staging has a badge linking to its markdown file in GitHub's web editor. No separate CMS.
 - **Pre-publish review workflow** (the badge above) — click "Run workflow" to validate every link / image / audio URL and get an LLM copyedit pass over the show + segments.
-- **Staging at <https://loe-staging.pages.dev>** — every push to `main` deploys here in ~2 minutes for preview before merging to `live`.
+- **Staging at <https://loe-staging.pages.dev>** — every push to `staging` deploys here in ~2 minutes for preview before merging to `live`.
 
 ## About Living on Earth
 
@@ -36,38 +36,21 @@ Living on Earth is a weekly, hour-long, award-winning environmental news program
 
 # Editing the site
 
-The easiest way to edit is the CMS at **<https://loe-staging.pages.dev/admin/>**. Direct GitHub editing covers anything the CMS doesn't surface (older archive content, theme files).
+Content is Markdown in Git. Edit it on GitHub, preview on staging, then merge to live.
 
-## Option A — The CMS (recommended)
-
-1. Visit <https://vibingon.earth/admin/>
-2. Click **Sign in with GitHub**. A GitHub consent screen opens; click **Authorize Living on Earth CMS** the first time. Future visits skip the consent step.
-3. The CMS remembers you in this browser.
-
-If the GitHub flow ever breaks, **Sign in with Token** (a Personal Access Token with `repo` scope) still works as a fallback. The dialog has a "Generate a Personal Access Token" link that opens GitHub's token-creation page pre-filled with the right scope.
-
-What you can do:
-- **Shows** — create or edit a weekly show. Only recent shows (current month ± 2) are listed; editing older content goes through GitHub directly.
-- **Segments** — same scope, each pairs to a show by date.
-- **Newsletters** — weekly newsletter posts.
-- **Pages** — static pages (about, stations, events…).
-
-While editing:
-- **Preview**: save in the CMS, then refresh <https://loe-staging.pages.dev> ~2 min later — that's the authoritative preview and shows exactly what will ship to production once you merge `main → live`.
-- Every entry on the live site has two icon-pill links in the top-left when you're signed in: **Edit in CMS** (deep-links the entry in `/admin/`) and **Edit on GitHub** (raw markdown via GitHub's web editor).
-- **Pre-publish review** runs automatically on every content push and checks every image / audio / link URL — the badge at the top of this README reflects the latest content's status. The badge also doubles as a manual entry point: click it → **Run workflow** → optionally enter a date → an LLM copyedit pass runs alongside (advisory: typos, broken speaker labels, frontmatter mismatches, intra-show contradictions, with per-line citations). Both passes write to the run's Job Summary panel.
-
-## Option B — Direct GitHub editing
-
-For one-off edits, theme tweaks, older archive content, or anything else the CMS doesn't surface.
+## Editing on GitHub
 
 1. Browse to the file on GitHub (e.g. `content/shows/2026/05-22/show.md`).
 2. Click the pencil icon to open the inline editor.
-3. Edit. Scroll down. **Commit changes** with a message.
+3. Edit. Scroll down. **Commit changes** with a message (to the `staging` branch).
+
+On staging, every page has an **Edit on GitHub** badge (top-right) that opens its source file directly.
+
+**Pre-publish review** runs automatically on every content push and checks every image / audio / link URL — the badge at the top of this README reflects the latest content's status. Click it → **Run workflow** → optionally enter a date to also run an LLM copyedit pass (advisory: typos, broken speaker labels, frontmatter mismatches).
 
 ## Staging → production
 
-CMS saves and any push to `main` go to **<https://loe-staging.pages.dev>** (~2 minutes). Check the change there. To publish to the live site, open a pull request from `main` → `live` and merge it. The merge triggers the deploy to <https://vibingon.earth>.
+Any push to `staging` goes to **<https://loe-staging.pages.dev>** (~2 minutes). Check the change there. To publish to the live site, open a pull request from `staging` → `live` and merge it. The merge triggers the deploy to <https://vibingon.earth>.
 
 ## File anatomy
 
@@ -141,10 +124,7 @@ content/
 ├── newsletters/<YYYY-MM-DD>-<slug>.md  # weekly newsletter
 ├── pages/<slug>.md                     # standalone pages
 ├── images/                             # any committed images
-├── admin/                              # the CMS
-│   ├── index.html
-│   └── config.njk                      # built into /admin/config.yml
-├── archive/                            # pre-2025 historical content (built, not CMS-visible)
+├── archive/                            # pre-2025 historical content 
 └── *.njk                               # direct templates (index, archives, newsletter)
 
 eleventy/                               # build config + templates + plugins
@@ -162,8 +142,7 @@ ingest/                                 # TypeScript scraper that pulls from loe
 
 ## Getting help
 
-- **CMS won't load**: check <https://www.githubstatus.com/> — Actions/Pages outages do happen.
-- **CMS says "Failed to fetch" after login**: token probably doesn't have `repo` scope. Generate a Classic PAT with full `repo` access.
+- **Site not updating**: check <https://www.githubstatus.com/> — Actions/Pages outages do happen.
 - **Build failing**: <https://github.com/jarredbarber/loe-vibecode/actions> shows the workflow runs.
 - **Anything else**: <https://github.com/jarredbarber/loe-vibecode/issues>
 
@@ -171,10 +150,10 @@ ingest/                                 # TypeScript scraper that pulls from loe
 
 The site is **static**: every page is built ahead of time and served as a plain file. With no application server or database behind the public site, there is nothing to attack or overload.
 
-- **Production** (<https://vibingon.earth>) is served from **GitHub Pages**, deployed from the `live` branch. It has **no `/admin/` surface** — production cannot be edited in a browser; changes only arrive via a reviewed `main → live` pull request.
-- **Staging** (<https://loe-staging.pages.dev>) is served from **Cloudflare Pages**, deployed on every push to `main`. The CMS at `/admin/` lives here.
-- **Editing is gated by GitHub OAuth.** Editors click "Sign in with GitHub"; the site never sees or stores a password. A small Cloudflare Worker (`auth/`) brokers the OAuth handshake and only issues access to accounts that are **collaborators on the repo** — signing in is not enough on its own.
-- **Cost:** hosting, CI, OAuth, and staging are all on **free tiers**. The only paid piece is the optional LLM copy-edit pass (Google Gemini), at roughly **5¢ per run / under $5 a year**.
+- **Production** (<https://vibingon.earth>) is served from **GitHub Pages**, deployed from the `live` branch. Changes only arrive via a reviewed `staging → live` pull request.
+- **Staging** (<https://loe-staging.pages.dev>) is served from **Cloudflare Pages**, deployed on every push to `staging`.
+- **Editing requires push access to the GitHub repo.** There is no site login; GitHub handles identity and permissions.
+- **Cost:** hosting, CI, and staging are all on **free tiers**. The only paid piece is the optional LLM copy-edit pass (Google Gemini), at roughly **5¢ per run / under $5 a year**.
 - **Durability:** content is plain Markdown in Git, so every version of every page is kept and any change is reversible.
 
 Full service registry, secrets, and owner-migration steps are in **INFRA.md**.

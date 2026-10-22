@@ -33,8 +33,7 @@ In the new site the editing side and the public side are separate, and the publi
 ```mermaid
 flowchart LR
     subgraph private["PRIVATE — behind a GitHub sign-in"]
-        Editor["Editor"] -->|"Sign in with GitHub"| CMS["Editing tool<br/>in the browser"]
-        CMS -->|"saves a new version"| Repo[("Content archive<br/>every version kept forever")]
+        Editor["Editor"] -->|"edits on GitHub"| Repo[("Content archive<br/>every version kept forever")]
         Repo -->|"rebuilds the site<br/>automatically"| Build["Build step"]
     end
     Build -->|"publishes finished pages"| CDN[["PUBLIC — pre-printed pages on free,<br/>read-only hosting (GitHub + Cloudflare)"]]

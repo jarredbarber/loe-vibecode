@@ -1,6 +1,6 @@
 /**
  * Loads the editor-maintained tag vocabulary from
- * `content/admin/tag-vocab.yml` and exposes it to templates as
+ * `content/tag-vocab.yml` and exposes it to templates as
  * `tagVocab.all` (flat array of tag strings) and
  * `tagVocab.grouped` (domain → [tags] map preserving file order).
  *
@@ -12,7 +12,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const yaml = require('js-yaml');
 
-const VOCAB_PATH = path.resolve(__dirname, '../../content/admin/tag-vocab.yml');
+const VOCAB_PATH = path.resolve(__dirname, '../../content/tag-vocab.yml');
 
 module.exports = function () {
     const raw = fs.readFileSync(VOCAB_PATH, 'utf8');

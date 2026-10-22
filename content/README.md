@@ -1,6 +1,6 @@
 # `/content` — Site content
 
-This folder holds everything that appears on the website: episodes, segments, newsletters, pages, and the CMS configuration. You can browse and edit files directly on GitHub, or use the CMS at [loe-staging.pages.dev/admin](https://loe-staging.pages.dev/admin).
+This folder holds everything that appears on the website: episodes, segments, newsletters, and pages. Browse and edit files directly on GitHub.
 
 ## Layout
 
@@ -14,16 +14,13 @@ content/
 ├── archive/
 │   ├── shows/      # Episode cover pages 1991–2024
 │   └── segments/   # Individual segments 1991–2024
-├── admin/          # CMS configuration (Sveltia)
 ├── images/         # Uploaded images
 └── extra/          # favicon.ico and similar one-off assets
 ```
 
 ## Adding or editing content
 
-The easiest way is the CMS — it handles formatting and saves directly to GitHub. The CMS is scoped to `shows/` and `segments/` (current content only).
-
-For anything outside that scope — newsletters, pages, series, or archive edits — use GitHub's built-in editor (pencil icon on any file).
+Use GitHub's built-in editor (pencil icon on any file), committing to the `staging` branch. Every page on staging has an **Edit on GitHub** badge that opens its source file.
 
 ## File format
 
@@ -49,11 +46,10 @@ Transcript goes here...
 
 ## Archive
 
-Files in `archive/` are identical in format to current content — they just live in a separate folder to keep the CMS fast (Sveltia would slow down loading ~12,000 files). They build and publish normally; every archive segment has a live URL.
+Files in `archive/` are identical in format to current content — they just live in a separate folder to keep the active collections small. They build and publish normally; every archive segment has a live URL.
 
 When a year of `shows/` or `segments/` gets old enough to move to archive, run:
 ```bash
 git mv content/shows/2024 content/archive/shows/2024
 git mv content/segments/2024 content/archive/segments/2024
 ```
-See `admin/README.md` → "Runbook: CMS getting slow" for the full procedure.

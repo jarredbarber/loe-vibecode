@@ -1877,10 +1877,7 @@ iframe {
 }
 
 
-/* Editor-mode badges (top-right fixed pills). Always in the HTML; the
-   [hidden] attribute keeps them invisible by default. The auth-detect
-   script in base.html removes [hidden] when the visitor is signed
-   into Sveltia CMS. */
+/* Editor badges (top-right fixed pills). Staging builds only. */
 .editor-badges {
     position: fixed;
     top: 0;
@@ -1890,9 +1887,6 @@ iframe {
     gap: 2px;
     padding: 0;
     background: transparent;
-}
-.editor-badges[hidden] {
-    display: none;
 }
 .editor-badge {
     display: inline-block;

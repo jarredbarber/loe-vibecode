@@ -25,8 +25,7 @@ eleventy/
 │   ├── modules/          # _article_header, show-segment, stations_map
 │   └── us_map.svg        # inlined into stations_map via {% include %}
 ├── _data/
-│   ├── site.js           # global site config (name, urls, github repo/branch)
-│   └── recentWindow.js   # rolling date pattern injected into admin/config.yml
+│   └── site.js           # global site config (name, urls, github repo/branch)
 └── plugins/
     ├── shortcodes.js     # {% audio %} and {% cue %}
     ├── filters.js        # strftime, ordinal, dayOrdinal, stripQuotes, …
@@ -46,7 +45,7 @@ Per-file `layout:` frontmatter wins. Otherwise `.eleventy.js`'s `eleventyCompute
 | `category: Newsletter` | `layouts/newsletter_article.njk` |
 | path under `pages/` | `layouts/page.njk` |
 | anything else | `layouts/article.njk` |
-| `layout: false` | no wrapping (used by `admin/config.njk`) |
+| `layout: false` | no wrapping (raw outputs) |
 
 ## URLs
 

@@ -17,9 +17,7 @@ Static website for **Living on Earth** (https://vibingon.earth, source for loe.o
 | `staging` | Cloudflare Pages (staging) | https://loe-staging.pages.dev |
 | `live` | GitHub Pages (production) | https://vibingon.earth |
 
-Editor flow: CMS saves to `staging` → preview on staging → PR `staging → live` → live.
-
-The `refresh-recent-window.yml` workflow dispatches a staging deploy every Monday so the CMS date-range regex stays current even during quiet weeks.
+Editor flow: edit on `staging` (GitHub web editor or git) → preview on staging → PR `staging → live` → live. There is no CMS.
 
 ## Commands
 
@@ -62,12 +60,11 @@ Cold build of active content (2025+2026, ~500 pages): ~5s. Full build including 
 - Templates: Nunjucks (Jinja2-like syntax).
 - Custom URL scheme: articles render as `YYYY_MM_DD_<slug>.html` via computed `permalink` — preserves legacy loe.org URL structure.
 - Layout selection via `eleventyComputed.layout` derived from Pelican-era frontmatter fields (`template:`, `category:`), so no per-file changes were needed during migration.
-- `eleventy/_data/recentWindow.js` — computes a rolling 4-month date regex at build time to scope CMS to recent content only (Sveltia crashes loading 12k entries).
 
 ### Plugins (`eleventy/plugins/`)
 
 - `shortcodes.js` — `{% audio %}` and `{% cue %}` shortcodes for inline audio players and stage-direction blocks.
-- `filters.js` — Nunjucks filters: `strftime`, `ordinal`, `dayOrdinal`, `stripQuotes`, `currentTime`, `toContentRel`, `pathToCmsSlug`, `tcToSeconds` (timecode `MM:SS`/`H:MM:SS`/int → integer seconds, for the chapter player).
+- `filters.js` — Nunjucks filters: `strftime`, `ordinal`, `dayOrdinal`, `stripQuotes`, `currentTime`, `toContentRel`, `tcToSeconds` (timecode `MM:SS`/`H:MM:SS`/int → integer seconds, for the chapter player).
 - `collections.js` — `shows`, `segments`, `newsletters` collections + `segmentsForShow` and `showForDate` filters (both index by date for O(1) lookup; `showForDate` is the reverse of `segmentsForShow`, used by a windowed segment page to resolve its parent show's full-episode `megaphone_id`).
 - `speaker-highlight.js` — cheerio transform that wraps speaker labels in `<span class="speaker">`, groups them into `<div class="transcript-block">`, and converts `<p><img alt=...></p>` into `<figure><figcaption>`.
 
@@ -86,21 +83,16 @@ Design + rationale (no dynamic ad insertion, so fixed timestamps address the fil
 - `content/segments/<year>/<MM-DD>/<slug>.md` — individual segments, paired to their show by date via `segmentsForShow`.
 - `content/newsletters/<YYYY-MM-DD>-<slug>.md` — weekly newsletter.
 - `content/pages/<slug>.md` — standalone pages (about, stations, etc.).
-- `content/archive/{shows,segments}/<year>/…` — historical 1991-2024 content; built and deployed but not CMS-visible.
+- `content/archive/{shows,segments}/<year>/…` — historical 1991-2024 content; built and deployed, kept separate so active collections stay small.
 - `megaphone_id` frontmatter drives podcast embed rendering. On a **show** it is the full-episode mp3; on a **segment** it is that segment's own enclosure (legacy multi-file mode).
 - Optional segment `start` / `duration` timecodes (`MM:SS`, `H:MM:SS`, or bare seconds) opt a show into the **single-file chapter player**: the segment becomes a window `[start, start+dur]` into the show's full-episode mp3 instead of shipping its own file. A show whose segments *all* have `start` renders one chaptered player; a partial conversion falls back to legacy multi-file (and `check-show` warns). Going forward, new shows are authored this way; the legacy archive is not backfilled.
 
 When editing markdown, preserve frontmatter fields: `title`, `date`, `category`, `template`, `megaphone_id`, `image_url`, `image_caption`, `summary`, `order`, `start`, `duration`.
 
-Historical content lives at `content/archive/{shows,segments}/<year>/…`. When active collections overflow Sveltia's ~1k file ceiling, fix: `git mv content/shows/<old-year> content/archive/shows/<old-year>`. See `content/admin/README.md` "Runbook: CMS getting slow".
 
 ### Tests (`tests/`)
 
 `tests/test_render.mjs` — node:test + cheerio golden tests. Each test asserts a specific invariant we've broken before. Fixture content lives in `tests/fixtures/content/`.
-
-### CMS (`content/admin/`)
-
-Sveltia CMS at `/admin/` with OAuth (Cloudflare Worker proxy at `auth/`) or PAT fallback. Scoped to recent content only via `recentWindow.js`. See `content/admin/README.md`.
 
 ### Ingest pipeline (`ingest/`)
 
@@ -116,12 +108,11 @@ TypeScript pipeline that scrapes loe.org and emits markdown into `content/`. Sta
 
 See `INFRA.md` for full service registry. Key services:
 
-- **GitHub Actions** — CI/CD (`deploy.yml`, `check-show.yml`, `refresh-recent-window.yml`).
+- **GitHub Actions** — CI/CD (`deploy.yml`, `check-show.yml`).
 - **Cloudflare Pages** — staging hosting (`loe-staging` project, deploys from `staging`).
 - **GitHub Pages** — production hosting (deploys from `live`).
-- **Cloudflare Worker** (`auth/`) — OAuth proxy for the CMS; source in `auth/src/index.js`.
 
-Secrets: `CLOUDFLARE_API_TOKEN` (wrangler deploy + pages), `GEMINI_API_KEY` (copyedit script). See `INFRA.md` for rotation/migration instructions.
+Secrets: `CLOUDFLARE_API_TOKEN` (pages deploy), `GEMINI_API_KEY` (copyedit script). See `INFRA.md` for rotation/migration instructions.
 
 ## Conventions
 

@@ -18,26 +18,12 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ '../static': 'theme' });
     eleventyConfig.addPassthroughCopy({ '../content/images': 'images' });
     eleventyConfig.addPassthroughCopy({ '../content/extra': '.' });
-    // admin/index.html + README copy through; config.njk is templated
-    // (produces _site_11ty/admin/config.yml via its frontmatter permalink).
-    // Skipped on prod builds: vibingon.earth/admin/ must 404 — edits go via PR.
     const isProd = process.env.DEPLOY_TARGET === 'prod';
-    if (!isProd) {
-        eleventyConfig.addPassthroughCopy({ '../content/admin/index.html': 'admin/index.html' });
-        eleventyConfig.addPassthroughCopy({ '../content/admin/README.md': 'admin/README.md' });
-    }
 
     // Skip content sections while we port templates incrementally.
     // .eleventyignore globs are relative to the ignore file's dir; ours
     // lives in eleventy/ which doesn't see ../content/. Use the JS API
     // with paths relative to the configured input dir.
-    // Ignore admin/* templates EXCEPT config.njk which we want rendered.
-    eleventyConfig.ignores.add('../content/admin/index.html');
-    eleventyConfig.ignores.add('../content/admin/README.md');
-    if (isProd) {
-        // Suppress the templated admin/config.yml output on prod builds.
-        eleventyConfig.ignores.add('../content/admin/config.njk');
-    }
     eleventyConfig.ignores.add('../content/extra/**');
     eleventyConfig.ignores.add('../content/images/**');
 

@@ -1,0 +1,63 @@
+---
+title: Antarctic Ice Missing
+slug: antarctic-ice-missing
+date: 2026-07-10
+category: Segments
+order: '1'
+audio_url: https://loe.org/content/2026-07-10/LOE_260710_A1_Antarctic%20Ice%20Missing.mp3
+image_url: https://loe.org/content/2026-07-10/ANTARCTICA_westcoast.jpg
+image_caption: 'Antarctica’s west coast is missing an area of sea ice the size of France, experts report. Shown above is iceberg calving off the Getz Ice Shelf in West Antarctica. (Photo: NASA ICE, Wikimedia Commons, Public Domain)'
+summary: Midsummer in the Northern hemisphere marks the dead of winter in Antarctica, usually a time when temperatures plunge and the surrounding ocean ices over, nearly doubling the continent’s size. But this June, scientists found Antarctica’s west coast was missing a chunk of sea ice the size of France. Ted Scambos, a Senior Research Scientist at the University of Colorado Boulder, speaks with Host Aynsley O’Neill about how unusually warm ocean water is affecting sea ice as well as massive Antarctic glaciers.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00028&segmentID=1 -->
+
+## Transcript
+
+BELTRAN: From PRX and the Jennifer and Ted Stanley Studios at the University of Massachusetts Boston, this is Living on Earth. I’m Paloma Beltran.
+
+O’NEILL: And I’m Aynsley O’Neill.
+
+Midsummer in the Northern hemisphere marks the dead of winter in Antarctica, usually a time when temperatures plunge and the surrounding ocean ices over, nearly doubling the continent’s size. But this June, scientists found Antarctica’s west coast was missing a chunk of sea ice the size of France.  
+For more on this, we reached out to Ted Scambos, a Senior Research Scientist at the Cooperative Institute for Research in Environmental Sciences at the University of Colorado Boulder. But he joined us from a visit to family in Hawai’i, where he must be defrosting after all his Antarctic research. To start, I asked him how unusual it is to see this lack of ice in midwinter.
+
+SCAMBOS: Ordinarily, this area near the peninsula, that's the part that points up towards South America on the map, that area to the west side of the peninsula has extremely low sea ice for mid-winter. There's no ice forming along this very long coast on the western side, and that's extremely unusual, unusual in the last 50 years or so of keeping records on Antarctica, and probably for a lot longer than that. What's been going on is that there's a very strong wind pattern that's pushing warm air from the South Pacific into this part of Antarctica, and the ice simply isn't forming. Now the other part of this, and it's a little hard to know which comes first, they're probably both happening together. The surface of the ocean is also unusually warm, and that also has to do with how the winds are pushing the ocean water around Antarctica. So, ordinarily that area in Antarctica would be frozen over completely, and everything would be adapting to the fact that there's a big ice layer over the ocean. The climate would be a lot cooler on the coast, because the air has to come from the ocean, then cross a frozen ocean for hundreds of miles, usually, and then hit the continent. Now you're seeing this warm, moist air come straight off the ocean and hit the continent and dump a lot of snow. In particular, the area south of South Africa has seen enough extra accumulation to mostly offset how much ice is being lost in some other parts of Antarctica, and we still think that there's a slowly evolving catastrophe on the ice sheet in other parts of Antarctica, but for now the total mass is close to balanced for the last few years.
+
+![The west coast of Antarctica has been steadily losing ice mass for decades. This year, a portion of sea ice approximately the size of France was missing, in part due to warm air coming in from the South Pacific, Scambos says. (Photo: NASA, Wikimedia Commons, Public Domain)](https://loe.org/content/2026-07-10/ANTARCTICA_graphic.jpg)
+
+O'NEILL: Well, when you think about how massive Antarctica is, it does make sense where you can hear that some parts were seeing more snow this season and some parts were seeing much less ice than you would otherwise.
+
+SCAMBOS: Yes, that's true. It is a continent-sized area, and in fact, I often describe it as being sort of like Australia with Indonesia and New Guinea, all of it buried under ice, and different sides of it experience different circulation patterns and ocean currents. There's one major current that surrounds Antarctica that goes from west to east, it's pushed along by the wind. In fact, the name of it is the West Wind Drift, and that has a big influence on the local climate, wherever it comes up close to the coast or backs away from the coast. In fact, there's also a vertical component, but deep in the ocean, different things are happening, and in fact, that's actually the main threat for ice loss in Antarctica, is that the deeper ocean is more frequently moving towards the coastline of Antarctica. There's a current that reaches the underside of the ice at depth, and for those deeper, larger glaciers that flow out towards the ocean, they're seeing a lot more melting because of this warm ocean current that's reaching them. That is the big problem for the long term in Antarctica.
+
+O'NEILL: It's so easy for us to imagine the warmth of the sun beating down on us that it's maybe not as obvious to people that the warm ocean underneath means that the ice is seeing this from sort of all sides, getting this warming.
+
+SCAMBOS: You're right, and in fact the part that is facing the Pacific in particular seems to be getting a lot of this deeper warm water that's reaching the thickest glaciers, melting them and causing them to speed up, so that they flow outward and lose ice. They deflate faster than that ice is replaced by snowfall in that area. As I said, you take Antarctica as a whole, the last few years it's been in balance, and there's a lot of discussion about how persistent that's likely to be going forward. But in the long term, we know from ice core records in the past ice ages and warm periods that in general, a warmer planet means a smaller Antarctica and a higher sea level, and that's what we can anticipate in the long-term going forward.
+
+![Scambos says the Thwaites glacier, above, is the “biggest wildcard in sea level rise” due to its unpredictable nature and vast mass. (Photo: NASA, Wikimedia Commons, Public Domain)](https://loe.org/content/2026-07-10/ANTARCTICA_thwaites.jpg)
+
+O'NEILL: Now, Ted, a lot of your work focuses on the Thwaites Glacier, which is the widest glacier on earth, as I understand it. It's in West Antarctica, and it's sometimes referred to as the Doomsday Glacier. How is the Thwaites Glacier faring here in 2026?
+
+SCAMBOS: Well, unfortunately, it's right at the center of this problem I've been talking about, with the warm ocean water reaching the coast of Antarctica. The glaciers adjacent to Thwaites are also experiencing the same thing, and their losses are not insignificant, but the way the landscape is underneath the ice sheet makes Thwaites the critical glacier for losing a huge area of ice in Antarctica. Now I like to say that it's a slow-moving catastrophe, it's not a doomsday, it's more of a doomed century or two. Still, the amount of sea level rise that will occur from the loss of ice in this area, and we think it's already underway, and we're pretty much the models are showing that we're committed to losing the ice. It's just a question of whether we're fast enough to stretch out that loss to several thousand years versus dumb enough to keep warming the planet and seeing it collapse very quickly, a century or two. Thwaites is really the biggest player, the biggest wild card in sea level rise in the future. Warming oceans, which makes the water expand, that's a big part of what will happen, and Greenland melting, especially surface melting water running off at the top of the ice sheet into the ocean, another big player, but both of those are fairly easy to predict and forecast. They'll scale with the warming planet pretty predictably. Thwaites is less predictable, a lot less predictable in terms of when and how this ice is really going to come off the continent.
+
+O'NEILL: When do you feel like the rest of the world will start to feel the consequences of this rapid ice loss, whether it be the sea ice or the glacier ice, when is the rest of the world going to feel it?
+
+![Low-lying island nations are the most vulnerable to sea level rise. Nearly 80% of land in the Maldives sits less than a meter above sea level, putting citizens at risk during extreme floods like the 2023 event above. (Photo: The President's Office, Maldives, Wikimedia Commons, CC BY 4.0)](https://loe.org/content/2026-07-10/ANTARCTICA_maldives.jpg)
+
+SCAMBOS: Unfortunately, human beings need a catastrophe, and there's this steady drumbeat of events that have actually more or less convinced the American public that climate warming and climate change are real. I think the heat wave in Europe, heat waves in the United States, hurricanes, those things, they have a cumulative effect on opinion, and I think we're there in the US, just tipping over into, yeah, this is really happening, and we might need to think about this sooner rather than later.
+
+O'NEILL: Well, when we talk about the dimension of this that is about sea level rise, you'll always see passionate talkers from low-lying island nations who are, you know, is quite literally their doorstep, their front yard is at risk.
+
+SCAMBOS: Nicely put. Yes, the ocean is at their doorstep, and there's an interesting reason why those islands are actually the ones that are jumping up and down the most. You see, sea level rise on earth is not uniform. It won't just be like a bathtub slowly filling up evenly around all of the coastlines. Almost unfairly, the areas that are losing ice the most will actually see sea level drop near those coasts. It's a little bit complicated, but because you're losing literally trillions of tons of ice, that continent is not pulling the ocean against the coast as much as it used to. The gravity from that ice sheet is lower than it used to be, because that mass went into the ocean. The net effect is that the band of the tropics around the middle of the earth, near the equator, on either side, up to about 30 or 40 degrees latitude, both sides, will see more than its share of sea level rise, and those islands in the Indian Ocean and in the Pacific Ocean, they're going to see about 30% more sea level rise than the rest of the world does. It's unfortunate, and that's why that's such a critical problem. And yes, they've got nowhere to retreat to. I mean, I don't want to be flippant, but there's Baton Rouge for New Orleans, but there's no higher ground for the Maldives.
+
+O'NEILL: Ted, what's something that you want people to keep in mind when they hear a story like this?
+
+SCAMBOS: I realize that it's a Debbie Downer talk to keep going down this road of hammering home how at risk the future appears to be, but the fact of the matter is, we have the technology that we need in order to radically slow the pace of sea level rise and the pace of warming on Earth. We're committed to some warming for quite a while, but in terms of solving the issue of greenhouse gas emissions, we're really there, and between solar and wind, and I don't want to eliminate new forms of nuclear power, that may well be a part of it. We can do this without continuing to put heat trapping gasses into the atmosphere. The solution is right there in front of us.
+
+O’NEILL: That’s Ted Scambos, a Senior Research Scientist at the Cooperative  
+Institute for Research in Environmental Sciences at the University of Colorado Boulder. By the way, in addition to the carbon-free energy that Ted mentioned, Earth’s trees are also powerful tools in the fight against climate change.
+
+BELTRAN: And you can hear more about carbon-sequestering forests in some of our recent episodes on the Living on Earth website, that’s loe.org. And let's not forget about the carbon storage potential in soils, especially peatlands. That’s coming up after the break on Living on Earth. Stay tuned!
+
+## Related Links
+
+- [The Guardian  | “Antarctica’s West Coast Missing an Area of Sea Ice the Size of France as Temperatures Peak 20C Above Average”](https://www.theguardian.com/world/2026/jun/13/antarcticas-west-coast-missing-an-area-of-sea-ice-the-size-of-france-as-temperatures-peak-20c-above-average)
+- [Learn more about Ted Scambos](https://cires.colorado.edu/people/theodore-scambos)

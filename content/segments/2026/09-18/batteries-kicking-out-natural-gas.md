@@ -1,0 +1,60 @@
+---
+title: Batteries Kicking Out Natural Gas
+slug: batteries-kicking-out-natural-gas
+date: 2026-09-18
+category: Segments
+order: '2'
+audio_url: https://loe.org/content/2026-09-18/LOE_260918_B2_Solar%20and%20Batteries%20in%20CA.mp3
+image_url: https://loe.org/content/2026-09-18/SOLAR_calidesert.jpg
+image_caption: 'A solar field in the California desert. (Photo: Tom Brewster Photography, Courtesy of Bureau of Land Management, Flickr, CC BY 2.0.)'
+summary: California is reducing its natural gas consumption by increasing its solar energy battery energy storage and utility scale solar systems. Compared to the rest of the nation, in 2014 the state was producing 10 percent of the country’s total gas-fired electricity, but by 2025 it was down to just 4 percent. Dan Gearino, a clean energy reporter with our media partner Inside Climate News, joined Living on Earth’s co-host Paloma Beltran to discuss how battery systems are helping the sunny state curb natural gas consumption.
+---
+<!-- source: https://loe.org/shows/segments.html?programID=26-P13-00038&segmentID=2 -->
+
+## Transcript
+
+BELTRAN: Despite federal efforts to keep using coal and natural gas for energy, in California at least, renewable energy is ascendant while gas is on the decline. According to the U.S. Energy Information Administration, there was a 15 percent decrease in gas-fired electricity in California in 2025 compared to 2024, and a 26 percent drop in the first half of this year compared to the first half of last year. And if you look at how the Golden state compares to the rest of the nation, in 2014 it was producing 10 percent of the country’s total gas-fired electricity, but by 2025, it was down to just 4 percent. Gas is still needed as a backup and energy source in the cold winter months, but solar and other renewables now power more of the California grid than gas. The renewable advance is thanks in part to an extensive battery energy storage system that can make the most of solar energy even when the sun doesn’t shine. Dan Gearino, a clean energy reporter with our media partner Inside Climate News recently reported on how California is kicking its gas habit.
+
+GEARINO: It's really striking when you look at it in terms of lines on a chart that you see from the California grid. You used to see gas as the number one resource, especially on days with high demand. So gas is this line very close to the top, if not at the top. And then you see this big bump in the middle of the day for when solar went up. But now you see this other line, this line for batteries, which is batteries that are charging during the day when there's tons of solar power and solar power is inexpensive. And then when the sun comes down, those batteries, many of which are four-hour batteries, are discharging to support the grid. Having all those batteries, I should say maybe almost completely changes the way that we understand this mix of resources that we need to put together to kind of have power to cover peak hours. So just think of this: like when the sun goes down, if you then have about four hours of power from a gigantic group of batteries. If you look at when those batteries can kind of start to come online, and then when they would go offline, you have taken the state almost completely through those evening peak hours, and then you go into this late night period when power demand on the grid is much lower because people are going to bed, people are not using resources as much in the summer, people aren't using air conditioning as much because it's cooling off. So it's this transformation in a way that I haven't seen before, and it's really remarkable to look at a typical summer day in the California grid today compared to even like, four or five years ago. The change has been so great.
+
+![A solar array in California, viewed from above. California has nearly 1,000 utility-scale solar farms, with tracking databases and industry data reporting approximately 982 active projects. (Photo: Recurrent Energy, Courtesy of Bureau of Land Management, Flickr, Public Domain)](https://loe.org/content/2026-09-18/SOLAR_above.jpg)
+
+BELTRAN: And Dan, what does California actually do differently from other states across the U.S.?
+
+GEARINO: So there are the things that are just the results of California's good fortune, and that is having a ton of sunlight. But then a lot of these things are policy decisions. California made policy decisions to encourage solar power, to have rules that made it so that power providers needed to get certain amounts of renewable or carbon-free resources, and then there were policy decisions later on that encouraged the acquisition of battery power. So you look at vast amounts of solar and vast amounts of battery. Some of this is market driven. Some of it is because you can put up a battery system and it's going to make money by buying power when it's cheap and selling power when it's expensive. But it is this kind of one-two relationship between policy, kind of nudging the whole system in a direction, and then those resources coming online and being able to succeed in the market.
+
+BELTRAN: And to what extent is utility scale solar and utility scale battery storage helping California's wallets here? You know, to what extent are they easing energy costs for Californians?
+
+GEARINO: So there are a bunch of different ways to look at that. One is that solar and batteries are resources with really big upfront costs, and then you don't have to pay for fuel. And California just built a whole bunch of batteries and storage. The kind of benefits of having those upfront costs been made already will become evident in the future. The other thing you need to talk about in California is just that they are some of the highest electricity rates in the country for a bunch of different reasons. One of the ones I'll name is that wildfire costs and wildfire liability, but it becomes challenging to talk about batteries and solar and their relation to electricity bills because it becomes tough to kind of disentangle them from all the other things that are going on, but I think that over time, having more resources where you don't have to pay for fuel, that would be a net positive.
+
+![California’s power demand by power source, hour-by-hour on August 26 2026, when the grid had its highest demand of the year. (Chart: Paul Horn, Courtesy of Inside Climate News)](https://loe.org/content/2026-09-18/SOLAR_chart.jpg)
+
+BELTRAN: And as you've covered, Dan, California is kicking its natural gas habit. So aside from battery abundance, what other factors help California be less reliant on gas-fired power?
+
+GEARINO: One of the most interesting ones is that the regional grids are getting better at communicating with each other. So California has a grid that is pretty close to just the borders of the state. It's not quite exactly the borders of California. And there are other grids just right outside of that, and they all have different mixes of resources. They have different power plants that they are dispatching and that are generating electricity. The different regions have gotten to the point that they can share electricity on shorter notice than they did before. And what that means is, when there's a whole bunch of excess hydropower in Washington and in Oregon, and there are days where there's just more of that than they need up there, California can get some of that electricity. There are greater regions that bump right up against each other, where before they just wouldn't have had that information in time to be able to use it. That makes a big difference. Also, California exports power now. You look at peak summer days. California is sending power to some of those other grid regions. Its increased cooperation and increased sharing generally helps to drive down costs.
+
+BELTRAN: And Dan, what role does gas still play in keeping the lights on?
+
+![The gas-fired Glenarm Power Plant in Pasadena, California, viewed from the Gold Line train. As of 2023, California had more than 1,600 power plants using a broad range of technologies. Natural gas-fired plants accounted for the largest share of generating capacity, at 39,689 MW, or 45 percent of the state total. (Photo: Downtowngal, Wikimedia Commons, Public Domain)](https://loe.org/content/2026-09-18/SOLAR_glenarm.jpg)
+
+GEARINO: Well, when we say that gas use in California has gone down substantially, it's gone down in eight of the last 11 years. Gas is still a pretty significant presence on the California grid, and there's still a whole bunch of natural gas plants. It's a resource that is more useful in the winter when the days are shorter. And remember, California, it's not all sunny Southern California. California is a big state that has a lot of different parts that have different weather patterns. But gas is, while it's down, is still an essential part of the California grid, and it probably will be for a little while. They're kind of this insurance policy. They're basically backup capacity that's available when needed, but it's just not needed very much. And at some point, the cost of having all those plants ready to run, you know you'll see some of them that are just not worth it to continue to operate them, especially the older ones. It'll be interesting to see over the next, say, five years or so, what that looks like.
+
+BELTRAN: Yeah, and California is, of course, also a leader in electric vehicles. It represents about 35% of all electric cars on American roads. How does the large and growing electric vehicle fleet option factor into the state's efforts to better manage energy loads?
+
+![The spillway at Bonneville Dam, located about 40 miles (64 kilometers) east of Portland, Oregon, in the Columbia River Gorge. (Photo: Visitor7, Wikimedia Commons, CC BY-SA 3.0)](https://loe.org/content/2026-09-18/SOLAR_spillway.jpg)
+
+GEARINO: Well, I think some of the best opportunities there are ahead. Every single one of those electric vehicles has a big battery on it, and there are some automakers that are making available the equipment to be able to connect those batteries to your houses to act as backup power for the house, and then another step is to be able to have all of those batteries be able to export power for use even beyond the house. It's like if you have a market where, let's say, we get to 50% plus electric vehicles, what you have is this battery resource that is absolutely gigantic, and you can find ways to use it. So I'm curious what will happen. That's a logical place for us to see, kind of, vehicle to home and vehicle to grid technologies used in the U.S..
+
+BELTRAN: So Dan, what's the big takeaway here from California's transition away from gas-powered energy into renewables and battery storage?
+
+GEARINO: The big takeaway for me is that having this level of renewables doing most of the heavy lifting on the grid is something that a lot of people in the energy business and in the energy world would have said is impossible not that long ago. You go back 10, 15, years, this seems like total fantasy land, what California is doing right now, and keeping the lights on. So it just shows that significant change can happen, and there are ways to design a system. You can design a system that has significantly higher levels of renewables than California does now, and we kind of have figured out how to do that. The question is kind of, how do we do it, and how soon are we going to do it?
+
+![An electric vehicle (center) in traffic on a Los Angeles highway. California has more than 2.5 million cumulative zero-emission vehicle (ZEV) sales as of 2026. (Photo: Kadeem J, Pexels, Pexels license)](https://loe.org/content/2026-09-18/SOLAR_ev.jpg)
+
+BELTRAN: Dan Gearino is a clean energy reporter with our media partner, Inside Climate News. Dan, thank you so much for joining us.
+
+GEARINO: Yeah, thank you.
+
+## Related Links
+
+- [Inside Climate News | “How California Is Kicking Its Natural Gas Habit - Inside Climate News”](https://insideclimatenews.org/news/10092026/inside-clean-energy-california-transitions-away-from-natural-gas/)

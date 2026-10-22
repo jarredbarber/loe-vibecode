@@ -1,10 +1,10 @@
 # Ingest pipeline
 
-TypeScript pipeline at `ingest/` that scrapes loe.org and emits markdown into `content/`. One-shot migration tool; not part of the live build.
+TypeScript pipeline at `ingest/` that scrapes loe.org and emits markdown into `content/`. It's a one-shot migration tool, not part of the live build.
 
 ## Stack
 
-Node + TypeScript, using the **unified/remark/rehype** ecosystem for HTML→Markdown. Mdast trees flow end-to-end; markdown is stringified only at emit. js-yaml dumps frontmatter so quoting / escaping / dates round-trip correctly.
+Node + TypeScript, using the **unified/remark/rehype** ecosystem for HTML→Markdown. Mdast trees are passed between stages and stringified to markdown only at emit. js-yaml dumps frontmatter so quoting, escaping, and dates round-trip correctly.
 
 ## Layout
 
@@ -27,7 +27,7 @@ ingest/
 
 ## Pipeline stages
 
-Each stage is a pure function, runnable independently. Stages communicate via disk so any one can be re-run in isolation.
+Each stage is a pure function and runs independently. Stages communicate via disk, so any one can be re-run in isolation.
 
 ```
 discover(year)  →  ShowRef[]              # from TOC: URL + date + segment URLs
@@ -39,7 +39,7 @@ emit(doc)       →  content/{shows|segments}/YYYY/MM-DD/*.md
 Properties:
 
 - **Cache is the contract.** After one backfill, iterating on `parse` never hits the network.
-- **Mdast end-to-end.** Plugin transforms operate on trees, not regex-on-markdown.
+- **Mdast end-to-end.** Plugin transforms operate on trees, not on markdown via regex.
 - **Idempotent emit.** Refuses to overwrite a file whose mtime is newer than its cache entry; `--force` overrides.
 
 ## CLI
@@ -80,7 +80,7 @@ Bracketed audio cues from the source (`[Northern Cardinal song, http://macaulayl
 
 ## Re-emitting from cache
 
-Cache is durable. To re-render any year through the current parser:
+The cache is durable. To re-render any year through the current parser:
 
 ```bash
 cd ingest && npm run ingest -- emit --year 1995 --force

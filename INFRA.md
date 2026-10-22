@@ -1,6 +1,6 @@
 # Infrastructure
 
-The site runs on a handful of third-party services. Most are currently tied to the original maintainer's personal accounts. This document explains what's where and how to migrate any of it to a new owner.
+The site runs on a handful of third-party services. Most are currently tied to the original maintainer's personal accounts. This document lists what's where and how to migrate each service to a new owner.
 
 ## Services in use
 
@@ -43,7 +43,7 @@ If the repo itself needs to move:
 
 ### 2. Cloudflare Worker (OAuth proxy)
 
-Each step is mechanical. Total time: ~10 minutes.
+About 10 minutes in total.
 
 1. Sign up for a Cloudflare account if the new owner doesn't have one (free).
 2. Get an API token from <https://dash.cloudflare.com/profile/api-tokens> with the "Edit Cloudflare Workers" template scope.
@@ -71,7 +71,7 @@ The OAuth app belongs to whoever registered it. Migration = create new, delete o
 
 ### 4. Gemini API key
 
-Cheapest service to migrate.
+The easiest service to migrate.
 
 1. <https://aistudio.google.com/apikey> under the new owner's account.
 2. Create a key. The free tier may use prompts for training (LOE didn't want this for the prior key — pick a billing-enabled project to opt out).
@@ -81,7 +81,7 @@ Cheapest service to migrate.
 
 ## Rotation cadence
 
-There is no scheduled rotation. Rotate any of these credentials if they leak, an account is decommissioned, or once a year as housekeeping. The migration steps above are also the rotation steps (just keep the same owner — only the credentials change).
+There is no scheduled rotation. Rotate a credential if it leaks, an account is decommissioned, or once a year. The migration steps above double as rotation steps; keep the same owner and change only the credentials.
 
 ## Upgrading the Sveltia CMS (pinned + SRI)
 
@@ -92,7 +92,7 @@ The CMS script in `content/admin/index.html` is pinned to an exact version with 
     integrity="sha384-…" crossorigin="anonymous"></script>
 ```
 
-Because the hash is tied to the exact bytes, **bumping the version means recomputing the hash** — otherwise the browser blocks the script and the CMS silently fails to load. To upgrade:
+The hash is tied to the exact bytes, so **bumping the version means recomputing the hash**. Otherwise the browser blocks the script and the CMS silently fails to load. To upgrade:
 
 1. Pick the new version (`npm view @sveltia/cms version` for latest).
 2. Recompute the integrity hash for that exact version:
@@ -116,13 +116,13 @@ Four workflow steps post a push notification to the public [ntfy.sh](https://ntf
 | `.github/workflows/deploy.yml` | "Notify ntfy.sh" (in `deploy-prod` job) | Every production deploy (success or failure), same `notify` gate |
 | `.github/workflows/check-show.yml` | "Notify ntfy.sh" | Every `check-show` run (manual or auto-triggered by a content push) |
 
-Each step is a bare `curl -s` POST with no auth — `ntfy.sh/loe-vibecode` is a **public, unauthenticated topic**. Anyone who knows (or guesses) the topic name can subscribe to it or publish spoofed messages to it. That's an accepted tradeoff for a low-stakes CI ping, but it's worth knowing if the topic name ever needs to change (pick something less guessable, or migrate to Slack below).
+Each step is a bare `curl -s` POST with no auth — `ntfy.sh/loe-vibecode` is a **public, unauthenticated topic**. Anyone who knows (or guesses) the topic name can subscribe to it or publish spoofed messages to it. That's an accepted tradeoff for a low-stakes CI ping. If the topic name ever needs to change, pick something less guessable or migrate to Slack (below).
 
 To watch these notifications: subscribe at <https://ntfy.sh/loe-vibecode> (web) or install the ntfy app and add topic `loe-vibecode`.
 
 ### Switching to Slack
 
-The team uses Slack, so migrating off ntfy.sh removes the public-topic exposure and puts notifications where people already look. Steps:
+The team uses Slack, so migrating off ntfy.sh removes the public-topic exposure and puts notifications where people already look.
 
 1. **Create a Slack incoming webhook** for the target channel: <https://api.slack.com/messaging/webhooks> → create/select a Slack app → enable "Incoming Webhooks" → "Add New Webhook to Workspace" → pick the channel → copy the webhook URL (`https://hooks.slack.com/services/...`).
 2. **Store it as a repo secret**: `gh secret set SLACK_WEBHOOK_URL` (paste the URL). Add a row to the Secrets registry table above once done.
@@ -142,11 +142,11 @@ The team uses Slack, so migrating off ntfy.sh removes the public-topic exposure 
    ```
 
    Apply the same shape (swap the `Title`/body text and emoji) to the other three steps in `deploy.yml` and the one in `check-show.yml`. Slack's `<url|text>` syntax replaces ntfy's `Click` header for the linked "view run" text.
-4. **Priority has no direct Slack equivalent.** ntfy's `Priority: high` pops a phone notification even when muted; Slack has no per-message priority. If failures need to interrupt people, prepend `<!channel>` or `<!here>` to the failure-path text (don't add it to the success path — that defeats the point).
+4. **Priority has no direct Slack equivalent.** ntfy's `Priority: high` pops a phone notification even when muted; Slack has no per-message priority. If failures need to interrupt people, prepend `<!channel>` or `<!here>` to the failure-path text only, not the success path.
 5. **Test before removing ntfy**: push to `staging` (or run `deploy.yml` via `workflow_dispatch`) and confirm the Slack message lands in the right channel with correct formatting, for both a success and a forced failure.
 6. **Remove ntfy.sh** once Slack is confirmed working: delete the four `curl` steps' ntfy versions (if kept in parallel during testing), drop the `ntfy.sh` row from the Services table above, and update this section to describe Slack instead.
 
-## What's NOT documented elsewhere
+## Other notes
 
 - The `ALLOWED_DOMAINS` setting in `auth/wrangler.toml` restricts the worker so it can't be used as a generic OAuth proxy for unrelated sites. If we add a staging domain (see issue #36), add it there.
 - `ALLOWED_REPO` in `auth/wrangler.toml` gates token issuance to repo collaborators. GitHub enforces write access at the API level too — this is purely UX.

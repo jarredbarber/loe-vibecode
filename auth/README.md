@@ -1,6 +1,6 @@
 # `/auth` — CMS authentication worker
 
-A small [Cloudflare Worker](https://workers.cloudflare.com/) that handles "Sign in with GitHub" for the Sveltia CMS at `/admin/`. Without it, editors would have to paste a GitHub Personal Access Token manually every session.
+A [Cloudflare Worker](https://workers.cloudflare.com/) that handles "Sign in with GitHub" for the Sveltia CMS at `/admin/`. Without it, editors would have to paste a GitHub Personal Access Token every session.
 
 When an editor clicks "Sign in with GitHub", the CMS redirects them through this worker, which completes the OAuth handshake with GitHub and passes a token back to the CMS.
 
@@ -8,7 +8,7 @@ The worker also serves `GET /podcast.rss` — a cached proxy for the Megaphone p
 
 ## Who needs to touch this
 
-Rarely. The worker runs continuously on Cloudflare's free tier and doesn't need maintenance. You'd only come here to:
+Rarely. The worker runs on Cloudflare's free tier and needs no maintenance. You'd only come here to:
 
 - Rotate the GitHub OAuth app credentials
 - Add a new allowed domain (e.g. a new preview URL)

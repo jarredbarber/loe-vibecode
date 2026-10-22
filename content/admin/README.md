@@ -12,7 +12,7 @@ Sveltia CMS, served from `https://vibingon.earth/admin/`. Editor-facing instruct
 
 OAuth via a Cloudflare Worker (`auth/` in the repo root, deployed as `loe-auth.hector-ea.workers.dev`). Editors click **Sign in with GitHub** in `/admin/` and the standard GitHub consent flow takes over. PAT login still works as a fallback.
 
-`backend.base_url` in `config.njk` points Sveltia at the worker. The worker holds `GITHUB_CLIENT_ID` + `GITHUB_CLIENT_SECRET` as secrets (set via `wrangler secret put`); `ALLOWED_DOMAINS` and `ALLOWED_REPO` (set in `auth/wrangler.toml`) restrict callers to `vibingon.earth` / localhost and gate token issuance on collaborator membership of `jarredbarber/loe-vibecode`. A non-collaborator who completes the OAuth dance sees a clean "you're not a collaborator" message instead of being dropped into the editor UI.
+`backend.base_url` in `config.njk` points Sveltia at the worker. The worker holds `GITHUB_CLIENT_ID` + `GITHUB_CLIENT_SECRET` as secrets (set via `wrangler secret put`); `ALLOWED_DOMAINS` and `ALLOWED_REPO` (set in `auth/wrangler.toml`) restrict callers to `vibingon.earth` / localhost and gate token issuance on collaborator membership of `jarredbarber/loe-vibecode`. A non-collaborator who completes the OAuth flow sees a "you're not a collaborator" message instead of the editor UI.
 
 ### Re-deploying the worker
 
@@ -69,9 +69,9 @@ If you change the live-site rendering of these shortcodes, update the inline `to
 
 ## Runbook: CMS getting slow / "Failed to fetch"
 
-Sveltia walks every file under a collection's `folder:` on init. It tolerates ~1k files per collection; past that it starts failing. New shows accumulate at ~250 files/year (1 show + ~5 segments × 52 weeks), so eventually `content/shows/` or `content/segments/` will overflow.
+Sveltia walks every file under a collection's `folder:` on init. It tolerates ~1k files per collection and starts failing past that. New shows accumulate at ~250 files/year (1 show + ~5 segments × 52 weeks), so `content/shows/` or `content/segments/` will eventually overflow.
 
-**Fix**: move the oldest year(s) of active content into the archive. Eleventy keeps building them; Sveltia stops seeing them.
+**Fix**: move the oldest year(s) of active content into the archive. Eleventy keeps building them and Sveltia stops seeing them.
 
 ```bash
 # Example: drop 2025 out of CMS view, keep it on the live site
@@ -90,4 +90,4 @@ git push
 - Don't try to scope `folder:` to a single year (e.g. `content/shows/2026`). Editors prepping content for the next year would write to the wrong directory — Sveltia concatenates `folder + path` at create time, so the folder's year wins over the entry's date.
 - Don't move newsletters/pages — those collections are small and stay scoped to `content/{newsletters,pages}` indefinitely.
 
-After moving, editing the archived content goes through GitHub directly (the `Edit on GitHub` badge on each page still works).
+After the move, archived content is edited through GitHub directly (the `Edit on GitHub` badge on each page still works).

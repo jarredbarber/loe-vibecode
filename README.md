@@ -4,23 +4,23 @@
   [![Latest show web check](https://github.com/jarredbarber/loe-vibecode/actions/workflows/check-show.yml/badge.svg)](https://github.com/jarredbarber/loe-vibecode/actions/workflows/check-show.yml)
 </div>
 
-This is the website for [Living on Earth](https://loe.org), a weekly environmental news radio program. It's a static site, built with [Eleventy (11ty)](https://www.11ty.dev/) and deployed to GitHub Pages on every push to `main`.
+Website for [Living on Earth](https://loe.org), a weekly environmental news radio program. It's a static site, built with [Eleventy (11ty)](https://www.11ty.dev/) and deployed to GitHub Pages on every push to `main`.
 
 Live site: **<https://vibingon.earth>**.
 
-## ✨ Features
+## Features
 
-Things this site does that the original loe.org doesn't:
+What this site does that the original loe.org doesn't:
 
 **For readers**
 
-- **Topic tags** — every segment classified into one of ~90 environmental topics. Click a tag pill at the top of any segment to see every other LOE story on that topic; the full vocabulary lives at [`/tags.html`](https://vibingon.earth/tags.html).
-- **Speaker pages** at `/people/<slug>.html` for every recurring host and guest. All of Steve Curwood's, Bill McKibben's, etc. segments in one place, newest-first.
+- **Topic tags** — every segment is classified into one of ~90 environmental topics. Click a tag pill at the top of any segment to see every other LOE story on that topic; the full vocabulary lives at [`/tags.html`](https://vibingon.earth/tags.html).
+- **Speaker pages** at `/people/<slug>.html` for every recurring host and guest. All of Steve Curwood's, Bill McKibben's, etc. segments in one place, newest first.
 - **Discovery pills** at the top of every show + segment: clickable speakers featured in the piece, plus topical tags.
 - **"This week in LOE history"** on the homepage — surfaces archive segments from the same calendar week in past years, anchored to the latest show's air date.
 - **Zip-code station locator** on `/stations.html` — type a zip, get the three nearest LOE-affiliate stations by real distance (Haversine, not state-only).
 - **Reading + listening time** estimates on segment cards.
-- **Chaptered audio player** — new shows play as a single full-episode file with tappable chapter markers on the scrubber (seek between segments without loading a separate file each). Driven by optional `start`/`duration` timecodes on segments; legacy shows keep their per-segment players untouched.
+- **Chaptered audio player** — new shows play as a single full-episode file with tappable chapter markers on the scrubber, so you can seek between segments without loading a separate file for each. Driven by optional `start`/`duration` timecodes on segments; legacy shows keep their per-segment players untouched.
 - **Inline audio cues are clickable** in transcripts — bird calls, music cues, etc. linked through to the Cornell Macaulay Library CDN.
 - **Dark mode** — follows OS preference automatically; manual ☀/⬤/☾ toggle on every page saves to localStorage.
 
@@ -30,21 +30,21 @@ Things this site does that the original loe.org doesn't:
 - **Pre-publish review workflow** (the badge above) — click "Run workflow" to validate every link / image / audio URL and get an LLM copyedit pass over the show + segments.
 - **Staging at <https://loe-staging.pages.dev>** — every push to `main` deploys here in ~2 minutes for preview before merging to `live`.
 
-## 🌍 About Living on Earth
+## About Living on Earth
 
-Living on Earth is a weekly, hour-long, award-winning environmental news program distributed by PRX. Hosted by Steve Curwood, the program features interviews and commentary on environmental issues. The show has been broadcasting since 1991 and airs on over 300 public radio stations nationwide.
+Living on Earth is a weekly, hour-long, award-winning environmental news program distributed by PRX. Hosted by Steve Curwood, it features interviews and commentary on environmental issues. It has been broadcasting since 1991 and airs on over 300 public radio stations nationwide.
 
-# ✍️ Editing the site
+# Editing the site
 
-There's a CMS at **<https://loe-staging.pages.dev/admin/>**. That's the easiest way in. Direct GitHub editing also works for anything the CMS doesn't surface (older archive content, theme files).
+The easiest way to edit is the CMS at **<https://loe-staging.pages.dev/admin/>**. Direct GitHub editing covers anything the CMS doesn't surface (older archive content, theme files).
 
 ## Option A — The CMS (recommended)
 
 1. Visit <https://vibingon.earth/admin/>
 2. Click **Sign in with GitHub**. A GitHub consent screen opens; click **Authorize Living on Earth CMS** the first time. Future visits skip the consent step.
-3. You're in. The CMS remembers you in this browser.
+3. The CMS remembers you in this browser.
 
-If the GitHub flow ever breaks, **Sign in with Token** (a Personal Access Token with `repo` scope) still works as a fallback — the dialog has a "Generate a Personal Access Token" link that opens GitHub's token-creation page pre-filled with the right scope.
+If the GitHub flow ever breaks, **Sign in with Token** (a Personal Access Token with `repo` scope) still works as a fallback. The dialog has a "Generate a Personal Access Token" link that opens GitHub's token-creation page pre-filled with the right scope.
 
 What you can do:
 - **Shows** — create or edit a weekly show. Only recent shows (current month ± 2) are listed; editing older content goes through GitHub directly.
@@ -52,22 +52,22 @@ What you can do:
 - **Newsletters** — weekly newsletter posts.
 - **Pages** — static pages (about, stations, events…).
 
-Useful while editing:
-- **Preview**: save in the CMS, then refresh <https://loe-staging.pages.dev> ~2 min later — that's the authoritative preview, exactly what will ship to production once you merge `main → live`.
+While editing:
+- **Preview**: save in the CMS, then refresh <https://loe-staging.pages.dev> ~2 min later — that's the authoritative preview and shows exactly what will ship to production once you merge `main → live`.
 - Every entry on the live site has two icon-pill links in the top-left when you're signed in: **Edit in CMS** (deep-links the entry in `/admin/`) and **Edit on GitHub** (raw markdown via GitHub's web editor).
 - **Pre-publish review** runs automatically on every content push and checks every image / audio / link URL — the badge at the top of this README reflects the latest content's status. The badge also doubles as a manual entry point: click it → **Run workflow** → optionally enter a date → an LLM copyedit pass runs alongside (advisory: typos, broken speaker labels, frontmatter mismatches, intra-show contradictions, with per-line citations). Both passes write to the run's Job Summary panel.
 
 ## Option B — Direct GitHub editing
 
-Useful for one-off edits, theme tweaks, anything the CMS doesn't surface, or older archive content.
+For one-off edits, theme tweaks, older archive content, or anything else the CMS doesn't surface.
 
 1. Browse to the file on GitHub (e.g. `content/shows/2026/05-22/show.md`).
-2. Click the pencil icon ✏️ to open the inline editor.
+2. Click the pencil icon to open the inline editor.
 3. Edit. Scroll down. **Commit changes** with a message.
 
 ## Staging → production
 
-CMS saves and any push to `main` go to **<https://loe-staging.pages.dev>** (~2 minutes). Eyeball the change there. To publish to the live site, open a pull request from `main` → `live` and merge it. The merge triggers the deploy to <https://vibingon.earth>.
+CMS saves and any push to `main` go to **<https://loe-staging.pages.dev>** (~2 minutes). Check the change there. To publish to the live site, open a pull request from `main` → `live` and merge it. The merge triggers the deploy to <https://vibingon.earth>.
 
 ## File anatomy
 
@@ -85,7 +85,7 @@ summary: The full description of the show goes here.
 ---
 ```
 
-That's it — segments are auto-discovered from the matching folder under `content/segments/`. No manual segment list needed.
+Segments are discovered automatically from the matching folder under `content/segments/`; no manual list is needed.
 
 ### Segment file: `content/segments/<year>/<MM-DD>/<slug>.md`
 
@@ -169,13 +169,13 @@ ingest/                                 # TypeScript scraper that pulls from loe
 
 ## Hosting, security & cost
 
-The site is **static** — every page is built ahead of time and served as a plain file. There is no application server and no database behind the public site, so there is nothing there to attack, overload, or take down.
+The site is **static**: every page is built ahead of time and served as a plain file. With no application server or database behind the public site, there is nothing to attack or overload.
 
 - **Production** (<https://vibingon.earth>) is served from **GitHub Pages**, deployed from the `live` branch. It has **no `/admin/` surface** — production cannot be edited in a browser; changes only arrive via a reviewed `main → live` pull request.
 - **Staging** (<https://loe-staging.pages.dev>) is served from **Cloudflare Pages**, deployed on every push to `main`. The CMS at `/admin/` lives here.
 - **Editing is gated by GitHub OAuth.** Editors click "Sign in with GitHub"; the site never sees or stores a password. A small Cloudflare Worker (`auth/`) brokers the OAuth handshake and only issues access to accounts that are **collaborators on the repo** — signing in is not enough on its own.
 - **Cost:** hosting, CI, OAuth, and staging are all on **free tiers**. The only paid piece is the optional LLM copy-edit pass (Google Gemini), at roughly **5¢ per run / under $5 a year**.
-- **Durability:** content is plain Markdown in Git, so every version of every page is kept forever and any change is reversible.
+- **Durability:** content is plain Markdown in Git, so every version of every page is kept and any change is reversible.
 
 Full service registry, secrets, and owner-migration steps are in **INFRA.md**.
 

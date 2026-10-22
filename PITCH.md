@@ -2,6 +2,9 @@
 
 A plain-English summary for the LOE team of what has been built and what it does.
 
+- **Live site:** <https://vibingon.earth>
+- **Staging (preview of unreleased changes):** <https://loe-staging.pages.dev>
+
 ---
 
 ## The Core Idea: Pages Built in Advance
